@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei-vbd.rng" 
+                       title="Vercelli Book Digital standard schema" 
+                       schematypens="http://relaxng.org/ns/structure/1.0" 
+                       type="application/xml"
+                     ?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <teiHeader>
+
+    <fileDesc>
+
+      <titleStmt>
+        <title>The Vercelli Book: a digital facsimile with transcription of selected texts</title>
+<!--        <author>Unknown</author>-->
+        <principal>Roberto Rosselli Del Turco</principal>
+        <respStmt>
+          <resp>Conversion to TEI-conformant markup: </resp>
+          <name>Raffaele Cioffi</name>
+          <name>Federica Goria</name>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+        <respStmt>
+          <resp>General overview: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+        <respStmt>
+          <resp>Experimental style sheets: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+      </titleStmt>
+      
+      <editionStmt>
+        <edition>Second digital edition (beta 2) of the <title>Vercelli Book</title>, April 2016. The first one was released in
+          beta version during <date>January 2014</date> (announcement and preliminary version dating to <date>Christmas 2013</date>).
+          Encoded according to the TEI P5 schemas and 
+          <title>Guidelines</title> within the 
+          <ref target="http://vbd.humnet.unipi.it/">Digital Vercelli Book</ref> project.</edition>
+        <principal>Roberto Rosselli Del Turco</principal>
+      </editionStmt>
+
+      <extent>[??] kilobytes</extent>
+
+      <publicationStmt>
+        <authority>Digital Vercelli Book Project</authority>
+        <date>2004-</date>
+        <availability status="unknown">
+          <p>Not to ricirculate. Contact the Digital Vercelli Book Project researchers for more information.</p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Italy</country>
+            <settlement>Vercelli</settlement>
+            <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+            <idno>CXVII</idno>
+            <msName>Vercelli Book</msName>
+            <msName>Codex Vercellensis</msName>
+          </msIdentifier>
+          <msContents>
+            <summary>The Codex Vercellensis, or Vercelli Book, as it is known in the Anglo-Saxon world and now also in
+              Italy, is a manuscript dating back to the end of the 10th century, containing miscellaneous religious
+              works, in verse and prose: 23 homilies in prose and 6 poetic works following the Anglo-Saxon alliterative metrics.
+            </summary>
+            <!-- check language code DONE -->
+            <textLang mainLang="ang" otherLangs="lat">The primary language in this manuscript is Old English, with a few isolated Latin
+              words and phrases.</textLang>
+
+            <!-- is an item for the whole MS necessary?
+                  <msItem>
+                     <locus from="1r" to="234r">1r - 135v</locus>
+                     <title type="work">Vercelli Book</title>
+                      -->
+            
+            <!-- NB all incipit/explicit content for homilies to be changed
+                  add "ff. " to <locus> elements content; add @target as well? 
+            -->
+
+            <msItem>
+              <locus from="1r" to="9r">1r - 9r</locus>
+              <title type="work" subtype="prose">Homily I</title>
+              <incipit>ſceaþe for þan ne meaht ðu þa þrowunge gelettan</incipit>
+              <explicit>ain ecneꞅꞅe þurh eallra woruld aworuld AmeN abutan ende</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="9v" to="12r">9v - 12r</locus>
+              <title type="work" subtype="prose">Homily II</title>
+              <incipit>MENÐALE OFESTAN. þæꞅ myclan dóm dægeꞅ worc bið ſwiðe egeꞅ lic ⁊andryꞅ</incipit>
+              <explicit>þurh ealra woruld aworuld aabutan ende am̄</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="12v" to="16r">12v - 16r</locus>
+              <title type="work" subtype="prose">Homily III</title>
+              <incipit>BRoðor þa leofestan ic cyðe þæt þreo þing ſynt ærest</incipit>
+              <explicit>á in ecneꞅꞅe þurh ealra woruld aworuld aabutan ende AMEN.</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="16v" to="24v">16v - 24v</locus>
+              <title type="work" subtype="prose">Homily IV</title>
+              <incipit>Men þa leofestan, ıc eow bidde ⁊eaðmodlice lære</incipit>
+              <explicit>þær he leofað ⁊ricꞅað ın ealra worulda woruld abutan ende amen;</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="25r" to="29r">25r - 29r</locus>
+              <title type="work" subtype="prose">Homily V</title>
+              <incipit>to middan wintra Oſtende nob̄ dne</incipit>
+              <explicit>we ureꞅ dryhtneꞅ naman hælendeꞅ criſteꞅ he leofað ⁊ricꞅað áábutan ende ;</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="29v" to="52v">29v - 52v</locus>
+              <title type="work" subtype="poetry">Andreas</title>
+              <incipit>Hwæt! We gefrunan on fyrndagum</incipit>
+              <explicit>ece mid englum. þæt is æðele cyning!</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="52v" to="54r">52v - 54r</locus>
+              <title type="work" subtype="poetry">Fates of the Apostles</title>
+              <incipit>Hwæt! Ic þysne sang siðgeomor fand</incipit>
+              <explicit>ece ond edgiong, ofer ealle gesceaft.</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="54v" to="56r">54v - 56r</locus>
+              <title type="work" subtype="prose">Homily VI</title>
+              <incipit>INcipit narrare miracula quefacta fuerant ante aduentum saluatoris</incipit>
+              <explicit>gyldeð uꞅ god ece mede æt uꞅꞅum ende;</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="56v" to="59r">56v - 59r</locus>
+              <title type="work" subtype="prose">Homily VII</title>
+              <incipit>BUTAN tweon lar iꞅ halig domeꞅ dæl ⁊ealleꞅ ſwiðoſt</incipit>
+              <explicit>ꞅynt onþã toweardan rice mid þam hælendan criſte. ⁊midþã halegan gaſte ınealra worulda woruld;</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="59r" to="61r">59r - 61r</locus>
+              <title type="work" subtype="prose">Homily VIII</title>
+              <incipit>MENĐA leofeꞅtan manað uꞅ ⁊myngað onþyꞅꞅum bocum</incipit>
+              <explicit>⁊ mid ðam godeꞅ ꞅuna ðam þe aliofað ⁊rixaþ mid fæder ⁊mid ꞅuna ato widan feore ameN</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="61r" to="65r">61r - 65r</locus>
+              <title type="work" subtype="prose">Homily IX</title>
+              <incipit>MEN ðaleofestan manað uꞅ ⁊mingaþ þeoꞅ halige boc þæt</incipit>
+              <explicit>we mid him ⁊mid hiꞅ þam halegan gæꞅte wunigean ınealra worulda woruld ameN ;</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="65r" to="71r">65r - 71r</locus>
+              <title type="work" subtype="prose">Homily X</title>
+              <incipit>HERsagað on þyꞅꞅum halegũ bocum be ælmihtigeꞅ</incipit>
+              <explicit>drihten criſt wunaþ ⁊rixað mid eallũ halegum abutan ende ameN</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="71v" to="73v">71v - 73v</locus>
+              <title type="work" subtype="prose">Homily XI</title>
+              <incipit>ſpelto forman gang dæge. MEN ðaleofestan þiꞅ ꞅindon halige dagaꞅ ⁊halwendlice</incipit>
+              <explicit>gefultumige þe ofer uꞅ ealle liofað ⁊rixað. ameN</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="73v" to="75v">73v - 75v</locus>
+              <title type="work" subtype="prose">Homily XII</title>
+              <incipit>ſpeltoðam oðrum gang dæge GIR ꞅan dæg we wæron manode menþa leofestan þiꞅꞅa haliga</incipit>
+              <explicit>midhim ⁊mid hiꞅ halgum ainealra worulda woruld on ecnesse </explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="75v" to="76v">75v - 76v</locus>
+              <title type="work" subtype="prose">Homily XIII</title>
+              <incipit>ſpelto þriddan gangdæge ÐISISꞅe þridda dæg men þa leofeſtan þyꞅꞅe halgan tide þe uꞅ</incipit>
+              <explicit>world to widan feore midfæder ⁊mid ꞅuna ⁊midþam halgan gaſte in ecneꞅꞅe ameN </explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="76v" to="80v">76v - 80v</locus>
+              <title type="work" subtype="prose">Homily XIV</title>
+              <incipit>lar ſpel to ſwylcere tide ſwa man wile . MEN ða leofestan þiꞅꞅynt halige dagaꞅ ⁊gaſtlice ⁊uꞅꞅũ </incipit>
+              <explicit>odeꞅ halgum onþone heofen lican eðel ⁊þæꞅ ꞅiððan brucan onecneꞅꞅe amen ;</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="80v" to="85v">80v - 85v</locus>
+              <title type="work" subtype="prose">Homily XV</title>
+              <incipit>ALIA OMELIADEDI E IVDICII. M sægð us onþyꞅꞅum bocum huꞅe halga thomas godes apsł</incipit>
+              <explicit>ece gefean abutan ende ı scl̄a scl̄orum in secula seculorum ameN</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="85v" to="90v">85v - 90v</locus>
+              <title type="work" subtype="prose">Homily XVI</title>
+              <incipit>OMELIA EPYFFANIA DNI M̄ sceolon we nú hwylcum hwegm wordum secgan be </incipit>
+              <explicit>rixað nú áþurh eallra woruld áworuld ábutan ende ın ꞅclā sclōrum ameN.</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="90v" to="94v">90v - 94v</locus>
+              <title type="work" subtype="prose">Homily XVII</title>
+              <incipit>DEPURIFICATIO  SCAMIA M[Men þa leofestan] sægeð uꞅ ⁊myngaþ þiꞅ halige god ſpel be þysse arwyrðan</incipit>
+              <explicit>aworuld abutan ende ınsca scorum am̄;in sæcula sæculorum, amen.</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="94v" to="101r">94v - 101r</locus>
+              <title type="work" subtype="prose">Homily XVIII</title>
+              <incipit>DE SCO MARTINO CONF. M̄ magon we nu hwylcum hwego wordum asecgan</incipit>
+              <explicit>leofaþ ⁊rixaþ á ıneallra woruld aworld  abutan ende ameN;</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="101v" to="103v">101v - 103v</locus>
+              <title type="work" subtype="poetry">Soul and Body I</title>
+              <incipit>Huru, ðæs behofað hæleða æghwylc</incipit>
+              <explicit>geþungen þrymlice þysses</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="104r" to="104v">104r - 104v</locus>
+              <title type="work" subtype="poetry">Homiletic Fragment I</title>
+              <incipit>sorh cymeð / manig ond mislic in manna dream.</incipit>
+              <explicit>eorðan lifes ende gewyrcan!</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="104v" to="106r">104v - 106r</locus>
+              <title type="work" subtype="poetry">The Dream of the Rood</title>
+              <incipit>Hwæt! Ic swefna cyst secgan wylle</incipit>
+              <explicit>ælmihtig god, þær his eðel wæs</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="106v" to="109v">106v - 109v</locus>
+              <title type="work" subtype="prose">Homily XIX</title>
+              <incipit>MENða leofestan uꞅ gedafenaþ æreꞅt</incipit>
+              <explicit>ꞅuna . ⁊mid þam haligan gaſte . ábutan ende amen :,</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="109v" to="112r">109v - 112r</locus>
+              <title type="work" subtype="prose">Homily XX</title>
+              <incipit>MMEMENNÐA leofestan þiſ ꞅyndon halige dagaꞅ ⁊hal</incipit>
+              <explicit>efen ecan haligan gafre abutan ende :,</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="112r" to="116v">112r - 116v</locus>
+              <title type="work" subtype="prose">Homily XXI</title>
+              <incipit>MENĐALEOfestan usys mycel þearf þæt we god lufien of eallre</incipit>
+              <explicit>haligan gaſte onwuldre ⁊onwyrð mynde áábutan ende onecneꞅꞅe;</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="116v" to="120v">116v - 120v</locus>
+              <title type="work" subtype="prose">Homily XXII</title>
+              <incipit>hER ſægð hu sc̄s isodorus spræc be ðære sawle gedale ⁊be</incipit>
+              <explicit>her on worulde ⁊on þære toweardan. seðe leofað ⁊ricsað aabutan ende in ecnesse</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="121r" to="133v">121r - 133v</locus>
+              <title type="work" subtype="poetry">Elene</title>
+              <incipit>þa wæs agangen geara hwyrftum</incipit>
+              <explicit>wuldorcyninges to widan feore. Amen.</explicit>
+            </msItem>
+            
+            <msItem>
+              <locus from="133v" to="135v">133v - 135v</locus>
+              <title type="work" subtype="prose">Homily XXIII</title>
+              <incipit>Wæꞅ þær inþam ſprecenan iglande sum mycel hlæw of eorþan ge</incipit>
+              <explicit>fona riceꞅ wuldre abutan ende onecneꞅꞅe amen fiat:,</explicit>
+            </msItem>
+            
+          </msContents>
+
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="parchment">
+                <support>
+                  <p><material>Parchment</material>
+                    <objectType>codex</objectType> with <material>leather</material> binding.</p>
+                </support>
+                <extent>135+1 leaves <dimensions scope="all" type="leaf" unit="cm">
+                    <height>31</height>
+                    <width>20</width>
+                  </dimensions>
+                </extent>
+
+                <collation>
+                  <p>The Vercelli Book consists of 19 quires, marked with Roman numerals at the beginning of each quire,
+                    and with letters at the end. Originally the quires were based on eight leaves of parchment, but many
+                    leafs are missing and a few single leaves have been added sporadically.
+                    <formula>1(10,-7),
+                      2(12,-4,-8,-11), 3(8,-6,-8), 4(10,-3,-7), 5(10,-4,-8), 6(8,-3), 7(10,-4,-8), 8(12,-4,-8),
+                      9(10,-4,-8), 10(10,-5,-9), 11(10,-4,-6,-8,-10), 12(6), 13(10,-3,-7,-9), 14(8,-3,-7), 15(8,-6),
+                      16(10,-1,-4,-8), 17(4,-3,-4), 18(8), 19(8,-8)</formula>
+                    <signatures/>
+                    <catchwords>None</catchwords> Quires begin on fols. 1(1), [...] <!-- ??? EDIT --> </p>
+                </collation>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1">
+                  <p>Text is written in a single column per parchment leaf.</p>
+                </layout>
+              </layoutDesc>
+
+            </objectDesc>
+
+            <handDesc>
+              <p>In the opinion of many scholars, the manuscript was written by a single scribe, who has been
+                particularly diligent and meticulous in using the writing of that period, the Anglo-Saxon square
+                minuscule.</p>
+            </handDesc>
+            <decoDesc>
+              <p>The Vercelli Book is very simple in appearance, in fact only three initials are decorated (H on f. 49r,
+                M on ff. 106v and 112r) with new texts usually beginning with a larger, undecorated initial.</p>
+            </decoDesc>
+
+          </physDesc>
+          
+          <history>
+            <origin>The manuscript was written in England, presumably in the South-Eastern area, and seems to have never
+              have left the country until the end of the eleventh century, since some notes in Old English were written into
+              the margins and can be dated back to that time.</origin>
+            <provenance>It is still unclear how and when it came to Italy, a Latin verse of Psalm XXVI in neumatic
+              notation written in Italian handwriting can be dated to the early XII century and is then a reasonable
+              post-quem term.</provenance>
+          </history>
+
+        </msDesc>
+      </sourceDesc>
+
+    </fileDesc>
+
+    <encodingDesc>
+
+      <projectDesc>
+        <p/>
+      </projectDesc>
+
+      <editorialDecl>
+        <correction>
+          <p/>
+        </correction>
+        <normalization>
+          <p/>
+        </normalization>
+        <segmentation>
+          <p/>
+        </segmentation>
+        <hyphenation eol="all">
+          <p>Physical line breaks are rigidly observed.</p>
+        </hyphenation>
+      </editorialDecl>
+
+      <charDecl>
+
+        <!-- OE VOWELS -->
+
+        <char xml:id="inodot">
+          <charName>LATIN SMALL LETTER DOTLESS I</charName>
+          <mapping type="codepoint">U+0131</mapping>
+          <mapping type="diplomatic">ı</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+
+        <char xml:id="aenl">
+          <charName>LATIN ENLARGED LETTER SMALL A</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+EEE0</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+        <glyph xml:id="aenlacute">
+          <!-- 2015-01 -->
+          <!-- VBD entity: aenlacute -->
+          <glyphName>LATIN ENLARGED LETTER SMALL A WITH ACUTE</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+EAF0</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">a</mapping>
+        </glyph>
+        <glyph xml:id="aenldot">
+          <!-- 2015-01 -->
+          <!-- VBD entity: aenldot -->
+          <glyphName>LATIN ENLARGED LETTER SMALL A WITH DOT ABOVE</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+EEE0 U+0307</mapping>
+          <mapping type="diplomatic">̇</mapping>
+          <mapping type="normalized">a</mapping>
+        </glyph>
+        <char xml:id="eenl">
+          <charName>LATIN ENLARGED LETTER SMALL E</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+EEE6</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+        <char xml:id="eenlacute">
+          <charName>LATIN ENLARGED LETTER SMALL E</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+EEE6</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+        <char xml:id="inodotenl">
+          <charName>LATIN ENLARGED LETTER SMALL DOTLESS I</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+EEFD</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+
+        <char xml:id="aacute">
+          <charName>LATIN SMALL LETTER A WITH ACUTE</charName>
+          <mapping type="codepoint">U+00E1</mapping>
+          <mapping type="diplomatic">á</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+        <char xml:id="aeligacute">
+          <!-- VBD entity: aeligacute aeacute -->
+          <charName>LATIN SMALL LETTER AE WITH ACUTE</charName>
+          <mapping type="codepoint">U+01FD</mapping>
+          <mapping type="diplomatic">ǽ</mapping>
+          <mapping type="normalized">æ</mapping>
+        </char>
+        <char xml:id="eacute">
+          <!-- 2015-01 -->
+          <charName>LATIN SMALL LETTER E WITH ACUTE</charName>
+          <mapping type="codepoint">U+00E9</mapping>
+          <mapping type="diplomatic">é</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+        <char xml:id="iacute">
+          <charName>LATIN SMALL LETTER I WITH ACUTE</charName>
+          <mapping type="codepoint">U+00ED</mapping>
+          <mapping type="diplomatic">í</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        <char xml:id="oacute">
+          <charName>LATIN SMALL LETTER O WITH ACUTE</charName>
+          <mapping type="codepoint">U+00F3</mapping>
+          <mapping type="diplomatic">ó</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        <char xml:id="uacute">
+          <charName>LATIN SMALL LETTER U WITH ACUTE</charName>
+          <mapping type="codepoint">U+00FA</mapping>
+          <mapping type="diplomatic">ú</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+        <char xml:id="yacute">
+          <!-- 2015-01 -->
+          <charName>LATIN SMALL LETTER Y WITH ACUTE</charName>
+          <mapping type="codepoint">U+00FD</mapping>
+          <mapping type="diplomatic">ý</mapping>
+          <mapping type="normalized">y</mapping>
+        </char>
+
+        <char xml:id="amacr">
+          <!-- VBD entity: atilde, atildelat -->
+          <charName>LATIN SMALL LETTER A WITH MACRON</charName>
+          <mapping type="codepoint">U+0101</mapping>
+          <mapping type="diplomatic">ā</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+        <char xml:id="aeligmacr">
+          <!-- 2015-01 -->
+          <!-- VBD entity: aeligtilde -->
+          <charName>LATIN SMALL LETTER AE WITH MACRON</charName>
+          <mapping type="codepoint">U+01E3</mapping>
+          <mapping type="diplomatic">ǣ</mapping>
+          <mapping type="normalized">æ</mapping>
+        </char>
+        <char xml:id="AEligmacr">
+          <!-- 2015-01 -->
+          <charName>LATIN CAPITAL LETTER AE WITH MACRON</charName>
+          <mapping type="codepoint">U+01E2</mapping>
+          <mapping type="diplomatic">Ǣ</mapping>
+          <mapping type="normalized">Æ</mapping>
+        </char>
+        <char xml:id="emacr">
+          <!-- VBD entity: etilde -->
+          <charName>LATIN SMALL LETTER E WITH MACRON</charName>
+          <mapping type="codepoint">U+0113</mapping>
+          <mapping type="diplomatic">ē</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+        <char xml:id="imacr">
+          <!-- VBD entity: itilde -->
+          <charName>LATIN SMALL LETTER I WITH MACRON</charName>
+          <mapping type="codepoint">U+012B</mapping>
+          <mapping type="diplomatic">ī</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        <char xml:id="omacr">
+          <!-- VBD entity: otilde, ontilde, otildelat -->
+          <charName>LATIN SMALL LETTER O WITH MACRON</charName>
+          <mapping type="codepoint">U+014D</mapping>
+          <mapping type="diplomatic">ō</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        <char xml:id="umacr">
+          <!-- VBD entity: utilde -->
+          <charName>LATIN SMALL LETTER U WITH MACRON</charName>
+          <mapping type="codepoint">U+016B</mapping>
+          <mapping type="diplomatic">ū</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+        <char xml:id="ymacr">
+          <!-- VBD entity: ytilde -->
+          <charName>LATIN SMALL LETTER Y WITH MACRON</charName>
+          <mapping type="codepoint">U+0233</mapping>
+          <mapping type="diplomatic">ȳ</mapping>
+          <mapping type="normalized">y</mapping>
+        </char>
+
+        <char xml:id="ujoinmacr">
+          <!-- VBD entity: urtilde -->
+          <charName>LATIN SMALL LETTER U WITH JOINING MACRON</charName>
+          <!-- actually using U+035E COMBINING DOUBLE MACRON because the JOINING MACRON doesn't seem to rend weel -->
+          <mapping subtype="combined" type="codepoint">U+0075 + U+035E</mapping>
+          <mapping type="diplomatic">u͞</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+
+        <char xml:id="ydot">
+          <charName>LATIN SMALL LETTER Y WITH DOT ABOVE</charName>
+          <mapping type="codepoint">U+1E8F</mapping>
+          <mapping type="diplomatic">ẏ</mapping>
+          <mapping type="normalized">y</mapping>
+        </char>
+
+        <char xml:id="ydotacute">
+          <!-- 2015-01 -->
+          <charName>LATIN SMALL LETTER Y WITH DOT ABOVE AND ACUTE</charName>
+          <mapping subtype="combined" type="codepoint">U+1E8F U+0301</mapping>
+          <mapping type="diplomatic">ẏ́</mapping>
+          <mapping type="normalized">y</mapping>
+        </char>
+
+        <char xml:id="edotbl">
+          <charName>LATIN SMALL LETTER E WITH DOT BELOW</charName>
+          <mapping type="codepoint">U+1EB9</mapping>
+          <mapping type="diplomatic">ẹ</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+
+        <char xml:id="eddot">
+          <!-- 2015-03 -->
+          <!-- VBD entity: eddot -->
+          <charName>LATIN SMALL LETTER E WITH DOT ABOVE AND BELOW</charName>
+          <mapping subtype="combined" type="codepoint">U+1EB9 U+0307</mapping>
+          <mapping type="diplomatic">ẹ̇</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+
+        <char xml:id="aeligdotbl">
+          <!-- 2015-01 -->
+          <!-- VBD entity: aeligdotbl -->
+          <charName>LATIN SMALL LETTER AE WITH DOT BELOW</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E436</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">æ</mapping>
+        </char>
+
+        <char xml:id="aeligddot">
+          <!-- 2015-01 -->
+          <!-- VBD entity: aeligddot -->
+          <charName>LATIN SMALL LETTER AE WITH DOT ABOVE AND BELOW</charName>
+          <!--<mapping type="codepoint" subtype="MUFI-PUA">U+E436 U+0307</mapping>-->
+          <mapping type="diplomatic">æ̣̇</mapping>
+          <!-- aelig + dot below + dot above, change using above if necessary -->
+          <mapping type="normalized">æ</mapping>
+        </char>
+
+        <char xml:id="eogon">
+          <!-- 2015-01 -->
+          <!-- VBD entity: eogon -->
+          <charName>LATIN SMALL LETTER E WITH DOT BELOW</charName>
+          <mapping type="codepoint">U+0119</mapping>
+          <mapping type="diplomatic">ę</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+
+        <char xml:id="escap">
+          <!-- 2015-03 -->
+          <charName>LATIN LETTER SMALL CAPITAL E</charName>
+          <mapping type="codepoint">U+1D07</mapping>
+          <mapping type="diplomatic">ᴇ</mapping>
+          <mapping type="normalized">E</mapping>
+          <!-- CHECK really a full capital letter in VB? -->
+        </char>
+
+        <!-- OE VOWELS: VARIANT LETTER FORMS -->
+
+        <glyph xml:id="aalpha">
+          <!-- VBD entity: oclig -->
+          <glyphName>LATIN SMALL LETTER A ALPHA FORM</glyphName>
+          <!--<mapping type="codepoint" subtype="MUFI-PUA">U+</mapping>-->
+          <mapping type="diplomatic">α</mapping>
+          <mapping type="normalized">a</mapping>
+          <note>VBD</note>
+        </glyph>
+
+        <glyph xml:id="aunc">
+          <glyphName>LATIN SMALL LETTER A UNCIAL FORM</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F214</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">a</mapping>
+        </glyph>
+
+        <glyph xml:id="Eunc">
+          <glyphName>LATIN CAPITAL LETTER E UNCIAL FORM</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F10A</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">E</mapping>
+        </glyph>
+
+        <glyph xml:id="yrgmainstrok">
+          <!-- ??? CHECK if best approximation (no "right main stroke" in rounded y in VB) -->
+          <!-- VBD entity: curly -->
+          <glyphName>LATIN SMALL LETTER Y WITH RIGHT MAIN STROKE</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F233</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">y</mapping>
+        </glyph>
+
+        <glyph xml:id="yrgmainstrokacute">
+          <!-- VBD entity: curlyacute -->
+          <glyphName>LATIN SMALL LETTER Y WITH RIGHT MAIN STROKE AND DOT ABOVE<!-- CHECK --></glyphName>
+          <mapping subtype="combined" type="codepoint">U+F233 + U+0341</mapping>
+          <mapping type="diplomatic">́</mapping>
+          <mapping type="normalized">y</mapping>
+          <note>VBD</note>
+        </glyph>
+
+        <glyph xml:id="yrgmainstrokdot">
+          <!-- VBD entity: curlydot -->
+          <glyphName>LATIN SMALL LETTER Y WITH RIGHT MAIN STROKE AND DOT ABOVE</glyphName>
+          <mapping subtype="combined" type="codepoint">U+F233 + U+0307</mapping>
+          <mapping type="diplomatic">̇</mapping>
+          <mapping type="normalized">y</mapping>
+          <note>VBD</note>
+        </glyph>
+
+        <glyph xml:id="yrgmainstrokmacr">
+          <!-- VBD entity: curlytilde -->
+          <glyphName>LATIN SMALL LETTER Y WITH MACRON</glyphName>
+          <mapping subtype="combined" type="codepoint">U+F233 + U+0304</mapping>
+          <mapping type="diplomatic">̄</mapping>
+          <mapping type="normalized">y</mapping>
+          <note>VBD</note>
+        </glyph>
+
+        <glyph xml:id="windy">
+          <!-- VBD entity: windy -->
+          <glyphName>LATIN SMALL LETTER Y WITH RIGHT arms</glyphName>
+          <!--<mapping type="codepoint" subtype="MUFI-PUA"></mapping>-->
+          <mapping type="diplomatic">y</mapping>
+          <mapping type="normalized">y</mapping>
+          <note>VBD</note>
+        </glyph>
+
+        <glyph xml:id="windyacute">
+          <!-- VBD entity: windyacute -->
+          <glyphName>LATIN SMALL LETTER Y WITH RIGHT arms AND ACUTE</glyphName>
+          <!--<mapping type="codepoint" subtype="MUFI-PUA"></mapping>-->
+          <mapping type="diplomatic"><g ref="#yacute"/></mapping>
+          <mapping type="normalized">y</mapping>
+          <note>VBD</note>
+        </glyph>
+
+
+        <!-- OE CONSONANTS -->
+
+        <char xml:id="bovlmed">
+          <!-- VBD entity: btilde -->
+          <!-- CHECK creare bmacr se il tratto è al disopra della b-->
+          <charName>LATIN SMALL LETTER B WITH MEDIUM-HIGH OVERLINE (ACROSS ASCENDER)</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E44D</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+
+        <char xml:id="cmacr">
+          <!-- VBD entity: ctilde -->
+          <charName>LATIN SMALL LETTER C WITH MACRON</charName>
+          <mapping subtype="combined" type="codepoint">U+0063 + U+0304</mapping>
+          <mapping type="diplomatic">c̄</mapping>
+          <mapping type="normalized">c</mapping>
+          <note>VBD</note>
+        </char>
+
+        <char xml:id="dddot">
+          <!-- 2015-01 -->
+          <charName>LATIN SMALL LETTER D WITH DOT ABOVE AND BELOW</charName>
+          <mapping subtype="combined" type="codepoint">U+1E0D U+0307</mapping>
+          <mapping type="diplomatic">ḍ̇</mapping>
+          <mapping type="normalized">d</mapping>
+          <note>VBD</note>
+        </char>
+
+        <char xml:id="dovlhigh">
+          <!-- 2015-03 -->
+          <!-- VBD entity: dtilde -->
+          <charName>LATIN SMALL LETTER D WITH HIGH MACRON</charName>
+          <mapping subtype="combined" type="codepoint">U+0064 U+035E</mapping>
+          <mapping type="diplomatic">d͞</mapping>
+          <mapping type="normalized">d</mapping>
+        </char>
+
+        <char xml:id="ethenl">
+          <!-- 2015-03 -->
+          <!-- VBD entity: ethenl -->
+          <charName>LATIN ENLARGED LETTER SMALL ETH</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+EEE5</mapping>
+          <!-- il carattere MUFI non sembra appropriato -->
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">ð</mapping>
+        </char>
+
+        <char xml:id="Fmacr">
+          <!-- 2015-03 -->
+          <!-- VBD entity: NFligmacr -->
+          <charName>LATIN CAPITAL LETTER F WITH MACRON</charName>
+          <mapping subtype="combined" type="codepoint">U+0046 U+0304</mapping>
+          <mapping type="diplomatic">F̄</mapping>
+          <mapping type="normalized">F</mapping>
+        </char>
+
+        <char xml:id="hstrok">
+          <charName>LATIN SMALL LETTER H WITH STROKE</charName>
+          <mapping type="codepoint">U+0127</mapping>
+          <mapping type="diplomatic">ħ</mapping>
+          <mapping type="normalized">h</mapping>
+        </char>
+
+        <char xml:id="hovlmed">
+          <charName>LATIN SMALL LETTER H WITH MEDIUM-HIGH OVERLINE</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E517</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">h</mapping>
+        </char>
+
+        <char xml:id="lbar">
+          <!-- però cfr. bovlmed CHECK occurences -->
+          <!-- VBD entity: lstrok, lstroklat -->
+          <charName>LATIN SMALL LETTER L WITH BAR</charName>
+          <mapping type="codepoint">U+019A</mapping>
+          <mapping type="diplomatic">ƚ</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+
+        <char xml:id="lmacrhigh">
+          <!-- 2015-01 -->
+          <!-- VBD entity: ltilde -->
+          <charName>LATIN SMALL LETTER L WITH HIGH MACRON</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E596</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+
+        <char xml:id="macute">
+          <!-- 2015-03 -->
+          <charName>LATIN SMALL LETTER M WITH ACUTE</charName>
+          <mapping type="codepoint">U+1E3F</mapping>
+          <mapping type="diplomatic">ḿ</mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+
+        <char xml:id="mcurl">
+          <!-- VBD entity: mhook -->
+          <!-- cfr. thook CHECK U+0309 COMBINING HOOK ABOVE -->
+          <charName>LATIN SMALL LETTER M WITH OGONEK ABOVE</charName>
+          <mapping subtype="combined" type="codepoint">U+006D + U+1DCE</mapping>
+          <mapping type="diplomatic">m᷎</mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+
+        <char xml:id="mmacrmed">
+          <!-- VBD entity: mtilde -->
+          <charName>LATIN SMALL LETTER M WITH MEDIUM-HIGH MACRON</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E5B8</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+
+        <char xml:id="Mmacrhigh">
+          <!-- 2015-02 -->
+          <charName>LATIN CAPITAL LETTER M WITH HIGH MACRON (ABOVE CHARACTER)</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E1B8</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">M</mapping>
+        </char>
+
+        <char xml:id="ndotabbl">
+          <!-- VBD entity: nddot -->
+          <charName>LATIN SMALL LETTER N WITH DOT ABOVE AND BELOW</charName>
+          <mapping subtype="combined" type="codepoint">U+1E47 + U+0307</mapping>
+          <mapping type="diplomatic">ṇ̇</mapping>
+          <mapping type="normalized">n</mapping>
+          <note>VBD</note>
+        </char>
+
+        <char xml:id="nmacrmed">
+          <!-- 2015-01 -->
+          <charName>LATIN SMALL LETTER N WITH MEDIUM-HIGH MACRON</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">E5DC</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+
+        <char xml:id="Nldes">
+          <!-- 2015-03 -->
+          <charName>LATIN CAPITAL LETTER N WITH LEFT DESCENDER</charName>
+          <!--<mapping subtype="MUFI-PUA" type="codepoint">E5DC</mapping>-->
+          <!-- NO MUFI CHAR -->
+          <mapping type="diplomatic">N</mapping>
+          <mapping type="normalized">N</mapping>
+        </char>
+
+        <char xml:id="pbardes">
+          <!-- 2015-02 -->
+          <charName>LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER</charName>
+          <mapping type="codepoint">U+A751</mapping>
+          <mapping type="diplomatic">ꝑ</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <char xml:id="pmacr">
+          <!-- VBD entity: ptilde -->
+          <charName>LATIN SMALL LETTER P WITH MACRON</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E665</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <char xml:id="racute">
+          <!-- 2015-01 -->
+          <charName>LATIN SMALL LETTER R WITH ACUTE</charName>
+          <mapping type="codepoint">U+0155</mapping>
+          <mapping type="diplomatic">ŕ</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+
+        <char xml:id="rmacr">
+          <!-- 2015-01 -->
+          <!-- VBD entity: rtilde -->
+          <charName>LATIN SMALL LETTER R WITH MACRON</charName>
+          <mapping subtype="combined" type="codepoint">U+0072 U+0304</mapping>
+          <mapping type="diplomatic">r̄</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+
+        <char xml:id="thook">
+          <!-- VBD entity: thook -->
+          <!-- cfr. mcurl CHECK U+0309 COMBINING HOOK ABOVE -->
+          <charName>LATIN SMALL LETTER T WITH OGONEK ABOVE</charName>
+          <mapping subtype="combined" type="codepoint">U+0074 + U+1DCE</mapping>
+          <mapping type="diplomatic">t᷎</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+
+        <char xml:id="tmacr">
+          <!-- VBD entity: ttilde -->
+          <charName>LATIN SMALL LETTER T WITH MACRON</charName>
+          <mapping subtype="combined" type="codepoint">U+0074 + U+0304</mapping>
+          <mapping type="diplomatic">t̄</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+
+        <char xml:id="wmacr">
+          <!-- VBD entity: cwtilde -->
+          <charName>LATIN SMALL LETTER W WITH MACRON</charName>
+          <mapping type="codepoint">U+757</mapping>
+          <mapping type="diplomatic">w̄</mapping>
+          <mapping type="normalized">w</mapping>
+        </char>
+
+        <!-- OE CONSONANTS: VARIANT LETTER FORMS -->
+
+        <glyph xml:id="Csqu">
+          <!-- 2015-03 -->
+          <glyphName>LATIN CAPITAL LETTER C SQUARE FORM</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F106</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">C</mapping>
+        </glyph>
+
+        <glyph xml:id="Csqumacr">
+          <!-- 2015-03 -->
+          <glyphName>LATIN CAPITAL LETTER C SQUARE FORM</glyphName>
+          <mapping subtype="combined" type="codepoint">U+F106 U+360</mapping>
+          <!-- COMBINING DOUBLE TILDE -->
+          <mapping type="diplomatic">͠</mapping>
+          <mapping type="normalized">C</mapping>
+        </glyph>
+
+        <glyph xml:id="gins">
+          <!-- 2015-02 -->
+          <glyphName>LATIN SMALL LETTER INSULAR G</glyphName>
+          <mapping type="codepoint">U+1D79</mapping>
+          <mapping type="diplomatic">ᵹ</mapping>
+          <mapping type="normalized">g</mapping>
+        </glyph>
+
+        <glyph xml:id="Gins">
+          <!-- 2015-02 -->
+          <glyphName>LATIN CAPITAL LETTER INSULAR G</glyphName>
+          <mapping type="codepoint">U+A77D</mapping>
+          <mapping type="diplomatic">Ᵹ</mapping>
+          <mapping type="normalized">G</mapping>
+        </glyph>
+
+        <glyph xml:id="ginsmacr">
+          <!-- VBD entity: yoghtilde -->
+          <glyphName>LATIN SMALL LETTER INSULAR G WITH MACRON</glyphName>
+          <mapping subtype="combined" type="codepoint">U+0067 + U+0304</mapping>
+          <mapping type="diplomatic">ḡ</mapping>
+          <mapping type="normalized">g</mapping>
+        </glyph>
+
+        <glyph xml:id="Ginsmacr">
+          <glyphName>LATIN CAPITAL LETTER INSULAR G WITH MACRON</glyphName>
+          <mapping subtype="combined" type="codepoint">U+0047 + U+0304</mapping>
+          <mapping type="diplomatic">Ḡ</mapping>
+          <mapping type="normalized">G</mapping>
+        </glyph>
+
+        <glyph xml:id="Gsqu">
+          <!-- 2015-02 -->
+          <glyphName>LATIN CAPITAL LETTER G SQUARE FORM</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F10E</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">G</mapping>
+        </glyph>
+
+        <glyph xml:id="Grot">
+          <!-- 2015-03 -->
+          <!-- CHECK ex.: 96r1 96v2 97v15 -->
+          <!-- VBD entity: Grust -->
+          <glyphName>LATIN CAPITAL LETTER G ROUND FORM</glyphName>
+          <mapping type="diplomatic">G</mapping>
+          <mapping type="normalized">G</mapping>
+        </glyph>
+
+        <glyph xml:id="hrdes">
+          <!-- CHECK why not hunc? -->
+          <!-- VBD entity: hunc -->
+          <glyphName>LATIN SMALL LETTER H WITH RIGHT DESCENDER</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F23A</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">h</mapping>
+        </glyph>
+
+        <glyph xml:id="Hunc">
+          <glyphName>LATIN CAPITAL LETTER UNCIAL H</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F110</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">H</mapping>
+        </glyph>
+
+        <glyph xml:id="kunc">
+          <!-- 2015-03 -->
+          <glyphName>LATIN LETTER UNCIAL K</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F208</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">k</mapping>
+        </glyph>
+
+        <glyph xml:id="munc">
+          <!-- 2015-01 -->
+          <!-- VBD entity: munc -->
+          <glyphName>LATIN SMALL LETTER UNCIAL M</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F225</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">m</mapping>
+        </glyph>
+
+        <glyph xml:id="Munc">
+          <!-- 2015-01 -->
+          <!-- VBD entity: Munc -->
+          <glyphName>LATIN CAPITAL LETTER UNCIAL M</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F11A</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">M</mapping>
+        </glyph>
+
+        <glyph xml:id="muncmacr">
+          <!-- 2015-01 -->
+          <!-- VBD entity: munctilde -->
+          <glyphName>LATIN SMALL LETTER UNCIAL M WITH MACRON</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F225 U+0304</mapping>
+          <mapping type="diplomatic">̄</mapping>
+          <!-- CHECK -->
+          <mapping type="normalized">m</mapping>
+        </glyph>
+
+        <glyph xml:id="muncdes">
+          <glyphName>LATIN SMALL LETTER UNCIAL M WITH RIGHT DESCENDER</glyphName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F226</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">m</mapping>
+        </glyph>
+
+        <glyph xml:id="muncdesmacr">
+          <glyphName>LATIN SMALL LETTER UNCIAL M WITH RIGHT DESCENDER AND MACRON</glyphName>
+          <mapping subtype="combined" type="codepoint">U+F226 + U+0304</mapping>
+          <mapping type="diplomatic">̄</mapping>
+          <mapping type="normalized">m</mapping>
+        </glyph>
+
+        <glyph xml:id="sins">
+          <glyphName>LATIN SMALL LETTER INSULAR S</glyphName>
+          <mapping type="codepoint">U+A785</mapping>
+          <mapping type="diplomatic">ꞅ</mapping>
+          <mapping type="normalized">s</mapping>
+        </glyph>
+
+        <glyph xml:id="slong">
+          <glyphName>LATIN SMALL LETTER LONG S</glyphName>
+          <mapping type="codepoint">U+017F</mapping>
+          <mapping type="diplomatic">ſ</mapping>
+          <mapping type="normalized">s</mapping>
+        </glyph>
+
+        <glyph xml:id="wynn">
+          <glyphName>LATIN LETTER WYNN</glyphName>
+          <mapping type="codepoint">U+01BF</mapping>
+          <mapping type="diplomatic">ƿ</mapping>
+          <mapping type="normalized">w</mapping>
+        </glyph>
+
+        <glyph xml:id="WYNN">
+          <glyphName>LATIN CAPITAL LETTER WYNN</glyphName>
+          <mapping type="codepoint">U+01F7</mapping>
+          <mapping type="diplomatic">Ƿ</mapping>
+          <mapping type="normalized">W</mapping>
+        </glyph>
+
+        <!-- BREVIGRAPHS -->
+
+        <char xml:id="et">
+          <charName>LATIN ABBREVIATION SIGN SMALL ET</charName>
+          <mapping type="codepoint">U+204A</mapping>
+          <mapping type="diplomatic">⁊</mapping>
+        </char>
+
+        <char xml:id="ET">
+          <charName>LATIN ABBREVIATION SIGN CAPITAL ET</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F142</mapping>
+          <mapping type="diplomatic"></mapping>
+        </char>
+
+        <char xml:id="thornbarslash">
+          <charName>LATIN SMALL LETTER THORN WITH DIAGONAL STROKE</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F149</mapping>
+          <mapping type="diplomatic"></mapping>
+        </char>
+
+        <!-- PUNCTUATION -->
+
+        <char xml:id="colmidcomposit">
+          <charName>COLON WITH MIDDLE COMMA POSITURA</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1E5</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">.</mapping>
+        </char>
+
+        <char xml:id="midcom">
+          <!-- 2015-03 -->
+          <!-- VBD entity: midcom -->
+          <charName>MIDDLE COMMA</charName>
+          <!--<mapping type="codepoint">U+00B7</mapping>-->
+          <mapping type="diplomatic">,</mapping>
+          <!-- CHECK replace with appropriate character -->
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+
+        <char xml:id="middot">
+          <!-- VBD entity: midpunct, middot -->
+          <charName>MIDDLE DOT</charName>
+          <mapping type="codepoint">U+00B7</mapping>
+          <mapping type="diplomatic">·</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+
+        <char xml:id="punctelev">
+          <charName>PUNCTUS ELEVATUS</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F161</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">.</mapping>
+        </char>
+
+        <char xml:id="punctelevdiag">
+          <!-- 2015-01 -->
+          <charName>PUNCTUS ELEVATUS DIAGONAL STROKE</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1F0</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">.</mapping>
+        </char>
+
+        <char xml:id="punctmet">
+          <!-- 2015-01 -->
+          <charName>METRICAL PUNCTUATION</charName>
+          <!--<mapping subtype="MUFI-PUA" type="codepoint">U+F1F0</mapping>-->
+          <mapping type="diplomatic">.</mapping>
+          <!--<mapping type="normalized">.</mapping>-->
+        </char>
+
+        <char xml:id="cross">
+          <!-- 2015-01 -->
+          <!-- VBD entity: cross -->
+          <charName>LIGHT GREEK CROSS</charName>
+          <!-- used as caret mark f. 113r29 -->
+          <mapping type="codepoint">U+1F7A2</mapping>
+          <mapping type="diplomatic">+</mapping>
+          <!-- U char seemingly unsupported -->
+          <mapping type="normalized">+</mapping>
+        </char>
+
+        <!-- RUNES -->
+
+        <char xml:id="feoh">
+          <charName>RUNIC LETTER FEHU FEOH FE F</charName>
+          <mapping type="transliterated">f</mapping>
+          <mapping type="runic">&#5792;</mapping>
+        </char>
+        <char xml:id="ur">
+          <charName>RUNIC LETTER URUZ UR U</charName>
+          <mapping type="transliterated">u</mapping>
+          <mapping type="runic">&#5794;</mapping>
+        </char>
+        <char xml:id="thurs">
+          <charName>RUNIC LETTER THURISAZ THURS THORN</charName>
+          <mapping type="transliterated">&#254;</mapping>
+          <mapping type="runic">&#5798;</mapping>
+        </char>
+        <char xml:id="os">
+          <charName>RUNIC LETTER OS O</charName>
+          <mapping type="transliterated">o</mapping>
+          <mapping type="runic">&#5801;</mapping>
+        </char>
+        <char xml:id="rad">
+          <charName>RUNIC LETTER RAIDO RAD REID R</charName>
+          <mapping type="transliterated">r</mapping>
+          <mapping type="runic">&#5809;</mapping>
+        </char>
+        <char xml:id="cen">
+          <charName>RUNIC LETTER CEN</charName>
+          <mapping type="transliterated">c</mapping>
+          <mapping type="runic">&#5811;</mapping>
+        </char>
+        <char xml:id="gyfu">
+          <charName>RUNIC LETTER GEBO GYFU G</charName>
+          <mapping type="transliterated">g</mapping>
+          <mapping type="runic">&#5815;</mapping>
+        </char>
+        <char xml:id="wyn">
+          <charName>RUNIC LETTER WUNJO WYNN W</charName>
+          <mapping type="transliterated">w</mapping>
+          <mapping type="runic">&#5817;</mapping>
+        </char>
+        <char xml:id="haegl">
+          <charName>RUNIC LETTER HAEGL H</charName>
+          <mapping type="transliterated">h</mapping>
+          <mapping type="runic">&#5819;</mapping>
+        </char>
+        <char xml:id="nyd">
+          <charName>RUNIC LETTER NAUDIZ NYD NAUD N</charName>
+          <mapping type="transliterated">n</mapping>
+          <mapping type="runic">&#5822;</mapping>
+        </char>
+        <char xml:id="is">
+          <charName>RUNIC LETTER ISAZ IS ISS I</charName>
+          <mapping type="transliterated">i</mapping>
+          <mapping type="runic">&#5825;</mapping>
+        </char>
+        <char xml:id="jera">
+          <charName>RUNIC LETTER JERAN J</charName>
+          <mapping type="transliterated">j</mapping>
+          <mapping type="runic">&#5827;</mapping>
+        </char>
+        <char xml:id="ger">
+          <charName>RUNIC LETTER GER</charName>
+          <mapping type="transliterated">j</mapping>
+          <mapping type="runic">&#5828;</mapping>
+        </char>
+        <char xml:id="iw">
+          <charName>RUNIC LETTER IWAZ EOH</charName>
+          <mapping type="transliterated">&#658;</mapping>
+          <mapping type="runic">&#5831;</mapping>
+        </char>
+        <char xml:id="peorth">
+          <charName>RUNIC LETTER PERTHO PEORTH P</charName>
+          <mapping type="transliterated">p</mapping>
+          <mapping type="runic">&#5832;</mapping>
+        </char>
+        <char xml:id="eolh">
+          <charName>RUNIC LETTER ALGIZ EOLHX</charName>
+          <mapping type="transliterated">z</mapping>
+          <mapping type="runic">&#5833;</mapping>
+        </char>
+        <char xml:id="sigel">
+          <charName>RUNIC LETTER SIGEL LONG-BRANCH-SOL S</charName>
+          <mapping type="transliterated">s</mapping>
+          <mapping type="runic">&#5835;</mapping>
+        </char>
+        <char xml:id="tir">
+          <charName>RUNIC LETTER TIWAZ TIR TYR T</charName>
+          <mapping type="transliterated">t</mapping>
+          <mapping type="runic">&#5839;</mapping>
+        </char>
+        <char xml:id="beorc">
+          <charName>RUNIC LETTER BERKANAN BEORC</charName>
+          <mapping type="transliterated">b</mapping>
+          <mapping type="runic">&#5842;</mapping>
+        </char>
+        <char xml:id="eoh">
+          <charName>RUNIC LETTER EHWAZ EH E</charName>
+          <mapping type="transliterated">e</mapping>
+          <mapping type="runic">&#5846;</mapping>
+        </char>
+        <char xml:id="man">
+          <charName>RUNIC LETTER MANNAZ MAN M</charName>
+          <mapping type="transliterated">m</mapping>
+          <mapping type="runic">&#5847;</mapping>
+        </char>
+        <char xml:id="lagu">
+          <charName>RUNIC LETTER LAUKAZ LAGU LOGR</charName>
+          <mapping type="transliterated">l</mapping>
+          <mapping type="runic">&#5850;</mapping>
+        </char>
+        <char xml:id="ing">
+          <charName>RUNIC LETTER ING</charName>
+          <mapping type="transliterated">&#330;</mapping>
+          <mapping type="runic">&#5853;</mapping>
+        </char>
+        <char xml:id="daeg">
+          <charName>RUNIC LETTER DAGAZ DAEG D</charName>
+          <mapping type="transliterated">d</mapping>
+          <mapping type="runic">&#5854;</mapping>
+        </char>
+        <char xml:id="ac">
+          <charName>RUNIC LETTER AC A</charName>
+          <mapping type="transliterated">a</mapping>
+          <mapping type="runic">&#5802;</mapping>
+        </char>
+        <char xml:id="aesc">
+          <charName>RUNIC LETTER AESC</charName>
+          <mapping type="transliterated">&#230;</mapping>
+          <mapping type="runic">&#5803;</mapping>
+        </char>
+        <char xml:id="yr">
+          <charName>RUNIC LETTER Y</charName>
+          <mapping type="transliterated">y</mapping>
+          <mapping type="runic">&#5796;</mapping>
+        </char>
+        <char xml:id="ear">
+          <charName>RUNIC LETTER EAR</charName>
+          <mapping type="transliterated">ea</mapping>
+          <mapping type="runic">&#5856;</mapping>
+        </char>
+        <char xml:id="gar">
+          <charName>RUNIC LETTER GAR</charName>
+          <mapping type="transliterated">g</mapping>
+          <mapping type="runic">&#5816;</mapping>
+        </char>
+        <char xml:id="cealc">
+          <charName>RUNIC LETTER CEALC</charName>
+          <mapping type="transliterated">k</mapping>
+          <mapping type="runic">&#5860;</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
+
+      <profileDesc>
+        <abstract>
+          <p>The <title>Digital Vercelli Book</title> project has been launched by <persName>Roberto Rosselli Del
+            Turco</persName> in 2003-4. The main aim of the project is the production of a digital version of the
+            manuscript in order to offer a practical and effective way to consult it both to scholars and to anyone who
+            is interested in studying the codex, eliminating the need for a direct consultation. To this purpose, the
+            DVB researchers will publish high resolution images of the whole manuscript, and produce a diplomatic and
+            diplomatic-interpretative edition of all the texts it contains, together with tools for consultation and
+            textual analysis.</p>
+          <p>The edition is being published on the World Wide Web thanks to the <title>Edition Visualization
+            Tool</title> (<ref target="https://sourceforge.net/p/evt-project/">SourceForge page</ref>): this is a
+            separate project, a tool originally born specifically to publish the <title>Vercelli Book</title> online,
+            but which has grown into an independent, general purpose software suitable for other types of texts. To
+            ensure that it will be working on all the most recent web browsers, and for as long as possible on the World
+            Wide Web itself, EVT is built on open and standard web technologies such as HTML, CSS and JavaScript.
+            Specific features, such as the magnifying lens, are entrusted to jQuery plug-ins, again chosen among the
+            open source and best supported ones to reduce the risk of future incompatibilities. The general architecture
+            of the software, in any case, is modular, so that any component which may cause trouble or turn out to be
+            not completely up to the task can be replaced easily.</p>
+          <p>At the present moment EVT can be used to create image-based editions with two possible edition levels:
+            diplomatic and diplomatic-interpretative. This means that a transcription encoded using elements of the TEI
+            transcr module (see chapter 11 Representation of Primary Sources in the Guidelines) should already be
+            compatible with EVT, or require only minor changes to be made compatible. The Vercelli Book transcription is
+            following the standard TEI schemas with no custom elements or attributes added: our tests with similarly
+            encoded texts showed a high grade of compatibility. A critical edition level is being studied and it will be
+            added in the future.</p>
+          <p>On the image side, several features such as a magnifying lens, a general zoom, image-text linking and more
+            are already available. The image-text feature is inspired by Martin Holmes’ Image Markup Tool software and
+            was implemented in XSLT and CSS by one of the students collaborating to the project; all other features are
+            achieved by using jQuery plugins.</p>            
+        </abstract>
+         <langUsage>
+            <language ident="ang">Old English</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+
+      <revisionDesc>
+        <change when="2015-10" who="RRDT">Experimental VBD-global TEI document with XInclude links to single texts. [GIT REPO]</change>
+        <change when="2013-11" who="RRDT">Moved from entity-based markup to use of the Gaiji module elements; replaced ms
+          and ss entities with choice-based element groups; cleaned up punctuation markup</change>
+        <change when="2012-11" who="RRDT">Added element facsimile and all necessary stuff to do image-text linking</change>
+        <change when="2012-11" who="RRDT RC">First cross-revision</change>
+        <change when="2010-09" who="RRDT">Conversion to the TEI P5 encoding schema</change>
+        <change when="2004-01" who="RRDT">Experimental transcription using the Digital Scriptorium DTD</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+  <facsimile xml:id="VB_fac_complete">
+
+
+    <surface xml:id="VB_surf_101v" corresp="#VB_fol_101v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_101V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1054" lry="289" rend="visible" rendition="Line" ulx="222" uly="207" xml:id="VB_line_101v_01"/>
+      <zone lrx="1087" lry="336" rend="visible" rendition="Line" ulx="285" uly="286" xml:id="VB_line_101v_02"/>
+      <zone lrx="1089" lry="387" rend="visible" rendition="Line" ulx="265" uly="333" xml:id="VB_line_101v_03"/>
+      <zone lrx="1075" lry="435" rend="visible" rendition="Line" ulx="264" uly="384" xml:id="VB_line_101v_04"/>
+      <zone lrx="1063" lry="485" rend="visible" rendition="Line" ulx="260" uly="432" xml:id="VB_line_101v_05"/>
+      <zone lrx="1072" lry="532" rend="visible" rendition="Line" ulx="258" uly="482" xml:id="VB_line_101v_06"/>
+      <zone lrx="1086" lry="579" rend="visible" rendition="Line" ulx="251" uly="529" xml:id="VB_line_101v_07"/>
+      <zone lrx="1092" lry="631" rend="visible" rendition="Line" ulx="254" uly="576" xml:id="VB_line_101v_08"/>
+      <zone lrx="1055" lry="678" rend="visible" rendition="Line" ulx="252" uly="628" xml:id="VB_line_101v_09"/>
+      <zone lrx="1070" lry="725" rend="visible" rendition="Line" ulx="251" uly="675" xml:id="VB_line_101v_10"/>
+      <zone lrx="1077" lry="774" rend="visible" rendition="Line" ulx="249" uly="722" xml:id="VB_line_101v_11"/>
+      <zone lrx="1085" lry="823" rend="visible" rendition="Line" ulx="239" uly="771" xml:id="VB_line_101v_12"/>
+      <zone lrx="1090" lry="874" rend="visible" rendition="Line" ulx="239" uly="820" xml:id="VB_line_101v_13"/>
+      <zone lrx="1057" lry="929" rend="visible" rendition="Line" ulx="238" uly="871" xml:id="VB_line_101v_14"/>
+      <zone lrx="1038" lry="980" rend="visible" rendition="Line" ulx="235" uly="926" xml:id="VB_line_101v_15"/>
+      <zone lrx="1063" lry="1030" rend="visible" rendition="Line" ulx="228" uly="977" xml:id="VB_line_101v_16"/>
+      <zone lrx="1037" lry="1078" rend="visible" rendition="Line" ulx="231" uly="1027" xml:id="VB_line_101v_17"/>
+      <zone lrx="1046" lry="1127" rend="visible" rendition="Line" ulx="223" uly="1075" xml:id="VB_line_101v_18"/>
+      <zone lrx="1082" lry="1176" rend="visible" rendition="Line" ulx="224" uly="1124" xml:id="VB_line_101v_19"/>
+      <zone lrx="1055" lry="1224" rend="visible" rendition="Line" ulx="220" uly="1173" xml:id="VB_line_101v_20"/>
+      <zone lrx="1030" lry="1275" rend="visible" rendition="Line" ulx="219" uly="1221" xml:id="VB_line_101v_21"/>
+      <zone lrx="1082" lry="1321" rend="visible" rendition="Line" ulx="217" uly="1272" xml:id="VB_line_101v_22"/>
+      <zone lrx="1051" lry="1374" rend="visible" rendition="Line" ulx="213" uly="1318" xml:id="VB_line_101v_23"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_102r" corresp="#VB_fol_102r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_102R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="905" lry="241" rend="visible" rendition="Line" ulx="120" uly="177" xml:id="VB_line_102r_01"/>
+      <zone lrx="882" lry="282" rend="visible" rendition="Line" ulx="120" uly="238" xml:id="VB_line_102r_02"/>
+      <zone lrx="894" lry="327" rend="visible" rendition="Line" ulx="126" uly="279" xml:id="VB_line_102r_03"/>
+      <zone lrx="950" lry="379" rend="visible" rendition="Line" ulx="124" uly="324" xml:id="VB_line_102r_04"/>
+      <zone lrx="946" lry="429" rend="visible" rendition="Line" ulx="129" uly="376" xml:id="VB_line_102r_05"/>
+      <zone lrx="977" lry="475" rend="visible" rendition="Line" ulx="124" uly="426" xml:id="VB_line_102r_06"/>
+      <zone lrx="920" lry="529" rend="visible" rendition="Line" ulx="128" uly="472" xml:id="VB_line_102r_07"/>
+      <zone lrx="916" lry="577" rend="visible" rendition="Line" ulx="126" uly="526" xml:id="VB_line_102r_08"/>
+      <zone lrx="951" lry="628" rend="visible" rendition="Line" ulx="133" uly="574" xml:id="VB_line_102r_09"/>
+      <zone lrx="963" lry="679" rend="visible" rendition="Line" ulx="128" uly="625" xml:id="VB_line_102r_10"/>
+      <zone lrx="925" lry="726" rend="visible" rendition="Line" ulx="132" uly="676" xml:id="VB_line_102r_11"/>
+      <zone lrx="936" lry="768" rend="visible" rendition="Line" ulx="130" uly="723" xml:id="VB_line_102r_12"/>
+      <zone lrx="943" lry="816" rend="visible" rendition="Line" ulx="131" uly="765" xml:id="VB_line_102r_13"/>
+      <zone lrx="942" lry="869" rend="visible" rendition="Line" ulx="133" uly="813" xml:id="VB_line_102r_14"/>
+      <zone lrx="945" lry="922" rend="visible" rendition="Line" ulx="132" uly="866" xml:id="VB_line_102r_15"/>
+      <zone lrx="939" lry="978" rend="visible" rendition="Line" ulx="136" uly="919" xml:id="VB_line_102r_16"/>
+      <zone lrx="960" lry="1030" rend="visible" rendition="Line" ulx="133" uly="975" xml:id="VB_line_102r_17"/>
+      <zone lrx="954" lry="1078" rend="visible" rendition="Line" ulx="136" uly="1027" xml:id="VB_line_102r_18"/>
+      <zone lrx="982" lry="1124" rend="visible" rendition="Line" ulx="137" uly="1075" xml:id="VB_line_102r_19"/>
+      <zone lrx="969" lry="1177" rend="visible" rendition="Line" ulx="139" uly="1121" xml:id="VB_line_102r_20"/>
+      <zone lrx="978" lry="1227" rend="visible" rendition="Line" ulx="136" uly="1174" xml:id="VB_line_102r_21"/>
+      <zone lrx="964" lry="1278" rend="visible" rendition="Line" ulx="138" uly="1224" xml:id="VB_line_102r_22"/>
+      <zone lrx="977" lry="1324" rend="visible" rendition="Line" ulx="133" uly="1275" xml:id="VB_line_102r_23"/>
+      <zone lrx="1006" lry="1388" rend="visible" rendition="Line" ulx="133" uly="1321" xml:id="VB_line_102r_24"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_102v" corresp="#VB_fol_102v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_102V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1095" lry="238" rend="visible" rendition="Line" ulx="263" uly="180" xml:id="VB_line_102v_01"/>
+      <zone lrx="1047" lry="285" rend="visible" rendition="Line" ulx="263" uly="235" xml:id="VB_line_102v_02"/>
+      <zone lrx="1060" lry="339" rend="visible" rendition="Line" ulx="264" uly="282" xml:id="VB_line_102v_03"/>
+      <zone lrx="1041" lry="388" rend="visible" rendition="Line" ulx="259" uly="336" xml:id="VB_line_102v_04"/>
+      <zone lrx="1039" lry="438" rend="visible" rendition="Line" ulx="257" uly="385" xml:id="VB_line_102v_05"/>
+      <zone lrx="1087" lry="487" rend="visible" rendition="Line" ulx="255" uly="435" xml:id="VB_line_102v_06"/>
+      <zone lrx="1072" lry="537" rend="visible" rendition="Line" ulx="253" uly="484" xml:id="VB_line_102v_07"/>
+      <zone lrx="1089" lry="588" rend="visible" rendition="Line" ulx="250" uly="534" xml:id="VB_line_102v_08"/>
+      <zone lrx="1085" lry="636" rend="visible" rendition="Line" ulx="247" uly="585" xml:id="VB_line_102v_09"/>
+      <zone lrx="1084" lry="683" rend="visible" rendition="Line" ulx="243" uly="633" xml:id="VB_line_102v_10"/>
+      <zone lrx="1047" lry="732" rend="visible" rendition="Line" ulx="244" uly="680" xml:id="VB_line_102v_11"/>
+      <zone lrx="1018" lry="779" rend="visible" rendition="Line" ulx="234" uly="729" xml:id="VB_line_102v_12"/>
+      <zone lrx="1047" lry="832" rend="visible" rendition="Line" ulx="237" uly="776" xml:id="VB_line_102v_13"/>
+      <zone lrx="1052" lry="882" rend="visible" rendition="Line" ulx="225" uly="829" xml:id="VB_line_102v_14"/>
+      <zone lrx="1047" lry="938" rend="visible" rendition="Line" ulx="224" uly="879" xml:id="VB_line_102v_15"/>
+      <zone lrx="1022" lry="988" rend="visible" rendition="Line" ulx="226" uly="935" xml:id="VB_line_102v_16"/>
+      <zone lrx="1060" lry="1037" rend="visible" rendition="Line" ulx="227" uly="985" xml:id="VB_line_102v_17"/>
+      <zone lrx="1063" lry="1085" rend="visible" rendition="Line" ulx="224" uly="1034" xml:id="VB_line_102v_18"/>
+      <zone lrx="1056" lry="1132" rend="visible" rendition="Line" ulx="223" uly="1082" xml:id="VB_line_102v_19"/>
+      <zone lrx="1064" lry="1186" rend="visible" rendition="Line" ulx="211" uly="1129" xml:id="VB_line_102v_20"/>
+      <zone lrx="1022" lry="1237" rend="visible" rendition="Line" ulx="216" uly="1183" xml:id="VB_line_102v_21"/>
+      <zone lrx="1037" lry="1286" rend="visible" rendition="Line" ulx="213" uly="1234" xml:id="VB_line_102v_22"/>
+      <zone lrx="1016" lry="1337" rend="visible" rendition="Line" ulx="208" uly="1283" xml:id="VB_line_102v_23"/>
+      <zone lrx="1040" lry="1395" rend="visible" rendition="Line" ulx="209" uly="1334" xml:id="VB_line_102v_24"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_103r" corresp="#VB_fol_103r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_103R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="905" lry="236" rend="visible" rendition="Line" ulx="144" uly="177" xml:id="VB_line_103r_01"/>
+      <zone lrx="942" lry="283" rend="visible" rendition="Line" ulx="143" uly="233" xml:id="VB_line_103r_02"/>
+      <zone lrx="936" lry="334" rend="visible" rendition="Line" ulx="139" uly="280" xml:id="VB_line_103r_03"/>
+      <zone lrx="924" lry="386" rend="visible" rendition="Line" ulx="146" uly="331" xml:id="VB_line_103r_04"/>
+      <zone lrx="925" lry="439" rend="visible" rendition="Line" ulx="146" uly="383" xml:id="VB_line_103r_05"/>
+      <zone lrx="964" lry="484" rend="visible" rendition="Line" ulx="150" uly="436" xml:id="VB_line_103r_06"/>
+      <zone lrx="941" lry="532" rend="visible" rendition="Line" ulx="149" uly="481" xml:id="VB_line_103r_07"/>
+      <zone lrx="954" lry="582" rend="visible" rendition="Line" ulx="152" uly="529" xml:id="VB_line_103r_08"/>
+      <zone lrx="966" lry="633" rend="visible" rendition="Line" ulx="154" uly="579" xml:id="VB_line_103r_09"/>
+      <zone lrx="964" lry="683" rend="visible" rendition="Line" ulx="151" uly="630" xml:id="VB_line_103r_10"/>
+      <zone lrx="931" lry="730" rend="visible" rendition="Line" ulx="149" uly="680" xml:id="VB_line_103r_11"/>
+      <zone lrx="945" lry="779" rend="visible" rendition="Line" ulx="152" uly="727" xml:id="VB_line_103r_12"/>
+      <zone lrx="958" lry="827" rend="visible" rendition="Line" ulx="146" uly="776" xml:id="VB_line_103r_13"/>
+      <zone lrx="1000" lry="880" rend="visible" rendition="Line" ulx="152" uly="824" xml:id="VB_line_103r_14"/>
+      <zone lrx="973" lry="931" rend="visible" rendition="Line" ulx="151" uly="877" xml:id="VB_line_103r_15"/>
+      <zone lrx="1011" lry="987" rend="visible" rendition="Line" ulx="151" uly="928" xml:id="VB_line_103r_16"/>
+      <zone lrx="958" lry="1038" rend="visible" rendition="Line" ulx="155" uly="984" xml:id="VB_line_103r_17"/>
+      <zone lrx="956" lry="1087" rend="visible" rendition="Line" ulx="154" uly="1035" xml:id="VB_line_103r_18"/>
+      <zone lrx="1019" lry="1140" rend="visible" rendition="Line" ulx="157" uly="1084" xml:id="VB_line_103r_19"/>
+      <zone lrx="977" lry="1184" rend="visible" rendition="Line" ulx="147" uly="1137" xml:id="VB_line_103r_20"/>
+      <zone lrx="978" lry="1236" rend="visible" rendition="Line" ulx="104" uly="1181" xml:id="VB_line_103r_21"/>
+      <zone lrx="987" lry="1288" rend="visible" rendition="Line" ulx="161" uly="1233" xml:id="VB_line_103r_22"/>
+      <zone lrx="1023" lry="1337" rend="visible" rendition="Line" ulx="156" uly="1285" xml:id="VB_line_103r_23"/>
+      <zone lrx="1041" lry="1401" rend="visible" rendition="Line" ulx="153" uly="1334" xml:id="VB_line_103r_24"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_103v" corresp="#VB_fol_103v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_103V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1095" lry="238" rend="visible" rendition="Line" ulx="263" uly="180" xml:id="VB_line_103v_01"/>
+      <zone lrx="1075" lry="285" rend="visible" rendition="Line" ulx="263" uly="235" xml:id="VB_line_103v_02"/>
+      <zone lrx="1038" lry="339" rend="visible" rendition="Line" ulx="264" uly="282" xml:id="VB_line_103v_03"/>
+      <zone lrx="1054" lry="394" rend="visible" rendition="Line" ulx="259" uly="336" xml:id="VB_line_103v_04"/>
+      <zone lrx="1063" lry="445" rend="visible" rendition="Line" ulx="257" uly="391" xml:id="VB_line_103v_05"/>
+      <zone lrx="1075" lry="489" rend="visible" rendition="Line" ulx="255" uly="442" xml:id="VB_line_103v_06"/>
+      <zone lrx="1093" lry="537" rend="visible" rendition="Line" ulx="253" uly="486" xml:id="VB_line_103v_07"/>
+      <zone lrx="1080" lry="588" rend="visible" rendition="Line" ulx="257" uly="534" xml:id="VB_line_103v_08"/>
+      <zone lrx="1050" lry="636" rend="visible" rendition="Line" ulx="252" uly="585" xml:id="VB_line_103v_09"/>
+      <zone lrx="1084" lry="683" rend="visible" rendition="Line" ulx="249" uly="633" xml:id="VB_line_103v_10"/>
+      <zone lrx="1055" lry="732" rend="visible" rendition="Line" ulx="251" uly="680" xml:id="VB_line_103v_11"/>
+      <zone lrx="1043" lry="779" rend="visible" rendition="Line" ulx="245" uly="729" xml:id="VB_line_103v_12"/>
+      <zone lrx="1060" lry="832" rend="visible" rendition="Line" ulx="248" uly="776" xml:id="VB_line_103v_13"/>
+      <zone lrx="1052" lry="882" rend="visible" rendition="Line" ulx="240" uly="829" xml:id="VB_line_103v_14"/>
+      <zone lrx="1024" lry="938" rend="visible" rendition="Line" ulx="235" uly="879" xml:id="VB_line_103v_15"/>
+      <zone lrx="1074" lry="993" rend="visible" rendition="Line" ulx="226" uly="935" xml:id="VB_line_103v_16"/>
+      <zone lrx="1099" lry="1042" rend="visible" rendition="Line" ulx="227" uly="990" xml:id="VB_line_103v_17"/>
+      <zone lrx="1063" lry="1089" rend="visible" rendition="Line" ulx="224" uly="1039" xml:id="VB_line_103v_18"/>
+      <zone lrx="1041" lry="1140" rend="visible" rendition="Line" ulx="223" uly="1086" xml:id="VB_line_103v_19"/>
+      <zone lrx="1011" lry="1191" rend="visible" rendition="Line" ulx="217" uly="1137" xml:id="VB_line_103v_20"/>
+      <zone lrx="1033" lry="1237" rend="visible" rendition="Line" ulx="216" uly="1188" xml:id="VB_line_103v_21"/>
+      <zone lrx="1003" lry="1289" rend="visible" rendition="Line" ulx="213" uly="1234" xml:id="VB_line_103v_22"/>
+      <zone lrx="1049" lry="1343" rend="visible" rendition="Line" ulx="208" uly="1286" xml:id="VB_line_103v_23"/>
+      <zone lrx="1053" lry="1407" rend="visible" rendition="Line" ulx="209" uly="1340" xml:id="VB_line_103v_24"/>
+    </surface>
+
+  </facsimile>
+  
+  <text>
+    <group>
+      
+      <xi:include href="vb/VB-07-Fates.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Fates"/>
+
+      <xi:include href="vb/VB-21-SoulI.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_SoulI"/>
+      
+      <xi:include href="vb/VB-23-DOTR.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_DOTR"/>
+      
+    </group>
+  </text>
+  
+</TEI>
