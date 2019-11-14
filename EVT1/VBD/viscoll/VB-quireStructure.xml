@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<manuscript>
+    <url>http://vbd.humnet.unipi.it/</url>
+    <title>Vercelli Book</title>
+    <shelfmark>CXVII</shelfmark>
+    <quire n="14">
+        <leaf n="1" mode="original" single="false" folio_number="99" conjoin="8" position="1" opposite="8"/>
+        <leaf n="2" mode="original" single="false" folio_number="100" conjoin="7" position="2" opposite="7"/>
+        <leaf n="3" mode="missing" single="false" folio_number="x" conjoin="6" position="3" opposite="6"/>
+        <leaf n="4" mode="original" single="false" folio_number="101" conjoin="5" position="4" opposite="5"/>
+        <leaf n="5" mode="original" single="false" folio_number="102" conjoin="4" position="5" opposite="4"/>
+        <leaf n="6" mode="original" single="false" folio_number="103" conjoin="3" position="6" opposite="3"/>
+        <leaf n="7" mode="missing" single="false" folio_number="x" conjoin="2" position="7" opposite="2"/>
+        <leaf n="8" mode="original" single="false" folio_number="104" conjoin="1" position="8" opposite="1"/>
+    </quire>
+    <quire n="15">
+        <leaf n="1" mode="original" single="false" folio_number="105" conjoin="8" position="1" opposite="8"/>
+        <leaf n="2" mode="original" single="false" folio_number="106" conjoin="7" position="2" opposite="7"/>
+        <leaf n="3" mode="original" single="true" folio_number="107" conjoin="-1" position="3" opposite="6"/>
+        <leaf n="4" mode="original" single="false" folio_number="108" conjoin="5" position="4" opposite="5"/>
+        <leaf n="5" mode="original" single="false" folio_number="109" conjoin="4" position="5" opposite="4"/>
+        <leaf n="-1" conjoin="3" position="6" opposite="3"/>
+        <leaf n="7" mode="original" single="false" folio_number="110" conjoin="2" position="7" opposite="2"/>
+        <leaf n="8" mode="original" single="false" folio_number="111" conjoin="1" position="8" opposite="1"/>
+    </quire>
+</manuscript>

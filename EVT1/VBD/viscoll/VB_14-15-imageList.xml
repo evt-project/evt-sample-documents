@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<imageList>
+    <imageRV>
+        <image val="99r" url="../../../input_data/images/single/VB_fol_099r.jpg">99r</image>
+        <image val="99v" url="../../../input_data/images/single/VB_fol_099v.jpg">99v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="100r" url="../../../input_data/images/single/VB_fol_100r.jpg">100r</image>
+        <image val="100v" url="../../../input_data/images/single/VB_fol_100v.jpg">100v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="x" url="../../../input_data/images/single/x.jpg">x</image>
+        <image val="x" url="../../../input_data/images/single/x.jpg">x</image>       
+    </imageRV>
+    <imageRV>
+        <image val="101r" url="../../../input_data/images/single/VB_fol_101r.jpg">101r</image>
+        <image val="101v" url="../../../input_data/images/single/VB_fol_101v.jpg">101v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="102r" url="../../../input_data/images/single/VB_fol_102r.jpg">102r</image>
+        <image val="102v" url="../../../input_data/images/single/VB_fol_102v.jpg">102v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="103r" url="../../../input_data/images/single/VB_fol_103r.jpg">103r</image>
+        <image val="103v" url="../../../input_data/images/single/VB_fol_103v.jpg">103v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="x" url="../../../input_data/images/single/x.jpg">x</image>
+        <image val="x" url="../../../input_data/images/single/x.jpg">x</image>       
+    </imageRV>
+    <imageRV>
+        <image val="104r" url="../../../input_data/images/single/VB_fol_104r.jpg">104r</image>
+        <image val="104v" url="../../../input_data/images/single/VB_fol_104v.jpg">104v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="105r" url="../../../input_data/images/single/VB_fol_105r.jpg">105r</image>
+        <image val="105v" url="../../../input_data/images/single/VB_fol_105v.jpg">105v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="106r" url="../../../input_data/images/single/VB_fol_106r.jpg">106r</image>
+        <image val="106v" url="../../../input_data/images/single/VB_fol_106v.jpg">106v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="107r" url="../../../input_data/images/single/VB_fol_107r.jpg">107r</image>
+        <image val="107v" url="../../../input_data/images/single/VB_fol_107v.jpg">107v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="108r" url="../../../input_data/images/single/VB_fol_108r.jpg">108r</image>
+        <image val="108v" url="../../../input_data/images/single/VB_fol_108v.jpg">108v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="109r" url="../../../input_data/images/single/VB_fol_109r.jpg">109r</image>
+        <image val="109v" url="../../../input_data/images/single/VB_fol_109v.jpg">109v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="110r" url="../../../input_data/images/single/VB_fol_110r.jpg">110r</image>
+        <image val="110v" url="../../../input_data/images/single/VB_fol_110v.jpg">110v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="111r" url="../../../input_data/images/single/VB_fol_111r.jpg">111r</image>
+        <image val="111v" url="../../../input_data/images/single/VB_fol_111v.jpg">111v</image>       
+    </imageRV>
+</imageList>
