@@ -1,0 +1,1090 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><title>Le Théâtre Italien</title>: edizione elettronica</title>
+                <respStmt>
+                    <resp>Digitalizzazione e Codifica elettronica a cura di:</resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                    <name>Barbara Sommovigo</name>
+                    <name>Laura Giannini</name>
+                    <name>Elisa Ledda</name>
+                    <name>Mara Siliberto</name>
+                    <name>Giuditta Giani</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Estratto a fini di testing <date>2019-07</date>, versione ridotta con un unico testo
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Università degli studi di Pisa; Corso di Studi in Informatica Umanistica; Dipartimento di
+                    Filologia, Letteratura e linguistica</publisher>
+                <availability status="restricted">
+                    <p>Questo progetto è protetto dal diritto d'autore.</p>
+                </availability>
+                <date>2015</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main"><emph>Le Théâtre Italien. I Tome</emph></title>
+
+                        <author>Evaristo Gherardi</author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>I edizione</edition>
+                    </editionStmt>
+
+                    <publicationStmt>
+                        <publisher>J.-B. Cusson e P. Wiite</publisher>
+                        <pubPlace>Parigi</pubPlace>
+                        <date>1700</date>
+                    </publicationStmt>
+                    <seriesStmt>
+                        <title><emph>Le Théâtre Italien de Gherardi, ou Recueil général de toutes les Comédies et Scènes
+                                Françoises jouées par les Comédiens Italiens du Roy, pendant tout le temps qu’ils ont
+                                été au Service</emph></title>
+                    </seriesStmt>
+                </biblFull>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Questa è una selezione del primo volume dell'opera creata per testare EVT 2.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>La codifica svolta sull’opera di Gherardi è finalizzata ad annotare la struttura del testo: la
+                    divisione in commedie, atti, scene e battute; lo stile del testo e la sua formattazione: la
+                    gerarchia dei titoli, la forma poetica, l’uso del corsivo. Inoltre è stata data rilevanza alle
+                    indicazioni di scena. Queste note, tipiche dei testi performativi, servono a indicare le azioni non
+                    verbali che avvengono in scena. Nella raccolta esse costituiscono la parte del testo inserita da
+                    Evaristo Gherardi e sono utili per ricostruire la pratica scenica, oltre a fare da collegamento tra
+                    le scene mancanti della commedia. Per questi motivi le varie indicazioni sono divise in gruppi in
+                    base al significato. Per mettere in evidenza la natura ibrida, della lingua, riprodotta in corsivo
+                    nell’edizione cartacea, sono state annotate le espressioni in lingua straniera.</p>
+
+
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="stage"> Questo elemento viene utilizzato per tutte le direzioni di scena. L'attributo
+                        type di questo elemento può avere uno dei seguenti valori: <list type="gloss">
+                            <label>setting</label>
+                            <item>descrive l'ambientazione</item>
+                            <label>entrance</label>
+                            <item>descrive un ingresso</item>
+                            <label>exit</label>
+                            <item>descrive un'uscita</item>
+                            <label>business</label>
+                            <item>descrive attività sul palco</item>
+                            <label>delivery</label>
+                            <item>descrive il modo in cui un personaggio parla</item>
+                            <label>modifier</label>
+                            <item>fornisce dettagli sul personaggio</item>
+                            <label>novelistic</label>
+                            <item>testo narrativo che indica le direzioni di scena</item>
+                            <label>mixed</label>
+                            <item>più di uno dei valori descritti.</item>
+                        </list>
+                    </tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Francese</language>
+                <language ident="ita">Italiano</language>
+                <language ident="lat">Latino</language>
+                <language ident="spa">Spagnolo</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change>
+                <date when="2019-07">Luglio 2019</date>
+                <name>Roberto Rosselli Del Turco</name>
+                <desc>Prima versione SHORT.</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text n="Arlequin Mercure Galant" type="comedy" xml:id="G_I_01" xml:lang="fra">
+
+        <front>
+
+            <pb n="I" xml:id="G_vol1_I"/>
+
+            <titlePage type="half-title">
+                <docTitle>
+                    <titlePart type="main">Le<lb/>Theatre<lb/>Italian<lb/></titlePart>
+                </docTitle>
+                <titlePart>De</titlePart>
+                <lb/>
+                <docAuthor>Gherardi</docAuthor>
+                <lb/>
+                <titlePart type="vol">TOMO I</titlePart>
+            </titlePage>
+
+            <pb n="II" xml:id="G_vol1_II"/>
+
+            <div n="Prologue" type="original_front">
+
+                <ab><graphic url="immagini/teatreitalien.png"/></ab>
+
+                <div n="1" type="prose" xml:id="G_I_00_01">
+
+                    <pb n="III" xml:id="G_vol1_III"/>
+
+                    <head>A<lb/>SON ALTESSE ROYALE<lb/>MADAME.</head>
+
+                    <!--<ab>
+                    <graphic url="immagini/Madame.png"/>
+                    </ab>-->
+
+                    <p rend="italic"> Madame,<lb/>Je presente à VOTRE ALTESSE ROYALE le Recueil general des Comedies<pb
+                            n="IV" xml:id="G_vol1_IV"/>et des Scenes Françoises qui ont esté joüées sur le Theâtre
+                        Italien, et dont quelques-unes ont eu le bonheur de VOUS divertir quand VOUS nous avez honorez
+                        de votre presence. C'est, MADAME, la seule obligation que j'ay à mes ennemis de m'avoir fait
+                        naistre l'occasion de LUY presenter ce Recueil une seconde fois. Je sçais que quand l'on verra
+                        le grand Nom de VOTRE ALTESSE ROYALE à la teste de ce Livre, il n'y a personne qui ne soit
+                        surpris du peu de proportion qu'il y a entre un Nom si auguste, et des matieres si risibles:
+                        mais, MADAME, ce qui peut justifier ma conduite en cette occasion, c'est que je n'ay pas eu de
+                        choix à faire, et que les obligations infinies que j'ay à VOTRE ALTESSE ROYALE, et l'approbation
+                        qu'Elle a bien voulu donner à quelques-unes de ces Scenes en particulier, m'engageoient
+                        indispensablement à les LUY offrir toutes. Comme c'est un devoir dont je m'acquitte, j'espere
+                        qu'on ne regardera pas <pb n="V" xml:id="G_vol1_V"/> ce que contient mon present, et qu'on me
+                        rendra la justice de croire, que si je n'offre que des Bagatelles à LUY donner. Que je serois
+                        heureux, MADAME, si la lecture de quelques-unes de ces Scenes pouvoit VOUS faire le mesme
+                        plaisir que VOUS avez trouvé dans leur representation! Je sçais bien qu'elles ne sont pas toutes
+                        d'égale force; mais, MADAME, elles ne seront pas toujours exposées à des Juges aussi éclairez
+                        que VOTRE ALTESSE ROYALE, et chacun y trouvera de quoy s'y divertir à proportion de la
+                        délicatesse de son goût. N'attendez pas, MADAME, que suivant le style des Epitres dedicatoires,
+                        j'aille étaler icy ces grandes qualitez qui VOUS rendent les délices de la Cour, et l'admiration
+                        de toute la France. Cette matiere est trop au dessus de ma portée, je borne toute mon ambition à
+                        l'honneur de VOUS divertir; et je me tiens trop heureux <pb n="VI" xml:id="G_vol1_VI"/>
+                        d'apprendre icy à tout le monde, que je suis avec un tres profond respect,</p>
+                    <lb/>
+                    <salute>
+                        <lb/>MADAME, <lb/>DE VOTRE ALTESSE ROYALE, <lb/>Le tres humble, tres obeïssant, <lb/>et tres
+                        soumis Serviteur, <lb/>EVARISTE GHERARDI. </salute>
+
+                </div>
+
+                <div n="2" type="prose" xml:id="G_I_00_02">
+                    <pb n="VII" xml:id="G_vol1_VII"/>
+                    <head>AVERTISSEMENT</head>
+                    <head type="sub">qu'il faut lire.</head>
+
+                    <!--<ab>
+                    <graphic url="immagini/avertissement.png"/>
+                    </ab>-->
+
+                    <p>On ne doit pas s'attendre à trouver dans ce Recueil des Comedies entieres, puisque les Piéces
+                        Italiennes ne sçauroient s'imprimer. La raison est que les Comediens Italiens n'apprenent rien
+                        par cœur et qu'ils leur suffit, pour jouer une Comedie, d'en avoir vu le sujet un moment avant
+                        d'entrer sur le Theâtre. Ainsi la plus grande beauté de leurs Piéces est inséparable de
+                        l'action, le succés de leurs Comedies dépendant absolument des Acteurs, qui leur donnent plus ou
+                        moins d'agréments, selon qu'ils ont plus ou moins d'esprit, et selon la situation bonne ou
+                        mauvaise où ils se trouvent en jouant. C'est cette necessité de jouer sur le champ qui fait
+                        qu'on a tant de peine à remplacer un bon Comedien Italien, lorsque malheureusement il vient à
+                        manquer. Il n'y a personne qui ne puisse apprendre par cœur, et reciter <pb n="VII"
+                            xml:id="G_vol1_VIII"/> sur le Theâtre ce qu'il aura appris: mail il faut toute autre chose
+                        pour le Comedien Italien. Qui dit bon <emph rend="italic">Comedien Italien</emph> dit un homme
+                        qui a du fond, qui joue plus d'imagination que de memoire; qui compose, en jouant, tout ce qu'il
+                        dit; qui sçait seconder celuy avec qui il se trouve sur le Theâtre; c'est à dire, qu'il marie si
+                        bien ses paroles et ses actions avec celles de son Camarade, qu'il entre sur le champ dans tout
+                        le jeu et dans tous les mouvemens que l'autre luy demande, d'une maniere à faire croire à tout
+                        le monde qu'ils estoient déja concertez. Il n'en est pas de même d'un Acteur qui joue <emph
+                            rend="italic">simplement de memoirez</emph>; il n'entre jamais sur la Scene que pour y
+                        débiter au plus vîte ce qu'il a appris par cœur, et dont il est tellement occupé, que sans
+                        prendre garde aux mouvemens et aux gestes de son Camarade, il va toujours son chemin, dans une
+                        furieuse impatience de se délivrer de son rôlle comme d'un fardeau qui le fatigue beaucoup. On
+                        peut dire que ces sortes de Comediens sont comme des Ecoliers, qui viennent répeter en tremblant
+                        une leçon qu'ils ont apprise avec soin: ou plutost ils sont semblables aux Echos, qui ne
+                        parleroient jamais si d'autres n'avoient parlé avant eux - Ce sont des Comediens de nom, mais
+                        inutiles et à charge à leur <pb n="IX" xml:id="G_vol1_IX"/> Compagnie. Je compare un Comedien de
+                        cette sorte à un Bras paralytique, qui, quoy qu'inutile, porte toujours le nom de bras. La seule
+                        difference que je trouve entre le bras mort et le membre inutile de la Comedie, c'est que si le
+                        premier ne sert de rien au corps, il est certain aussi qu'il n'en reçoit aucune nourriture, et
+                        qu'elle se partage entre les membres qui font leur devoir: mais le dernier (quoy que du tout
+                        inutile à la Comedie) ne laisse pas de recevoir autant de nourriture que les Acteurs qui
+                        fatiguent le plus, et qui sont les plus necessaires. Cela soit dit pour ces Comediens inutiles
+                        dont presque toutes les compagnies sont remplies; Gens sans naturel et sans art, qu'une
+                        protection capricieuse, ou qu'un bonheur extraordinaire a élevez jusqu'à la Part entiere, et qui
+                        dés-là ne regardent plus la Comedie que du côte de la Cassette, et non pas du côte de l'employ
+                        qu'elle exige d'eux: faisant une entiere difference entre ces Comediens de nom, et ces Comediens
+                        d'effet, ces Acteurs illustres qui apprennent par cœur à la verité, mais qui, à l'exemple
+                        d'excellens Peintres, sçavent cacher l'art avec l'art, et qui charment les Spectateurs par la
+                        beauté de la voix, la verité du geste, la juste flexibilité des tons, et certain air gracieux,
+                        aisé et <pb n="X" xml:id="G_vol1_X"/> naturel dont ils accompagnent tous leurs mouvemens, et
+                        qu'ils répandent sur tout ce qu'ils prononcent.</p>
+
+                    <p>Mais je m'écarte furieusement de mon sujet. Il ne s'agit pas icy de bonnes qualitez que doit
+                        avoir un bon Comedien; il s'agit de parler des Scenes Françoises qui ont esté jouées sur le
+                        Theâtre Italien. Ces Scenes sont l'ouvrage de plusieurs Personnes d'esprit et de merite,
+                        composées par la pluparrt dans leurs heures de recréation, et données par quelques-uns gratis à
+                        la Troupe. Elles étoient comme enchâssées dans nos sujets. Tout Paris les a admirées quand nous
+                        les avons jouées, et tout Paris les regrette à present qu'on ne les joue plus. L'accueil
+                        favorable que le Public fit au premier Volume que j'en donnay en 1694. excita l'envie de
+                        quelques-uns de mes Camarades: ils representent que l'impression de ces Scenes pouvoit nuire à
+                        la representation des Piéces dont elles étoient tirées. Sur ce fondement il plut à Monseigneur
+                        le Chancelier, pour remettre la paix dans la Compagnie (ce sont ses propres termes) de me
+                        redemander le Privilege qu'il avoit eu la bonté de m'en accorder, et que je luy rendis avec une
+                        entière soumission à ses ordres. </p>
+
+                    <p>Ce qui justifie cependant que ce n'étoit <pb n="XI" xml:id="G_vol1_XI"/> que par envie, et non
+                        par raison qu'on en avoit demandé la suppression, c'est que les neufs cens Exemplaires qu'on
+                        m'en avoit saisis, et que la Compagnie avoit mis en dépost chez le sieur Octave, l'un des
+                        Comediens, furent par luy vendus à plusieurs Libraires de Paris à raison de trente-deux sols
+                        l'Exemplaire (après toutefois en avoir brulé deux ou trois feuilles, et avoir fait accroire au
+                        reste de ses Camarades qu'il avoit tout brulé.) Ce Volume, quoy que défendu, a esté si bien
+                        vendu et a eu un si grand cours dans le monde, qu'on l'a contrefait non seulement en Hollande, à
+                        Bruxelles, et à Liège, mais encore dans presque toutes les Provinces du Royaume. On l'a même
+                        augmenté de deux autres Volumes dont l'un qui a paru sous le titre de <emph>Troisiéme
+                            Volume</emph>, m'a esté volé dans mon Cabinet, en manuscrit; et avant que de le donner au
+                        Public on en a tronqué toutes les Piéces, pour m'en oster la connoissance: et l'autre qui s'est
+                        vendu sous le titre de <emph>Supplément au Théâtre Italien</emph>, et qui vaut moins que rien, a
+                        esté composé, à ce qu'on dit, par l'Auteur de l'<emph rend="italic">Arlequiniana</emph>, ou par
+                        celuy de la <emph rend="italic">Vie de Scaramouche.</emph>
+                    </p>
+
+                    <p>Il est vray que ces deux Auteurs sont si conformes dans la bassesse de leur stile, et <pb n="XII"
+                            xml:id="G_vol1_XII"/> dans la fausseté des actions qu'ils racontent, qu'on peut aisément s'y
+                        tromper, et prendre l'un pour l'autre sans beaucoup de peine. Ce sont deux Ecrivains également
+                        faux, chacun d'eux attribuant à son Heros des choses qu'Arlequin et Scaramouche n'ont jamais ni
+                        faites ni pensées. J'excuse cependant l'Auteur de l'<emph>Arlequiniana</emph>, si je savais les
+                        raisons qu'il a euës de mettre tant de pauvretez dans le sien.</p>
+
+                    <p>Quoy qu'il en soit, cette multiplicité de fades Volumes qui paroissent de temps en temps, et qui
+                        ne faisoient point d'honneur à notre Theatre, m'a déterminé à faire reimprimer le mien. je l'ay
+                        augmenté de tout ce qui me restoit de Scenes jolies, et de toutes celles qu'on a representées
+                        sur le Theâtre depuis. Tant de matiere m'a fourni de quoy en faire six Volumes, que j'ay
+                        enrichis d'Estampes en Taille-douce à la teste de chaque Comedie, à la fin de laquelle on
+                        trouvera les Airs qu'on y a chantez, gravez, notez, avec leur Basse-continue <pb n="XII"
+                            xml:id="G_vol1_XIII"/> chifrée. En un mot, je n'ay rien negligé de tout ce que j'ay cru
+                        capable d'embellir mon ouvrage, et de donner du plaisir au Lecteur, qui passera, s'il lui plaît,
+                        sur les Scenes qu'il ne trouvera pas de son goût, et qui peut-estre se trouveront celles que
+                        j'ay déjà condamné le premier, et que je n'ay imprimées, que parce que tous les goûts ne se
+                        ressemblent pas, et que ce qui ne plaît pas aux uns plaît souvent aux autres: Je n'ay connu que
+                        les <emph rend="italic">Gradelins</emph> et les <emph>Polichinelles</emph> qui n'ont jamais plu
+                        à personne; aussi ne les trouvera-t'on pas dans aucune des Scenes de mon Recueil; et si je les
+                        ay mis dans ma Preface, c'est qu'ils ont toujours esté à la Porte du Theâtre Italien.</p>
+
+                    <p>Les Curieux de la Langue Italienne y trouveront par-cy par-là des Scenes purement en Italien, et
+                        d'autres mêlées de François et d'Italien, ainsi qu'on les jouoit sur notre Theâtre; avec cette
+                        difference pourtant que le Docteur et Arlequin n'y parlent pas le langage serré de Boulogne et
+                        de Bergame, parce qu'on ne les entendrois pas.</p>
+
+                    <p>Les Amateurs des Sujets suivis y trouveront environ quarante Comedies entieres, que j'ay fait
+                        imprimer comme on les jouoit <pb n="XIV" xml:id="G_vol1_XIV"/> sur notre Theâtre, à le reserve
+                        du langage de <emph>Pasquariel</emph> que j'ay corrigé, et de la plupart des Scenes qu'il
+                        jouoit, dont je n'ay mis que la teneur; parce qu'elles estoient ou toutes postiches, ou tout à
+                        fait Italiennes, c'est-à-dire toutes grimaces et toutes postures.</p>
+
+                    <p>Ces Comedies ne sont pas de ces Piéces Italiennes dont j'ay prétendu parler au commencement de
+                        mon Avertissement, quand j'ay dit, <emph>Qu'on ne les sçauroit imprimer , à cause qu'elles sont
+                            inseparables de l'action, et que les Italiens jouent sans rien apprendre par cœur</emph>:
+                        Mais ce sont de celles où la Troupe estoit obligé (pour se conformer au goût et à l'intelligence
+                        de la plupart de ses Auditeurs) de faire inserer beaucoup plus de François qu'elle n'y mettoient
+                        d'Italien, et que Messieurs les Auteurs appelloient, Comedies Françoises accomodées au Theâtre
+                        Italien.</p>
+
+                    <p>Pour ce qui regarde certains mots usitez parmi les Comediens Italiens, j'ay jugé à propos de ne
+                        les point alterer: mais afin qu'ils n'arrestent pas en les lisant, je les explique.
+                            <emph>Lazzi</emph>, par exemple, en est un; il veut dire, <emph>Tour, Jeu Italien.</emph>
+                        Après avoir repeté deux ou trois fois le même Lazzi, c'est-à-dire, après avoir fait deux ou
+                        trois <pb n="XV" xml:id="G_vol1_XV"/>
+                        <emph>le même Tour</emph>, après avoir repeté deux ou trois fois <emph>le même Jeu
+                            Italien</emph>.</p>
+
+                    <p><emph>Cantonade</emph> en est un autre. Il signifie <emph rend="italic">aîle, coin, côté du
+                            Theâtre</emph>. Arlequin parlant à la Cantonade, c'est-à-dire, Arlequin parlant vers l'aîle,
+                        le coin, le côté du Theâtre.</p>
+
+                    <p>Je passe sous silence la Satyre fine et délicate, la connoissance parfaite des mœurs du siécle,
+                        les expressions neuves et détournées, l'enjoûment, l'esprit; en un mot, tout le sel et toute la
+                        vivacité dont tous les Dialogues de ce Recueil sont remplis, et je me contente de dire que si le
+                        premier Volume que j'en donnay en 1694. et dont j'ay parlé cy-dessus, a merité le nom de <emph
+                            rend="italic">Grenier à sel</emph>: nom glorieux qui luy a esté donné par cet Homme divin,
+                        ce Genie superieur, à qui le Ciel a donné des connoissances et des lumieres qu'il a refusées à
+                        tous les autres hommes, afin que tous les autres hommes devinssenet les sujets de ses satyres;
+                        j'espere que celuy-cy pourra meriter le nom de <emph>Saline</emph>, estant et beaucoup plus
+                        ample et beaucoup plus correct que le premier.</p>
+
+                    <p>A l'égard de mes Frontispices, le premier donne une idée de la Comedie Italienne. Ce sont
+                        plusieurs petits Genies, <pb n="XVI" xml:id="G_vol1_XVI"/> qui après la retraite des Italiens,
+                        se sont emparez de leur Theâtre, et y representent les actions principales de la plupart de ces
+                        Acteurs.</p>
+
+                    <p>Le second est une peinture de mon Recueil. Ce sont plusieurs Genies qui forment un Concert; avec
+                        ces mots: <foreign xml:lang="lat">E PLURIBUS UNUM.</foreign></p>
+
+                    <p>Et le troisiéme exprime le chagrin du Public, qui en perdant les Italiens a perdu les plus beaux
+                        ornements du Theâtre Comique, et à qui il ne reste rien, pour se consoler d'une si grande perte,
+                        que le Recueil que je luy presente. Cela se figure par la Muse de la Comedie, dépouillée de tous
+                        les ornemens, et assise sur un Theâtre, jettant les yeux sur un Volume que le Genie d'Arlequin
+                        luy presente, sur lequel sont écrits ces mots: <foreign xml:lang="lat">EXUVIÆ TRISTES:</foreign>
+                        <hi> et aux pieds du Genie:</hi>
+                        <foreign xml:lang="lat">
+                            <ref target="#latino"> DUM LEGO, COLLIGO.</ref></foreign>
+                    </p>
+
+                    <p>Si après tous ces soins l'on trouve que j'aye bien reüssi, qu'on applaudisse: si non, qu'on
+                        excuse. Quand mon Recueil n'auroit aucun merite, le seul plaisir que je ressens de le presenter
+                        au Public, vaut bien la peine qu'on ne le reçoive pas en rechignant.</p>
+
+                    <p>On trouvera cy-après quantité de Vers Latins que plusieurs personnes de merite, <pb n="XVII"
+                            xml:id="G_vol1_XVII"/> et qui m'honorent de leur amitié, m'ont envoyez, les uns sur mon
+                        Livre, et les autres pour mettre au bas de mon Portrait. Je suis obligé d'avouer que si j'ay
+                        souffert qu'on les imprimât, c'est plutost pou faire justice à la délicatesse de leur goût, que
+                        pour me prévaloir des louanges qu'ils me donnent, et que je ne merite pas.</p>
+
+                    <!--<ab>
+                    <graphic url="immagini/avertissement2.png"/>
+                </ab>-->
+
+                </div>
+                <div n="3" type="verse" xml:id="G_I_00_03">
+                    <pb n="XVIII" xml:id="G_vol1_XVIII"/>
+                    <head>
+                        <foreign xml:lang="lat">AD<lb/> EVARISTUM GHERARDI,<lb/> ANTONI BOYER DE
+                            MONCHY<lb/>CARMEN.</foreign></head>
+
+                    <!--<ab>
+                    <graphic url="immagini/AntoniBoyer.png"/>
+                    </ab>-->
+
+                    <lg xml:lang="lat">
+                        <l>Venerat illa dies, Italo celeberrima casu,</l>
+                        <l>Illa dies, quâ fors Italæ spectacula Scenæ</l>
+                        <l>Damnare exilio decreverat: Ostia Judex</l>
+                        <l>Cardine terribili claudi jubet: Ostia denso</l>
+                        <l>Regni concursu tot nobilitata per annos.</l>
+                        <l>Attonitus sibi quisque novum meditatur asylum</l>
+                        <l>Actor, et externo poziore sydere tentat</l>
+                        <l>Fortunam, aut vivit tacitis inglorius horis.</l>
+                        <l>Jussa silere, suas et jussa delinquere sedes,</l>
+                        <l>Quæ fuerat,miserum lacrimi Comœdia lapsum</l>
+                        <l>Continuis flebat, solitoque expulsa Theatro</l>
+                        <l>Errabat, dubios quò verteret inscia gressus.</l>
+                        <l>Post varios animi motus, vicina GHERARDI</l>
+                        <l>Tecta subit: Natorum, inquit, carissime; solus</l>
+                        <l>Qui mea spes, soli cui me commettere totam,</l>
+                        <l>Cui me suadet amor penetralia pandere cordis:</l>
+                        <l>Nos dudùm angusto conjunctos fœdere, tandem</l>
+                        <l>Separat infaustum turpi discrimine Fatum,</l>
+                        <l>Et capiti pendent æterna oblivia nostro.</l>
+                        <l>Heu! brevis anno rum series nos, nostraque, crassis</l>
+                        <l>Delebit tenebris, nostram nisi prompta salutem</l>
+                        <l>Restituat medicina: malis occurence tantis</l>
+                        <l>Per te, Nate, licet: spretæ solatia Matri</l>
+
+                        <pb n="XIX" xml:id="G_vol1_XIX"/>
+
+                        <l>Quæ tua sunt concede; aliquid, licet anxia, magni</l>
+                        <l>Mens agitat mea; te Famæ generosa cupido</l>
+                        <l>Si movest mea; si noster Amor, si Gloria, raptam</l>
+                        <l>In lucem, nobis aliquando redire licebit.</l>
+                        <l>Actorem quæ te nascentem sinxit, et ipsa</l>
+                        <l>Autorem facilis finget Natura volentem:</l>
+                        <l>Sic quos extincti levis abstulit aura Theatri,</l>
+                        <l>Servabunt tua Scripta jocos; te Gallia nuper</l>
+                        <l>Mirata Actorem, totus mirabitur Orbis</l>
+                        <l>Autorem. Impatiens Natus parere Parenti,</l>
+                        <l>Ingenii multas ad tanta negotia vires</l>
+                        <l>Colligit, ignoramque viam, spe ductus honoris,</l>
+                        <l>Audax ingreditur; largam Comœdia præbet</l>
+                        <l>Materiam, doctâ quam fertilis arte GHERARDUS</l>
+                        <l>Dispositam, nobis, nostrique nepotibus offert.</l>
+                        <l>O felix Mater, modò quæ prostrata, resurgis</l>
+                        <l>Nobilior Nati curâ; modò vilis exul,</l>
+                        <l>Quæ studio Nati, raro pretiosius Auro,</l>
+                        <l>Hospitium reperis, solidoque perennius ære,</l>
+                        <l>O felix, inquam, Mater, modò naufraga, Nati</l>
+                        <l>Quæ magno sudore tui secura quiescis!</l>
+                        <l>Quantum, Nate, parat meritæ tibi laudis acervum</l>
+                        <l>In Matrem tanti pietas onerosa laboris?</l>
+                        <l>Quando Libris annexa tuis mea Musa legetur;</l>
+                        <l>Posteritas, æterna tuas in tempora dotes,</l>
+                        <l>Sinceroque velim noscat te carmine Lector.</l>
+                        <l>Mille jocis qui plena dedit tibi Scripta, GHERARDUS.</l>
+                        <l>Ex Italis Ortus, Gallo se sponte subegit</l>
+                        <l>Imperio, largum patriæ dum Gentis honorem,</l>
+                        <l>Unanimem nostræ secit quoque Gentis amorem.</l>
+
+                        <pb n="XX" xml:id="G_vol1_XX"/>
+
+                        <l>Actorum Prineps Italorum, Gloria Scenæ</l>
+                        <l>Ampla fuit, luxit quem Gallia tota filentem;</l>
+                        <l>Jucundus visu suit, et jucundior usu,</l>
+                        <l>Subtili promptæ fœcundus acumine mentis:</l>
+                        <l>Illi nam quoties Italum calcare Theatrum</l>
+                        <l>Contigerat, facili toties novitate placebat:</l>
+                        <l>Captavit dictis nostro qui tempore nostros,</l>
+                        <l>Captabit scriptis ventura in sæcula plausus.</l>
+                        <l>Plurima quid referam? cecidit Comœdia: verum,</l>
+                        <l>Ne tumulata foret lapsi sub mole Theatri,</l>
+                        <l>Filius hæc Matri monumenta fidelia vovit.</l>
+                    </lg>
+
+                    <!--<ab>
+                    <graphic url="immagini/AntoniBoyer2.png"/>
+                    </ab>-->
+
+                </div>
+
+                <div n="4" type="verse" xml:id="G_I_00_04">
+                    <pb n="XXI" xml:id="G_vol1_XXI"/>
+                    <head><foreign xml:lang="lat">IN<lb/> EVARISTI GHERARDI<lb/> LIBRUM ET EFFIGEM</foreign></head>
+                    <head type="sub"><emph><foreign xml:lang="lat">CARMINA.</foreign></emph></head>
+
+                    <!--<ab>
+                    <graphic url="immagini/EvaristiGherardi.png"/>
+                    </ab>-->
+
+                    <lg xml:lang="lat">
+                        <l>Omnis et unus erat, numerosâ dota, GHERARDUS,</l>
+                        <l>Orator, Vates, Autor, et Actor erat.</l>
+                        <l>Actor, delicias tribuit qui mille, videnti ;</l>
+                        <l>Autor ; Lectori non nisi mille dabit.</l>
+                        <docAuthor>L.C.D.M.</docAuthor>
+                    </lg>
+                    <lg xml:lang="lat">
+                        <l>Inter Aves Phœnix est unicus ; unicus inter</l>
+                        <l>Comœdos, cujus respicis ora, fuit.</l>
+                        <l>Mortuus in lucem Phœnix redit, atque GHERARDI</l>
+                        <l>Curis, in lucem Scena sepulta redit.</l>
+                        <docAuthor>A.B.</docAuthor>
+                    </lg>
+                    <lg xml:lang="lat">
+                        <l>Ille est cui tantam peperit Comœdia famam,</l>
+                        <l>Invidus ut famæ Roscius ipse foret.</l>
+                        <l>Ex tabulâ frontem cognoscis et ora GHERARDI:</l>
+                        <l>Ingenium si vis noscere, volve Librum.</l>
+                        <docAuthor>D.M.</docAuthor>
+                    </lg>
+                    <lg xml:lang="lat">
+                        <l>Hie, Italæ cineres Scenæ mirare sepolto,</l>
+                        <l>Quos capit inclusos hic, velut Urna, Liber.</l>
+                        <l>Mœrens defunctæ vovet hæc monumenta GHERARDUS,</l>
+                        <l>Nobiliora, suis, quis, monumenta vovet?</l>
+                        <docAuthor>A.D.M.</docAuthor>
+                    </lg>
+                    <pb n="XXII" xml:id="G_vol1_XXII"/>
+                    <lg xml:lang="lat">
+                        <l>Audiri attentâ dignus fuit GHERARDUS,</l>
+                        <l>Qui nune attento dignior ore legi.</l>
+                        <l>Nam quos æternis Fatum damnaverat umbris,</l>
+                        <l>Conservant reduces obvia Scripta jocos.</l>
+                        <docAuthor>A.C.D.M.</docAuthor>
+                    </lg>
+                    <lg xml:lang="lat">
+                        <l>Actori plausit quondam vox GHERARDO,</l>
+                        <l>Autori plausus vox dabit una suos.</l>
+                        <l>Quippe super Scenam quos huc spargebat et illue,</l>
+                        <l>Multos exponunt obvia Scripta jocos.</l>
+                        <docAuthor>E.D.M.</docAuthor>
+                    </lg>
+
+                    <!--<ab>
+                    <graphic url="immagini/EvaristiGherardi2.png"/>
+                    </ab>-->
+
+                    <p>Ceux qui n’ont point vu l’Explication que je fis autrefois d’un Feu d’artifice que la Troupe
+                        Italienne avoit fait dresser devant son Hôtel de Bourgogne, au sujet de la Paix concluë entre la
+                        France et la Savoye, seront peut-être aussi ravis de la trouver icy, que j’ay été ravy de l’y
+                        mettre.</p>
+                    <pb n="XXIII" xml:id="G_vol1_XXIII"/>
+
+                    <!--<ab>
+                    <graphic url="immagini/privilege.png"/>
+                    </ab>-->
+
+                    <p>EXPLICATION<lb/>Du Feu d’artifice dressé par Messieurs de la Troupe Royale des Comediens Italiens
+                        devant leur Hôtel de Bourgogne.</p>
+                    <p><emph>Au sujet de la Paix conclue entre la France et la Savoye.</emph></p>
+                    <p>La Paix qui vient d’estre concluë entre la France et la Savoye, a répandu une joye si universelle
+                        dans le cœur de tous Sujets du Roy, qu’il n’y en a point qui n’en ait donné des marques.</p>
+                    <p>Mais les Comediens Italiens, entretenus par sa Majesté, ne se sont pas contentez de prendre part
+                        à l’allegresse generale, ils en ont encore voulu donner des témoignages particuliers.</p>
+                    <p>Les bontez du Roy, leur auguste Souverain, sont si profondément gravées dans leurs cœurs, que le
+                        zele ardent qui les attache à son service auroit souffert, s’ils avoient laissé passer la
+                        moindre occasion d’en témoigner leur reconnoissance.</p>
+                    <p>Ils ont donc choisi un jour particulier pour leur rejouïssance, où ils representeront <pb
+                            n="XXIV" xml:id="G_vol1_XXIV"/> gratuitement sur leur Théâtre une de leurs meilleures
+                        Comedies. Ensuite ils feront tirer un Feu d'artifice devant leur Hôtel.</p>
+                    <p>Ce Feu est une Pyramide, accompagnée de quatre Emblêmes dans quatre Cartouches. Les deux premiers
+                        regardent la France, et les deux derniers la Savoye.</p>
+                    <p>Le premier Cartouche represente le nœud Gordien, dont le Heros de la France a trouvé un des
+                        bouts; de sorte que le reste paroist aisé à dénouer. Avec ces mots:<lb/>
+                        <foreign xml:lang="lat">VIRTUTE ET CONSILIO.</foreign></p>
+                    <lb/>
+                    <p>Cet Emblême n'est pas difficile à entendre. Tout le monde a ouï parler de ce fameux nœud attaché
+                        au Char de Gordius dans le Temple de Jupiter; et personne n'ignore que l'Empire de l'Univers
+                        estant promis à celui qui le deferoit, Alexandre rebuté d'en chercher en vain les bouts qui
+                        estoient cachez au milieu du nœud, tira son épée, et coupant ce qu'il ne pouvoit démêler, fit
+                        violence à l'Oracle.</p>
+                    <p>On veut faire entendre que notre grand Roy, par une conduite plus glorieuse que celle
+                        d'Alexandre, se sert de sa valeur et de sa prudence, pour défaire un nœud bien plus broüillé que
+                        le Gordien, c'est-à-dire la Ligue d'Ausbourg.</p>
+                    <p>Il n'y a personne qui n'eût pu faire ce <pb n="XXV" xml:id="G_vol1_XXV"/> que fit Alexandre. Le
+                        moindre soldat de son armée pouvoit par un coup de sabre s'assurer l'Empire de l'Univers. Mais
+                        LOUIS pour démêler ce nœud fatal qui depuis qu'il s'est formé trouble le repos de l'Europe
+                        entiere, joignant cette divine prudence qui accompagne toutes ses actions, avec cette invincible
+                        valeur qui épouvante tous ses ennemis, trouve enfin un des bouts de ce nœud, par le moyen duquel
+                        il démêlera aisément tout le reste, et rendra à l'Univers le repos qu'il luy avoit procuré.</p>
+                    <lg>
+                        <l>Qu'on ne nous vante plus ce haut fait d'Alexandre</l>
+                        <l>Comme un fait sans égal.</l>
+                        <l>S'il sçut, armé d'un fer, trancher ce nœud fatal,</l>
+                        <l>Qui n'eût pu l'entreprendre?</l>
+                        <l>Nos yeux n'en sont point éblouïs</l>
+                        <l>C'estoit l'exploit commun d'un soldat temeraire.</l>
+                        <l>Mais ce que LOUIS vient de faire</l>
+                        <l>Ne pouvoit estre fait par d'autres que LOUIS.</l>
+                    </lg>
+
+                    <p>Le second cartouche represente un Theâtre, et des Acteurs dessus qui sont avidement écoutez par
+                        une foule de peuple qui les environne. On voit dans l'éloignement d'un côté une bataille, et de
+                        l'autre une Ville assiégée. Avec ce demi vers de Virgile:<lb/>
+                        <foreign xml:lang="lat">DEUS NOBIS HÆCOTIA FECIT.</foreign></p>
+
+                    <pb n="XXVI" xml:id="G_vol1_XXVI"/>
+                    <p>Rien n’est plus intelligible que cet Emblême. Pendant que toute l’Europe est en feu, les Sujets
+                        du Roy non seulement en seureté, mais en repos dans le sein de son Royaume, goutent à loisir les
+                        plaisirs que ce Prince veut bien leur procurer. Les Comediens Italiens se font une application
+                        particuliere de cet Emblême, et benissent mille fois le Heros qui par sa valeur et sa bonté les
+                        fait jouïr pendant une guerre sanglante, des biens qu’ils n’oseroient esperer ailleurs au milieu
+                        de la paix la plus profonde.</p>
+                    <lg>
+                        <l>Heureuse France, et vous que le Destin fait vivre</l>
+                        <l>Sous les loix du plus grand Heros,</l>
+                        <l>Connoissez le bonheur que l’on trouve à les suivre.</l>
+                        <l>Tout est en trouble ailleurs, vous goûtez le repos.</l>
+                        <l>Loin du péril des armes,</l>
+                        <l>Les Spectacles, les Ris, les jeux vous sont permis ;</l>
+                        <l>Et si la guerre a des allarmes,</l>
+                        <l>Ce n’est que pour vos ennemis.</l>
+                    </lg>
+
+                    <p>Le troisiéme represente les armes du Prince d’Orange, d’où sortent des chaînes qui tiennent
+                        attachées les armes des Alliez. Celles de Savoye ne sont pas de même : la chaîne qui les tenoit
+                        est rompuë, et elles paroissent au haut du Cartouche accollées de celles de France ; Avec ces
+                        vers :<lb/>
+                        <foreign xml:lang="lat">DAT REGNARE UNUS, CUM MULTIS VINCLA FEREBAM.</foreign><lb/>
+                    </p>
+                    <pb n="XXVII" xml:id="G_vol1_XXVII"/>
+                    <p>Rien n’exprime mieux l’état où se trouvoit Son Altesse Royale de Savoye, et l’avantage qu’elle
+                        vient de recevoir. Qu’avoit produit à ce Prince toute la faveur des Alliez, et toute la
+                        puissance de la Ligue ? Il avoit perdu une partie de ses Etats, et le reste de ses Sujets estoit
+                        plus opprimé par les Troupes mêmes qui estoient destinées à les deffendre, que par les autres
+                        necessitez de la guerre. La seule Union qu’il vient de faire avec la France le met à la teste
+                        d’une armée puissante, et toujours victorieuse, avec laquelle il rend non seulement le calme à
+                        ses Sujets, mais il se voit en état de donner la Loy à ceux qui la luy faisoient.</p>
+                    <lg>
+                        <l>Sors du péril où t’avois mis</l>
+                        <l>Des princes conjurez l’injuste et vaine rage,</l>
+                        <l>Tes Etats à la fin te vont estre soumis,</l>
+                        <l>Prince tu va regner. Voy l’heureux avantage</l>
+                        <l>Que donne de LOUIS le favorable appuy.</l>
+                        <l>L’on n’apprend avec eux qu’à souffrir l’esclavage :</l>
+                        <l>Mais l’on apprend à regner avec luy.</l>
+                    </lg>
+
+                    <p>On a peint dans le dernier un Soleil qui darde ses rayons sur la croix de Savoye, et la rend d’un
+                        éclat éblouissant. Avec ses mots : <lb/>
+                        <foreign xml:lang="lat">QUANTUM A SOLE MICAT.</foreign></p>
+
+                    <p>Comme l’autre Emblême regarde <pb n="XXVIII" xml:id="G_vol1_XXVIII"/> personnellement le Duc de
+                        Savoye, celut-ci doit s’appliquer directement à sa Famille. Quelle gloire et quel avantage ne
+                        vient-elle point de recevoir? Sa reconciliation avec la France éleve une de ses Filles au
+                        suprême bonheur de pouvoir augmenter le nombre de cette Auguste et toujours triomphante maison,
+                        dont les Heros suivant les traces du Grand LOUIS seront un jour les maîtres de toute la
+                        Terre.</p>
+                    <lg>
+                        <l>Goûte en repos, trop heureuse Savoye,</l>
+                        <l>Le bonheur que le Ciel t’envoye.</l>
+                        <l>T’unissant au sang des Bourbons,</l>
+                        <l>Au faîte des grandeurs ta Fille est destinée.</l>
+                        <l>Tu confondras ton nom avec tous ces grands noms.</l>
+                        <l>Que tu reçois d’éclat de ce grand hymenée !</l>
+                        <l>Des vertus de LOUIS genereux heritier,</l>
+                        <l>Ce jeune Epoux suivant la trace,</l>
+                        <l>Et du Père imitant la belliqueuse audace,</l>
+                        <l>Donnera quelque jour des loix au Monde entier.</l>
+                    </lg>
+
+                    <!--<ab>
+                    <graphic url="immagini/privilege2.png"/>
+                    </ab>-->
+
+                    <lg>
+                        <l>Restes d’une Ligue cruelle,</l>
+                        <l>Contemplez la Savoye en paix,</l>
+                        <l>Et son Prince couvert d’une gloire nouvelle.</l>
+                        <l>C’est ainsi que LOUIS accable de bienfaits</l>
+                        <l>Ceux qu’animoient en vain la guerre criminelle</l>
+                        <l>Qui vous fait courber sous le faix.</l>
+                        <l>Princes, ouvrez les yeux, évitez votre perte</l>
+                        <l>Par un juste et prompt repentir.</l>
+                        <l>Cette paix que LOUIS a tant de fois offerte,</l>
+                        <l>Peut seule vous en garantir.</l>
+                    </lg>
+                </div>
+
+                <pb n="XXIX" xml:id="G_vol1_XXIX"/>
+
+                <div n="4" type="prose" xml:id="G_I_00_05">
+                    <head rend="italic">EXTRAIT DU PRIVILEGE du Roy.</head>
+
+                    <!--<ab>
+                    <graphic url="immagini/privilege3.png"/>
+                    </ab>-->
+
+                    <p>Par Grace et Privilege du ROY, donné à Versailles le 2.May 1698. signé par le Roy en son Conseil,
+                        CARPOT, et scellé du grand Sceau de Cire jaune; Il est permis au Sr Evariste GHERARDI, cy-devant
+                        l'un des Comediens Italiens du Roy, de faire imprimer, vendre et debiter par tel Imprimeur et
+                        Libraire qu'il voudra choisir, un Livre intitulé: <emph>Le Theâtre Italien; ou le Recueil
+                            general de toutes les Comedies et Scenes Françoises jouées sur le Theâtre Italien de l’Hôtel
+                            de Bourgogne</emph>, en tels caracteres et volumes qu’il le jugera à propos, et ce pendant
+                        le temps de <emph>huit années</emph> consécutives, à commencer du jour que ledit Recueil aura
+                        esté mis en vente pour la premiere fois, en vertu du present Privilege: Et deffenses sont faites
+                        à tous Imprimeurs et Libraires, ou autres, de quelque qualité et condition qu'ils soient, de
+                        contrefaire ledit Recueil , en entier, ou en partie, sous quelque pretexte que ce puisse estre,
+                        à peine de trois mille livres d'amende, confiscation des Exemplaires contrefaits, <pb n="XXX"
+                            xml:id="G_vol1_XXX"/> et de tous dépens, dommages et interests; aisnsi qu'il est porté plus
+                        amplement par ledit Privilege.</p>
+
+                    <p><emph>Registré sur le Livre de la Communauté des Libraires et Imprimeurs de Paris le</emph> 10.
+                        May 1698. </p>
+                    <p><emph>Signé</emph>, P. AUBOUIN, <emph rend="italic">Syndic</emph>.</p>
+
+                    <p>Ledit Sieur GHERARDI a cedé et transporté aux Sieurs J. B. CUSSON et P. WITTE, Libraires à Paris,
+                        son droit au present Priviiege, pour en joüir suivant l’accord fait entr'eux.</p>
+
+                    <p><emph>Achevé d’imprimer pour la premiere fois en vertu du present Privilege, le dernier jour de
+                            Juillet 1700.</emph></p>
+                </div>
+
+                <pb n="XXXI" xml:id="G_vol1_XXXI"/>
+
+            </div>
+
+        </front>
+
+        <body>
+
+            <!--<ab>
+                    <graphic url="immagini/arlequinMercureGalant.png"/>
+                </ab>-->
+
+
+            <!--<ab><graphic url="immagini/ArlequinMercureGalant2.png"/>
+                </ab>-->
+
+
+            <div type="original_front">
+
+                <pb n="1" xml:id="G_vol1_001"/>
+
+                <head type="main">ARLEQUIN<lb/>MERCURE GALANT.</head>
+                <head type="sub">COMEDIE EN TROIS ACTES.</head>
+                <div type="performance">
+                    <p rend="italic">Mise au Theâtre par Monsieur D*** et representée pour la premiere fois par les
+                        Comediens Italiens du Roy dans leur Hostel de Bourgogne, le 22. Janvier 1682.</p>
+                </div>
+
+            </div>
+
+            <div n="1" type="scene" xml:id="G_I_01_s1">
+                <head>SCENES FRANÇOISES<lb/> D'ARLEQUIN<lb/> MERCURE GALANT.</head>
+                <head type="scene">SCENE DES NOUVELLES.</head>
+
+                <stage>JUPITER, ARLEQUIN. <lb/></stage>
+                <sp>
+                    <speaker>ARLEQUIN</speaker>
+                    <stage rend="center italic" type="modifier"> en Mercure, paroist en l'air, monté sur l'Aigle de
+                        Jupiter, et voyant ce Dieu sur la terre déguisé en Berger, il luy dit: <foreign rend="italic"
+                            xml:lang="ita">Adio, Signor Giove.</foreign>
+                    </stage>
+
+
+                </sp>
+                <pb n="2" xml:id="G_vol1_002"/>
+                <sp>
+                    <speaker>JUPITER.</speaker>
+                    <p>D'où vient que Mercure est monté sur mon Aigle? N'a-t-il pas des aîles aux talons pour voler?</p>
+                </sp>
+                <sp>
+                    <speaker>ARLEQUIN.</speaker>
+                    <p>Helas! Seigneur Jupiter, mes aîles ne peuvent plus me servir,<foreign rend="italic"
+                            xml:lang="ita">perche passando per una strada, una servanta</foreign> m'a vuidé un pot de
+                        chambre dessus, et me les a tellement mouillées, que se non fossi tombé per bonhor sur un tas de
+                        fumier, <foreign rend="italic" xml:lang="ita"> Mercurio si saria rotto il collo; e cosi ho trova
+                            la vostra Aquila</foreign> dans l'Ecurie, attachée au ratelier, et je m'en suis <foreign
+                            rend="italic" xml:lang="ita">servi per far tutte le commissioni</foreign> dont je suis
+                        chargé.</p>
+                </sp>
+                <sp>
+                    <speaker>JUPITER.</speaker>
+                    <p>Et bien, j'ay quelque chose à te dire. Descens, et prens la forme d'un Berger.</p>
+                </sp>
+                <stage type="mixed">La machine disparoist, et on voit Arlequin dans son habit naturel, et monté sur un
+                    asne.</stage>
+                <lb/>
+                <sp>
+                    <speaker>JUPITER</speaker>
+                    <stage rend="italic" type="modifier">continue.</stage>
+                    <p>Laisse-là ton asne, et viens me donner des nouvelles de là-haut.</p>
+                </sp>
+                <sp>
+                    <speaker>ARLEQUIN</speaker>
+                    <stage type="modifier">descendant de dessur son âne, et s'avancant vers Jupiter.</stage>
+                    <p>Vrayment, vrayment, il est arrivé bien du fracas là-haut depuis que vous en estes sorti. <foreign
+                            rend="italic" xml:lang="ita">Vulcano, come Vosignoria sà, é malizioso come un
+                            diavolo</foreign>. Il s'est avisé de <pb n="3" xml:id="G_vol1_003"/>faire des filets per
+                        attrapar <foreign rend="italic" xml:lang="ita">Marte con Venere; e con questa scusa promenandosi
+                            nel Zodiaco</foreign>, il s'est approché du Signe des Poissons, et avec son filet les a
+                        pris, et les est allé vendre à la Halle à une Poissonniere. <foreign rend="italic"
+                            xml:lang="ita"> Marte che hà visto sta furberia, a tira la spada</foreign>, et a couru aprés
+                        Vulcain. Mais par malheur en passant il a marché sur le Scorpion, qui l'a d'abord piqué à la
+                        jambe, <foreign rend="italic" xml:lang="ita">che gli è diventa grossa come la testa; e come l'hà
+                            paura ch'el poison non penetra, el m'ho ordina</foreign> de luy acheter une boëte
+                        d'orvietan, et de la luy porter. <foreign rend="italic" xml:lang="ita">Altra
+                            Commission</foreign>. <foreign rend="italic" xml:lang="ita">La Luna</foreign> est dans un
+                        emportement terrible. Elle dit un million de choses qui n'ont aucune suite, et j'apprehende qu'à
+                        la fin la Lune ne devienne lunatique. <foreign rend="italic" xml:lang="ita">L'è in colera contro
+                            gli Astronomi</foreign>, parce qu'ils ont dit qu'elle avoit de taches au visage. <foreign
+                            rend="italic" xml:lang="ita">a se picca di beltà</foreign>, et cela ne luy fait pas plaisir.
+                        La m'hà pregà de luy faire en aller ses taches. J'ay resolu de luy mener cinq ou six des plus
+                        habiles Dégraisseurs de Paris, qui en fort peu de temps les luy ôteront à coup seur. Saturno est
+                        enrhumé; el m'hà dit d'andar nella rua della Huchetta per comprarghe del sirop de Capillaires,
+                        per madurar il suo rumo. <foreign rend="italic" xml:lang="ita">Bacco é cosi imbriag, che bisogna
+                            che ghe porta <pb n="4" xml:id="G_vol1_004"/> una botta d'oignons, per far de la supa à
+                            l'yvrogne, per disimbriacarlo</foreign>. L'è arrivad in Ciel <foreign rend="italic"
+                            xml:lang="ita">una Cometa che hà una coda</foreign> de deux cent lieues de long, et elle
+                        prétend que je lui serve de laquais, et que je la luy porte. Je luy ay répondu que je ne pouvois
+                        pas faire cela, parce que si je luy portois la queue; quand Madame la Comete arriveroit au logis
+                        pour dîner, j'aurois encore deux cent lieues à faire, et je n'arriverois jamais assez-tôt pour
+                        manger.</p>
+                </sp>
+                <sp>
+                    <speaker>JUPITER.</speaker>
+                    <p>Je voudois bien sçavoir...</p>
+                </sp>
+                <sp>
+                    <speaker>ARLEQUIN.</speaker>
+                    <p>Quoy? Des nouvelles des Antipodes? En voicy.</p>
+                    <stage type="modifier">(Il lit.)</stage>
+                    <lb/>
+                </sp>
+                <sp>
+                    <speaker>DES ANTIPODES.</speaker>
+                    <p>Ces gens-là souhaiteroient avec impatience de sçavoir si c'est eux, ou si c'est nous qui vont la
+                        teste en bas, et les pieds en haut.</p>
+                </sp>
+                <sp>
+                    <speaker>DE TARTARIE.</speaker>
+                    <p>Le Grand Kam des Tartares ayant eu une grande querelle avec sa femme, il luy a fait faire son
+                        procés, et l'a fait condanner aux Galeres. La cause de cette querelle estoit qu'estant
+                        extrêmement pressée d'un cours de ventre, elle s'estoit par mégarde servi de son Turban au lieu
+                        de pot de chambre.</p>
+                </sp>
+                <pb n="5" xml:id="G_vol1_005"/>
+
+                <sp>
+                    <speaker>DE BARBARIE.</speaker>
+                    <p>Le Sultan Barbet, Quatriéme du nom, surnommé le Barbu, a défendu à tous Barbiers, de quelle
+                        qualité et condition qu'ils soient, de raser la barbe aux Eunuques de son Serrail, à peine
+                        d'estre mis entre les mains du sieur Barbot le Questionnaire, et mourir dans l'eau froide.</p>
+                </sp>
+                <sp>
+                    <speaker>DE PARIS.</speaker>
+                    <p>Les Maris sont icy dans une tres grande consternation, car on menace d'enrôller tous ceux qui
+                        sont las de leurs femmes... Ma foy, si cela est, je ne voy pas dix Maris hors du service.</p>
+                </sp>
+
+                <sp>
+                    <speaker>JUPITER.</speaker>
+                    <p>Il vaudroit bien mieux enrôller les femmes, cela seroit de beaux Regimens de Dragons.</p>
+
+                </sp>
+                <sp>
+                    <speaker>ARLEQUIN</speaker>
+                    <stage type="modifier">continuant de lire.</stage>
+                    <p>D'autres disent qu'il y a un Arrest sous la Presse, qui permet à un chacun de se démarier,
+                        moyennant une somme qui sera liquidée suivant la méchanceté de la femme.</p>
+                </sp>
+                <sp>
+                    <speaker>JUPITER.</speaker>
+                    <p>Malepeste! si l'on crée des Tresoriers de ces revenus-là, ces Charges rendront plus que celles de
+                        Tresorier de L'Epargne.</p>
+                </sp>
+                <sp>
+                    <speaker>ARLEQUIN</speaker>
+                    <stage rend="center" type="modifier">continuant de lire.</stage>
+                    <p>Un sergent au Chastelet a presenté <pb n="6" xml:id="G_vol1_006"/> Requeste, à ce qu'il soit
+                        défendu aux Comediens Italiens de ne plus jouer son nez à la Comedie. Il a voulu engager la
+                        Communauté d'intervenir pour prendre son fait et cause, mais elle n'a pas voulu; parce qu'il n'y
+                        a point de Sergent qui ait le nez fait comme luy.</p>
+                </sp>
+
+                <sp>
+                    <speaker>D'ESPAGNE.</speaker>
+                    <p>Ces jours passez, dans une feste de Taureaux, un homme s'étant presenté pour combattre un Taureau
+                        extrêmement furieux, on fut étonné de voir ce Taureau humilié devant lui; et comme on cherchoit
+                        la cause d'un effet si prodigieux, on sçut que cet homme estoit marié à une femme d'humeur
+                        galante, et que sa teste étant mieux armée que celle du Taureau, cet animal luy avoit témoigné
+                        son respect et sa soumission.</p>
+                </sp>
+                <sp>
+                    <speaker>JUPITER.</speaker>
+
+                    <p>Ecoute, Mercure. <foreign rend="italic" xml:lang="ita">Io sono innamorato di Rosalba, ed ho
+                            bisogno del tuo sapere per rendermela favorevole</foreign>. <foreign rend="italic"
+                            xml:lang="ita">Parlale da mia parte</foreign>, découvre-luy mon amour, <foreign
+                            rend="italic" xml:lang="ita">e fa in modo ch'ella si volga a contentar le mie
+                            voglie</foreign>. <foreign rend="italic" xml:lang="ita">Adio</foreign>.</p>
+                    <stage type="exit">Jupiter s'en va</stage>
+                    <stage type="mixed">, et Pan arrive ensuite, qui voyant Arlequin, le carresse, et luy apprend qu'il
+                        est amoureux de Rosalbe.</stage>
+                </sp>
+                <pb n="7" xml:id="G_vol1_007"/>
+
+                <sp>
+                    <speaker>ARLEQUIN</speaker>
+                    <stage rend="center italic" type="modifier">au Dieu Pan.</stage>
+                    <p>Vous amoureux de Rosalbe? Ecoutez, je suis sincere. <foreign rend="italic" xml:lang="ita">Rosalba
+                            è bella</foreign>; et vous vous estes admirablement effroyable. <foreign rend="italic"
+                            xml:lang="ita">Rosalba ha una bella</foreign> physionomie; et vous, vous avez une
+                        physionomie patibulaire. <foreign rend="italic" xml:lang="ita">Rosalba è ben fatta</foreign>; et
+                        vous, vous estes fait comme un magot.</p>
+                    <stage type="novelistic">PAN répond qu'il est beau, et qu'il est le Dieu Pan.</stage>
+                    <lb/>
+                </sp>
+                <sp>
+                    <speaker>ARLEQUIN.</speaker>
+                    <p>Cela est vray. <foreign rend="italic" xml:lang="ita">Vosignoria è il Dio Pane, ma un
+                            pane</foreign> bien bis, <foreign rend="italic" xml:lang="ita">un pane bruno</foreign>, plus
+                        propre à faire du biscuit pour de Galeriens, qu'à contenter l'appetit d'honnêtes gens.</p>
+                    <stage type="novelistic">Pan appercevant l'asne sur lequel Arlequin estoit monté, demande à Arlequin
+                        si cet asne luy appartient. Arlequin répond qu'il est à luy; que c'est un asne virtuoso, qui
+                        sçait faire le manege, qui corbette, qui jouë fort bien du clavessin. Pan demande s'il veut le
+                        luy prêter. Arlequin y consent. Pan monte sur l'asne, lequel après avoir fait quelque pas, se
+                        separe en deux, laissant Pan par terre. Arlequin se mocque de luy et s'en va.</stage>
+                </sp>
+
+
+            </div>
+
+            <div n="2" type="scene" xml:id="G_I_01_s2">
+                <pb n="8" xml:id="G_vol1_008"/>
+                <head>COMPLIMENT DARLEQUIN <lb/> A ROSALBE.</head>
+                <sp>
+                    <speaker>ARLEQUIN</speaker>
+                    <p> Madame.... Pour revenir à ce que je vous disois, je suis Mercure, Ambassadeur Extraordinaire, et
+                        je vous dis de la part de Jupiter, que vos yeux font plus de bruit dans le Ciel, que Brioché
+                        n'en fait sur la terre avec ses Marionnettes, et que mon bas ventre n'en fait lors qu'il est
+                        rempli de vents. Votre taille luy a adroitement taillé la pierre dans la vessie de son coeur, et
+                        il urine presentement un deluge de larmes. Jupiter vouloit venir luy-mesme en personne pour vous
+                        faire ce compliment. Mais un malheur qui luy est arrivé l'en a empêché. C'est, Madame, que
+                        s'étant transformé en Taureau pour enlever Europe, et ayant malheureusement passé en cet
+                        équipage dans la ruë des Boucheries, les Bouchers l'ont pris pour un boeuf échappé de quelque
+                        tuerie, et ont d'abord sauté dessus à grands coups de bâton, et si je ne fusse arrivé au plutôt,
+                        et que je n'eusse crié : Arrêtez, arrêtez, c'est Jupiter; Jupiter couroit risque de servir de
+                        boeuf à la mode, pour l'ordinaire de quantité de Gascons.</p>
+                    <stage type="novelistic">ROSALBE dit qu'elle n'aime point Jupiter, et qu'elle ne le veut point
+                        aimer.</stage>
+                </sp>
+                <pb n="9" xml:id="G_vol1_009"/>
+                <sp>
+                    <speaker>ARLEQUIN</speaker>
+                    <p>Ah Madame, que dites-vous-là? Quel desordre effroyable causeriez-vous dans le monde si vous
+                        parliez serieusement? Jupiter en mourroit de douler, et cette cruelle mort rendroit les semaines
+                        sans Jeudis, les mois plus courts de quatre ou cinq jours, et on payeroit douze jours plus tôt
+                        les termes des maisons, qui ne viennent déja que trop vîte.</p>
+                </sp>
+            </div>
+            <div n="3" type="scene" xml:id="G_I_01_s3">
+                <head type="scene">COMPLIMENT<lb/> D'ARLEQUIN A PROSERPINE<lb/> AVANT LE PLAIDOYÉ.</head>
+
+                <sp>
+                    <speaker>ARLEQUIN</speaker>
+                    <stage type="mixed">habillé en deuil, se portant luy-mesme la queue, après avoir fait le tour du
+                        Theâtre, chante les paroles suivantes sur ce bel air Italien de l'Illustre M. de Lully.</stage>
+                    <lg xml:lang="ita">
+                        <l>Deh piangete al pianto mio</l>
+                        <l>Per la morte di Plutone</l>
+                        <l>Che ha mangiato un gran marone</l>
+                        <l>Arrostito al foco rio. Deh, etc.</l>
+                    </lg>
+
+                    <stage type="mixed">Après avoir chanté il se tourne vers Proserpine, et dit:</stage>
+
+                    <p><foreign rend="italic" xml:lang="ita">Indiavolatissima Signora, benche habbi un processo con
+                            Vosignoria, nientedimeno non posso far a manco di condolerme con lei della morte</foreign>
+                        de votre tres chere, tres noire, et tres <pb n="10" xml:id="G_vol1_010"/> diabolique moitié.
+                            <foreign rend="italic" xml:lang="ita">Parlo del Diavolo vostro mary, e mio amigo</foreign>.
+                        Helas! <foreign rend="italic" xml:lang="ita">l'era il Diavolo il piu honest'homô che si podesse
+                            trovar</foreign>. <foreign rend="italic" xml:lang="ita">L'esprit del mondo el piu</foreign>
+                        insinuant, <foreign rend="italic" xml:lang="ita">e cosi fin</foreign>, <foreign rend="italic"
+                            xml:lang="ita">ch'el veneva</foreign> à bout <foreign rend="italic" xml:lang="ita">de tutto
+                            quel ch'el tentava</foreign>. <foreign rend="italic" xml:lang="ita">La perdità è
+                            grande</foreign>. <foreign rend="italic" xml:lang="ita"> Madama; e benche, e benche si
+                            dica</foreign>: Réjouissez-vous, le Diable est mort, <foreign rend="italic" xml:lang="ita"
+                            >bisognara aspettar un pezzo, avanti ch'el ne venga un altro simile</foreign>. <foreign
+                            rend="italic" xml:lang="ita">Non son qui Madama, per arrestar le vostre lagrime</foreign>,
+                        elles sont trop justes. Pleurez donc, Madame, de par tous le Diables, pleurez; et si la source
+                        de vos larmes se tarit, mi offro, per far honor al vostro defunto mary, de vous donner un
+                        lavement expulsatif d'un si grand volume, che la décoction vous en sortira par les yeux,
+                            e<foreign rend="italic" xml:lang="ita">ne fornira con abondanza le lagrime.</foreign>
+                    </p>
+                </sp>
+                <sp>
+                    <speaker>PROSERPINE</speaker>
+                    <stage rend="center italic" type="modifier">injurie Arlequin, et il luy répond:</stage>
+
+
+                    <p>Madame, vous avez le caquet bien affilé: mais vous estes femme, c'est assez. Vous direz vos
+                        raisons, et moy les miennes; et puisque le Defunt m'a laissé Executeur du Testament, je le feray
+                        valoir dans toutes ses clauses et circonstances. La gueule du Juge en petera, Madame. A vous
+                        revoir. Je vais me preparer.</p>
+                </sp>
+            </div>
+
+            <div n="4" type="scene" xml:id="G_I_01_s4">
+                <pb n="11" xml:id="G_vol1_011"/>
+
+                <head type="scene">PLAIDOYÉ<lb/> EN FAVEUR DES PETITS.</head>
+
+                <!--<ab>
+                            <graphic url="immagini/arlequinMercureGalant3.png"/>
+                        </ab>-->
+
+                <stage rend="italic" type="mixed">Plutons, Orphelins par la mort de leur Pere le Diable: Contre
+                    Proserpine leur Mere.</stage>
+                <sp>
+                    <speaker>ARLEQUIN</speaker>
+                    <stage rend="center italic" type="modifier">plaidant.</stage>
+                    <p>L'Emphase et l'Exorde estant presque toujours l'ornement d'une méchante cause, j'entre à corps
+                        perdu dans la mienne, et m'ecrie d'un ton piteux et melancolique: Le Diable est mort. Est-il
+                        rien de plus surprenant? Le Diable a fait un Testament: Est-il rien de plus libre et de plus
+                        ordinaire? Le Diable m'en fait l 'Executeur: Que pouvoit-il faire de plus judicieux? Sa
+                        Diablesse de femme dispute le Testament: Quelle malice! Grippimini luy preste son secours:
+                            <foreign rend="italic" xml:lang="ita">Quelle friponnerie</foreign>! Deux grand Moyens dans
+                        cette Cause: La méchanceté d'une Femme; la friponnerie d'un Procureur. Hesiterez-vous,
+                        Messieurs, à prononcer sur ces deux Chefs? Rien de plus méchant qu'une femme: L'experience vous
+                        l'apprend. Rien de plus ruineux qu'un <pb n="12" xml:id="G_vol1_012"/> Procureur: Il faut
+                        n'avoir jamais plaidé pour en disconvenir. Grippimini, Messieurs, Grippimini... son nom fait son
+                        portrait. Je passe au détail de ma Cause.</p>
+                    <p>Feu le Diable d'affreuse memoire, voulant mourir en bonne odeur, et laisser à sa famille des
+                        marques de son naturel et de sa tendresse, fait un Testament: mais un Testament vêtu et revêtu
+                        de toutes ses formes. A l'égard du Testateur, il êtoit d'âge competant. Il étoit maître de ses
+                        biens, de ses volontez, et de toute diablerie. Quant au Testament, n'y a-t-il pas mis tous les
+                        ingrediens necessaires pour le rendre valable et solennel. Ignoroit-il la chicane, luy qui l'a
+                        mise dans le lustre où nous la voyons aujourd'huy? Apprehendoit-il la surprise des Procureurs et
+                        des Avocats, luy qui leur fournit tant de moyens pour assassiner la Justice du fond, par la
+                        rigueur de la forme, et pour sauver, quand bon luy semble, l'irrégularité de la forme par le
+                        seul merite du fond? Pouvoit-il pecher contre les Loix et la Coutume, luy qui les fait partout
+                        interpreter à son gré? Se défioit-il de son credit parmi le Juges, luy qui les corrompt trop
+                        souvent par les sollicitations et par l'interest? Ah, Messieurs, Pluton n'est pas un Diable
+                        manchot dans les affaires. C'est un Pere équitable, qui <pb n="13" xml:id="G_vol1_013"/> veut
+                        que ses enfans fassent du mal à tout le genre humain, sans que le genre humain leur en puisse
+                        rendre. C'est un Pere surpris par la mort, et pressé par l'amitié, qui épanche sur ses enfants
+                        en expirant, tous les crimes dont ils doivent estre capables. Beau naturel, Messieurs! <foreign
+                            rend="italic" xml:lang="ita"> Belle</foreign> tendresse!</p>
+                </sp>
+
+                <sp>
+                    <speaker>LE JUGE.</speaker>
+                    <p>Mercure, venons au fait. Le Testament est-il en bonne forme?</p>
+                </sp>
+                <sp>
+                    <speaker>ARLEQUIN.</speaker>
+                    <p>Je le soutiens, Messieurs, bon et dans la forme, et dans la matiere. C'est un Testament écrit sur
+                        la peau du plus malin diable qui ait jamais esté corroyé. Testament écrit sur la peau d'un
+                        diable blanchi dans l'ordure et dans la chicane! Le dirai-je, Messieurs? C'est un Testament
+                        écrit sur la peau d'un Greffier. Quand le mensonge et la calomnie voudroient noircir cette
+                        verité, les griffes seules démentiroient la calomnie et le mensonge. <stage rend="italic"
+                            type="setting">(Il montre une peau qu'il tient dans la main, aux quatre coins de laquelle
+                            sont quatre griffes de fer blanc, et sur laquelle est écrit le Testament.)</stage> La Loy,
+                        Paragraphe 7. Digeste 15. semble n'avoir esté faite que pour notre espece, <foreign
+                            rend="italic" xml:lang="lat">Ex ungue leonem.</foreign> C'est à dire, Messieurs, que le lion
+                        se connoist <pb n="14" xml:id="G_vol1_014"/> par l'ongle, et le Greffier par le griffe. Venons à
+                        la forme. Le Testament dont il s'agit est entierement écrit et paraphé de la main du deffunt:
+                        premiere formalité. Il est reconnu pardevant deux Notaires, au desir de la Coutume de Paris:
+                        autre formalité. Mais, Messieurs, ce qui fait la validité du Testament olographe, et ce que je
+                        vous prie tres-humblement de remarquer, c'est que le deffunt fait mention expresse de
+                        l'institution d'heritier, qui est formelle au corps du Testament. J'epuiserois le Code et les
+                        Pandectes, si...</p>
+                </sp>
+                <sp>
+                    <speaker>GRIPPIMINI</speaker>
+                    <stage rend="center italic" type="modifier">l'interrompt brusquement.</stage>
+                    <lb/>
+                </sp>
+                <sp>
+                    <speaker>ARLEQUIN.</speaker>
+                    <p>Laissez, laissez, Grippimini, hé laissez. Voila qui est admirable! un Procureur interrompre un
+                        Avocat à l'Audience! En verité, Messieurs, je n'y connois plus rien... Il parlera encore? Hé
+                        laissez, laissez. Contentez-vous de tourmenter les gens dans votre Etude, et ne nous venez pas
+                        icy incommoder en plaidant. Puisque ces Messieurs me font l'honneur de m'entendre, c'est bien la
+                        moindre chose que vous vous taisiez quand je parle! Je ne vous ay point interrompu, moy, je vous
+                        ay bien laissé parler.</p>
+                    <stage rend="italic" type="delivery">(Il reprend le fil de son discours.)</stage>
+                    <p>J'épuiserois le Code et les Pandectes, si je <pb n="15" xml:id="G_vol1_015"/>rapportois icy tous
+                        les textes qui parlent de Testament. Aussi-bien nos Loix ne sont que trop usées depuis le temps
+                        qu'elle servent en de pareilles contestations. Quelqu'un me dira peut-estre, que les quatre
+                        Plutons pour qui je parle, sont issus ex damnata conjunctione. Ah de grace, Messieurs, n'agitons
+                        point cette perilleuse question. Vivons vous et moy dans la bonne foy sur ce chapitre. Combien
+                        les Souverains perdroient-ils de Sujets, si tous les enfans de leur Royaume n'estoient faits que
+                        par ceux qui ont droit d'en faire? Combien y auroit-il de successions vacantes, s'il ne se
+                        trouvoit des amis charitables qui portent des heritiers dans les familles qui en ont besoin? Mes
+                        pupilles sont venus constante matrimonio. Voila, Messieurs, ce qui établit leur estat et le
+                        vôtre. Voila ce qui décide du repos public; et voila ce qui m'acharne a soutenir le Testament.
+                        Quoy? pour favoriser l'avarice d'une veuve, vous laisserez courir sur la terre habitable les
+                        petits Plutons comme de pauvres diables? Auriez-vous la conscience de les voir sans train et
+                        sans équipage, eux qui font rouler tant de monde a Paris? Non feram, non patiar. Puisque leur
+                        pere me les a confiez, je veux qu'ils entrent de bonne grace dans le monde, et qu'ils y
+                        paroissent <pb n="16" xml:id="G_vol1_016"/> comme des diables de leur qualité. J'établiray
+                        l'aisné auprés des femmes, et le rendray si complaisant et si persuasif, qu'elles publieront par
+                        tout qu'il a de l'esprit comme un diable. Je mettray le second avec les Gens d'affaires, les
+                        Usuriers, et les Marchands; afin qu'il soit un diable de tout métier. Le troisième suivra le
+                        Barreau, et ne frequentera que des Procureurs pour estre quelque jour un diable en procés. Je
+                        jetteray le quatrième dans l'Epée, où je prétens qu'il fasse le diable à quatre. C'est de cette
+                        maniere qu'un Tuteur honneste homme doit veiller à l'établissement et à l`éducation de ses
+                        mineurs. Je conclus, à ce qu'il vous plaise debouter Grippimini de sa demande, et le condamner à
+                        une violente reparation pour certains mots de fripon, que je retorque contre luy, avec ce bel
+                        axiome de Pytagore. <quote rend="italic" xml:lang="lat">Procul hinc, procul estoprofani. Pares
+                            cumparibus. Odi profanum vulgus. Dixi.</quote>.</p>
+                </sp>
+
+                <!--<ab>
+                            <graphic url="immagini/arlequinMercureGalant4.png"/>
+                        </ab>-->
+
+            </div>
+        </body>
+
+        <back>
+
+            <div type="musicalScore">
+                <pb n="16I" xml:id="G_vol1_016I"/>
+                <pb n="16II" xml:id="G_vol1_016II"/>
+                <pb n="16III" xml:id="G_vol1_016III"/>
+                <pb n="16IV" xml:id="G_vol1_016IV"/>
+                <pb n="16V" xml:id="G_vol1_016V"/>
+                <pb n="16VI" xml:id="G_vol1_016VI"/>
+            </div>
+
+        </back>
+
+    </text>
+</TEI>

@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+    <fileDesc>
+
+      <titleStmt>
+        <title>Versione digitale di <title>Ettore Fieramosca o La disfida di Barletta: racconto</title></title>
+        <author>Massimo D'Azeglio</author>
+        <respStmt>
+          <resp>Conversione nel formato XML TEI a cura di</resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher>Università di Pisa</publisher>
+        <pubPlace>Pisa</pubPlace>
+        <availability>
+          <p>Questa versione elettronica è distribuita con la stessa licenza del testo originale, specificata al
+            seguente indirizzo Internet: <ref target="http://www.liberliber.it/biblioteca/licenze/" type="url"
+              >http://www.liberliber.it/biblioteca/licenze/</ref></p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>Il testo è tratto da una copia in formato immagine presente sul sito Biblioteca Nazionale Braidense (<ptr
+            target="http://www.braidense.it/dire.html"/>): <title>Ettore Fieramosca o La disfida di Barletta:
+            racconto</title> di <author>Massimo d'Azeglio</author>, <pubPlace>Milano</pubPlace>: <publisher>Borroni e
+            Scotti</publisher>, <date>1856</date>.</bibl>
+      </sourceDesc>
+
+    </fileDesc>
+    
+    <revisionDesc>
+      <change>
+        <date when="2019-08">Agosto 2019</date>
+        <name>Roberto Rosselli Del Turco</name>
+        <desc>Modificato e arricchito in maniera tale da costituire un file di test per gli elementi più comuni del
+          modulo core. Non tutta la codifica è semanticamente corretta, alcuni elementi sono stati inseriti quando altri
+          sarebbero stati preferibili.</desc>
+      </change>
+    </revisionDesc>
+
+  </teiHeader>
+
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>Ettore Fieramosca o La disfida di Barletta: racconto</titlePart>
+        </docTitle>
+        <byline>di <docAuthor>Massimo d'Azeglio</docAuthor></byline>
+        <docEdition>4. ed. milanese / riveduta e ritoccata dall'autore</docEdition>
+        <docImprint>
+          <pubPlace>Milano</pubPlace>
+          <publisher>coi tipi Borroni e Scotti</publisher>
+          <date>1856</date>
+        </docImprint>
+      </titlePage>
+
+      <div>
+        <epigraph>
+          <cit>
+            <quote>
+              <lb/>...degni che ogni Italiano procuri, quanto è in sè, che i nomi loro trapassino alla posterità
+              <lb/>mediante l'instrumento delle lettere. </quote>
+            <bibl><hi rend="smallcaps">GUICC</hi>. <title>Storia d'Italia</title>. L. V, c. V. </bibl>
+          </cit>
+        </epigraph>
+      </div>
+
+      <pb n="3"/>
+
+      <div>
+        <ab rend="center">
+          <lb/>ALL'OTTIMA SUA MOGLIE
+          <lb/>GIULIA
+          <lb/>FIGLIA DI ALESSANDRO MANZONI
+          <lb/>DELLE COSE PATRIE STUDIOSA CULTRICE
+          <lb/>CONSACRA QUESTO VOLUMETTO
+          <lb/>L'AUTORE 
+          <lb/>SUPERBO DI POTER RACCOMANDARE
+          <lb/>L'UMIL LAVORO
+          <lb/>A TANTO E SI CARO NOME
+        </ab>
+      </div>
+
+    </front>
+
+    <body>
+
+      <pb n="4"/>
+
+      <div n="1" type="chapter">
+
+        <head>CAPITOLO I.</head>
+
+        <p>Al cadere d'una bella giornata d'aprile dell'anno <date>1503</date> la campana di <name type="place">San
+            Domenico in Barletta</name> sonava gli ultimi tocchi dell'avemaria. Sulla piazza vicina in riva al mare,
+          luogo di ritrovo degli abitanti tranquilli che, nelle terricciuole dei climi meridionali specialmente,
+          sogliono sulla sera essere insieme a barattar parole al sereno per riposarsi dalle faccende del giorno,
+          stavano col fine medesimo dispersi in vari gruppi molti soldati spagnuoli ed italiani, alcuni passeggiando,
+          altri fermi, o seduti, od appoggiati alle barche tirate a secco, delle quali era ingombra la spiaggia; e,
+          com'è costume delle soldatesche d'ogni età e d'ogni nazione, il loro contegno era tale che pareva dire: il
+          mondo è nostro. Di fatto, lasciato loro il campo migliore, si tenevano i terrazzani in disparte, dando così a
+          questa loro burbanza tacita approvazione. Chi per figurarsi questo quadro si volesse rappresentare una simile
+          radunata de' nostri soldati moderni nella loro misera <emph rend="underscore">uniforme</emph>, sarebbe lontano
+          assai dall'averne una giusta immagine. L'esercito di <name type="person">Consalvo</name>, le fanterie
+          specialmente, quantunque le meglio in arnese, e le migliori di tutta cristianità, non conoscevano però, più di
+          qualunque altra milizia del <date>secolo XVI</date>, la stretta disciplina moderna, che è giunta a render
+          simile un soldato all'altro dalle scarpe al cappello. Qui invece, ogni uomo che facesse il mestier dell'arme a
+          piede o a cavallo, poteva vestirsi, armarsi ed adornarsi come più gli piacesse; onde nasceva fra questa turba
+          una mirabile varietà e vaghezza nelle fogge, <distinct>ne'</distinct> colori e nel portamento, dal quale si
+          poteva facilmente conoscere a qual nazione appartenesse ogni individuo. Gli Spagnuoli per lo più serii
+          immobili, atteggiati da bravacci, ed avvolti (o com'essi dicono <w rend="underscore" xml:lang="spa"
+            >embozados</w>) nella <emph rend="underscore">cappa</emph> nazionale, dalla quale si vedeva uscir per
+          disotto la lunga e sottil lama di <name type="place">Toledo</name>; gl'Italiani loquaci e pronti al gestire,
+          in sajo od in farsetto, colla daga pistolese appesa dietro le reni.</p>
+
+        <p>Al sonare della campana era cessato il susurro, e scomparendo la maggior parte de' cappelli, le teste eran
+          rimaste scoperte, perchè in quel tempo anche i soldati credevano in <name type="deity">Dio</name>, e talvolta
+          lo pregavano. Dopo piccola pausa tornarono a luogo i cappelli, ricominciò il bisbiglio; e benchè quella turba
+          presa insieme avesse al primo aspetto un non so che di gajo e di vivace, si poteva tuttavia facilmente
+          avvedersi, girando fra i diversi crocchi, esservi un motivo comune di tristezza e di scoramento, al quale
+          erano volte le menti e le parole di tutti. Infatti il motivo era vero e possente. La fame cominciava a farsi
+          sentire fra i soldati ed anche fra gli abitanti di <name type="place">Barletta</name>, ove il gran <rs
+            type="person">Capitano</rs>, aspettando i tardi ajuti di <name type="place">Spagna</name>, teneva chiuso
+          l'esercito di troppo inferiore a quello dei Francesi, perchè s'arrischiasse commetter la somma delle cose alla
+          fortuna d'una giornata.</p>
+
+        <p>Tre lati della piazza erano chiusi da certe povere case di <choice>
+            <orig>marinaj</orig>
+            <reg>marinai</reg>
+          </choice> e pescatori, dalla chiesa e dall'osteria. Il quarto s'apriva alla marina, ingombro, com'è costume
+          <choice>
+            <sic>ditali</sic>
+            <corr>di tali</corr>
+          </choice> luoghi, di barche, reti e di altri attrezzi pescherecci; ed all'ultima linea dell'orizzonte si
+          vedeva sorgere dal seno delle acque la bruna forma del monte <name type="place">Gargano</name>, sulla cui
+          vetta andava morendo l'ultimo raggio del sole cadente.</p>
+
+        <p>Nello spazio frapposto, veleggiava chetamente un legno sottile; e si volgeva tratto tratto per cercare il
+          vento che soffiava incostante in quel golfo, increspando qua e là a lunghe strisce la superficie del mare. La
+          distanza tuttavia della nave e la dubbia luce del crepuscolo non lasciavano distinguere qual fosse la sua
+          bandiera.</p>
+
+        <p>Uno spagnuolo, che insieme con molti soldati era presso alla riva, la guardava fisso, aguzzando le ciglia, ed
+          attorcigliandosi certi grandissimi baffi più bigi che neri.</p>
+
+        <said rend="dashBeforeAfter">Che cosa guardi che sembri una statua, e non dai retta a chi discorre con
+          te?</said>
+
+        <pb n="5"/>
+
+        <p>Quest'apostrofe d'un soldato napoletano, che non avendo ottenuta risposta ad una prima domanda, se l'aveva
+          per male, non mosse nè punto nè poco l'imperturbabile <rs type="person">Spagnuolo</rs>. Alla fine con un
+          sospiro che pareva uscire più da un mantice che dal petto d'un uomo, disse: <said rend="dashBeforeAfter">
+            <seg rend="underscore" xml:lang="spa">Voto à Dios que nuestra segnora de <name type="place"
+              >Gaeta</name></seg>, che manda buon vento e buon cammino a tanti che la pregano in mare, potrebbe mandar
+            ora questa fusta a noi che la preghiamo in terra, e non abbiamo da metter sotto i denti altro che il calcio
+            dell'archibuso! Chi sa che non porti grano e provvisioni a quei <w rend="underscore" xml:lang="spa"
+              >descomulgados</w> di Francesi che ci tengono stretti in questa gabbia per farci morir di fame... <note
+              n="1" place="bottom">E Dio mi dia mala Pasqua, e sia la prima che verrà, ecc.</note>
+            <seg rend="underscore" xml:lang="spa">Y mala Pasqua me de Dios y sea la primera que viniere, si a su grazia
+              el segnor <name type="place">Gonzalo Hernandez</name></seg> quando ha ben pranzato e meglio cenato
+            gl'importa di noi più che del<note n="2" place="bottom">Del cuoio delle sue scarpe.</note>
+            <seg rend="underscore" xml:lang="spa">cuero de sus zapatos</seg>.</said>
+          <said rend="dashBeforeAfter">Che cosa può far <name type="person">Consalvo</name>?</said> rispose con <choice>
+            <orig>istizza</orig>
+            <reg>stizza</reg>
+          </choice> il <rs type="person">Napoletano</rs>, contento di contraddire: <said>dovrà diventar pane per entrar
+            in corpo ad una bestia come te? Quando ne avrà, ne darà; e le navi che il malanno loro ha portate nelle
+            secche di <name type="place">Manfredonia</name>, chi l'ha divorate? <name type="person">Consalvo</name>, o
+            voi altri?</said></p>
+
+        <p>Lo Spagnuolo un po' mutato in viso mostrava di voler rispondere, ma fu interrotto da un altro del crocchio,
+          il quale battendogli sulla spalla, scuotendo la testa, ed abbassando la voce, come per dar maggior peso alle
+          parole: <said rend="dashBeforeAfter">Ricordati Nuno</said>, gli disse, <said rend="dashBeforeAfter">che il
+            ferro della tua picca era a tre dita dal petto di <name type="person">Consalvo</name> il giorno che in <name
+              type="place">Taranto</name> per esser pagati si fece quello strano scherzo...; e se v'è stata volta in cui
+            abbia creduto che quel tuo collo nero dovesse far amicizia collo spago, è stata quella... Ti ricordi che si
+            faceva schiamazzi da sbigottir un leone? Si muove là il torrione del castello?</said> (ed additava la torre
+          maggiore della rôcca che mostrava il capo al disopra delle case). Tanto si mosse <name type="person"
+            >Consalvo</name>, e freddo freddo... mi par di vederlo... con quella sua mano pelosa scansò il ferro e ti
+            disse<note n="3" place="bottom">Bada che senza volerlo non mi ferisca.</note>: <said><seg rend="underscore"
+              xml:lang="spa">mira que sin querer no me hieras</seg>...</said></p>
+
+        <p>A questo punto il volto bruno del vecchio soldato diventò più bruno la metà, e per rompere un discorso che
+          poco gli garbava, tagliò la parola all'altro dicendo: <said rend="dashBeforeAfter">Che cosa m'importa a me di
+              <name type="place">Taranto</name>, della picca, o di <name type="person">Gonzalo</name>?</said>
+          <said rend="dashBeforeAfter">Che t'importa?</said> ripigliò il primo sorridendo. <said rend="dashBeforeAfter"
+            >Se vuoi dar retta a <name type="place">Ruy Perez</name>, e serbar libero il passaggio al pane per quando
+            Dios fuere servido di mandarcene, non parlar tant'alto che <name type="person">Consalvo</name> ti senta e si
+            ricordi di <name type="place">Taranto</name>... mezza parola è poco, e una è troppo,</said> dice l'<rs
+            type="person">Italiano</rs>; <said>ed uomo avvisato, mezzo salvato.</said></p>
+
+        <p>Nuno rispose con un certo garbuglio, al quale la sua mente non pareva avesse gran parte: l'avviso ricevuto lo
+          metteva in pensiero suo malgrado; volse con dubbio l'occhio in giro per veder se l'idea di denunciare le sue
+          poco misurate parole era nata in qualche cervello. Quest'indagine per fortuna fu, o gli parve
+          rassicurante.</p>
+
+        <gap extent="unknown" reason="unknown" rend="[...]"/>
+
+      </div>
+
+      <div>
+
+        <head>CAPITOLO VI.</head>
+
+        <p>In questa giunsero i Francesi che dovevano condurli al campo: i due amici s'alzarono, e presi i cavalli
+          s'avviarono con loro.</p>
+        <p>Attraversarono per mezzo lunghe file di tende e di trabacche, mirando l'assetto di quelle genti che correvano
+          sulla loro via per sapere a che venissero; ed in mezzo ad una folla di soldati sboccarono su una piazza
+          formata da molti padiglioni disposti in giro, nel centro del quali, sotto una gran quercia, era teso quello
+          del capitano. Vi s'era radunato il fiore dei caporali dell'esercito; scavalcarono, e furono messi dentro. Dopo
+          cortesi, ma brevi accoglienze, vennero portati due sgabelli, sui quali sederono volgendo le spalle alla
+          porta.</p>
+        <p>La tenda parata d'un drappo azzurro sparso di gigli d'oro era in forma d'un quadrilungo, diviso in due
+          quadrati uguali, da quattro colonne sottili di legno a strisce celesti e d'oro. In fondo era il letto coperto
+          d'una pelle di pardo, sotto il quale dormivano sdrajati due gran levrieri. Poco distante una tavola ingombra
+          confusamente d'un monte d'ampolle, di spazzole, di collane, di giojelli, e sopra la quale era appeso uno
+          specchio poligono chiuso in una cornice d'argento lavorata a cesello, mostrava che il gentil duca non
+          isdegnava la cura dell'attillarsi: ed un elegante moderno avrebbe bensì cercato invano su questa toilette
+          l'indispensabile acqua di Colonia, ma poteva trovar però un compenso in due gran vasi di argento dorato sui
+          quali era scritto Eau de Citrebon, ed Eau Dorée. Più fogge d'armature eran appiccate alle colonne a guisa di
+          trofei, ed in traverso posate sovra arpioni, lance e zagaglie.</p>
+        <p>Sotto queste, nel mezzo, sedeva Luigi d'Armagnac duca di Nemours, vicerè di Napoli, eletto dal re Luigi XII a
+          capitano della guerra. Era vestito d'una cappa azzurra foderata di zibellino, e le sue nobili fattezze
+          splendevano di gioventù, d'ardire e di cortesia cavalleresca. D'Aubignì, Ivo d'Alegre, Bajardo, Msr. de la
+          Palisse, Chandenier, erano a' suoi lati, ed intorno intorno altri baroni e cavalieri di minor conto gli
+          facevan corona formando un circolo nel quale venivano a trovarsi rinchiusi Ettore e Brancaleone.</p>
+        <p>Quest'ultimo s'intendeva più di menar le mani che d'arringare, onde lasciò a Fieramosca il carico d'esporre
+          l'ambasciata.</p>
+        <p>Rizzossi il giovane e volse agli astanti in giro uno sguardo rapido, nel quale balenava un ardire senza
+          insolenza qual s'addiceva al luogo, agli ascoltanti, ed a ciò che era per esporre. Narrò l'insulto di La
+          Motta, propose la sfida, e per adempiere alla formalità d'uso, spiegato il cartello, lesse ad alta voce la
+          formula seguente:</p>
+
+        <floatingText>
+          <body>
+            <div type="letter">
+              <opener>
+                <salute>Haut et puissant Seigneur Louis d'Armagnac due de Nemours.</salute>
+              </opener>
+              <pb n="35"/>
+              <p>Ayant apprins que Guy de La Mothe en presence de don Ynigo Lopez de Ayala a dit que les gens d'armes
+                Italiens etoient pauvres gens de guerre; sur quoi, avec vostre bon plaisir, nous respondons qu'il a
+                meschamment menti, et mentirà toutes fois et quant qu'il dira telle chose. Et pour ce, demandons qu' il
+                vous plaise nous octroyer le champ a tonte outrance pour nous et les nostres, contre lui et les siens. à
+                nombre egal, dix contre dix.</p>
+
+              <closer>
+                <date>Die VIII Aprilis MDIII</date>. <signed rend="align-right">Prospero Colonna</signed>
+                <signed rend="align-right">Fabritio Colonna.</signed>
+              </closer>
+            </div>
+          </body>
+        </floatingText>
+
+        <p>Letto il cartello lo buttò in mezzo, a' piedi del duca, e Bajardo sguainata la spada lo raccolse colla punta.
+          Ettore allora fatta un po' di cadenza al ragionamento stava per finire, quando gli corse l'occhio su uno scudo
+          lucidissimo che gli stava appiccato in faccia, e faceva specchio a quelli che gli erano dietro le spalle. Vi
+          scorse l'immagine di Grajano d'Asti: si turbò; e volgendosi, vide ritto a due passi il marito di Ginevra, che
+          cogli altri lo stava ascoltando. Questa scoperta tanto repentina ed impreveduta tolse al fine del suo discorso
+          quella forza, che avrebbe voluto imprimergli. Da quelli, cui non eran noti i suoi casi, fu a tale accidente
+          attribuita una cagione troppo lontana dal vero, e che facea troppo torto all'onore di Fieramosca. Sorrise
+          taluno de' guerrieri francesi, e vi fu chi bisbigliò non doversi molto temere chi pareva turbarsi al solo
+          parlar di battaglia. Il giovane notò gli atti e le parole, e sentì una vampa di fuoco sulle guance; ma fermò
+          l'animo pensando, alla prova vedranno s'io tremi.</p>
+        <p>La risposta del duca non fu scarsa nè di parole nè di baldanza, maggiore di tanto che anch'esso dall'aspetto
+          dell'Italiano avea tolto argomento d'animo mal sicuro.</p>
+        <p>In pochi minuti finì il parlamento ed i due messaggeri trovaron rinfresco per loro e pei cavalli in una tenda
+          vicina.</p>
+        <p>Grajano aveva esso pure riconosciuto Fieramosca; e quando uscì dalla presenza del duca, gli tenne dietro.
+          S'avvicinò a lui salutandolo col viso poco curante di coloro che negli uomini valutano i doni della fortuna
+          più di quelli della virtù: l'avea conosciuto in povero stato, nè gli pareva che mostrasse essersi molto
+          avvantaggiato dacchè non s'eran più veduti. <said rend="dashBeforeAfter">Oh!</said> gli disse, <said
+            rend="dashBefore">ser Giovanni... no, ser Matteo... diavolo non mi ricordo... Basta, poco importa. E così,
+            chi non muore si rivede!</said></p>
+        <p><said rend="dashBeforeAfter">Appunto,</said> rispose Fieramosca, il quale malgrado la generosità del suo
+          carattere non poteva superare un senso di rammarico vedendo, chi credeva nel mondo di là, vivo e giusto
+          possessore di colei che amava più della vita. Ebbe un bel pensare, e sforzarsi per non lasciar quell'appunto
+          così asciutto; tutto fu inutile, e tacque. Grajano non era tale da accorgersi di queste mezze tinte; visto che
+          il discorso cadeva seguitò:</p>
+        <p><said rend="dashBefore">E così, che cosa facciamo? Stiamo per Spagna, eh?</said></p>
+        <p>Ad Ettore parve queste interrogazioni, in plurale sapessero un po' troppo di saccenteria, e rispose:</p>
+        <p><said rend="dashBefore">Che cosa facciamo? Voi, non so. Io sto per lancia col signor Prospero.</said></p>
+        <p><said rend="dashBeforeAfter">Eh! badate al proverbio,</said> disse ridendo il piemontese, <said
+            rend="dashBefore">Orsin, Colonna e Frangipani, riscuoton oggi e pagano domani.</said></p>
+        <p>Questo detto correva allora fra i soldati di ventura italiani, e nasceva dalla strettezza di denaro in cui si
+          trovavan spesso i baroni della Campagna di Roma, i quali eran perciò più avidi dell'altrui, che puntuali a
+          sborsar le paghe dei propri soldati.</p>
+        <p>Fieramosca non era sullo scherzare in quel momento, onde non rispose nulla: tuttavia, per non parere
+          scortese, lo domandò dell'esser suo, e perchè si fosse partito dal Valentino.</p>
+        <p><said rend="dashBeforeAfter">Oh!</said> rispose Grajano, <said rend="dashBefore">perchè colui ne vuol troppo,
+            ed ha messa troppa carne a bollire; e se oggi o domani muore il papa, gli saranno tutti addosso, e gli
+            faranno restituire
+          
+          <pb n="36"/>
+          
+            capitale e frutti. Basta, di quel galantuomo è meglio dirne nè mal nè bene.
+            Ora mi son accomodato qui, e son contentone che non cambierei col papa.</said></p>
+        <p>Durante questo dialogo eran venuti alla tenda ove trovarono da far colazione. Com'ebbero finito, e fu
+          sparecchiato, vennero richiamati dal duca per la risposta.</p>
+        <p>Fu questa, com'era dovere, piena di orgoglio e di jattanza. Esser pronti i Francesi a combattere; volersi
+          fossero non dieci ma tredici; numero tenuto infausto e scelto a presagir malanni agl'Italiani.</p>
+        <p>Fu consegnata ai messaggieri una lettera chiusa per Consalvo, e separatamente una lista de' combattenti
+          scelti per la parte francese.</p>
+        <p>Così accomiatati tornarono al padiglione aspettando che venissero i cavalli per partire. Comparvero intanto
+          fiaschi di vino, e bevettero in compagnia di molti cavalieri, fra' quali era Bajardo. Com'ebber bevuto, questi
+          pregò Fieramosca gli facesse veder la lista. Ettore se la cavò di seno e gliela diede: allora tutti curiosi si
+          strinsero a Bajardo, ed egli lesse i nomi seguenti:</p>
+
+        <list>
+          <item>Charles de Tourges.</item>
+          <item>Mare de Frignes.</item>
+          <item>Giraut de Forses.</item>
+          <item>Martellin de Lambris.</item>
+          <item>Pierre de Liaye.</item>
+          <item>Jacques de la Fontaine.</item>
+          <item>Eliot de Baraut.</item>
+          <item>Jean de Landes.</item>
+          <item>Sacet de Jacet.</item>
+          <item>Guy de la Mothe.</item>
+          <item>Jacques de Guignes.</item>
+          <item>Naute de la Fraise.</item>
+          <item>Claude Grajan d'Asti.</item>
+        </list>
+
+        <p><said rend="dashBeforeAfter">Claudio Grajano d'Asti!</said> esclamò Fieramosca guardandolo con
+          maraviglia.</p>
+        <p><said rend="dashBefore">Sì, Claudio Grajano d'Asti, rispose questi. Vi pare forse che non sia grande e grosso
+            come gli altri?</said></p>
+        <p><said rend="dashBefore">Ma ditemi, messer Claudio, sapete voi perchè si combatte questa sfida?</said></p>
+        <p><said rend="dashBefore">Che? Son sordo? Lo so sicuro.</said></p>
+        <p><said rend="dashBefore">Saprete dunque che gl'Italiani sono tacciati di poltroni e traditori dai Francesi, e
+            perciò si combatte. Ora ditemi, di che paese siete voi?</said></p>
+        <p><said rend="dashBefore">Son d'Asti.</said></p>
+        <p><said rend="dashBefore">Ed Asti non non è in Piemonte? Ed il Piemonte è Italia o Francia? Ed essendo voi
+            soldato italiano, volete combattere co' Francesi contra l'onore degl'Italiani?</said></p>
+        <p>Fieramosca scintillava dagli occhi dicendo queste parole. N'avrebbe usate di più gravi, ma si ricordava del
+          voto che gl'impediva di por mano all'arme contra costui.</p>
+        <p>Grajano invece, che era lontano mille miglia dal pensare di Fieramosca, non poteva capire sulle prime ove
+          andassero a parare tante interrogazioni. Capì a stento quand'ebbe finito, e gli parve la maggior sciocchezza
+          del mondo; onde senza quasi degnarsi di rispondere direttamente e da senno, si volse agli altri; e disse
+          ridendo:</p>
+        <p><said rend="dashBefore">Oh, sentite, sentite questa! Si direbbe che è il primo giorno che prende la lancia in
+            mano! Ho in tasca gl'Italiani, l'Italia e chi le vuol bene; servo chi mi paga, io. Non sapete, bel giovine,
+            che per noi soldati dov'è il pane è la patria?</said></p>
+        <p><said rend="dashBeforeAfter">Io non mi chiamo bel giovane; mi chiamo Ettore Fieramosca</said> rispose questi,
+          che non si potè più frenare <said rend="dashBefore">e non so nulla di queste poltronerie che voi dite. E se
+            non fosse...</said> Qui gli corse quasi involontariamente la mano sull'elsa, ma tosto la ritrasse, e seguitò
+          a parlare con quel volto contratto che fa chi è costretto ad inghiottire un boccone amaro.</p>
+
+      </div>
+
+      <div>
+
+        <head>CAPITOLO XV.</head>
+
+        <p>Venuto avanti, e fatta riverenza al re, cominciò costui una parlata in versi ottonari, che forse non sonarono
+          troppo bene all'orecchie di Vittoria Colonna, come non soneranno a quelle de' miei lettori, e che cominciava
+          così:</p>
+
+        <l>Di cristianità venemo,</l>
+        <l>Argonauti se chiamemo,</l>
+        <l>Al soldan de Babillonia</l>
+        <l>Che dio salvi sua corona.</l>
+
+        <lg>
+          <l>Di cristianità venemo,</l>
+          <l>Argonauti se chiamemo,</l>
+          <l>Al soldan de Babillonia</l>
+          <l>Che dio salvi sua corona.</l>
+        </lg>
+
+        <lg>
+          <l>Di cristianità venemo,</l>
+          <l>Argonauti se chiamemo,</l>
+          <l>Al soldan de Babillonia</l>
+          <l>Che dio salvi sua corona.</l>
+        </lg>
+
+        <p>E seguitando su questo metro, diceva com'eran venuti per riportarne con loro il vello d'oro. A queste parole
+          il re Oeta, dopo aver tenuto consiglio coi suoi baroni e colla figlia, rispondeva che era contento, e partendo
+          lasciava sola Medea con Giasone.</p>
+
+      </div>
+
+    </body>
+    
+    <back>
+      
+      <div type="appendix">
+
+        <head rend="center" type="main">APPENDICE
+          <note n="NdC">Appendice a cura di <ref target="#Faraglia1883">N. F. Faraglia</ref></note>
+        </head> 
+        
+        <head rend="center" type="secondary">
+          <lb/>I CAVALIERI DELLA DISFIDA
+          <lb/>
+          <lb/>DI
+          <lb/>
+          <lb/>BARLETTA
+        </head>
+      
+        <p>Dopo che pubblicai nell’Archivio storico napolitano, lo studio intorno ad Ettore e la casa Fieramosca, molte
+          cose furono scritte de’ tredici cavalieri italiani e francesi della disfida di Barletta; assai notevoli sono,
+          fra molti altri, gli articoli pubblicati dal comm. Ademollo nella <title>Rassegna Settimanale</title> e nella
+            <title>Rivista Europea</title>, e da <hi rend="italic">Hettorre</hi> nel giornale <title>Fanfulla</title>
+          <note n="1" place="bottom"><bibl><title>Rassegna Settimanale</title> vol. 3. n.° 53 — <title>Rivista Europea</title>
+            anno 10. 0 vol. XII. Fas. IV. <title>Fanfulla</title>, anno 10.° 1879, n.° 42, 43, 44</bibl>. Oltre <hi
+              rend="italic">Hettorre</hi> altri egregi scrittori di questo giornale si sono con amore occupati della
+            disfida e dei cavalieri, che la sostennero.</note>. Il sig. Ademollo ripubblicando il racconto della
+          disfida, come si trova nelle cronache di Jean d’Auton, alle quali nessuno di noi aveva posto mente prima di
+          lui, ha prodotto una testimonianza, che si può dire quasi nuova e molto importante. A me sembra però, che poi
+          sia venuto a certe conclusioni eccessive.</p> 
+        
+        <p>I nostri cronisti e storici hanno notato i nomi dei cavalieri francesi, i quali si scontrarono con
+          gl’italiani: Carlo la Motta, Marco de Frange o Fringe, Giacomo de Guigne, Pietro de Liaye, Giacomo de la
+          Fontaine, Giraut de Forses, Eliot de Baraut, Francesco de Pises, Graian d’Asti, Martellin de Sambris o
+          Lambris, Nanti de la Fraise Sachet de Sachet o Jachet, Giovanni de Landes. Alcuni nomi furono forse male
+          scritti da coloro, che ce li hanno tramandati, <choice>
+            <orig>perchè</orig>
+            <reg>perché</reg>
+          </choice> questi erano poco pratici della lingua francese, altri
+          furono certamente guasti dai copisti 
+          <note n="2">Non v’ha dubbio che molti nomi furon guasti dalla poca pratica della lingua francese, e basta
+            leggere in <hi rend="smallcaps">Giuliano Passaro</hi> e <hi rend="smallcaps">Notar Giacomo</hi> quelli dei
+            cavalieri. Dice l'egregio <hi rend="italic">Hettorre</hi> (<title>Fanfulla</title> anno X n.° 43), che gli
+            storici spagnuoli tiran fuori un <hi rend="italic">Marin de la Francia e un Giacomo de Guntibon</hi>.
+            Vattel’ a pesca chi è questo Guntibon! Forse in origine fu Marco de Guigne o <hi rend="italic">Jacono de
+              Etriguin</hi>, come si legge in <hi rend="smallcaps">Passaro</hi> a pag. 133, o <hi rend="italic">Jacopo
+              de Guin Guino</hi> in <hi rend="smallcaps">Notar Giacomo</hi> (p. 249). Marin dela Francia potrebbe esser
+            Marco dela Frange o Fringe dei cronisti italiani. Come i nomi de’ cavalieri francesi siansi venuti
+            corrompendo man mano è provato da <hi rend="smallcaps">Dom. Antonio Parrino</hi> (<title>Teatro Eroico e
+              Politico dei Governi dei Viceré del Pegno di Napoli</title> in Gonsalvo de Cordova pag. 21 ed. Napoli M.
+            DC. XCII), il quale pone <hi rend="italic">Martellin de Lamiis, Joches di Gunsibren e Nante delle
+              Fiasche</hi>!</note>.</p>
+
+        <pb n="182"/>
+        
+        <p>Ora vogliamo prestare fede al cronista francese e reputare che la lista de’ cavalieri vinti sia questa:
+          Charles dela Mote, Marc de Fresne, Chastelart, Pierre de Chals, La Fontaine, Bertault, Francois, savoiardo,
+          Jean Dasti, Richeburg, La Fraxe, Casset, Le Landais, Forfais.</p>
+        
+        <p>Lasciamo da parte la quistione, se Chastelart e Richeburg corrispondano a Giacomo Guignes, ed a Martellìn de
+          Sambris o Lambris, <choice>
+            <orig>perchè</orig>
+            <reg>perché</reg>
+          </choice> i nomi del cronista francese potrebbero esser soprannomi, cognomi, titoli di signorie, e
+          tratteniamoci un poco intorno a Jean Dast. Scrive il comm. Ademollo: <quote rend="pre-post-low">per le
+            ricerche, le deduzioni, e le congetture del Sig. Vassallo si può dire assodato, che questo Graiano, anche se
+            nato o vissuto lungamente in Asti fu d’origine francese</quote>. Fin qui c’è poco male; ma l’erudito ed
+          acuto scrittore va più innanzi, e <choice>
+            <orig>perchè</orig>
+            <reg>perché</reg>
+          </choice> trova negli alti Pirenei la terra d’Aste vuol fare di Graiano un guascone: questa è una ingegnosa
+          soluzione della quistione, ma non può fare tutti contenti. Che Jean Dast del cronista francese corrisponda al
+          troppo noto Graian d’Asti non v’ha dubbio. Notar Giacomo tra i cavalieri francesi
+          
+          <pb n="183"/>
+
+          della disfida pone <q rend="pre-post-low">Gran Joan Dasti</q>
+          <note>(1) <title>Cronaca di Napoli</title>, 249 — <hi rend="smallcaps">Giuliano Passaro</hi> a pag. 133 scrive
+              <hi rend="italic">Gian Joanne de Aste</hi>. Questo <hi rend="italic">Gian</hi> è certamente un errore del
+            copista invece di Graian.</note>. Non credo ci sia chi voglia sostenere, che quel Gran non sia
+          un’abbreviazione di Graian. Antonio de Ferraris, il Galateo, ch’era amico d’Ettore Fieramosca, e per la
+          vittoria degli Italiani il dì della disfida fece celebrare in Bari una messa ai quattro santi cavalieri
+          Giorgio, Demetrio, Martino e Niceta, doveva saperne qualche qosa dei fatti, dei quali si dava tanto pensiero,
+          ed avvenivano poco lontano da lui. Che scrive egli al Crisostomo ? <quote xml:lang="lat">Nonnulli ex galli s vulnerati sunt: unus
+          tantum caesus est, tribus acceptis vulneribus, qui cum in parte Italiae Cisalpina Gallia nntus esset, et in
+          Gallia Transalpina educatus, contra patriam ensem stringere ausus est</quote> <note>(2) Maj, <title>Spicilegium Romanum</title>
+            vol. VIII p. 541.</note>. Al Galateo si accorda a meraviglia monsignor Giovio, che i fatti della disfida
+          sentì raccontare spesso da Fabrizio Colonna, dal Cardinal Colonna e dallo stesso de la Mote.</p> 
+
+        <p><quote next="#quote_2" xml:id="quote_1">Unus omnino</quote>, dice egli, <quote prev="#quote_1"
+            xml:id="quote_2" xml:lang="lat">ex Gallis nomine Claudius collisa vehementer galea, ita ut per nares cerebri medulla cum
+            multo sanguine difjlueret, interiit, qui quum esset ab Asta Italiae colonia oriundus merito cecidisse videri
+            potuit, quodpro gloria externae gentis contra patriae decus, parum honesta si non improba, arma desumpsis -
+            set</quote>
+          <note>(3) <bibl><title>De vita magni Consalvi</title>. Lib. II, Tomo l.° delle vite degli uomini illustri.
+            Basilea 1559 p. 489</bibl>.</note>.</p> 
+
+        <p>Non mi pare giusto quello, che s’è detto; cioè che <quote>forse l’indicazione di colonia d Italia data dal
+            Giovio può applicarsi tanto all 'Aste di Guascogna che all'Asti di
+          
+          <pb n="183"/>
+          
+          Piemonte.</quote> Il Giovio ed il Galateo dicono chiaramente, che Graiano aveva combattuto per la gloria d’una
+          gente straniera, ed aveva stretto le armi contro l’onor della patria: essi parlano d’Asti, l’illustre città
+          nostra, italiana.</p> 
+
+
+      </div>
+      
+      <listBibl>
+        
+        <biblStruct xml:id="DAzeglio1992">
+          <monogr>
+            <author>
+              <forename>Massimo</forename>
+              <surname>D'Azeglio</surname>
+            </author>
+            <title level="m">Ettore Fieramosca: ossia La disfida di Barletta</title>
+            <imprint>
+              <pubPlace>Pordenone</pubPlace>
+              <publisher>Edizioni Studio Tesi</publisher>
+              <date>1992</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        
+        <biblStruct xml:id="Faraglia1883">
+          <monogr>
+            <author>
+              <forename>Nunzio Federigo</forename>
+              <surname>Faraglia</surname>
+            </author>
+            <title level="m">Ettore e la casa Fieramosca, con appendice e documenti sui cavalieri della disfida di Barletta</title>
+            <imprint>
+              <pubPlace>Napoli</pubPlace>
+              <publisher>Domenico Morano</publisher>
+              <date>1883</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        
+      </listBibl>
+      
+    </back>
+
+  </text>
+</TEI>
