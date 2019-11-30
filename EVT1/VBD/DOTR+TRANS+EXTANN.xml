@@ -13,6 +13,7 @@
 
       <titleStmt>
         <title>The Dream of the Rood (EXTANN version)</title>
+        <title>Digital Vercelli Book project</title>
         <author>Unknown</author>
         <principal>Roberto Rosselli Del Turco</principal>
         <respStmt>
@@ -1458,11 +1459,11 @@
           </choice>
           <g ref="#slong"/>tod<orig><pc type="metrical">.</pc></orig></l>
         <l n="39"><hi rend="cap">O</hi>ngyrede hine þa geong hæleð þæt wæ<g ref="#sins"/>
-          <name type="religion">
+          <persName ref="#God" type="religion">
             <choice>
               <orig>god</orig>
               <reg>God</reg>
-            </choice></name><lb facs="#VB_line_105r_15" n="15" xml:id="VB_lb_105r_15"/>ælmihtig</l>
+            </choice></persName><lb facs="#VB_line_105r_15" n="15" xml:id="VB_lb_105r_15"/>ælmihtig</l>
         <l n="40"><g ref="#slong"/>trang <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>tið mod</orig>
             <reg><expan><ex>and</ex></expan> stiðmod</reg>
@@ -1562,11 +1563,11 @@
           <choice>
             <orig>ge <g ref="#sins"/>eah</orig>
             <reg>geseah</reg>
-          </choice> ic weruda<lb facs="#VB_line_105r_26" n="26" xml:id="VB_lb_105r_26"/><name type="religion">
+          </choice> ic weruda<lb facs="#VB_line_105r_26" n="26" xml:id="VB_lb_105r_26"/><persName ref="#God" type="religion">
             <choice>
               <orig>god</orig>
               <reg>God</reg>
-            </choice></name></l>
+            </choice></persName></l>
         <l n="52">þearle þenian þy<g ref="#sins"/>tro hæfdon</l>
         <l n="53"><choice>
             <orig>be wrigen</orig>
@@ -1583,11 +1584,11 @@
             <reg>eal gesceaft</reg>
           </choice></l>
         <l n="56">cwiðdon cyninge<g ref="#sins"/>
-            fyll<lb facs="#VB_line_105r_29" n="29" xml:id="VB_lb_105r_29"/><name>
+            fyll<lb facs="#VB_line_105r_29" n="29" xml:id="VB_lb_105r_29"/><persName ref="#Christ" type="religion">
             <choice>
               <orig>cri<g ref="#slong"/>t</orig>
               <reg>Crist</reg>
-            </choice></name> wæ<g ref="#sins"/>
+            </choice></persName> wæ<g ref="#sins"/>
           <choice>
             <orig>onrode</orig>
             <reg>on rode</reg>
@@ -1612,10 +1613,10 @@
             <orig>ge namon</orig>
             <reg>genamon</reg>
           </choice>
-          <damage type="faded">hie</damage> þær ælmihtigne <name type="religion"><choice>
+          <damage type="faded">hie</damage> þær ælmihtigne <persName ref="#God" type="religion"><choice>
               <orig>god</orig>
               <reg>God</reg>
-            </choice></name></l>
+            </choice></persName></l>
         <l n="61"><g ref="#aacute"/>hofon hine of ðam
 
           <!-- #######################################  folio 105v  ####################################### -->
@@ -1748,8 +1749,8 @@
             <orig>toþy<g ref="#sins"/><g ref="#sins"/><am><g ref="#umacr"/></am></orig>
             <reg>toþyssu<ex>m</ex></reg>
           </choice> beacne on me <choice>
-            <orig>bearn<name type="religion">gode<g ref="#sins"/></name></orig>
-            <reg>bearn <name type="religion">Godes</name></reg>
+            <orig>bearn<persName ref="#God" type="religion">gode<g ref="#sins"/></persName></orig>
+            <reg>bearn <persName ref="#God" type="religion">Godes</persName></reg>
           </choice></l>
         <l n="84"><lb facs="#VB_line_105v_19" n="19" xml:id="VB_lb_105v_19"/>þrowode hwile forþan ic <choice>
             <orig>þr<g ref="#yrgmainstrok"/>m fæst</orig>
@@ -1805,10 +1806,10 @@
             <reg>swa he</reg>
           </choice> hi<g ref="#sins"/> modor eac<lb facs="#VB_line_105v_25" n="25" xml:id="VB_lb_105v_25"/>marian
           <g ref="#sins"/>ylfe</l>
-        <l n="93">ælmihtig <name type="religion"><choice>
+        <l n="93">ælmihtig <persName ref="#God" type="religion"><choice>
               <orig>god</orig>
               <reg>God</reg>
-            </choice></name> <pc>.</pc> for ealle menn</l>
+            </choice></persName> <pc>.</pc> for ealle menn</l>
         <l n="94">geweorðode<lb facs="#VB_line_105v_26" n="26" xml:id="VB_lb_105v_26"/>ofer eall wifa cynn<orig><pc
               type="metrical">.</pc></orig></l>
         <l n="95">Nu <choice>
@@ -1838,10 +1839,10 @@
         <l n="98"><choice>
             <orig><g ref="#sins"/>eðe</orig>
             <reg>se ðe</reg>
-          </choice> ælmihtig <name type="religion"><choice>
+          </choice> ælmihtig <persName ref="#God" type="religion"><choice>
               <orig>god</orig>
               <reg>God</reg>
-            </choice></name>
+            </choice></persName>
           <choice>
             <orig>onþrowode</orig>
             <reg>on þrowode</reg>
@@ -1863,10 +1864,10 @@
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr></orig>
             <reg><expan><ex>and</ex></expan>
             </reg>
-          </choice> <name type="person"><choice>
+          </choice> <persName ref="#Adam" type="person"><choice>
               <orig>adome<g ref="#sins"/></orig>
               <reg>Adames</reg>
-            </choice></name>
+            </choice></persName>
           <choice>
             <orig>ealdge wyrht<am><g ref="#umacr"/></am></orig>
             <reg>ealdgewyrhtu<ex>m</ex></reg>
@@ -1913,10 +1914,10 @@
             <orig>dom dæge</orig>
             <reg>domdæge</reg>
           </choice> dr<g ref="#yrgmainstrok"/>hten <g ref="#sins"/><g ref="#yrgmainstrok"/>lfa</l>
-        <l n="106">ælmihtig <name type="religion"><choice>
+        <l n="106">ælmihtig <persName ref="#God" type="religion"><choice>
               <orig>god</orig>
               <reg>God</reg>
-            </choice></name>
+            </choice></persName>
           <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hi<g ref="#sins"/></orig>
             <reg><expan><ex>and</ex></expan> his</reg>
@@ -1971,10 +1972,10 @@
         <l n="116">hwæt <choice>
             <orig>hieto</orig>
             <reg>hie to</reg>
-          </choice><lb facs="#VB_line_106r_08" n="8" xml:id="VB_lb_106r_08"/><name type="religion"><choice>
+          </choice><lb facs="#VB_line_106r_08" n="8" xml:id="VB_lb_106r_08"/><persName ref="#Christ" type="religion"><choice>
               <orig>cri<g ref="#slong"/>te</orig>
               <reg>Criste</reg>
-            </choice></name> cweðan onginnen<orig>
+            </choice></persName> cweðan onginnen<orig>
             <pc type="metrical">.</pc></orig></l>
         <l n="117"><choice>
             <orig><hi rend="cap">N</hi>eþearf</orig>
@@ -2208,8 +2209,8 @@
           </choice>þa he mid manigeo com</l>
         <l n="152">ga<g ref="#slong"/>ta weorode<lb facs="#VB_line_106r_30" n="30" xml:id="VB_lb_106r_30"/><del
             rend="rasure">o</del><choice>
-            <orig>on<name type="religion">gode</name><g ref="#sins"/></orig>
-            <reg>on <name type="religion">Godes</name></reg>
+            <orig>on<persName type="religion">gode</persName><g ref="#sins"/></orig>
+            <reg>on <persName type="religion">Godes</persName></reg>
           </choice> rice</l>
         <l n="153">anwealda ælmihtig <choice>
             <abbr>engl<am><g ref="#umacr"/></am></abbr>
@@ -2238,10 +2239,10 @@
             <orig>onwuldre</orig>
             <reg>on wuldre</reg>
           </choice> þa heora<lb facs="#VB_line_106r_32" n="32" xml:id="VB_lb_106r_32"/>weald<g ref="#eenl"/>nd cwom</l>
-        <l n="156">ælmihtig <name type="religion"><choice>
+        <l n="156">ælmihtig <persName ref="#God" type="religion"><choice>
               <orig>god</orig>
               <reg>God</reg>
-            </choice></name> þær hi<g ref="#sins"/> eðel wæ<g ref="#sins"/>
+            </choice></persName> þær hi<g ref="#sins"/> eðel wæ<g ref="#sins"/>
           <g ref="#colmidcomposit"/></l>
 
       </div>
