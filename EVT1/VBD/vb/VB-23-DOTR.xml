@@ -396,7 +396,13 @@
           <mapping type="diplomatic">á</mapping>
           <mapping type="normalized">a</mapping>
         </char>
-
+        <char xml:id="oacute">
+          <charName>LATIN SMALL LETTER O WITH ACUTE</charName>
+          <mapping type="codepoint">U+00F3</mapping>
+          <mapping type="diplomatic">ó</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        
         <char xml:id="amacr">
           <charName>LATIN SMALL LETTER A WITH MACRON</charName>
           <mapping type="codepoint">U+0101</mapping>
@@ -827,9 +833,9 @@
           Cross (St. Michael and St. Gudula Cathedral, Brussels, Belgium), an Anglo-Saxon cross-reliquary of the early
           11th century.</p>
         
-        <p>In the Vercelli Book the poem starts with the with the narrator having a dream: in this dream a wonderful
-          object, which is later to be identified with the Holy Cross, stands in the air and tells the story of the
-          crucifixion of Christ to the narrator.</p>
+        <p>In the Vercelli Book the poem starts with the narrator having a dream: in this dream a wonderful object,
+          which is later to be identified with the Holy Cross, stands in the air and tells the story of the crucifixion
+          of Christ to the narrator.</p>
       </div>
 
       <div type="paratext" subtype="references">
@@ -844,9 +850,9 @@
             <monogr>
               <title level="j">Neuphilologische Mitteilungen</title>
               <imprint>
-                <biblScope type="vol">70.3</biblScope>
+                <biblScope unit="vol">70.3</biblScope>
                 <date>1969</date>
-                <biblScope type="pages">407-425</biblScope>
+                <biblScope unit="pages">407-425</biblScope>
               </imprint>
             </monogr>
             <note type="comment">Studio sulla natura e sulla complessità linguistica del <title>Sogno della Croce</title>.</note>
@@ -861,9 +867,9 @@
             <monogr>
               <title level="j">Neuphilologische Mitteilungen</title>
               <imprint>
-                <biblScope type="vol">79.2</biblScope>
+                <biblScope unit="vol">79.2</biblScope>
                 <date>1978</date>
-                <biblScope type="pages">114-125</biblScope>
+                <biblScope unit="pages">114-125</biblScope>
               </imprint>
             </monogr>
             <note type="key">DOTR</note>
@@ -877,9 +883,9 @@
             <monogr>
               <title level="j">Neuphilologische Mitteilungen</title>
               <imprint>
-                <biblScope type="vol">71.2</biblScope>
+                <biblScope unit="vol">71.2</biblScope>
                 <date>1970</date>
-                <biblScope type="pages">203-210</biblScope>
+                <biblScope unit="pages">203-210</biblScope>
               </imprint>
             </monogr>
             <note type="key">DOTR</note>
@@ -893,9 +899,9 @@
             <monogr>
               <title level="j">Medium Ævum</title>
               <imprint>
-                <biblScope type="vol">27.3</biblScope>
+                <biblScope unit="vol">27.3</biblScope>
                 <date>1958</date>
-                <biblScope type="pages">137-153</biblScope>
+                <biblScope unit="pages">137-153</biblScope>
               </imprint>
             </monogr>
             <note type="key">DOTR</note>
@@ -909,9 +915,9 @@
             <monogr>
               <title level="j">Studia Neophilologica</title>
               <imprint>
-                <biblScope type="vol">74</biblScope>
+                <biblScope unit="vol">74</biblScope>
                 <date>2002</date>
-                <biblScope type="pages">143-45</biblScope>
+                <biblScope unit="pages">143-45</biblScope>
               </imprint>
             </monogr>
             <note type="comment">Response to David Howlett.</note>
@@ -933,7 +939,7 @@
                 <publisher>n.p.</publisher>
                 <date>2001</date>
               </imprint>
-              <biblScope type="pages">245-62</biblScope>
+              <biblScope unit="pages">245-62</biblScope>
             </monogr>
             <note type="key">DOTR</note>
           </biblStruct>
@@ -946,9 +952,9 @@
             <monogr>
               <title level="j">Notes and Queries n.s.</title>
               <imprint>
-                <biblScope type="vol">48</biblScope>
+                <biblScope unit="vol">48</biblScope>
                 <date>2001</date>
-                <biblScope type="pages">377-80</biblScope>
+                <biblScope unit="pages">377-80</biblScope>
               </imprint>
             </monogr>
             <note type="key">DOTR</note>
@@ -962,9 +968,9 @@
             <monogr>
               <title level="j">English Language Notes</title>
               <imprint>
-                <biblScope type="vol">37.3</biblScope>
+                <biblScope unit="vol">37.3</biblScope>
                 <date>2000</date>
-                <biblScope type="pages">1-11</biblScope>
+                <biblScope unit="pages">1-11</biblScope>
               </imprint>
             </monogr>
             <note type="key">DOTR</note>
@@ -978,9 +984,9 @@
             <monogr>
               <title level="j">Parabola</title>
               <imprint>
-                <biblScope type="vol">25.2</biblScope>
+                <biblScope unit="vol">25.2</biblScope>
                 <date>2000</date>
-                <biblScope type="pages">62-68</biblScope>
+                <biblScope unit="pages">62-68</biblScope>
               </imprint>
             </monogr>
             <note type="key"/>
@@ -994,9 +1000,9 @@
             <monogr>
               <title level="j">Stud. in Med. Eng. Lang. and Lit. (Tokyo)</title>
               <imprint>
-                <biblScope type="vol">15</biblScope>
+                <biblScope unit="vol">15</biblScope>
                 <date>2000</date>
-                <biblScope type="pages">1-25</biblScope>
+                <biblScope unit="pages">1-25</biblScope>
               </imprint>
             </monogr>
             <note type="key">DOTR</note>
@@ -1017,9 +1023,9 @@
                 <publisher>Centre for Late Antique and Medieval Studies, King's College, University of London</publisher>
                 <date>2000</date>
               </imprint>
-              <biblScope type="pages">339-81</biblScope>
+              <biblScope unit="pages">339-81</biblScope>
             </monogr>
-            <series> <title level="s">King's College London Medieval Studies</title> <biblScope type="vol">17</biblScope> </series>
+            <series> <title level="s">King's College London Medieval Studies</title> <biblScope unit="vol">17</biblScope> </series>
             <note type="key">DOTR</note>
           </biblStruct>
 
@@ -1031,9 +1037,9 @@
             <monogr>
               <title level="j">Stand n.s.</title>
               <imprint>
-                <biblScope type="vol">2.2</biblScope>
+                <biblScope unit="vol">2.2</biblScope>
                 <date>2000</date>
-                <biblScope type="pages">143-46</biblScope>
+                <biblScope unit="pages">143-46</biblScope>
               </imprint>
             </monogr>
             <note type="comment">Traduzione.</note>
@@ -1061,9 +1067,9 @@
             <monogr>
               <title level="j">Studies in Philology</title>
               <imprint>
-                <biblScope type="vol">107</biblScope>
-                <biblScope type="issue">2</biblScope>
-                <biblScope type="pp">131-178</biblScope>
+                <biblScope unit="vol">107</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <biblScope unit="pages">131-178</biblScope>
                 <date>2010</date>
                 <note type="accessed">2011-05-21 19:28:20</note>
                 <note type="url">http://muse.jhu.edu/journals/studies_in_philology/v107/107.2.mize.html</note>
@@ -1081,9 +1087,9 @@
             <monogr>
               <title level="j">Essays in Medieval Studies</title>
               <imprint>
-                <biblScope type="vol">22</biblScope>
-                <biblScope type="issue">1</biblScope>
-                <biblScope type="pp">141-153</biblScope>
+                <biblScope unit="vol">22</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <biblScope unit="pages">141-153</biblScope>
                 <date>2005</date>
                 <note type="accessed">2011-05-21 19:36:24</note>
                 <note type="url">http://muse.jhu.edu/journals/essays_in_medieval_studies/v022/22.1heckman.html</note>
@@ -1101,8 +1107,8 @@
               <title level="j">Romanobarbarica: Contributi allo studio dei rapporti culturali tra mondo latino e mondo
                 barbarico</title>
               <imprint>
-                <biblScope type="vol">17</biblScope>
-                <biblScope type="pp">333-359</biblScope>
+                <biblScope unit="vol">17</biblScope>
+                <biblScope unit="pages">333-359</biblScope>
                 <date>2003</date>
               </imprint>
             </monogr>
@@ -1116,9 +1122,9 @@
             <monogr>
               <title level="j">South Atlantic Review</title>
               <imprint>
-                <biblScope type="vol">63</biblScope>
-                <biblScope type="issue">2</biblScope>
-                <biblScope type="pp">108-123</biblScope>
+                <biblScope unit="vol">63</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <biblScope unit="pages">108-123</biblScope>
                 <date>1998</date>
                 <note type="accessed">2011-03-23 13:42:10</note>
                 <note type="url">http://www.jstor.org/stable/3201041</note>
@@ -1135,9 +1141,9 @@
             <monogr>
               <title level="j">The Review of English Studies</title>
               <imprint>
-                <biblScope type="vol">48</biblScope>
-                <biblScope type="issue">192</biblScope>
-                <biblScope type="pp">433-447</biblScope>
+                <biblScope unit="vol">48</biblScope>
+                <biblScope unit="issue">192</biblScope>
+                <biblScope unit="pages">433-447</biblScope>
                 <date>1997</date>
                 <note type="accessed">2011-03-23 13:42:09</note>
                 <note type="url">http://www.jstor.org/stable/518491</note>
@@ -1154,9 +1160,9 @@
             <monogr>
               <title level="j">The Review of English Studies</title>
               <imprint>
-                <biblScope type="vol">45</biblScope>
-                <biblScope type="issue">180</biblScope>
-                <biblScope type="pp">475-485</biblScope>
+                <biblScope unit="vol">45</biblScope>
+                <biblScope unit="issue">180</biblScope>
+                <biblScope unit="pages">475-485</biblScope>
                 <date>1994</date>
                 <note type="accessed">2011-03-23 13:42:07</note>
                 <note type="url">http://www.jstor.org/stable/517806</note>
@@ -1277,7 +1283,7 @@
             <orig>ge seah</orig>
             <reg>geseah</reg>
           </choice> ic wuldre<g ref="#sins"/> treow<orig><pc type="metrical">.</pc></orig></l>
-        <l n="15">wædum geweor<lb facs="#VB_line_104v_19" n="19" xml:id="VB_lb_104v_19"/>ðode <choice>
+        <l n="15">wædum <w>geweor<lb facs="#VB_line_104v_19" n="19" xml:id="VB_lb_104v_19"/>ðode</w> <choice>
             <abbr>wynn<am><g ref="#umacr"/></am></abbr>
             <expan>wynnu<ex>m</ex></expan>
           </choice> scinan</l>
@@ -1438,7 +1444,11 @@
           </choice>
           <g ref="#slong"/>tod<orig><pc type="metrical">.</pc></orig></l>
         <l n="39"><hi rend="cap">O</hi>ngyrede hine þa geong hæleð þæt wæ<g ref="#sins"/>
-          god<lb facs="#VB_line_105r_15" n="15" xml:id="VB_lb_105r_15"/>ælmihtig</l>
+          <name type="religion">
+            <choice>
+              <orig>god</orig>
+              <reg>God</reg>
+            </choice></name><lb facs="#VB_line_105r_15" n="15" xml:id="VB_lb_105r_15"/>ælmihtig</l>
         <l n="40"><g ref="#slong"/>trang <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>tið mod</orig>
             <reg><expan><ex>and</ex></expan> stiðmod</reg>
@@ -1538,7 +1548,11 @@
           <choice>
             <orig>ge <g ref="#sins"/>eah</orig>
             <reg>geseah</reg>
-          </choice> ic weruda<lb facs="#VB_line_105r_26" n="26" xml:id="VB_lb_105r_26"/>god</l>
+          </choice> ic weruda<lb facs="#VB_line_105r_26" n="26" xml:id="VB_lb_105r_26"/><name type="religion">
+            <choice>
+              <orig>god</orig>
+              <reg>God</reg>
+            </choice></name></l>
         <l n="52">þearle þenian þy<g ref="#sins"/>tro hæfdon</l>
         <l n="53"><choice>
             <orig>be wrigen</orig>
@@ -1555,7 +1569,11 @@
             <reg>eal gesceaft</reg>
           </choice></l>
         <l n="56">cwiðdon cyninge<g ref="#sins"/>
-            fyll<lb facs="#VB_line_105r_29" n="29" xml:id="VB_lb_105r_29"/><name>cri<g ref="#slong"/>t</name> wæ<g ref="#sins"/>
+          fyll<lb facs="#VB_line_105r_29" n="29" xml:id="VB_lb_105r_29"/><name>
+          <choice>
+            <orig>cri<g ref="#slong"/>t</orig>
+            <reg>Crist</reg>
+          </choice></name> wæ<g ref="#sins"/>
           <choice>
             <orig>onrode</orig>
             <reg>on rode</reg>
@@ -1716,8 +1734,8 @@
             <orig>toþy<g ref="#sins"/><g ref="#sins"/><am><g ref="#umacr"/></am></orig>
             <reg>toþyssu<ex>m</ex></reg>
           </choice> beacne on me <choice>
-            <orig>bearngode<g ref="#sins"/></orig>
-            <reg>bearn godes</reg>
+            <orig>bearn<name type="religion">gode<g ref="#sins"/></name></orig>
+            <reg>bearn <name type="religion">Godes</name></reg>
           </choice></l>
         <l n="84"><lb facs="#VB_line_105v_19" n="19" xml:id="VB_lb_105v_19"/>þrowode hwile forþan ic <choice>
             <orig>þr<g ref="#yrgmainstrok"/>m fæst</orig>
@@ -2176,9 +2194,9 @@
           </choice>þa he mid manigeo com</l>
         <l n="152">ga<g ref="#slong"/>ta weorode<lb facs="#VB_line_106r_30" n="30" xml:id="VB_lb_106r_30"/><del
             rend="rasure">o</del><choice>
-            <orig>ongode<g ref="#sins"/></orig>
-            <reg>on godes</reg>
-          </choice> rice</l>
+              <orig>on<name type="religion">gode</name><g ref="#sins"/></orig>
+              <reg>on <name type="religion">Godes</name></reg>
+            </choice> rice</l>
         <l n="153">anwealda ælmihtig <choice>
             <abbr>engl<am><g ref="#umacr"/></am></abbr>
             <expan>englu<ex>m</ex></expan>

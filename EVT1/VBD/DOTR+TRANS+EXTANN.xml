@@ -12,7 +12,7 @@
     <fileDesc>
 
       <titleStmt>
-        <title>The Vercelli Book: a machine readable transcription</title>
+        <title>The Dream of the Rood (EXTANN version)</title>
         <author>Unknown</author>
         <principal>Roberto Rosselli Del Turco</principal>
         <respStmt>
@@ -35,7 +35,7 @@
 
       <publicationStmt>
         <authority>Digital Vercelli Project</authority>
-        <date>2004</date>
+        <date>2004-</date>
         <availability status="unknown">
           <p>Not to ricirculate. Contact the Digital Vercelli Project researchers for more information.</p>
         </availability>
@@ -330,6 +330,22 @@
           </history>
           
         </msDesc>
+
+        <!-- ########## List of names (mainly as a named entities example)  ########## -->
+
+        <listPerson>
+          <person xml:id="God">
+            <persName>God</persName>
+          </person>
+          <person xml:id="Christ">
+            <persName>Christ</persName>
+          </person>
+          <person xml:id="Adam">
+            <persName>Adam</persName>
+            <note>See <ref target="http://dbpedia.org/page/Adam">Adam</ref> on DBpedia.</note>
+          </person>
+        </listPerson>
+
       </sourceDesc>
 
     </fileDesc>
@@ -533,11 +549,13 @@
 
     <profileDesc>
       <langUsage>
-        <language ident="lat">Latin</language>
+        <language ident="ags">Old English</language>
       </langUsage>
     </profileDesc>
 
     <revisionDesc>
+      <change when="2019-11" who="RRDT">Added named entities as an example of this feature (EXTANN = EXTended ANNotation)</change>
+      <change when="2018-10" who="RRDT">Added Italian translation</change>
       <change when="2013-11" who="RRDT">Moved from entity-based markup to use of the Gaiji module elements; replaced ms
         and ss entities with choice-based element groups; cleaned up punctuation markup</change>
       <change when="2012-11" who="RRDT">Added element facsimile and all necessary stuff to do image-text
@@ -1045,7 +1063,7 @@
          <list>
            <item>Britt Mize. “The Mental Container and the Cross of Christ: Revelation and Community in The Dream of the Rood.” Studies in Philology 107.2 (2010): 131–178. Project MUSE. Web.</item>
            <item>Galloway, Andrew. “Dream-Theory in The Dream of the Rood and The Wanderer.” The Review of English Studies 45.180 (1994): 475–485. Print. New Series.</item>
-          <item> Heckman, Christina M. “Imitatio in Early Medieval Spirituality: The Dream of the Rood, Anselm, and Militant Christology.” Essays in Medieval Studies 22.1 (2005): 141–153. Project MUSE. Web.</item>
+           <item> Heckman, Christina M. “Imitatio in Early Medieval Spirituality: The Dream of the Rood, Anselm, and Militant Christology.” Essays in Medieval Studies 22.1 (2005): 141–153. Project MUSE. Web.</item>
            <item>Irvine, Susan. “Adam or Christ? A Pronominal Pun in The Dream of the Rood.” The Review of English Studies 48.192 (1997): 433–447. Print. New Series.</item>
            <item>LUISELLI FADDA, Anna Maria. “La Croce Nella Tradizione Poetica Anglosassone (sec. VIII-IX).” Romanobarbarica: Contributi allo studio dei rapporti culturali tra mondo latino e mondo barbarico 17 (2003): 333–359. Print.</item>
            <item>Thieme, Adelheid L. J. “Gift Giving as a Vital Element of Salvation in ‘The Dream of the Rood.’” South Atlantic Review 63.2 (1998): 108–123. JSTOR. Web.</item>
@@ -1178,12 +1196,14 @@
         <!-- #######################################  folio 104v  ####################################### -->
         <pb n="104v" xml:id="VB_fol_104v"/>
 
-        <l n="1"><lb facs="#VB_line_104v_07" n="7" xml:id="VB_lb_104v_07"/><hi rend="init3.1"><g ref="#Hunc"/></hi><hi
-            rend="cap">W</hi>æt ic <g ref="#slong"/>wefna c<g ref="#ydot"/><g ref="#sins"/>t secgan wylle</l>
+        <l n="1"><lb facs="#VB_line_104v_07" n="7" xml:id="VB_lb_104v_07"/><hi rend="init3.1">
+          <g ref="#Hunc"/></hi><hi rend="cap">W</hi>æt ic<note type="critical" n="a">A critical note</note>
+          <g ref="#slong"/>wefna c<g ref="#ydot"/><g ref="#sins"/>t secgan
+          wylle<note type="comment" n="1">A comment note</note></l>
         <l n="2"><choice>
             <sic>hæt</sic>
             <corr resp="Grein">hwæt</corr>
-          </choice>
+        </choice><note>A generic, unnumbered note</note>
           <choice>
             <orig>mege mætte</orig>
             <reg>me gemætte</reg>
@@ -1438,7 +1458,11 @@
           </choice>
           <g ref="#slong"/>tod<orig><pc type="metrical">.</pc></orig></l>
         <l n="39"><hi rend="cap">O</hi>ngyrede hine þa geong hæleð þæt wæ<g ref="#sins"/>
-          god<lb facs="#VB_line_105r_15" n="15" xml:id="VB_lb_105r_15"/>ælmihtig</l>
+          <name type="religion">
+            <choice>
+              <orig>god</orig>
+              <reg>God</reg>
+            </choice></name><lb facs="#VB_line_105r_15" n="15" xml:id="VB_lb_105r_15"/>ælmihtig</l>
         <l n="40"><g ref="#slong"/>trang <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>tið mod</orig>
             <reg><expan><ex>and</ex></expan> stiðmod</reg>
@@ -1538,7 +1562,11 @@
           <choice>
             <orig>ge <g ref="#sins"/>eah</orig>
             <reg>geseah</reg>
-          </choice> ic weruda<lb facs="#VB_line_105r_26" n="26" xml:id="VB_lb_105r_26"/>god</l>
+          </choice> ic weruda<lb facs="#VB_line_105r_26" n="26" xml:id="VB_lb_105r_26"/><name type="religion">
+            <choice>
+              <orig>god</orig>
+              <reg>God</reg>
+            </choice></name></l>
         <l n="52">þearle þenian þy<g ref="#sins"/>tro hæfdon</l>
         <l n="53"><choice>
             <orig>be wrigen</orig>
@@ -1555,7 +1583,11 @@
             <reg>eal gesceaft</reg>
           </choice></l>
         <l n="56">cwiðdon cyninge<g ref="#sins"/>
-            fyll<lb facs="#VB_line_105r_29" n="29" xml:id="VB_lb_105r_29"/><name>cri<g ref="#slong"/>t</name> wæ<g ref="#sins"/>
+            fyll<lb facs="#VB_line_105r_29" n="29" xml:id="VB_lb_105r_29"/><name>
+            <choice>
+              <orig>cri<g ref="#slong"/>t</orig>
+              <reg>Crist</reg>
+            </choice></name> wæ<g ref="#sins"/>
           <choice>
             <orig>onrode</orig>
             <reg>on rode</reg>
@@ -1716,8 +1748,8 @@
             <orig>toþy<g ref="#sins"/><g ref="#sins"/><am><g ref="#umacr"/></am></orig>
             <reg>toþyssu<ex>m</ex></reg>
           </choice> beacne on me <choice>
-            <orig>bearngode<g ref="#sins"/></orig>
-            <reg>bearn godes</reg>
+            <orig>bearn<name type="religion">gode<g ref="#sins"/></name></orig>
+            <reg>bearn <name type="religion">Godes</name></reg>
           </choice></l>
         <l n="84"><lb facs="#VB_line_105v_19" n="19" xml:id="VB_lb_105v_19"/>þrowode hwile forþan ic <choice>
             <orig>þr<g ref="#yrgmainstrok"/>m fæst</orig>
@@ -2176,8 +2208,8 @@
           </choice>þa he mid manigeo com</l>
         <l n="152">ga<g ref="#slong"/>ta weorode<lb facs="#VB_line_106r_30" n="30" xml:id="VB_lb_106r_30"/><del
             rend="rasure">o</del><choice>
-            <orig>ongode<g ref="#sins"/></orig>
-            <reg>on godes</reg>
+            <orig>on<name type="religion">gode</name><g ref="#sins"/></orig>
+            <reg>on <name type="religion">Godes</name></reg>
           </choice> rice</l>
         <l n="153">anwealda ælmihtig <choice>
             <abbr>engl<am><g ref="#umacr"/></am></abbr>

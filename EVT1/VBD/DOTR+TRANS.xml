@@ -12,7 +12,7 @@
     <fileDesc>
 
       <titleStmt>
-        <title>The Vercelli Book: a machine readable transcription</title>
+        <title>The Dream of the Rood</title>
         <author>Unknown</author>
         <principal>Roberto Rosselli Del Turco</principal>
         <respStmt>
@@ -35,7 +35,7 @@
 
       <publicationStmt>
         <authority>Digital Vercelli Project</authority>
-        <date>2004</date>
+        <date>2004-</date>
         <availability status="unknown">
           <p>Not to ricirculate. Contact the Digital Vercelli Project researchers for more information.</p>
         </availability>
@@ -533,11 +533,12 @@
 
     <profileDesc>
       <langUsage>
-        <language ident="lat">Latin</language>
+        <language ident="ags">Old English</language>
       </langUsage>
     </profileDesc>
 
     <revisionDesc>
+      <change when="2018-10" who="RRDT">Added Italian translation</change>
       <change when="2013-11" who="RRDT">Moved from entity-based markup to use of the Gaiji module elements; replaced ms
         and ss entities with choice-based element groups; cleaned up punctuation markup</change>
       <change when="2012-11" who="RRDT">Added element facsimile and all necessary stuff to do image-text
@@ -1438,7 +1439,11 @@
           </choice>
           <g ref="#slong"/>tod<orig><pc type="metrical">.</pc></orig></l>
         <l n="39"><hi rend="cap">O</hi>ngyrede hine þa geong hæleð þæt wæ<g ref="#sins"/>
-          god<lb facs="#VB_line_105r_15" n="15" xml:id="VB_lb_105r_15"/>ælmihtig</l>
+          <name type="religion">
+            <choice>
+              <orig>god</orig>
+              <reg>God</reg>
+            </choice></name><lb facs="#VB_line_105r_15" n="15" xml:id="VB_lb_105r_15"/>ælmihtig</l>
         <l n="40"><g ref="#slong"/>trang <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>tið mod</orig>
             <reg><expan><ex>and</ex></expan> stiðmod</reg>
@@ -1538,7 +1543,11 @@
           <choice>
             <orig>ge <g ref="#sins"/>eah</orig>
             <reg>geseah</reg>
-          </choice> ic weruda<lb facs="#VB_line_105r_26" n="26" xml:id="VB_lb_105r_26"/>god</l>
+          </choice> ic weruda<lb facs="#VB_line_105r_26" n="26" xml:id="VB_lb_105r_26"/><name type="religion">
+            <choice>
+              <orig>god</orig>
+              <reg>God</reg>
+            </choice></name></l>
         <l n="52">þearle þenian þy<g ref="#sins"/>tro hæfdon</l>
         <l n="53"><choice>
             <orig>be wrigen</orig>
@@ -1555,7 +1564,11 @@
             <reg>eal gesceaft</reg>
           </choice></l>
         <l n="56">cwiðdon cyninge<g ref="#sins"/>
-            fyll<lb facs="#VB_line_105r_29" n="29" xml:id="VB_lb_105r_29"/><name>cri<g ref="#slong"/>t</name> wæ<g ref="#sins"/>
+            fyll<lb facs="#VB_line_105r_29" n="29" xml:id="VB_lb_105r_29"/><name>
+            <choice>
+              <orig>cri<g ref="#slong"/>t</orig>
+              <reg>Crist</reg>
+            </choice></name> wæ<g ref="#sins"/>
           <choice>
             <orig>onrode</orig>
             <reg>on rode</reg>
@@ -1716,8 +1729,8 @@
             <orig>toþy<g ref="#sins"/><g ref="#sins"/><am><g ref="#umacr"/></am></orig>
             <reg>toþyssu<ex>m</ex></reg>
           </choice> beacne on me <choice>
-            <orig>bearngode<g ref="#sins"/></orig>
-            <reg>bearn godes</reg>
+            <orig>bearn<name type="religion">gode<g ref="#sins"/></name></orig>
+            <reg>bearn <name type="religion">Godes</name></reg>
           </choice></l>
         <l n="84"><lb facs="#VB_line_105v_19" n="19" xml:id="VB_lb_105v_19"/>þrowode hwile forþan ic <choice>
             <orig>þr<g ref="#yrgmainstrok"/>m fæst</orig>
@@ -2176,8 +2189,8 @@
           </choice>þa he mid manigeo com</l>
         <l n="152">ga<g ref="#slong"/>ta weorode<lb facs="#VB_line_106r_30" n="30" xml:id="VB_lb_106r_30"/><del
             rend="rasure">o</del><choice>
-            <orig>ongode<g ref="#sins"/></orig>
-            <reg>on godes</reg>
+            <orig>on<name type="religion">gode</name><g ref="#sins"/></orig>
+            <reg>on <name type="religion">Godes</name></reg>
           </choice> rice</l>
         <l n="153">anwealda ælmihtig <choice>
             <abbr>engl<am><g ref="#umacr"/></am></abbr>
