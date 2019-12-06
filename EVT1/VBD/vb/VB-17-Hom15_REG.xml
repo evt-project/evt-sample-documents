@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI>
+ 
+ <teiHeader>
+  
+  <fileDesc>
+   
+   <titleStmt>
+    <title>The Vercelli Book: a machine readable transcription</title>
+    <author>Unknown</author>
+    <principal>Roberto Rosselli Del Turco</principal>
+    <respStmt>
+     <resp>Conversion to TEI-conformant markup: </resp>
+     <name>Raffaele Cioffi</name>
+     <name>Federica Goria</name>
+     <name>Roberto Rosselli Del Turco</name>
+    </respStmt>
+    <respStmt>
+     <resp>General overview: </resp>
+     <name>Roberto Rosselli Del Turco</name>
+    </respStmt>
+    <respStmt>
+     <resp>Experimental style sheets: </resp>
+     <name>Roberto Rosselli Del Turco</name>
+    </respStmt>
+   </titleStmt>
+   
+   <extent>[??] kilobytes</extent>
+   
+   <publicationStmt>
+    <authority>Digital Vercelli Project</authority>
+    <date>2004</date>
+    <availability status="unknown">
+     <p>Not to ricirculate. Contact the Digital Vercelli Project researchers for more
+      information.</p>
+    </availability>
+   </publicationStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <msIdentifier>
+      <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+      <idno>CXVII</idno>
+     </msIdentifier>
+    </bibl>
+   </sourceDesc>
+   
+  </fileDesc>
+  
+  <encodingDesc>
+   <projectDesc>
+    <p/>
+   </projectDesc>
+   <editorialDecl>
+    <correction>
+     <p/>
+    </correction>
+    <normalization>
+     <p/>
+    </normalization>
+    <segmentation>
+     <p/>
+    </segmentation>
+    <hyphenation eol="all">
+     <p>Physical line breaks are rigidly observed.</p>
+    </hyphenation>
+   </editorialDecl>
+  </encodingDesc>
+  
+  <profileDesc>
+   <langUsage>
+    <language ident="lat">Latin</language>
+   </langUsage>
+  </profileDesc>
+  
+  <revisionDesc>
+   <change who="RRDT" when="2010-09">Conversion to the TEI P5 DTD</change>
+   <change who="RRDT" when="2004-01">Experimental transcription using the Digital Scriptorium DTD</change>
+  </revisionDesc>
+  
+ </teiHeader>
+
+<text>          
+<body>
+
+<div type="prose">
+
+<lb n="8"/><head><foreign xml:lang="lat"><hi rend="special">A</hi><hi rend="cap2.0">LI</hi><hi rend="special">A</hi> <hi rend="cap2.0">O</hi><hi rend="special">ME</hi><hi rend="cap2.0">LI</hi><hi rend="special">A</hi><sic></sic><hi rend="cap2.0">DE<sic></sic>DI<sic> </sic>E IVDICII</hi>.</foreign></head>
+
+<p>
+
+ <lb n="9"/><g ref="#mmacrmed"/><corr>Men</corr> <corr>þa</corr> <corr>leofestan</corr> <hi rend="double">s</hi>ægð us on<sic></sic>þy<g ref="#sins"/><g ref="#sins"/>um bocum hu<sic></sic><g ref="#sins"/>e halga
+ <name type="religion"><choice><orig>thomas</orig><reg>Thomas</reg></choice></name> <name type="religion"><choice><orig>godes</orig><reg>Godes</reg></choice></name> <abbr type="contr">aps&lstrok;</abbr><expan>apostol</expan>
+ <lb n="10"/><damage type="faded" agent="water">acsode</damage> urne dryhten hwænne <name type="religion"><choice><orig><damage
+  type="faded">ante<sic> </sic>cr</damage>iste<g ref="#sins"/></orig><reg>Antecristes</reg></choice></name> cyme wære.</p>
+<lb n="11"/><p><hi rend="double">ð</hi>a wæs dryhten s<damage type="faded" agent="water">precende</damage> to<sic></sic>him. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ðus cwæð. <quote><q who="Christ"><hi rend="double"><g ref="#hrdes"/></hi>it geda<damage type="fuzzy">f</damage>enað
+<lb n="12"/><choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> hit <g ref="#sins"/>ie on ðam nexstan tide. <hi rend="cap">þ</hi>onne hungor. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>weorda
+<lb n="13"/>gefeoht bið. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>mycel þrea<damage type="faded">t<sic> </sic>n</damage>e<g ref="#sins"/> geworden bið. <damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>man</damage>igra folca
+<lb n="14"/>ge<sic> </sic>fehta beoð. <g ref="#inodotenl"/>n<sic></sic>ðam <damage type="faded">neh<g ref="#slong"/>tan</damage> tidum <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>un<sic> </sic>riht<sic> </sic>wi<g ref="#sins"/>ne<g ref="#sins"/><g ref="#sins"/>e.
+<lb n="15"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>niða<g ref="#sins"/>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>æfest ofer eall middan<sic> </sic>geard <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->mson iunge cyningas.
+<lb n="16"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>on iungan papan. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>on iungum bisceopum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>on iungum <seg type="word">ealdor
+<lb n="17"/>mannum</seg>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þurh þæt þonne ariseð un<sic> </sic>seht<sic> </sic>nesse <seg type="word">be
+<lb n="18"/>tweoh</seg> twam cyningum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>twam ge<sic> </sic>broðrum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þæt gewyrðeð
+<lb n="19"/>on<sic></sic>þam dæge. ær <g ref="#sins"/>e mycla dæg bio &colmidcomposit; <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þæt eac þæt minra
+<lb n="20"/>mæ<g ref="#sins"/><g ref="#sins"/>e<sic> </sic>preo<g ref="#slong"/>ta cwemeð ælc oðrum on hi<g ref="#sins"/> <g ref="#slong"/>præce <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie
+<lb n="21"/>þonne nabbað sybbe him be<sic> </sic>tweonum ac<sic></sic>hie me ðonne
+<lb n="22"/><sic>onsacað</sic><corr resp="scragg szarmach">onsæcgað</corr> mid <g ref="#slong"/>wiðe mycle <damage type="faded">fa</damage>cne mode. <damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þ</damage>onne gesyhð
+<lb n="23"/><choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> folc þæt þa mæsse<sic> </sic><damage type="faded">preo</damage><g ref="#sins"/>tas bioð mid un<sic> </sic>riht gefyllede
+<lb n="24"/><damage type="faded">ymbe h</damage>iora welan. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie beoð on<sic></sic>hiora ce<add place="sub">.</add><add place="sup">a</add>strum <seg type="word">under
+
+<pb n="81r"/>
+
+<add hand="unknown">
+<fw type="fol" place="top-right">81</fw>
+</add>
+
+<lb n="1"/>ðeodde</seg>. <g ref="#slong"/>wa hie ær wæron.</q></quote></p> <p><quote><q who="Christ"><hi rend="double">ð</hi>æt bið <damage type="faded" agent="water"><choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice><choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> hie <g ref="#sins"/></damage>ettaþ g<g ref="#yrgmainstrok"/>ldene
+<lb n="2"/>he<damage type="faded">afda</damage> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>eolfrene on heora ceastrum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>manige men bioð
+<lb n="3"/>þonne þurh þa þincg ge<sic> </sic>niðrade. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>gold<sic> </sic>hord bioð þonne
+<lb n="4"/>ge<sic> </sic>openode geond eall eorðan <g ref="#yrgmainstrok"/><sic> </sic>mb<sic> </sic>hwyrft <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><name type="religion"><choice><orig>gode<g ref="#sins"/></orig><reg>Godes</reg></choice></name> æwe
+<lb n="5"/>beoð ge<sic> </sic>fylde <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>mycel folc<sic> </sic>ge<sic> </sic>drefnesse bið<sic> </sic>ðonne
+<lb n="6"/>ær<sic></sic><name type="religion"><choice><orig>dome<g ref="#sins"/><sic> </sic>dæge</orig><reg>Domesdæge</reg></choice></name>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><name type="religion"><choice><orig>gode<g ref="#sins"/></orig><reg>Godes</reg></choice></name> hu<g ref="#sins"/> beoð aweste <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þa weofodu beoð
+<lb n="7"/>to þan <g ref="#slong"/>wiðe for<sic> </sic>lætene <choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> ða attor<sic> </sic>coppan habbað
+<lb n="8"/><g ref="#inodotenl"/>n<sic> </sic>nan awefene <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þa halignessa beoð<sic></sic>þonne for<sic> </sic>mol<g ref="#sins"/>node
+<lb n="9"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þa mæsse<sic> </sic>preo<g ref="#slong"/>ta<g ref="#sins"/> beoð þonne on un<sic> </sic>riht awende fr<g ref="#amacr"/>
+<lb n="10"/><name type="religion"><choice><orig>gode</orig><reg>Gode</reg></choice></name>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>heora ellen beoð ge<sic> </sic>brocene. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>heora blis. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>heora
+<lb n="11"/>lar bið eall to tælnesse geþeoded. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>heora gefea gewiteð. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->
+<lb n="12"/>for<sic> </sic>wyrðeð. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne bið eac on ðam dagum. <g ref="#yrgmainstrokdot"/>fele<g ref="#sins"/> <seg type="word">niht
+<lb n="13"/><g ref="#sins"/>um<sic> </sic>ne<g ref="#sins"/><g ref="#sins"/>e</seg> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>æfen<sic> </sic><g ref="#sins"/>anga<g ref="#sins"/> bioð <damage type="faded" agent="water">þon</damage><sic> </sic>ne ge<sic> </sic>witene. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>of<sic> </sic>togene
+<lb n="14"/>of <name type="religion"><choice><orig>gode<g ref="#sins"/></orig><reg>Godes</reg></choice></name> huse. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>eall soðfæst<sic> </sic>ne<g ref="#sins"/><g ref="#sins"/>e bið þonne onblun<sic> </sic>nen.
+<lb n="15"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>lea<g ref="#sins"/>unga <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>gymelea<g ref="#sins"/>ne<g ref="#sins"/><g ref="#sins"/>a <name type="religion"><choice><orig>gode<g ref="#sins"/></orig><reg>Godes</reg></choice></name> b<damage type="faded">e</damage>boda <sic>bið</sic><corr resp="scragg szarmach">bioð</corr> þon<sic> </sic>ne <damage type="faded">g</damage>emeted
+<lb n="16"/>on<sic></sic>ðam mæsse<sic> </sic>preostum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þo<damage type="faded">n<sic> </sic>n</damage>e arisað twegen <seg type="word">ealdor
+<lb n="17"/>men</seg>. to þeoda werigum on heora dagum. þonne bið hungere<g ref="#sins"/>
+<lb n="18"/>ge<sic> </sic>niht<sic> </sic><g ref="#sins"/>um<sic> </sic>ne<g ref="#sins"/><g ref="#sins"/>e. <hi rend="double">ð</hi>onne ariseð þeod wið þeode <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie bioð
+<lb n="19"/>þon<sic> </sic>ne aytte fram heora ge<sic> </sic>mærum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne ariseð <g ref="#sins"/>um
+<lb n="20"/><g ref="#slong"/>wiðe <sic>weorð</sic><corr resp="scragg">þweorh</corr> cyning <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#sins"/>e be<sic> </sic>b<damage type="faded">eo</damage>deð þam man<sic> </sic>ncynne þæt
+<lb n="21"/>man wyrce gyldene anlicne<g ref="#sins"/><g ref="#sins"/>e <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hateð þæt <g ref="#sins"/>ettan <g ref="#inodotenl"/>n
+<lb n="22"/><name type="religion"><choice><orig>gode<g ref="#sins"/></orig><reg>Godes</reg></choice></name> c<g ref="#windy"/>ricean. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þær<sic> </sic>to ge<sic> </sic>biddan. bið þonne on þa tid
+<lb n="23"/><damage type="faded">m</damage>artyra ge<sic> </sic>niht<sic> </sic><g ref="#sins"/>umne<g ref="#sins"/><g ref="#sins"/>e for<sic></sic>ðam þingum þæt man <seg type="word">cwel
+<lb n="24"/>með</seg> <damage type="faded">þa</damage><sic></sic>mæran þe<sic></sic>nellað gebi<damage type="faded">dda</damage>n to ðam hæðenan <seg type="word">on
+
+<pb n="81v"/>
+
+<lb n="1"/>licnesse</seg>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>æfter ðy<g ref="#sins"/><g ref="#sins"/>um geweorðeð manna <sic>geleafan</sic><corr resp="scragg">geleafa</corr> to
+<lb n="2"/><name type="religion"><choice><orig>gode</orig><reg>Gode</reg></choice></name> ge<sic> </sic>hwyrfed. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie beoð on<sic></sic>hi<g ref="#sins"/> halig<sic> </sic>nessa gebled<g ref="#sins"/>od. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><seg type="word">un
+<lb n="3"/>rím</seg> haligra beoð gefylled mid þy ge<sic> </sic>wuldredan <seg type="word">wuldor
+<lb n="4"/>helme</seg>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne æfter fean tidum ariseð <g ref="#sins"/>um <g ref="#slong"/>wiðe mære
+<lb n="5"/>cynin<damage type="faded">g</damage> fram ea<g ref="#slong"/>t<sic> </sic>dæle. <damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hw</damage>æðre <g ref="#sins"/>e<sic></sic>bið lufigende <name type="religion"><choice><orig>gode<g ref="#sins"/></orig><reg>Godes</reg></choice></name> ǽ
+<lb n="6"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>him bið <g ref="#sins"/>eald ealle cynelice geofa. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>bið þonne mycel <seg type="word">ge
+<lb n="7"/>niht<g ref="#sins"/>um<sic> </sic>nesse</seg> on<sic></sic>his dagum &colmidcomposit; <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þo<g ref="#omacr"/><!-- CHECK abbr/am to be added --> æfter him ari<g ref="#sins"/>eð eft
+<lb n="8"/><g ref="#sins"/>um oðer cyning fram suð<sic> </sic>dæle, <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> se hafað swiðe mycel on
+<lb n="9"/>hi<g ref="#sins"/> ge<sic> </sic>wealdum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>fea tide he bið on<sic></sic>hi<g ref="#sins"/> dæge. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>gold<sic> </sic>hord
+<lb n="10"/>bioð a<g ref="#slong"/>prungen<sic> </sic>ne wið <name type="people">romani<g ref="#slong"/>ce</name> þeode &colmidcomposit; <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne <seg type="word">bebeo
+<lb n="11"/>deð</seg> <g ref="#sins"/>e ilca cyning þæt hi<g ref="#sins"/> mycla gestreon man to<sic> </sic>dæle
+<lb n="12"/>wið hwæt<sic> </sic>e<g ref="#sins"/> ge<sic> </sic>niht<sic> </sic><g ref="#sins"/>um<sic> </sic>nesse. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>wið wine<g ref="#sins"/>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>for ele<g ref="#sins"/>. lufan. for
+<lb n="13"/>þy bið heora gold a<g ref="#slong"/>prungen. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wa ðeah<sic> </sic>hwæðere ðær bið
+<lb n="14"/>ceape<g ref="#sins"/> ge<sic> </sic>niht<sic> </sic><g ref="#sins"/>um<sic> </sic>ne<g ref="#sins"/><g ref="#sins"/>e. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>heora golde<g ref="#sins"/> ontimbernesse
+<lb n="15"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hiora <g ref="#sins"/>eolfor bið <g ref="#sins"/>eald. for hwæte<g ref="#sins"/> lufan &colmidcomposit;</q></quote></p>  <p><quote><q who="Christ"><hi rend="smallcap">F</hi>or<sic></sic>ðan on
+<lb n="16"/><g ref="#sins"/>ǽ bið þæt <g ref="#slong"/>cip<sic> </sic>lið<sic> </sic>endra cwalm. swa mycel þæt nænig
+<lb n="17"/>man ne wat to <g ref="#sins"/>ecgan<sic> </sic>ne ne nænigum eorð<sic> </sic>cyninge
+<lb n="18"/>be<sic></sic>ðam <g ref="#slong"/>cip<sic> </sic>liðendum. <hi rend="double">æ</hi>fter þan ariseð oðer cynning.
+<lb n="19"/><g ref="#slong"/>wiðe þweorh <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#sins"/>e hafað ge<sic> </sic>weald ofer middan<sic> </sic>geard.
+<lb n="20"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>fea tide he bið on hi<g ref="#sins"/> dagum <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þæt mennisce cynn
+<lb n="21"/>bið a<sic></sic>yfeled. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>a <g ref="#inodotenl"/>n<sic></sic>for<sic> </sic>wyrd ge<sic> </sic>læded. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne æfter þan. <seg type="word">á
+ <lb n="22"/>riseð</seg> fram ea<g ref="#sins"/>t<sic> </sic>dæle. on<sic></sic>ðam mycelan <name type="place"><choice><orig>babilonia</orig><reg>Babilonia</reg></choice></name> cea<g ref="#slong"/>tre.
+<lb n="23"/><g ref="#slong"/>wiðe mycel hungor <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>weorda gefeoht fram suð<sic> </sic>dæle.</q></quote></p>
+ <lb n="24"/><p><quote><q who="Christ"><hi rend="double">o</hi>n <name type="place"><choice><orig>cana<sic> </sic>nea</orig><reg>Cananea</reg></choice></name> lande. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þon<sic> </sic>ne æfter þan bioð ealle wætera<g ref="#sins"/>
+
+<pb n="82r"/>
+
+<add hand="unknown">
+ <fw type="fol" place="top-right">82</fw>
+</add>
+  
+<lb n="1"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ealle wylla<g ref="#sins"/> on blode. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>teorran feallað of heofenum on
+<lb n="2"/>eorðan. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>unne bið aþy<g ref="#sins"/>trod. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#sins"/>e mona <sic>hirec</sic><corr resp="szarmach">his</corr> leoht ne<sic></sic><g ref="#sins"/>yleð.
+<lb n="3"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>eall hit bið on<sic></sic>þeostra ge<sic> </sic>cy<damage type="faded">r</damage>red. <hi rend="double">ð</hi>is sindon þa <seg type="word">fore
+ <lb n="4"/>tacnu</seg> to<sic></sic>þam dagum þe hit nealæceð to <name type="religion"><choice><orig>ante<sic> </sic>criste<g ref="#sins"/></orig><reg>Antecristes</reg></choice></name> cyme.
+<lb n="5"/><hi rend="smallcap">Ƿ</hi>a ðam mannum þe <g ref="#inodotenl"/>n<sic></sic>ðam dagum eardiað ofer eorðan
+<lb n="6"/>for<sic></sic>ðam brogum þe þonne cumað. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>cuman <g ref="#slong"/>ceolon
+<lb n="7"/>ofer eorðan. <hi rend="smallcap">Ƿ</hi>a ðam mannum þe þonne hu<g ref="#sins"/> timbriað
+<lb n="8"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>bearn gestrynað. <hi rend="smallcap">Ƿ</hi>a ðam mannum þe þonne wifiað
+<lb n="9"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>eorðlicum <g ref="#slong"/>pedum tiliað <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>trynað. for<sic></sic>þan hie ealinga
+<lb n="10"/>on wog winnað <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wincað. <hi rend="smallcap">Ƿ</hi>a ðam mannum þ<g ref="#omacr"/><!-- CHECK abbr/am to be added -->n þe<sic></sic>geþeodeð
+<lb n="11"/>hus to hu<g ref="#sins"/>e. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>land to<sic></sic>lande fo<damage type="faded">r<sic></sic>þan h</damage>it eall mid fyre
+<lb n="12"/>for<sic> </sic>bærneð <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>he sylf mid for<sic> </sic>wyrðeð. <hi rend="smallcap">Ƿ</hi>a ðam mann<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
+<lb n="13"/>þonne þe hie <g ref="#sins"/>ylfe ne woldon ær<sic></sic>be<sic> </sic>healdan for heora
+<lb n="14"/><g ref="#sins"/>ynna þe hie ær worhton <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie gebetan noldon þa hwile
+<lb n="15"/>þe hie þæt weorð hæfdon. for<sic></sic>þan hie þonne bioð <seg type="word">forlæ
+<lb n="16"/>tene</seg>. þonne <g ref="#sins"/>io tid cymeð. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie þonne æfre bioð <seg type="word">ge
+<lb n="17"/>nið<sic> </sic>rade</seg> á in<sic></sic>ecnesse</q></quote> þi<g ref="#sins"/> i<g ref="#sins"/> þonne þæ<g ref="#sins"/> ælmihtigan <seg type="word">dryht
+<lb n="18"/>ne<g ref="#sins"/></seg> sylfe<g ref="#sins"/> muðe<g ref="#sins"/> cwide. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>he ðu<g ref="#sins"/> wæ<g ref="#sins"/> cweðende<del type="erasure"></del> <quote><q who="Christ"><hi rend="smallcap">I</hi>c eom <g ref="#sins"/>e
+<lb n="19"/>ælmihtiga dryhten <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>eall<add place="sub">,</add><add place="sup">r</add>a ga<g ref="#sins"/>ta nerigend. <choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> ðæt i<g ref="#sins"/> <g ref="#sins"/>oð
+<lb n="20"/>þæt ic <g ref="#sins"/>ecge þæt ealle þa<g ref="#sins"/> tacenu bioð æt þy<g ref="#sins"/><g ref="#sins"/>e worulde
+<lb n="21"/>ende. ge<sic> </sic>æt<sic> </sic>ywde. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>eac<sic></sic>bið <g ref="#slong"/>wiðe mycel hungor <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wiðe micle
+<lb n="22"/>adle of<damage type="faded">er ea</damage>lle eorðan. <hi rend="double">f</hi>or<sic></sic>ðan manegum men bið
+<lb n="23"/><g ref="#slong"/>wiðe mycel n<g ref="#ydot"/>d<sic> </sic>þearf. ær<sic></sic>þære tide þæt <damage type="faded" agent="water">h</damage>ie to<sic></sic><name type="religion"><choice><orig>gode</orig><reg>Gode</reg></choice></name>
+<lb n="24"/>ge<sic> </sic>hwyrfen for<sic></sic>þan <g ref="#inodotenl"/>n ða tid ealle men beoð ge<sic> </sic>herg<damage type="faded" agent="water">ode</damage>
+ 
+<pb n="82v"/>
+      
+<lb n="1"/><damage type="faded" agent="water">þu</damage>r<damage type="faded" agent="water">h</damage> ealle <damage type="faded" agent="water">þe</damage>ode, <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> hie þonne feallað <g ref="#inodotenl"/>n<sic></sic><g ref="#slong"/>weordes ecg<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
+<lb n="2"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þæt i<g ref="#sins"/><sic></sic><damage type="faded" agent="water">þ</damage>onne þy ærestan dæge. bið <choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> æreste fore<sic> </sic>tacn
+<lb n="3"/>ær<sic></sic>ð<damage type="faded" agent="water">am</damage> <name type="religion"><choice><orig>dome<g ref="#sins"/><sic> </sic>dæge</orig><reg>Domesdæge</reg></choice></name>. þæt is þæt þær bið æt ðære þriddan
+<lb n="4"/>tide dæges.</q></quote></p> <p><quote><q who="Christ">on <name type="abstract"><choice><orig>monan<sic> </sic>dæge</orig><reg>Monandæge</reg></choice></name> <g ref="#slong"/>wiðe mycel geomrung <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þær
+<lb n="5"/>bið mycel wanung. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>granun<damage type="faded">g</damage>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>murnung <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><sic></sic>woretung.
+<lb n="6"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wiðe <g ref="#slong"/>tranglicu word. <hi rend="double">o</hi>n<sic></sic>heofene<g ref="#sins"/> roderum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wið<sic> </sic>e
+<lb n="7"/>mycel blodig wolcn a<g ref="#slong"/>tigeð. fram norð<sic> </sic>wearðum of
+<lb n="8"/>heofone. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>bioð þonne <g ref="#slong"/>wiðe mycele þuner<sic> </sic>rade <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>mycle
+<lb n="9"/>ligitta <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þam <sic>folgiað</sic><corr resp="scragg szarmach">folgað</corr> <g ref="#sins"/>um <g ref="#slong"/>wiðe mycel wolcenn. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þæt
+<lb n="10"/>wolcen be<sic> </sic>wyrgð <damage type="faded" agent="water">ea</damage>ln<damage type="faded" agent="water">e</damage> heofon. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þanon cymeð <g ref="#slong"/>wiðe
+<lb n="11"/>mycel blodig regn. of<sic></sic>ðam wolcne of<sic> </sic>er ealle eorðan.
+<lb n="12"/><hi rend="double">þ</hi>is syndon þæs <name type="abstract"><choice><orig>monan<sic> </sic>dæge<g ref="#sins"/></orig><reg>Monandæges</reg></choice></name> fore<sic> </sic>tacnu.</q></quote></p> <p><quote><q who="Christ"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><hi rend="double">þ</hi>onne<sic></sic>bið
+ <lb n="13"/>on <name type="abstract"><choice><orig>tiwe<g ref="#sins"/><sic> </sic>dæge</orig><reg>Tiwesdæge</reg></choice></name> <g ref="#slong"/>wiðe mycel <g ref="#slong"/>tefn ge<sic> </sic>hyred on<sic></sic>e<damage type="smudge" agent="water">a</damage><g ref="#slong"/>t<sic> </sic>weardum
+<lb n="14"/>heofones roderum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wiðe mycle mihta. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þær ut<sic> </sic>eðmiaþ
+<lb n="15"/>þurh þa heofona<g ref="#sins"/> geatu. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þo<abbr type="contr">ñ</abbr><expan>nn</expan>e bið <g ref="#sins"/>e heofon mid<sic></sic>micle
+<lb n="16"/>wolcne be<sic> </sic>wrigen fram ærne<sic> </sic>mergen oð æfen. <hi rend="double">þ</hi>i<g ref="#sins"/><sic></sic><g ref="#sins"/>yndon
+ <lb n="17"/>þæ<g ref="#sins"/> <name type="abstract"><choice><orig>tiwe<g ref="#sins"/><sic> </sic>dæge<g ref="#sins"/></orig><reg>Tiwesdæges</reg></choice></name> tacnu.</q></quote></p> <p><quote><q who="Christ"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne þy þriddan dæge þæt bið
+  <lb n="18"/>on<sic></sic><name type="abstract"><choice><orig>wodne<g ref="#sins"/><sic> </sic>dæg</orig><reg>Wodnesdæg</reg></choice></name> æt þære æfteran tide þæ<g ref="#sins"/> dæges þonne cymeð
+<lb n="19"/><g ref="#sins"/>ige<sic> </sic>beacen of heofonum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><sic>wealla<g ref="#sins"/></sic><corr resp="szarmach">wællas</corr> bioð<sic></sic>cyrmende <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>eorðan
+<lb n="20"/>grun<damage type="faded" agent="water">da<g ref="#sins"/></damage>. of feower hwomm<g ref="#umacr"/><!-- CHECK abbr/am to be added --> þy<g ref="#sins"/><g ref="#sins"/>e<g ref="#sins"/> middan<sic> </sic>gearde<g ref="#sins"/> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#sins"/>e
+<lb n="21"/>æresta heofon bið ge<sic> </sic>fealden <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>tolesen. <g ref="#slong"/>wa <g ref="#slong"/>wa boca leaf
+<lb n="22"/>beoð <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þæt he eft ne æt<sic> </sic>yweð <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne æfter þam <g ref="#slong"/>wiðe
+<lb n="23"/>raðe bið. þæt <g ref="#sins"/>eo <g ref="#slong"/>weof<sic> </sic>lennesse <sic>þæ<g ref="#sins"/></sic><corr resp="scragg">þæt</corr> muð ge<sic> </sic>openade
+<lb n="24"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>grunda<g ref="#sins"/>. aþy<g ref="#sins"/>trode on<sic></sic>þa teoðan tid <damage type="faded">dæ</damage>ge<g ref="#sins"/>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne
+
+<pb n="83r"/>
+ 
+<add hand="unknown">
+<fw type="fol" place="top-right">83.</fw>
+</add>
+
+<lb n="1"/>cweðað ealle men. <q who="wretched crowd"><hi rend="double">w</hi>á us nu ea<damage type="faded">rminga<g ref="#sins"/>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wa <g ref="#sins"/>ynf</damage>ullan
+<lb n="2"/>þæt we æfre þis <damage type="faded"><g ref="#sins"/></damage>ceoldon ge<sic> </sic>bidan. <hi rend="double">w</hi>a us þæs þæt we
+<lb n="3"/>æfre gestrynde wæron oððe ge<sic> </sic>borene. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>nu we magon <seg type="word">ge
+<lb n="4"/><g ref="#sins"/>eon</seg>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>witan witodlice. ðæt nu nealæceð ure ende<sic> </sic>dæge.
+<lb n="5"/>swa u<g ref="#sins"/> of<damage type="faded">t</damage> sægdon. ða<sic></sic>ðe ure lareowa<g ref="#sins"/> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ure boceras wæron.
+<lb n="6"/>þæt ða<g ref="#sins"/> tacno sceoldon cuman. þe we nu<sic></sic>ge<sic> </sic>seoð <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>gyt <g ref="#sins"/>ceolon.
+<lb n="7"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>we him dydon to b<g ref="#yrgmainstrok"/>smere ða hie us þillic sægdon. <hi rend="double">w</hi>a<sic></sic>us
+<lb n="8"/><damage type="faded">nu</damage> earmingas þæt we nu lifiað to lange on<sic></sic><g ref="#slong"/>wylcum ege
+<lb n="9"/>þæs we næfre ne<sic></sic>wendon þ<g ref="#omacr"/><!-- CHECK abbr/am to be added -->n man ú<g ref="#sins"/> oft þyllic toweard
+<lb n="10"/><g ref="#sins"/>ægde <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>lærde. hu we <g ref="#slong"/>ceoldon to <name type="religion"><choice><orig>gode</orig><reg>Gode</reg></choice></name> ge<sic> </sic>cyrran <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ure <seg type="word">ear
+<lb n="11"/>man</seg> <g ref="#sins"/>awle al<g ref="#ydot"/>san of helle wite. ac we his ne rohton.
+<lb n="12"/>ac<sic></sic>we lufedon micle <g ref="#slong"/>wiðor ura wamba fylnesse <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>on
+<lb n="13"/>ure gold <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><hi rend="double">o</hi>n<sic></sic>u<damage type="faded" agent="water">re</damage> gleng<sic> </sic>nesse <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>on ure myclan gestreone
+<lb n="14"/><damage type="faded" agent="water"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>on r</damage>eaflacum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>on<sic></sic>git<g ref="#sins"/>unge. <g ref="#slong"/>wiðor we þæt lufedon. þ<g ref="#omacr"/><!-- CHECK abbr/am to be added -->n
+<lb n="15"/>we dydon <name type="religion"><choice><orig>gode<g ref="#sins"/></orig><reg>Godes</reg></choice></name> be<sic> </sic>boda <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þyllic þe we nu<sic></sic>ge<sic> </sic>seoð</q>. <hi rend="double">w</hi>a ðam
+  <lb n="16"/>þe ðis eal sceal ge<sic> </sic>bidan. <hi rend="double">ð</hi>is<sic></sic>syndon þæ<g ref="#sins"/> <name type="abstract"><choice><orig>wodne<g ref="#sins"/><sic> </sic>dæges</orig><reg>Wodnesdæges</reg></choice></name>
+  <lb n="17"/>tacnu.</q></quote></p> <p><quote><q who="Christ"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne on <name type="abstract"><choice><orig>þurre<g ref="#sins"/><sic> </sic>dæge</orig><reg>Þurresdæge</reg></choice></name> þæt<space extent=""/>bið þ<damage type="faded">æt</damage> þonne
+<lb n="18"/>ariseð eorðan frymðe fram norð<sic> </sic>dæle <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>fram <seg type="word">east
+<lb n="19"/>dæle</seg>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>eorðan grunda<g ref="#sins"/> bioð grimetiende <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ealle eorðan
+<lb n="20"/>mægen on<sic> </sic>hrered. þonne <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>dioful<sic> </sic>gild bið þ<g ref="#omacr"/><!-- CHECK abbr/am to be added -->n tobrocen.
+<lb n="21"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ealle ge<sic> </sic>nið<sic> </sic>timber<sic> </sic>nesse ge<sic> </sic>fylled. on<sic></sic>ðam dæge.
+   <lb n="22"/><hi rend="double">ð</hi>is <g ref="#sins"/>indon þæ<g ref="#sins"/> feorðan dæges tacnu.</q></quote></p> <p><quote><q who="Christ"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ð<g ref="#omacr"/><!-- CHECK abbr/am to be added -->n on<sic></sic><name
+    type="abstract"><choice><orig>frige<sic> </sic>dæge</orig><reg>Frigedæge</reg></choice></name>
+<lb n="23"/>æt<sic></sic>þær<damage type="faded">e</damage> syxtan tide þonne breceð heofone<g ref="#sins"/> rodor
+<lb n="24"/>fram east<sic> </sic>dæle oð<sic></sic>ðone west<sic> </sic>rodor. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne beoð
+
+<pb n="83v"/> 
+
+<lb n="1"/>lociende dr<g ref="#yrgmainstrok"/>htne<g ref="#sins"/> engla<g ref="#sins"/> ufan on<sic></sic>þa<g ref="#sins"/> eorð<sic> </sic>lican <seg type="word">ge<g ref="#sins"/>ceaf
+<lb n="2"/>ta</seg> þurh<sic></sic>þa unge<sic> </sic>wemmedan duru <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne ealle men
+<lb n="3"/>æfter þan <g ref="#sins"/>ona mid mycle ege<g ref="#sins"/>an <g ref="#slong"/>wiðe ge<sic> </sic>þreade beoð.
+<lb n="4"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie þonne fleoð to muntum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>to<sic></sic>denum. hie to<sic></sic><seg type="word">be<sic> </sic>hyd
+<lb n="5"/>anne</seg> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie ðus cweðað. <q who="crowd"><hi rend="double">w</hi>e hal<g ref="#sins"/>iað eow munta<g ref="#sins"/> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>dena
+<lb n="6"/>þæt ge us ofer<sic> </sic>feallen. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>be<sic> </sic>wrigen þæt we næfre eft cwice
+<lb n="7"/><g ref="#sins"/>ien. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>u<g ref="#sins"/> eorðe eac for<g ref="#sins"/>welge <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wiðe<sic></sic>hraðe ge<sic> </sic>gripe. þæt
+<lb n="8"/>we næfre eft cwice arisan. <hi rend="double">f</hi>or<sic></sic>ðan þe we næfre <seg type="word">ge
+<lb n="9"/>ah<g ref="#sins"/>odon</seg> þyllic weorc <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þyllic ege<g ref="#sins"/>a. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þyllic wite. <hi rend="double">s</hi>yððan
+<lb n="10"/>we ge<sic> </sic>borene wæron. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ðeo<g ref="#sins"/> woruld ge<sic> </sic>sceapen wæs. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><seg type="word">ge
+<lb n="11"/>worden</seg></q>. <hi rend="double">W</hi>a<sic></sic>ðam þe ðæt eall sceal gebidan.</q></quote></p> <p><quote><q who="Christ"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ðonne is
+<lb n="12"/>þæ<g ref="#sins"/> <name type="abstract"><choice><orig>sæterne<g ref="#sins"/><sic> </sic>dæge<g ref="#sins"/></orig><reg>Sæternesdæges</reg></choice></name> tacenu þæt fram þam feower
+<lb n="13"/><g ref="#sins"/>ceatum middan<sic> </sic>gearde<g ref="#sins"/> bið. gefylled on heofone<g ref="#sins"/>
+<lb n="14"/>rodor mid helle<sic> </sic>ga<g ref="#sins"/>tum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>mid<sic></sic>heofonlice cam<sic> </sic>werod<corr resp="scragg">campwerode</corr>.
+<lb n="15"/>þære engelican <sic>ge<sic> </sic>sceaft</sic><corr resp="scragg szarmach">gesceafte</corr>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne þær bið micel gefeoht
+<lb n="16"/>betweoh <sic>engla</sic><corr resp="scragg">englas</corr><space extent=""/> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>deofla <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie ge<sic> </sic>stefniað him betweon<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
+<lb n="17"/>wið ðam unclænum<space extent=""/> ga<g ref="#slong"/>tum for<sic></sic><name type="religion"><choice><orig>gode<g ref="#sins"/></orig><reg>Godes</reg></choice></name> þam ge<sic> </sic>corenum
+<lb n="18"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> his ðam leofum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne ða engla<g ref="#sins"/> ofer<sic> </sic><g ref="#slong"/>wiðað ða
+<lb n="19"/>werig<add place="sub">,</add><add place="sup">.d.</add>an ga<g ref="#slong"/>ta<g ref="#sins"/> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie þonne mid ealle ofer<sic> </sic>cumað.
+<lb n="20"/><hi rend="double">b</hi>roðor mine þi<g ref="#sins"/> <g ref="#sins"/>indon þæs <name type="abstract"><choice><orig>sæternes<sic> </sic>dæge<g ref="#sins"/></orig><reg>Sæternesdæges</reg></choice></name> tacno.
+<lb n="21"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þa mihtlican þa<sic></sic>þe ge<sic> </sic>weorðað ær<sic></sic>ðam myclan <seg type="word">dryht
+<lb n="22"/>ne<g ref="#sins"/></seg> <name type="religion"><choice><orig>dome<g ref="#sins"/><sic> </sic>dæge</orig><reg>Domesdæge</reg></choice></name></q></quote>.</p> <p><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne
+ on <name type="abstract"><choice><orig><g ref="#sins"/>unnan<sic> </sic>dæge</orig><reg>Sunnandæge</reg></choice></name> soð<sic> </sic>lice
+<lb n="23"/><g ref="#inodotenl"/>n<sic></sic>ðam dæge ures dryhtnes on<sic> </sic><g ref="#sins"/>yn bið <g ref="#slong"/>wiðe reðe
+<lb n="24"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wiðe ege<g ref="#sins"/><sic> </sic>ful <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>grim. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#sins"/>io wund bið <g ref="#slong"/>wiðe grim þam<gap reason="lost" extent="1fol"/>
+
+<pb n="84r"/>
+
+<add hand="unknown">
+<fw type="fol" place="top-right">84.</fw>
+</add>
+
+<lb n="1"/>borene sceoldon bion <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>to swylcum wund<damage type="faded">r</damage>e
+sceoldon
+<lb n="2"/>æfre ge<sic> </sic>weorðan <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne gesyhð <space extent=""/>ure leofe <seg type="word">hlæf
+ <lb n="3"/>die</seg> &sca; <name type="religion"><choice><orig>maria</orig><reg>Maria</reg></choice></name> <name type="religion"><choice><orig>cristes</orig><reg>Cristes</reg></choice></name> moder þone earman <damage type="faded">heap</damage>
+<lb n="4"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þone sarigan. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þone dreorigan. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne ariseð heo.
+<lb n="5"/>mid wependre stefne. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ge<sic> </sic>fealleð<add place="sub">,</add><add place="to">to</add> <damage type="faded"><name type="religion"><choice><orig>cristes</orig><reg>Cristes</reg></choice></name> cneow</damage><g ref="#umacr"/><!-- CHECK abbr/am to be added --> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>to
+<lb n="6"/>his fotum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>heo <g ref="#slong"/>wa cweð. <q who="Sancta Maria">min dri<damage type="smudge">h</damage><damage type="faded">te</damage><damage type="smudge">n</damage> <damage type="faded">h</damage><damage type="smudge">æl</damage>enda <name type="religion"><choice><orig>crist</orig><reg>Crist</reg></choice></name>
+<lb n="7"/>ðu<sic></sic>þe gemedomadest þæt ðu wære on min<g ref="#umacr"/><!-- CHECK abbr/am to be added --> in<sic> </sic>noðe
+<lb n="8"/>eardiende ne<sic></sic>for<sic> </sic>læt ðu næfre þa deofla ge<sic> </sic>weald agan
+<lb n="9"/>ðus myclan heape<g ref="#sins"/> þines hand<del type="erasure">e<g ref="#slong"/></del><space extent=""/>ge<sic> </sic>worces</q>.</p> <p><hi rend="double">ð</hi>onne forgifeð
+<lb n="10"/>ure dryhten þryddan dæl þæs <g ref="#sins"/>ynfullan heape<g ref="#sins"/>. þære
+ <lb n="11"/>halgan &sca; <name type="religion"><choice><orig>marian</orig><reg>Marian</reg></choice></name>. þonne bið þær<sic></sic>gyt be<sic> </sic>hindan. <g ref="#slong"/>wiðe
+<lb n="12"/><damage type="faded">myc</damage>el heap <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wiðe <g ref="#sins"/>arig <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>dreorig þæs<sic></sic>ðe hie <damage type="faded" agent="chemical">æfre</damage>
+<lb n="13"/>gewurdon gestrynde. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> þonne ariseð se halga <gap reason="illegible" agent="chemical"/><supplied resp="maier">Michael</supplied>
+<lb n="14"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>crypð. mid handum <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>mid fotum <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>mid mycl<damage type="stain">e<unclear>w</unclear></damage><gap reason="illegible" agent="chemical"/><supplied resp="sisam">ean  <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> feala</supplied>
+<lb n="15"/>teara <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>luteð swiðe ead<sic> </sic>modlice to<sic></sic>dry<damage type="stain" agent="chemical">htn<unclear>e</unclear></damage><gap reason="lost" agent="chemical"/><supplied resp="sisam">s fotu</supplied><unclear agent="chemical">m</unclear>.
+<lb n="16"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>to hi<g ref="#sins"/> cneowe. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>he ðus cweð. <q who="Michael">min<sic></sic>dri<damage type="stain" agent="chemical">h</damage><unclear>te</unclear><gap reason="illegible" agent="chemical"/><supplied resp="sisam">n ælmihti</supplied><unclear agent="chemical">g</unclear>. <damage type="stain" agent="chemical">ð</damage>u
+<lb n="17"/>me sealdest ealdor<sic> </sic>dom unde<damage type="stain" agent="chemical">r ðe</damage> <gap reason="illegible" agent="chemical"/><supplied resp="sisam">ofer eall</supplied> <damage type="stain" agent="chemical">he</damage>ofena
+<lb n="18"/>rice. þæt ic moste bion þin ge<sic> </sic><unclear agent="chemical">w</unclear><gap reason="illegible" agent="chemical"/><supplied resp="sisam">itten eall</supplied><unclear agent="chemical">ra</unclear> sawla <seg type="word"><abbr type="pref"><am><g ref="#et"/></am></abbr>
+<lb n="19"/>feng</seg> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>nu ic<sic></sic>ðe bidde min d<damage type="smudge" agent="chemical">rih</damage><gap reason="illegible" agent="chemical"/><supplied resp="sisam">ten þæt ðu</supplied> <damage type="smudge" agent="chemical">næ</damage>fre <seg type="word">for
+<lb n="20"/><damage type="faded">læte</damage></seg> ðus myclan heape<g ref="#sins"/> <damage type="smudge" agent="chemical">ge</damage><sic> </sic><gap reason="illegible" agent="chemical"/><supplied resp="sisam">weald dio</supplied><unclear agent="chemical">fl</unclear><damage type="smudge" agent="chemical">u</damage> <damage type="faded">a</damage>gan þines
+<lb n="21"/>hand<sic> </sic>ge<sic> </sic>weorce<g ref="#sins"/></q>. <space extent=""/> <damage type="smudge" agent="chemical"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þo</damage><gap reason="illegible" agent="chemical"/><supplied resp="sisam">nne fo</supplied><unclear agent="chemical">r</unclear><damage type="smudge" agent="chemical">gife</damage>ð ure dr<g ref="#windy"/>hten
+ <lb n="22"/>þam halgan &sce; <name type="religion"><choice><orig>mi<damage type="smudge" agent="chemical">cha</damage><gap reason="illegible" agent="chemical"/><supplied resp="sisam">el</supplied></orig><reg>Michael</reg></choice></name> <gap reason="illegible" agent="chemical"/><supplied resp="sisam">þo</supplied><unclear agent="chemical">n</unclear><damage type="smudge" agent="chemical">e</damage> þriddan dæl <damage type="faded">ð</damage>æs<sic></sic><seg type="word">syn
+<lb n="23"/>fullan</seg> heapes. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þo<damage type="smudge" agent="chemical">nn</damage><unclear agent="chemical">e</unclear> <gap reason="illegible" agent="chemical"/><supplied resp="sisam">bið</supplied> <damage type="smudge" agent="chemical">ðæ</damage>r gyt <g ref="#slong"/>wiðe mycel werod
+<lb n="24"/><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/></damage>wiðe ofer<sic> </sic>mæt<damage type="smudge" agent="chemical">lice</damage> <gap reason="illegible" agent="chemical"/><supplied resp="sisam">myc</supplied><unclear agent="chemical">el</unclear> be<sic> </sic><damage type="faded">hind</damage>an þara <seg type="word"><g ref="#sins"/>yn<sic> </sic>ful
+
+<pb n="84v"/>
+
+<lb n="1"/>lra</seg> sawla. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne ariseð se halga <choice><abbr type="brev">s<am><g ref="#cmacr"/></am>s</abbr><expan>s<ex>an</ex>c<ex>tu</ex>s</expan></choice><!-- CHECK --> <name type="religion"><choice><orig>petrus</orig><reg>Petrus</reg></choice></name>. hi<g ref="#sins"/>
+<lb n="2"/>ealdor<sic> </sic>þegn. <space extent=""/>swiðe sarig <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wiðe dreorig. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>mid<sic></sic><seg type="word">mic
+<lb n="3"/>lan</seg> sarigan tearum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>he ðonne mid myclum ead<sic> </sic>med<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
+<lb n="4"/>fealleð to<sic></sic>ðæs hælende<g ref="#sins"/> fotum <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>to his cneow<g ref="#umacr"/><!-- CHECK abbr/am to be added --> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>he<sic></sic>ð<g ref="#omacr"/><!-- CHECK abbr/am to be added -->n
+<lb n="5"/>cweð. <q who="Sanctus Petrus">min dryhten. min<sic></sic>drihten ælmihtig ðu me <g ref="#sins"/>ealdest
+<lb n="6"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>me<sic></sic>ge<sic> </sic>uðest heofona rices cægan. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>eac helle wita
+<lb n="7"/>þæt ic moste <g ref="#slong"/>wylcne ge<sic> </sic>bindan on eorðan <g ref="#slong"/>wylcne ic
+<lb n="8"/>þonne wolde. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#slong"/>wylcne alysan swylcne ic<sic></sic>wolde. <hi rend="smallcap">I</hi>c<sic></sic>bidde
+<lb n="9"/>þe min dryhten for<sic></sic>þinum cyne<sic> </sic>dome. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>for<sic></sic>þinum
+<lb n="10"/>þrymme. ðæt<sic></sic>ðu me forgife ðysse<g ref="#sins"/> earman <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ðysse<g ref="#sins"/>
+<lb n="11"/>synfullan heape<g ref="#sins"/> þriddan dæl</q>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þ<g ref="#omacr"/><!-- CHECK abbr/am to be added -->n for<sic> </sic>gifeð ure
+<lb n="12"/>dryhten ðam halgan &sce; <name type="religion"><choice><orig>petre</orig><reg>Petre</reg></choice></name> ðone ðriddan dæl þæ<g ref="#sins"/>
+<lb n="13"/><g ref="#sins"/>ynfullan heape<g ref="#sins"/>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne bið þær gyt <g ref="#slong"/>wiðe mycel
+<lb n="14"/>werod be<sic> </sic>hindan. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> <name type="religion"><choice><orig>gode</orig><reg>Gode</reg></choice></name> <g ref="#slong"/>wiðe lað. <hi rend="double">ð</hi>onne besyhð se
+<lb n="15"/>soð<sic> </sic>fæsta dema. on<sic></sic>þa <g ref="#slong"/>wiðran healfe to<sic></sic>his ðam <seg type="word">gecore
+<lb n="16"/>num</seg> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>to<sic></sic>hi<g ref="#sins"/><sic></sic>ð<g ref="#amacr"/> halgum. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>he ðus cweð. <quote><q who="Christ"> <foreign xml:lang="lat"><hi rend="double">u</hi>enite benedicti
+<lb n="17"/>patris mei &pbardes;<sic> </sic>cipite regnum <sic>ad</sic><corr resp="scragg szarmach">quod</corr><sic></sic>uo<g ref="#bovlmed"/> paratum est
+<lb n="18"/>ab origine mundi</foreign></q></quote> he swa cwæð <quote><q who="Christ"><hi rend="double">c</hi>umað ge nu <seg type="word">gebled
+<lb n="19"/><g ref="#sins"/>ode</seg> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>onfoð mine<g ref="#sins"/> fæder rice þæt eow wæs gee<damage type="faded">a</damage>ruwad
+<lb n="20"/>fram fruman middan<sic> </sic>gearde<g ref="#sins"/></q></quote>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne gyt besyhð ure
+<lb n="21"/>dr<g ref="#windy"/>hten on þa wynstran hand.  <space extent=""/>to<sic></sic>ðam synfullan
+<lb n="22"/>heape <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>he<sic></sic>ðus cweð to<sic></sic>him <quote><q who="Christ"><foreign xml:lang="lat"><hi rend="double">d</hi>iscedite male<sic> </sic>dicti <g ref="#inodotenl"/>n
+<lb n="23"/>ignem æternum qui <g ref="#pmacr"/><!-- CHECK abbr/am to be added --><sic> </sic>paratus est <name type="religion">diabulo</name> et angelis
+<lb n="24"/>eius</foreign></q></quote>. <hi rend="double"><g ref="#hrdes"/></hi>e swa cwæð <quote><q who="Christ">gewitað ge awyrigde, fram me
+
+<pb n="85r"/>
+  
+<add hand="unknown">
+<fw type="fol" place="top-right">85.</fw>
+</add>
+
+<lb n="1"/><g ref="#inodotenl"/>n<sic></sic>ða neoðeme<g ref="#sins"/>tan helle wite <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#inodotenl"/>n ðæt ece fyr.
+<lb n="2"/>ðe ðam <name type="religion">diofle</name> wæs ge<sic> </sic>earwod <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> eow þe<sic></sic>ge him<sic></sic>hyrdon</q></quote>.
+<lb n="3"/><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þ</damage>onne gesamniað ða <name type="religion">dioflu</name> hie tosomne. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie ð<g ref="#omacr"/><!-- CHECK abbr/am to be added -->n
+<lb n="4"/>drifað þa synfullan <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þa cear<sic> </sic>fullan sawla to<sic></sic>helle
+<lb n="5"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#sins"/>e halga <name type="religion"><choice><orig>petrus</orig><reg>Petrus</reg></choice></name> gæð mid <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>bereð helle<sic> </sic>cægan on<sic></sic>handa:
+<lb n="6"/>eala broðor mine hwæt ðær mæg ge<sic> </sic>hyran micel sorh
+<lb n="7"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>mycel wanung <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>mycel <g ref="#slong"/>woretung <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>m<g ref="#windy"/>cel wóp <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>toða
+<lb n="8"/>grist<sic> </sic>bitung <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þone hludestan sarig<sic> </sic>cerm <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þone <seg type="word">sari
+<lb n="9"/>gestan</seg> stefn. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þone sarigestan wanunge. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>granunge.
+<lb n="10"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne drifað ða <name type="religion">deofla</name> þa <g ref="#sins"/>ynfullan <g ref="#sins"/>awla <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þa <seg type="word">dreori
+<lb n="11"/>gan</seg> <g ref="#inodotenl"/>n<sic></sic>helle witu <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hie sylfe gað mid <g ref="#inodotenl"/>n on<sic></sic>þa helle. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þ<g ref="#omacr"/><!-- CHECK abbr/am to be added -->n
+<lb n="12"/>wendeð <choice><abbr type="brev">s<am><g ref="#cmacr"/></am>s</abbr><expan>s<ex>an</ex>c<ex>tu</ex>s</expan></choice><!-- CHECK --> <name type="religion"><choice><orig>petrus</orig><reg>Petrus</reg></choice></name> þanon fram þære helle dura
+<lb n="13"/><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>he be<sic> </sic>luceð þa helle duru syð<sic> </sic>þan. þa earman sawla
+<lb n="14"/>bioð <g ref="#inodotenl"/>n<sic></sic>ða ecan helle <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><g ref="#inodotenl"/>n<sic></sic>ða écan cwylmnesse. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ða <seg type="word"><name type="religion">deof
+<lb n="15"/>la</name></seg> mid him. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne wendeð him <choice><abbr type="brev">s<am><g ref="#cmacr"/></am>s</abbr><expan>s<ex>an</ex>c<ex>tu</ex>s</expan></choice><!-- CHECK --> <name type="religion"><choice><orig>petrus</orig><reg>Petrus</reg></choice></name> þanon
+<lb n="16"/>fram þære helle dura. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>he ðonne weorpeð ða <seg type="word">cearful
+<lb n="17"/>lan</seg> cæge ofer bæc <g ref="#inodotenl"/>n on<sic></sic>þa helle. <hi rend="double">ð</hi>is he deð for<sic></sic>ðam <lb n="18"/>þe he ne mæg locian on ðæt mycle sár <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>on<sic></sic>ðam myclan
+<lb n="19"/>wanunge <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>on<sic></sic>ðam myclan wope. þe þa earman <g ref="#sins"/>awla
+<lb n="20"/>dreogað mid ðam <name type="religion">deoflum</name> in <name type="religion">helle</name> tintrego. <hi rend="double">e</hi>ala
+<lb n="21"/>broðor mine, hu mycel <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>hu hlud bið se cnyll<space extent=""/>
+<lb n="22"/>þonne seo cæge fealleð <g ref="#inodotenl"/>n<sic></sic>ða <name type="religion">helle</name></p> <p>.&munctilde;<!-- maiuscola o minuscola? -des o no? -->. <corr>Men</corr> <corr>ða</corr> <corr>leofestan</corr> siððan <space extent=""/>ne
+<lb n="23"/>ðurfan þa <g ref="#sins"/>ynfullan <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>ða <g ref="#sins"/>orh<sic> </sic>fullan sawla wenan
+<lb n="24"/>ne<sic></sic>ða <name type="religion">diofla</name> þon ma þæt hie æfre on<sic> </sic>fon s<g ref="#ydot"/>ðþan
+ 
+<pb n="85v"/>  
+
+<lb n="1"/>reste. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þonne dryhten færð him mid h<add place="sub">,</add><add place="sup">i</add><g ref="#sins"/> englum <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>mid<sic></sic>hi<g ref="#sins"/>
+<lb n="2"/>apostolum <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>mid his ðam haligra <sic>werod</sic><corr resp="scragg">werode</corr> to heofena rice
+<lb n="3"/>mid myclan þrymme <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>þær syððan wuniað <g ref="#inodotenl"/>n ecum <seg type="word">wul
+<lb n="4"/>dre</seg>. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic><damage type="faded">hi</damage>e habbað symle ge<sic> </sic>fean syððan. <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><sic></sic>blisse mid
+<lb n="5"/>urum dryhtne ðam <g ref="#sins"/>ie symble wuldor <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> wyrð<sic> </sic>mynd <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->
+<lb n="6"/>ece gefean a<sic></sic>butan ende <g ref="#inodotenl"/> sc&ltilde;a sc&ltilde;orum <foreign xml:lang="lat">in secula seculorum</foreign> ame<hi rend="smallcap">N</hi>&colmidcomposit;
+
+</p>
+</div>
+</body>
+</text>
+</TEI>
