@@ -1198,13 +1198,13 @@
         <pb n="104v" xml:id="VB_fol_104v"/>
 
         <l n="1"><lb facs="#VB_line_104v_07" n="7" xml:id="VB_lb_104v_07"/><hi rend="init3.1">
-          <g ref="#Hunc"/></hi><hi rend="cap">W</hi>æt ic<note type="critical" n="a">A critical note</note>
+          <g ref="#Hunc"/></hi><hi rend="cap">W</hi>æt<note>A generic, unnumbered note</note> ic
           <g ref="#slong"/>wefna c<g ref="#ydot"/><g ref="#sins"/>t secgan
-          wylle<note type="comment" n="1">A comment note</note></l>
+          wylle</l>
         <l n="2"><choice>
             <sic>hæt</sic>
             <corr resp="Grein">hwæt</corr>
-        </choice><note>A generic, unnumbered note</note>
+        </choice><note type="critical" n="a">A critical note</note>
           <choice>
             <orig>mege mætte</orig>
             <reg>me gemætte</reg>
@@ -1212,7 +1212,7 @@
         <l n="3">syðþan <seg type="kenning"><choice>
             <orig>reord b<g ref="#eenl"/>r<g ref="#eenl"/>nd</orig>
             <reg>reordberend</reg>
-          </choice></seg> reste wunedon<orig><pc type="metrical">.</pc></orig></l>
+        </choice></seg> reste wunedon<orig><pc type="metrical">.</pc></orig><note type="comment" n="1">A comment note</note></l>
         <l n="4"><lb facs="#VB_line_104v_09" n="9" xml:id="VB_lb_104v_09"/>þuhte me þæt ic <choice>
             <orig>ge <g ref="#sins"/>awe</orig>
             <reg>gesawe</reg>
