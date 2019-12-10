@@ -831,9 +831,51 @@
 
     <front>
       
-      <titlePage>
-        <titlePart>The Dream of the Rood</titlePart>
+      <titlePage type="document_front">
+        <pb n="I" xml:id="VB_spine"/>
+        
+        <docTitle>
+          <titlePart type="main">The Digital Vercelli Book</titlePart>
+          <titlePart type="sub">A digital facsimile and edition of Vercelli, Biblioteca Capitolare CXVII</titlePart>
+        </docTitle>
+        
+        <lb/>
+        <lb/>
+        
+        <docAuthor>Roberto Rosselli Del Turco</docAuthor>          
+        
+        <lb/>
+        
+        <docEdition>First edition (2017)</docEdition>
+        
+        <lb/>
+        <lb/>
+        <lb/>
+        
+        <byline>Transcription and encoding by R. Rosselli Del Turco, R. Cioffi, F. Goria</byline>
+        <byline>Update to P5 TEI schemas by R. Rosselli Del Turco and E. Magnanti</byline>
+        
+        <lb/>
+        
+        <byline>Powered by EVT - Edition Visualization Technology</byline>
+        <byline>EVT created by C. Di Pietro, J. Kenny, R. Masotti, R. Rosselli Del turco</byline>
+        <byline>EVT home page: <ref target="http://evt.labcd.unipi.it/">http://evt.labcd.unipi.it/</ref></byline>
+        
+        <lb/>
+        <lb/>
+        <lb/>
+        
+        <docImprint>
+          <pubPlace>Torino</pubPlace>
+          <publisher>Collana <title>Open Access</title>, Università di Torino</publisher>
+          <date>2017-</date>
+        </docImprint>
+        
       </titlePage>
+      
+      <pb type="end"/>
+      
+      <head>The Dream of the Rood</head>
 
       <div type="paratext" subtype="intro">
         <p><title>The Dream of the Rood</title>, dating back to the first half of the 8th Century in its earliest
@@ -1298,7 +1340,7 @@
             <orig>ge seah</orig>
             <reg>geseah</reg>
           </choice> ic wuldre<g ref="#sins"/> treow<orig><pc type="metrical">.</pc></orig></l>
-        <l n="15">wædum <w>geweor<lb facs="#VB_line_104v_19" n="19" xml:id="VB_lb_104v_19"/>ðode</w> <choice>
+        <l n="15">wædum <w>geweor<lb facs="#VB_line_104v_19" n="19" xml:id="VB_lb_104v_19"/>ðode</w><choice>
             <abbr>wynn<am><g ref="#umacr"/></am></abbr>
             <expan>wynnu<ex>m</ex></expan>
           </choice> scinan</l>
