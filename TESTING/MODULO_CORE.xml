@@ -388,6 +388,325 @@
           lasciava sola Medea con Giasone.</p>
 
       </div>
+      
+      <div>
+
+        <pb xml:id="NHM-UK_L_433034_001a"/>
+
+        <p>
+          <table cols="4" rows="23">
+            <row role="data">
+              <cell><add rend="pencil">202</add></cell>
+              <cell>-1179.</cell>
+              <cell>Sponge from the beach at <placeName ref="#Fisher_Island">fishers Island</placeName>. There is
+                  stone of it<lb/> thrown up by the <geogFeat>sea</geogFeat>. from <persName>
+                    <abbr>M<hi rend="sup">r</hi>
+                    </abbr>. <surname>Winthorpe</surname> .</persName> from<lb/>
+                  <placeName ref="#New_England">New England</placeName>.</cell>
+            </row>
+            <row role="data">
+              <cell/>
+              <cell>-1180.</cell>
+              <cell>
+                <p>A <measure type="sizeWeight">large</measure> globose lapis Astroites undulatus given<lb/> to me by <persName>
+                    <abbr>M<hi rend="sup">r</hi>
+                    </abbr>. <surname>Haines</surname>
+                  </persName>
+                </p></cell>
+            </row>
+            <row role="data">
+              <cell><p><add rend="pencil">205</add></p>
+                <p><add rend="pencil">208.</add></p></cell>
+              <cell>-1181.</cell>
+              <cell><p>An astroites <metamark function="carets">w<hi rend="sup">t</hi>. <measure type="sizeWeight"
+                      >small</measure> starrs.</metamark> growing upon an East India pearl oyster<lb/> shell, the
+                  substance of which is more <measure type="state">solid</measure> &amp; the<lb/> holes of various
+                  figures. from the <placeName ref="#East_Indies">East Indies</placeName> by <persName>
+                    <abbr>M<hi rend="sup">r</hi>
+                    </abbr>.<lb/>
+                    <surname>Hodson</surname>
+                  </persName> from <placeName ref="#Mocha">Mocha</placeName>. <add rend="pencil">vid Shells N<hi
+                      rend="sup">o</hi>. 22</add>
+                </p></cell>
+            </row>
+            <row role="data">
+              <cell><p><add rend="pencil">205</add></p></cell>
+              <cell>-1182.</cell>
+              <cell><p>Fungus saxeus from <placeName ref="#Mocha">Mocha</placeName>. <ref target="dfgdf45">Id.</ref>
+                </p></cell>
+            </row>
+            <row role="data">
+              <cell><p><add rend="pencil">200</add></p></cell>
+              <cell>-1183.</cell>
+              <cell><p>
+                  <measure>A <measure type="sizeWeight">smaller</measure> bra <metamark function="carets">n</metamark>
+                    ched</measure> , <measure type="state">solid</measure> tho it hath cavities<lb/> alongst its
+                  branches. Id</p></cell>
+            </row>
+            <row role="data">
+              <cell><p><add rend="pencil">200</add></p></cell>
+              <cell>-1184.</cell>
+              <cell><p>Rete marinum growing upon a <space quantity="1" resp="#VP" unit="word"/>shell. Id.</p></cell>
+            </row>
+            <row role="data">
+              <cell><p><add rend="pencil">200</add></p>
+                <p><add rend="red">15 q</add></p></cell>
+              <cell>-1185.</cell>
+              <cell><p>Corallium fossile dichotom. &amp; a <measure type="sizeWeight">larger</measure> sort from
+                    <placeName ref="#Witney">Witney</placeName>
+                  <lb/> quarry.</p></cell>
+            </row>
+            <row role="data">
+              <cell><p><add rend="red">75</add></p>
+                <p><add rend="pencil">200</add></p></cell>
+              <cell>-1186.</cell>
+              <cell><p>Astroites fossil from the same.</p></cell>
+            </row>
+            <row role="data">
+              <cell/>
+              <cell/>
+              <cell/>
+            </row>
+          </table>
+        </p>
+
+      </div>
+      
+      <div>
+        <table rows="21" cols="1">
+          <head>christos 1508</head>
+          <row role="label">
+            <cell>OGGETTI</cell>
+            <cell>QUANTITA'</cell>
+            <cell>COSTO UNITARIO</cell>
+            <cell>COSTO TOTALE</cell>
+          </row>
+          
+          <pb  n="55v" xml:id="fol_215v"/>
+          <row ana="seta" n="1" xml:id="SMS1079_row_001">
+            <cell ana="oggetto">seta per pelo adoppiata e torta cruda a peso di statea</cell>
+            <cell ana="quantità">11 o. 2 2/4 </cell>
+            <cell ana="unitario">£. 18 la libbra </cell>
+            <cell ana="costo">£. 201 s. 15 d. </cell>
+          </row>
+          <row ana="seta" n="2">
+            <cell ana="oggetto">seta per orsoio da velluti adoppiato e torto crudo </cell>
+            <cell ana="quantità">lb. 2 o. 6 1/4 </cell>
+            <cell ana="unitario">£. 17 la libbra </cell>
+            <cell ana="costo">£. 42 s. 17 d. </cell>
+          </row>
+          <row ana="seta" n="3">
+            <cell ana="oggetto">seta per orsoio da rasi modigliano adoppiato e torto crudo a
+              peso di bilancia nostra di buttigha </cell>
+            <cell ana="quantità">o. 6 </cell>
+            <cell ana="unitario">£. 18 s. 10 tutta </cell>
+            <cell ana="costo">£. 9 s. 5 d. </cell>
+          </row>
+          <row ana="seta" n="4">
+            <cell ana="oggetto">seta per <persName ref="#trama">trama</persName> da rasi
+              scempia filata </cell>
+            <cell ana="quantità">lb. 5 o. 10 </cell>
+            <cell ana="unitario">£. 15 s. 10 tutta </cell>
+            <cell ana="costo">£. 90 s. 8 d. 4 </cell>
+          </row>
+          <row ana="seta" n="5">
+            <cell ana="oggetto">seta cruda per orsoio da cordoni adoppiato e torto </cell>
+            <cell ana="quantità">o.5</cell>
+            <cell ana="unitario">£. 15 s. 15 tutta </cell>
+            <cell ana="costo">£. 6 s. 11 d. 3</cell>
+            
+          </row>
+          <row ana="seta" n="6">
+            <cell ana="oggetto">seta da chucire cruda e torta </cell>
+            <cell ana="quantità">o. 7 1/4 d. 6 </cell>
+            <cell ana="unitario">£. 14 s. 8 tutta </cell>
+            <cell ana="costo">£. 8 s. 17 d. 6 </cell>
+          </row>
+          <row ana="seta" n="7">
+            <cell ana="oggetto">seta nostrana tratta e filata </cell>
+            <cell ana="quantità">o. 11 per tutta </cell>
+            <cell ana="unitario">£. 17 tutta </cell>
+            <cell ana="costo">£. 15 s. 11 d. 8 </cell>
+          </row>
+          <row ana="Trama" n="8">
+            <cell ana="oggetto">trama cruda per damascini doppia </cell>
+            <cell ana="quantità">o. 9 3/4 </cell>
+            <cell ana="unitario">£. 16 tutta </cell>
+            <cell ana="costo">£. 13 s. d. </cell>
+          </row>
+          <row ana="Trama" n="9">
+            <cell ana="oggetto">trama cruda doppia per rasi </cell>
+            <cell ana="quantità">lb. 1 o. 1 1/4 </cell>
+            <cell ana="unitario">£. 15 tutta </cell>
+            <cell ana="costo">£. 16 s. 11 d. 3 </cell>
+          </row>
+          <row ana="Trama" n="10">
+            <cell ana="oggetto">trama per velluti cruda doppia </cell>
+            <cell ana="quantità">o. 5 2/4 </cell>
+            <cell ana="unitario">£. 12 la libbra </cell>
+            <cell ana="costo">£. 5 s. 10 d. </cell>
+          </row>
+          <row ana="Trama" n="11">
+            <cell ana="oggetto">trama scempia da velluti <placeName ref="#Giudea"
+              >giudea</placeName> e <placeName ref="#Calabria">chalabrese</placeName>
+              cruda tratta e filata </cell>
+            <cell ana="quantità">lb. 6 o. 3 2/4 </cell>
+            <cell ana="unitario">£. 13 tutta </cell>
+            <cell ana="costo">£. 81 s. 15 d. 10 </cell>
+          </row>
+          <row ana="seta" n="12">
+            <cell ana="oggetto">chapitoni di seta<placeName ref="#Calabria"
+              >chalabrese</placeName>tratti e filati </cell>
+            <cell ana="quantità">lb. 3 o. 9 </cell>
+            <cell ana="unitario">£. 5 tutta </cell>
+            <cell ana="costo">£. 18 s. 15 d. </cell>
+          </row>
+          <row ana="seta" n="13">
+            <cell ana="oggetto">chapitoni di seta <placeName ref="#Giudea">giudea</placeName>
+              tratti e filati </cell>
+            <cell ana="quantità">lb. 3 o. 8 </cell>
+            <cell ana="unitario">£. 4 s. 5 tt </cell>
+            <cell ana="costo">£. 15 s. 11 d. 8 </cell>
+          </row>
+          <row ana="seta" n="14">
+            <cell ana="oggetto">chapitoni di seta modigliana e<placeName ref="#Calabria"
+              >chalabrese</placeName>tratti e filati a peso di statea </cell>
+            <cell ana="quantità">lb. 2 o. 5 </cell>
+            <cell ana="unitario">£. 3 s. 15 la libbra </cell>
+            <cell ana="costo">£. 9 s. 1 d. 3 </cell>
+          </row>
+          <row ana="seta" n="15">
+            <cell ana="oggetto">chapitoni di seta<placeName ref="#Calabria"
+              >chalabrese</placeName>tratti e filati </cell>
+            <cell ana="quantità">lb. 6 o. 7 </cell>
+            <cell ana="unitario">£. 3 s. 5 tutta </cell>
+            <cell ana="costo">£. 21 s. 7 d. 11 </cell>
+          </row>
+          <row ana="seta" n="16">
+            <cell ana="oggetto">chapitoni di più sete grossi tratti e filati </cell>
+            <cell ana="quantità">lb. 2 o. 7 </cell>
+            <cell ana="unitario">£. 3 la libbra </cell>
+            <cell ana="costo">£. 7 s. 15 d. </cell>
+          </row>
+          <row ana="seta" n="17">
+            <cell ana="oggetto">chapitoni di crespi tratti e filati </cell>
+            <cell ana="quantità">o. 9 2/4 </cell>
+            <cell ana="unitario">£. 1 s. 15 la libbra </cell>
+            <cell ana="costo">£. 1 s. 8 d. </cell>
+          </row>
+          <row ana="seta" n="18">
+            <cell ana="oggetto">chapitoni tratti grossi </cell>
+            <cell ana="quantità">lb. 4 o. 6 </cell>
+            <cell ana="unitario">£. 3 la libbra </cell>
+            <cell ana="costo">£. 13 s. 10 d. </cell>
+          </row>
+          <row ana="seta" n="19">
+            <cell ana="oggetto">chapitoni sodi grossi </cell>
+            <cell ana="quantità">o. 8 </cell>
+            <cell ana="unitario">£. 1 s. 5 tt </cell>
+            <cell ana="costo">£. s. 16 d. 8 </cell>
+          </row>
+          <row ana="seta" n="20">
+            <cell ana="oggetto">capitoni doppi e crespi in su rochetti per tutti </cell>
+            <cell ana="quantità"/>
+            <cell ana="unitario"/>
+            <cell ana="costo">£. 11 s. d. </cell>
+          </row>
+          <row ana="tot" n="21">
+            <cell ana="oggetto"/>
+            <cell ana="quantità"/>
+            <cell ana="unitario"/>
+            <cell ana="costo">£. 591 s. 8 d. 4 </cell>
+          </row>
+        </table>
+      </div>
+      
+      <div>
+
+        <p n="2" xml:id="CCCXLVI_p_002">Sunt ulterius episcopi:
+          <pb n="305v" xml:id="fol_305v"/>
+          <cb n="1" rend="2col_layout" xml:id="CCCXLVI_cb_003"/>
+          <table cols="2" rows="1">
+            <head>§ In <placeName ref="#Graçano">Graçano</placeName></head>
+            <row role="data">
+              <cell><persName ref="#Ventura">Ventura</persName></cell>
+              <cell><measure quantity="1" type="Imperiales" unit="denari">denarium I<note n="f" place="foot"
+                    xml:id="CCCXLVI_n_006"><term xml:lang="latin">Ventura denarium I</term>: <emph>nel testo</emph>
+                    <term xml:lang="latin">denarium I Ventura</term>.</note></measure></cell>
+            </row>
+          </table>
+          <table cols="2" rows="3">
+            <head><supplied reason="omitted">§</supplied> In <placeName ref="#Lintignana">Lintignana</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#BellonusGuilielmi">Bellonus filius Guilielmi</persName></cell>
+              <cell><measure quantity="8" type="Imperiales" unit="denari">denarii VIII</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Ugolinusnot">Ugolinus <roleName>notarius</roleName></persName></cell>
+              <cell><measure quantity="4" type="Imperiales" unit="denari">denarii IIII</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Bonacursusnot3">Bonacursus <roleName>notarius</roleName></persName></cell>
+              <cell><measure quantity="2" type="Imperiales" unit="denari">denarii II</measure></cell>
+            </row>
+          </table>
+          <table cols="2" rows="11">
+            <head><supplied reason="omitted">§</supplied>In <placeName ref="#Stabio">Stabulo</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#Martinus">Martinus</persName></cell>
+              <cell><measure quantity="2" type="Imperiales" unit="denari">denarii II imperialium</measure> et unum
+                  <measure quantity="1" type="Parmenses" unit="denari">Parmensium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Bonencontrus">Bonencontrus</persName></cell>
+              <cell><measure quantity="1.5" type="Imperiales" unit="denari">dimidium unius denarii
+                imperialium</measure></cell>
+            </row>
+            <cb n="2" rend="2col_layout" xml:id="CCCXLVI_cb_004"/>
+            <row role="data">
+              <cell><persName ref="#PerasonusAventia">Perasonus de <placeName ref="#Avenza"
+                  >Aventia</placeName></persName></cell>
+              <cell><measure quantity="4" type="Imperiales" unit="denari">denarii IIII</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#SalveMontia">Salve de <placeName ref="#Montia">Montia</placeName></persName></cell>
+              <cell><measure quantity="3" type="Imperiales" unit="denari">denarii III</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#DonamentaVeçi">Donamenta quondam Veçi</persName></cell>
+              <cell><measure quantity="4" type="Imperiales" unit="denari">denarii IIII</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#BonaiutusMiselia">Bonaiutus de <placeName ref="#Miselia"
+                  >Miselia</placeName></persName> cum fratre suo</cell>
+              <cell><measure quantity="1" type="Imperiales" unit="denari">denarium I imperialium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#MartinusCodena">Martinus de <placeName ref="#Codena">Codena</placeName></persName>
+                cum suo nepote</cell>
+              <cell><measure quantity="1" type="Imperiales" unit="denari">denarium I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Gerardinus">Gerardinus</persName> et frater eius</cell>
+              <cell><measure quantity="2" type="Imperiales" unit="denari">denarii II</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Arditus">Arditus</persName></cell>
+              <cell><measure quantity="1" type="Imperiales" unit="denari">denarium I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#VenutusBasiadore">Venutus Basiadore</persName></cell>
+              <cell><measure quantity="2" type="Imperiales" unit="denari">denarium II</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filie <persName ref="#Lanfranchinus">Lanfranchini</persName></cell>
+              <cell><measure quantity="1" type="Imperiales" unit="denari">denarium I</measure></cell>
+            </row>
+          </table>
+          <cb/>
+        </p>
+
+      </div>
 
     </body>
     

@@ -797,24 +797,40 @@
 
     <front>
       
-      <titlePage type="original_front">
-        <pb n="000" xml:id="VB_fol_000"/>
+      <titlePage type="document_front">
+        <pb n="I" xml:id="VB_spine"/>
         
         <docTitle>
           <titlePart type="main">The Digital Vercelli Book</titlePart>
           <titlePart type="sub">A digital facsimile and edition of Vercelli, Biblioteca Capitolare CXVII</titlePart>
         </docTitle>
         
-        <docEdition>First edition</docEdition>
+        <lb/>
+        <lb/>
         
         <docAuthor>Roberto Rosselli Del Turco</docAuthor>          
         
-        <byline>Transcription and encoding by R. Rosselli Del Turco, R. Cioffi, F. Goria, E. Magnanti</byline>
+        <lb/>
+
+        <docEdition>First edition (2017)</docEdition>
         
+        <lb/>
+        <lb/>
+        <lb/>
+
+        <byline>Transcription and encoding by R. Rosselli Del Turco, R. Cioffi, F. Goria</byline>
+        <byline>Update to P5 TEI schemas by R. Rosselli Del Turco and E. Magnanti</byline>
+       
+        <lb/>
+
         <byline>Powered by EVT - Edition Visualization Technology</byline>
         <byline>EVT created by C. Di Pietro, J. Kenny, R. Masotti, R. Rosselli Del turco</byline>
         <byline>EVT home page: <ref target="http://evt.labcd.unipi.it/">http://evt.labcd.unipi.it/</ref></byline>
         
+        <lb/>
+        <lb/>
+        <lb/>
+
         <docImprint>
           <pubPlace>Torino</pubPlace>
           <publisher>Collana <title>Open Access</title>, Università di Torino</publisher>
@@ -823,7 +839,7 @@
         
       </titlePage>
       
-      <div type="original_front">
+      <div type="document_front">
         <pb n="001r" xml:id="VB_fol_001r"/>
 
         <head>Descrizione</head>
@@ -869,362 +885,407 @@
             Roma.</p>
         </div>        
       </div>
-
+      
+      <pb type="end"/>
+      
       <titlePage>
-        <titlePart>The Dream of the Rood</titlePart>
+        
+        <docTitle>
+          <titlePart type="main">The Digital Vercelli Book</titlePart>
+          <titlePart type="sub">A digital facsimile and edition of Vercelli, Biblioteca Capitolare CXVII</titlePart>
+        </docTitle>
+        
+        <docEdition>First edition</docEdition>
+        
+        <docAuthor>Roberto Rosselli Del Turco</docAuthor>          
+        
+        <byline>Transcription and encoding by R. Rosselli Del Turco, R. Cioffi, F. Goria, E. Magnanti</byline>
+        
+        <byline>Powered by EVT - Edition Visualization Technology</byline>
+        <byline>EVT created by C. Di Pietro, J. Kenny, R. Masotti, R. Rosselli Del turco</byline>
+        <byline>EVT home page: <ref target="http://evt.labcd.unipi.it/">http://evt.labcd.unipi.it/</ref></byline>
+        
+        <docImprint>
+          <pubPlace>Torino</pubPlace>
+          <publisher>Collana <title>Open Access</title>, Università di Torino</publisher>
+          <date>2017-</date>
+        </docImprint>
+        
       </titlePage>
+      
+      
+      <div>
 
-      <div type="paratext" subtype="intro">
-        <p><title>The Dream of the Rood</title>, dating back to the first half of the 8th Century in its earliest
-          version, is one of the first Christian poems in the corpus of Old English literature and one of the main
-          examples of the genre of dream poetry in English. Due to its artistic qualities and overall relevance for
-          Anglo-Saxon studies it is considered one of the most important achievements of Old English poetry; it is also
-          one of the very few texts in this tradition that has been preserved in more than one witness. The complete
-          poem can be found in the late 10th Century Vercelli Book codex, but a fragment was carved in runes on the 8th
-          Century Ruthwell Stone Cross (Dumfriesshire, Scotland), and a small excerpt can be found also on the Brussels
-          Cross (St. Michael and St. Gudula Cathedral, Brussels, Belgium), an Anglo-Saxon cross-reliquary of the early
-          11th century.</p>
-        
-        <p>In the Vercelli Book the poem starts with the with the narrator having a dream: in this dream a wonderful
-          object, which is later to be identified with the Holy Cross, stands in the air and tells the story of the
-          crucifixion of Christ to the narrator.</p>
-      </div>
+        <!--<head>The Dream of the Rood</head>-->
 
-      <div type="paratext" subtype="references">
+        <div subtype="intro" type="paratext">
+          <p><title rend="italic">The Dream of the Rood</title>, dating back to the first half of the 8th Century in its
+            earliest version, is one of the first Christian poems in the corpus of Old English literature and one of the
+            main examples of the genre of dream poetry in English. Due to its artistic qualities and overall relevance
+            for Anglo-Saxon studies it is considered one of the most important achievements of Old English poetry; it is
+            also one of the very few texts in this tradition that has been preserved in more than one witness. The
+            complete poem can be found in the late 10th Century Vercelli Book codex, but a fragment was carved in runes
+            on the 8th Century Ruthwell Stone Cross (Dumfriesshire, Scotland), and a small excerpt can be found also on
+            the Brussels Cross (St. Michael and St. Gudula Cathedral, Brussels, Belgium), an Anglo-Saxon cross-reliquary
+            of the early 11th century.</p>
 
-        <listBibl>
+          <p>In the Vercelli Book the poem starts with the with the narrator having a dream: in this dream a wonderful
+            object, which is later to be identified with the Holy Cross, stands in the air and tells the story of the
+            crucifixion of Christ to the narrator.</p>
+        </div>
 
-          <biblStruct xml:id="Swanton1969">
-            <analytic>
-              <author>Swanton, M.J.</author>
-              <title level="a">Ambiguity and anticipation in <title>The Dream of the Rood</title></title>
-            </analytic>
-            <monogr>
-              <title level="j">Neuphilologische Mitteilungen</title>
-              <imprint>
-                <biblScope unit="vol">70.3</biblScope>
-                <date>1969</date>
-                <biblScope unit="pages">407-425</biblScope>
-              </imprint>
-            </monogr>
-            <note type="comment">Studio sulla natura e sulla complessità linguistica del <title>Sogno della Croce</title>.</note>
-            <note type="key">DOTR</note>
-          </biblStruct>
-          
-          <biblStruct xml:id="Tale1978">
-            <analytic>
-              <author>Tale, George S.</author>
-              <title level="a">Chiasmus as metaphor: the <title>figura crucis</title> tradition and <title>The Dream of the Rood</title></title>
-            </analytic>
-            <monogr>
-              <title level="j">Neuphilologische Mitteilungen</title>
-              <imprint>
-                <biblScope unit="vol">79.2</biblScope>
-                <date>1978</date>
-                <biblScope unit="pages">114-125</biblScope>
-              </imprint>
-            </monogr>
-            <note type="key">DOTR</note>
-          </biblStruct>
-          
-           <biblStruct xml:id="Wolf1970">
-            <analytic>
-              <author>Wolf, Carol J.</author>
-              <title level="a">Christ as hero in <title>The Dream of the Rood</title></title>
-            </analytic>
-            <monogr>
-              <title level="j">Neuphilologische Mitteilungen</title>
-              <imprint>
-                <biblScope unit="vol">71.2</biblScope>
-                <date>1970</date>
-                <biblScope unit="pages">203-210</biblScope>
-              </imprint>
-            </monogr>
-            <note type="key">DOTR</note>
-          </biblStruct>
+        <div subtype="references" type="paratext">
 
-           <biblStruct xml:id="Woolf1958">
-            <analytic>
-              <author>Woolf, Rosemary</author>
-              <title level="a">Doctrinal Influences on <title>The Dream of the Rood</title></title>
-            </analytic>
-            <monogr>
-              <title level="j">Medium Ævum</title>
-              <imprint>
-                <biblScope unit="vol">27.3</biblScope>
-                <date>1958</date>
-                <biblScope unit="pages">137-153</biblScope>
-              </imprint>
-            </monogr>
-            <note type="key">DOTR</note>
-          </biblStruct>
-        
-          <biblStruct xml:id="Bammesberger2002">
-            <analytic>
-              <author>Bammesberger, Alfred</author>
-              <title level="a">A Doubtful Reconstruction of the Old English Ruthwell Crucifixion Poem</title>
-            </analytic>
-            <monogr>
-              <title level="j">Studia Neophilologica</title>
-              <imprint>
-                <biblScope unit="vol">74</biblScope>
-                <date>2002</date>
-                <biblScope unit="pages">143-45</biblScope>
-              </imprint>
-            </monogr>
-            <note type="comment">Response to David Howlett.</note>
-            <note type="key">DOTR</note>
-          </biblStruct>
+          <listBibl>
 
-          <biblStruct xml:id="Gvozdetskaya2001">
-            <analytic>
-              <author>Gvozdetskaya, N. Yu</author>
-              <title level="a">Semantika drevneangliyskoy poeticheskoy formuly (na materiale Beovul'fa i Videniya kresta) (The Semantics of the Old English
-                Poetic Formula, Based on Beowulf and The Dream of the Rood)</title>
-            </analytic>
-            <monogr>
-              <title level="m">Lingvistika na rubezhe epoh. Idei i toposy. Sbornik statey: ( = Linguistics at the Turn of the Millennium: Ideas and Topoi: Essay
-                Collection)</title>
-              <editor/>
-              <imprint>
-                <pubPlace>Moscow</pubPlace>
-                <publisher>n.p.</publisher>
-                <date>2001</date>
-              </imprint>
-              <biblScope unit="pages">245-62</biblScope>
-            </monogr>
-            <note type="key">DOTR</note>
-          </biblStruct>
+            <biblStruct xml:id="Swanton1969">
+              <analytic>
+                <author>Swanton, M.J.</author>
+                <title level="a">Ambiguity and anticipation in <title>The Dream of the Rood</title></title>
+              </analytic>
+              <monogr>
+                <title level="j">Neuphilologische Mitteilungen</title>
+                <imprint>
+                  <biblScope unit="vol">70.3</biblScope>
+                  <date>1969</date>
+                  <biblScope unit="pages">407-425</biblScope>
+                </imprint>
+              </monogr>
+              <note type="comment">Studio sulla natura e sulla complessità linguistica del <title>Sogno della
+                  Croce</title>.</note>
+              <note type="key">DOTR</note>
+            </biblStruct>
 
-          <biblStruct xml:id="Conti2001">
-            <analytic>
-              <author>Conti, Aidan</author>
-              <title level="a">An Anonymous Homily for Palm Sunday, The Dream of the Rood, and the Progress of Ælfric's Reform</title>
-            </analytic>
-            <monogr>
-              <title level="j">Notes and Queries n.s.</title>
-              <imprint>
-                <biblScope unit="vol">48</biblScope>
-                <date>2001</date>
-                <biblScope unit="pages">377-80</biblScope>
-              </imprint>
-            </monogr>
-            <note type="key">DOTR</note>
-          </biblStruct>
+            <biblStruct xml:id="Tale1978">
+              <analytic>
+                <author>Tale, George S.</author>
+                <title level="a">Chiasmus as metaphor: the <title>figura crucis</title> tradition and <title>The Dream
+                    of the Rood</title></title>
+              </analytic>
+              <monogr>
+                <title level="j">Neuphilologische Mitteilungen</title>
+                <imprint>
+                  <biblScope unit="vol">79.2</biblScope>
+                  <date>1978</date>
+                  <biblScope unit="pages">114-125</biblScope>
+                </imprint>
+              </monogr>
+              <note type="key">DOTR</note>
+            </biblStruct>
 
-          <biblStruct xml:id="Wheelock2000">
-            <analytic>
-              <author>Wheelock, Jeremy I.</author>
-              <title level="a">The Word Made Flesh: 'engel dryhtnes' in <title>The Dream of the Rood</title></title>
-            </analytic>
-            <monogr>
-              <title level="j">English Language Notes</title>
-              <imprint>
-                <biblScope unit="vol">37.3</biblScope>
-                <date>2000</date>
-                <biblScope unit="pages">1-11</biblScope>
-              </imprint>
-            </monogr>
-            <note type="key">DOTR</note>
-          </biblStruct>
+            <biblStruct xml:id="Wolf1970">
+              <analytic>
+                <author>Wolf, Carol J.</author>
+                <title level="a">Christ as hero in <title>The Dream of the Rood</title></title>
+              </analytic>
+              <monogr>
+                <title level="j">Neuphilologische Mitteilungen</title>
+                <imprint>
+                  <biblScope unit="vol">71.2</biblScope>
+                  <date>1970</date>
+                  <biblScope unit="pages">203-210</biblScope>
+                </imprint>
+              </monogr>
+              <note type="key">DOTR</note>
+            </biblStruct>
 
-          <biblStruct xml:id="Sorrell2000">
-            <analytic>
-              <author>Sorrell, Paul</author>
-              <title level="a">Word Alchemy: a Window on Anglo-Saxon Culture</title>
-            </analytic>
-            <monogr>
-              <title level="j">Parabola</title>
-              <imprint>
-                <biblScope unit="vol">25.2</biblScope>
-                <date>2000</date>
-                <biblScope unit="pages">62-68</biblScope>
-              </imprint>
-            </monogr>
-            <note type="key"/>
-          </biblStruct>
+            <biblStruct xml:id="Woolf1958">
+              <analytic>
+                <author>Woolf, Rosemary</author>
+                <title level="a">Doctrinal Influences on <title>The Dream of the Rood</title></title>
+              </analytic>
+              <monogr>
+                <title level="j">Medium Ævum</title>
+                <imprint>
+                  <biblScope unit="vol">27.3</biblScope>
+                  <date>1958</date>
+                  <biblScope unit="pages">137-153</biblScope>
+                </imprint>
+              </monogr>
+              <note type="key">DOTR</note>
+            </biblStruct>
 
-          <biblStruct xml:id="Roberts2000">
-            <analytic>
-              <author>Roberts, Jane</author>
-              <title level="a">Some Relationships between <title>The Dream of the Rood</title> and the Cross at Ruthwell</title>
-            </analytic>
-            <monogr>
-              <title level="j">Stud. in Med. Eng. Lang. and Lit. (Tokyo)</title>
-              <imprint>
-                <biblScope unit="vol">15</biblScope>
-                <date>2000</date>
-                <biblScope unit="pages">1-25</biblScope>
-              </imprint>
-            </monogr>
-            <note type="key">DOTR</note>
-            <note type="key">RC</note>
-          </biblStruct>
+            <biblStruct xml:id="Bammesberger2002">
+              <analytic>
+                <author>Bammesberger, Alfred</author>
+                <title level="a">A Doubtful Reconstruction of the Old English Ruthwell Crucifixion Poem</title>
+              </analytic>
+              <monogr>
+                <title level="j">Studia Neophilologica</title>
+                <imprint>
+                  <biblScope unit="vol">74</biblScope>
+                  <date>2002</date>
+                  <biblScope unit="pages">143-45</biblScope>
+                </imprint>
+              </monogr>
+              <note type="comment">Response to David Howlett.</note>
+              <note type="key">DOTR</note>
+            </biblStruct>
 
-          <biblStruct xml:id="OCarragain2000">
-            <analytic>
-              <author>Ó Carragáin, Éamonn</author>
-              <title level="a">The Annunciation of the Lord and His Passion: a Liturgical Topos from St Peter's on the Vatican in <title>The Dream of the
-                Rood</title>, Thomas Cranmer and John Donne</title>
-            </analytic>
-            <monogr>
-              <title level="m">Essays on Anglo-Saxon and Related Themes in Memory of Lynne Grundy</title>
-              <editor>Jane Roberts and Janet Nelson</editor>
-              <imprint>
-                <pubPlace>London</pubPlace>
-                <publisher>Centre for Late Antique and Medieval Studies, King's College, University of London</publisher>
-                <date>2000</date>
-              </imprint>
-              <biblScope unit="pages">339-81</biblScope>
-            </monogr>
-            <series> <title level="s">King's College London Medieval Studies</title> <biblScope unit="vol">17</biblScope> </series>
-            <note type="key">DOTR</note>
-          </biblStruct>
+            <biblStruct xml:id="Gvozdetskaya2001">
+              <analytic>
+                <author>Gvozdetskaya, N. Yu</author>
+                <title level="a">Semantika drevneangliyskoy poeticheskoy formuly (na materiale Beovul'fa i Videniya
+                  kresta) (The Semantics of the Old English Poetic Formula, Based on Beowulf and The Dream of the
+                  Rood)</title>
+              </analytic>
+              <monogr>
+                <title level="m">Lingvistika na rubezhe epoh. Idei i toposy. Sbornik statey: ( = Linguistics at the Turn
+                  of the Millennium: Ideas and Topoi: Essay Collection)</title>
+                <editor/>
+                <imprint>
+                  <pubPlace>Moscow</pubPlace>
+                  <publisher>n.p.</publisher>
+                  <date>2001</date>
+                </imprint>
+                <biblScope unit="pages">245-62</biblScope>
+              </monogr>
+              <note type="key">DOTR</note>
+            </biblStruct>
 
-          <biblStruct xml:id="Crawford2000">
-            <analytic>
-              <author>Crawford, Robert</author>
-              <title level="a">The Vision of the Cross</title>
-            </analytic>
-            <monogr>
-              <title level="j">Stand n.s.</title>
-              <imprint>
-                <biblScope unit="vol">2.2</biblScope>
-                <date>2000</date>
-                <biblScope unit="pages">143-46</biblScope>
-              </imprint>
-            </monogr>
-            <note type="comment">Traduzione.</note>
-            <note type="key">DOTR</note>
-          </biblStruct>
+            <biblStruct xml:id="Conti2001">
+              <analytic>
+                <author>Conti, Aidan</author>
+                <title level="a">An Anonymous Homily for Palm Sunday, The Dream of the Rood, and the Progress of
+                  Ælfric's Reform</title>
+              </analytic>
+              <monogr>
+                <title level="j">Notes and Queries n.s.</title>
+                <imprint>
+                  <biblScope unit="vol">48</biblScope>
+                  <date>2001</date>
+                  <biblScope unit="pages">377-80</biblScope>
+                </imprint>
+              </monogr>
+              <note type="key">DOTR</note>
+            </biblStruct>
 
-        </listBibl>
-        
-         <list>
-           <item>Britt Mize. “The Mental Container and the Cross of Christ: Revelation and Community in The Dream of the Rood.” Studies in Philology 107.2 (2010): 131–178. Project MUSE. Web.</item>
-           <item>Galloway, Andrew. “Dream-Theory in The Dream of the Rood and The Wanderer.” The Review of English Studies 45.180 (1994): 475–485. Print. New Series.</item>
-          <item> Heckman, Christina M. “Imitatio in Early Medieval Spirituality: The Dream of the Rood, Anselm, and Militant Christology.” Essays in Medieval Studies 22.1 (2005): 141–153. Project MUSE. Web.</item>
-           <item>Irvine, Susan. “Adam or Christ? A Pronominal Pun in The Dream of the Rood.” The Review of English Studies 48.192 (1997): 433–447. Print. New Series.</item>
-           <item>LUISELLI FADDA, Anna Maria. “La Croce Nella Tradizione Poetica Anglosassone (sec. VIII-IX).” Romanobarbarica: Contributi allo studio dei rapporti culturali tra mondo latino e mondo barbarico 17 (2003): 333–359. Print.</item>
-           <item>Thieme, Adelheid L. J. “Gift Giving as a Vital Element of Salvation in ‘The Dream of the Rood.’” South Atlantic Review 63.2 (1998): 108–123. JSTOR. Web.</item>
-         </list>
+            <biblStruct xml:id="Wheelock2000">
+              <analytic>
+                <author>Wheelock, Jeremy I.</author>
+                <title level="a">The Word Made Flesh: 'engel dryhtnes' in <title>The Dream of the Rood</title></title>
+              </analytic>
+              <monogr>
+                <title level="j">English Language Notes</title>
+                <imprint>
+                  <biblScope unit="vol">37.3</biblScope>
+                  <date>2000</date>
+                  <biblScope unit="pages">1-11</biblScope>
+                </imprint>
+              </monogr>
+              <note type="key">DOTR</note>
+            </biblStruct>
 
-        <listBibl xmlns="http://www.tei-c.org/ns/1.0">
-          <biblStruct type="journalArticle" xml:id="Britt_Mize2010">
-            <analytic>
-              <title level="a">The Mental Container and the Cross of Christ: Revelation and Community in The Dream of
-                the Rood</title>
-              <author><name>Britt Mize</name></author>
-            </analytic>
-            <monogr>
-              <title level="j">Studies in Philology</title>
-              <idno type="ISSN">1543-0383</idno>
-              <idno type="DOI">10.1353/sip.0.0050</idno>
-              <imprint>
-                <biblScope unit="vol">107</biblScope>
-                <biblScope unit="issue">2</biblScope>
-                <biblScope unit="pages">131-178</biblScope>
-                <date>2010</date>
-                <note type="accessed">2011-05-21 19:28:20</note>
-                <note type="url">http://muse.jhu.edu/journals/studies_in_philology/v107/107.2.mize.html</note>
-              </imprint>
-            </monogr>
-          </biblStruct>
-          <biblStruct type="journalArticle" xml:id="Heckman2005">
-            <analytic>
-              <title level="a">Imitatio in Early Medieval Spirituality: The Dream of the Rood, Anselm, and Militant
-                Christology</title>
-              <author><forename>Christina M.</forename><surname>Heckman</surname></author>
-            </analytic>
-            <monogr>
-              <title level="j">Essays in Medieval Studies</title>
-              <idno type="ISSN">1538-4608</idno>
-              <idno type="DOI">10.1353/ems.2006.0006</idno>
-              <imprint>
-                <biblScope unit="vol">22</biblScope>
-                <biblScope unit="issue">1</biblScope>
-                <biblScope unit="pages">141-153</biblScope>
-                <date>2005</date>
-                <note type="accessed">2011-05-21 19:36:24</note>
-                <note type="url">http://muse.jhu.edu/journals/essays_in_medieval_studies/v022/22.1heckman.html</note>
-              </imprint>
-            </monogr>
-          </biblStruct>
-          <biblStruct type="journalArticle" xml:id="LUISELLI_FADDA2003">
-            <analytic>
-              <title level="a">La Croce nella tradizione poetica anglosassone (sec. VIII-IX)</title>
-              <author><forename>Anna Maria</forename><surname>LUISELLI FADDA</surname></author>
-            </analytic>
-            <monogr>
-              <idno type="ISSN">0391-285X</idno>
-              <title level="j">Romanobarbarica: Contributi allo studio dei rapporti culturali tra mondo latino e mondo
-                barbarico</title>
-              <imprint>
+            <biblStruct xml:id="Sorrell2000">
+              <analytic>
+                <author>Sorrell, Paul</author>
+                <title level="a">Word Alchemy: a Window on Anglo-Saxon Culture</title>
+              </analytic>
+              <monogr>
+                <title level="j">Parabola</title>
+                <imprint>
+                  <biblScope unit="vol">25.2</biblScope>
+                  <date>2000</date>
+                  <biblScope unit="pages">62-68</biblScope>
+                </imprint>
+              </monogr>
+              <note type="key"/>
+            </biblStruct>
+
+            <biblStruct xml:id="Roberts2000">
+              <analytic>
+                <author>Roberts, Jane</author>
+                <title level="a">Some Relationships between <title>The Dream of the Rood</title> and the Cross at
+                  Ruthwell</title>
+              </analytic>
+              <monogr>
+                <title level="j">Stud. in Med. Eng. Lang. and Lit. (Tokyo)</title>
+                <imprint>
+                  <biblScope unit="vol">15</biblScope>
+                  <date>2000</date>
+                  <biblScope unit="pages">1-25</biblScope>
+                </imprint>
+              </monogr>
+              <note type="key">DOTR</note>
+              <note type="key">RC</note>
+            </biblStruct>
+
+            <biblStruct xml:id="OCarragain2000">
+              <analytic>
+                <author>Ó Carragáin, Éamonn</author>
+                <title level="a">The Annunciation of the Lord and His Passion: a Liturgical Topos from St Peter's on the
+                  Vatican in <title>The Dream of the Rood</title>, Thomas Cranmer and John Donne</title>
+              </analytic>
+              <monogr>
+                <title level="m">Essays on Anglo-Saxon and Related Themes in Memory of Lynne Grundy</title>
+                <editor>Jane Roberts and Janet Nelson</editor>
+                <imprint>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Centre for Late Antique and Medieval Studies, King's College, University of
+                    London</publisher>
+                  <date>2000</date>
+                </imprint>
+                <biblScope unit="pages">339-81</biblScope>
+              </monogr>
+              <series>
+                <title level="s">King's College London Medieval Studies</title>
                 <biblScope unit="vol">17</biblScope>
-                <biblScope unit="pages">333-359</biblScope>
-                <date>2003</date>
-              </imprint>
-            </monogr>
-          </biblStruct>
-          <biblStruct type="journalArticle" xml:id="Thieme1998">
-            <analytic>
-              <title level="a">Gift Giving as a Vital Element of Salvation in "The Dream of the Rood"</title>
-              <author><forename>Adelheid L. J.</forename><surname>Thieme</surname></author>
-            </analytic>
-            <monogr>
-              <title level="j">South Atlantic Review</title>
-              <idno type="ISSN">0277335X</idno>
-              <idno type="DOI">10.2307/3201041</idno>
-              <imprint>
-                <biblScope unit="vol">63</biblScope>
-                <biblScope unit="issue">2</biblScope>
-                <biblScope unit="pages">108-123</biblScope>
-                <date>1998</date>
-                <note type="accessed">2011-03-23 13:42:10</note>
-                <note type="url">http://www.jstor.org/stable/3201041</note>
-              </imprint>
-            </monogr>
-          </biblStruct>
-          <biblStruct type="journalArticle" xml:id="Irvine1997">
-            <analytic>
-              <title level="a">Adam or Christ? A Pronominal Pun in The Dream of the Rood</title>
-              <author><forename>Susan</forename><surname>Irvine</surname></author>
-            </analytic>
-            <monogr>
-              <title level="j">The Review of English Studies</title>
-              <idno type="ISSN">00346551</idno>
-              <imprint>
-                <biblScope unit="vol">48</biblScope>
-                <biblScope unit="issue">192</biblScope>
-                <biblScope unit="pages">433-447</biblScope>
-                <date>1997</date>
-                <note type="accessed">2011-03-23 13:42:09</note>
-                <note type="url">http://www.jstor.org/stable/518491</note>
-              </imprint>
-            </monogr>
-            <series><title level="s">New Series</title></series>
-          </biblStruct>
-          <biblStruct type="journalArticle" xml:id="Galloway1994">
-            <analytic>
-              <title level="a">Dream-Theory in The Dream of the Rood and The Wanderer</title>
-              <author><forename>Andrew</forename><surname>Galloway</surname></author>
-            </analytic>
-            <monogr>
-              <title level="j">The Review of English Studies</title>
-              <idno type="ISSN">00346551</idno>
-              <imprint>
-                <biblScope unit="vol">45</biblScope>
-                <biblScope unit="issue">180</biblScope>
-                <biblScope unit="pages">475-485</biblScope>
-                <date>1994</date>
-                <note type="accessed">2011-03-23 13:42:07</note>
-                <note type="url">http://www.jstor.org/stable/517806</note>
-              </imprint>
-            </monogr>
-            <series><title level="s">New Series</title></series>
-          </biblStruct>
-        </listBibl>
+              </series>
+              <note type="key">DOTR</note>
+            </biblStruct>
 
+            <biblStruct xml:id="Crawford2000">
+              <analytic>
+                <author>Crawford, Robert</author>
+                <title level="a">The Vision of the Cross</title>
+              </analytic>
+              <monogr>
+                <title level="j">Stand n.s.</title>
+                <imprint>
+                  <biblScope unit="vol">2.2</biblScope>
+                  <date>2000</date>
+                  <biblScope unit="pages">143-46</biblScope>
+                </imprint>
+              </monogr>
+              <note type="comment">Traduzione.</note>
+              <note type="key">DOTR</note>
+            </biblStruct>
+
+          </listBibl>
+
+          <list>
+            <item>Britt Mize. “The Mental Container and the Cross of Christ: Revelation and Community in The Dream of
+              the Rood.” Studies in Philology 107.2 (2010): 131–178. Project MUSE. Web.</item>
+            <item>Galloway, Andrew. “Dream-Theory in The Dream of the Rood and The Wanderer.” The Review of English
+              Studies 45.180 (1994): 475–485. Print. New Series.</item>
+            <item> Heckman, Christina M. “Imitatio in Early Medieval Spirituality: The Dream of the Rood, Anselm, and
+              Militant Christology.” Essays in Medieval Studies 22.1 (2005): 141–153. Project MUSE. Web.</item>
+            <item>Irvine, Susan. “Adam or Christ? A Pronominal Pun in The Dream of the Rood.” The Review of English
+              Studies 48.192 (1997): 433–447. Print. New Series.</item>
+            <item>LUISELLI FADDA, Anna Maria. “La Croce Nella Tradizione Poetica Anglosassone (sec. VIII-IX).”
+              Romanobarbarica: Contributi allo studio dei rapporti culturali tra mondo latino e mondo barbarico 17
+              (2003): 333–359. Print.</item>
+            <item>Thieme, Adelheid L. J. “Gift Giving as a Vital Element of Salvation in ‘The Dream of the Rood.’” South
+              Atlantic Review 63.2 (1998): 108–123. JSTOR. Web.</item>
+          </list>
+
+          <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+            <biblStruct type="journalArticle" xml:id="Britt_Mize2010">
+              <analytic>
+                <title level="a">The Mental Container and the Cross of Christ: Revelation and Community in The Dream of
+                  the Rood</title>
+                <author><name>Britt Mize</name></author>
+              </analytic>
+              <monogr>
+                <title level="j">Studies in Philology</title>
+                <idno type="ISSN">1543-0383</idno>
+                <idno type="DOI">10.1353/sip.0.0050</idno>
+                <imprint>
+                  <biblScope unit="vol">107</biblScope>
+                  <biblScope unit="issue">2</biblScope>
+                  <biblScope unit="pages">131-178</biblScope>
+                  <date>2010</date>
+                  <note type="accessed">2011-05-21 19:28:20</note>
+                  <note type="url">http://muse.jhu.edu/journals/studies_in_philology/v107/107.2.mize.html</note>
+                </imprint>
+              </monogr>
+            </biblStruct>
+            <biblStruct type="journalArticle" xml:id="Heckman2005">
+              <analytic>
+                <title level="a">Imitatio in Early Medieval Spirituality: The Dream of the Rood, Anselm, and Militant
+                  Christology</title>
+                <author><forename>Christina M.</forename><surname>Heckman</surname></author>
+              </analytic>
+              <monogr>
+                <title level="j">Essays in Medieval Studies</title>
+                <idno type="ISSN">1538-4608</idno>
+                <idno type="DOI">10.1353/ems.2006.0006</idno>
+                <imprint>
+                  <biblScope unit="vol">22</biblScope>
+                  <biblScope unit="issue">1</biblScope>
+                  <biblScope unit="pages">141-153</biblScope>
+                  <date>2005</date>
+                  <note type="accessed">2011-05-21 19:36:24</note>
+                  <note type="url">http://muse.jhu.edu/journals/essays_in_medieval_studies/v022/22.1heckman.html</note>
+                </imprint>
+              </monogr>
+            </biblStruct>
+            <biblStruct type="journalArticle" xml:id="LUISELLI_FADDA2003">
+              <analytic>
+                <title level="a">La Croce nella tradizione poetica anglosassone (sec. VIII-IX)</title>
+                <author><forename>Anna Maria</forename><surname>LUISELLI FADDA</surname></author>
+              </analytic>
+              <monogr>
+                <idno type="ISSN">0391-285X</idno>
+                <title level="j">Romanobarbarica: Contributi allo studio dei rapporti culturali tra mondo latino e mondo
+                  barbarico</title>
+                <imprint>
+                  <biblScope unit="vol">17</biblScope>
+                  <biblScope unit="pages">333-359</biblScope>
+                  <date>2003</date>
+                </imprint>
+              </monogr>
+            </biblStruct>
+            <biblStruct type="journalArticle" xml:id="Thieme1998">
+              <analytic>
+                <title level="a">Gift Giving as a Vital Element of Salvation in "The Dream of the Rood"</title>
+                <author><forename>Adelheid L. J.</forename><surname>Thieme</surname></author>
+              </analytic>
+              <monogr>
+                <title level="j">South Atlantic Review</title>
+                <idno type="ISSN">0277335X</idno>
+                <idno type="DOI">10.2307/3201041</idno>
+                <imprint>
+                  <biblScope unit="vol">63</biblScope>
+                  <biblScope unit="issue">2</biblScope>
+                  <biblScope unit="pages">108-123</biblScope>
+                  <date>1998</date>
+                  <note type="accessed">2011-03-23 13:42:10</note>
+                  <note type="url">http://www.jstor.org/stable/3201041</note>
+                </imprint>
+              </monogr>
+            </biblStruct>
+            <biblStruct type="journalArticle" xml:id="Irvine1997">
+              <analytic>
+                <title level="a">Adam or Christ? A Pronominal Pun in The Dream of the Rood</title>
+                <author><forename>Susan</forename><surname>Irvine</surname></author>
+              </analytic>
+              <monogr>
+                <title level="j">The Review of English Studies</title>
+                <idno type="ISSN">00346551</idno>
+                <imprint>
+                  <biblScope unit="vol">48</biblScope>
+                  <biblScope unit="issue">192</biblScope>
+                  <biblScope unit="pages">433-447</biblScope>
+                  <date>1997</date>
+                  <note type="accessed">2011-03-23 13:42:09</note>
+                  <note type="url">http://www.jstor.org/stable/518491</note>
+                </imprint>
+              </monogr>
+              <series><title level="s">New Series</title></series>
+            </biblStruct>
+            <biblStruct type="journalArticle" xml:id="Galloway1994">
+              <analytic>
+                <title level="a">Dream-Theory in The Dream of the Rood and The Wanderer</title>
+                <author><forename>Andrew</forename><surname>Galloway</surname></author>
+              </analytic>
+              <monogr>
+                <title level="j">The Review of English Studies</title>
+                <idno type="ISSN">00346551</idno>
+                <imprint>
+                  <biblScope unit="vol">45</biblScope>
+                  <biblScope unit="issue">180</biblScope>
+                  <biblScope unit="pages">475-485</biblScope>
+                  <date>1994</date>
+                  <note type="accessed">2011-03-23 13:42:07</note>
+                  <note type="url">http://www.jstor.org/stable/517806</note>
+                </imprint>
+              </monogr>
+              <series><title level="s">New Series</title></series>
+            </biblStruct>
+          </listBibl>
+
+        </div>
       </div>
 
     </front>
@@ -1247,21 +1308,21 @@
         <lb n="6"/>
         
         <l n="1"><lb facs="#VB_line_104v_07" n="7" xml:id="VB_lb_104v_07"/><hi rend="init3.1">
-          <g ref="#Hunc"/></hi><hi rend="cap">W</hi>æt ic<note type="critical" n="a">Critical note</note>
+          <g ref="#Hunc"/></hi><hi rend="cap">W</hi>æt<note>A generic, unnumbered note</note> ic
           <g ref="#slong"/>wefna c<g ref="#ydot"/><g ref="#sins"/>t secgan
-          wylle<note type="comment" n="1">Comment note</note></l>
+          wylle</l>
         <l n="2"><choice>
           <sic>hæt</sic>
           <corr resp="Grein">hwæt</corr>
-        </choice><note>Generic note</note>
+        </choice><note type="critical" n="a">A critical note</note>
           <choice>
             <orig>mege mætte</orig>
             <reg>me gemætte</reg>
           </choice><lb facs="#VB_line_104v_08" n="8" xml:id="VB_lb_104v_08"/>to midre nihte</l>
-        <l n="3">syðþan <choice>
-            <orig>reord b<g ref="#eenl"/>r<g ref="#eenl"/>nd</orig>
-            <reg>reordberend</reg>
-          </choice> reste wunedon<orig><pc type="metrical">.</pc></orig></l>
+        <l n="3">syðþan <seg type="kenning"><choice>
+          <orig>reord b<g ref="#eenl"/>r<g ref="#eenl"/>nd</orig>
+          <reg>reordberend</reg>
+        </choice></seg> reste wunedon<orig><pc type="metrical">.</pc></orig><note type="comment" n="1">A comment note</note></l>
         <l n="4"><lb facs="#VB_line_104v_09" n="9" xml:id="VB_lb_104v_09"/>þuhte me þæt ic <choice>
             <orig>ge <g ref="#sins"/>awe</orig>
             <reg>gesawe</reg>
@@ -2283,10 +2344,86 @@
             </choice></name> þær hi<g ref="#sins"/> eðel wæ<g ref="#sins"/>
           <g ref="#colmidcomposit"/></l>
 
+
+        <!-- #######################################  ADDED LG AND NOTES  ####################################### -->
+        <!-- #############################  A. Kraebel's edition of Thornton's Lyrics  ############################# -->
+        
+        <lg n="1" type="stanza">
+          <l n="1"><lb facs="#Thornton_line_191v_35" n="35" xml:id="Thornton_lb_191v_35"/>Almyghty God in Trinite,
+              inwardly<ptr target="#AD_note_1" type="noteAnchor"/> I thanke <ptr target="#AD_note_2" type="noteAnchor"/>
+            þe</l>
+          <l n="2">Ffor<ptr target="#AD_note_3" type="noteAnchor"/> thy gud ded, þat þu me wroghte, <lb
+              facs="#Thornton_line_191v_36" n="36" xml:id="Thornton_lb_191v_36"/>and with<ptr target="#AD_note_4"
+              type="noteAnchor"/> þi precyous<ptr target="#AD_note_5" type="noteAnchor"/> blude<ptr target="#AD_note_6"
+              type="noteAnchor"/> me boghte,</l>
+          <l n="3">And<ptr target="#AD_note_4" type="noteAnchor"/> of all <ptr target="#AD_note_7" type="noteAnchor"/>
+              gud<ptr target="#AD_note_8" type="noteAnchor"/> þat þu lennes me, <ptr target="#AD_note_9"
+              type="noteAnchor"/>
+            <lb facs="#Thornton_line_191v_37" n="37" xml:id="Thornton_lb_191v_37"/>Lorde, blyssede mott þu be:</l>
+          <l n="4">Honour, <ptr target="#AD_note_10" type="noteAnchor"/> ioye, and louyng be til þi name with-owttyne
+            endyng. Amen.<ptr target="#AD_note_11" type="noteAnchor"/></l>
+        </lg>
+        <lg type="stanza" n="2">
+          <l n="5"><lb facs="#Thornton_line_191v_38" n="38" xml:id="Thornton_lb_191v_38"/>Lorde God alweldande, I beteche todaye<ptr target="#AD_note_4" type="noteAnchor"/> into<ptr target="#AD_note_12" type="noteAnchor"/> þi hande </l>					
+          <l n="6">My saule and my body, <lb facs="#Thornton_line_191v_39" n="39" xml:id="Thornton_lb_191v_39"/>and all my ffrendes specyally, </l>
+          <l n="7">Bathe þe quik and þe dede: <ptr target="#AD_note_13" type="noteAnchor"/> graunt them parte of my<ptr target="#AD_note_14" type="noteAnchor"/> bede.<ptr target="#AD_note_15" type="noteAnchor"/></l>
+          <l n="8"><lb facs="#Thornton_line_191v_40" n="40" xml:id="Thornton_lb_191v_40"/>Kepe vs all in erthe here, ffore<ptr target="#AD_note_16" type="noteAnchor"/> þe<ptr target="#AD_note_17" type="noteAnchor"/> prayere of thi modyr dere, </l>
+          <l n="9">And all thy <lb facs="#Thornton_line_191v_41" n="41" xml:id="Thornton_lb_191v_41"/>haloghes þat are in heuene, <ptr target="#AD_note_18" type="noteAnchor"/> ffra þe dedly synnes seuene,</l>
+          <l n="10">And fra <ptr target="#AD_note_19" type="noteAnchor"/> fandyng <lb facs="#Thornton_line_191v_42" n="42" xml:id="Thornton_lb_191v_42"/>of þe euyll<ptr target="#AD_note_20" type="noteAnchor"/> wyghte, and ffra sodayne dede, bathe<ptr target="#AD_note_8" type="noteAnchor"/> daye and nygthe,</l>		
+          <l n="11">Schelde<ptr target="#AD_note_21" type="noteAnchor"/> <lb facs="#Thornton_line_191v_43" n="43" xml:id="Thornton_lb_191v_43"/>vs fra þe paynes<ptr target="#AD_note_22" type="noteAnchor"/> of hell, þat bitter<ptr target="#AD_note_23" type="noteAnchor"/> are<ptr target="#AD_note_24" type="noteAnchor"/> to thole and ffell,<ptr target="#AD_note_25" type="noteAnchor"/></l>
+          <l n="12">And<ptr target="#AD_note_26" type="noteAnchor"/> with thi<ptr target="#AD_note_27" type="noteAnchor"/> grace <lb facs="#Thornton_line_191v_44" n="44" xml:id="Thornton_lb_191v_44"/>fulfill<ptr target="#AD_note_28" type="noteAnchor"/> vs all, þat redy we may be<ptr target="#AD_note_29" type="noteAnchor"/> to þi<ptr target="#AD_note_30" type="noteAnchor"/> call,</l>
+          <l n="13">And late vs neuer parte<ptr target="#AD_note_31" type="noteAnchor"/> fra þe, <lb facs="#Thornton_line_191v_45" n="45" xml:id="Thornton_lb_191v_45"/>alls thow for vs died one a <ptr target="#AD_note_32" type="noteAnchor"/> tree:<ptr target="#AK_note_2" type="noteAnchor"/></l>
+          <l n="14">Graunte<ptr target="#AK_note_1" type="noteAnchor"/> vs, Lorde, þat [it] swa bee. Amen, amen, pur<ptr target="#AD_note_35" type="noteAnchor"/> charite.<ptr target="#AK_note_3" type="noteAnchor"/></l>
+        </lg>
+        
+
       </div>
 
     </body>
     <back>
+
+      <!-- #######################################  ADDED LG AND NOTES  ####################################### -->
+      <!-- #############################  A. Kraebel's edition of Thornton's Lyrics  ############################# -->
+
+      <div type="notes">
+        <note n="1" type="critical" xml:id="AD_note_1">in þis world K</note>
+        <note n="2" type="critical" xml:id="AD_note_2">Eg adds: it; K adds: itte</note>
+        <note n="3" type="critical" xml:id="AD_note_3">Of K</note>
+        <note n="4" type="critical" xml:id="AD_note_4">om. K</note>
+        <note n="5" type="critical" xml:id="AD_note_5">blysfulle K; om. Eg</note>
+        <note n="6" type="critical" xml:id="AD_note_6">Sone þat þou Eg; K adds: also þou</note>
+        <note n="7" type="critical" xml:id="AD_note_7">K adds: þe</note>
+        <note n="8" type="critical" xml:id="AD_note_8">om. Eg</note>
+        <note n="9" type="critical" xml:id="AD_note_9">K adds: gode</note>
+        <note n="10" type="critical" xml:id="AD_note_10">K adds: and</note>
+        <note n="11" type="critical" xml:id="AD_note_11">om. Eg K</note>
+        <note n="12" type="critical" xml:id="AD_note_12">in Eg</note>
+        <note n="13" type="critical" xml:id="AD_note_13">Eg adds: Thow</note>
+        <note n="14" type="critical" xml:id="AD_note_14">þis K</note>
+        <note n="15" type="critical" xml:id="AD_note_15">K adds: and</note>
+        <note n="16" type="critical" xml:id="AD_note_16">to haue K; by Eg</note>
+        <note n="17" type="critical" xml:id="AD_note_17">om. Eg</note>
+        <note n="18" type="critical" xml:id="AD_note_18">K adds: sawe vs</note>
+        <note n="19" type="critical" xml:id="AD_note_19">K adds: þe</note>
+        <note n="20" type="critical" xml:id="AD_note_20">wickid Eg</note>
+        <note n="21" type="critical" xml:id="AD_note_21">And schelde Eg; And scheld K</note>
+        <note n="22" type="critical" xml:id="AD_note_22">pyne K</note>
+        <note n="23" type="critical" xml:id="AD_note_23">hidous Eg</note>
+        <note n="24" type="critical" xml:id="AD_note_24">is K</note>
+        <note n="25" type="critical" xml:id="AD_note_25">to–ffell] of for-to tell Eg</note>
+        <note n="26" type="critical" xml:id="AD_note_26">Lord Eg</note>
+        <note n="27" type="critical" xml:id="AD_note_27">þat K</note>
+        <note n="28" type="critical" xml:id="AD_note_28">fille Eg</note>
+        <note n="29" type="critical" xml:id="AD_note_29">we be redy K</note>
+        <note n="30" type="critical" xml:id="AD_note_30">we–þi] qwan þou vs Eg</note>
+        <note n="31" type="critical" xml:id="AD_note_31">departe K</note>
+        <note n="32" type="critical" xml:id="AD_note_32">K adds: rude</note>
+        <note n="33" type="critical" xml:id="AK_note_1">And graunte K</note>
+        <note n="34" type="critical" xml:id="AD_note_35">for K</note>
+        <note n="35" type="critical" xml:id="AK_note_2">alls–tree] om. Eg</note>
+        <note n="36" type="critical" xml:id="AK_note_3">Amen–charite] om. Eg</note>
+      </div>
+      
       <div n="Il sogno della Croce" type="translation" xml:id="DOTR_trans_it" xml:lang="ita">
 
         <head>Il sogno della Croce</head>
