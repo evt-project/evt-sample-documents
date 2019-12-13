@@ -12,7 +12,7 @@
     <fileDesc>
 
       <titleStmt>
-        <title>The Dream of the Rood (EXTANN version)</title>
+        <title>The Dream of the Rood (extended annotation version)</title>
         <title>Digital Vercelli Book project</title>
         <author>Unknown</author>
         <principal>Roberto Rosselli Del Turco</principal>
@@ -38,7 +38,8 @@
         <authority>Digital Vercelli Project</authority>
         <date>2004-</date>
         <availability status="unknown">
-          <p>Not to ricirculate. Contact the Digital Vercelli Project researchers for more information.</p>
+          <p>Not to ricirculate. Contact the Digital Vercelli Project researchers for more
+            information.</p>
         </availability>
       </publicationStmt>
 
@@ -53,229 +54,244 @@
             <msName>Codex Vercellensis</msName>
           </msIdentifier>
           <msContents>
-            <summary>The Codex Vercellensis, or Vercelli Book, as it is known in the Anglo-Saxon world and now also in
-              Italy, is a manuscript dating back to the end of the 10th century, containing miscellaneous religious
-              works, in verse and prose: 23 homilies in prose and 6 poetic works following the Anglo-Saxon alliterative metrics.
-            </summary>
-            <!-- check language code DONE -->
-            <textLang mainLang="ang" otherLangs="lat">The primary language in this manuscript is Old English, with a few isolated Latin
-              words and phrases.</textLang>
-            
+            <summary>The Codex Vercellensis, or Vercelli Book, as it is known in the Anglo-Saxon
+              world and now also in Italy, is a manuscript dating back to the end of the 10th
+              century, containing miscellaneous religious works, in verse and prose: 23 homilies in
+              prose and 6 poetic works following the Anglo-Saxon alliterative metrics. </summary>
+
+            <textLang mainLang="ang" otherLangs="lat">The primary language in this manuscript is Old
+              English, with a few isolated Latin words and phrases.</textLang>
+
             <!-- is an item for the whole MS necessary?
                   <msItem>
                      <locus from="1r" to="234r">1r - 135v</locus>
                      <title type="work">Vercelli Book</title>
                       -->
-            
+
             <!-- NB all incipit/explicit content for homilies to be changed
                   add "ff. " to <locus> elements content; add @target as well? 
             -->
-            
+
             <msItem>
               <locus from="1r" to="9r">1r - 9r</locus>
               <title type="work" subtype="prose">Homily I</title>
               <incipit>ſceaþe for þan ne meaht ðu þa þrowunge gelettan</incipit>
               <explicit>ain ecneꞅꞅe þurh eallra woruld aworuld AmeN abutan ende</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="9v" to="12r">9v - 12r</locus>
               <title type="work" subtype="prose">Homily II</title>
-              <incipit>MENÐALE OFESTAN. þæꞅ myclan dóm dægeꞅ worc bið ſwiðe egeꞅ lic ⁊andryꞅ</incipit>
+              <incipit>MENÐALE OFESTAN. þæꞅ myclan dóm dægeꞅ worc bið ſwiðe egeꞅ lic
+                ⁊andryꞅ</incipit>
               <explicit>þurh ealra woruld aworuld aabutan ende am̄</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="12v" to="16r">12v - 16r</locus>
               <title type="work" subtype="prose">Homily III</title>
               <incipit>BRoðor þa leofestan ic cyðe þæt þreo þing ſynt ærest</incipit>
               <explicit>á in ecneꞅꞅe þurh ealra woruld aworuld aabutan ende AMEN.</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="16v" to="24v">16v - 24v</locus>
               <title type="work" subtype="prose">Homily IV</title>
               <incipit>Men þa leofestan, ıc eow bidde ⁊eaðmodlice lære</incipit>
               <explicit>þær he leofað ⁊ricꞅað ın ealra worulda woruld abutan ende amen;</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="25r" to="29r">25r - 29r</locus>
               <title type="work" subtype="prose">Homily V</title>
               <incipit>to middan wintra Oſtende nob̄ dne</incipit>
-              <explicit>we ureꞅ dryhtneꞅ naman hælendeꞅ criſteꞅ he leofað ⁊ricꞅað áábutan ende ;</explicit>
+              <explicit>we ureꞅ dryhtneꞅ naman hælendeꞅ criſteꞅ he leofað ⁊ricꞅað áábutan ende
+                ;</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="29v" to="52v">29v - 52v</locus>
               <title type="work" subtype="poetry">Andreas</title>
               <incipit>Hwæt! We gefrunan on fyrndagum</incipit>
               <explicit>ece mid englum. þæt is æðele cyning!</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="52v" to="54r">52v - 54r</locus>
               <title type="work" subtype="poetry">Fates of the Apostles</title>
               <incipit>Hwæt! Ic þysne sang siðgeomor fand</incipit>
               <explicit>ece ond edgiong, ofer ealle gesceaft.</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="54v" to="56r">54v - 56r</locus>
               <title type="work" subtype="prose">Homily VI</title>
               <incipit>INcipit narrare miracula quefacta fuerant ante aduentum saluatoris</incipit>
               <explicit>gyldeð uꞅ god ece mede æt uꞅꞅum ende;</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="56v" to="59r">56v - 59r</locus>
               <title type="work" subtype="prose">Homily VII</title>
               <incipit>BUTAN tweon lar iꞅ halig domeꞅ dæl ⁊ealleꞅ ſwiðoſt</incipit>
-              <explicit>ꞅynt onþã toweardan rice mid þam hælendan criſte. ⁊midþã halegan gaſte ınealra worulda woruld;</explicit>
+              <explicit>ꞅynt onþã toweardan rice mid þam hælendan criſte. ⁊midþã halegan gaſte
+                ınealra worulda woruld;</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="59r" to="61r">59r - 61r</locus>
               <title type="work" subtype="prose">Homily VIII</title>
               <incipit>MENĐA leofeꞅtan manað uꞅ ⁊myngað onþyꞅꞅum bocum</incipit>
-              <explicit>⁊ mid ðam godeꞅ ꞅuna ðam þe aliofað ⁊rixaþ mid fæder ⁊mid ꞅuna ato widan feore ameN</explicit>
+              <explicit>⁊ mid ðam godeꞅ ꞅuna ðam þe aliofað ⁊rixaþ mid fæder ⁊mid ꞅuna ato widan
+                feore ameN</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="61r" to="65r">61r - 65r</locus>
               <title type="work" subtype="prose">Homily IX</title>
               <incipit>MEN ðaleofestan manað uꞅ ⁊mingaþ þeoꞅ halige boc þæt</incipit>
-              <explicit>we mid him ⁊mid hiꞅ þam halegan gæꞅte wunigean ınealra worulda woruld ameN ;</explicit>
+              <explicit>we mid him ⁊mid hiꞅ þam halegan gæꞅte wunigean ınealra worulda woruld ameN
+                ;</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="65r" to="71r">65r - 71r</locus>
               <title type="work" subtype="prose">Homily X</title>
               <incipit>HERsagað on þyꞅꞅum halegũ bocum be ælmihtigeꞅ</incipit>
               <explicit>drihten criſt wunaþ ⁊rixað mid eallũ halegum abutan ende ameN</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="71v" to="73v">71v - 73v</locus>
               <title type="work" subtype="prose">Homily XI</title>
-              <incipit>ſpelto forman gang dæge. MEN ðaleofestan þiꞅ ꞅindon halige dagaꞅ ⁊halwendlice</incipit>
+              <incipit>ſpelto forman gang dæge. MEN ðaleofestan þiꞅ ꞅindon halige dagaꞅ
+                ⁊halwendlice</incipit>
               <explicit>gefultumige þe ofer uꞅ ealle liofað ⁊rixað. ameN</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="73v" to="75v">73v - 75v</locus>
               <title type="work" subtype="prose">Homily XII</title>
-              <incipit>ſpeltoðam oðrum gang dæge GIR ꞅan dæg we wæron manode menþa leofestan þiꞅꞅa haliga</incipit>
+              <incipit>ſpeltoðam oðrum gang dæge GIR ꞅan dæg we wæron manode menþa leofestan þiꞅꞅa
+                haliga</incipit>
               <explicit>midhim ⁊mid hiꞅ halgum ainealra worulda woruld on ecnesse </explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="75v" to="76v">75v - 76v</locus>
               <title type="work" subtype="prose">Homily XIII</title>
-              <incipit>ſpelto þriddan gangdæge ÐISISꞅe þridda dæg men þa leofeſtan þyꞅꞅe halgan tide þe uꞅ</incipit>
-              <explicit>world to widan feore midfæder ⁊mid ꞅuna ⁊midþam halgan gaſte in ecneꞅꞅe ameN </explicit>
+              <incipit>ſpelto þriddan gangdæge ÐISISꞅe þridda dæg men þa leofeſtan þyꞅꞅe halgan tide
+                þe uꞅ</incipit>
+              <explicit>world to widan feore midfæder ⁊mid ꞅuna ⁊midþam halgan gaſte in ecneꞅꞅe ameN
+                </explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="76v" to="80v">76v - 80v</locus>
               <title type="work" subtype="prose">Homily XIV</title>
-              <incipit>lar ſpel to ſwylcere tide ſwa man wile . MEN ða leofestan þiꞅꞅynt halige dagaꞅ ⁊gaſtlice ⁊uꞅꞅũ </incipit>
-              <explicit>odeꞅ halgum onþone heofen lican eðel ⁊þæꞅ ꞅiððan brucan onecneꞅꞅe amen ;</explicit>
+              <incipit>lar ſpel to ſwylcere tide ſwa man wile . MEN ða leofestan þiꞅꞅynt halige
+                dagaꞅ ⁊gaſtlice ⁊uꞅꞅũ </incipit>
+              <explicit>odeꞅ halgum onþone heofen lican eðel ⁊þæꞅ ꞅiððan brucan onecneꞅꞅe amen
+                ;</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="80v" to="85v">80v - 85v</locus>
               <title type="work" subtype="prose">Homily XV</title>
-              <incipit>ALIA OMELIADEDI E IVDICII. M sægð us onþyꞅꞅum bocum huꞅe halga thomas godes apsł</incipit>
+              <incipit>ALIA OMELIADEDI E IVDICII. M sægð us onþyꞅꞅum bocum huꞅe halga thomas godes
+                apsł</incipit>
               <explicit>ece gefean abutan ende ı scl̄a scl̄orum in secula seculorum ameN</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="85v" to="90v">85v - 90v</locus>
               <title type="work" subtype="prose">Homily XVI</title>
               <incipit>OMELIA EPYFFANIA DNI M̄ sceolon we nú hwylcum hwegm wordum secgan be </incipit>
-              <explicit>rixað nú áþurh eallra woruld áworuld ábutan ende ın ꞅclā sclōrum ameN.</explicit>
+              <explicit>rixað nú áþurh eallra woruld áworuld ábutan ende ın ꞅclā sclōrum
+                ameN.</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="90v" to="94v">90v - 94v</locus>
               <title type="work" subtype="prose">Homily XVII</title>
-              <incipit>DEPURIFICATIO  SCAMIA M[Men þa leofestan] sægeð uꞅ ⁊myngaþ þiꞅ halige god ſpel be þysse arwyrðan</incipit>
+              <incipit>DEPURIFICATIO SCAMIA M[Men þa leofestan] sægeð uꞅ ⁊myngaþ þiꞅ halige god ſpel
+                be þysse arwyrðan</incipit>
               <explicit>aworuld abutan ende ınsca scorum am̄;in sæcula sæculorum, amen.</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="94v" to="101r">94v - 101r</locus>
               <title type="work" subtype="prose">Homily XVIII</title>
               <incipit>DE SCO MARTINO CONF. M̄ magon we nu hwylcum hwego wordum asecgan</incipit>
-              <explicit>leofaþ ⁊rixaþ á ıneallra woruld aworld  abutan ende ameN;</explicit>
+              <explicit>leofaþ ⁊rixaþ á ıneallra woruld aworld abutan ende ameN;</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="101v" to="103v">101v - 103v</locus>
               <title type="work" subtype="poetry">Soul and Body I</title>
               <incipit>Huru, ðæs behofað hæleða æghwylc</incipit>
               <explicit>geþungen þrymlice þysses</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="104r" to="104v">104r - 104v</locus>
               <title type="work" subtype="poetry">Homiletic Fragment I</title>
               <incipit>sorh cymeð / manig ond mislic in manna dream.</incipit>
               <explicit>eorðan lifes ende gewyrcan!</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="104v" to="106r">104v - 106r</locus>
               <title type="work" subtype="poetry">The Dream of the Rood</title>
               <incipit>Hwæt! Ic swefna cyst secgan wylle</incipit>
               <explicit>ælmihtig god, þær his eðel wæs</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="106v" to="109v">106v - 109v</locus>
               <title type="work" subtype="prose">Homily XIX</title>
               <incipit>MENða leofestan uꞅ gedafenaþ æreꞅt</incipit>
               <explicit>ꞅuna . ⁊mid þam haligan gaſte . ábutan ende amen :,</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="109v" to="112r">109v - 112r</locus>
               <title type="work" subtype="prose">Homily XX</title>
               <incipit>MMEMENNÐA leofestan þiſ ꞅyndon halige dagaꞅ ⁊hal</incipit>
               <explicit>efen ecan haligan gafre abutan ende :,</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="112r" to="116v">112r - 116v</locus>
               <title type="work" subtype="prose">Homily XXI</title>
               <incipit>MENĐALEOfestan usys mycel þearf þæt we god lufien of eallre</incipit>
               <explicit>haligan gaſte onwuldre ⁊onwyrð mynde áábutan ende onecneꞅꞅe;</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="116v" to="120v">116v - 120v</locus>
               <title type="work" subtype="prose">Homily XXII</title>
               <incipit>hER ſægð hu sc̄s isodorus spræc be ðære sawle gedale ⁊be</incipit>
-              <explicit>her on worulde ⁊on þære toweardan. seðe leofað ⁊ricsað aabutan ende in ecnesse</explicit>
+              <explicit>her on worulde ⁊on þære toweardan. seðe leofað ⁊ricsað aabutan ende in
+                ecnesse</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="121r" to="133v">121r - 133v</locus>
               <title type="work" subtype="poetry">Elene</title>
               <incipit>þa wæs agangen geara hwyrftum</incipit>
               <explicit>wuldorcyninges to widan feore. Amen.</explicit>
             </msItem>
-            
+
             <msItem>
               <locus from="133v" to="135v">133v - 135v</locus>
               <title type="work" subtype="prose">Homily XXIII</title>
               <incipit>Wæꞅ þær inþam ſprecenan iglande sum mycel hlæw of eorþan ge</incipit>
               <explicit>fona riceꞅ wuldre abutan ende onecneꞅꞅe amen fiat:,</explicit>
             </msItem>
-            
+
           </msContents>
-          
+
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="parchment">
@@ -284,19 +300,19 @@
                     <objectType>codex</objectType> with <material>leather</material> binding.</p>
                 </support>
                 <extent>135+1 leaves <dimensions scope="all" type="leaf" unit="cm">
-                  <height>31</height>
-                  <width>20</width>
-                </dimensions>
+                    <height>31</height>
+                    <width>20</width>
+                  </dimensions>
                 </extent>
-                
+
                 <collation>
-                  <p>The Vercelli Book consists of 19 quires, marked with Roman numerals at the beginning of each quire,
-                    and with letters at the end. Originally the quires were based on eight leaves of parchment, but many
-                    leafs are missing and a few single leaves have been added sporadically.
-                    <formula>1(10,-7),
-                      2(12,-4,-8,-11), 3(8,-6,-8), 4(10,-3,-7), 5(10,-4,-8), 6(8,-3), 7(10,-4,-8), 8(12,-4,-8),
-                      9(10,-4,-8), 10(10,-5,-9), 11(10,-4,-6,-8,-10), 12(6), 13(10,-3,-7,-9), 14(8,-3,-7), 15(8,-6),
-                      16(10,-1,-4,-8), 17(4,-3,-4), 18(8), 19(8,-8)</formula>
+                  <p>The Vercelli Book consists of 19 quires, marked with Roman numerals at the
+                    beginning of each quire, and with letters at the end. Originally the quires were
+                    based on eight leaves of parchment, but many leafs are missing and a few single
+                    leaves have been added sporadically. <formula>1(10,-7), 2(12,-4,-8,-11),
+                      3(8,-6,-8), 4(10,-3,-7), 5(10,-4,-8), 6(8,-3), 7(10,-4,-8), 8(12,-4,-8),
+                      9(10,-4,-8), 10(10,-5,-9), 11(10,-4,-6,-8,-10), 12(6), 13(10,-3,-7,-9),
+                      14(8,-3,-7), 15(8,-6), 16(10,-1,-4,-8), 17(4,-3,-4), 18(8), 19(8,-8)</formula>
                     <signatures/>
                     <catchwords>None</catchwords> Quires begin on fols. 1(1), [...] </p>
                 </collation>
@@ -306,33 +322,34 @@
                   <p>Text is written in a single column per parchment leaf.</p>
                 </layout>
               </layoutDesc>
-              
+
             </objectDesc>
-            
+
             <handDesc>
-              <p>In the opinion of many scholars, the manuscript was written by a single scribe, who has been
-                particularly diligent and meticulous in using the writing of that period, the Anglo-Saxon square
-                minuscule.</p>
+              <p>In the opinion of many scholars, the manuscript was written by a single scribe, who
+                has been particularly diligent and meticulous in using the writing of that period,
+                the Anglo-Saxon square minuscule.</p>
             </handDesc>
             <decoDesc>
-              <p>The Vercelli Book is very simple in appearance, in fact only three initials are decorated (H on f. 49r,
-                M on ff. 106v and 112r) with new texts usually beginning with a larger, undecorated initial. </p>
+              <p>The Vercelli Book is very simple in appearance, in fact only three initials are
+                decorated (H on f. 49r, M on ff. 106v and 112r) with new texts usually beginning
+                with a larger, undecorated initial. </p>
             </decoDesc>
-            
-          </physDesc>
-          
-          <history>
-            <origin>The manuscript was written in England, presumably in the South-Eastern area, and seems to have never
-              have left the country until the end of the eleventh century, since some notes in Old English were written into
-              the margins and can be dated back to that time.</origin>
-            <provenance>It is still unclear how and when it came to Italy, a Latin verse of Psalm XXVI in neumatic
-              notation written in Italian handwriting can be dated to the early XII century and is then a reasonable
-              post-quem term.</provenance>
-          </history>
-          
-        </msDesc>
 
-        <!-- ########## List of names (mainly as a named entities example)  ########## -->
+          </physDesc>
+
+          <history>
+            <origin>The manuscript was written in England, presumably in the South-Eastern area, and
+              seems to have never have left the country until the end of the eleventh century, since
+              some notes in Old English were written into the margins and can be dated back to that
+              time.</origin>
+            <provenance>It is still unclear how and when it came to Italy, a Latin verse of Psalm
+              XXVI in neumatic notation written in Italian handwriting can be dated to the early XII
+              century and is then a reasonable post-quem term.</provenance>
+          </history>
+
+        </msDesc>
+      <!-- ########## List of names (mainly as a named entities example)  ########## -->
 
         <listPerson>
           <person xml:id="God">
@@ -414,6 +431,13 @@
           <mapping type="normalized">a</mapping>
         </char>
 
+        <char xml:id="oacute">
+          <charName>LATIN SMALL LETTER O WITH ACUTE</charName>
+          <mapping type="codepoint">U+00F3</mapping>
+          <mapping type="diplomatic">ó</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        
         <char xml:id="amacr">
           <charName>LATIN SMALL LETTER A WITH MACRON</charName>
           <mapping type="codepoint">U+0101</mapping>
@@ -550,20 +574,22 @@
 
     <profileDesc>
       <langUsage>
-        <language ident="ags">Old English</language>
+        <language ident="ang">Old English</language>
       </langUsage>
     </profileDesc>
 
     <revisionDesc>
-      <change when="2019-11" who="RRDT">Added named entities as an example of this feature (EXTANN = EXTended ANNotation)</change>
+      <change when="2019-11" who="RRDT">Added named entities as an example of this feature</change>
       <change when="2018-10" who="RRDT">Added Italian translation</change>
-      <change when="2013-11" who="RRDT">Moved from entity-based markup to use of the Gaiji module elements; replaced ms
-        and ss entities with choice-based element groups; cleaned up punctuation markup</change>
-      <change when="2012-11" who="RRDT">Added element facsimile and all necessary stuff to do image-text
-        linking</change>
+      <change when="2013-11" who="RRDT">Moved from entity-based markup to use of the Gaiji module
+        elements; replaced ms and ss entities with choice-based element groups; cleaned up
+        punctuation markup</change>
+      <change when="2012-11" who="RRDT">Added element facsimile and all necessary stuff to do
+        image-text linking</change>
       <change when="2012-11" who="RRDT RC">First cross-revision</change>
       <change when="2010-09" who="RRDT">Conversion to the TEI P5 DTD</change>
-      <change when="2004-01" who="RRDT">Experimental transcription using the Digital Scriptorium DTD</change>
+      <change when="2004-01" who="RRDT">Experimental transcription using the Digital Scriptorium
+        DTD</change>
     </revisionDesc>
 
   </teiHeader>
@@ -572,257 +598,258 @@
 
     <surface xml:id="VB_surf_104v" corresp="#VB_fol_104v">
       <graphic height="1800px" url="immagini\Vercelli-Book_104V_S_300dpi.jpg" width="1200px"/>
-      <zone corresp="#VB_lb_104v_01" lrx="1052" lry="211" rend="visible" rendition="Line" ulx="261" uly="156"
-        xml:id="VB_line_104v_01"/>
-      <zone corresp="#VB_lb_104v_02" lrx="1072" lry="263" rend="visible" rendition="Line" ulx="257" uly="209"
-        xml:id="VB_line_104v_02"/>
-      <zone corresp="#VB_lb_104v_03" lrx="1062" lry="311" rend="visible" rendition="Line" ulx="255" uly="261"
-        xml:id="VB_line_104v_03"/>
-      <zone corresp="#VB_lb_104v_04" lrx="1062" lry="364" rend="visible" rendition="Line" ulx="252" uly="309"
-        xml:id="VB_line_104v_04"/>
-      <zone corresp="#VB_lb_104v_05" lrx="1063" lry="417" rend="visible" rendition="Line" ulx="260" uly="362"
-        xml:id="VB_line_104v_05"/>
-      <zone corresp="#VB_lb_104v_07" lrx="1072" lry="512" rend="visible" rendition="Line" ulx="210" uly="459"
-        xml:id="VB_line_104v_07"/>
-      <zone corresp="#VB_lb_104v_08" lrx="1108" lry="560" rend="visible" rendition="Line" ulx="273" uly="510"
-        xml:id="VB_line_104v_08"/>
-      <zone corresp="#VB_lb_104v_09" lrx="1031" lry="610" rend="visible" rendition="Line" ulx="257" uly="558"
-        xml:id="VB_line_104v_09"/>
-      <zone corresp="#VB_lb_104v_10" lrx="1051" lry="660" rend="visible" rendition="Line" ulx="258" uly="608"
-        xml:id="VB_line_104v_10"/>
-      <zone corresp="#VB_lb_104v_11" lrx="1086" lry="707" rend="visible" rendition="Line" ulx="255" uly="658"
-        xml:id="VB_line_104v_11"/>
-      <zone corresp="#VB_lb_104v_12" lrx="1085" lry="756" rend="visible" rendition="Line" ulx="257" uly="705"
-        xml:id="VB_line_104v_12"/>
-      <zone corresp="#VB_lb_104v_13" lrx="1102" lry="809" rend="visible" rendition="Line" ulx="258" uly="754"
-        xml:id="VB_line_104v_13"/>
-      <zone corresp="#VB_lb_104v_14" lrx="1084" lry="861" rend="visible" rendition="Line" ulx="259" uly="807"
-        xml:id="VB_line_104v_14"/>
-      <zone corresp="#VB_lb_104v_15" lrx="1107" lry="918" rend="visible" rendition="Line" ulx="260" uly="859"
-        xml:id="VB_line_104v_15"/>
-      <zone corresp="#VB_lb_104v_16" lrx="1014" lry="969" rend="visible" rendition="Line" ulx="262" uly="916"
-        xml:id="VB_line_104v_16"/>
-      <zone corresp="#VB_lb_104v_17" lrx="1058" lry="1020" rend="visible" rendition="Line" ulx="262" uly="967"
-        xml:id="VB_line_104v_17"/>
-      <zone corresp="#VB_lb_104v_18" lrx="1068" lry="1067" rend="visible" rendition="Line" ulx="259" uly="1018"
-        xml:id="VB_line_104v_18"/>
-      <zone corresp="#VB_lb_104v_19" lrx="1099" lry="1116" rend="visible" rendition="Line" ulx="258" uly="1065"
-        xml:id="VB_line_104v_19"/>
-      <zone corresp="#VB_lb_104v_20" lrx="1039" lry="1168" rend="visible" rendition="Line" ulx="262" uly="1114"
-        xml:id="VB_line_104v_20"/>
-      <zone corresp="#VB_lb_104v_21" lrx="1058" lry="1220" rend="visible" rendition="Line" ulx="259" uly="1166"
-        xml:id="VB_line_104v_21"/>
-      <zone corresp="#VB_lb_104v_22" lrx="1062" lry="1271" rend="visible" rendition="Line" ulx="262" uly="1218"
-        xml:id="VB_line_104v_22"/>
-      <zone corresp="#VB_lb_104v_23" lrx="1084" lry="1318" rend="visible" rendition="Line" ulx="262" uly="1269"
-        xml:id="VB_line_104v_23"/>
-      <zone corresp="#VB_lb_104v_24" lrx="1104" lry="1372" rend="visible" rendition="Line" ulx="260" uly="1316"
-        xml:id="VB_line_104v_24"/>
+      <zone corresp="#VB_lb_104v_01" lrx="1052" lry="211" rend="visible" rendition="Line" ulx="261"
+        uly="156" xml:id="VB_line_104v_01"/>
+      <zone corresp="#VB_lb_104v_02" lrx="1072" lry="263" rend="visible" rendition="Line" ulx="257"
+        uly="209" xml:id="VB_line_104v_02"/>
+      <zone corresp="#VB_lb_104v_03" lrx="1062" lry="311" rend="visible" rendition="Line" ulx="255"
+        uly="261" xml:id="VB_line_104v_03"/>
+      <zone corresp="#VB_lb_104v_04" lrx="1062" lry="364" rend="visible" rendition="Line" ulx="252"
+        uly="309" xml:id="VB_line_104v_04"/>
+      <zone corresp="#VB_lb_104v_05" lrx="1063" lry="417" rend="visible" rendition="Line" ulx="260"
+        uly="362" xml:id="VB_line_104v_05"/>
+      <zone corresp="#VB_lb_104v_07" lrx="1072" lry="512" rend="visible" rendition="Line" ulx="210"
+        uly="459" xml:id="VB_line_104v_07"/>
+      <zone corresp="#VB_lb_104v_08" lrx="1108" lry="560" rend="visible" rendition="Line" ulx="273"
+        uly="510" xml:id="VB_line_104v_08"/>
+      <zone corresp="#VB_lb_104v_09" lrx="1031" lry="610" rend="visible" rendition="Line" ulx="257"
+        uly="558" xml:id="VB_line_104v_09"/>
+      <zone corresp="#VB_lb_104v_10" lrx="1051" lry="660" rend="visible" rendition="Line" ulx="258"
+        uly="608" xml:id="VB_line_104v_10"/>
+      <zone corresp="#VB_lb_104v_11" lrx="1086" lry="707" rend="visible" rendition="Line" ulx="255"
+        uly="658" xml:id="VB_line_104v_11"/>
+      <zone corresp="#VB_lb_104v_12" lrx="1085" lry="756" rend="visible" rendition="Line" ulx="257"
+        uly="705" xml:id="VB_line_104v_12"/>
+      <zone corresp="#VB_lb_104v_13" lrx="1102" lry="809" rend="visible" rendition="Line" ulx="258"
+        uly="754" xml:id="VB_line_104v_13"/>
+      <zone corresp="#VB_lb_104v_14" lrx="1084" lry="861" rend="visible" rendition="Line" ulx="259"
+        uly="807" xml:id="VB_line_104v_14"/>
+      <zone corresp="#VB_lb_104v_15" lrx="1107" lry="918" rend="visible" rendition="Line" ulx="260"
+        uly="859" xml:id="VB_line_104v_15"/>
+      <zone corresp="#VB_lb_104v_16" lrx="1014" lry="969" rend="visible" rendition="Line" ulx="262"
+        uly="916" xml:id="VB_line_104v_16"/>
+      <zone corresp="#VB_lb_104v_17" lrx="1058" lry="1020" rend="visible" rendition="Line" ulx="262"
+        uly="967" xml:id="VB_line_104v_17"/>
+      <zone corresp="#VB_lb_104v_18" lrx="1068" lry="1067" rend="visible" rendition="Line" ulx="259"
+        uly="1018" xml:id="VB_line_104v_18"/>
+      <zone corresp="#VB_lb_104v_19" lrx="1099" lry="1116" rend="visible" rendition="Line" ulx="258"
+        uly="1065" xml:id="VB_line_104v_19"/>
+      <zone corresp="#VB_lb_104v_20" lrx="1039" lry="1168" rend="visible" rendition="Line" ulx="262"
+        uly="1114" xml:id="VB_line_104v_20"/>
+      <zone corresp="#VB_lb_104v_21" lrx="1058" lry="1220" rend="visible" rendition="Line" ulx="259"
+        uly="1166" xml:id="VB_line_104v_21"/>
+      <zone corresp="#VB_lb_104v_22" lrx="1062" lry="1271" rend="visible" rendition="Line" ulx="262"
+        uly="1218" xml:id="VB_line_104v_22"/>
+      <zone corresp="#VB_lb_104v_23" lrx="1084" lry="1318" rend="visible" rendition="Line" ulx="262"
+        uly="1269" xml:id="VB_line_104v_23"/>
+      <zone corresp="#VB_lb_104v_24" lrx="1104" lry="1372" rend="visible" rendition="Line" ulx="260"
+        uly="1316" xml:id="VB_line_104v_24"/>
     </surface>
 
     <surface xml:id="VB_surf_105r" corresp="#VB_fol_105r">
       <graphic height="1800px" url="immagini\Vercelli-Book_105R_S_300dpi.jpg" width="1200px"/>
-      <zone corresp="#VB_lb_105r_01" lrx="995" lry="225" rend="visible" rendition="Line" ulx="135" uly="172"
-        xml:id="VB_line_105r_01"/>
-      <zone corresp="#VB_lb_105r_02" lrx="968" lry="264" rend="visible" rendition="Line" ulx="135" uly="223"
-        xml:id="VB_line_105r_02"/>
-      <zone corresp="#VB_lb_105r_03" lrx="971" lry="304" rend="visible" rendition="Line" ulx="135" uly="262"
-        xml:id="VB_line_105r_03"/>
-      <zone corresp="#VB_lb_105r_04" lrx="977" lry="342" rend="visible" rendition="Line" ulx="130" uly="302"
-        xml:id="VB_line_105r_04"/>
-      <zone corresp="#VB_lb_105r_05" lrx="990" lry="381" rend="visible" rendition="Line" ulx="133" uly="340"
-        xml:id="VB_line_105r_05"/>
-      <zone corresp="#VB_lb_105r_06" lrx="992" lry="418" rend="visible" rendition="Line" ulx="135" uly="379"
-        xml:id="VB_line_105r_06"/>
-      <zone corresp="#VB_lb_105r_07" lrx="1006" lry="459" rend="visible" rendition="Line" ulx="135" uly="416"
-        xml:id="VB_line_105r_07"/>
-      <zone corresp="#VB_lb_105r_08" lrx="974" lry="498" rend="visible" rendition="Line" ulx="134" uly="457"
-        xml:id="VB_line_105r_08"/>
-      <zone corresp="#VB_lb_105r_09" lrx="1003" lry="536" rend="visible" rendition="Line" ulx="137" uly="496"
-        xml:id="VB_line_105r_09"/>
-      <zone corresp="#VB_lb_105r_10" lrx="995" lry="575" rend="visible" rendition="Line" ulx="138" uly="534"
-        xml:id="VB_line_105r_10"/>
-      <zone corresp="#VB_lb_105r_11" lrx="1027" lry="616" rend="visible" rendition="Line" ulx="140" uly="573"
-        xml:id="VB_line_105r_11"/>
-      <zone corresp="#VB_lb_105r_12" lrx="1010" lry="657" rend="visible" rendition="Line" ulx="135" uly="614"
-        xml:id="VB_line_105r_12"/>
-      <zone corresp="#VB_lb_105r_13" lrx="1002" lry="695" rend="visible" rendition="Line" ulx="137" uly="655"
-        xml:id="VB_line_105r_13"/>
-      <zone corresp="#VB_lb_105r_14" lrx="980" lry="735" rend="visible" rendition="Line" ulx="136" uly="693"
-        xml:id="VB_line_105r_14"/>
-      <zone corresp="#VB_lb_105r_15" lrx="965" lry="778" rend="visible" rendition="Line" ulx="135" uly="733"
-        xml:id="VB_line_105r_15"/>
-      <zone corresp="#VB_lb_105r_16" lrx="996" lry="819" rend="visible" rendition="Line" ulx="136" uly="776"
-        xml:id="VB_line_105r_16"/>
-      <zone corresp="#VB_lb_105r_17" lrx="1010" lry="856" rend="visible" rendition="Line" ulx="131" uly="817"
-        xml:id="VB_line_105r_17"/>
-      <zone corresp="#VB_lb_105r_18" lrx="1028" lry="892" rend="visible" rendition="Line" ulx="132" uly="854"
-        xml:id="VB_line_105r_18"/>
-      <zone corresp="#VB_lb_105r_19" lrx="997" lry="935" rend="visible" rendition="Line" ulx="135" uly="890"
-        xml:id="VB_line_105r_19"/>
-      <zone corresp="#VB_lb_105r_20" lrx="980" lry="977" rend="visible" rendition="Line" ulx="132" uly="933"
-        xml:id="VB_line_105r_20"/>
-      <zone corresp="#VB_lb_105r_21" lrx="987" lry="1020" rend="visible" rendition="Line" ulx="133" uly="975"
-        xml:id="VB_line_105r_21"/>
-      <zone corresp="#VB_lb_105r_22" lrx="1022" lry="1059" rend="visible" rendition="Line" ulx="134" uly="1018"
-        xml:id="VB_line_105r_22"/>
-      <zone corresp="#VB_lb_105r_23" lrx="1013" lry="1100" rend="visible" rendition="Line" ulx="135" uly="1057"
-        xml:id="VB_line_105r_23"/>
-      <zone corresp="#VB_lb_105r_24" lrx="992" lry="1142" rend="visible" rendition="Line" ulx="133" uly="1098"
-        xml:id="VB_line_105r_24"/>
-      <zone corresp="#VB_lb_105r_25" lrx="1047" lry="1181" rend="visible" rendition="Line" ulx="135" uly="1140"
-        xml:id="VB_line_105r_25"/>
-      <zone corresp="#VB_lb_105r_26" lrx="1005" lry="1221" rend="visible" rendition="Line" ulx="130" uly="1179"
-        xml:id="VB_line_105r_26"/>
-      <zone corresp="#VB_lb_105r_27" lrx="990" lry="1259" rend="visible" rendition="Line" ulx="131" uly="1219"
-        xml:id="VB_line_105r_27"/>
-      <zone corresp="#VB_lb_105r_28" lrx="993" lry="1299" rend="visible" rendition="Line" ulx="133" uly="1257"
-        xml:id="VB_line_105r_28"/>
-      <zone corresp="#VB_lb_105r_29" lrx="999" lry="1338" rend="visible" rendition="Line" ulx="134" uly="1297"
-        xml:id="VB_line_105r_29"/>
-      <zone corresp="#VB_lb_105r_30" lrx="1026" lry="1383" rend="visible" rendition="Line" ulx="130" uly="1336"
-        xml:id="VB_line_105r_30"/>
-      <zone corresp="#VB_lb_105r_31" lrx="1000" lry="1424" rend="visible" rendition="Line" ulx="129" uly="1381"
-        xml:id="VB_line_105r_31"/>
-      <zone corresp="#VB_lb_105r_32" lrx="987" lry="1476" rend="visible" rendition="Line" ulx="121" uly="1422"
-        xml:id="VB_line_105r_32"/>
+      <zone corresp="#VB_lb_105r_01" lrx="995" lry="225" rend="visible" rendition="Line" ulx="135"
+        uly="172" xml:id="VB_line_105r_01"/>
+      <zone corresp="#VB_lb_105r_02" lrx="968" lry="264" rend="visible" rendition="Line" ulx="135"
+        uly="223" xml:id="VB_line_105r_02"/>
+      <zone corresp="#VB_lb_105r_03" lrx="971" lry="304" rend="visible" rendition="Line" ulx="135"
+        uly="262" xml:id="VB_line_105r_03"/>
+      <zone corresp="#VB_lb_105r_04" lrx="977" lry="342" rend="visible" rendition="Line" ulx="130"
+        uly="302" xml:id="VB_line_105r_04"/>
+      <zone corresp="#VB_lb_105r_05" lrx="990" lry="381" rend="visible" rendition="Line" ulx="133"
+        uly="340" xml:id="VB_line_105r_05"/>
+      <zone corresp="#VB_lb_105r_06" lrx="992" lry="418" rend="visible" rendition="Line" ulx="135"
+        uly="379" xml:id="VB_line_105r_06"/>
+      <zone corresp="#VB_lb_105r_07" lrx="1006" lry="459" rend="visible" rendition="Line" ulx="135"
+        uly="416" xml:id="VB_line_105r_07"/>
+      <zone corresp="#VB_lb_105r_08" lrx="974" lry="498" rend="visible" rendition="Line" ulx="134"
+        uly="457" xml:id="VB_line_105r_08"/>
+      <zone corresp="#VB_lb_105r_09" lrx="1003" lry="536" rend="visible" rendition="Line" ulx="137"
+        uly="496" xml:id="VB_line_105r_09"/>
+      <zone corresp="#VB_lb_105r_10" lrx="995" lry="575" rend="visible" rendition="Line" ulx="138"
+        uly="534" xml:id="VB_line_105r_10"/>
+      <zone corresp="#VB_lb_105r_11" lrx="1027" lry="616" rend="visible" rendition="Line" ulx="140"
+        uly="573" xml:id="VB_line_105r_11"/>
+      <zone corresp="#VB_lb_105r_12" lrx="1010" lry="657" rend="visible" rendition="Line" ulx="135"
+        uly="614" xml:id="VB_line_105r_12"/>
+      <zone corresp="#VB_lb_105r_13" lrx="1002" lry="695" rend="visible" rendition="Line" ulx="137"
+        uly="655" xml:id="VB_line_105r_13"/>
+      <zone corresp="#VB_lb_105r_14" lrx="980" lry="735" rend="visible" rendition="Line" ulx="136"
+        uly="693" xml:id="VB_line_105r_14"/>
+      <zone corresp="#VB_lb_105r_15" lrx="965" lry="778" rend="visible" rendition="Line" ulx="135"
+        uly="733" xml:id="VB_line_105r_15"/>
+      <zone corresp="#VB_lb_105r_16" lrx="996" lry="819" rend="visible" rendition="Line" ulx="136"
+        uly="776" xml:id="VB_line_105r_16"/>
+      <zone corresp="#VB_lb_105r_17" lrx="1010" lry="856" rend="visible" rendition="Line" ulx="131"
+        uly="817" xml:id="VB_line_105r_17"/>
+      <zone corresp="#VB_lb_105r_18" lrx="1028" lry="892" rend="visible" rendition="Line" ulx="132"
+        uly="854" xml:id="VB_line_105r_18"/>
+      <zone corresp="#VB_lb_105r_19" lrx="997" lry="935" rend="visible" rendition="Line" ulx="135"
+        uly="890" xml:id="VB_line_105r_19"/>
+      <zone corresp="#VB_lb_105r_20" lrx="980" lry="977" rend="visible" rendition="Line" ulx="132"
+        uly="933" xml:id="VB_line_105r_20"/>
+      <zone corresp="#VB_lb_105r_21" lrx="987" lry="1020" rend="visible" rendition="Line" ulx="133"
+        uly="975" xml:id="VB_line_105r_21"/>
+      <zone corresp="#VB_lb_105r_22" lrx="1022" lry="1059" rend="visible" rendition="Line" ulx="134"
+        uly="1018" xml:id="VB_line_105r_22"/>
+      <zone corresp="#VB_lb_105r_23" lrx="1013" lry="1100" rend="visible" rendition="Line" ulx="135"
+        uly="1057" xml:id="VB_line_105r_23"/>
+      <zone corresp="#VB_lb_105r_24" lrx="992" lry="1142" rend="visible" rendition="Line" ulx="133"
+        uly="1098" xml:id="VB_line_105r_24"/>
+      <zone corresp="#VB_lb_105r_25" lrx="1047" lry="1181" rend="visible" rendition="Line" ulx="135"
+        uly="1140" xml:id="VB_line_105r_25"/>
+      <zone corresp="#VB_lb_105r_26" lrx="1005" lry="1221" rend="visible" rendition="Line" ulx="130"
+        uly="1179" xml:id="VB_line_105r_26"/>
+      <zone corresp="#VB_lb_105r_27" lrx="990" lry="1259" rend="visible" rendition="Line" ulx="131"
+        uly="1219" xml:id="VB_line_105r_27"/>
+      <zone corresp="#VB_lb_105r_28" lrx="993" lry="1299" rend="visible" rendition="Line" ulx="133"
+        uly="1257" xml:id="VB_line_105r_28"/>
+      <zone corresp="#VB_lb_105r_29" lrx="999" lry="1338" rend="visible" rendition="Line" ulx="134"
+        uly="1297" xml:id="VB_line_105r_29"/>
+      <zone corresp="#VB_lb_105r_30" lrx="1026" lry="1383" rend="visible" rendition="Line" ulx="130"
+        uly="1336" xml:id="VB_line_105r_30"/>
+      <zone corresp="#VB_lb_105r_31" lrx="1000" lry="1424" rend="visible" rendition="Line" ulx="129"
+        uly="1381" xml:id="VB_line_105r_31"/>
+      <zone corresp="#VB_lb_105r_32" lrx="987" lry="1476" rend="visible" rendition="Line" ulx="121"
+        uly="1422" xml:id="VB_line_105r_32"/>
     </surface>
 
     <surface xml:id="VB_surf_105v" corresp="#VB_fol_105v">
       <graphic height="1800px" url="immagini\Vercelli-Book_105V_S_300dpi.jpg" width="1200px"/>
-      <zone corresp="#VB_lb_105v_01" lrx="1087" lry="214" rend="visible" rendition="Line" ulx="238" uly="155"
-        xml:id="VB_line_105v_01"/>
-      <zone corresp="#VB_lb_105v_02" lrx="1082" lry="258" rend="visible" rendition="Line" ulx="237" uly="212"
-        xml:id="VB_line_105v_02"/>
-      <zone corresp="#VB_lb_105v_03" lrx="1112" lry="298" rend="visible" rendition="Line" ulx="231" uly="256"
-        xml:id="VB_line_105v_03"/>
-      <zone corresp="#VB_lb_105v_04" lrx="1095" lry="334" rend="visible" rendition="Line" ulx="232" uly="296"
-        xml:id="VB_line_105v_04"/>
-      <zone corresp="#VB_lb_105v_05" lrx="1049" lry="373" rend="visible" rendition="Line" ulx="229" uly="332"
-        xml:id="VB_line_105v_05"/>
-      <zone corresp="#VB_lb_105v_06" lrx="1096" lry="409" rend="visible" rendition="Line" ulx="230" uly="371"
-        xml:id="VB_line_105v_06"/>
-      <zone corresp="#VB_lb_105v_07" lrx="1078" lry="449" rend="visible" rendition="Line" ulx="227" uly="407"
-        xml:id="VB_line_105v_07"/>
-      <zone corresp="#VB_lb_105v_08" lrx="1058" lry="493" rend="visible" rendition="Line" ulx="228" uly="447"
-        xml:id="VB_line_105v_08"/>
-      <zone corresp="#VB_lb_105v_09" lrx="1111" lry="533" rend="visible" rendition="Line" ulx="223" uly="491"
-        xml:id="VB_line_105v_09"/>
-      <zone corresp="#VB_lb_105v_10" lrx="1105" lry="568" rend="visible" rendition="Line" ulx="222" uly="531"
-        xml:id="VB_line_105v_10"/>
-      <zone corresp="#VB_lb_105v_11" lrx="1069" lry="603" rend="visible" rendition="Line" ulx="221" uly="566"
-        xml:id="VB_line_105v_11"/>
-      <zone corresp="#VB_lb_105v_12" lrx="1069" lry="651" rend="visible" rendition="Line" ulx="220" uly="601"
-        xml:id="VB_line_105v_12"/>
-      <zone corresp="#VB_lb_105v_13" lrx="1120" lry="689" rend="visible" rendition="Line" ulx="217" uly="649"
-        xml:id="VB_line_105v_13"/>
-      <zone corresp="#VB_lb_105v_14" lrx="1049" lry="728" rend="visible" rendition="Line" ulx="216" uly="687"
-        xml:id="VB_line_105v_14"/>
-      <zone corresp="#VB_lb_105v_15" lrx="1077" lry="769" rend="visible" rendition="Line" ulx="211" uly="726"
-        xml:id="VB_line_105v_15"/>
-      <zone corresp="#VB_lb_105v_16" lrx="1096" lry="814" rend="visible" rendition="Line" ulx="213" uly="767"
-        xml:id="VB_line_105v_16"/>
-      <zone corresp="#VB_lb_105v_17" lrx="1080" lry="853" rend="visible" rendition="Line" ulx="213" uly="812"
-        xml:id="VB_line_105v_17"/>
-      <zone corresp="#VB_lb_105v_18" lrx="1072" lry="890" rend="visible" rendition="Line" ulx="202" uly="851"
-        xml:id="VB_line_105v_18"/>
-      <zone corresp="#VB_lb_105v_19" lrx="1042" lry="925" rend="visible" rendition="Line" ulx="206" uly="888"
-        xml:id="VB_line_105v_19"/>
-      <zone corresp="#VB_lb_105v_20" lrx="1106" lry="971" rend="visible" rendition="Line" ulx="200" uly="923"
-        xml:id="VB_line_105v_20"/>
-      <zone corresp="#VB_lb_105v_21" lrx="1067" lry="1013" rend="visible" rendition="Line" ulx="203" uly="969"
-        xml:id="VB_line_105v_21"/>
-      <zone corresp="#VB_lb_105v_22" lrx="1069" lry="1054" rend="visible" rendition="Line" ulx="198" uly="1011"
-        xml:id="VB_line_105v_22"/>
-      <zone corresp="#VB_lb_105v_23" lrx="1092" lry="1096" rend="visible" rendition="Line" ulx="201" uly="1052"
-        xml:id="VB_line_105v_23"/>
-      <zone corresp="#VB_lb_105v_24" lrx="1046" lry="1138" rend="visible" rendition="Line" ulx="194" uly="1094"
-        xml:id="VB_line_105v_24"/>
-      <zone corresp="#VB_lb_105v_25" lrx="1085" lry="1172" rend="visible" rendition="Line" ulx="197" uly="1136"
-        xml:id="VB_line_105v_25"/>
-      <zone corresp="#VB_lb_105v_26" lrx="1075" lry="1213" rend="visible" rendition="Line" ulx="194" uly="1170"
-        xml:id="VB_line_105v_26"/>
-      <zone corresp="#VB_lb_105v_27" lrx="1082" lry="1253" rend="visible" rendition="Line" ulx="194" uly="1211"
-        xml:id="VB_line_105v_27"/>
-      <zone corresp="#VB_lb_105v_28" lrx="1042" lry="1293" rend="visible" rendition="Line" ulx="196" uly="1251"
-        xml:id="VB_line_105v_28"/>
-      <zone corresp="#VB_lb_105v_29" lrx="1061" lry="1335" rend="visible" rendition="Line" ulx="195" uly="1291"
-        xml:id="VB_line_105v_29"/>
-      <zone corresp="#VB_lb_105v_30" lrx="1081" lry="1377" rend="visible" rendition="Line" ulx="191" uly="1333"
-        xml:id="VB_line_105v_30"/>
-      <zone corresp="#VB_lb_105v_31" lrx="1046" lry="1416" rend="visible" rendition="Line" ulx="194" uly="1375"
-        xml:id="VB_line_105v_31"/>
-      <zone corresp="#VB_lb_105v_32" lrx="1065" lry="1478" rend="visible" rendition="Line" ulx="194" uly="1414"
-        xml:id="VB_line_105v_32"/>
+      <zone corresp="#VB_lb_105v_01" lrx="1087" lry="214" rend="visible" rendition="Line" ulx="238"
+        uly="155" xml:id="VB_line_105v_01"/>
+      <zone corresp="#VB_lb_105v_02" lrx="1082" lry="258" rend="visible" rendition="Line" ulx="237"
+        uly="212" xml:id="VB_line_105v_02"/>
+      <zone corresp="#VB_lb_105v_03" lrx="1112" lry="298" rend="visible" rendition="Line" ulx="231"
+        uly="256" xml:id="VB_line_105v_03"/>
+      <zone corresp="#VB_lb_105v_04" lrx="1095" lry="334" rend="visible" rendition="Line" ulx="232"
+        uly="296" xml:id="VB_line_105v_04"/>
+      <zone corresp="#VB_lb_105v_05" lrx="1049" lry="373" rend="visible" rendition="Line" ulx="229"
+        uly="332" xml:id="VB_line_105v_05"/>
+      <zone corresp="#VB_lb_105v_06" lrx="1096" lry="409" rend="visible" rendition="Line" ulx="230"
+        uly="371" xml:id="VB_line_105v_06"/>
+      <zone corresp="#VB_lb_105v_07" lrx="1078" lry="449" rend="visible" rendition="Line" ulx="227"
+        uly="407" xml:id="VB_line_105v_07"/>
+      <zone corresp="#VB_lb_105v_08" lrx="1058" lry="493" rend="visible" rendition="Line" ulx="228"
+        uly="447" xml:id="VB_line_105v_08"/>
+      <zone corresp="#VB_lb_105v_09" lrx="1111" lry="533" rend="visible" rendition="Line" ulx="223"
+        uly="491" xml:id="VB_line_105v_09"/>
+      <zone corresp="#VB_lb_105v_10" lrx="1105" lry="568" rend="visible" rendition="Line" ulx="222"
+        uly="531" xml:id="VB_line_105v_10"/>
+      <zone corresp="#VB_lb_105v_11" lrx="1069" lry="603" rend="visible" rendition="Line" ulx="221"
+        uly="566" xml:id="VB_line_105v_11"/>
+      <zone corresp="#VB_lb_105v_12" lrx="1069" lry="651" rend="visible" rendition="Line" ulx="220"
+        uly="601" xml:id="VB_line_105v_12"/>
+      <zone corresp="#VB_lb_105v_13" lrx="1120" lry="689" rend="visible" rendition="Line" ulx="217"
+        uly="649" xml:id="VB_line_105v_13"/>
+      <zone corresp="#VB_lb_105v_14" lrx="1049" lry="728" rend="visible" rendition="Line" ulx="216"
+        uly="687" xml:id="VB_line_105v_14"/>
+      <zone corresp="#VB_lb_105v_15" lrx="1077" lry="769" rend="visible" rendition="Line" ulx="211"
+        uly="726" xml:id="VB_line_105v_15"/>
+      <zone corresp="#VB_lb_105v_16" lrx="1096" lry="814" rend="visible" rendition="Line" ulx="213"
+        uly="767" xml:id="VB_line_105v_16"/>
+      <zone corresp="#VB_lb_105v_17" lrx="1080" lry="853" rend="visible" rendition="Line" ulx="213"
+        uly="812" xml:id="VB_line_105v_17"/>
+      <zone corresp="#VB_lb_105v_18" lrx="1072" lry="890" rend="visible" rendition="Line" ulx="202"
+        uly="851" xml:id="VB_line_105v_18"/>
+      <zone corresp="#VB_lb_105v_19" lrx="1042" lry="925" rend="visible" rendition="Line" ulx="206"
+        uly="888" xml:id="VB_line_105v_19"/>
+      <zone corresp="#VB_lb_105v_20" lrx="1106" lry="971" rend="visible" rendition="Line" ulx="200"
+        uly="923" xml:id="VB_line_105v_20"/>
+      <zone corresp="#VB_lb_105v_21" lrx="1067" lry="1013" rend="visible" rendition="Line" ulx="203"
+        uly="969" xml:id="VB_line_105v_21"/>
+      <zone corresp="#VB_lb_105v_22" lrx="1069" lry="1054" rend="visible" rendition="Line" ulx="198"
+        uly="1011" xml:id="VB_line_105v_22"/>
+      <zone corresp="#VB_lb_105v_23" lrx="1092" lry="1096" rend="visible" rendition="Line" ulx="201"
+        uly="1052" xml:id="VB_line_105v_23"/>
+      <zone corresp="#VB_lb_105v_24" lrx="1046" lry="1138" rend="visible" rendition="Line" ulx="194"
+        uly="1094" xml:id="VB_line_105v_24"/>
+      <zone corresp="#VB_lb_105v_25" lrx="1085" lry="1172" rend="visible" rendition="Line" ulx="197"
+        uly="1136" xml:id="VB_line_105v_25"/>
+      <zone corresp="#VB_lb_105v_26" lrx="1075" lry="1213" rend="visible" rendition="Line" ulx="194"
+        uly="1170" xml:id="VB_line_105v_26"/>
+      <zone corresp="#VB_lb_105v_27" lrx="1082" lry="1253" rend="visible" rendition="Line" ulx="194"
+        uly="1211" xml:id="VB_line_105v_27"/>
+      <zone corresp="#VB_lb_105v_28" lrx="1042" lry="1293" rend="visible" rendition="Line" ulx="196"
+        uly="1251" xml:id="VB_line_105v_28"/>
+      <zone corresp="#VB_lb_105v_29" lrx="1061" lry="1335" rend="visible" rendition="Line" ulx="195"
+        uly="1291" xml:id="VB_line_105v_29"/>
+      <zone corresp="#VB_lb_105v_30" lrx="1081" lry="1377" rend="visible" rendition="Line" ulx="191"
+        uly="1333" xml:id="VB_line_105v_30"/>
+      <zone corresp="#VB_lb_105v_31" lrx="1046" lry="1416" rend="visible" rendition="Line" ulx="194"
+        uly="1375" xml:id="VB_line_105v_31"/>
+      <zone corresp="#VB_lb_105v_32" lrx="1065" lry="1478" rend="visible" rendition="Line" ulx="194"
+        uly="1414" xml:id="VB_line_105v_32"/>
     </surface>
 
     <surface xml:id="VB_surf_106r" corresp="#VB_fol_106r">
       <graphic height="1800px" url="immagini\Vercelli-Book_106R_S_300dpi.jpg" width="1200px"/>
-      <zone corresp="#VB_lb_106r_01" lrx="1027" lry="220" rend="visible" rendition="Line" ulx="134" uly="169"
-        xml:id="VB_line_106r_01"/>
-      <zone corresp="#VB_lb_106r_02" lrx="1009" lry="260" rend="visible" rendition="Line" ulx="136" uly="218"
-        xml:id="VB_line_106r_02"/>
-      <zone corresp="#VB_lb_106r_03" lrx="986" lry="304" rend="visible" rendition="Line" ulx="137" uly="258"
-        xml:id="VB_line_106r_03"/>
-      <zone corresp="#VB_lb_106r_04" lrx="1016" lry="343" rend="visible" rendition="Line" ulx="139" uly="302"
-        xml:id="VB_line_106r_04"/>
-      <zone corresp="#VB_lb_106r_05" lrx="1007" lry="378" rend="visible" rendition="Line" ulx="137" uly="341"
-        xml:id="VB_line_106r_05"/>
-      <zone corresp="#VB_lb_106r_06" lrx="1010" lry="414" rend="visible" rendition="Line" ulx="137" uly="376"
-        xml:id="VB_line_106r_06"/>
-      <zone corresp="#VB_lb_106r_07" lrx="1014" lry="454" rend="visible" rendition="Line" ulx="136" uly="412"
-        xml:id="VB_line_106r_07"/>
-      <zone corresp="#VB_lb_106r_08" lrx="996" lry="500" rend="visible" rendition="Line" ulx="136" uly="452"
-        xml:id="VB_line_106r_08"/>
-      <zone corresp="#VB_lb_106r_09" lrx="989" lry="537" rend="visible" rendition="Line" ulx="139" uly="498"
-        xml:id="VB_line_106r_09"/>
-      <zone corresp="#VB_lb_106r_10" lrx="1007" lry="576" rend="visible" rendition="Line" ulx="133" uly="535"
-        xml:id="VB_line_106r_10"/>
-      <zone corresp="#VB_lb_106r_11" lrx="976" lry="616" rend="visible" rendition="Line" ulx="136" uly="574"
-        xml:id="VB_line_106r_11"/>
-      <zone corresp="#VB_lb_106r_12" lrx="983" lry="656" rend="visible" rendition="Line" ulx="136" uly="614"
-        xml:id="VB_line_106r_12"/>
-      <zone corresp="#VB_lb_106r_13" lrx="996" lry="698" rend="visible" rendition="Line" ulx="140" uly="654"
-        xml:id="VB_line_106r_13"/>
-      <zone corresp="#VB_lb_106r_14" lrx="1011" lry="739" rend="visible" rendition="Line" ulx="141" uly="696"
-        xml:id="VB_line_106r_14"/>
-      <zone corresp="#VB_lb_106r_15" lrx="1024" lry="782" rend="visible" rendition="Line" ulx="136" uly="737"
-        xml:id="VB_line_106r_15"/>
-      <zone corresp="#VB_lb_106r_16" lrx="971" lry="820" rend="visible" rendition="Line" ulx="140" uly="780"
-        xml:id="VB_line_106r_16"/>
-      <zone corresp="#VB_lb_106r_17" lrx="1023" lry="859" rend="visible" rendition="Line" ulx="136" uly="818"
-        xml:id="VB_line_106r_17"/>
-      <zone corresp="#VB_lb_106r_18" lrx="1009" lry="902" rend="visible" rendition="Line" ulx="136" uly="857"
-        xml:id="VB_line_106r_18"/>
-      <zone corresp="#VB_lb_106r_19" lrx="1019" lry="941" rend="visible" rendition="Line" ulx="136" uly="900"
-        xml:id="VB_line_106r_19"/>
-      <zone corresp="#VB_lb_106r_20" lrx="1016" lry="980" rend="visible" rendition="Line" ulx="138" uly="939"
-        xml:id="VB_line_106r_20"/>
-      <zone corresp="#VB_lb_106r_21" lrx="1028" lry="1019" rend="visible" rendition="Line" ulx="135" uly="978"
-        xml:id="VB_line_106r_21"/>
-      <zone corresp="#VB_lb_106r_22" lrx="999" lry="1057" rend="visible" rendition="Line" ulx="138" uly="1017"
-        xml:id="VB_line_106r_22"/>
-      <zone corresp="#VB_lb_106r_23" lrx="977" lry="1099" rend="visible" rendition="Line" ulx="140" uly="1055"
-        xml:id="VB_line_106r_23"/>
-      <zone corresp="#VB_lb_106r_24" lrx="1012" lry="1143" rend="visible" rendition="Line" ulx="138" uly="1097"
-        xml:id="VB_line_106r_24"/>
-      <zone corresp="#VB_lb_106r_25" lrx="1036" lry="1184" rend="visible" rendition="Line" ulx="136" uly="1141"
-        xml:id="VB_line_106r_25"/>
-      <zone corresp="#VB_lb_106r_26" lrx="993" lry="1224" rend="visible" rendition="Line" ulx="137" uly="1182"
-        xml:id="VB_line_106r_26"/>
-      <zone corresp="#VB_lb_106r_27" lrx="1044" lry="1267" rend="visible" rendition="Line" ulx="137" uly="1222"
-        xml:id="VB_line_106r_27"/>
-      <zone corresp="#VB_lb_106r_28" lrx="978" lry="1305" rend="visible" rendition="Line" ulx="133" uly="1265"
-        xml:id="VB_line_106r_28"/>
-      <zone corresp="#VB_lb_106r_29" lrx="977" lry="1347" rend="visible" rendition="Line" ulx="137" uly="1303"
-        xml:id="VB_line_106r_29"/>
-      <zone corresp="#VB_lb_106r_30" lrx="978" lry="1383" rend="visible" rendition="Line" ulx="134" uly="1345"
-        xml:id="VB_line_106r_30"/>
-      <zone corresp="#VB_lb_106r_31" lrx="989" lry="1419" rend="visible" rendition="Line" ulx="132" uly="1381"
-        xml:id="VB_line_106r_31"/>
-      <zone corresp="#VB_lb_106r_32" lrx="966" lry="1472" rend="visible" rendition="Line" ulx="133" uly="1417"
-        xml:id="VB_line_106r_32"/>
-      <zone corresp="#VB_div_hs_106r_01" xml:id="VB_hs_106r_01" rendition="HotSpot" ulx="396" uly="358" lrx="532" lry="423" rend="visible"/>
+      <zone corresp="#VB_lb_106r_01" lrx="1027" lry="220" rend="visible" rendition="Line" ulx="134"
+        uly="169" xml:id="VB_line_106r_01"/>
+      <zone corresp="#VB_lb_106r_02" lrx="1009" lry="260" rend="visible" rendition="Line" ulx="136"
+        uly="218" xml:id="VB_line_106r_02"/>
+      <zone corresp="#VB_lb_106r_03" lrx="986" lry="304" rend="visible" rendition="Line" ulx="137"
+        uly="258" xml:id="VB_line_106r_03"/>
+      <zone corresp="#VB_lb_106r_04" lrx="1016" lry="343" rend="visible" rendition="Line" ulx="139"
+        uly="302" xml:id="VB_line_106r_04"/>
+      <zone corresp="#VB_lb_106r_05" lrx="1007" lry="378" rend="visible" rendition="Line" ulx="137"
+        uly="341" xml:id="VB_line_106r_05"/>
+      <zone corresp="#VB_lb_106r_06" lrx="1010" lry="414" rend="visible" rendition="Line" ulx="137"
+        uly="376" xml:id="VB_line_106r_06"/>
+      <zone corresp="#VB_lb_106r_07" lrx="1014" lry="454" rend="visible" rendition="Line" ulx="136"
+        uly="412" xml:id="VB_line_106r_07"/>
+      <zone corresp="#VB_lb_106r_08" lrx="996" lry="500" rend="visible" rendition="Line" ulx="136"
+        uly="452" xml:id="VB_line_106r_08"/>
+      <zone corresp="#VB_lb_106r_09" lrx="989" lry="537" rend="visible" rendition="Line" ulx="139"
+        uly="498" xml:id="VB_line_106r_09"/>
+      <zone corresp="#VB_lb_106r_10" lrx="1007" lry="576" rend="visible" rendition="Line" ulx="133"
+        uly="535" xml:id="VB_line_106r_10"/>
+      <zone corresp="#VB_lb_106r_11" lrx="976" lry="616" rend="visible" rendition="Line" ulx="136"
+        uly="574" xml:id="VB_line_106r_11"/>
+      <zone corresp="#VB_lb_106r_12" lrx="983" lry="656" rend="visible" rendition="Line" ulx="136"
+        uly="614" xml:id="VB_line_106r_12"/>
+      <zone corresp="#VB_lb_106r_13" lrx="996" lry="698" rend="visible" rendition="Line" ulx="140"
+        uly="654" xml:id="VB_line_106r_13"/>
+      <zone corresp="#VB_lb_106r_14" lrx="1011" lry="739" rend="visible" rendition="Line" ulx="141"
+        uly="696" xml:id="VB_line_106r_14"/>
+      <zone corresp="#VB_lb_106r_15" lrx="1024" lry="782" rend="visible" rendition="Line" ulx="136"
+        uly="737" xml:id="VB_line_106r_15"/>
+      <zone corresp="#VB_lb_106r_16" lrx="971" lry="820" rend="visible" rendition="Line" ulx="140"
+        uly="780" xml:id="VB_line_106r_16"/>
+      <zone corresp="#VB_lb_106r_17" lrx="1023" lry="859" rend="visible" rendition="Line" ulx="136"
+        uly="818" xml:id="VB_line_106r_17"/>
+      <zone corresp="#VB_lb_106r_18" lrx="1009" lry="902" rend="visible" rendition="Line" ulx="136"
+        uly="857" xml:id="VB_line_106r_18"/>
+      <zone corresp="#VB_lb_106r_19" lrx="1019" lry="941" rend="visible" rendition="Line" ulx="136"
+        uly="900" xml:id="VB_line_106r_19"/>
+      <zone corresp="#VB_lb_106r_20" lrx="1016" lry="980" rend="visible" rendition="Line" ulx="138"
+        uly="939" xml:id="VB_line_106r_20"/>
+      <zone corresp="#VB_lb_106r_21" lrx="1028" lry="1019" rend="visible" rendition="Line" ulx="135"
+        uly="978" xml:id="VB_line_106r_21"/>
+      <zone corresp="#VB_lb_106r_22" lrx="999" lry="1057" rend="visible" rendition="Line" ulx="138"
+        uly="1017" xml:id="VB_line_106r_22"/>
+      <zone corresp="#VB_lb_106r_23" lrx="977" lry="1099" rend="visible" rendition="Line" ulx="140"
+        uly="1055" xml:id="VB_line_106r_23"/>
+      <zone corresp="#VB_lb_106r_24" lrx="1012" lry="1143" rend="visible" rendition="Line" ulx="138"
+        uly="1097" xml:id="VB_line_106r_24"/>
+      <zone corresp="#VB_lb_106r_25" lrx="1036" lry="1184" rend="visible" rendition="Line" ulx="136"
+        uly="1141" xml:id="VB_line_106r_25"/>
+      <zone corresp="#VB_lb_106r_26" lrx="993" lry="1224" rend="visible" rendition="Line" ulx="137"
+        uly="1182" xml:id="VB_line_106r_26"/>
+      <zone corresp="#VB_lb_106r_27" lrx="1044" lry="1267" rend="visible" rendition="Line" ulx="137"
+        uly="1222" xml:id="VB_line_106r_27"/>
+      <zone corresp="#VB_lb_106r_28" lrx="978" lry="1305" rend="visible" rendition="Line" ulx="133"
+        uly="1265" xml:id="VB_line_106r_28"/>
+      <zone corresp="#VB_lb_106r_29" lrx="977" lry="1347" rend="visible" rendition="Line" ulx="137"
+        uly="1303" xml:id="VB_line_106r_29"/>
+      <zone corresp="#VB_lb_106r_30" lrx="978" lry="1383" rend="visible" rendition="Line" ulx="134"
+        uly="1345" xml:id="VB_line_106r_30"/>
+      <zone corresp="#VB_lb_106r_31" lrx="989" lry="1419" rend="visible" rendition="Line" ulx="132"
+        uly="1381" xml:id="VB_line_106r_31"/>
+      <zone corresp="#VB_lb_106r_32" lrx="966" lry="1472" rend="visible" rendition="Line" ulx="133"
+        uly="1417" xml:id="VB_line_106r_32"/>
+      <zone corresp="#VB_div_hs_106r_01" xml:id="VB_hs_106r_01" rendition="HotSpot" ulx="396"
+        uly="358" lrx="532" lry="423" rend="visible"/>
     </surface>
 
   </facsimile>
@@ -830,67 +857,78 @@
   <text n="The Dream of the Rood" xml:id="VB_text_DOTR">
 
     <front>
-      
+
       <titlePage type="document_front">
+
         <pb n="I" xml:id="VB_spine"/>
         
+        <byline>HOMILIARUM LIBER IGNOTI IDIOMATIS</byline>
+        <lb/>
+        <byline>SÆCULO X</byline>
+        <byline>CXVII</byline>
+
+        <lb/>
+        <lb/>
+
         <docTitle>
           <titlePart type="main">The Digital Vercelli Book</titlePart>
           <titlePart type="sub">A digital facsimile and edition of Vercelli, Biblioteca Capitolare CXVII</titlePart>
         </docTitle>
-        
+
         <lb/>
-        <lb/>
-        
-        <docAuthor>Roberto Rosselli Del Turco</docAuthor>          
-        
-        <lb/>
-        
+
+        <docAuthor>Roberto Rosselli Del Turco</docAuthor>
+
         <docEdition>First edition (2017)</docEdition>
-        
+
         <lb/>
         <lb/>
         <lb/>
-        
+
         <byline>Transcription and encoding by R. Rosselli Del Turco, R. Cioffi, F. Goria</byline>
         <byline>Update to P5 TEI schemas by R. Rosselli Del Turco and E. Magnanti</byline>
-        
+
         <lb/>
-        
+
         <byline>Powered by EVT - Edition Visualization Technology</byline>
         <byline>EVT created by C. Di Pietro, J. Kenny, R. Masotti, R. Rosselli Del turco</byline>
         <byline>EVT home page: <ref target="http://evt.labcd.unipi.it/">http://evt.labcd.unipi.it/</ref></byline>
-        
+
         <lb/>
         <lb/>
         <lb/>
-        
+
         <docImprint>
           <pubPlace>Torino</pubPlace>
           <publisher>Collana <title>Open Access</title>, Università di Torino</publisher>
           <date>2017-</date>
         </docImprint>
-        
+
       </titlePage>
-      
+            
       <pb type="end"/>
       
+      <div>
+
       <head>The Dream of the Rood</head>
+      
+      <lb rend="empty"/>
 
       <div type="paratext" subtype="intro">
-        <p><title>The Dream of the Rood</title>, dating back to the first half of the 8th Century in its earliest
-          version, is one of the first Christian poems in the corpus of Old English literature and one of the main
-          examples of the genre of dream poetry in English. Due to its artistic qualities and overall relevance for
-          Anglo-Saxon studies it is considered one of the most important achievements of Old English poetry; it is also
-          one of the very few texts in this tradition that has been preserved in more than one witness. The complete
-          poem can be found in the late 10th Century Vercelli Book codex, but a fragment was carved in runes on the 8th
-          Century Ruthwell Stone Cross (Dumfriesshire, Scotland), and a small excerpt can be found also on the Brussels
-          Cross (St. Michael and St. Gudula Cathedral, Brussels, Belgium), an Anglo-Saxon cross-reliquary of the early
-          11th century.</p>
-        
-        <p>In the Vercelli Book the poem starts with the with the narrator having a dream: in this dream a wonderful
-          object, which is later to be identified with the Holy Cross, stands in the air and tells the story of the
-          crucifixion of Christ to the narrator.</p>
+        <p><title>The Dream of the Rood</title>, dating back to the first half of the 8th Century in
+          its earliest version, is one of the first Christian poems in the corpus of Old English
+          literature and one of the main examples of the genre of dream poetry in English. Due to
+          its artistic qualities and overall relevance for Anglo-Saxon studies it is considered one
+          of the most important achievements of Old English poetry; it is also one of the very few
+          texts in this tradition that has been preserved in more than one witness. The complete
+          poem can be found in the late 10th Century Vercelli Book codex, but a fragment was carved
+          in runes on the 8th Century Ruthwell Stone Cross (Dumfriesshire, Scotland), and a small
+          excerpt can be found also on the Brussels Cross (St. Michael and St. Gudula Cathedral,
+          Brussels, Belgium), an Anglo-Saxon cross-reliquary of the early 11th century.</p>
+
+        <p>In the Vercelli Book the poem starts with the with the narrator having a dream: in this
+          dream a wonderful object, which is later to be identified with the Holy Cross, stands in
+          the air and tells the story of the crucifixion of Christ to the narrator.</p>
       </div>
 
       <div type="paratext" subtype="references">
@@ -900,7 +938,8 @@
           <biblStruct xml:id="Swanton1969">
             <analytic>
               <author>Swanton, M.J.</author>
-              <title level="a">Ambiguity and anticipation in <title>The Dream of the Rood</title></title>
+              <title level="a">Ambiguity and anticipation in <title>The Dream of the
+                Rood</title></title>
             </analytic>
             <monogr>
               <title level="j">Neuphilologische Mitteilungen</title>
@@ -910,14 +949,16 @@
                 <biblScope type="pages">407-425</biblScope>
               </imprint>
             </monogr>
-            <note type="comment">Studio sulla natura e sulla complessità linguistica del <title>Sogno della Croce</title>.</note>
+            <note type="comment">Studio sulla natura e sulla complessità linguistica del
+                <title>Sogno della Croce</title>.</note>
             <note type="key">DOTR</note>
           </biblStruct>
-          
+
           <biblStruct xml:id="Tale1978">
             <analytic>
               <author>Tale, George S.</author>
-              <title level="a">Chiasmus as metaphor: the <title>figura crucis</title> tradition and <title>The Dream of the Rood</title></title>
+              <title level="a">Chiasmus as metaphor: the <title>figura crucis</title> tradition and
+                  <title>The Dream of the Rood</title></title>
             </analytic>
             <monogr>
               <title level="j">Neuphilologische Mitteilungen</title>
@@ -929,8 +970,8 @@
             </monogr>
             <note type="key">DOTR</note>
           </biblStruct>
-          
-           <biblStruct xml:id="Wolf1970">
+
+          <biblStruct xml:id="Wolf1970">
             <analytic>
               <author>Wolf, Carol J.</author>
               <title level="a">Christ as hero in <title>The Dream of the Rood</title></title>
@@ -946,7 +987,7 @@
             <note type="key">DOTR</note>
           </biblStruct>
 
-           <biblStruct xml:id="Woolf1958">
+          <biblStruct xml:id="Woolf1958">
             <analytic>
               <author>Woolf, Rosemary</author>
               <title level="a">Doctrinal Influences on <title>The Dream of the Rood</title></title>
@@ -961,11 +1002,12 @@
             </monogr>
             <note type="key">DOTR</note>
           </biblStruct>
-        
+
           <biblStruct xml:id="Bammesberger2002">
             <analytic>
               <author>Bammesberger, Alfred</author>
-              <title level="a">A Doubtful Reconstruction of the Old English Ruthwell Crucifixion Poem</title>
+              <title level="a">A Doubtful Reconstruction of the Old English Ruthwell Crucifixion
+                Poem</title>
             </analytic>
             <monogr>
               <title level="j">Studia Neophilologica</title>
@@ -982,11 +1024,13 @@
           <biblStruct xml:id="Gvozdetskaya2001">
             <analytic>
               <author>Gvozdetskaya, N. Yu</author>
-              <title level="a">Semantika drevneangliyskoy poeticheskoy formuly (na materiale Beovul'fa i Videniya kresta) (The Semantics of the Old English
-                Poetic Formula, Based on Beowulf and The Dream of the Rood)</title>
+              <title level="a">Semantika drevneangliyskoy poeticheskoy formuly (na materiale
+                Beovul'fa i Videniya kresta) (The Semantics of the Old English Poetic Formula, Based
+                on Beowulf and The Dream of the Rood)</title>
             </analytic>
             <monogr>
-              <title level="m">Lingvistika na rubezhe epoh. Idei i toposy. Sbornik statey: ( = Linguistics at the Turn of the Millennium: Ideas and Topoi: Essay
+              <title level="m">Lingvistika na rubezhe epoh. Idei i toposy. Sbornik statey: ( =
+                Linguistics at the Turn of the Millennium: Ideas and Topoi: Essay
                 Collection)</title>
               <editor/>
               <imprint>
@@ -1002,7 +1046,8 @@
           <biblStruct xml:id="Conti2001">
             <analytic>
               <author>Conti, Aidan</author>
-              <title level="a">An Anonymous Homily for Palm Sunday, The Dream of the Rood, and the Progress of Ælfric's Reform</title>
+              <title level="a">An Anonymous Homily for Palm Sunday, The Dream of the Rood, and the
+                Progress of Ælfric's Reform</title>
             </analytic>
             <monogr>
               <title level="j">Notes and Queries n.s.</title>
@@ -1018,7 +1063,8 @@
           <biblStruct xml:id="Wheelock2000">
             <analytic>
               <author>Wheelock, Jeremy I.</author>
-              <title level="a">The Word Made Flesh: 'engel dryhtnes' in <title>The Dream of the Rood</title></title>
+              <title level="a">The Word Made Flesh: 'engel dryhtnes' in <title>The Dream of the
+                  Rood</title></title>
             </analytic>
             <monogr>
               <title level="j">English Language Notes</title>
@@ -1050,7 +1096,8 @@
           <biblStruct xml:id="Roberts2000">
             <analytic>
               <author>Roberts, Jane</author>
-              <title level="a">Some Relationships between <title>The Dream of the Rood</title> and the Cross at Ruthwell</title>
+              <title level="a">Some Relationships between <title>The Dream of the Rood</title> and
+                the Cross at Ruthwell</title>
             </analytic>
             <monogr>
               <title level="j">Stud. in Med. Eng. Lang. and Lit. (Tokyo)</title>
@@ -1067,20 +1114,26 @@
           <biblStruct xml:id="OCarragain2000">
             <analytic>
               <author>Ó Carragáin, Éamonn</author>
-              <title level="a">The Annunciation of the Lord and His Passion: a Liturgical Topos from St Peter's on the Vatican in <title>The Dream of the
-                Rood</title>, Thomas Cranmer and John Donne</title>
+              <title level="a">The Annunciation of the Lord and His Passion: a Liturgical Topos from
+                St Peter's on the Vatican in <title>The Dream of the Rood</title>, Thomas Cranmer
+                and John Donne</title>
             </analytic>
             <monogr>
-              <title level="m">Essays on Anglo-Saxon and Related Themes in Memory of Lynne Grundy</title>
+              <title level="m">Essays on Anglo-Saxon and Related Themes in Memory of Lynne
+                Grundy</title>
               <editor>Jane Roberts and Janet Nelson</editor>
               <imprint>
                 <pubPlace>London</pubPlace>
-                <publisher>Centre for Late Antique and Medieval Studies, King's College, University of London</publisher>
+                <publisher>Centre for Late Antique and Medieval Studies, King's College, University
+                  of London</publisher>
                 <date>2000</date>
               </imprint>
               <biblScope type="pages">339-81</biblScope>
             </monogr>
-            <series> <title level="s">King's College London Medieval Studies</title> <biblScope type="vol">17</biblScope> </series>
+            <series>
+              <title level="s">King's College London Medieval Studies</title>
+              <biblScope type="vol">17</biblScope>
+            </series>
             <note type="key">DOTR</note>
           </biblStruct>
 
@@ -1102,21 +1155,30 @@
           </biblStruct>
 
         </listBibl>
-        
-         <list>
-           <item>Britt Mize. “The Mental Container and the Cross of Christ: Revelation and Community in The Dream of the Rood.” Studies in Philology 107.2 (2010): 131–178. Project MUSE. Web.</item>
-           <item>Galloway, Andrew. “Dream-Theory in The Dream of the Rood and The Wanderer.” The Review of English Studies 45.180 (1994): 475–485. Print. New Series.</item>
-           <item> Heckman, Christina M. “Imitatio in Early Medieval Spirituality: The Dream of the Rood, Anselm, and Militant Christology.” Essays in Medieval Studies 22.1 (2005): 141–153. Project MUSE. Web.</item>
-           <item>Irvine, Susan. “Adam or Christ? A Pronominal Pun in The Dream of the Rood.” The Review of English Studies 48.192 (1997): 433–447. Print. New Series.</item>
-           <item>LUISELLI FADDA, Anna Maria. “La Croce Nella Tradizione Poetica Anglosassone (sec. VIII-IX).” Romanobarbarica: Contributi allo studio dei rapporti culturali tra mondo latino e mondo barbarico 17 (2003): 333–359. Print.</item>
-           <item>Thieme, Adelheid L. J. “Gift Giving as a Vital Element of Salvation in ‘The Dream of the Rood.’” South Atlantic Review 63.2 (1998): 108–123. JSTOR. Web.</item>
-         </list>
+
+        <list>
+          <item>Britt Mize. “The Mental Container and the Cross of Christ: Revelation and Community
+            in The Dream of the Rood.” Studies in Philology 107.2 (2010): 131–178. Project MUSE.
+            Web.</item>
+          <item>Galloway, Andrew. “Dream-Theory in The Dream of the Rood and The Wanderer.” The
+            Review of English Studies 45.180 (1994): 475–485. Print. New Series.</item>
+          <item> Heckman, Christina M. “Imitatio in Early Medieval Spirituality: The Dream of the
+            Rood, Anselm, and Militant Christology.” Essays in Medieval Studies 22.1 (2005):
+            141–153. Project MUSE. Web.</item>
+          <item>Irvine, Susan. “Adam or Christ? A Pronominal Pun in The Dream of the Rood.” The
+            Review of English Studies 48.192 (1997): 433–447. Print. New Series.</item>
+          <item>LUISELLI FADDA, Anna Maria. “La Croce Nella Tradizione Poetica Anglosassone (sec.
+            VIII-IX).” Romanobarbarica: Contributi allo studio dei rapporti culturali tra mondo
+            latino e mondo barbarico 17 (2003): 333–359. Print.</item>
+          <item>Thieme, Adelheid L. J. “Gift Giving as a Vital Element of Salvation in ‘The Dream of
+            the Rood.’” South Atlantic Review 63.2 (1998): 108–123. JSTOR. Web.</item>
+        </list>
 
         <listBibl xmlns="http://www.tei-c.org/ns/1.0">
           <biblStruct type="journalArticle" xml:id="Britt_Mize2010">
             <analytic>
-              <title level="a">The Mental Container and the Cross of Christ: Revelation and Community in The Dream of
-                the Rood</title>
+              <title level="a">The Mental Container and the Cross of Christ: Revelation and
+                Community in The Dream of the Rood</title>
               <author><name>Britt Mize</name></author>
             </analytic>
             <monogr>
@@ -1127,7 +1189,8 @@
                 <biblScope type="pp">131-178</biblScope>
                 <date>2010</date>
                 <note type="accessed">2011-05-21 19:28:20</note>
-                <note type="url">http://muse.jhu.edu/journals/studies_in_philology/v107/107.2.mize.html</note>
+                <note type="url"
+                  >http://muse.jhu.edu/journals/studies_in_philology/v107/107.2.mize.html</note>
               </imprint>
             </monogr>
             <idno type="ISSN">1543-0383</idno>
@@ -1135,8 +1198,8 @@
           </biblStruct>
           <biblStruct type="journalArticle" xml:id="Heckman2005">
             <analytic>
-              <title level="a">Imitatio in Early Medieval Spirituality: The Dream of the Rood, Anselm, and Militant
-                Christology</title>
+              <title level="a">Imitatio in Early Medieval Spirituality: The Dream of the Rood,
+                Anselm, and Militant Christology</title>
               <author><forename>Christina M.</forename><surname>Heckman</surname></author>
             </analytic>
             <monogr>
@@ -1147,7 +1210,8 @@
                 <biblScope type="pp">141-153</biblScope>
                 <date>2005</date>
                 <note type="accessed">2011-05-21 19:36:24</note>
-                <note type="url">http://muse.jhu.edu/journals/essays_in_medieval_studies/v022/22.1heckman.html</note>
+                <note type="url"
+                  >http://muse.jhu.edu/journals/essays_in_medieval_studies/v022/22.1heckman.html</note>
               </imprint>
             </monogr>
             <idno type="ISSN">1538-4608</idno>
@@ -1159,8 +1223,8 @@
               <author><forename>Anna Maria</forename><surname>LUISELLI FADDA</surname></author>
             </analytic>
             <monogr>
-              <title level="j">Romanobarbarica: Contributi allo studio dei rapporti culturali tra mondo latino e mondo
-                barbarico</title>
+              <title level="j">Romanobarbarica: Contributi allo studio dei rapporti culturali tra
+                mondo latino e mondo barbarico</title>
               <imprint>
                 <biblScope type="vol">17</biblScope>
                 <biblScope type="pp">333-359</biblScope>
@@ -1171,7 +1235,8 @@
           </biblStruct>
           <biblStruct type="journalArticle" xml:id="Thieme1998">
             <analytic>
-              <title level="a">Gift Giving as a Vital Element of Salvation in "The Dream of the Rood"</title>
+              <title level="a">Gift Giving as a Vital Element of Salvation in "The Dream of the
+                Rood"</title>
               <author><forename>Adelheid L. J.</forename><surname>Thieme</surname></author>
             </analytic>
             <monogr>
@@ -1229,6 +1294,7 @@
         </listBibl>
 
       </div>
+      </div>
 
     </front>
 
@@ -1238,22 +1304,29 @@
 
         <!-- #######################################  folio 104v  ####################################### -->
         <pb n="104v" xml:id="VB_fol_104v"/>
+        
+        <lb n="1" rend="empty"/>
+        <lb n="2" rend="empty"/>
+        <lb n="3" rend="empty"/>
+        <lb n="4" rend="empty"/>
+        <lb n="5" rend="empty"/>
+        <lb n="6" rend="empty"/>
 
         <l n="1"><lb facs="#VB_line_104v_07" n="7" xml:id="VB_lb_104v_07"/><hi rend="init3.1">
           <g ref="#Hunc"/></hi><hi rend="cap">W</hi>æt<note>A generic, unnumbered note</note> ic
           <g ref="#slong"/>wefna c<g ref="#ydot"/><g ref="#sins"/>t secgan
           wylle</l>
         <l n="2"><choice>
-            <sic>hæt</sic>
-            <corr resp="Grein">hwæt</corr>
+          <sic>hæt</sic>
+          <corr resp="Grein">hwæt</corr>
         </choice><note type="critical" n="a">A critical note</note>
           <choice>
             <orig>mege mætte</orig>
             <reg>me gemætte</reg>
           </choice><lb facs="#VB_line_104v_08" n="8" xml:id="VB_lb_104v_08"/>to midre nihte</l>
         <l n="3">syðþan <seg type="kenning"><choice>
-            <orig>reord b<g ref="#eenl"/>r<g ref="#eenl"/>nd</orig>
-            <reg>reordberend</reg>
+          <orig>reord b<g ref="#eenl"/>r<g ref="#eenl"/>nd</orig>
+          <reg>reordberend</reg>
         </choice></seg> reste wunedon<orig><pc type="metrical">.</pc></orig><note type="comment" n="1">A comment note</note></l>
         <l n="4"><lb facs="#VB_line_104v_09" n="9" xml:id="VB_lb_104v_09"/>þuhte me þæt ic <choice>
             <orig>ge <g ref="#sins"/>awe</orig>
@@ -1267,14 +1340,15 @@
             <orig>be wunden</orig>
             <reg>bewunden</reg>
           </choice></l>
-        <l n="6">beama beorhto<g ref="#sins"/>t eall
-          þæt<lb facs="#VB_line_104v_11" n="11" xml:id="VB_lb_104v_11"/>beacen wæ<g ref="#sins"/></l>
+        <l n="6">beama beorhto<g ref="#sins"/>t eall þæt<lb facs="#VB_line_104v_11" n="11"
+            xml:id="VB_lb_104v_11"/>beacen wæ<g ref="#sins"/></l>
         <l n="7"><choice>
             <orig>be goten</orig>
             <reg>begoten</reg>
           </choice> mid golde gimma<g ref="#sins"/>
           <g ref="#slong"/>todon</l>
-        <l n="8">fægere<lb facs="#VB_line_104v_12" n="12" xml:id="VB_lb_104v_12"/>æt foldan <g ref="#slong"/>ceatum<orig>
+        <l n="8">fægere<lb facs="#VB_line_104v_12" n="12" xml:id="VB_lb_104v_12"/>æt foldan <g
+            ref="#slong"/>ceatum<orig>
             <pc type="metrical">.</pc></orig>
           <g ref="#slong"/>wylce þær fife wæron</l>
         <l n="9">uppe<lb facs="#VB_line_104v_13" n="13" xml:id="VB_lb_104v_13"/><choice>
@@ -1288,9 +1362,8 @@
           <choice>
             <orig>be heoldon</orig>
             <reg>beheoldon</reg>
-          </choice> þær engel
-          dr<g ref="#yrgmainstrok"/>ht<lb facs="#VB_line_104v_14" n="14" xml:id="VB_lb_104v_14"/>ne<g ref="#sins"/>
-          ealle</l>
+          </choice> þær engel dr<g ref="#yrgmainstrok"/>ht<lb facs="#VB_line_104v_14" n="14"
+            xml:id="VB_lb_104v_14"/>ne<g ref="#sins"/> ealle</l>
         <l n="10">fægere þurh <choice>
             <orig>forð ge sceaft</orig>
             <reg>forðgesceaft</reg>
@@ -1302,7 +1375,8 @@
           <choice>
             <orig>ðærhuru</orig>
             <reg>ðær huru</reg>
-          </choice><lb facs="#VB_line_104v_15" n="15" xml:id="VB_lb_104v_15"/>fracode<g ref="#sins"/> gealga<orig>
+          </choice><lb facs="#VB_line_104v_15" n="15" xml:id="VB_lb_104v_15"/>fracode<g ref="#sins"
+          /> gealga<orig>
             <pc type="metrical">.</pc></orig></l>
         <l n="11"><choice>
             <orig><hi rend="double"><g ref="#aenl"/></hi>chine</orig>
@@ -1316,7 +1390,8 @@
             <reg>gesceaft</reg>
           </choice>
           <g ref="#colmidcomposit"/></l>
-        <l n="13"><lb facs="#VB_line_104v_17" n="17" xml:id="VB_lb_104v_17"/><hi rend="cap">S</hi>yllic wæ<g ref="#sins"/>
+        <l n="13"><lb facs="#VB_line_104v_17" n="17" xml:id="VB_lb_104v_17"/><hi rend="cap"
+          >S</hi>yllic wæ<g ref="#sins"/>
           <g ref="#sins"/>e <seg type="kenning"><choice>
             <orig><g ref="#sins"/>ige beam</orig>
             <reg>sigebeam</reg>
@@ -1355,10 +1430,12 @@
             <sic>wealdes</sic>
             <corr resp="krapp">wealdendes</corr>
           </choice> treow <g ref="#colmidcomposit"/></l>
-        <l n="18"><hi rend="double">h</hi>wæðre ic<lb facs="#VB_line_104v_21" n="21" xml:id="VB_lb_104v_21"/>þurh þæt
-          gold ongytan meahte</l>
-        <l n="19">earmra ærgewin<lb facs="#VB_line_104v_22" n="22" xml:id="VB_lb_104v_22"/>þæt hit ærest ongan</l>
-        <l n="20"><g ref="#slong"/>wætan on þa <g ref="#slong"/>wiðran healfe<lb facs="#VB_line_104v_23" n="23" xml:id="VB_lb_104v_23"/><choice>
+        <l n="18"><hi rend="double">h</hi>wæðre ic<lb facs="#VB_line_104v_21" n="21"
+            xml:id="VB_lb_104v_21"/>þurh þæt gold ongytan meahte</l>
+        <l n="19">earmra ærgewin<lb facs="#VB_line_104v_22" n="22" xml:id="VB_lb_104v_22"/>þæt hit
+          ærest ongan</l>
+        <l n="20"><g ref="#slong"/>wætan on þa <g ref="#slong"/>wiðran healfe<lb
+            facs="#VB_line_104v_23" n="23" xml:id="VB_lb_104v_23"/><choice>
             <orig>eallic</orig>
             <reg>eall ic</reg>
           </choice> wæ<g ref="#sins"/> mid <choice>
@@ -1379,7 +1456,7 @@
           </choice> ic þæt fu<g ref="#sins"/>e beacen<orig><pc type="metrical">.</pc></orig></l>
 
         <!-- #######################################  folio 105r  ####################################### -->
-        
+
         <gb n="15" xml:id="VB_gb_15"/>  
         
         <pb n="105r" xml:id="VB_fol_105r"/>
@@ -1398,27 +1475,28 @@
             <orig>be <g ref="#slong"/>temed</orig>
             <reg>bestemed</reg>
           </choice><orig><pc type="metrical">.</pc></orig></l>
-        <l n="23">be<g ref="#slong"/>wyled<lb facs="#VB_line_105r_02" n="2" xml:id="VB_lb_105r_02"/>mid
-          <g ref="#slong"/>wate<g ref="#sins"/> gange<orig>
+        <l n="23">be<g ref="#slong"/>wyled<lb facs="#VB_line_105r_02" n="2" xml:id="VB_lb_105r_02"
+          />mid <g ref="#slong"/>wate<g ref="#sins"/> gange<orig>
             <pc type="metrical">.</pc></orig>
           <hi rend="double"><g ref="#hrdes"/></hi>wilum mid <g ref="#slong"/>ince gegyrwed<orig>
             <pc type="metrical">.</pc></orig></l>
         <l n="24"><hi rend="double"><g ref="#hrdes"/></hi>wæðre <choice>
             <orig>icþær</orig>
             <reg>ic þær</reg>
-          </choice><lb facs="#VB_line_105r_03" n="3" xml:id="VB_lb_105r_03"/>licgende lange hwile<orig><pc
-              type="metrical">.</pc></orig></l>
+          </choice><lb facs="#VB_line_105r_03" n="3" xml:id="VB_lb_105r_03"/>licgende lange
+              hwile<orig><pc type="metrical">.</pc></orig></l>
         <l n="25">beheold <choice>
             <orig>hreow cearig</orig>
             <reg>hreowcearig</reg>
           </choice><orig>
-            <pc type="metrical">.</pc></orig> hælende<g ref="#sins"/> treow<orig><pc type="metrical">.</pc></orig></l>
+            <pc type="metrical">.</pc></orig> hælende<g ref="#sins"/> treow<orig><pc type="metrical"
+              >.</pc></orig></l>
         <l n="26"><lb facs="#VB_line_105r_04" n="4" xml:id="VB_lb_105r_04"/>oððæt <choice>
             <orig>icgehyrde</orig>
             <reg>ic gehyrde</reg>
           </choice> þæt hit hleoðrode</l>
-        <l n="27">ongan þa word <g ref="#slong"/>precan<lb facs="#VB_line_105r_05" n="5" xml:id="VB_lb_105r_05"/>wudu
-          <g ref="#sins"/>elesta</l>
+        <l n="27">ongan þa word <g ref="#slong"/>precan<lb facs="#VB_line_105r_05" n="5"
+            xml:id="VB_lb_105r_05"/>wudu <g ref="#sins"/>elesta</l>
         <l n="28">þæt wæs geara iu<orig>
             <pc type="metrical">.</pc></orig>
           <choice>
@@ -1429,8 +1507,8 @@
             <reg>geman</reg>
           </choice><orig>
             <pc type="metrical">.</pc></orig></l>
-        <l n="29">þæt ic
-          wæ<g ref="#sins"/><lb facs="#VB_line_105r_06" n="6" xml:id="VB_lb_105r_06"/><g ref="#aacute"/>heawen holte<g ref="#sins"/>
+        <l n="29">þæt ic wæ<g ref="#sins"/><lb facs="#VB_line_105r_06" n="6" xml:id="VB_lb_105r_06"
+            /><g ref="#aacute"/>heawen holte<g ref="#sins"/>
           <choice>
             <orig>onende</orig>
             <reg>on ende</reg>
@@ -1439,7 +1517,8 @@
             <abbr>min<am><g ref="#umacr"/></am></abbr>
             <expan>minu<ex>m</ex></expan>
           </choice>
-          <orig><pc type="metrical">.</pc></orig>genaman<lb facs="#VB_line_105r_07" n="7" xml:id="VB_lb_105r_07"/><choice>
+          <orig><pc type="metrical">.</pc></orig>genaman<lb facs="#VB_line_105r_07" n="7"
+            xml:id="VB_lb_105r_07"/><choice>
             <orig>meðær</orig>
             <reg>me ðær</reg>
           </choice>
@@ -1450,20 +1529,22 @@
           </choice> him þær to <choice>
             <orig>wæfer <g ref="#slong"/>yne</orig>
             <reg>wæfersyne</reg>
-          </choice><lb facs="#VB_line_105r_08" n="8" xml:id="VB_lb_105r_08"/>heton me heora werga<g ref="#sins"/> hebban<orig>
+          </choice><lb facs="#VB_line_105r_08" n="8" xml:id="VB_lb_105r_08"/>heton me heora werga<g
+            ref="#sins"/> hebban<orig>
             <pc type="metrical">.</pc></orig></l>
         <l n="32">bæron <choice>
             <orig>meðær</orig>
             <reg>me ðær</reg>
-          </choice> beorna<g ref="#sins"/><lb facs="#VB_line_105r_09" n="9" xml:id="VB_lb_105r_09"/>on eaxlum oððæt hie
-          me <choice>
+          </choice> beorna<g ref="#sins"/><lb facs="#VB_line_105r_09" n="9" xml:id="VB_lb_105r_09"
+          />on eaxlum oððæt hie me <choice>
             <orig>onbeorg</orig>
             <reg>on beorg</reg>
           </choice> a<g ref="#sins"/>etton</l>
         <l n="33"><choice>
             <orig>gefæ<g ref="#sins"/>t nodon</orig>
             <reg>gefæstnodon</reg>
-          </choice> me<lb facs="#VB_line_105r_10" n="10" xml:id="VB_lb_105r_10"/>þær feonda<g ref="#sins"/> genoge<orig>
+          </choice> me<lb facs="#VB_line_105r_10" n="10" xml:id="VB_lb_105r_10"/>þær feonda<g
+            ref="#sins"/> genoge<orig>
             <pc type="metrical">.</pc></orig>
           <choice>
             <orig>ge <g ref="#sins"/>eah</orig>
@@ -1472,7 +1553,8 @@
             <orig>man cynnes</orig>
             <reg>mancynnes</reg>
           </choice></l>
-        <l n="34">ef<g ref="#slong"/>tan<lb facs="#VB_line_105r_11" n="11" xml:id="VB_lb_105r_11"/>elne mycle<choice>
+        <l n="34">ef<g ref="#slong"/>tan<lb facs="#VB_line_105r_11" n="11" xml:id="VB_lb_105r_11"
+          />elne mycle<choice>
             <orig><pc type="metrical">.</pc></orig>
             <reg> </reg>
           </choice>þæt he me wolde <choice>
@@ -1487,15 +1569,16 @@
           <choice>
             <orig>nedor<g ref="#slong"/>te</orig>
             <reg>ne dorste</reg>
-          </choice><lb facs="#VB_line_105r_12" n="12" xml:id="VB_lb_105r_12"/>ofer
-          dr<g ref="#yrgmainstrok"/>htne<g ref="#sins"/> word</l>
+          </choice><lb facs="#VB_line_105r_12" n="12" xml:id="VB_lb_105r_12"/>ofer dr<g
+            ref="#yrgmainstrok"/>htne<g ref="#sins"/> word</l>
         <l n="36">bugan oððe ber<g ref="#slong"/>tan <orig><pc type="metrical">.</pc></orig>þa <choice>
             <orig>icbifian</orig>
             <reg>ic bifian</reg>
           </choice> ge<g ref="#slong"/>eah</l>
-        <l n="37"><lb facs="#VB_line_105r_13" n="13" xml:id="VB_lb_105r_13"/>eorðan
-          <g ref="#slong"/>ceata<g ref="#sins"/> ealle ic mihte</l>
-        <l n="38">feonda<g ref="#sins"/> gefyllan hwæðre<lb facs="#VB_line_105r_14" n="14" xml:id="VB_lb_105r_14"/><choice>
+        <l n="37"><lb facs="#VB_line_105r_13" n="13" xml:id="VB_lb_105r_13"/>eorðan <g ref="#slong"
+            />ceata<g ref="#sins"/> ealle ic mihte</l>
+        <l n="38">feonda<g ref="#sins"/> gefyllan hwæðre<lb facs="#VB_line_105r_14" n="14"
+            xml:id="VB_lb_105r_14"/><choice>
             <orig>icfæste</orig>
             <reg>ic fæste</reg>
           </choice>
@@ -1505,7 +1588,8 @@
             <choice>
               <orig>god</orig>
               <reg>God</reg>
-            </choice></persName><lb facs="#VB_line_105r_15" n="15" xml:id="VB_lb_105r_15"/>ælmihtig</l>
+            </choice></persName><lb
+            facs="#VB_line_105r_15" n="15" xml:id="VB_lb_105r_15"/>ælmihtig</l>
         <l n="40"><g ref="#slong"/>trang <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>tið mod</orig>
             <reg><expan><ex>and</ex></expan> stiðmod</reg>
@@ -1538,8 +1622,8 @@
             <orig><g ref="#yrgmainstrok"/>mb cl<g ref="#yrgmainstrok"/>pte</orig>
             <reg>ymbclypte</reg>
           </choice><orig>
-            <pc type="metrical">.</pc></orig> ne dor<g ref="#slong"/>te ic
-          hwæðre<lb facs="#VB_line_105r_18" n="18" xml:id="VB_lb_105r_18"/>bugan to eorðan</l>
+            <pc type="metrical">.</pc></orig> ne dor<g ref="#slong"/>te ic hwæðre<lb
+            facs="#VB_line_105r_18" n="18" xml:id="VB_lb_105r_18"/>bugan to eorðan</l>
         <l n="43">feallan <choice>
             <orig>tofoldan</orig>
             <reg>to foldan</reg>
@@ -1552,8 +1636,8 @@
           <hi rend="double"><g ref="#aenl"/></hi>c <choice>
             <orig>ic<g ref="#slong"/>ceolde</orig>
             <reg>ic sceolde</reg>
-          </choice> fæste<lb facs="#VB_line_105r_19" n="19" xml:id="VB_lb_105r_19"/><g ref="#slong"/>tandan<orig><pc
-              type="metrical">.</pc></orig></l>
+          </choice> fæste<lb facs="#VB_line_105r_19" n="19" xml:id="VB_lb_105r_19"/><g ref="#slong"
+              />tandan<orig><pc type="metrical">.</pc></orig></l>
         <l n="44"><hi rend="cap">R</hi>od wæ<g ref="#sins"/>
           <choice>
             <orig>icaræred</orig>
@@ -1561,8 +1645,8 @@
           </choice><orig>
             <pc type="metrical">.</pc></orig>
           <g ref="#aacute"/>hof ic ricne cyning</l>
-        <l n="45">heofona<lb facs="#VB_line_105r_20" n="20" xml:id="VB_lb_105r_20"/>hlaford<orig><pc type="metrical"
-              >.</pc></orig> hyldan me ne dor<g ref="#slong"/>te<orig>
+        <l n="45">heofona<lb facs="#VB_line_105r_20" n="20" xml:id="VB_lb_105r_20"/>hlaford<orig><pc
+              type="metrical">.</pc></orig> hyldan me ne dor<g ref="#slong"/>te<orig>
             <pc type="metrical">.</pc></orig></l>
         <l n="46"><choice>
             <orig>þurh drifan</orig>
@@ -1579,8 +1663,8 @@
             <orig>ge<g ref="#sins"/>iene</orig>
             <reg>gesiene</reg>
           </choice></l>
-        <l n="47">opene
-            <w><g ref="#inodotenl"/>nwid<lb facs="#VB_line_105r_22" n="22" xml:id="VB_lb_105r_22"/>hlemma<g ref="#sins"/></w><choice>
+        <l n="47">opene <w><g ref="#inodotenl"/>nwid<lb facs="#VB_line_105r_22" n="22"
+              xml:id="VB_lb_105r_22"/>hlemma<g ref="#sins"/></w><choice>
             <orig><pc type="metrical">.</pc></orig>
             <reg> </reg>
           </choice>ne dor<g ref="#slong"/>te ic hira <choice>
@@ -1588,14 +1672,15 @@
             <expan>nænigu<ex>m</ex></expan>
           </choice>
           <g ref="#sins"/>ceððan</l>
-        <l n="48">by<g ref="#sins"/>meredon hie<lb facs="#VB_line_105r_23" n="23" xml:id="VB_lb_105r_23"/>unc butu
-          ætgæd<g ref="#eenl"/>re eall ic wæ<g ref="#sins"/> mid blode bestemed</l>
-        <l n="49"><orig><pc type="metrical">.</pc></orig>begoten
-          of<lb facs="#VB_line_105r_24" n="24" xml:id="VB_lb_105r_24"/>þæ<g ref="#sins"/> guman <g ref="#sins"/>idan<choice>
+        <l n="48">by<g ref="#sins"/>meredon hie<lb facs="#VB_line_105r_23" n="23"
+            xml:id="VB_lb_105r_23"/>unc butu ætgæd<g ref="#eenl"/>re eall ic wæ<g ref="#sins"/> mid
+          blode bestemed</l>
+        <l n="49"><orig><pc type="metrical">.</pc></orig>begoten of<lb facs="#VB_line_105r_24"
+            n="24" xml:id="VB_lb_105r_24"/>þæ<g ref="#sins"/> guman <g ref="#sins"/>idan<choice>
             <orig><pc type="metrical">.</pc></orig>
             <reg> </reg>
-          </choice><g ref="#sins"/><damage type="faded">iðða</damage>n he hæfde hi<g ref="#sins"/> ga<g ref="#slong"/>t
-              on<g ref="#sins"/>ended<orig><pc type="metrical">.</pc></orig></l>
+          </choice><g ref="#sins"/><damage type="faded">iðða</damage>n he hæfde hi<g ref="#sins"/>
+            ga<g ref="#slong"/>t on<g ref="#sins"/>ended<orig><pc type="metrical">.</pc></orig></l>
         <l n="50">feala<lb facs="#VB_line_105r_25" n="25" xml:id="VB_lb_105r_25"/>ic <choice>
             <orig>onþam</orig>
             <reg>on þam</reg>
@@ -1614,8 +1699,8 @@
         <l n="53"><choice>
             <orig>be wrigen</orig>
             <reg>bewrigen</reg>
-          </choice> mid wolcnum<lb facs="#VB_line_105r_27" n="27" xml:id="VB_lb_105r_27"/>wealdende<g ref="#sins"/>
-              hræw<orig><pc type="metrical">.</pc></orig></l>
+          </choice> mid wolcnum<lb facs="#VB_line_105r_27" n="27" xml:id="VB_lb_105r_27"
+            />wealdende<g ref="#sins"/> hræw<orig><pc type="metrical">.</pc></orig></l>
         <l n="54"><g ref="#slong"/>cirne <g ref="#slong"/>ciman <g ref="#slong"/>ceadu <choice>
             <orig>forð eode</orig>
             <reg>forðeode</reg>
@@ -1625,8 +1710,8 @@
             <orig>ealge <g ref="#sins"/>ceaft</orig>
             <reg>eal gesceaft</reg>
           </choice></l>
-        <l n="56">cwiðdon cyninge<g ref="#sins"/>
-            fyll<lb facs="#VB_line_105r_29" n="29" xml:id="VB_lb_105r_29"/><persName ref="#Christ" type="religion">
+        <l n="56">cwiðdon cyninge<g ref="#sins"/> fyll<lb facs="#VB_line_105r_29" n="29"
+            xml:id="VB_lb_105r_29"/><persName ref="#Christ" type="religion">
             <choice>
               <orig>cri<g ref="#slong"/>t</orig>
               <reg>Crist</reg>
@@ -1643,15 +1728,17 @@
             <orig>be heold</orig>
             <reg>beheold</reg>
           </choice><orig><pc type="metrical">.</pc></orig></l>
-        <l n="59"><hi rend="cap">S</hi>are ic wæ<g ref="#sins"/> mid <supplied resp="krapp">sorgum</supplied>
-          g<g ref="#edotbl"/>drefed<lb facs="#VB_line_105r_31" n="31" xml:id="VB_lb_105r_31"/>hnag ic hwæðre þam <choice>
+        <l n="59"><hi rend="cap">S</hi>are ic wæ<g ref="#sins"/> mid <supplied resp="krapp"
+            >sorgum</supplied> g<g ref="#edotbl"/>drefed<lb facs="#VB_line_105r_31" n="31"
+            xml:id="VB_lb_105r_31"/>hnag ic hwæðre þam <choice>
             <abbr><g ref="#sins"/>ecg<am><g ref="#umacr"/></am></abbr>
             <expan>secgu<ex>m</ex></expan>
           </choice> to handa</l>
         <l n="60"><choice>
             <orig>eað mod</orig>
             <reg>eaðmod</reg>
-          </choice> elne m<g ref="#yrgmainstrok"/>cle<lb facs="#VB_line_105r_32" n="32" xml:id="VB_lb_105r_32"/><choice>
+          </choice> elne m<g ref="#yrgmainstrok"/>cle<lb facs="#VB_line_105r_32" n="32"
+            xml:id="VB_lb_105r_32"/><choice>
             <orig>ge namon</orig>
             <reg>genamon</reg>
           </choice>
@@ -1659,26 +1746,23 @@
               <orig>god</orig>
               <reg>God</reg>
             </choice></persName></l>
-        <l n="61"><g ref="#aacute"/>hofon hine of ðam
-
-          <!-- #######################################  folio 105v  ####################################### -->
-          
+        <l n="61"><g ref="#aacute"/>hofon hine of ðam <!-- #######################################  folio 105v  ####################################### -->
           <pb n="105v" xml:id="VB_fol_105v"/>
-
-          <lb facs="#VB_line_105v_01" n="1" xml:id="VB_lb_105v_01"/>hefian wite <damage type="faded">f</damage>orleton
-          me þa <choice>
+          <lb facs="#VB_line_105v_01" n="1" xml:id="VB_lb_105v_01"/>hefian wite <damage type="faded"
+            >f</damage>orleton me þa <choice>
             <orig>hilde rinca<g ref="#sins"/></orig>
             <reg>hilderincas</reg>
           </choice></l>
-        <l n="62"><g ref="#slong"/>tandan <g ref="#slong"/>teame<lb facs="#VB_line_105v_02" n="2" xml:id="VB_lb_105v_02"/><choice>
+        <l n="62"><g ref="#slong"/>tandan <g ref="#slong"/>teame<lb facs="#VB_line_105v_02" n="2"
+            xml:id="VB_lb_105v_02"/><choice>
             <orig>be drif<g ref="#eenl"/>nne</orig>
             <reg>bedrifenne</reg>
           </choice> eall ic wæ<g ref="#sins"/> mid <g ref="#slong"/>trælum <choice>
             <orig>for wundod</orig>
             <reg>forwundod</reg>
           </choice></l>
-        <l n="63"><hi rend="double"><g ref="#aenl"/></hi>ledon
-          hie<lb facs="#VB_line_105v_03" n="3" xml:id="VB_lb_105v_03"/>ðær <choice>
+        <l n="63"><hi rend="double"><g ref="#aenl"/></hi>ledon hie<lb facs="#VB_line_105v_03" n="3"
+            xml:id="VB_lb_105v_03"/>ðær <choice>
             <orig>lim werigne</orig>
             <reg>limwerigne</reg>
           </choice>
@@ -1693,25 +1777,29 @@
         <l n="64"><choice>
             <orig>be heoldon</orig>
             <reg>beheoldon</reg>
-          </choice> hie<lb facs="#VB_line_105v_04" n="4" xml:id="VB_lb_105v_04"/>ðær heofene<g ref="#sins"/>
-          dr<g ref="#yrgmainstrok"/>hten <choice>
+          </choice> hie<lb facs="#VB_line_105v_04" n="4" xml:id="VB_lb_105v_04"/>ðær heofene<g
+            ref="#sins"/> dr<g ref="#yrgmainstrok"/>hten <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he</orig>
             <reg><expan><ex>and</ex></expan> he</reg>
           </choice> hine ðær hwile reste</l>
-        <l n="65">m<damage type="smudge">e</damage>ðe æfter<lb facs="#VB_line_105v_05" n="5" xml:id="VB_lb_105v_05"/>ðam
-          miclan gewinne ,<!-- CHECK --> <hi rend="cap">O</hi>ngunnon him þa mold<subst>
+        <l n="65">m<damage type="smudge">e</damage>ðe æfter<lb facs="#VB_line_105v_05" n="5"
+            xml:id="VB_lb_105v_05"/>ðam miclan gewinne<choice>
+              <orig><pc>,</pc></orig>
+              <reg>.</reg>
+            </choice>
+          <hi rend="cap">O</hi>ngunnon him þa mold<subst>
             <del rend="exp">æ</del>
             <add>e</add>
           </subst>rn wyrcan</l>
-        <l n="66"><lb facs="#VB_line_105v_06" n="6" xml:id="VB_lb_105v_06"/>beorna<g ref="#sins"/> on banan
-          ge<g ref="#sins"/>yhðe curfon hie ðæt <choice>
+        <l n="66"><lb facs="#VB_line_105v_06" n="6" xml:id="VB_lb_105v_06"/>beorna<g ref="#sins"/>
+          on banan ge<g ref="#sins"/>yhðe curfon hie ðæt <choice>
             <orig>ofbeorhtan</orig>
             <reg>of beorhtan</reg>
           </choice>
           <g ref="#slong"/>tane</l>
-        <l n="67"><lb facs="#VB_line_105v_07" n="7" xml:id="VB_lb_105v_07"/>ge<g ref="#slong"/>etton hie ðær on sigora
-          wealdend ongunnon him þa
-            <w><g ref="#sins"/>orh<lb facs="#VB_line_105v_08" n="8" xml:id="VB_lb_105v_08"/>leoð</w> galan</l>
+        <l n="67"><lb facs="#VB_line_105v_07" n="7" xml:id="VB_lb_105v_07"/>ge<g ref="#slong"/>etton
+          hie ðær on sigora wealdend ongunnon him þa <w><g ref="#sins"/>orh<lb
+              facs="#VB_line_105v_08" n="8" xml:id="VB_lb_105v_08"/>leoð</w> galan</l>
         <l n="68">earme <choice>
             <orig>onþa</orig>
             <reg>on þa</reg>
@@ -1720,8 +1808,8 @@
             <orig>æfen tide</orig>
             <reg>æfentide</reg>
           </choice> þa hie woldon eft <g ref="#sins"/>iðian</l>
-        <l n="69"><lb facs="#VB_line_105v_09" n="9" xml:id="VB_lb_105v_09"/>meðe fram þam mæran þeodne reste he ðær mæte
-          weorode</l>
+        <l n="69"><lb facs="#VB_line_105v_09" n="9" xml:id="VB_lb_105v_09"/>meðe fram þam mæran
+          þeodne reste he ðær mæte weorode</l>
         <l n="70"><lb facs="#VB_line_105v_10" n="10" xml:id="VB_lb_105v_10"/>hwæðere <choice>
             <orig>weðær</orig>
             <reg>we ðær</reg>
@@ -1731,8 +1819,8 @@
             <corr resp="krapp">greotende</corr>
           </choice> gode hwile<orig>
             <pc type="metrical">.</pc></orig></l>
-        <l n="71"><g ref="#slong"/>todon on <g ref="#slong"/>taðole
-            <g ref="#sins"/>yððan<lb facs="#VB_line_105v_11" n="11" xml:id="VB_lb_105v_11"/><supplied resp="krapp"
+        <l n="71"><g ref="#slong"/>todon on <g ref="#slong"/>taðole <g ref="#sins"/>yððan<lb
+            facs="#VB_line_105v_11" n="11" xml:id="VB_lb_105v_11"/><supplied resp="krapp"
             >stefn</supplied>
           <choice>
             <orig>upge wat</orig>
@@ -1743,9 +1831,11 @@
         <l n="73">fæger <seg type="kenning"><choice>
             <orig>feorg bold</orig>
             <reg>feorgbold</reg>
-          </choice></seg> þa u<g ref="#sins"/><lb facs="#VB_line_105v_12" n="12" xml:id="VB_lb_105v_12"/>man fyllan ongan<orig>
+          </choice></seg> þa u<g ref="#sins"/><lb facs="#VB_line_105v_12" n="12" xml:id="VB_lb_105v_12"
+          />man fyllan ongan<orig>
             <pc type="metrical">.</pc></orig></l>
-        <l n="74">ealle to eorðan þæt wæ<g ref="#sins"/> eg<g ref="#eenl"/><g ref="#sins"/>lic wyrd</l>
+        <l n="74">ealle to eorðan þæt wæ<g ref="#sins"/> eg<g ref="#eenl"/><g ref="#sins"/>lic
+          wyrd</l>
         <l n="75"><lb facs="#VB_line_105v_13" n="13" xml:id="VB_lb_105v_13"/><choice>
             <orig>be dealf</orig>
             <reg>bedealf</reg>
@@ -1753,15 +1843,15 @@
             <orig>ondeopan</orig>
             <reg>on deopan</reg>
           </choice>
-          <g ref="#sins"/>eaþe hwæðre me þær
-          dr<g ref="#yrgmainstrok"/>htne<g ref="#sins"/><lb facs="#VB_line_105v_14" n="14" xml:id="VB_lb_105v_14"/>þegna<g ref="#sins"/></l>
+          <g ref="#sins"/>eaþe hwæðre me þær dr<g ref="#yrgmainstrok"/>htne<g ref="#sins"/><lb
+            facs="#VB_line_105v_14" n="14" xml:id="VB_lb_105v_14"/>þegna<g ref="#sins"/></l>
         <l n="76">freonda<g ref="#sins"/> gefrunon<!--<corr>freondas gefruno</corr>--></l>
         <l n="77"><supplied resp="krapp">ond</supplied> gyredon me golde <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>eolfre</orig>
             <reg><expan><ex>and</ex></expan> seolfre</reg>
           </choice><choice>
-            <orig><pc>,<!-- CHECK --></pc></orig>
-            <reg><pc>.</pc></reg>
+            <orig><pc>,</pc></orig>
+            <reg>.</reg>
           </choice></l>
         <l n="78"><lb facs="#VB_line_105v_15" n="15" xml:id="VB_lb_105v_15"/><choice>
             <orig>Nuðu</orig>
@@ -1774,7 +1864,8 @@
             <orig>ge biden</orig>
             <reg>gebiden</reg>
           </choice> hæbbe</l>
-        <l n="80">sarra <g ref="#sins"/>orga i<g ref="#sins"/> nu <g ref="#sins"/>æl cum<g ref="#eenl"/>n</l>
+        <l n="80">sarra <g ref="#sins"/>orga i<g ref="#sins"/> nu <g ref="#sins"/>æl cum<g
+            ref="#eenl"/>n</l>
         <l n="81">þæt me<lb facs="#VB_line_105v_17" n="17" xml:id="VB_lb_105v_17"/>weorðiað wide <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>ide</orig>
             <reg><expan><ex>and</ex></expan> side</reg>
@@ -1782,7 +1873,8 @@
         <l n="82">menn ofer moldan <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eall</orig>
             <reg><expan><ex>and</ex></expan> eall</reg>
-          </choice> þeo<g ref="#sins"/> mære<lb facs="#VB_line_105v_18" n="18" xml:id="VB_lb_105v_18"/>ge<g ref="#slong"/>ceaft<orig>
+          </choice> þeo<g ref="#sins"/> mære<lb facs="#VB_line_105v_18" n="18"
+            xml:id="VB_lb_105v_18"/>ge<g ref="#slong"/>ceaft<orig>
             <pc type="metrical">.</pc></orig></l>
         <l n="83"><choice>
             <orig>ge biddaþ</orig>
@@ -1813,7 +1905,8 @@
           </choice> anra þara þe <choice>
             <orig>himbið</orig>
             <reg>him bið</reg>
-          </choice><lb facs="#VB_line_105v_21" n="21" xml:id="VB_lb_105v_21"/>eg<g ref="#eenl"/><g ref="#sins"/>a <choice>
+          </choice><lb facs="#VB_line_105v_21" n="21" xml:id="VB_lb_105v_21"/>eg<g ref="#eenl"/><g
+            ref="#sins"/>a <choice>
             <orig>tome</orig>
             <reg>to me</reg>
           </choice></l>
@@ -1822,7 +1915,8 @@
             <reg>icwæs</reg>
           </choice> geworden wita heardo<g ref="#slong"/>t<orig>
             <pc type="metrical">.</pc></orig></l>
-        <l n="88">leodum <w>la<lb facs="#VB_line_105v_22" n="22" xml:id="VB_lb_105v_22"/>ðo<g ref="#sins"/>t</w> ærþan <choice>
+        <l n="88">leodum <w>la<lb facs="#VB_line_105v_22" n="22" xml:id="VB_lb_105v_22"/>ðo<g
+              ref="#sins"/>t</w> ærþan <choice>
             <orig>ichim</orig>
             <reg>ic him</reg>
           </choice> lif<g ref="#eenl"/><g ref="#sins"/> weg</l>
@@ -1836,24 +1930,27 @@
             <reg>þa geweorðode</reg>
           </choice> wuldre<g ref="#sins"/> ealdor</l>
         <l n="91"><choice>
-            <orig>ofer<w>holm<lb facs="#VB_line_105v_24" n="24" xml:id="VB_lb_105v_24_orig"/>wudu</w></orig>
-            <reg>ofer <w>holm<lb facs="#VB_line_105v_24" n="24" xml:id="VB_lb_105v_24_reg"/>wudu</w></reg>
+            <orig>ofer<w>holm<lb facs="#VB_line_105v_24" n="24" xml:id="VB_lb_105v_24_orig"
+                />wudu</w></orig>
+            <reg>ofer <w>holm<lb facs="#VB_line_105v_24" n="24" xml:id="VB_lb_105v_24_reg"
+              />wudu</w></reg>
           </choice>
           <choice>
             <orig>heofon rice<g ref="#sins"/></orig>
             <reg>heofon rices</reg>
-          </choice> weard,<!-- CHECK --></l>
+          </choice> weard<pc>,</pc></l>
         <l n="92"><g ref="#slong"/>wylce <choice>
             <orig><g ref="#slong"/>wahe</orig>
             <reg>swa he</reg>
-          </choice> hi<g ref="#sins"/> modor eac<lb facs="#VB_line_105v_25" n="25" xml:id="VB_lb_105v_25"/>marian
-          <g ref="#sins"/>ylfe</l>
+          </choice> hi<g ref="#sins"/> modor eac<lb facs="#VB_line_105v_25" n="25"
+            xml:id="VB_lb_105v_25"/>marian <g ref="#sins"/>ylfe</l>
         <l n="93">ælmihtig <persName ref="#God" type="religion"><choice>
               <orig>god</orig>
               <reg>God</reg>
-            </choice></persName> <pc>.</pc> for ealle menn</l>
-        <l n="94">geweorðode<lb facs="#VB_line_105v_26" n="26" xml:id="VB_lb_105v_26"/>ofer eall wifa cynn<orig><pc
-              type="metrical">.</pc></orig></l>
+            </choice></persName>
+          <pc>.</pc> for ealle menn</l>
+        <l n="94">geweorðode<lb facs="#VB_line_105v_26" n="26" xml:id="VB_lb_105v_26"/>ofer eall
+          wifa cynn<orig><pc type="metrical">.</pc></orig></l>
         <l n="95">Nu <choice>
             <orig>icþe</orig>
             <reg>ic þe</reg>
@@ -1876,8 +1973,8 @@
         <l n="97">onwreoh <choice>
             <abbr>word<am><g ref="#umacr"/></am></abbr>
             <expan>wordu<ex>m</ex></expan>
-          </choice> þæt hi<damage type="smudge">t</damage>
-          i<g ref="#sins"/><lb facs="#VB_line_105v_28" n="28" xml:id="VB_lb_105v_28"/>wuldre<g ref="#sins"/> beam</l>
+          </choice> þæt hi<damage type="smudge">t</damage> i<g ref="#sins"/><lb
+            facs="#VB_line_105v_28" n="28" xml:id="VB_lb_105v_28"/>wuldre<g ref="#sins"/> beam</l>
         <l n="98"><choice>
             <orig><g ref="#sins"/>eðe</orig>
             <reg>se ðe</reg>
@@ -1891,8 +1988,10 @@
           </choice><pc>.</pc></l>
         <l n="99">
           <choice>
-            <orig>for<w>man<lb facs="#VB_line_105v_29" n="29" xml:id="VB_lb_105v_29_orig"/>cynn<g ref="#eenl"/><g ref="#sins"/></w></orig>
-            <reg>for <w>man<lb facs="#VB_line_105v_29" n="29" xml:id="VB_lb_105v_29_reg"/>cynnes</w></reg>
+            <orig>for<w>man<lb facs="#VB_line_105v_29" n="29" xml:id="VB_lb_105v_29_orig"/>cynn<g
+                  ref="#eenl"/><g ref="#sins"/></w></orig>
+            <reg>for <w>man<lb facs="#VB_line_105v_29" n="29" xml:id="VB_lb_105v_29_reg"
+              />cynnes</w></reg>
           </choice>
           <choice>
             <abbr>maneg<am><g ref="#umacr"/></am></abbr>
@@ -1901,12 +2000,14 @@
           <choice>
             <abbr><g ref="#sins"/>ynn<am><g ref="#umacr"/></am></abbr>
             <expan>synnu<ex>m</ex></expan>
-          </choice> <pc>.</pc></l>
+          </choice>
+          <pc>.</pc></l>
         <l n="100"><choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr></orig>
             <reg><expan><ex>and</ex></expan>
             </reg>
-          </choice> <persName ref="#Adam" type="person"><choice>
+          </choice>
+          <persName ref="#Adam" type="person"><choice>
               <orig>adome<g ref="#sins"/></orig>
               <reg>Adames</reg>
             </choice></persName>
@@ -1914,9 +2015,10 @@
             <orig>ealdge wyrht<am><g ref="#umacr"/></am></orig>
             <reg>ealdgewyrhtu<ex>m</ex></reg>
           </choice></l>
-        <l n="101">deað he<lb facs="#VB_line_105v_30" n="30" xml:id="VB_lb_105v_30"/>þær byrigde hwæðere eft
-          dr<g ref="#yrgmainstrok"/>ht<g ref="#eenl"/>n ara<g ref="#sins"/></l>
-        <l n="102">mid hi<g ref="#sins"/> miclan<lb facs="#VB_line_105v_31" n="31" xml:id="VB_lb_105v_31"/>mihte <choice>
+        <l n="101">deað he<lb facs="#VB_line_105v_30" n="30" xml:id="VB_lb_105v_30"/>þær byrigde
+          hwæðere eft dr<g ref="#yrgmainstrok"/>ht<g ref="#eenl"/>n ara<g ref="#sins"/></l>
+        <l n="102">mid hi<g ref="#sins"/> miclan<lb facs="#VB_line_105v_31" n="31"
+            xml:id="VB_lb_105v_31"/>mihte <choice>
             <abbr>mann<am><g ref="#umacr"/></am></abbr>
             <expan>mannu<ex>m</ex></expan>
           </choice>
@@ -1927,8 +2029,8 @@
         <l n="103"><choice>
             <orig>heða</orig>
             <reg>he ða</reg>
-          </choice> on heofena<g ref="#sins"/> a<g ref="#slong"/>tag <pc>.</pc>
-          hider<lb facs="#VB_line_105v_32" n="32" xml:id="VB_lb_105v_32"/>eft fundaþ</l>
+          </choice> on heofena<g ref="#sins"/> a<g ref="#slong"/>tag <pc>.</pc> hider<lb
+            facs="#VB_line_105v_32" n="32" xml:id="VB_lb_105v_32"/>eft fundaþ</l>
         <l n="104"><choice>
             <orig>onþy<g ref="#sins"/>ne</orig>
             <reg>on þy</reg>
@@ -1942,16 +2044,11 @@
             <reg>mancynn</reg>
           </choice>
           <g ref="#sins"/>ecan</l>
-        <l n="105">on
-
-          <!-- #######################################  folio 106r  ####################################### -->
-          
+        <l n="105">on <!-- #######################################  folio 106r  ####################################### -->
           <pb n="106r" xml:id="VB_fol_106r"/>
-
           <add>
             <fw place="top-right" type="fol"><add hand="unknown">106.</add></fw>
           </add>
-
           <lb facs="#VB_line_106r_01" n="1" xml:id="VB_lb_106r_01"/><choice>
             <orig>dom dæge</orig>
             <reg>domdæge</reg>
@@ -1965,13 +2062,14 @@
             <reg><expan><ex>and</ex></expan> his</reg>
           </choice> en<damage>gl</damage>a<g ref="#sins"/> mid<orig>
             <pc type="metrical">.</pc></orig></l>
-        <l n="107">þæt he<lb facs="#VB_line_106r_02" n="2" xml:id="VB_lb_106r_02"/>þonne wile deman <g ref="#sins"/>e ah
-          dome<g ref="#sins"/> geweald</l>
+        <l n="107">þæt he<lb facs="#VB_line_106r_02" n="2" xml:id="VB_lb_106r_02"/>þonne wile deman
+            <g ref="#sins"/>e ah dome<g ref="#sins"/> geweald</l>
         <l n="108">anra <choice>
             <orig>ge hwylc<am><g ref="#umacr"/></am></orig>
             <reg>gehwylcu<ex>m</ex></reg>
           </choice>
-          <g ref="#slong"/>wa he<lb facs="#VB_line_106r_03" n="3" xml:id="VB_lb_106r_03"/>him ærur her</l>
+          <g ref="#slong"/>wa he<lb facs="#VB_line_106r_03" n="3" xml:id="VB_lb_106r_03"/>him ærur
+          her</l>
         <l n="109"><choice>
             <orig>onþy<g ref="#sins"/><g ref="#sins"/>um</orig>
             <reg>on þyssum</reg>
@@ -1980,14 +2078,15 @@
             <reg>geearnaþ</reg>
           </choice><orig>
             <pc type="metrical">.</pc></orig></l>
-        <l n="110">ne mæg þær<lb facs="#VB_line_106r_04" n="4" xml:id="VB_lb_106r_04"/>ænig unforht we<g ref="#sins"/>an<orig>
+        <l n="110">ne mæg þær<lb facs="#VB_line_106r_04" n="4" xml:id="VB_lb_106r_04"/>ænig unforht
+            we<g ref="#sins"/>an<orig>
             <pc type="metrical">.</pc></orig></l>
         <l n="111"><choice>
             <orig>forþam</orig>
             <reg>for þam</reg>
           </choice> worde<orig>
-            <pc type="metrical">.</pc></orig> þe <g ref="#sins"/>e <name>wealdend</name> cwyð<orig><pc type="metrical"
-              >.</pc></orig></l>
+            <pc type="metrical">.</pc></orig> þe <g ref="#sins"/>e <name>wealdend</name>
+              cwyð<orig><pc type="metrical">.</pc></orig></l>
         <l n="112"><w>fri<lb facs="#VB_line_106r_05" n="5" xml:id="VB_lb_106r_05"/>neð</w> he <choice>
             <orig>forþære</orig>
             <reg>for þære</reg>
@@ -1996,21 +2095,23 @@
             <orig><g ref="#sins"/>eðe</orig>
             <reg>se ðe</reg>
           </choice> for <choice>
-            <orig><w>dr<g ref="#yrgmainstrok"/>
-                ht<lb facs="#VB_line_106r_06" n="6" xml:id="VB_lb_106r_06_orig"/>ne<g ref="#sins"/></w></orig>
+            <orig><w>dr<g ref="#yrgmainstrok"/> ht<lb facs="#VB_line_106r_06" n="6"
+                  xml:id="VB_lb_106r_06_orig"/>ne<g ref="#sins"/></w></orig>
             <reg><w>dryht<lb facs="#VB_line_106r_06" n="6" xml:id="VB_lb_106r_06_reg"/>nes</w></reg>
           </choice> naman deaðe<g ref="#sins"/>
-          <gap extent="3char" reason="rasure"/> <choice>
+          <gap extent="3char" reason="rasure"/>
+          <choice>
             <orig>wo<add place="sub">,</add><add place="sup">l</add>de</orig>
             <reg>wo<add place="sup">l</add>de</reg>
           </choice></l>
-        <l n="114">bitere<g ref="#sins"/> onbyrigan <g ref="#slong"/>wa he ær
-          on<lb facs="#VB_line_106r_07" n="7" xml:id="VB_lb_106r_07"/>ðam beame dyde<orig>
+        <l n="114">bitere<g ref="#sins"/> onbyrigan <g ref="#slong"/>wa he ær on<lb
+            facs="#VB_line_106r_07" n="7" xml:id="VB_lb_106r_07"/>ðam beame dyde<orig>
             <pc type="metrical">.</pc></orig></l>
         <l n="115"><hi rend="double"><g ref="#aenl"/></hi>c hie þonne forhtiað<orig>
-            <pc type="metrical">.</pc></orig>
-          <abbr type="brev"><am><g ref="#et"/></am></abbr>
-          <!-- check this et --> fea þencaþ</l>
+            <pc type="metrical">.</pc></orig><choice>
+              <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>fea</orig>
+              <reg><expan><ex>and</ex></expan> fea</reg>
+            </choice> þencaþ</l>
         <l n="116">hwæt <choice>
             <orig>hieto</orig>
             <reg>hie to</reg>
@@ -2022,8 +2123,8 @@
         <l n="117"><choice>
             <orig><hi rend="cap">N</hi>eþearf</orig>
             <reg>Ne þearf</reg>
-          </choice> ðær þonne ænig
-          unforht<lb facs="#VB_line_106r_09" n="9" xml:id="VB_lb_106r_09"/>we<g ref="#sins"/>an</l>
+          </choice> ðær þonne ænig unforht<lb facs="#VB_line_106r_09" n="9" xml:id="VB_lb_106r_09"
+            />we<g ref="#sins"/>an</l>
         <l n="118">þe him ær <choice>
             <orig>inbreo<g ref="#sins"/>t<am><g ref="#umacr"/></am></orig>
             <reg>in breostu<ex>m</ex></reg>
@@ -2032,8 +2133,8 @@
         <l n="119"><choice>
             <orig><hi rend="cap">A</hi>cðurh</orig>
             <reg>Ac ðurh</reg>
-          </choice><lb facs="#VB_line_106r_10" n="10" xml:id="VB_lb_106r_10"/>ða rode <g ref="#slong"/>ceal rice
-          ge<g ref="#sins"/>ecan</l>
+          </choice><lb facs="#VB_line_106r_10" n="10" xml:id="VB_lb_106r_10"/>ða rode <g
+            ref="#slong"/>ceal rice ge<g ref="#sins"/>ecan</l>
         <l n="120">of <choice>
             <orig>eorð wege</orig>
             <reg>eorðwege</reg>
@@ -2042,8 +2143,8 @@
             <orig>æg hwylc</orig>
             <reg>æghwylc</reg>
           </choice> sawl</l>
-        <l n="121"><g ref="#sins"/>eo þe<lb facs="#VB_line_106r_11" n="11" xml:id="VB_lb_106r_11"/>mid wealdende wunian
-          þ<g ref="#eenl"/>nceð</l>
+        <l n="121"><g ref="#sins"/>eo þe<lb facs="#VB_line_106r_11" n="11" xml:id="VB_lb_106r_11"
+          />mid wealdende wunian þ<g ref="#eenl"/>nceð</l>
         <l n="122"><choice>
             <orig>ge bæd</orig>
             <reg>gebæd</reg>
@@ -2058,7 +2159,8 @@
             <orig>þæric</orig>
             <reg>þær ic</reg>
           </choice> ana wæ<g ref="#sins"/></l>
-        <l n="124">mæte w<g ref="#eenl"/>rede wæ<g ref="#sins"/><lb facs="#VB_line_106r_13" n="13" xml:id="VB_lb_106r_13"/><choice>
+        <l n="124">mæte w<g ref="#eenl"/>rede wæ<g ref="#sins"/><lb facs="#VB_line_106r_13" n="13"
+            xml:id="VB_lb_106r_13"/><choice>
             <orig>mod <g ref="#sins"/>efa</orig>
             <reg>modsefa</reg>
           </choice></l>
@@ -2069,8 +2171,8 @@
             <orig>ge bad</orig>
             <reg>gebad</reg>
           </choice></l>
-        <l n="126"><w>langung<lb facs="#VB_line_106r_14" n="14" xml:id="VB_lb_106r_14"/>hwila</w> i<g ref="#sins"/> me
-          nu life<g ref="#sins"/> hyht</l>
+        <l n="126"><w>langung<lb facs="#VB_line_106r_14" n="14" xml:id="VB_lb_106r_14"/>hwila</w>
+            i<g ref="#sins"/> me nu life<g ref="#sins"/> hyht</l>
         <l n="127"><choice>
             <orig>þæt<add place="sub">,</add><add place="sup">ic</add>þone</orig>
             <reg>þæt <add place="sup">ic</add> þone</reg>
@@ -2080,7 +2182,8 @@
             <reg>sigebeam</reg>
           </choice></seg>
           <g ref="#sins"/>ecan mote</l>
-        <l n="128"><lb facs="#VB_line_106r_15" n="15" xml:id="VB_lb_106r_15"/>ana oftor þonne ealle men</l>
+        <l n="128"><lb facs="#VB_line_106r_15" n="15" xml:id="VB_lb_106r_15"/>ana oftor þonne ealle
+          men</l>
         <l n="129">well weo<damage type="faded">r</damage>þian me i<g ref="#sins"/> willa <choice>
             <orig>toðam</orig>
             <reg>to ðam</reg>
@@ -2100,9 +2203,8 @@
         <l n="131">g<damage type="faded">e</damage>riht <choice>
             <orig>toþære</orig>
             <reg>to þære</reg>
-          </choice> rode <orig><pc type="metrical"
-            >.</pc></orig><lb facs="#VB_line_106r_17" n="17" xml:id="VB_lb_106r_17"/><hi rend="cap">N</hi>ah ic ricra
-          feala</l>
+          </choice> rode <orig><pc type="metrical">.</pc></orig><lb facs="#VB_line_106r_17" n="17"
+            xml:id="VB_lb_106r_17"/><hi rend="cap">N</hi>ah ic ricra feala</l>
         <l n="132">freonda <choice>
             <orig>onfoldan</orig>
             <reg>on foldan</reg>
@@ -2111,8 +2213,8 @@
             <orig><hi rend="double"><g ref="#aenl"/></hi>chie</orig>
             <reg>ac hie</reg>
           </choice> forð heonon</l>
-        <l n="133"><lb facs="#VB_line_106r_18" n="18" xml:id="VB_lb_106r_18"/>gewiton of worulde dreamum
-          <g ref="#sins"/>ohton him wuldre<g ref="#sins"/> cyning</l>
+        <l n="133"><lb facs="#VB_line_106r_18" n="18" xml:id="VB_lb_106r_18"/>gewiton of worulde
+          dreamum <g ref="#sins"/>ohton him wuldre<g ref="#sins"/> cyning</l>
         <l n="134"><lb facs="#VB_line_106r_19" n="19" xml:id="VB_lb_106r_19"/>lifiaþ nu <choice>
             <orig>onheofen<am><g ref="#umacr"/></am></orig>
             <reg>on heofenu<ex>m</ex></reg>
@@ -2137,8 +2239,10 @@
             <reg>ic her</reg>
           </choice>
           <choice>
-            <orig>on<w>eor<lb facs="#VB_line_106r_21" n="21" xml:id="VB_lb_106r_21_orig"/>ðan</w></orig>
-            <reg>on <w>eor<lb facs="#VB_line_106r_21" n="21" xml:id="VB_lb_106r_21_reg"/>ðan</w></reg>
+            <orig>on<w>eor<lb facs="#VB_line_106r_21" n="21" xml:id="VB_lb_106r_21_orig"
+              />ðan</w></orig>
+            <reg>on <w>eor<lb facs="#VB_line_106r_21" n="21" xml:id="VB_lb_106r_21_reg"
+              />ðan</w></reg>
           </choice> ær <g ref="#slong"/>ceawode</l>
         <l n="138"><choice>
             <orig>onþy<g ref="#sins"/><g ref="#sins"/>on</orig>
@@ -2155,15 +2259,15 @@
           <choice>
             <abbr type="brev">þ<am><g ref="#omacr"/></am>n</abbr>
             <expan>þon<ex>ne</ex></expan>
-          </choice> g<damage type="smudge"
-          >e</damage>brin<g ref="#ginsmacr"/><lb facs="#VB_line_106r_22" n="22" xml:id="VB_lb_106r_22"/>þær
-          i<g ref="#sins"/> bli<g ref="#sins"/> m<g ref="#yrgmainstrok"/>cel</l>
+          </choice> g<damage type="smudge">e</damage>brin<g ref="#ginsmacr"/><lb
+            facs="#VB_line_106r_22" n="22" xml:id="VB_lb_106r_22"/>þær i<g ref="#sins"/> bli<g
+            ref="#sins"/> m<g ref="#yrgmainstrok"/>cel</l>
         <l n="140">dream on <choice>
             <abbr>heofon<am><g ref="#umacr"/></am></abbr>
             <expan>heofonu<ex>m</ex></expan>
           </choice> þær i<g ref="#sins"/> dr<g ref="#yrgmainstrok"/>htne<g ref="#sins"/> folc</l>
-        <l n="141"><w>ge<lb facs="#VB_line_106r_23" n="23" xml:id="VB_lb_106r_23"/><g ref="#sins"/>eted</w> to
-          <g ref="#sins"/><g ref="#yrgmainstrok"/>mle þær i<g ref="#sins"/>
+        <l n="141"><w>ge<lb facs="#VB_line_106r_23" n="23" xml:id="VB_lb_106r_23"/><g ref="#sins"
+            />eted</w> to <g ref="#sins"/><g ref="#yrgmainstrok"/>mle þær i<g ref="#sins"/>
           <g ref="#sins"/>ingal bli<g ref="#sins"/></l>
         <l n="142"><choice>
             <sic><abbr type="brev"><am><g ref="#et"/></am></abbr>he</sic>
@@ -2172,8 +2276,8 @@
           <choice>
             <abbr type="brev">þ<am><g ref="#omacr"/></am>n</abbr>
             <expan>þon<ex>ne</ex></expan>
-          </choice> a<g ref="#sins"/>ette þær
-          ic<lb facs="#VB_line_106r_24" n="24" xml:id="VB_lb_106r_24"/><g ref="#sins"/>yþþan mot</l>
+          </choice> a<g ref="#sins"/>ette þær ic<lb facs="#VB_line_106r_24" n="24"
+            xml:id="VB_lb_106r_24"/><g ref="#sins"/>yþþan mot</l>
         <l n="143">wunian <choice>
             <orig>onwuldre</orig>
             <reg>on wuldre</reg>
@@ -2185,7 +2289,8 @@
             <abbr>halg<am><g ref="#umacr"/></am></abbr>
             <expan>halgu<ex>m</ex></expan>
           </choice></l>
-        <l n="144">dreame<g ref="#sins"/><lb facs="#VB_line_106r_25" n="25" xml:id="VB_lb_106r_25"/>brucan <choice>
+        <l n="144">dreame<g ref="#sins"/><lb facs="#VB_line_106r_25" n="25" xml:id="VB_lb_106r_25"
+          />brucan <choice>
             <orig><g ref="#sins"/>ime</orig>
             <reg>si me</reg>
           </choice> dr<g ref="#yrgmainstrok"/>hten fr<g ref="#eenl"/>ond</l>
@@ -2229,10 +2334,11 @@
             <expan>bledu<ex>m</ex></expan>
           </choice>
           <choice>
-            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>midbli<g ref="#sins"/><g ref="#sins"/>e</orig>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>midbli<g ref="#sins"/><g ref="#sins"
+              />e</orig>
             <reg><expan><ex>and</ex></expan> mid blisse</reg>
-          </choice><lb facs="#VB_line_106r_28" n="28" xml:id="VB_lb_106r_28"/>þ<g ref="#amacr"/> þe þær bryne þol<damage
-            type="faded">od</damage>an<orig><pc type="metrical">.</pc></orig></l>
+          </choice><lb facs="#VB_line_106r_28" n="28" xml:id="VB_lb_106r_28"/>þ<g ref="#amacr"/> þe
+          þær bryne þol<damage type="faded">od</damage>an<orig><pc type="metrical">.</pc></orig></l>
         <l n="150"><choice>
             <orig><g ref="#sins"/>e<damage type="faded"><g ref="#sins"/></damage>unu</orig>
             <reg>se <rs type="Christ">Sunu</rs></reg>
@@ -2241,7 +2347,8 @@
             <orig><g ref="#sins"/>igor fæst</orig>
             <reg>sigorfæst</reg>
           </choice> on þ<g ref="#amacr"/>
-          <w><g ref="#sins"/>ið<lb facs="#VB_line_106r_29" n="29" xml:id="VB_lb_106r_29"/>fate</w></l>
+          <w><g ref="#sins"/>ið<lb facs="#VB_line_106r_29" n="29" xml:id="VB_lb_106r_29"
+          />fate</w></l>
         <l n="151">mihtig <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>pedig</orig>
             <reg><expan><ex>and</ex></expan> spedig</reg>
@@ -2249,8 +2356,8 @@
             <orig><pc type="metrical">.</pc></orig>
             <reg> </reg>
           </choice>þa he mid manigeo com</l>
-        <l n="152">ga<g ref="#slong"/>ta weorode<lb facs="#VB_line_106r_30" n="30" xml:id="VB_lb_106r_30"/><del
-            rend="rasure">o</del><choice>
+        <l n="152">ga<g ref="#slong"/>ta weorode<lb facs="#VB_line_106r_30" n="30"
+            xml:id="VB_lb_106r_30"/><del rend="rasure">o</del><choice>
             <orig>on<persName type="religion">gode</persName><g ref="#sins"/></orig>
             <reg>on <persName type="religion">Godes</persName></reg>
           </choice> rice</l>
@@ -2280,7 +2387,8 @@
         <l n="155">wunedon <choice>
             <orig>onwuldre</orig>
             <reg>on wuldre</reg>
-          </choice> þa heora<lb facs="#VB_line_106r_32" n="32" xml:id="VB_lb_106r_32"/>weald<g ref="#eenl"/>nd cwom</l>
+          </choice> þa heora<lb facs="#VB_line_106r_32" n="32" xml:id="VB_lb_106r_32"/>weald<g
+            ref="#eenl"/>nd cwom</l>
         <l n="156">ælmihtig <persName ref="#God" type="religion"><choice>
               <orig>god</orig>
               <reg>God</reg>
@@ -2290,9 +2398,10 @@
       </div>
 
     </body>
+
     <back>
       <div n="Il sogno della Croce" type="translation" xml:id="DOTR_trans_it" xml:lang="ita">
-
+        
         <head>Il sogno della Croce</head>
         
         <lb rend="empty"/>
@@ -2364,7 +2473,8 @@
           <l n="64">contemplando il Signore dei Cieli. Egli indugiò per breve tempo,</l>
           <l n="65">esausto dopo la cruenta battaglia. Poi fecero un sepolcro</l>
           <l n="66">quegli uomini, dinanzi al Suo uccisore, lo scavarono nella pietra lucente</l>
-          <l n="67">e vi posero il Signore delle vittorie. Verso sera intonarono un canto funebre,</l>
+          <l n="67">e vi posero il Signore delle vittorie. Verso sera intonarono un canto
+            funebre,</l>
           <l n="68">affranti, quando venne il momento di lasciare,</l>
           <l n="69">sfiniti, quel Re glorioso. Egli si riposò accanto a una piccola schiera.</l>
           <l n="70">Ma noi restammo là, piangendo, per lungo tempo</l>
@@ -2461,8 +2571,9 @@
 
       <div type="hotspot">
         <div facs="#VB_hs_106r_01" xml:id="VB_div_hs_106r_01">
-          <p>The scribe here wrote a word, 'þrowode', that he later corrected in 'wolde' by erasing the first three
-          letters and adding an 'l'. In this image you can see the contours of the erased letters.</p>
+          <p>The scribe here wrote a word, 'þrowode', that he later corrected in 'wolde' by erasing
+            the first three letters and adding an 'l'. In this image you can see the contours of the
+            erased letters.</p>
           <figure>
             <graphic url="VB_106r_HS_01.jpg"/>
           </figure>
