@@ -9,7 +9,13 @@
     "sourcesTextsUrl": "data/sources/",
     "enableXMLdownload": true,
     
-    "defaultViewMode": "readingTxt",
+   "visCollTextUrl": "",
+   "visCollStyleUrl": "",
+   "visCollSvg": "",
+   "visCollImageList": "",
+   "visCollDataModel": "",
+
+    "defaultViewMode": "imgTxt",
     "availableViewModes": [
         {
             "label": "READING_TEXT",
@@ -71,8 +77,10 @@
             "visible": false
         }
     ],
-
+    
     "showDocumentSelector": false,
+   "enableNavBar": true,
+   "initNavBarOpened": true,
 
     "toolPinAppEntries": true,
     "toolImageTextLinking": true,
@@ -144,8 +152,8 @@
     "showInlineCriticalApparatus": false,
     "showInlineSources": false,
     "showInlineAnalogues": false,
-
     "showReadingExponent": true,
+
     "toolHeatMap": true,
 
     "versions": [

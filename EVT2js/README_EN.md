@@ -72,12 +72,20 @@ If you find this file difficult to read and/or change you can try out the beta [
 * `webSite`. If you specify an external web site there will be a link pointing to it.
 * `logoUrl`. You can also add a custom logo that will appear before the edition title: just indicate the path to it; it can be a URL or a relative path: we suggest that you put it into `data` and point to it (f.i. `data/icons/myLogo.jpg`).
 
-##### Source file(s)
+##### Source files
 * `dataUrl`. Indicate the file name of the XML file of your encoded edition. It can point either to an internal folder or to an external online resource.
 * `sourcesUrl`. Indicate the file name of the XML file encoding the list of all the bibliographic references for the sources apparatus. It can point either to an internal folder or to an external online resource.
 * `analoguesUrl`. Indicate the file name of the XML file encoding the list of all the bibliographic references for the analogues apparatus. It can point either to an internal folder or to an external online resource.
 * `sourcesTextsUrl`. Indicate the folder where you intend to put the XML containing the texts of external sources (if you have any).
+* `singleImagesUrl`. **ADD DESCRIPTION**
 * `enableXMLdownload`. Decide if you want to enable the XML download (`true`) or not (`false`).
+
+##### VisColl files
+* `visCollTextUrl`. **ADD DESCRIPTION**
+* `visCollStyleUrl`. **ADD DESCRIPTION**
+* `visCollSvg`. **ADD DESCRIPTION**
+* `visCollImageList`. **ADD DESCRIPTION**
+* `visCollDataModel`. **ADD DESCRIPTION**
 
 ##### View modes
 * `defaultViewMode`. Select which view mode you want to your edition to open on. Note that it must be an active mode!
@@ -90,6 +98,8 @@ If you find this file difficult to read and/or change you can try out the beta [
 
 ##### Edition navigation
 * `showDocumentSelector`. Select if you want to activate (`true`) or not (`false`) the document selector, which allows the user to navigate an edition composed by different documents.
+* `enableNavBar`. **ADD DESCRIPTION**
+* `initNavBarOpened`. **ADD DESCRIPTION**
 
 #### Generic tools
 
@@ -117,9 +127,9 @@ EVT 2 is able to handle multiple levels of apparatuses: critical entries apparat
 * `showInlineCriticalApparatus`, for critical apparatus entries;
 * `showInlineSources`, for apparatus of sources;
 * `showInlineAnalogues`, for apparatus of analogues.
+* `showReadingExponent`. Indicate if you want to use alphabetic exponent for critical entries (`true`) or not (`false`).
 
 ##### Tools
-* `showReadingExponent`. Indicate if you want to use alphabetic exponent for critical entries (`true`) or not (`false`).
 * `toolHeatMap`. Indicate if you want to include the Heat Map tool within the Critical Edition box (`true`) or not (`false`). This tool gives the user an overview about text variance.
 
 ##### Multiple recensions

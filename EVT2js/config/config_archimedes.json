@@ -9,6 +9,12 @@
     "sourcesTextsUrl": "",
     "enableXMLdownload": true,
     
+   "visCollTextUrl": "",
+   "visCollStyleUrl": "",
+   "visCollSvg": "",
+   "visCollImageList": "",
+   "visCollDataModel": "",
+
     "defaultViewMode": "imgTxt",
     "availableViewModes": [
         {
@@ -73,10 +79,12 @@
     ],
     
     "showDocumentSelector": true,
+   "enableNavBar": true,
+   "initNavBarOpened": true,
 
     "toolPinAppEntries": true,
     "toolImageTextLinking": true,
-    
+
     "namedEntitiesSelector": true,
     "namedEntitiesToHandle": [
         {
@@ -119,8 +127,8 @@
     "showInlineCriticalApparatus": true,
     "showInlineSources": true,
     "showInlineAnalogues": true,
-
     "showReadingExponent": true,
+
     "toolHeatMap": false,
 
     "versions": [],
