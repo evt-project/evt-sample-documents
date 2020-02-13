@@ -7,13 +7,14 @@
     "sourcesUrl": "",
     "analoguesUrl": "",
     "sourcesTextsUrl": "",
+    "singleImagesUrl": "",
     "enableXMLdownload": true,
     
-   "visCollTextUrl": "",
-   "visCollStyleUrl": "",
-   "visCollSvg": "",
-   "visCollImageList": "",
-   "visCollDataModel": "",
+    "visCollTextUrl": "",
+    "visCollStyleUrl": "",
+    "visCollSvg": "",
+    "visCollImageList": "",
+    "visCollDataModel": "",
 
     "defaultViewMode": "imgTxt",
     "availableViewModes": [
@@ -79,8 +80,8 @@
     ],
     
     "showDocumentSelector": true,
-   "enableNavBar": true,
-   "initNavBarOpened": true,
+    "enableNavBar": true,
+    "initNavBarOpened": true,
 
     "toolPinAppEntries": true,
     "toolImageTextLinking": true,
@@ -183,7 +184,7 @@
     "virtualKeyboardKeys": [],
 
     "imageViewerOptions": {
-        "prefixUrl": "data/osd-images/",
+        "prefixUrl": "images/osd-images/",
         "showRotationControl": true,
         "showNavigator": true,
         "visibilityRatio": 1,

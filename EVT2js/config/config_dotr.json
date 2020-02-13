@@ -3,7 +3,7 @@
    "webSite": "http://vbd.humnet.unipi.it/",
    "logoUrl": "",
    
-   "dataUrl": "data/DOTR.xml",
+   "dataUrl": "data/VB-DOTR.xml",
    "sourcesUrl": "",
    "analoguesUrl": "",
    "sourcesTextsUrl": "",
@@ -22,7 +22,7 @@
          "label": "READING_TEXT",
          "icon": "reading-txt",
          "viewMode": "readingTxt",
-         "visible": false
+         "visible": true
       },
       {
          "label": "MULTIPLE_RECENSIONS",
@@ -108,13 +108,13 @@
       {
          "tagName": "rolename",
          "label": "Role Name",
-         "available": true,
+         "available": false,
          "color": "#cfc"
       },
       {
          "tagName": "measure",
          "label": "Measure",
-         "available": true,
+         "available": false,
          "color": "#ffecb3"
       }
    ],
@@ -125,7 +125,7 @@
 
    "witnessesGroups": [],
 
-   "showInlineCriticalApparatus": false,
+   "showInlineCriticalApparatus": true,
    "showInlineSources": false,
    "showInlineAnalogues": false,
    "showReadingExponent": true,
