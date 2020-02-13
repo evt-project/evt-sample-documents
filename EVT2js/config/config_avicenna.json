@@ -9,11 +9,11 @@
     "sourcesTextsUrl": "data/sources/",
     "enableXMLdownload": true,
     
-   "visCollTextUrl": "",
-   "visCollStyleUrl": "",
-   "visCollSvg": "",
-   "visCollImageList": "",
-   "visCollDataModel": "",
+    "visCollTextUrl": "",
+    "visCollStyleUrl": "",
+    "visCollSvg": "",
+    "visCollImageList": "",
+    "visCollDataModel": "",
 
     "defaultViewMode": "imgTxt",
     "availableViewModes": [
@@ -79,8 +79,8 @@
     ],
     
     "showDocumentSelector": false,
-   "enableNavBar": true,
-   "initNavBarOpened": true,
+    "enableNavBar": true,
+    "initNavBarOpened": true,
 
     "toolPinAppEntries": true,
     "toolImageTextLinking": true,
