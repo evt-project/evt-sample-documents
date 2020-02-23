@@ -16,7 +16,7 @@
     "visCollImageList": "",
     "visCollDataModel": "",
 
-    "defaultViewMode": "imgTxt",
+    "defaultViewMode": "readingTxt",
     "availableViewModes": [
         {
             "label": "READING_TEXT",
