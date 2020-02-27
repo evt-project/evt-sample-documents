@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <teiHeader>
+        
+        <fileDesc>
+
+            <titleStmt>
+                <title>The Edictus Rothari: a new critical edition based on select manuscripts</title>
+                <title>An abridged version modified as a testing document for EVT</title>
+                <principal>Marina Buzzoni</principal>
+                <principal>Roberto Rosselli Del Turco</principal>
+                <respStmt>
+                    <resp>Encoding in TEI-conformant markup: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General project overview: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                    <name>Marina Buzzoni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Experimental EVT edition: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Previous editions</edition>
+                <respStmt xml:id="azzara">
+                    <resp>Editor</resp>
+                    <name ref="#Azzara1992">Azzara-Gasparri</name>
+                </respStmt>
+                <respStmt xml:id="beyerle">
+                    <resp>Editor</resp>
+                    <name ref="#Beyerle1962a">Beyerle</name>
+                </respStmt>
+                <respStmt xml:id="bluhme">
+                    <resp>Editor</resp>
+                    <name ref="#Bluhme1868">Beyerle</name>
+                </respStmt>
+            </editionStmt>
+
+            <extent>[??] kilobytes</extent>
+
+            <publicationStmt>
+                <authority>Leges Langobardorum Project</authority>
+                <date>2014-</date>
+                <availability>
+                    <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="CE34-5">
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Ivrea</settlement>
+                        <repository>Biblioteca Capitolare di Ivrea</repository>
+                        <idno>34</idno>
+                    </msIdentifier>
+                </msDesc>
+
+                <msDesc xml:id="CV188">
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Vercelli</settlement>
+                        <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+                        <idno>CLXXXVIII</idno>
+                    </msIdentifier>
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction method="silent">
+                    <p/>
+                </correction>
+                <normalization method="silent">
+                    <p/>
+                </normalization>
+                <segmentation>
+                    <p/>
+                </segmentation>
+                <hyphenation eol="all">
+                    <p>Physical line breaks are rigidly observed.</p>
+                </hyphenation>
+            </editorialDecl>
+            
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="lng">Langobardic</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2020-05" who="RRDT">First experimental version of the critical edition testing sample.</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text n="Edictus Rothari">
+
+        <front>
+
+            <div>
+
+                <listWit>
+
+                    <head>Lista di tutti i testimoni</head>
+
+                    <listWit xml:id="ER_listWit_main">
+                        
+                        <head>Testimoni completi</head>
+
+                        <witness xml:id="B1">Codex Sangallensis 730</witness>
+
+                        <witness xml:id="B2"><ref target="#CV188">Codex Vercellensis CLXXXVIII</ref></witness>
+
+                        <witness xml:id="B3"><ref target="#CE34-5">Codex Eporedianus XXXIV</ref></witness>
+
+                        <witness xml:id="B4">Codex Helmstadiensis (now Guelferbytanus 532: Wolfenbüttel, Herzog August
+                            Bibliothek, Helmst. 532)</witness>
+
+                        <witness xml:id="B5">Codex Vaticanus: Roma, Biblioteca Apostolica Vaticana, Vat. Lat.
+                            5359</witness>
+
+                        <witness xml:id="B6">Codex Blankenburgensis 52 (now Guelferbytanus 130: Wolfenbüttel, Herzog
+                            August Bibliothek, Blankenb. 130)</witness>
+
+                        <witness xml:id="B7">Codex Parisiacus Latinus 4613: Parigi, Bibliothèque Nationale, Lat.
+                            4613</witness>
+
+                        <witness xml:id="B8">Codex Matritensis 413: Madrid, Biblioteca Nacional, 413</witness>
+
+                        <witness xml:id="B9">Codex Cavensis: Cava dei Tirreni, Biblioteca della Badia, 4</witness>
+
+                        <witness xml:id="B10">Codex Parisiacus Latinus 4614: Parigi, Bibliothèque Nationale, Lat.
+                            4614</witness>
+
+                        <witness xml:id="B11">Codex Gothanus 84: Gotha, Forschungs- und Landesbibliothek, Memb. I
+                            84</witness>
+
+                        <witness xml:id="B12">Codex Heroldinus</witness>
+
+                    </listWit>
+
+                    <listWit xml:id="ER_listWit_fragments">
+                        
+                        <head>Testimoni frammentari</head>
+
+                        <witness xml:id="Mo">Modena, Biblioteca Capitolare, O.I.2</witness>
+
+                        <witness xml:id="S">St. Paul im Lavanttal (Austria), Archiv des Benediktinerstiftes
+                            4/1</witness>
+
+                        <witness xml:id="V">Vercelli, Archivio e Biblioteca Capitolare CXXII</witness>
+
+                        <witness xml:id="A">Frammento di Assisi: Archivio della Cattedrale, framm. fasc. I, n.
+                            3.6</witness>
+
+                        <witness xml:id="Mc">Frammenti di Montecassino: Archivio dell’Abbazia, n. 90; n. 175</witness>
+
+                        <witness xml:id="M10">Frammento di Monaco: Bayerische Staatsbibliothek, Lat. 5260</witness>
+
+                        <witness xml:id="M11">Frammento di Monaco: Bayerische Staatsbibliothek, Lat. 3519</witness>
+
+                        <witness xml:id="V5">Frammento di Roma: Biblioteca Vaticana, Chigi F. IV. 75</witness>
+
+                        <witness xml:id="V1">Frammento di Roma: Vat. Lat. 1468</witness>
+
+                        <witness xml:id="V2">Frammento di Roma: Vat. Lat. 5001</witness>
+
+                        <witness xml:id="Sz1">Frammento di Salisburgo: Erzabtei St. Peter, framm. 20</witness>
+
+                        <witness xml:id="Sz2">Frammento di Salisburgo: a.IX.32</witness>
+
+                        <witness xml:id="M">Frammento di Münster (Universitätsbibliothek, “Privatbesitz
+                            Siewert”</witness>
+
+                    </listWit>
+
+                    <listWit xml:id="ER_listWit_editions">
+                        
+                        <head>Edizioni moderne</head>
+
+                        <witness xml:id="AG">Azzara-Gasparri 2005</witness>
+
+                        <witness xml:id="Be">Beyerle 1947</witness>
+
+                        <witness xml:id="Bl">Bluhme 1868</witness>
+
+                    </listWit>
+
+                </listWit>
+                
+                <listWit>
+                    
+                    <head>Famiglie di testimoni</head>
+                    
+                    <listWit xml:id="Alfa">
+
+                        <witness sameAs="#B1"/>
+
+                        <witness sameAs="#B3"/>
+
+                        <witness sameAs="#B5"/>
+
+                        <witness sameAs="#B7"/>
+
+                        <witness sameAs="#Mo"/>
+
+                        <witness sameAs="#V"/>
+
+                        <witness sameAs="#Mc"/>
+                        
+                    </listWit>
+                    
+                    <listWit xml:id="Beta">
+                        
+                        <witness sameAs="#B2"/>
+
+                        <witness sameAs="#B4"/>
+
+                        <witness sameAs="#B6"/>
+
+                        <witness sameAs="#B8"/>
+
+                        <witness sameAs="#S"/>
+                        
+                        <witness sameAs="#A"/>
+                        
+                        <witness sameAs="#M10"/>
+                        
+                        <witness sameAs="#M11"/>
+                        
+                    </listWit>
+
+                    <listWit xml:id="Gamma">
+                        
+                        <witness sameAs="#B9"/>
+                        
+                        <witness sameAs="#B10"/>
+                        
+                        <witness sameAs="#B11"/>
+                        
+                        <witness sameAs="#B12"/>
+                        
+                        <witness sameAs="#Sz1"/>
+                        
+                        <witness sameAs="#Sz2"/>
+
+                    </listWit>
+
+                </listWit>
+
+            </div>
+
+        </front>
+
+        <body>
+            
+            <div n="Prologo" subtype="edition_text" type="text" xml:id="ER_prolog">
+                
+                <head>INCIPIT EDICTVM QVEM RENOVAVIT DOMINVS ROTHARI VIR EXCELLENTISSIMO REX GENTI
+                    LANGOBARDORVM CVM PRIMATOS IVDICES SVOS</head>
+                
+                <p>
+                    <w>EGO</w>
+                    <w>in</w>
+                    <w>dei</w>
+                    <w>nomine</w>
+                    <w>rotari</w>,
+                    <w>vir</w>
+                    <w>excellentissimus</w>,
+                    <w>et</w>
+                    <w>septimo</w>
+                    <w>decimum</w>
+                    <w>rex</w>
+                    <w>gentis</w>
+                    <w>langobardorum</w>,
+                    <w>anno</w>
+                    <w>deo</w>
+                    <w>propitiante</w>
+                    <w>regni</w>
+                    <w>mei</w>
+                    <w>octabo</w>,
+                    <w>aetatisque</w>
+                    <w>tricesimo</w>
+                    <w>octabo</w>,
+                    <w>indictione</w>
+                    <w>secunda</w>,
+                    <w>et</w>
+                    <w>post</w>
+                    <w>adventum</w>
+                    <w>in</w>
+                    <w>provincia</w>
+                    <w>italiae</w>
+                    <w>langobardorum</w>,
+                    <w>ex</w>
+                    <w>quo</w>
+                    <w>alboin</w>
+                    <w>tunc</w>
+                    <w>temporis</w>
+                    <w>regem</w>
+                    <w>precedentem</w>
+                    <w>divina</w>
+                    <w>potentia</w>
+                    <w>adducti</w>
+                    <w>sunt</w>,
+                    <w>anno</w>
+                    <w>septuagesimo</w>
+                    <w>sexto</w>
+                    <w>feliciter</w>.
+                    <w>Dato</w>
+                    <w>ticino</w>
+                    <w>in</w>
+                    <w>palatio</w>.
+                </p>
+                
+                <p>
+                    <w>QUANTA</w>
+                    <w>pro</w>
+                    <w>subiectorum</w>
+                    <w>nostrorum</w>
+                    <w>commodo</w>
+                    <w>nostrae</w>
+                    <w>fuit</w>
+                    <w>sollicitudinis</w>
+                    <w>cura</w>, <w>et</w>
+                    <w>est</w>, <w>subter</w>
+                    <w>adnexa</w>
+                    <w>tenor</w>
+                    <w>declarat</w><w>;</w>
+                    <w>precipue</w>
+                    <w>tam</w>
+                    <w>propter</w>
+                    <w>adsiduas</w>
+                    <w>fatigationes</w>
+                    <w>pauperum</w>, <w>quam</w>
+                    <w>etiam</w>
+                    <w>superfluas</w>
+                    <w>exactiones</w>
+                    <w>ab</w>
+                    <w>his</w>
+                    <w>qui</w>
+                    <w>maiore</w>
+                    <w>virtute</w>
+                    <w>habentur</w><w>;</w>
+                    <w>quos</w>
+                    <w>vim</w>
+                    <w>pati</w>
+                    <w>cognovimus</w>. <w>Ob</w>
+                    <w>hoc</w>
+                    <w>considerantes</w>
+                    <w>dei</w>
+                    <w>omnipotentis</w>
+                    <w>gratiam</w>, <w>necessarium</w>
+                    <w>esse</w>
+                    <w>prospeximus</w>
+                    <w>presentem</w>
+                    <w>corregere</w>
+                    <w>legem</w>, <w>quae</w>
+                    <w>priores</w>
+                    <w>omnes</w>
+                    <w>renovet</w>
+                    <w>et</w>
+                    <w>emendet</w>, <w>et</w>
+                    <w>quod</w>
+                    <w>deest</w>
+                    <w>adiciat</w>, <w>et</w>
+                    <w>quod</w>
+                    <w>superfluum</w>
+                    <w>est</w>
+                    <w>abscidat</w>. <w>In</w>
+                    <w>unum</w>
+                    <w>previdimus</w>
+                    <w>volumine</w>
+                    <w>conplectendum</w>, <w>quatinus</w>
+                    <w>liceat</w>
+                    <w>unicuique</w>
+                    <w>salua</w>
+                    <w>lege</w>
+                    <w>et</w>
+                    <w>iustitia</w>
+                    <w>quiete</w>
+                    <w>vivere</w>, <w>et</w>
+                    <w>propter</w>
+                    <w>opinionem</w>
+                    <w>contra</w>
+                    <w>inimicos</w>
+                    <w>laborare</w>, <w>seque</w>
+                    <w>sousque</w>
+                    <w>defendere</w>
+                    <w>fines</w>. <w>Tamen</w>
+                    <w>quamquam</w>
+                    <w>haec</w>
+                    <w>ita</w>
+                    <w>se</w>
+                    <w>habeant</w>, <w>utilem</w>
+                    <w>prospeximus</w>
+                    <w>propter</w>
+                    <w>futuris</w>
+                    <w>temporis</w>
+                    <w>memoriam</w>, <w>nomina</w>
+                    <w>regum</w>
+                    <w>antecessorum</w>
+                    <w>nostrorum</w>, <w>ex</w>
+                    <w>quo</w>
+                    <w>in</w>
+                    <w>gente</w>
+                    <w>nostra</w>
+                    <w>langobardorum</w>
+                    <w>reges</w>
+                    <w>nominati</w>
+                    <w>coeperunt</w>
+                    <w>esse</w>, <w>in</w>
+                    <w>quantum</w>
+                    <w>per</w>
+                    <w>antiquos</w>
+                    <w>homines</w>
+                    <w>didicimus</w>, <w>in</w>
+                    <w>hoc</w>
+                    <w>membranum</w>
+                    <w>adnotari</w>
+                    <w>iussimus</w>.
+                </p>
+                
+                <p>
+                    <w>FUIT</w>
+                    <w>primus</w>
+                    <w>rex</w>
+                    <w>agilmund</w>, <w>ex</w>
+                    <w>genere</w>
+                    <w>gugingus</w>. <w>Secundus</w>
+                    <w>laamisio</w>. <w>Tertius</w>
+                    <w>leth</w>. <w>Quartus</w>
+                    <w>kildeoch</w>, <w>filius</w>
+                    <w>leth</w>. <w>Quintus</w>
+                    <w>godeoch</w>, <w>filius</w>
+                    <w>kildeoch</w>. <w>Sextus</w>
+                    <w>claffo</w>, <w>filius</w>
+                    <w>godeoch</w>. <w>Septimus</w>
+                    <w>tato</w>, <w>filius</w>
+                    <w>glaffoni</w>. <w>Tato</w>
+                    <w>et</w>
+                    <w>winigis</w>
+                    <w>filii</w>
+                    <w>claffoni</w>. <w>Octabus</w>
+                    <w>wacho</w>, <w>filius</w>
+                    <w>winigis</w>, <w>nepus</w>
+                    <w>tatoni</w>. <w>Nonus</w>
+                    <w>walthari</w>. <w>Decimus</w>
+                    <w>audoin</w>, <w>ex</w>
+                    <w>genere</w>
+                    <w>gausus</w>. <w>Undecimus</w>
+                    <w>alboin</w>, <w>filius</w>
+                    <w>audoin</w>, <w>qui</w>
+                    <w>exercitum</w>, <w>ut</w>
+                    <w>supra</w>, <w>in</w>
+                    <w>italia</w>
+                    <w>adduxit</w>. <w>Duodecimus</w>
+                    <w>clep</w>, <w>ex</w>
+                    <w>genere</w>
+                    <w>beleos</w>. <w>Terdiusdecimus</w>
+                    <w>authari</w>, <w>filius</w>
+                    <w>clep</w>. <w>Quartusdecimus</w>
+                    <w>agilulf</w>, <w>turingus</w>, <w>ex</w>
+                    <w>genere</w>
+                    <w>anawas</w>. <w>Quintusdecimus</w>
+                    <w>adalwald</w>, <w>filius</w>
+                    <w>agilulf</w>. <w>Sextusdecimus</w>
+                    <w>hariwald</w>, <w>ex</w>
+                    <w>genere</w>
+                    <w>caupus</w>. <w>Septimusdecimus</w>
+                    <w>ego</w>
+                    <w>in</w>
+                    <w>dei</w>
+                    <w>nomine</w>
+                    <w>qui</w>
+                    <w>supra</w>
+                    <w>rotari</w>
+                    <w>rex</w>, <w>filius</w>
+                    <w>nandinig</w>, <w>ex</w>
+                    <w>genere</w>
+                    <w>harodos</w>.
+                </p>
+                
+                <p>
+                    <w>NANDINIG</w>
+                    <w>filius</w>
+                    <w>noctzoni</w>, <w>noctzo</w>
+                    <w>filius</w>
+                    <w>adhamund</w>, <w>adhamund</w>
+                    <w>filius</w>
+                    <w>alaman</w>, <w>alaman</w>
+                    <w>filius</w>
+                    <w>hiltzoni</w>, <w>hiltzo</w>
+                    <w>filius</w>
+                    <w>wehiloni</w>, <w>wehilo</w>
+                    <w>filius</w>
+                    <w>weoni</w>, <w>weo</w>
+                    <w>filius</w>
+                    <w>fronchononi</w>, <w>fronchono</w>
+                    <w>filius</w>
+                    <w>fachoni</w>, <w>faccho</w>
+                    <w>filius</w>
+                    <w>mammoni</w>, <w>mammo</w>
+                    <w>filius</w>
+                    <w>ustbora</w>.</p>
+                
+            </div>            
+
+            <div n="Capitula 1-13" subtype="edition_text" type="capitula" xml:id="ER_1-13">
+                
+                <head><!-- rivedere in base alla versione diplomatica -->
+                    EXPLICIT PROLOGUS
+                    INCIPIUNT CAPITULA
+                    CAUSAS
+                </head>
+                
+                <!-- inserire lacune -->
+
+                <p n="1"><w>1</w>. <w>Si</w> <w>quis</w> <app>
+                        <lem><w>hominum</w></lem>
+                        <rdg wit="#B5"><w>homo</w></rdg>
+                        <rdg wit="#B3"/>
+                    </app> <w>contra</w> <w>animam</w> <w>regis</w> <app>
+                        <lem><w>cogitaverit</w></lem>
+                        <rdg wit="#B5"><w>considerauerit</w></rdg>
+                    </app> <app>
+                        <lem><w>aut</w> <app>
+                                <lem><w>consiliaverit</w></lem>
+                                <rdg wit="#B9"><w>consiliaberit</w></rdg>
+                                <rdg wit="#B11 #B12"><w>consiliatus</w> <w>fuerit</w></rdg>
+                            </app></lem>
+                        <rdg wit="#B2 #B5"/>
+                    </app>, <w>animae</w> <w>suae</w> <w>incurrat</w> <w>periculum</w> <app>
+                        <lem><w>et</w></lem>
+                        <rdg wit="#B6"><w>aut</w></rdg>
+                    </app> <w>res</w> <w>eius</w> <w>infiscentur</w>.</p>
+
+                <p n="2"><w>2</w>. <w>Si</w> <w>quis</w> <w>cum</w> <w>rege</w> <w>de</w> <w>morte</w> <w>alterius</w> 
+                    <app>
+                        <lem><w>consiliaverit</w></lem>
+                        <rdg wit="#B11"><w>fuerit</w> <w>consiliatus</w></rdg>
+                    </app>, <w>aut</w> <w>hominem</w> <w>per</w> <w>ipsius</w> <w>iussionem</w> <app>
+                        <lem><w>occiderit</w></lem>
+                        <rdg wit="#B2"><w>occiserit</w></rdg>
+                    </app>,
+                    <w>in</w> <w>nullo</w> <w>sit</w> <app>
+                        <lem resp="#azzara"><w>culpabilis</w></lem>
+                        <rdg resp="#bluhme" wit="#B2"><w>culpavelis</w></rdg>
+                        <rdg wit="#B5"><w>culbabilis</w></rdg>
+                    </app>, <w>nec</w> <w>ille</w> <w>nec</w> <app>
+                        <lem><w>heredes</w></lem>
+                        <rdg wit="#B2"><w>heredis</w></rdg>
+                        <rdg wit="#B9" resp="hand1"><w>heres</w></rdg><!-- check @resp -->
+                    </app> <app>
+                        <lem><w>eius</w></lem>
+                        <rdg wit="#B10"><w>ipsius</w></rdg>
+                    </app> <app>
+                        <lem><w>quoquo</w></lem>
+                        <rdg wit="#B5"><w>quodque</w></rdg>
+                        <rdg wit="#B10"><w>quoque</w></rdg>
+                        <rdg wit="#B6 #B9"><w>quocunque</w></rdg>
+                    </app> <w>tempore</w> 
+                    <app>
+                        <lem>
+                            <app>
+                                <lem><w>ab</w>
+                                    <w>illo</w></lem>
+                                <rdg wit="#B11"><w>aut</w>
+                                    <w>ille</w></rdg>
+                                <rdg wit="#B12"><w>ab</w>
+                                    <w>ullo</w></rdg>
+                            </app>
+                            <w>aut</w>
+                            <app>
+                                <lem wit="#B3 #B11 #B12"><w>heredes</w></lem>
+                                <rdg wit="#B1"><w>heroo</w></rdg>
+                                <!-- ??? v. Bluhme -->
+                                <rdg wit="#B2"><w>heredis</w></rdg>
+                                <rdg wit="#B9"><w>ab</w>
+                                    <w>herede</w></rdg>
+                                <rdg wit="#B6 #B8 #B9 #B12"><w>ab</w>
+                                    <w>heredibus</w></rdg>
+                                <!-- check Bluhme "in marg." per B12? -->
+                            </app>
+                            <app>
+                                <lem><w>ipsius</w></lem>
+                                <rdg wit="#B2 #B11"/>
+                            </app>
+                        </lem>
+                        <rdg wit="#B5"/>
+                    </app>
+                    <app>
+                        <lem>
+                            <app>
+                                <lem><w>requisitionem</w></lem>
+                                <rdg wit="#B3"><w>requisitionis</w></rdg>
+                                <rdg wit="#B10 #B12"><w>requisitione</w></rdg>
+                            </app>
+                            <w>aut</w>
+                            <app>
+                                <lem wit="#B1 #B3 #B5"><w>molestia</w></lem>
+                                <rdg wit="#B2"><w>molestias</w></rdg>
+                                <rdg wit="#B6 #B8 #B11"><w>molestiam</w></rdg>
+                                <rdg wit="#B9"><w>molestationem</w></rdg>
+                            </app>
+                            <app>
+                                <lem><w>patiatur</w></lem>
+                                <rdg wit="#B11"><w>patiantur</w></rdg>
+                                <rdg wit="#B12"><w>afficiatur</w></rdg>
+                            </app>
+                        </lem>
+                        <rdg wit="#B5"><w>molestia</w>
+                            <w>paciatur</w>
+                            <w>aut</w>
+                            <w>requisicione</w></rdg>
+                    </app>; <w>quia</w> <app>
+                        <lem><w>postquam</w></lem>
+                        <rdg wit="#B5"></rdg>
+                    </app> <app>
+                        <lem><w>corda</w></lem>
+                        <rdg wit="#B9"></rdg>
+                    </app> <app>
+                        <lem><w>regum</w></lem>
+                        <rdg wit="#B5">regu</rdg>
+                    </app> <w>in</w> <app>
+                        <lem wit="#B1 #B2"><w>manum</w></lem>
+                        <rdg wit="#B3 #B4 #B5 #B6 #B7 #B8 #B9 #B10 #B11 #B12">manu</rdg><!-- check Bluhme "rell." = tutti gli altri? -->
+                    </app> <w>dei</w> <app>
+                        <lem><w>credimus</w> <w>esse</w></lem>
+                        <rdg wit="#B2 #B3"><w>esse</w> <w>credimus</w></rdg>
+                    </app>, <w>non</w> <w>est</w>
+                    <app>
+                        <lem><w>possibile</w></lem>
+                        <rdg wit="#B1"><w>possi|oo</w></rdg>
+                        <rdg wit="#B2"><w>possevilem</w></rdg>
+                    </app>, <w>ut</w> <w>homo</w> <w>possit</w><app>
+                        <lem></lem>
+                        <rdg wit="#B9">se</rdg>
+                    </app> <app>
+                        <lem wit="#B1 #B12"><w>eduniare</w></lem>
+                        <rdg wit="#B2"><w>aduniare</w></rdg>
+                        <rdg wit="#B3 #B5 #B8 #B9"><w>aedoniare</w></rdg>
+                        <rdg wit="#B6 #B11"><w>edoniare</w></rdg>
+                        <rdg wit="#B10 #B12"><w>idoniare</w></rdg><!-- check Bluhme B12 in marg. -->
+                    </app>, <w>quem</w> <w>rex</w> <app>
+                        <lem><w>occidere</w></lem>
+                        <rdg wit="#B8"><w>occidi</w></rdg>
+                        <rdg wit="#B5"><w>occiderit</w></rdg>
+                    </app> <app>
+                        <lem><w>iusserit</w></lem>
+                        <rdg wit="#B3 #B9 #B12"><w>iussit</w></rdg><!-- check Bluhme B9 pr. man. -->
+                    </app>.</p>
+
+                <p n="3"><w>3</w>. <w>Si</w> <w>quis</w> <app>
+                    <lem><w>foris</w></lem>
+                    <rdg wit="#B6 #B9 #B10"><w>foras</w></rdg>
+                </app> <app>
+                    <lem><w>provincia</w></lem>
+                    <rdg wit="#B3 #B8 #B10 #B11"><w>prouinciam</w></rdg>
+                </app> <app>
+                    <lem><w>fugire</w></lem>
+                    <rdg wit="#B5 #B6 #B10 #B11"><w>fugere</w></rdg>
+                </app> <app>
+                    <lem><w>temptaverit</w></lem><!-- check Azzara -->
+                    <rdg wit="#B1">timtauerit</rdg>
+                </app> <app>
+                    <rdg wit="#B5"><w>et</w> <w>inimicos</w> <w>inuitauerit</w> <w>aut</w> <w>introduxerit</w></rdg><!--
+                        add -->
+                    <note>Aggiunto dal capitulum successivo.</note>
+                </app>, <app>
+                    <lem><w>morti</w></lem>
+                    <rdg wit="#B6 #B8 #B9 #B11 #B12"><w>mortis</w></rdg>
+                    <rdg wit="#B5"><w>animae</w> <w>suae</w></rdg>
+                </app> <w>incurrat</w> <w>periculum</w>, <w>et</w> <w>res</w> <w>eius</w>
+                    <app>
+                        <lem><w>infiscentur</w></lem>
+                        <rdg wit="#B2"><w>infiscintur</w></rdg>
+                    </app>.</p>
+
+                <p n="4"><w>4</w>. <w>Si</w> <w>quis</w> <app>
+                    <lem wit="#B1 #B2"><w>inimicûs</w></lem>
+                    <rdg wit="#B3 #B4 #B5 #B6 #B7 #B8 #B9 #B10 #B11 #B12"><w>inimicos</w></rdg>
+                    <rdg wit="#B12"><add place="margin"><w>inimicum</w> <w>suum</w></add></rdg>
+                    <note>Ceterum illa accusativi pluralis forma, veteribus libris usitatissima, a nobis littera û
+                        notabitur</note>
+                </app> <app>
+                    <rdg wit="#B9"><w>regis</w></rdg>
+                </app> <w>intra</w> <app>
+                    <lem wit="#B1 #B2 #B3"><w>provincia</w></lem>
+                    <rdg wit="#B4 #B5 #B6 #B7 #B8 #B9 #B10 #B11 #B12"><w>provinciam</w></rdg>
+                </app> <app>
+                    <lem><w>invitaverit</w></lem>
+                    <rdg wit="#B5"><w>inuitare</w> <w>temptauerit</w></rdg>
+                </app> 
+                <app>
+                    <lem><w>aut</w>
+                        <w>introduxerit</w>, <app>
+                            <lem><w>animae</w></lem>
+                            <rdg wit="#B5"><w>mortis</w></rdg>
+                            <!-- check Bluhme, come fa a riportare una variante per B5 se
+                        aut ... suae manca??? -->
+                        </app>
+                        <app>
+                            <rdg wit="#B5"/>
+                        </app></lem>
+                    <rdg wit="#B5"/>
+                </app> <w>incurrat</w> <w>periculum</w>
+                    <w>et</w> <w>res</w> <w>eius</w> <app>
+                        <lem><w>infiscentur</w></lem>
+                        <rdg wit="#B3"><w>infescentur</w></rdg>
+                    </app>.</p>
+
+                <p n="5"><w>5</w>. <w>Si</w> <w>quis</w> <app>
+                    <lem><w>scamaras</w></lem>
+                    <rdg wit="#B1"><w>escamaras</w></rdg>
+                    <rdg wit="#B5"><w>scameras</w></rdg>
+                    <rdg wit="#B11"><subst><del><w>scamaris</w></del><add><w>scamaros</w></add></subst> <w>celatis</w></rdg>
+                    <rdg wit="#B12"><w>scaram</w></rdg>
+                    <rdg wit="#B12"><add place="margin"><w>scamuram</w></add></rdg>
+                </app> <w>intra</w> <app>
+                    <lem wit="#B1 #B2 #B3"><w>provincia</w></lem>
+                    <rdg wit="#B4 #B5 #B6 #B7 #B8 #B9 #B10 #B11 #B12"><w>provinciam</w></rdg>
+                </app> <app>
+                    <lem wit="#B1"><w>caelaverit</w></lem>
+                    <rdg wit="#B2 #B3 #B4 #B5 #B6 #B7 #B8 #B9 #B10 #B11 #B12"><w>celauerit</w></rdg>
+                </app> <app>
+                    <lem><w>aut</w></lem>
+                    <rdg wit="#B11"><subst><del>aut</del><add><w>eis</w></add></subst></rdg>
+                </app> <app>
+                    <rdg wit="#B5"><w>eis</w></rdg>
+                </app> <app>
+                    <lem><w>anonam</w></lem>
+                    <rdg wit="#B1"><unclear><w>anonam</w></unclear></rdg>
+                    <rdg wit="#B5 #B8 #B9 #B11 #B12"><w>annonam</w></rdg>
+                </app>
+                    <w>dederit</w>, <w>animae</w> <w>suae</w> <w>incurrat</w>
+                    <w>periculum</w>, <w>aut</w> <app>
+                        <lem><w>certe</w></lem>
+                        <rdg wit="#B2 #B6 #B9 #B10"></rdg><!-- check Bluhme per corr. 9 -->
+                        <rdg wit="#B12"><add place="margin"><w>certe</w></add></rdg>
+                    </app> <w>conponat</w> <w>regi</w> <w>solidûs</w> <w>noningentos</w>.</p>
+                <p n="6"><w>6</w>. <w>Si</w> <w>quis</w> <w>foris</w> <w>in</w> <w>exercitum</w> <w>seditionem</w> <w>levaverit</w> <w>contra</w> <w>ducem</w> <w>suum</w> <w>aut</w> <w>contra</w> <w>eum</w>, <w>qui</w>
+                    <w>ordinatus</w> <w>est</w> <w>a</w> <w>rege</w> <w>ad</w> <w>exercitum</w> <w>gubernandi</w>, <w>aut</w> <w>aliquam</w> <w>partem</w> <w>exercetum</w> <w>seduxerit</w>, <w>sanguinis</w> <w>sui</w>
+                    <w>incurrat</w> <w>periculum</w>.</p>
+                <p n="7"><w>7</w>. <w>Si</w> <w>quis</w> <w>contra</w> <w>inimicûs</w> <w>pugnando</w> <w>collegam</w> <w>suum</w> <w>dimiserit</w> <w>aut</w> <w>astalin</w> <w>fecerit</w>, <w>id</w> <w>est</w> <w>si</w> <w>eum</w>
+                    <w>diceperit</w> <w>et</w> <w>cum</w> <w>eum</w> <w>non</w> <w>laboraverit</w>, <w>animae</w> <w>suae</w> <w>incurrat</w> <w>periculum</w>.</p>
+                <p n="8"><w>8</w>. <w>Si</w> <w>quis</w> <w>in</w> <w>consilio</w> <w>vel</w> <w>quolibet</w> <w>conventu</w> <w>scandalum</w> <w>conmiserit</w>, <w>noningentos</w> <w>solidûs</w> <w>sit</w>
+                    <w>culpabiles</w> <w>regi</w>.</p>
+                <p n="9"><w>9</w>. <w>Si</w> <w>quis</w> <w>qualemcumque</w> <w>hominem</w> <w>ad</w> <w>regem</w> <w>incusaverit</w>, <w>quod</w> <w>ad</w> <w>animae</w> <w>perteneat</w> <w>periculum</w>, <w>liceat</w>
+                    <w>ei</w>, <w>qui</w> <w>accusatus</w> <w>fuerit</w>, <w>cum</w> <w>sacramentum</w> <w>satisfacere</w> <w>et</w> <w>se</w> <w>eduniare</w>. <w>Et</w> <w>si</w> <w>tales</w> <w>causa</w> <w>emerserit</w> <w>et</w>
+                    <w>adest</w> <w>homo</w> <w>in</w> <w>praesenti</w>, <w>qui</w> <w>crimen</w> <w>mittat</w>, <w>liceat</w> <w>eum</w> <w>per</w> <w>camphionem</w>, <w>id</w> <w>est</w> <w>per</w> <w>pugnam</w>, <w>crimen</w>
+                    <w>ipsum</w> <w>de</w> <w>super</w> <w>se</w>, <w>si</w> <w>potuerit</w>, <w>eicere</w>. <w>Et</w> <w>si</w> <w>ei</w> <w>provatum</w> <w>fuerit</w>, <w>aut</w> <w>det</w> <w>animam</w>, <w>aut</w> <w>qualiter</w> <w>regi</w>
+                    <w>placuerit</w> <w>conponat</w>. <w>Et</w> <w>si</w> <w>provare</w> <w>non</w> <w>potuerit</w> <w>et</w> <w>cognuscitur</w> <w>dolusae</w> <w>adcusassit</w>, <w>tunc</w> <w>ipse</w>, <w>qui</w>
+                    <w>accusavit</w> <w>et</w> <w>provare</w> <w>non</w> <w>potuit</w>, <w>wergild</w> <w>suo</w> <w>conponat</w>, <w>medietatem</w> <w>regi</w>, <w>et</w> <w>medietatem</w> <w>cui</w> <w>crimen</w>
+                    <w>iniectum</w> <w>fuerit</w>.</p>
+                <p n="10"><w>10</w>. <w>Si</w> <w>quis</w> <w>homo</w> <w>liber</w> <w>in</w> <w>morte</w> <w>alterius</w> <w>consiliaverit</w>, <w>et</w> <w>ex</w> <w>ipso</w> <w>consilio</w> <w>mortuos</w> <w>non</w> <w>fuerit</w>,
+                    <w>tunc</w> <w>ipse</w> <w>consiliator</w> <w>conponat</w> <w>solidûs</w> <w>viginti</w>.</p>
+                <p n="11"><w>11</w>. <w>De</w> <w>consilio</w> <w>mortis</w>. <w>Si</w> <w>hominis</w> <w>liberi</w> <w>inter</w> <w>se</w> <w>in</w> <w>morte</w> <w>alterius</w> <w>consiliaverint</w> <w>sine</w> <w>regis</w>
+                    <w>consilio</w> <w>et</w> <w>ex</w> <w>ipso</w> <w>tractato</w> <w>mortuus</w> <w>non</w> <w>fuerit</w>, <w>conponat</w> <w>unusquisque</w>, <w>ut</w> <w>supra</w>, <w>solidos</w> <w>viginti</w><w>;</w> <w>et</w>
+                    <w>si</w> <w>ex</w> <w>ipso</w> <w>consilio</w> <w>mortuus</w> <w>fuerit</w>, <w>tunc</w> <w>ille</w>, <w>qui</w> <w>homicida</w> <w>est</w>, <w>conponat</w> <w>ipsum</w> <w>mortuum</w>, <w>sicut</w>
+                    <w>adpraetiatus</w> <w>fuerit</w>, <w>id</w> <w>est</w> <w>wergild</w>.</p>
+                <p n="12"><w>12</w>. <w>Si</w> <w>duo</w> <w>aut</w> <w>tres</w> <w>fuerint</w> <w>hominis</w> <w>seu</w> <w>amplius</w> <w>liberi</w> <w>et</w> <w>homicidium</w> <w>penetraverint</w> <w>et</w> <w>voluerint</w>
+                    <w>se</w> <w>adunare</w>, <w>ut</w> <w>in</w> <w>unum</w> <w>conponant</w>, <w>sicut</w> <w>adpraetiatum</w> <w>fuerit</w>, <w>sit</w> <w>eis</w> <w>adunandi</w> <w>licentia</w>. <w>Et</w> <w>si</w>
+                    <w>aliquis</w> <w>se</w> <w>de</w> <w>ipsis</w> <w>subtraxerit</w> <w>et</w> <w>non</w> <w>potuerit</w> <w>se</w> <w>pureficare</w>, <w>sicut</w> <w>lex</w> <w>habet</w>, <w>quod</w> <w>nec</w> <w>plaga</w> <w>nec</w>
+                    <w>ferita</w> <w>in</w> <w>ipso</w> <w>homine</w>, <w>qui</w> <w>occisus</w> <w>est</w>, <w>non</w> <w>fecissit</w>, <w>tunc</w> <w>sit</w> <w>culpabiles</w> <w>sicut</w> <w>et</w> <w>alius</w> <w>qui</w> <w>eum</w>
+                    <w>conposuit</w>. <w>Et</w> <w>si</w> <w>se</w> <w>purificaverit</w>, <w>sit</w> <w>exsolutus</w> <w>a</w> <w>culpa</w> <w>homicidii</w>. <w>Si</w> <w>tamen</w> <w>in</w> <w>consilio</w> <w>fuit</w>,
+                    <w>conponat</w>, <w>ut</w> <w>supra</w>, <w>solidos</w> <w>viginti</w>, <w>aut</w> <w>certe</w> <w>a</w> <w>de</w> <w>ipso</w> <w>consilio</w> <w>se</w> <w>purificit</w>, <w>si</w> <w>potuerit</w>.</p>
+                <p n="13"><w>13</w>. <w>Si</w> <w>quis</w> <w>dominum</w> <w>suum</w> <w>occiderit</w>, <w>ipse</w> <w>occidatur</w>. <w>Si</w> <w>quis</w> <w>ipsum</w> <w>homicidam</w> <w>defensare</w> <w>voluerit</w>,
+                    <w>qui</w> <w>dominum</w> <w>suum</w> <w>occiderit</w>, <w>sit</w> <w>culpabilis</w> <w>solidûs</w> <w>noningentos</w>, <w>medietatem</w> <w>regi</w>, <w>medietatem</w>
+                    <w>parentibus</w> <w>mortui</w><w>;</w> <w>et</w> <w>qui</w> <w>illius</w> <w>mortui</w> <w>iniuriam</w> <w>vindicandam</w> <w>denegaverit</w> <w>solacia</w>, <w>si</w> <w>quidem</w> <w>rogatus</w>
+                    <w>fuerit</w>, <w>unusquisque</w> <w>conponat</w> <w>solidos</w> <w>quinquagenta</w>, <w>medietatem</w> <w>regi</w> <w>et</w> <w>medietatem</w> <w>cui</w> <w>solacia</w>
+                    <w>denegaverit</w>.</p>
+
+            </div>
+            
+        </body>
+        
+        <back>
+            
+            <div type="biblCompleta">
+                <listBibl>
+
+                    <biblStruct type="book" xml:id="Azzara1992">
+                        <monogr>
+                            <title level="m">Le Leggi dei Longobardi: storia, memoria e diritto di un popolo
+                                germanico</title>
+                            <title type="short">Le Leggi dei Longobardi</title>
+                            <idno type="ISBN">88-86156-00-6 978-88-86156-00-4</idno>
+                            <author><forename>Claudio</forename><surname>Azzara</surname></author>
+                            <author><forename>Stefano</forename><surname>Gasparri</surname></author>
+                            <imprint>
+                                <pubPlace>Milano</pubPlace>
+                                <publisher>Editrice La Storia</publisher>
+                                <date>1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Azzara2005">
+                        <monogr>
+                            <title level="m">Le leggi dei Longobardi: storia, memoria e diritto di un popolo
+                                germanico</title>
+                            <title type="short">Le leggi dei Longobardi</title>
+                            <idno type="ISBN">88-8334-099-X</idno>
+                            <editor><forename>Claudio</forename><surname>Azzara</surname></editor>
+                            <editor><forename>Stefano</forename><surname>Gasparri</surname></editor>
+                            <edition>2. ed</edition>
+                            <imprint>
+                                <pubPlace>Roma</pubPlace>
+                                <publisher>Viella</publisher>
+                                <date>2005</date>
+                            </imprint>
+                        </monogr>
+                        <series><title level="s">Altomedioevo</title><biblScope unit="volume">4</biblScope></series>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Beyerle1962a">
+                        <monogr>
+                            <title level="m">Leges langobardorum: 643-866</title>
+                            <title type="short">Leges langobardorum</title>
+                            <author><forename>Franz</forename><surname>Beyerle</surname></author>
+                            <imprint>
+                                <pubPlace>Witzenhausen</pubPlace>
+                                <publisher>Deutschrechtlicher Instituts-Verlag</publisher>
+                                <date>1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Beyerle1962c">
+                        <monogr>
+                            <title level="m">Edictus Rothari</title>
+                            <author><forename>Franz</forename><surname>Beyerle</surname></author>
+                            <imprint>
+                                <pubPlace>Witzenhausen</pubPlace>
+                                <publisher>Deutschrechtl. Inst.-Verl</publisher>
+                                <date>1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+                    <biblStruct type="book" xml:id="Bluhme1868">
+                        <monogr>
+                            <title level="m">[Leges Langobardorum]</title>
+                            <author><forename>Friedrich</forename><surname>Bluhme</surname></author>
+                            <author><forename>Alfred</forename><surname>Boretius</surname></author>
+                            <imprint>
+                                <pubPlace>Hannover</pubPlace>
+                                <publisher>Hahn</publisher>
+                                <date>1868</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                </listBibl>
+            </div>
+
+        </back>
+
+    </text>
+
+</TEI>
