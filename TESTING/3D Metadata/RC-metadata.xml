@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listObject type="main" xml:id="RC_lo_main">
+               <object xml:id="RuthwellCross">
+                  <objectIdentifier>
+                     <objectName>Ruthwell Cross</objectName>
+                     <!--<country>United Kingdom</country>
+                     <region>Dumfriesshire (Scotland)</region>
+                     <settlement>Ruthwell</settlement>-->
+                     <institution>Historic Environment Scotland</institution>
+                     <idno type="HES">https://www.historicenvironment.scot/visit-a-place/places/ruthwell-cross</idno>
+                     <idno type="canmore">https://canmore.org.uk/site/66586/ruthwell-cross</idno>
+                     <idno type="wikipedia">https://en.wikipedia.org/wiki/Ruthwell_Cross</idno>
+                     <address>
+                        <street>---</street>
+                        <district>Dumfries and Galloway, Scotland, DG1 4NP</district>
+                        <settlement>Ruthwell</settlement>
+                        <country>United Kingdom</country>
+                        <location>
+                           <geo>55.000361, 3.4075</geo>
+                        </location>
+                     </address>
+                  </objectIdentifier>
+                  <physDesc>
+                     <p>The Ruthwell Cross is a 17 foot high stone cross erected near a former Roman military site in
+                        Dumfriesshire Scotland. It is perhaps best known to Anglo-Saxonists for a runic inscription that
+                        may be the oldest known record of an Anglo-Saxon vernacular poem, versions of which can be found
+                        in the tenth-century Vercelli Book and eleventh-century Brussels Cross (see Ó Carragáin 2005,
+                        58-60; O'Donnell 1996, 287-288, for bibliography).</p>
+                  </physDesc>
+                  <history>
+                     <origin>The Ruthwell Cross is a stone Anglo-Saxon cross probably dating from the <origDate>8th
+                           century</origDate>, when the village of Ruthwell, now in Scotland, was part of the
+                        Anglo-Saxon <origPlace>Kingdom of Northumbria</origPlace>.</origin>
+                  </history>
+
+                  <additional>
+                     <surrogates>
+                        <ref target="http://http://vcg.isti.cnr.it/cross/">Experimental viewer</ref>
+                        <ref target="https://zenodo.org/record/232415">Complete scan raw photograply [Zenodo]</ref>
+                        <ref target="https://zenodo.org/record/1490878">High resolution 3D model [Zenodo]</ref>
+                        <ref target="#Collingwood1927">Collingwood's drawings</ref>
+                     </surrogates>
+                  </additional>
+                  
+               </object>
+               
+               <listObject type="part" subtype="south_side" xml:id="RC_lo_south_side">
+
+                  <object type="panel">
+                     <objectIdentifier>
+                        <objectName>John the Evangelist with his symbol</objectName>
+                     </objectIdentifier>
+                     <physDesc>
+                        <p>The Evangelist and his symbol, the eagle, face each other. Their pose, as well as the large
+                           size of the eagle in comparison to the evangelist, is intended to convey the divine
+                           inspiration passed to the human evangelist through his symbol. John appears to be seated. He
+                           reaches out towards his symbol with his left hand, which possibly supports a scroll or book.
+                           Traces of an inscription survive. The letters INP run upwards within the left border of the
+                           panel, while the letters BVM run downwards in the lower corner of the right border. They can
+                           most likely be reconstructed as the beginning and end of the Latin phrase ‘In principio erat
+                           verbum’ (In the beginning was the word), the opening line of John’s gospel.</p>
+                        <p>This panel originally faced the other way, capping the west face of the Cross. It was placed
+                           back to front when the cross was reconstructed by the Rev Henry Duncan in 1823.</p>
+                     </physDesc>
+                     <additional>
+                        <surrogates>
+                           
+                        </surrogates>
+                     </additional>
+                  </object>
+
+                  <object type="transom">
+                     <objectIdentifier>
+                        <objectName>Transom</objectName>
+                     </objectIdentifier>
+                     <physDesc>
+                        <p>The transom has never been found. The current stone is the work of the mason commissioned by
+                           Duncan to reconstruct the cross in 1823. The carvings are masonic symbols and were supplied
+                           by Duncan, a keen freemason: a triangle at the centre, flanked by a whale or dolphin to the
+                           left and a dragon to the right.</p>
+                     </physDesc>
+                     <additional>
+                        <surrogates>
+                           
+                        </surrogates>
+                     </additional>
+                  </object>
+                  
+                  <object type="panel">
+                     <objectIdentifier>
+                        <objectName>The Archer</objectName>
+                     </objectIdentifier>
+                     <physDesc>
+                        <p>The lower arm of the cross-head contains an archer drawing back his bow, possibly firing an
+                           arrow at the eagle originally positioned at the top of this face of the cross (see west
+                           face). A square pouch hangs from a strap below his right arm. It may be meant to represent a
+                           quiver, though it has also been suggested that it is a book satchel and that the archer
+                           should be understood as firing arrows of scripture. The archer’s cloak flies out behind him
+                           emphasizing his dynamic pose and the force of his movement. The panel may relate to the words
+                           of the poem inscribed on the left border of the south face, where the cross describes itself
+                           as ‘wounded with arrows’.</p>
+                     </physDesc>
+                     <additional>
+                        <surrogates>
+                           
+                        </surrogates>
+                     </additional>
+                  </object>
+                  
+                  <object type="panel">
+                     <objectIdentifier>
+                        <objectName>The Visitation / Martha and Mary</objectName>
+                     </objectIdentifier>
+                     <physDesc>
+                        <p>There is some debate over the subject of this panel. Some scholars believe that it depicts
+                           the Visitation (Luke 1:30–56), the moment at which Elizabeth (pregnant with John the Baptist)
+                           and Mary (pregnant with the Christ child) embrace, and the Baptist leaps for joy in
+                           recognition of Christ’s divinity. Other scholars believe it represents the biblical sisters
+                           Martha and Mary (Luke 10:38–42), symbols of the active and contemplative sides of monastic
+                           life. Still others believe that it is a deliberate conflation of the two subjects. The
+                           concrete blocks and lower fragments of the panel were added by Duncan during his restoration
+                           of the cross. The difference in scale between the hemlines and feet in the lower section and
+                           the proportions and drapery of the torsos in the upper section may indicate that the block
+                           with the feet does not belong here and is, perhaps, part of a now lost monument. Unlike the
+                           other figures on this side of the cross, the women wear sturdy shoes or slippers.</p>
+                        <p>The inscription is unique on the monument for its combination of Latin and runic letters. It
+                           reads […] marþ[a] (left border); mar[ia] m[…]r + (top border); dominnæ c[…] (right border).
+                           The words have been translated as either ‘Martha and Mary worthy women’, or, more
+                           problematically, ‘Martha and Mary, mother of the Lord’.</p>
+                     </physDesc>
+                     <additional>
+                        <surrogates>
+                           
+                        </surrogates>
+                     </additional>
+                  </object>
+                  
+                  <object type="panel">
+                     <objectIdentifier>
+                        <objectName>Mary Magdalene at the feet of Christ</objectName>
+                     </objectIdentifier>
+                     <physDesc>
+                        <p>This panel depicts Mary Magdalene washing Christ’s feet with her tears and drying them with
+                           her hair (Luke 7:37–8). The Magdalene’s massive hand and extended arm may have been meant to
+                           emphasize her gesture, and hence her penitence, or they may simply be the work of a
+                           second-rate carver. Christ stands above the Magdalene holding up a book in his covered left
+                           hand. His right hand was originally raised in blessing. His pose echoes that seen in the
+                           Christ over the beasts panel on the opposite face of the cross. The facial features of both
+                           figures have been hacked or worn away.</p>
+                        <p>The Latin inscription surrounding the panel reads: + A[TT]V[LIT] [ALA]B[A]S (across the top);
+                           TRVM · V[NGUE]NTI · &amp; S[T]AN[S] [R]E[TR]O SECVS PEDES (down the right side); · EIUS
+                           LACRIMIS · COEPIT RIGARE · PEDES EIUS &amp; CAPILLIS (down the left side) · CAPITIS SUI
+                           TERGEBAT (across the bottom). Translation: ‘+ She took an alabaster jar of ointment, and
+                           standing behind at his feet, she began to wash his feet with her tears and dried them with
+                           the hair of her head’.</p>
+                     </physDesc>
+                     <additional>
+                        <surrogates>
+                           
+                        </surrogates>
+                     </additional>
+                  </object>
+                  
+                  <object type="panel">
+                     <objectIdentifier>
+                        <objectName>Healing of the man born blind</objectName>
+                     </objectIdentifier>
+                     <physDesc>
+                        <p>Christ, on the left, extends his hand towards the man blind from birth (John 9:1–8) on the
+                           right. A thin diagonal line incised in the background of the panel indicates that Christ’s
+                           right hand may originally have held a wand with which to anoint the blind man’s eyes. While
+                           the blind man has been carved in profile, Christ’s body and face are turned slightly
+                           outwards, allowing us a better view of the miracle. The lower part of the panel may have been
+                           left blank by the sculptor for reasons unknown, or may have contained an inscription that was
+                           destroyed at a later date. The extension of the robes of the two figures over the border of
+                           the blank section of the panel is part of Duncan’s restoration.</p>
+                        <p>The Latin inscription in the border reads: + ET PRAETERIENS · VIDI[T] (down the left side)
+                           {HOMINEM CAECVM} A NATIBITATE · ET S{ANAVIT EVM} (down the right side). Translation: ‘+ And
+                           passing by he saw a {man blind} from birth and {healed him}’.</p>
+                     </physDesc>
+                     <additional>
+                        <surrogates>
+                           
+                        </surrogates>
+                     </additional>
+                  </object>
+                  
+                  <object type="panel">
+                     <objectIdentifier>
+                        <objectName>The Annunciation (Luke 1:28)</objectName>
+                     </objectIdentifier>
+                     <physDesc>
+                        <p>The archangel Gabriel seems to be entering at the left of the panel from a space outside the
+                           cross. The lower part of his robe flutters behind him, and both it and his right foot appear
+                           to overlap the panel’s left border. On the right, the Virgin Mary, facing out at us, holds on
+                           to her robe with her right hand as she shrinks slightly away from the angel in humility. Both
+                           figures are tall, elegant and finely carved, making this one of the most classicizing of the
+                           cross’s panels. The hole in the centre of the panel may be a relic cavity (perhaps for a
+                           relic of the True Cross), or it may have been made at some point during the toppling of the
+                           cross, or during its restoration and reconstruction.</p>
+                        <p>All that remains of the inscription in the border are the letters ‘+ INGRESSVS ANG’ (across
+                           the top border), and ‘TE […] BE (down the left border). It has been reconstructed as
+                           ‘Ingressus angelus ad eam dixit ave gratia plena dominus tecum benedicta tu in mulieribus’
+                           (Entering the angel said to her: “Hail full of grace, the Lord is with you; blessed are you
+                           among women”.)</p>
+                     </physDesc>
+                     <additional>
+                        <surrogates>
+                           
+                        </surrogates>
+                     </additional>
+                  </object>
+                  
+                  <object type="base">
+                     <objectIdentifier>
+                        <objectName>Crucifixion</objectName>
+                     </objectIdentifier>
+                     <physDesc>
+                        <p>Crucifixion: The base of the cross may originally have been sunk in the ground and this
+                           carving added to it when the cross was raised and moved to a new location. It is carved in a
+                           9th-century style, so is clearly later than the rest of the carvings on the cross. At the
+                           centre is the crucified Christ, his head drooping to the right. Discs representing the sun
+                           and the moon are carved either side of the top of his cross. The figures standing below the
+                           cross to either side of Christ may be the Virgin Mary and John the Evangelist, who witnessed
+                           the Crucifixion, or they may be Longinus and Stephaton, the spear- and sponge-bearer.</p>
+                     </physDesc>
+                     <additional>
+                        <surrogates>
+                           
+                        </surrogates>
+                     </additional>
+                  </object>
+                  
+                  <object>
+                     <objectIdentifier>
+                        <objectName></objectName>
+                     </objectIdentifier>
+                     <physDesc>
+                        
+                     </physDesc>
+                  </object>
+                  
+                  <object>
+                     <objectIdentifier>
+                        <objectName></objectName>
+                     </objectIdentifier>
+                     <physDesc>
+                        
+                     </physDesc>
+                     <additional>
+                        <surrogates>
+                           
+                        </surrogates>
+                     </additional>
+                  </object>
+                  
+                  <object>
+                     <objectIdentifier>
+                        <objectName></objectName>
+                     </objectIdentifier>
+                     <physDesc>
+                        
+                     </physDesc>
+                     <additional>
+                        <surrogates>
+                           
+                        </surrogates>
+                     </additional>
+                  </object>
+                  
+               </listObject>
+
+            </listObject>
+            
+            <listBibl>
+               <biblStruct type="book" xml:id="Collingwood1927">
+                  <monogr>
+                     <title level="m">Northumbrian crosses of the pre-Norman age</title>
+                     <author><forename>William Gershom</forename><surname>Collingwood</surname></author>
+                     <imprint>
+                        <publisher>Faber &amp; Gwyer</publisher>
+                        <date>1927</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>
