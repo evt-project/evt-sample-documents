@@ -53,7 +53,13 @@
             "icon": "mode-srcTxt",
             "viewMode": "srcTxt",
             "visible": false
-        }
+        },
+        {
+         "label"    : "3DHOP",
+         "icon"     : "mode-tdhop",
+         "viewMode" : "tdhop",
+         "visible"  : false
+        }      
     ],
 
     "defaultEdition": "interpretative",
@@ -200,5 +206,54 @@
     "languages": [
         "en",
         "it"
-    ]
+    ],
+
+    "showObjectSelector": false,
+
+    "tdhopViewerOptions": {
+
+      "toolHome": false,
+      "toolZoomin": false,
+      "toolZoomout": false,
+      "toolLighting": false,
+      "toolLightControl": false,
+      "toolMeasure": false,
+      "toolPickPoint": false,
+      "toolPlaneSections": false,
+      "toolSolidColor": false,
+      "toolCamera": false,
+      "toolHotspot": false,
+      "toolFullScreen": false,
+      "toolSwitchModel": false,
+      "toolArrows": false,
+      "toolLightController": false,
+
+      "Model_1": {
+         "name": "",
+         "path": "data/models/multires/",
+         "mesh": ""
+      },
+
+      "Model_2": {
+         "name": "",
+         "path": "data/models/singleres/",
+         "mesh": ""
+      },
+
+      "Hotspots": {
+         "type": "",
+         "path": "data/models/singleres/",
+         "model": "",
+         "hotspotsdata": [
+            {
+               "name": "",
+               "type": "",
+               "position": [],
+               "radius": "",
+               "view": []
+            }
+         ],
+         "nextID": ""
+      }
+   }
 }

@@ -3,10 +3,10 @@
     "webSite": "",
     "logoUrl": "",
     
-    "dataUrl": "data/avicenna.xml",
-    "sourcesUrl": "data/sources.xml",
-    "analoguesUrl": "data/analogues.xml",
-    "sourcesTextsUrl": "data/sources/",
+    "dataUrl": "data/text/avicenna.xml",
+    "sourcesUrl": "data/text/sources.xml",
+    "analoguesUrl": "data/text/analogues.xml",
+    "sourcesTextsUrl": "data/text/sources/",
     "singleImagesUrl": "",
     "enableXMLdownload": true,
     
@@ -53,6 +53,12 @@
             "icon": "mode-srcTxt",
             "viewMode": "srcTxt",
             "visible": true
+        },
+        {
+            "label"    : "3DHOP",
+            "icon"     : "mode-tdhop",
+            "viewMode" : "tdhop",
+            "visible"  : false
         }
     ],
 
@@ -229,5 +235,53 @@
     "languages": [
         "en",
         "it"
-    ]
+    ],
+    "showObjectSelector": true,
+
+    "tdhopViewerOptions": {
+
+      "toolHome": false,
+      "toolZoomin": false,
+      "toolZoomout": false,
+      "toolLighting": false,
+      "toolLightControl": false,
+      "toolMeasure": false,
+      "toolPickPoint": false,
+      "toolPlaneSections": false,
+      "toolSolidColor": false,
+      "toolCamera": false,
+      "toolHotspot": false,
+      "toolFullScreen": false,
+      "toolSwitchModel": false,
+      "toolArrows": false,
+      "toolLightController": false,
+
+      "Model_1": {
+         "name": "",
+         "path": "data/models/multires/",
+         "mesh": ""
+      },
+
+      "Model_2": {
+         "name": "",
+         "path": "data/models/singleres/",
+         "mesh": ""
+      },
+
+      "Hotspots": {
+         "type": "",
+         "path": "data/models/singleres/",
+         "model": "",
+         "hotspotsdata": [
+            {
+               "name": "",
+               "type": "",
+               "position": [],
+               "radius": "",
+               "view": []
+            }
+         ],
+         "nextID": ""
+      }
+   }
 }
