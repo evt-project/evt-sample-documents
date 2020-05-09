@@ -1,19 +1,51 @@
-<div>
-<head>Parallel passages</head>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<cit xml:id="burhan_2-7-165-7-10">
-    <bibl>
-        <author ref="#p_Avicenna">Avicenna</author>
-        <title ref="#w_burhan">Burhān</title>
-        <citedRange corresp="#Afifi1956">II, 7, p. 165, 7-10</citedRange>
-    </bibl>
-</cit>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 
-<cit xml:id="burhan_2-9-178-17-19">
-    <bibl>
-        <author ref="#p_Avicenna">Avicenna</author>
-        <title ref="#w_burhan">Burhān</title>
-        <citedRange corresp="#Afifi1956">II, 9, p. 178, 17-19</citedRange>
-    </bibl>
-</cit>
-</div>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A sample collection of bibliographic citations for analogue and parallel texts.</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <name>Chiara Martignano</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>This document is meant only for testing purposes inside of the EVT demo and the EVT release package.</p>
+        <p>Do not copy nor publish.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div>
+
+        <head>Parallel passages</head>
+
+        <cit xml:id="burhan_2-7-165-7-10">
+          <bibl>
+            <author ref="#p_Avicenna">Avicenna</author>
+            <title ref="#w_burhan">Burhān</title>
+            <citedRange corresp="#Afifi1956">II, 7, p. 165, 7-10</citedRange>
+          </bibl>
+        </cit>
+
+        <cit xml:id="burhan_2-9-178-17-19">
+          <bibl>
+            <author ref="#p_Avicenna">Avicenna</author>
+            <title ref="#w_burhan">Burhān</title>
+            <citedRange corresp="#Afifi1956">II, 9, p. 178, 17-19</citedRange>
+          </bibl>
+        </cit>
+
+      </div>
+    </body>
+  </text>
+</TEI>
