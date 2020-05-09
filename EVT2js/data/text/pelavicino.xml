@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+
+  <teiHeader>
 
       <fileDesc>
 
@@ -1560,7 +1561,7 @@
                   <note>Papa Alessandro IV, eletto il 21 maggio 1254 e consacrato il 20 dicembre
                      successivo. Muore a Viterbo il 25 maggio 1261 come da scheda di Raul Manselli
                      nel <ref
-                        target="#http://www.treccani.it/enciclopedia/papa-alessandro-iv_%28Dizionario-Biografico%29/"
+                        target="http://www.treccani.it/enciclopedia/papa-alessandro-iv_%28Dizionario-Biografico%29/"
                         type="biblio">Dizionario Biografico degli italiani</ref>, vol. 2
                      (1960.)</note>
                </person>
@@ -1606,7 +1607,7 @@
                   <sex>M</sex>
                   <occupation n="1">episcopus Bergamensis</occupation>
                   <note>Ambrogio II, vescovo di Bergamo attestato dal 1023 e morto nel 1058 (<ref
-                        target="SCHWARTZ_1913" type="biblio">SCHWARTZ 1913</ref>, p. 101).</note>
+                        target="#SCHWARTZ_1913" type="biblio">SCHWARTZ 1913</ref>, p. 101).</note>
                </person>
                <person xml:id="Amica">
                   <persName>
@@ -1812,7 +1813,7 @@
                   <sex>M</sex>
                   <occupation>Anselmo vescovo di Como attestato per la prima volta nel 1170 e morto
                      il 1° di aprile del 1193 o del 1194 come da scheda nel <ref
-                        target="#http://www.treccani.it/enciclopedia/anselmo_res-7cb0c69e-87e6-11dc-8e9d-0016357eee51_(Dizionario-Biografico)/"
+                        target="http://www.treccani.it/enciclopedia/anselmo_res-7cb0c69e-87e6-11dc-8e9d-0016357eee51_(Dizionario-Biografico)/"
                         type="biblio">Dizionario Biografico degli italiani</ref>, vol. 3
                      (1961).</occupation>
                </person>
@@ -3579,7 +3580,7 @@
                   <occupation n="1">marchio Istrie</occupation>
                   <note>Bertoldo IV d'Andechs, conte di Andechs, primo duca di Merania e marchese
                      d'Istria (dal 1175). Muore nel 1204. Si veda scheda di Heinrich Appelt su <ref
-                        target="#https://www.deutsche-biographie.de/gnd138735506.html">Neue Deutsche
+                        target="https://www.deutsche-biographie.de/gnd138735506.html">Neue Deutsche
                         Biographie</ref> , Band 2 (1955).</note>
                </person>
                <person xml:id="Bertolotus">
@@ -7768,7 +7769,7 @@
                   <occupation>episcopus, servus servorum Dei</occupation>
                   <note>Papa Eugenio III, eletto il 15 febbraio 1145, muore a Tivoli l'8 luglio 1153
                      come da scheda di Harald Zimmermann nel <ref
-                        target="#http://www.treccani.it/enciclopedia/papa-eugenio-iii_%28Dizionario_Biografico%29/"
+                        target="http://www.treccani.it/enciclopedia/papa-eugenio-iii_%28Dizionario_Biografico%29/"
                         type="biblio">Dizionario Biografico degli italiani</ref>, vol. 43
                      (1993)</note>
                </person>
@@ -7910,7 +7911,7 @@
                   <note>Federico VI di Hohenstaufen, figlio di Federico Barbarossa, duca di Svevia
                      dal 1170 fino alla morte intervenuta nel 1191 durante l'assedio di S. Giovanni
                      d'Acri come da scheda di Hansmartin Schwarzmaier in <ref
-                        target="#https://www.deutsche-biographie.de/gnd138740852.html" type="biblio"
+                        target="https://www.deutsche-biographie.de/gnd138740852.html" type="biblio"
                         >Neue Deutsche Biographie</ref>, Band 5 (1961)</note>
                </person>
                <person xml:id="FredericusimperatorI">
@@ -7920,7 +7921,7 @@
                   <sex>M</sex>
                   <occupation>imperator</occupation>
                   <note>Federico I imperatore, incoronato il 18 giugno 1155, morto il 10 giugno 1190
-                     come da <ref target="CAPPELLI_1988">CAPPELLI 1988</ref>, pp. 257-260.</note>
+                     come da <ref target="#CAPPELLI_1988">CAPPELLI 1988</ref>, pp. 257-260.</note>
                </person>
                <person xml:id="FredericusimperatorII">
                   <persName>
@@ -7930,7 +7931,7 @@
                   <occupation>imperator</occupation>
                   <note>Federico II imperatore, incoronato il 22 novembre 1220, morto il 13 dicembre
                      1250 come da scheda di Norbert Kamp nel <ref
-                        target="#http://www.treccani.it/enciclopedia/federico-ii-di-svevia-imperatore-re-di-sicilia-e-di-gerusalemme-re-dei-romani_%28Dizionario-Biografico%29/"
+                        target="http://www.treccani.it/enciclopedia/federico-ii-di-svevia-imperatore-re-di-sicilia-e-di-gerusalemme-re-dei-romani_%28Dizionario-Biografico%29/"
                         type="biblio">Dizionario Biografico degli italiani</ref>, vol. 45
                      (1995)</note>
                </person>
@@ -9811,7 +9812,7 @@
                      storiche universali. Nacque probabilmente a Viterbo intorno al 1125 e morì
                      nell'ultimo decennio del XII secolo come da scheda di Gian Maria Varanini nel
                         <ref
-                        target="#http://www.treccani.it/enciclopedia/goffredo-da-viterbo_(Dizionario-Biografico)/"
+                        target="http://www.treccani.it/enciclopedia/goffredo-da-viterbo_(Dizionario-Biografico)/"
                         type="biblio">Dizionario Biografico degli italiani</ref>, vol. 57
                      (2001).</note>
                </person>
@@ -10374,7 +10375,7 @@
                   <occupation n="1">archiepiscopus Mediolanesis</occupation>
                   <note>Guido da Velate, arcivescovo di Milano dal 1045 al 1068, morto nel 1071 (si
                      veda <ref
-                        target="#http://www.treccani.it/enciclopedia/guido-da-velate_%28Dizionario-Biografico%29//"
+                        target="http://www.treccani.it/enciclopedia/guido-da-velate_%28Dizionario-Biografico%29//"
                         type="biblio">Guido da Velate nel Dizionario Biografico degli
                      Italiani</ref>).</note>
                </person>
@@ -11195,7 +11196,7 @@
                   <note>Guglielmo da Capriano, nato intorno all 1130-1135, fu secondo vescovo di
                      Asti con questo nome dal 1173 al 1191 e in seguito arcivescovo di Ravenna, come
                      da scheda di Giuseppe Mazzanti nel <ref
-                        target="#http://www.treccani.it/enciclopedia/guglielmo-da-capriano_(Dizionario-Biografico)/"
+                        target="http://www.treccani.it/enciclopedia/guglielmo-da-capriano_(Dizionario-Biografico)/"
                         type="biblio">Dizionario Biografico degli italiani</ref>, vol. 60
                      (2003)</note>
                </person>
@@ -11677,7 +11678,7 @@
                   </persName>
                   <sex>M</sex>
                   <occupation>dominus de Carrara</occupation>
-                  <note>Si veda <ref target="RICCI_2012" type="biblio">RICCI 2012</ref>, pp.
+                  <note>Si veda <ref target="#RICCI_2012" type="biblio">RICCI 2012</ref>, pp.
                      42-45</note>
                </person>
                <person xml:id="GuilielmusTrina">
@@ -11976,7 +11977,7 @@
                         secundus Romanorum imperator augustus</emph>; (<ref target="#MGH_DD_HIII"
                         type="biblio">MGH DD HIII</ref>, pp. XXII-XXXI). Muore nel 1056 (si veda
                         <ref
-                        target="#http://www.treccani.it/enciclopedia/enrico-iii-imperatore-detto-il-nero/"
+                        target="http://www.treccani.it/enciclopedia/enrico-iii-imperatore-detto-il-nero/"
                         type="biblio">Enrico III su l’Enciclopedia Treccani </ref>).</note>
                </person>
                <person xml:id="Henrriguspres">
@@ -12038,7 +12039,7 @@
                   <sex>M</sex>
                   <occupation n="1">comes</occupation>
                   <note>Forse da identificare con Enrico II conte di Diez (Rheinland-Pfalz) nato
-                     intorno al 1142 e morto nel 1189. Si veda <ref target="SCHIEFFER_2001"
+                     intorno al 1142 e morto nel 1189. Si veda <ref target="#SCHIEFFER_2001"
                         >SCHIEFFER 2001</ref></note>
                </person>
                <person xml:id="HenricusFalcinello">
@@ -12551,7 +12552,7 @@
                   <note>Papa Innocenzo IV, al secolo Sinibaldo Fieschi, eletto il 25 giugno 1243;
                      muore a Napoli il 7 dicembre 1254 come da scheda di Agostino Paravicini
                      Bagliani nel <ref
-                        target="#http://www.treccani.it/enciclopedia/papa-innocenzo-iv_%28Dizionario-Biografico%29/"
+                        target="http://www.treccani.it/enciclopedia/papa-innocenzo-iv_%28Dizionario-Biografico%29/"
                         type="biblio">Dizionario Biografico degli italiani</ref>, vol. 62
                      (2004)</note>
                </person>
@@ -12644,7 +12645,7 @@
                      famiglia dei conti di Segni. Alessandro III lo elevò al titolo presbiteriale di
                      S. Marco alla fine del 1167 o agli inizi del 1168. Attestato l'ultima volta il
                      22 marzo 1196 come da scheda di Gabriele Archetti nel <ref
-                        target="#http://www.treccani.it/enciclopedia/giovanni-d-anagni_(Dizionario-Biografico)/"
+                        target="http://www.treccani.it/enciclopedia/giovanni-d-anagni_(Dizionario-Biografico)/"
                         type="biblio">Dizionario Biografico degli italiani</ref>, vol. 55
                      (2001).</note>
                </person>
@@ -14883,7 +14884,7 @@
                   <occupation n="1">comite Lavanie</occupation>
                   <note>Niccolò Fieschi, appartenente al ramo ligure dei conti di Lavagna, è
                      attestato dal 1247 al 1307 (<ref
-                        target="#http://www.treccani.it/enciclopedia/niccolo-fieschi_%28Dizionario-Biografico%29/"
+                        target="http://www.treccani.it/enciclopedia/niccolo-fieschi_%28Dizionario-Biografico%29/"
                         type="biblio">si veda Niccolò Fieschi nel Dizionario Biografico degli
                         Italiani</ref>).</note>
                </person>
@@ -17483,7 +17484,7 @@
                   <sex>M</sex>
                   <occupation n="1">camemarius</occupation>
                   <note>Da indentificarsi probabilmente con Rodolfo di Castelmur, sul quale <ref
-                        target="CASTELMUR_1978" type="biblio"> CASTELMUR_1978</ref></note>
+                        target="#CASTELMUR_1978" type="biblio"> CASTELMUR_1978</ref></note>
                </person>
                <person xml:id="Rodulfusnot">
                   <persName type="lista_notai">
@@ -19473,7 +19474,7 @@
                   </persName>
                   <sex>M</sex>
                   <occupation>dominus de Carrara</occupation>
-                  <note>Si veda <ref target="RICCI_2012" type="biblio">RICCI 2012</ref>, pp.
+                  <note>Si veda <ref target="#RICCI_2012" type="biblio">RICCI 2012</ref>, pp.
                      42-45</note>
 
                </person>
@@ -21532,7 +21533,7 @@
                <place xml:id="Biduzzano">
                   <settlement type="località">Biduçano/Biduzzano</settlement>
                   <district type="nei_pressi_di">Carrara</district>
-                  <note>Nei pressi di Carrara come da documento in <ref target="ASLu_DA"
+                  <note>Nei pressi di Carrara come da documento in <ref target="#ASLu_DA"
                         >ASLU_DA</ref>, 1393 agosto 27.</note>
                </place>
                <place xml:id="Bifurca">
@@ -22782,9 +22783,9 @@
                </place>
                <place xml:id="MonteFurca">
                   <settlement type="località">Monte Forca</settlement>
-                  <note>Il Monte Forca, già citato dal <ref target="REPETTI_1846">REPETTI
+                  <note>Il Monte Forca, già citato dal <ref target="#REPETTI_1846">REPETTI
                      1846</ref>, I p. 486, va identificato con l'attuale Monte Pizzacuto secondo il
-                        <ref target="CONTI_1976">CONTI 1976</ref>. </note>
+                        <ref target="#CONTI_1976">CONTI 1976</ref>. </note>
                </place>
                <place xml:id="MonteIanni">
                   <settlement type="località">Monte Ianni/Monteçanne</settlement>
@@ -23058,8 +23059,8 @@
                   <district type="comune">Fosdinovo</district>
                   <note>L'identificazione tra Pegazana e Paghezzana è stata suggerita da Giorgio
                      Saporiti (che ringraziamo), sulla base della seguente bibliografia: <ref
-                        target="FORMENTINI_1953" type="biblio">FORMENTINI 1953</ref>, p. 7; <ref
-                        target="PISTARINO_1961" type="biblio">PISTARINO 1961</ref>, p. 112.</note>
+                        target="#FORMENTINI_1953" type="biblio">FORMENTINI 1953</ref>, p. 7; <ref
+                        target="#PISTARINO_1961" type="biblio">PISTARINO 1961</ref>, p. 112.</note>
                </place>
                <place xml:id="Pera">
                   <settlement type="località">Pera</settlement>
@@ -23889,7 +23890,7 @@
                   <desc>Chiesa di cui non si conosce titolazione né collocazione. A Caprognano
                      (comune di Fosdinovo, provincia di Massa Carrara) è attestato un oratorio
                      dedicato a S. Lucia, ma edificato nel XVII secolo. Bibliografia: <ref
-                        target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, II, p.
+                        target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, II, p.
                      65.</desc>
                </org>
                <org xml:id="cappella_Vallecchia">
@@ -23900,10 +23901,10 @@
                <org xml:id="S_Andrea_Carrara">
                   <orgName type="ecclesia_plebs">S. Andrea Apostolo di Carrara</orgName>
                   <desc>Chiesa plebana di Carrara attestata per la prima volta nel maggio 1099 (<ref
-                        target="ASLU_SF" type="biblio">ASLU SF</ref>). Bibliografia: <ref
-                        target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, I, pp.
-                     177-185; <ref target="BUSELLI_1972" type="biblio">BUSELLI 1972</ref>; <ref
-                        target="BERTOZZI_1989" type="biblio">BERTOZZI 1989</ref>.</desc>
+                        target="#ASLU_SF" type="biblio">ASLU SF</ref>). Bibliografia: <ref
+                        target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, I, pp.
+                     177-185; <ref target="#BUSELLI_1972" type="biblio">BUSELLI 1972</ref>; <ref
+                        target="#BERTOZZI_1989" type="biblio">BERTOZZI 1989</ref>.</desc>
                </org>
                <org xml:id="S_Andrea_Fabiano">
                   <orgName type="ecclesia">S. Andrea diFabiano</orgName>
@@ -23912,24 +23913,24 @@
                <org xml:id="S_Andrea_Sarzana">
                   <orgName type="ecclesia_plebs">S. Andrea di Sarzana</orgName>
                   <desc>Chiesa attestata con certezza la prima volta il 3 giugno 1137 (<ref
-                        target="ASLU_SF" type="biblio">ASLU SF</ref>), poi elencata come pieve nella
+                        target="#ASLU_SF" type="biblio">ASLU SF</ref>), poi elencata come pieve nella
                         <ref target="#I_28">bolla di Egugenio III del 1148</ref> e nelle bolle
                      successive. Gli studiosi non sono concordi nello stabilire quando la chiesa
                      avrebbe assunto il ruolo di pieve ripsetto alla vicina pieve di S. Maria di
-                     Sarzana. Bibliografia: <ref target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI
-                        LALLAI 2000</ref>, I, pp. 187-194; <ref target="FORMENTINI_1951"
-                        type="biblio">FORMENTINI 1951</ref>; <ref target="CONTIP_1963" type="biblio"
-                        >CONTI 1963</ref>; <ref target="PISTARINO_1961a" type="biblio">PISTARINO
-                        1961a</ref>, p.25; <ref target="BONATTI_RATTI_1991" type="biblio">BONATTI
+                     Sarzana. Bibliografia: <ref target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI
+                        LALLAI 2000</ref>, I, pp. 187-194; <ref target="#FORMENTINI_1951"
+                        type="biblio">FORMENTINI 1951</ref>; <ref target="#CONTIP_1963" type="biblio"
+                        >CONTI 1963</ref>; <ref target="#PISTARINO_1961a" type="biblio">PISTARINO
+                        1961a</ref>, p.25; <ref target="#BONATTI_RATTI_1991" type="biblio">BONATTI
                         RATTI 1991</ref>, p. 14. </desc>
                </org>
                <org xml:id="S_Bartolomeo_Ceserano">
                   <orgName type="ecclesia">S. Bartolomeo di Ceserano</orgName>
                   <desc>Chiesa attestata per la prima volta nelle Decime Bonifaciane del 1296/97
-                        (<ref target="PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref> , p. 81)
+                        (<ref target="#PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref> , p. 81)
                      come <emph>cappella de Cisirano</emph> sotto la pieve di Soliera; non è chiaro
                      quando sia attestata per la prima volta la titolatura (<ref
-                        target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, II, p.
+                        target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, II, p.
                      151).</desc>
                </org>
                <org xml:id="S_Basilio_Sarzana">
@@ -23940,12 +23941,12 @@
                      avrebbe assunto il ruolo di pieve rispetto alla vicina pieve di S. Andrea di
                      Sarzana. Nel 1204 vi si trasferì la sede episcopale, fatto che determinò
                      probabilmente la titolazione alla Madonna e la progressiva decadenza della
-                     titolazione a S. Basilio. Bibliografia: <ref target="FRANCHI_LALLAI_2000"
+                     titolazione a S. Basilio. Bibliografia: <ref target="#FRANCHI_LALLAI_2000"
                         type="biblio">FRANCHI LALLAI 2000</ref>, I, pp. 187-194; <ref
-                        target="FORMENTINI_1951" type="biblio">FORMENTINI 1951</ref>; <ref
-                        target="CONTIP_1963" type="biblio">CONTI 1963</ref>; <ref
-                        target="PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref>, p.25; <ref
-                        target="BONATTI_RATTI_1991" type="biblio">BONATTI RATTI 1991</ref>, p.
+                        target="#FORMENTINI_1951" type="biblio">FORMENTINI 1951</ref>; <ref
+                        target="#CONTIP_1963" type="biblio">CONTI 1963</ref>; <ref
+                        target="#PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref>, p.25; <ref
+                        target="#BONATTI_RATTI_1991" type="biblio">BONATTI RATTI 1991</ref>, p.
                      14.</desc>
                </org>
                <org xml:id="S_Caprasio_Aulla">
@@ -23954,14 +23955,14 @@
                      titolatura alla Madonna a cui si aggiunse quella a Caprasio probabilmente tra X
                      e XI secolo. Nel 378 venne trasformato in commenda secolare di collazione dei
                      Malaspina. Trasformato nel 1817 in parrocchia col titolo di prepositura.
-                     Bibliografia: <ref target="BASSI_1927" type="biblio">BASSI 1927</ref>; <ref
-                        target="MUSSI_1946" type="biblio">MUSSI 1946</ref>; <ref
-                        target="FORMENTINI_1955" type="biblio">FORMENTINI 1955</ref>; <ref
-                        target="PISTARINO_1983" type="biblio">PISTARINO 1983</ref>; <ref
-                        target="PISTARINO_1986" type="biblio">PISTARINO 1986</ref>; <ref
-                        target="RICCIG_1986b" type="biblio">RICCIG 1986</ref>
-                     <ref target="RICCIG_1989a" type="biblio">RICCIG 1989a</ref>; <ref
-                        target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>,
+                     Bibliografia: <ref target="#BASSI_1927" type="biblio">BASSI 1927</ref>; <ref
+                        target="#MUSSI_1946" type="biblio">MUSSI 1946</ref>; <ref
+                        target="#FORMENTINI_1955" type="biblio">FORMENTINI 1955</ref>; <ref
+                        target="#PISTARINO_1983" type="biblio">PISTARINO 1983</ref>; <ref
+                        target="#PISTARINO_1986" type="biblio">PISTARINO 1986</ref>; <ref
+                        target="#RICCIG_1986b" type="biblio">RICCIG 1986</ref>
+                     <ref target="#RICCIG_1989a" type="biblio">RICCIG 1989a</ref>; <ref
+                        target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>,
                      pp.291-294.</desc>
                </org>
                <org xml:id="S_Croce_Corvo">
@@ -23972,14 +23973,14 @@
                      metà del XIV secolo per trasferirsi nella cappella dipendente di S. Croce. Nel
                      1453 papa Niccolò V annesse la chiesa di S. Croce e S. Nicodemo del Corvo con
                      tutti i suoi bene al Capitolo della cattedrale di Sarzana. Bibliografia: <ref
-                        target="MAZZINI_1909" type="biblio">MAZZINI 1970</ref>; <ref
-                        target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>,
+                        target="#MAZZINI_1909" type="biblio">MAZZINI 1970</ref>; <ref
+                        target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>,
                      pp.192, 202.</desc>
                </org>
                <org xml:id="S_Croce_FoceArno">
                   <orgName type="hospitalis">S. Croce alla Foce dell'Arno</orgName>
                   <desc>Ospedale e monastero cistercense presso Pisa, alla foce dell'Arno.
-                     Bibliografia: <ref target="COLOMBINI_2010" type="biblio">COLOMBINI
+                     Bibliografia: <ref target="#COLOMBINI_2010" type="biblio">COLOMBINI
                      2010.</ref></desc>
                </org>
 
@@ -23989,7 +23990,7 @@
                      che la tradizione fa risalire allo stesso San Frediano, presbitero irlandese
                      eletto vescovo di Lucca tra il 560 e il 588. Intorno all chiesa si raccolse una
                      comunità di canonici. Nel 1104 papa Pasquale II confermò i canonici affidandoli
-                     al clero di San Giovanni in Laterano. Bibliografia: <ref target="COTURRI_1974"
+                     al clero di San Giovanni in Laterano. Bibliografia: <ref target="#COTURRI_1974"
                         type="biblio">COTURRI 1974</ref></desc>
                </org>
                <org xml:id="S_Leonardo_Frigido">
@@ -24060,33 +24061,33 @@
                      località detta ancora oggi <emph> Ospedale</emph>. Attestato per la prima volta
                      nel marzo 1151 quando il vescovo di Luni donò l’ospedale <emph>in capite
                         paludis</emph>, con la cappella di san Leonardo, ai canonici di S. Frediano
-                     a Lucca, insieme all'ospedale di Monte Forca (<ref target="ASLU_SF"
+                     a Lucca, insieme all'ospedale di Monte Forca (<ref target="#ASLU_SF"
                         type="biblio">ASLU SF</ref> 11 marzo 1151). Entrambi gli ospedali rimasero
                      alle dipendenze di S. Frediano fino al 1204, dopo di cui le loro vicende si
                      diversificarono. Nel 1204 il vescovo di Luni cedette la chiesa di S. Pietro di
                      Avenza ai canonici di san Frediano per recuperare l’ospedale di S. Leonardo
-                        (<ref target="ASLU_SF" type="biblio">ASLU SF</ref> 1204 agosto 23). Anche se
+                        (<ref target="#ASLU_SF" type="biblio">ASLU SF</ref> 1204 agosto 23). Anche se
                      nel documento in questione l’ente è detto semplicemente <emph>ecclesia Sancti
                         Leonardi de Padule</emph> l’ospedale doveva ancora sussistere: lo prova <ref
                         target="#CCLXVIII_230">il documento di un solo anno anteriore</ref> in cui
                      il vescovo di Luni affittava terre presso l’<emph>hospitale de Palude</emph>.
-                     Bibliografia: <ref target="FERRARI_1912" type="biblio">FERRARI 1912</ref>, p.
-                     25; <ref target="PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref>, p. 50;
-                        <ref target="CONTI_1976" type="biblio">CONTI 1976 </ref>; <ref
-                        target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, I, pp.
+                     Bibliografia: <ref target="#FERRARI_1912" type="biblio">FERRARI 1912</ref>, p.
+                     25; <ref target="#PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref>, p. 50;
+                        <ref target="#CONTI_1976" type="biblio">CONTI 1976 </ref>; <ref
+                        target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, I, pp.
                      141-142 e 180-181.</desc>
                </org>
                <org xml:id="S_Lorenzo_Paghezzana">
                   <orgName type="ecclesia_cappella">S. Lorenzo di Paghezzana</orgName>
-                  <desc>Secondo <ref target="PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref> la
+                  <desc>Secondo <ref target="#PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref> la
                      cappella di Paghezzana è citata nelle collette del 1269 come <emph> capella de
                         Pegaciana</emph> e in quelle del 1298/99 come <emph>capella de
                         Pegaçiana</emph>. La prima attestazione pare sia de 1211 (<ref
-                        target="LUPO_GENTILE_1912" type="biblio">LUPO GENTILE 1912</ref>, n. 504.
+                        target="#LUPO_GENTILE_1912" type="biblio">LUPO GENTILE 1912</ref>, n. 504.
                      Apparteneva al Capitolo della Cattedrale. Dovrebbe corrispondere all’odierno
                      oratorio di Santa Burlanda, nella valle della Calcandola. Bibliografia: <ref
-                        target="FORMENTINI_1953" type="biblio">FORMENTINI 1953</ref> a p.7); <ref
-                        target="PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref>, p.146 nota 3).
+                        target="#FORMENTINI_1953" type="biblio">FORMENTINI 1953</ref> a p.7); <ref
+                        target="#PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref>, p.146 nota 3).
                      Contributo di Giorgio Saporiti che ringraziamo.</desc>
                </org>
                <org xml:id="S_Maria_Soliera">
@@ -24094,10 +24095,10 @@
                   <desc>Chiesa plebana attestata per la prima volta nel <ref target="#CCXXIIII_185">
                         998</ref>, si trovava nel centro dell'abitato dio Soliera ma venne demolita
                      alla metà del XX secolo e ricostruita in posizione diversa. Bibliografia: <ref
-                        target="FORMENTINI_1970" type="biblio">FORMENTINI 1970</ref>; <ref
-                        target="MANFREDI_1989" type="biblio">MANFREDI 1989</ref>; <ref
-                        target="RICCIG_1989b" type="biblio">RICCI G. 1989</ref>; <ref
-                        target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>,
+                        target="#FORMENTINI_1970" type="biblio">FORMENTINI 1970</ref>; <ref
+                        target="#MANFREDI_1989" type="biblio">MANFREDI 1989</ref>; <ref
+                        target="#RICCIG_1989b" type="biblio">RICCI G. 1989</ref>; <ref
+                        target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>,
                      pp.272-275.</desc>
                </org>
 
@@ -24107,8 +24108,8 @@
                      lasciato tracce archeologiche di età paelocristiana e bizantina; la notizia
                      documentaria più antica risale tuttavia all'879; nel 1204 la sede episcopale si
                      trasferì nella chiesa di S. Maria di Sarzana. Bibliografia: <ref
-                        target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, I, pp.
-                     187-194; <ref target="LUSUARDI_SIENA_2003" type="biblio">LUSUARDI SIENA
+                        target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, I, pp.
+                     187-194; <ref target="#LUSUARDI_SIENA_2003" type="biblio">LUSUARDI SIENA
                         2003</ref></desc>
                </org>
                <org xml:id="S_Maria_Parma">
@@ -24117,7 +24118,7 @@
                </org>
                <org xml:id="S_Maria_Pontetetto">
                   <orgName type="hospitalis">S. Maria di Pontetetto</orgName>
-                  <desc>Ospedale suburbano di Lucca. Si veda <ref target="REPETTI_1846"
+                  <desc>Ospedale suburbano di Lucca. Si veda <ref target="#REPETTI_1846"
                         type="biblio">REPETTI 1946</ref>, I, p. 538.</desc>
                </org>
                <org xml:id="S_Maria_Sarzana">
@@ -24129,18 +24130,18 @@
                      avrebbe assunto il ruolo di pieve rispetto alla vicina pieve di S. Andrea di
                      Sarzana. Nel 1204 vi si trasferì la sede episcopale, fatto che determinò
                      probabilmente la titolazione alla Madonna e la progressiva decadenza della
-                     titolazione a S. Basilio. Bibliografia: <ref target="FRANCHI_LALLAI_2000"
+                     titolazione a S. Basilio. Bibliografia: <ref target="#FRANCHI_LALLAI_2000"
                         type="biblio">FRANCHI LALLAI 2000</ref>, I, pp. 187-194; <ref
-                        target="FORMENTINI_1951" type="biblio">FORMENTINI 1951</ref>; <ref
-                        target="CONTIP_1963" type="biblio">CONTI 1963</ref>; <ref
-                        target="PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref>, p.25; <ref
-                        target="BONATTI_RATTI_1991" type="biblio">BONATTI RATTI 1991</ref>, p.
+                        target="#FORMENTINI_1951" type="biblio">FORMENTINI 1951</ref>; <ref
+                        target="#CONTIP_1963" type="biblio">CONTI 1963</ref>; <ref
+                        target="#PISTARINO_1961a" type="biblio">PISTARINO 1961a</ref>, p.25; <ref
+                        target="#BONATTI_RATTI_1991" type="biblio">BONATTI RATTI 1991</ref>, p.
                      14.</desc>
                </org>
                <org xml:id="S_Martino_Iliolo">
                   <orgName type="ecclesia">S. Martino di Iliolo</orgName>
                   <desc>Cappella dipendente dal capitolo della Cattedrale, oggi S. Martino di Casano
-                     nel comune di Ortonovo. Si veda <ref target="FRANCHI_LALLAI_2000" type="biblio"
+                     nel comune di Ortonovo. Si veda <ref target="#FRANCHI_LALLAI_2000" type="biblio"
                         >FRANCHI LALLAI 2000</ref>, I, pp.50, 141, 144, 337, 375 e II pp.
                      54-56.</desc>
                </org>
@@ -24149,7 +24150,7 @@
                   <desc>cappella attestata per la prima volta nel <ref target="#DV_467" type="doc"
                         >1255</ref>come <emph>ecclesia nova</emph>, ossia costruita o ricostruita da
                      poco; poi nelle Decime Bonifaciane della fine del XIII secolo. Bibliografia:
-                        <ref target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>,
+                        <ref target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>,
                      II, p. 67.</desc>
                </org>
                <org xml:id="S_Martino_Viano">
@@ -24157,15 +24158,15 @@
                   <desc>La pieve di Viano, intitolata a san Martino, è attestata per la prima nel
                      1140 e poi nelle bolle pontificie di conferma al vescovo di Luni. sorge isolata
                      nel comune di Fivizzano in località <emph>Pieve di Viano</emph>. Bibliografia:
-                        <ref target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>,
+                        <ref target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>,
                      I, pp. 268-271.</desc>
                </org>
                <org xml:id="S_Maurizio_Luni">
                   <orgName type="ecclesia_hospitalis">S. Maurizio</orgName>
                   <desc>Cappella e ospedale posti alla foce del Magra, prima appartenenti
                      alL’abbazia di San Venanzio di Ceparana e poi donati nel 1189 all'ospedale
-                     pisano di Santa Croce a Bocca d’Arno. Bibliografia: <ref target="AMBROSI_1992"
-                        type="biblio">AMBROSI 1992</ref>; <ref target="FRANCHI_LALLAI_2000"
+                     pisano di Santa Croce a Bocca d’Arno. Bibliografia: <ref target="#AMBROSI_1992"
+                        type="biblio">AMBROSI 1992</ref>; <ref target="#FRANCHI_LALLAI_2000"
                         type="biblio">FRANCHI LALLAI 2000</ref>, pp. 48., 51, 139-140.</desc>
                </org>
                <org xml:id="S_Michele_Montecchio">
@@ -24176,7 +24177,7 @@
                <org xml:id="S_Michele_Trebiano">
                   <orgName type="ecclesia_plebs">S. Michele di Trebiano</orgName>
                   <desc>Pieve di Trebiano, attestata per la prima volta dalla bolla di Eugenio III
-                     del 1148. Bibliografia: <ref target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI
+                     del 1148. Bibliografia: <ref target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI
                         LALLAI 2000</ref>, I, p. 201-205.</desc>
                </org>
                <org xml:id="hosp_Monte_Forca">
@@ -24187,8 +24188,8 @@
                      questo ceduto a S. Frediano di Lucca insieme all’ospedale di S. Leonardo <emph>
                         in capite paludis</emph>. Rimase alle dipendenze del monastero lucchese fino
                      al 1204. pare attestato ancora nel 1218. Bibliografia: <ref
-                        target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, I, p.
-                     180; <ref target="CONTI_1976">CONTI 1976 </ref>
+                        target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, I, p.
+                     180; <ref target="#CONTI_1976">CONTI 1976 </ref>
                   </desc>
                </org>
                <org xml:id="S_Pancrazio_Monte_Forca">
@@ -24199,14 +24200,14 @@
                <org xml:id="S_Paolo_RipaArno">
                   <orgName type="ecclesia">S. Paolo a Ripa d'Arno</orgName>
                   <desc>Chiesa, monastero e ospedale a Pisa. Bibliografia: <ref
-                        target="STIAFFINI_1983" type="biblio">STIAFFINI 1983</ref>.</desc>
+                        target="#STIAFFINI_1983" type="biblio">STIAFFINI 1983</ref>.</desc>
                </org>
                <org xml:id="S_Paolo_Vendaso">
                   <orgName type="ecclesia_plebs">S. Paolo</orgName>
                   <desc>Pieve attestata per la prima volta nella bolla di Eugenio III del 1148, si
                      trova anche oggi in posizione isolata nella località <emph>Pieve di San
                         Paolo</emph> nel comune di Fivizzano presso il borgo di Vendaso
-                     Bibliografia: <ref target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI
+                     Bibliografia: <ref target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI
                         2000</ref>, I, pp. 276-279. </desc>
                </org>
                <org xml:id="S_Pietro">
@@ -24216,19 +24217,19 @@
                <org xml:id="S_Pietro_Luni">
                   <orgName type="ecclesia">S. Pietro di Luni</orgName>
                   <desc>Chiesa oggi scomparsa ubicata fuori dalle mura settentrionali di Luni, nella
-                     località oggi detta <emph>San Pero. Bibliografia: <ref target="DADA_2012"
+                     località oggi detta <emph>San Pero. Bibliografia: <ref target="#DADA_2012"
                            type="biblio">DADA 2012</ref>, pp. 69-75</emph></desc>
                </org>
                <org xml:id="S_Pietro_Avenza">
                   <orgName type="ecclesia">S. Pietro di Avenza</orgName>
                   <desc>cappella attestata per la prima volta nel 1187. Bibliografia: <ref
-                        target="FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, II, p.
+                        target="#FRANCHI_LALLAI_2000" type="biblio">FRANCHI LALLAI 2000</ref>, II, p.
                      39.</desc>
                </org>
                <org xml:id="S_Sebastiano_Fabbriche">
                   <orgName type="ecclesia">S. Sebastiano alle Fabbriche Maggiori</orgName>
                   <desc>chiesa pisana, attestata dal 1074, si trovava nell'attuale piazza dei
-                     Cavalieri. Bibliografia: <ref target="GARZELLA_1991" type="biblio">GARZELLA
+                     Cavalieri. Bibliografia: <ref target="#GARZELLA_1991" type="biblio">GARZELLA
                         1991</ref>, pp.***</desc>
                </org>
                <org xml:id="S_Sila">
@@ -24249,24 +24250,24 @@
                   <desc>Cappella dell'omonima località di S. Terenzo al Bardine, pieve di Viano,
                      oggi comune di Fivizzano. La prima attestazione è incerta: un tale Transualdo
                      nel 728 o 729 fonda una chiesa dedicata a San Terenzio in <emph>Vico
-                        Coloniensis</emph>, che Pier Maria Conti (<ref target="CONTIP_1967"
+                        Coloniensis</emph>, che Pier Maria Conti (<ref target="#CONTIP_1967"
                         type="biblio">CONTIP 1967</ref>, p. ***) identifica con San Terenzo nella
                      valle del Bardine; nel 981 Ottone II conferma al vescovo di Luni <emph>
                         ecclesiam Sancti Terentii in loco qui dicitur Carrellia</emph> che Ubaldo
                      Fomentini identifica con S. Terenzo al Bardine, ma che Romeo Pavoni ritiene
-                     essere la cappella di Careola, presso Pontremoli (<ref target="PAVONI_1987"
+                     essere la cappella di Careola, presso Pontremoli (<ref target="#PAVONI_1987"
                         type="biblio">PAVONI 1987</ref>, p. 33).</desc>
                </org>
                <org xml:id="S_Venanzio_Ceparana">
                   <orgName type="monasterium_ecclesia">S. Venanzio di Ceparana</orgName>
                   <desc>Abbazia benedettina di S. Venanzio di Ceparana, i cui resti sono attualmente
                      inglobati nel complesso architettonico del palazzo Giustiniani, edificato nel
-                     XVIII secolo. Bibliografia: <ref target="CAVALLI_GHERARDI_1975_76"
-                        type="biblio">CAVALLI GHERARDI 1975-76</ref>, <ref target="POLONIO_1979"
-                        type="biblio">POLONIO 1979</ref>, <ref target="BONATTI_1984" type="biblio"
-                        >BONATTI 1984</ref>, <ref target="BONATTI_1986" type="biblio">BONATTI
-                        1986</ref>, <ref target="VECCHI_2003" type="biblio">VECCHI 2003</ref>, <ref
-                        target="BALDASSARRI_ANDREAZOZOLI_2005" type="biblio">BALDASSARRI ANDREAZZOLI
+                     XVIII secolo. Bibliografia: <ref target="#CAVALLI_GHERARDI_1975_76"
+                        type="biblio">CAVALLI GHERARDI 1975-76</ref>, <ref target="#POLONIO_1979"
+                        type="biblio">POLONIO 1979</ref>, <ref target="#BONATTI_1984" type="biblio"
+                        >BONATTI 1984</ref>, <ref target="#BONATTI_1986" type="biblio">BONATTI
+                        1986</ref>, <ref target="#VECCHI_2003" type="biblio">VECCHI 2003</ref>, <ref
+                        target="#BALDASSARRI_ANDREAZOZOLI_2005" type="biblio">BALDASSARRI ANDREAZZOLI
                         2005</ref>.</desc>
                </org>
                <org xml:id="S_Venerio">
@@ -24276,7 +24277,7 @@
                <org xml:id="S_Vincenzo_Ameglia">
                   <orgName type="plebs_ecclesia">S. Vincenzo di Ameglia</orgName>
                   <desc>chiesa plebana di Ameglia, nominata per la prima volta nella bolla di
-                     Eugenio III del 1148. Bibliografia: <ref target="FRANCHI_LALLAI_2000"
+                     Eugenio III del 1148. Bibliografia: <ref target="#FRANCHI_LALLAI_2000"
                         type="biblio">FRANCHI LALLAI 2000</ref>, I, pp. 201-203. </desc>
                </org>
                <org xml:id="S_Vitale">
@@ -26528,7 +26529,7 @@
                               Sarzane</placeName><note place="foot" n="a" xml:id="CI_n_001"><term
                                   xml:lang="latin">De castro Sarzane</term>
                               <emph>in inchiostro rosso.</emph></note>.</p>
-                      <p xml:id="CI_p_002" n="2"><ptr target="CI_st_001" facs="#st_214v_001"/> In eterni
+                      <p xml:id="CI_p_002" n="2"><ptr target="#CI_st_001" facs="#st_214v_001"/> In eterni
                           Dei nomine, amen. Quemadmodum in instrumento publico manu <persName
                               ref="#Bartholomeusnot">Bartholomei <roleName>notarii</roleName></persName>
                           confecto, quod ego <persName ref="#Confortusnot">Confortus
@@ -26785,17 +26786,17 @@
                                   <roleName>sacri palatii et Lunensis curie
                           notarius</roleName></persName>, hiis omnibus interfui rogatus et de voluntate
                           contrahentium de isto contractu plures cartas uno tenore scripsi.</p>
-                      <p xml:id="CI_p_007" n="7"><ptr target="CI_st_002" facs="#st_216r_001"/>Ego
+                      <p xml:id="CI_p_007" n="7"><ptr target="#CI_st_002" facs="#st_216r_001"/>Ego
                               <persName ref="#PinosiusIacopinusnot">Pinosius nomine Iacopinus,
                                   <roleName>Romanorum imperatoris notarius</roleName></persName>,
                           auttenticum huius exempli vidi et legi et ut in eo continebatur in hoc scripsi,
                           nichil addens vel minuens quod mutet sensum vel minuat intellectum.</p>
                       <p xml:id="CI_p_008" n="8">
-                          <ptr target="CI_st_003" facs="#st_216r_002"/>Ego <persName ref="#Prefectusnot"
+                          <ptr target="#CI_st_003" facs="#st_216r_002"/>Ego <persName ref="#Prefectusnot"
                               >Prefectus, <roleName>domini imperatoris atque Lunensis curie
                                   notarius</roleName></persName>, huius exempli autenticum vidi atque legi
                           et in eo subscripsi, signum proprium apponendo.</p>
-                      <p xml:id="CI_p_009" n="9"><ptr target="CI_st_004" facs="#st_216r_003"/> Ego
+                      <p xml:id="CI_p_009" n="9"><ptr target="#CI_st_004" facs="#st_216r_003"/> Ego
                               <persName ref="#Bonencontrusnot">Bonencontrus de <placeName
                                   ref="#Soliera">Soleria</placeName>, <roleName>aule sacre
                                   notarius</roleName></persName>, auttenticum huius exempli vidi et legi,
@@ -27135,7 +27136,7 @@
                        exceptis homicidii<note place="foot" n="l" xml:id="CII_n_010"><term
                                type="incerto">homicidiis</term>:<emph> così nel testo</emph></note>,
                        incendiariis et traditoribus, super quorum pena non habeatur remedium, <ref
-                           target="CII_richiamo"/><pb n="218r" xml:id="fol_218r"/> preter quod superius
+                           target="#CII_richiamo"/><pb n="218r" xml:id="fol_218r"/> preter quod superius
                        est notatum.</p>
                    <p xml:id="CII_p_031" n="31"><c>§</c> Si quis incurrerit aliquod maleficium, quod in
                        hoc breve non sit scriptum, puniatur arbitrio domini
@@ -27301,7 +27302,7 @@
                            et capannas iuxta vias, propter necessitatem deicere paleas et ruscum in
                            viam, ita tamen quod infra dictos duos menses paleam, ruscum et letamen de
                            via removeant et deportent; et si non fecerint et si dimiserint, perda<supplied reason="omitted">n</supplied>t denarios XII.</p>
-                       <p xml:id="CII_p_054" n="54"><ptr target="CII_st_001" facs="#st_217v_001"/> Ego
+                       <p xml:id="CII_p_054" n="54"><ptr target="#CII_st_001" facs="#st_217v_001"/> Ego
                                <persName ref="#GerardetusMontoni">Gerardetus, qui nominor Montonus,
                                    <roleName>palatii sacri notarius</roleName></persName>, hiis omnibus
                            interfui et rogatus duo instrumenta uno tenore scripsi, de voluntate et
