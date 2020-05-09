@@ -86,8 +86,8 @@
     ],
     
     "showDocumentSelector": false,
-    "enableNavBar": true,
-    "initNavBarOpened": true,
+    "enableNavBar": false,
+    "initNavBarOpened": false,
 
     "toolPinAppEntries": true,
     "toolImageTextLinking": true,
