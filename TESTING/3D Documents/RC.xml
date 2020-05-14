@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <listObject type="main" xml:id="RC_lo_main">
+          <object xml:id="RuthwellCross">
+            <objectIdentifier>
+              <objectName>Ruthwell Cross</objectName>
+              <!--<country>United Kingdom</country>
+                     <region>Dumfriesshire (Scotland)</region>
+                     <settlement>Ruthwell</settlement>-->
+              <institution>Historic Environment Scotland</institution>
+              <idno type="HES">https://www.historicenvironment.scot/visit-a-place/places/ruthwell-cross</idno>
+              <idno type="canmore">https://canmore.org.uk/site/66586/ruthwell-cross</idno>
+              <idno type="wikipedia">https://en.wikipedia.org/wiki/Ruthwell_Cross</idno>
+              <address>
+                <street>---</street>
+                <district>Dumfries and Galloway, Scotland, DG1 4NP</district>
+                <settlement>Ruthwell</settlement>
+                <country>United Kingdom</country>
+                <location>
+                  <geo>55.000361, 3.4075</geo>
+                </location>
+              </address>
+            </objectIdentifier>
+            <physDesc>
+              <p>The Ruthwell Cross is a 17 foot high stone cross in Ruthwell (Dumfriesshire, Scotland).</p>
+            </physDesc>
+            <history>
+              <origin>The Ruthwell Cross was erected in the <origDate>eighth century</origDate> at a former military
+                site (later probably a monastery) in Ruthwell (Dumfriesshire, Scotland) when the village was part of the
+                Anglo-Saxon <origPlace>Kingdom of Northumbria</origPlace>. It was pulled down and broken in the
+                seventeenth century and partially reconstructed in the nineteenth. It is now located in a small apse on
+                the north side of the Ruthwell parish church. The cross is perhaps best known for a runic inscription
+                that may represent the oldest known record of an Anglo-Saxon vernacular poem, versions of which can be
+                found in the tenth-century Vercelli Book and eleventh-century Brussels Cross (see Ó Carragáin 2005,
+                58-60; O'Donnell 1996, 287-288).</origin>
+            </history>
+
+            <additional>
+              <surrogates>
+                <ref target="http://http://vcg.isti.cnr.it/cross/">Experimental viewer</ref>
+                <ref target="https://zenodo.org/record/232415">Complete scan raw photograply [Zenodo]</ref>
+                <ref target="https://zenodo.org/record/1490878">High resolution 3D model [Zenodo]</ref>
+                <ref target="#Collingwood1927">Collingwood's drawings</ref>
+              </surrogates>
+            </additional>
+
+          </object>
+
+          <listObject subtype="south_side" type="part" xml:id="RC_lo_south_side">
+
+            <object type="panel">
+              <objectIdentifier>
+                <objectName>John the Evangelist with his symbol</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The Evangelist and his symbol, the eagle, face each other. Their pose, as well as the large size of
+                  the eagle in comparison to the evangelist, is intended to convey the divine inspiration passed to the
+                  human evangelist through his symbol. John appears to be seated. He reaches out towards his symbol with
+                  his left hand, which possibly supports a scroll or book. Traces of an inscription survive. The letters
+                  INP run upwards within the left border of the panel, while the letters BVM run downwards in the lower
+                  corner of the right border. They can most likely be reconstructed as the beginning and end of the
+                  Latin phrase ‘In principio erat verbum’ (In the beginning was the word), the opening line of John’s
+                  gospel.</p>
+                <p>This panel originally faced the other way, capping the west face of the Cross. It was placed back to
+                  front when the cross was reconstructed by the Rev Henry Duncan in 1823.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object type="transom">
+              <objectIdentifier>
+                <objectName>Transom</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The transom has never been found. The current stone is the work of the mason commissioned by Duncan
+                  to reconstruct the cross in 1823. The carvings are masonic symbols and were supplied by Duncan, a keen
+                  freemason: a triangle at the centre, flanked by a whale or dolphin to the left and a dragon to the
+                  right.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object type="panel">
+              <objectIdentifier>
+                <objectName>The Archer</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The lower arm of the cross-head contains an archer drawing back his bow, possibly firing an arrow at
+                  the eagle originally positioned at the top of this face of the cross (see west face). A square pouch
+                  hangs from a strap below his right arm. It may be meant to represent a quiver, though it has also been
+                  suggested that it is a book satchel and that the archer should be understood as firing arrows of
+                  scripture. The archer’s cloak flies out behind him emphasizing his dynamic pose and the force of his
+                  movement. The panel may relate to the words of the poem inscribed on the left border of the south
+                  face, where the cross describes itself as ‘wounded with arrows’.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object type="panel">
+              <objectIdentifier>
+                <objectName>The Visitation / Martha and Mary</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>There is some debate over the subject of this panel. Some scholars believe that it depicts the
+                  Visitation (Luke 1:30–56), the moment at which Elizabeth (pregnant with John the Baptist) and Mary
+                  (pregnant with the Christ child) embrace, and the Baptist leaps for joy in recognition of Christ’s
+                  divinity. Other scholars believe it represents the biblical sisters Martha and Mary (Luke 10:38–42),
+                  symbols of the active and contemplative sides of monastic life. Still others believe that it is a
+                  deliberate conflation of the two subjects. The concrete blocks and lower fragments of the panel were
+                  added by Duncan during his restoration of the cross. The difference in scale between the hemlines and
+                  feet in the lower section and the proportions and drapery of the torsos in the upper section may
+                  indicate that the block with the feet does not belong here and is, perhaps, part of a now lost
+                  monument. Unlike the other figures on this side of the cross, the women wear sturdy shoes or
+                  slippers.</p>
+                <p>The inscription is unique on the monument for its combination of Latin and runic letters. It reads
+                  […] marþ[a] (left border); mar[ia] m[…]r + (top border); dominnæ c[…] (right border). The words have
+                  been translated as either ‘Martha and Mary worthy women’, or, more problematically, ‘Martha and Mary,
+                  mother of the Lord’.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object type="panel">
+              <objectIdentifier>
+                <objectName>Mary Magdalene at the feet of Christ</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>This panel depicts Mary Magdalene washing Christ’s feet with her tears and drying them with her hair
+                  (Luke 7:37–8). The Magdalene’s massive hand and extended arm may have been meant to emphasize her
+                  gesture, and hence her penitence, or they may simply be the work of a second-rate carver. Christ
+                  stands above the Magdalene holding up a book in his covered left hand. His right hand was originally
+                  raised in blessing. His pose echoes that seen in the Christ over the beasts panel on the opposite face
+                  of the cross. The facial features of both figures have been hacked or worn away.</p>
+                <p>The Latin inscription surrounding the panel reads: + A[TT]V[LIT] [ALA]B[A]S (across the top); TRVM ·
+                  V[NGUE]NTI · &amp; S[T]AN[S] [R]E[TR]O SECVS PEDES (down the right side); · EIUS LACRIMIS · COEPIT
+                  RIGARE · PEDES EIUS &amp; CAPILLIS (down the left side) · CAPITIS SUI TERGEBAT (across the bottom).
+                  Translation: ‘+ She took an alabaster jar of ointment, and standing behind at his feet, she began to
+                  wash his feet with her tears and dried them with the hair of her head’.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object type="panel">
+              <objectIdentifier>
+                <objectName>Healing of the man born blind</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>Christ, on the left, extends his hand towards the man blind from birth (John 9:1–8) on the right. A
+                  thin diagonal line incised in the background of the panel indicates that Christ’s right hand may
+                  originally have held a wand with which to anoint the blind man’s eyes. While the blind man has been
+                  carved in profile, Christ’s body and face are turned slightly outwards, allowing us a better view of
+                  the miracle. The lower part of the panel may have been left blank by the sculptor for reasons unknown,
+                  or may have contained an inscription that was destroyed at a later date. The extension of the robes of
+                  the two figures over the border of the blank section of the panel is part of Duncan’s restoration.</p>
+                <p>The Latin inscription in the border reads: + ET PRAETERIENS · VIDI[T] (down the left side) {HOMINEM
+                  CAECVM} A NATIBITATE · ET S{ANAVIT EVM} (down the right side). Translation: ‘+ And passing by he saw a
+                  {man blind} from birth and {healed him}’.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object type="panel">
+              <objectIdentifier>
+                <objectName>The Annunciation (Luke 1:28)</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The archangel Gabriel seems to be entering at the left of the panel from a space outside the cross.
+                  The lower part of his robe flutters behind him, and both it and his right foot appear to overlap the
+                  panel’s left border. On the right, the Virgin Mary, facing out at us, holds on to her robe with her
+                  right hand as she shrinks slightly away from the angel in humility. Both figures are tall, elegant and
+                  finely carved, making this one of the most classicizing of the cross’s panels. The hole in the centre
+                  of the panel may be a relic cavity (perhaps for a relic of the True Cross), or it may have been made
+                  at some point during the toppling of the cross, or during its restoration and reconstruction.</p>
+                <p>All that remains of the inscription in the border are the letters ‘+ INGRESSVS ANG’ (across the top
+                  border), and ‘TE […] BE (down the left border). It has been reconstructed as ‘Ingressus angelus ad eam
+                  dixit ave gratia plena dominus tecum benedicta tu in mulieribus’ (Entering the angel said to her:
+                  “Hail full of grace, the Lord is with you; blessed are you among women”.)</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object type="base">
+              <objectIdentifier>
+                <objectName>Crucifixion</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>Crucifixion: The base of the cross may originally have been sunk in the ground and this carving added
+                  to it when the cross was raised and moved to a new location. It is carved in a 9th-century style, so
+                  is clearly later than the rest of the carvings on the cross. At the centre is the crucified Christ,
+                  his head drooping to the right. Discs representing the sun and the moon are carved either side of the
+                  top of his cross. The figures standing below the cross to either side of Christ may be the Virgin Mary
+                  and John the Evangelist, who witnessed the Crucifixion, or they may be Longinus and Stephaton, the
+                  spear- and sponge-bearer.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName></objectName>
+              </objectIdentifier>
+              <physDesc> </physDesc>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName></objectName>
+              </objectIdentifier>
+              <physDesc> </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName></objectName>
+              </objectIdentifier>
+              <physDesc> </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+          </listObject>
+
+        </listObject>
+
+        <listBibl>
+          <biblStruct type="book" xml:id="Collingwood1927">
+            <monogr>
+              <title level="m">Northumbrian crosses of the pre-Norman age</title>
+              <author><forename>William Gershom</forename><surname>Collingwood</surname></author>
+              <imprint>
+                <publisher>Faber &amp; Gwyer</publisher>
+                <date>1927</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </listBibl>
+
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <charDecl>
+        <char xml:id="feoh">
+          <charName>RUNIC LETTER FEHU FEOH FE F</charName>
+          <mapping type="transliterated">f</mapping>
+          <mapping type="runic">&#5792;</mapping>
+        </char>
+        <char xml:id="ur">
+          <charName>RUNIC LETTER URUZ UR U</charName>
+          <mapping type="transliterated">u</mapping>
+          <mapping type="runic">&#5794;</mapping>
+        </char>
+        <char xml:id="thurs">
+          <charName>RUNIC LETTER THURISAZ THURS THORN</charName>
+          <mapping type="transliterated">&#254;</mapping>
+          <mapping type="runic">&#5798;</mapping>
+        </char>
+        <char xml:id="os">
+          <charName>RUNIC LETTER OS O</charName>
+          <mapping type="transliterated">o</mapping>
+          <mapping type="runic">&#5801;</mapping>
+        </char>
+        <char xml:id="rad">
+          <charName>RUNIC LETTER RAIDO RAD REID R</charName>
+          <mapping type="transliterated">r</mapping>
+          <mapping type="runic">&#5809;</mapping>
+        </char>
+        <char xml:id="cen">
+          <charName>RUNIC LETTER CEN</charName>
+          <mapping type="transliterated">c</mapping>
+          <mapping type="runic">&#5811;</mapping>
+        </char>
+        <char xml:id="gyfu">
+          <charName>RUNIC LETTER GEBO GYFU G</charName>
+          <mapping type="transliterated">g</mapping>
+          <mapping type="runic">&#5815;</mapping>
+        </char>
+        <char xml:id="wyn">
+          <charName>RUNIC LETTER WUNJO WYNN W</charName>
+          <mapping type="transliterated">w</mapping>
+          <mapping type="runic">&#5817;</mapping>
+        </char>
+        <char xml:id="haegl">
+          <charName>RUNIC LETTER HAEGL H</charName>
+          <mapping type="transliterated">h</mapping>
+          <mapping type="runic">&#5819;</mapping>
+        </char>
+        <char xml:id="nyd">
+          <charName>RUNIC LETTER NAUDIZ NYD NAUD N</charName>
+          <mapping type="transliterated">n</mapping>
+          <mapping type="runic">&#5822;</mapping>
+        </char>
+        <char xml:id="is">
+          <charName>RUNIC LETTER ISAZ IS ISS I</charName>
+          <mapping type="transliterated">i</mapping>
+          <mapping type="runic">&#5825;</mapping>
+        </char>
+        <char xml:id="jera">
+          <charName>RUNIC LETTER JERAN J</charName>
+          <mapping type="transliterated">j</mapping>
+          <mapping type="runic">&#5827;</mapping>
+        </char>
+        <char xml:id="ger">
+          <charName>RUNIC LETTER GER</charName>
+          <mapping type="transliterated">j</mapping>
+          <mapping type="runic">&#5828;</mapping>
+        </char>
+        <char xml:id="iw">
+          <charName>RUNIC LETTER IWAZ EOH</charName>
+          <mapping type="transliterated">&#658;</mapping>
+          <mapping type="runic">&#5831;</mapping>
+        </char>
+        <char xml:id="peorth">
+          <charName>RUNIC LETTER PERTHO PEORTH P</charName>
+          <mapping type="transliterated">p</mapping>
+          <mapping type="runic">&#5832;</mapping>
+        </char>
+        <char xml:id="eolh">
+          <charName>RUNIC LETTER ALGIZ EOLHX</charName>
+          <mapping type="transliterated">z</mapping>
+          <mapping type="runic">&#5833;</mapping>
+        </char>
+        <char xml:id="sigel">
+          <charName>RUNIC LETTER SIGEL LONG-BRANCH-SOL S</charName>
+          <mapping type="transliterated">s</mapping>
+          <mapping type="runic">&#5835;</mapping>
+        </char>
+        <char xml:id="tir">
+          <charName>RUNIC LETTER TIWAZ TIR TYR T</charName>
+          <mapping type="transliterated">t</mapping>
+          <mapping type="runic">&#5839;</mapping>
+        </char>
+        <char xml:id="beorc">
+          <charName>RUNIC LETTER BERKANAN BEORC</charName>
+          <mapping type="transliterated">b</mapping>
+          <mapping type="runic">&#5842;</mapping>
+        </char>
+        <char xml:id="eoh">
+          <charName>RUNIC LETTER EHWAZ EH E</charName>
+          <mapping type="transliterated">e</mapping>
+          <mapping type="runic">&#5846;</mapping>
+        </char>
+        <char xml:id="man">
+          <charName>RUNIC LETTER MANNAZ MAN M</charName>
+          <mapping type="transliterated">m</mapping>
+          <mapping type="runic">&#5847;</mapping>
+        </char>
+        <char xml:id="lagu">
+          <charName>RUNIC LETTER LAUKAZ LAGU LOGR</charName>
+          <mapping type="transliterated">l</mapping>
+          <mapping type="runic">&#5850;</mapping>
+        </char>
+        <char xml:id="ing">
+          <charName>RUNIC LETTER ING</charName>
+          <mapping type="transliterated">&#331;</mapping>
+          <mapping type="runic">&#5853;</mapping>
+        </char>
+        <char xml:id="daeg">
+          <charName>RUNIC LETTER DAGAZ DAEG D</charName>
+          <mapping type="transliterated">d</mapping>
+          <mapping type="runic">&#5854;</mapping>
+        </char>
+        <char xml:id="ac">
+          <charName>RUNIC LETTER AC A</charName>
+          <mapping type="transliterated">a</mapping>
+          <mapping type="runic">&#5802;</mapping>
+        </char>
+        <char xml:id="aesc">
+          <charName>RUNIC LETTER AESC</charName>
+          <mapping type="transliterated">&#230;</mapping>
+          <mapping type="runic">&#5803;</mapping>
+        </char>
+        <char xml:id="yr">
+          <charName>RUNIC LETTER Y</charName>
+          <mapping type="transliterated">y</mapping>
+          <mapping type="runic">&#5796;</mapping>
+        </char>
+        <char xml:id="ear">
+          <charName>RUNIC LETTER EAR</charName>
+          <mapping type="transliterated">ea</mapping>
+          <mapping type="runic">&#5856;</mapping>
+        </char>
+        <char xml:id="gar">
+          <charName>RUNIC LETTER GAR</charName>
+          <mapping type="transliterated">g</mapping>
+          <mapping type="runic">&#5816;</mapping>
+        </char>
+        <char xml:id="cealc">
+          <charName>RUNIC LETTER CEALC</charName>
+          <mapping type="transliterated">k</mapping>
+          <mapping type="runic">&#5860;</mapping>
+        </char>
+        <char xml:id="ethel">
+          <charName>RUNIC LETTER OTHALAN ETHEL O</charName>
+          <mapping type="transliterated">œ</mapping>
+          <mapping type="runic">&#5855;</mapping>
+        </char>
+        <char xml:id="calc">
+          <charName>RUNIC LETTER CALC</charName>
+          <mapping type="transliterated">k</mapping>
+          <mapping type="runic">&#5859;</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
+
+  </teiHeader>
+
+  <text>
+      <body>
+
+        <div type="side" xml:id="RC_ES">
+
+          <head>East Side</head>
+          
+          <!--                RUNIC TEXT                -->
+          <div type="facsimile">
+            <ab type="strip_horiz_ES" xml:id="RC_ES_ab0">
+              <lb n="1"/><w xml:id="RC_W_000" part="I"><g xml:id="RC_G_001" ref="#os"/><g xml:id="RC_G_002" ref="#nyd"/><g xml:id="RC_G_003" ref="#daeg"/><g xml:id="RC_G_004" ref="#gyfu"/><g xml:id="RC_G_005" ref="#eoh"/><g xml:id="RC_G_006" ref="#rad"/><g xml:id="RC_G_007" ref="#eoh"/></w>
+            </ab>
+            <ab type="strip_right_ES" xml:id="RC_ES_ab1">
+              <lb n="1"/><w xml:id="RC_W_001" part="F"><g xml:id="RC_G_008" ref="#daeg"/><g xml:id="RC_G_009" ref="#aesc"/></w>
+              <lb n="2"/><w xml:id="RC_W_002"><g xml:id="RC_G_010" ref="#haegl"/><g xml:id="RC_G_011" ref="#is"/><lb n="3"/><g xml:id="RC_G_012" ref="#nyd"/><g xml:id="RC_G_013" ref="#aesc"/></w>
+              <lb n="4"/><w xml:id="RC_W_003"><g xml:id="RC_G_014" ref="#gar"/><g xml:id="RC_G_015" ref="#os"/><lb n="5"/><g xml:id="RC_G_016" ref="#daeg"/></w>
+              <w xml:id="RC_W_004"><g xml:id="RC_G_017" ref="#ac"/><lb n="6"/><g xml:id="RC_G_018" ref="#lagu"/><g xml:id="RC_G_019" ref="#man"/><lb n="7"/><g xml:id="RC_G_020" ref="#eoh"/><g xml:id="RC_G_021" ref="#iw"/><lb n="8"/><g xml:id="RC_G_022" ref="#tir"/><g xml:id="RC_G_023" ref="#tir"/><g xml:id="RC_G_024" ref="#is"/><lb n="9"/><g xml:id="RC_G_025" ref="#gar"/></w>
+              <w xml:id="RC_W_005"><g xml:id="RC_G_026" ref="#thurs"/><lb n="10"/><g xml:id="RC_G_027" ref="#ac"/></w>
+              <w xml:id="RC_W_006"><g xml:id="RC_G_028" ref="#haegl"/><lb n="11"/><g xml:id="RC_G_029" ref="#eoh"/></w>
+              <w xml:id="RC_W_007"><g xml:id="RC_G_030" ref="#wyn"/><lb n="12"/><g xml:id="RC_G_031" ref="#ac"/><g xml:id="RC_G_032" ref="#lagu"/><lb n="13"/><g xml:id="RC_G_033" ref="#daeg"/><g xml:id="RC_G_034" ref="#eoh"/></w>
+              <lb n="14"/><w xml:id="RC_W_008"><g xml:id="RC_G_035" ref="#os"/><g xml:id="RC_G_036" ref="#nyd"/></w>
+              <lb n="15"/><w xml:id="RC_W_009"><g xml:id="RC_G_037" ref="#gar"/><g xml:id="RC_G_038" ref="#ac"/><lb n="16"/><g xml:id="RC_G_039" ref="#lagu"/><g xml:id="RC_G_040" ref="#gar"/><lb n="17"/><g xml:id="RC_G_041" ref="#ur"/></w>
+              <w xml:id="RC_W_010"><g xml:id="RC_G_042" ref="#gar"/><lb n="18"/><g xml:id="RC_G_043" ref="#is"/><g xml:id="RC_G_044" ref="#sigel"/><g xml:id="RC_G_045" ref="#tir"/><lb n="19"/><g xml:id="RC_G_046" ref="#is"/><g xml:id="RC_G_047" ref="#gar"/><g xml:id="RC_G_048" ref="#ac"/></w>
+              <lb n="20"/><w xml:id="RC_W_011"><g xml:id="RC_G_049" ref="#man"/><g xml:id="RC_G_050" ref="#os"/><g xml:id="RC_G_051" ref="#daeg"/><lb n="21"/><g xml:id="RC_G_052" ref="#is"/><g xml:id="RC_G_053" ref="#gar"/><g xml:id="RC_G_054" ref="#feoh"/></w>
+              <w xml:id="RC_W_012"><lb n="22"/><g xml:id="RC_G_055" ref="#os"/><g xml:id="RC_G_056" ref="#rad"/><g xml:id="RC_G_057" ref="#eoh"/></w>
+              <lb n="23"/><w xml:id="RC_W_013"><g xml:id="RC_G_058" ref="#ac"/><g xml:id="RC_G_059" ref="#lagu"/><g xml:id="RC_G_060" ref="#lagu"/><g xml:id="RC_G_061" ref="#aesc"/></w>
+              <lb n="24"/><w xml:id="RC_W_014"><g xml:id="RC_G_062" ref="#man"/><g xml:id="RC_G_063" ref="#eoh"/><g xml:id="RC_G_064" ref="#nyd"/></w>
+              <lb n="25"/><w xml:id="RC_W_015"><g xml:id="RC_G_065" ref="#beorc"/><g xml:id="RC_G_066" ref="#ur"/><g xml:id="RC_G_067" ref="#gar"/><lb n="26"/><g xml:id="RC_G_068" ref="#ac"/></w>
+            </ab>
+            <ab type="strip_left_ES" xml:id="RC_ES_ab2">
+              <lb n="1"/><w xml:id="RC_W_016"><g xml:id="RC_G_069" ref="#ac"/><g xml:id="RC_G_070" ref="#haegl"/><lb n="2"/><g xml:id="RC_G_071" ref="#os"/><g xml:id="RC_G_072" ref="#feoh"/></w>
+              <lb n="3"/><w xml:id="RC_W_017"><g xml:id="RC_G_073" ref="#is"/><g xml:id="RC_G_074" ref="#cen"/></w>
+              <w xml:id="RC_W_018"><g xml:id="RC_G_075" ref="#rad"/><lb n="4"/><g xml:id="RC_G_076" ref="#is"/><g xml:id="RC_G_077" ref="#is"/><g xml:id="RC_G_078" ref="#cen"/><g xml:id="RC_G_079" ref="#nyd"/><lb n="5"/><g xml:id="RC_G_080" ref="#aesc"/></w>
+              <w xml:id="RC_W_019"><g xml:id="RC_G_081" ref="#cealc"/><g xml:id="RC_G_082" ref="#yr"/><lb n="6"/><g xml:id="RC_G_083" ref="#nyd"/><g xml:id="RC_G_084" ref="#is"/><g xml:id="RC_G_085" ref="#ing"/></w>
+              <lb n="7"/><w xml:id="RC_W_020"><g xml:id="RC_G_086" ref="#cen"/><g xml:id="RC_G_087" ref="#haegl"/><g xml:id="RC_G_088" ref="#ear"/><lb n="8"/><g xml:id="RC_G_089" ref="#feoh"/><g xml:id="RC_G_090" ref="#ur"/><g xml:id="RC_G_091" ref="#nyd"/><lb n="9"/><g xml:id="RC_G_092" ref="#aesc"/><g xml:id="RC_G_093" ref="#sigel"/></w>
+              <w xml:id="RC_W_021"><g xml:id="RC_G_094" ref="#haegl"/><lb n="10"/><g xml:id="RC_G_095" ref="#lagu"/><g xml:id="RC_G_096" ref="#ac"/><g xml:id="RC_G_097" ref="#feoh"/><lb n="11"/><g xml:id="RC_G_098" ref="#ac"/><g xml:id="RC_G_099" ref="#rad"/><g xml:id="RC_G_100" ref="#daeg"/></w>
+              <lb n="12"/><w xml:id="RC_W_022"><g xml:id="RC_G_101" ref="#haegl"/><g xml:id="RC_G_102" ref="#aesc"/><g xml:id="RC_G_103" ref="#lagu"/><lb n="13"/><g xml:id="RC_G_104" ref="#daeg"/><g xml:id="RC_G_105" ref="#ac"/></w>
+              <w xml:id="RC_W_023"><g xml:id="RC_G_106" ref="#is"/><g xml:id="RC_G_107" ref="#cen"/></w>
+              <lb n="14"/><w xml:id="RC_W_024"><g xml:id="RC_G_108" ref="#nyd"/><g xml:id="RC_G_109" ref="#is"/></w>
+              <w xml:id="RC_W_025"><g xml:id="RC_G_110" ref="#daeg"/><g xml:id="RC_G_111" ref="#os"/><lb n="15"/><g xml:id="RC_G_112" ref="#rad"/><g xml:id="RC_G_113" ref="#sigel"/><g xml:id="RC_G_114" ref="#tir"/><g xml:id="RC_G_115" ref="#aesc"/></w>
+              <lb n="16"/><w xml:id="RC_W_026"><g xml:id="RC_G_116" ref="#beorc"/><g xml:id="RC_G_117" ref="#is"/><g xml:id="RC_G_118" ref="#sigel"/><g xml:id="RC_G_119" ref="#man"/><lb n="17"/><g xml:id="RC_G_120" ref="#aesc"/><g xml:id="RC_G_121" ref="#rad"/><g xml:id="RC_G_122" ref="#aesc"/><g xml:id="RC_G_123" ref="#daeg"/><lb n="18"/><g xml:id="RC_G_124" ref="#ur"/></w>
+              <w xml:id="RC_W_027"><g xml:id="RC_G_125" ref="#ur"/><g xml:id="RC_G_126" ref="#ing"/><lb n="19"/><g xml:id="RC_G_127" ref="#cealc"/><g xml:id="RC_G_128" ref="#eoh"/><g xml:id="RC_G_129" ref="#tir"/></w>
+              <lb n="20"/><w xml:id="RC_W_028"><g xml:id="RC_G_130" ref="#man"/><g xml:id="RC_G_131" ref="#eoh"/><g xml:id="RC_G_132" ref="#nyd"/></w>
+              <lb n="21"/><w xml:id="RC_W_029"><g xml:id="RC_G_133" ref="#beorc"/><g xml:id="RC_G_134" ref="#ac"/></w>
+              <w xml:id="RC_W_030"><g xml:id="RC_G_135" ref="#aesc"/><g xml:id="RC_G_136" ref="#tir"/><lb n="22"/><g xml:id="RC_G_137" ref="#gar"/><g xml:id="RC_G_138" ref="#ac"/><g xml:id="RC_G_139" ref="#daeg"/><lb n="23"/><g xml:id="RC_G_140" ref="#rad"/><g xml:id="RC_G_141" ref="#eoh"/></w>
+              <w xml:id="RC_W_031"><g xml:id="RC_G_142" ref="#is"/><g xml:id="RC_G_143" ref="#cen"/></w>
+              <lb n="24"/><w xml:id="RC_W_032"><g xml:id="RC_G_144" ref="#wyn"/><g xml:id="RC_G_145" ref="#aesc"/><g xml:id="RC_G_146" ref="#sigel"/></w>
+              <lb n="25"/><w xml:id="RC_W_033"><g xml:id="RC_G_147" ref="#man"/><g xml:id="RC_G_148" ref="#is"/><g xml:id="RC_G_149" ref="#nyd"/></w>
+              <w xml:id="RC_W_034"><g xml:id="RC_G_150" ref="#beorc"/><lb n="26"/><g xml:id="RC_G_151" ref="#lagu"/><g xml:id="RC_G_152" ref="#os"/><g xml:id="RC_G_153" ref="#daeg"/><g xml:id="RC_G_154" ref="#aesc"/></w>
+              <lb n="27"/><w xml:id="RC_W_035"><g xml:id="RC_G_155" ref="#beorc"/><g xml:id="RC_G_156" ref="#is"/><g xml:id="RC_G_157" ref="#sigel"/><g xml:id="RC_G_158" ref="#thurs"/><lb n="28"/><g xml:id="RC_G_159" ref="#eoh"/><g xml:id="RC_G_160" ref="#man"/><g xml:id="RC_G_161" ref="#is"/><lb n="29"/><g xml:id="RC_G_162" ref="#daeg"/></w>
+              <w xml:id="RC_W_036"><g xml:id="RC_G_163" ref="#beorc"/><g xml:id="RC_G_164" ref="#is"/></w>
+            </ab>
+          </div>
+
+          <div type="edition">
+            
+          <lg n="I">
+
+            <l n="39">[+Ond]geredæ hinæ Ḡod almehttig,</l>
+            <l n="40">þā hē walde on ḡalḡu gistīḡa,</l>
+
+            <l n="41">[m]odig f[ore allæ] men.</l>
+
+            <l n="42">[B]ūḡ[a] ic ni dorstæ…………..]</l>
+
+          </lg>
+            
+          <lg n="II">
+
+            <l n="44">[Āhōf] ic riicnæ K̄yniŋc</l>
+            <l n="45">heafunæs H[l]afard, hælda ic ni dorstæ.</l>
+
+            <l n="48">[B]ismærædu uŋk̄et men bā æt[ḡ]ad[re]; ic [wæs] miþ blōdæ [b]ist[ē]mi[d],</l>
+            <l n="49">bi[goten of……………………………………….]</l>
+
+          </lg>
+  
+          </div>
+        
+        </div>
+        
+        <div type="side" xml:id="RC_WS">
+          <head>West Side</head>
+          
+          <!--                RUNIC TEXT                -->
+          <div type="facsimile">
+            <ab type="strip_horiz_WS" xml:id="RC_WS_ab0">
+              <lb n="1"/><w xml:id="RC_W_037"><g xml:id="RC_G_165" ref="#calc"/><g xml:id="RC_G_166" ref="#rad"/><g xml:id="RC_G_167" ref="#is"/><g xml:id="RC_G_168" ref="#sigel"/><g xml:id="RC_G_169" ref="#tir"/></w>
+              <w xml:id="RC_W_038"><g xml:id="RC_G_170" ref="#wyn"/><g xml:id="RC_G_171" ref="#aesc"/><g xml:id="RC_G_172" ref="#sigel"/></w>
+              <w xml:id="RC_W_039"><g xml:id="RC_G_173" ref="#os"/><g xml:id="RC_G_174" ref="#nyd"/></w>
+            </ab>
+            <ab type="strip_right_WS" xml:id="RC_WS_ab1">
+              <lb n="1"/><w xml:id="RC_W_049"><g xml:id="RC_G_175" ref="#rad"/><g xml:id="RC_G_176" ref="#os"/><lb n="2"/><g xml:id="RC_G_177" ref="#daeg"/><g xml:id="RC_G_178" ref="#is"/></w>
+              <lb n="3"/><w xml:id="RC_W_050"><g xml:id="RC_G_179" ref="#haegl"/><g xml:id="RC_G_180" ref="#wyn"/><lb n="4"/><g xml:id="RC_G_181" ref="#eoh"/><g xml:id="RC_G_182" ref="#thurs"/><lb n="5"/><g xml:id="RC_G_183" ref="#rad"/><g xml:id="RC_G_184" ref="#aesc"/></w>
+              <lb n="6"/><w xml:id="RC_W_051"><g xml:id="RC_G_185" ref="#thurs"/><g xml:id="RC_G_186" ref="#eoh"/><lb n="7"/><g xml:id="RC_G_187" ref="#rad"/></w>
+              <w xml:id="RC_W_052"><g xml:id="RC_G_188" ref="#feoh"/><lb n="8"/><g xml:id="RC_G_189" ref="#ur"/><g xml:id="RC_G_190" ref="#sigel"/><g xml:id="RC_G_191" ref="#aesc"/></w>
+              <w xml:id="RC_W_053"><lb n="9"/><g xml:id="RC_G_192" ref="#feoh"/><g xml:id="RC_G_193" ref="#ear"/><g xml:id="RC_G_194" ref="#rad"/><lb n="10"/><g xml:id="RC_G_195" ref="#rad"/><g xml:id="RC_G_196" ref="#ac"/><g xml:id="RC_G_197" ref="#nyd"/></w>
+              <lb n="11"/><w xml:id="RC_W_054"><g xml:id="RC_G_198" ref="#calc"/><g xml:id="RC_G_199" ref="#wyn"/><g xml:id="RC_G_200" ref="#os"/><lb n="12"/><g xml:id="RC_G_201" ref="#man"/><g xml:id="RC_G_202" ref="#ur"/></w>
+              <w xml:id="RC_W_055"><g xml:id="RC_G_203" ref="#aesc"/><lb n="13"/><g xml:id="RC_G_204" ref="#thurs"/><g xml:id="RC_G_205" ref="#thurs"/><g xml:id="RC_G_206" ref="#is"/><g xml:id="RC_G_207" ref="#lagu"/><lb n="14"/><g xml:id="RC_G_208" ref="#aesc"/></w>
+              <w xml:id="RC_W_056"><g xml:id="RC_G_209" ref="#tir"/><g xml:id="RC_G_210" ref="#is"/><g xml:id="RC_G_211" ref="#lagu"/><lb n="15"/><g xml:id="RC_G_212" ref="#ac"/><g xml:id="RC_G_213" ref="#nyd"/><g xml:id="RC_G_214" ref="#ur"/><lb n="16"/><g xml:id="RC_G_215" ref="#man"/></w>
+              <w xml:id="RC_W_057"><g xml:id="RC_G_216" ref="#is"/><g xml:id="RC_G_217" ref="#cen"/></w>
+              <lb n="17"/><w xml:id="RC_W_058"><g xml:id="RC_G_218" ref="#thurs"/><g xml:id="RC_G_219" ref="#aesc"/><g xml:id="RC_G_220" ref="#tir"/></w>
+              <w xml:id="RC_W_059"><g xml:id="RC_G_221" ref="#ac"/><lb n="18"/><g xml:id="RC_G_222" ref="#lagu"/></w>
+              <w xml:id="RC_W_060"><g xml:id="RC_G_223" ref="#beorc"/><g xml:id="RC_G_224" ref="#is"/><g xml:id="RC_G_225" ref="#haegl"/><lb n="19"/><g xml:id="RC_G_226" ref="#ear"/><g xml:id="RC_G_227" ref="#lagu"/><g xml:id="RC_G_228" ref="#daeg"/></w>
+              <lb n="20"/><w xml:id="RC_W_061"><g xml:id="RC_G_229" ref="#sigel"/><g xml:id="RC_G_230" ref="#ac"/><g xml:id="RC_G_231" ref="#rad"/><g xml:id="RC_G_232" ref="#eoh"/></w>
+              <lb n="21"/><w xml:id="RC_W_062"><g xml:id="RC_G_233" ref="#is"/><g xml:id="RC_G_234" ref="#cen"/></w>
+              <w xml:id="RC_W_063"><g xml:id="RC_G_235" ref="#wyn"/><g xml:id="RC_G_236" ref="#aesc"/><lb n="22"/><g xml:id="RC_G_237" ref="#sigel"/></w>
+              <w xml:id="RC_W_064"><g xml:id="RC_G_238" ref="#man"/><g xml:id="RC_G_239" ref="#is"/><g xml:id="RC_G_240" ref="#thurs"/></w>
+              <lb n="23"/><w xml:id="RC_W_065"><g xml:id="RC_G_241" ref="#sigel"/><g xml:id="RC_G_242" ref="#os"/><g xml:id="RC_G_243" ref="#rad"/><lb n="24"/><g xml:id="RC_G_244" ref="#gar"/><g xml:id="RC_G_245" ref="#ur"/><g xml:id="RC_G_246" ref="#man"/></w>
+              <lb n="25"/><w xml:id="RC_W_066"><g xml:id="RC_G_247" ref="#gar"/><g xml:id="RC_G_248" ref="#id"/><g xml:id="RC_G_249" ref="#daeg"/></w>
+            </ab>
+            <ab type="strip_left_WS" xml:id="RC_WS_ab2">
+              <lb n="1"/><w xml:id="RC_W_067"><g xml:id="RC_G_250" ref="#man"/><g xml:id="RC_G_251" ref="#is"/><lb n="2"/><g xml:id="RC_G_252" ref="#thurs"/></w>
+              <w xml:id="RC_W_068"><g xml:id="RC_G_253" ref="#sigel"/><lb n="3"/><g xml:id="RC_G_254" ref="#tir"/><g xml:id="RC_G_255" ref="#rad"/><g xml:id="RC_G_256" ref="#eoh"/><lb n="4"/><g xml:id="RC_G_257" ref="#lagu"/><g xml:id="RC_G_258" ref="#ur"/><lb n="5"/><g xml:id="RC_G_259" ref="#man"/></w>
+              <w xml:id="RC_W_069"><g xml:id="RC_G_260" ref="#gar"/><lb n="6"/><g xml:id="RC_G_261" ref="#is"/><g xml:id="RC_G_262" ref="#wyn"/><lb n="7"/><g xml:id="RC_G_263" ref="#ur"/><g xml:id="RC_G_264" ref="#nyd"/><lb n="8"/><g xml:id="RC_G_265" ref="#daeg"/><g xml:id="RC_G_266" ref="#aesc"/><g xml:id="RC_G_267" ref="#daeg"/></w>
+              <lb n="9"/><w xml:id="RC_W_070"><g xml:id="RC_G_268" ref="#ac"/><g xml:id="RC_G_269" ref="#lagu"/><g xml:id="RC_G_270" ref="#eoh"/><lb n="10"/><g xml:id="RC_G_271" ref="#gar"/><g xml:id="RC_G_272" ref="#daeg"/><g xml:id="RC_G_273" ref="#ur"/><lb n="11"/><g xml:id="RC_G_274" ref="#nyd"/></w>
+              <w xml:id="RC_W_071"><g xml:id="RC_G_275" ref="#haegl"/><g xml:id="RC_G_276" ref="#is"/><g xml:id="RC_G_277" ref="#aesc"/></w>
+              <lb n="12"/><w xml:id="RC_W_072"><g xml:id="RC_G_278" ref="#haegl"/><g xml:id="RC_G_279" ref="#is"/><g xml:id="RC_G_280" ref="#nyd"/><g xml:id="RC_G_281" ref="#aesc"/></w>
+              <lb n="13"/><w xml:id="RC_W_073"><g xml:id="RC_G_282" ref="#lagu"/><g xml:id="RC_G_283" ref="#is"/><g xml:id="RC_G_284" ref="#man"/><g xml:id="RC_G_285" ref="#wyn"/><lb n="14"/><g xml:id="RC_G_286" ref="#ethel"/><g xml:id="RC_G_287" ref="#rad"/><g xml:id="RC_G_288" ref="#is"/><g xml:id="RC_G_289" ref="#gyfu"/><lb n="15"/><g xml:id="RC_G_290" ref="#nyd"/><g xml:id="RC_G_291" ref="#aesc"/></w>
+              <w xml:id="RC_W_074"><g xml:id="RC_G_292" ref="#gyfu"/><g xml:id="RC_G_293" ref="#is"/><lb n="16"/><g xml:id="RC_G_294" ref="#sigel"/><g xml:id="RC_G_295" ref="#tir"/><g xml:id="RC_G_296" ref="#os"/><lb n="17"/><g xml:id="RC_G_297" ref="#daeg"/><g xml:id="RC_G_298" ref="#daeg"/><g xml:id="RC_G_299" ref="#ur"/><lb n="18"/><g xml:id="RC_G_300" ref="#nyd"/></w>
+              <w xml:id="RC_W_075"><g xml:id="RC_G_301" ref="#haegl"/><g xml:id="RC_G_302" ref="#is"/><g xml:id="RC_G_303" ref="#man"/></w>
+              <lb n="19"/><w xml:id="RC_W_076"><g xml:id="RC_G_304" ref="#aesc"/><g xml:id="RC_G_305" ref="#tir"/></w>
+              <w xml:id="RC_W_077"><g xml:id="RC_G_306" ref="#haegl"/><lb n="20"/><g xml:id="RC_G_307" ref="#is"/><g xml:id="RC_G_308" ref="#sigel"/></w>
+              <w xml:id="RC_W_078"><g xml:id="RC_G_309" ref="#lagu"/><g xml:id="RC_G_310" ref="#is"/><lb n="21"/><g xml:id="RC_G_311" ref="#cen"/><g xml:id="RC_G_312" ref="#aesc"/><g xml:id="RC_G_313" ref="#sigel"/></w>
+              <lb n="21"/><w xml:id="RC_W_079"><g xml:id="RC_G_314" ref="#haegl"/><g xml:id="RC_G_315" ref="#ear"/><g xml:id="RC_G_316" ref="#feoh"/><lb n="22"/><g xml:id="RC_G_317" ref="#daeg"/><g xml:id="RC_G_318" ref="#ur"/><g xml:id="RC_G_319" ref="#man"/></w>
+              <lb n="23"/><w xml:id="RC_W_080"><g xml:id="RC_G_320" ref="#beorc"/><g xml:id="RC_G_321" ref="#is"/><g xml:id="RC_G_322" ref="#haegl"/><g xml:id="RC_G_323" ref="#ear"/><lb n="24"/><g xml:id="RC_G_324" ref="#lagu"/><g xml:id="RC_G_325" ref="#daeg"/><g xml:id="RC_G_326" ref="#ur"/></w>
+            </ab>
+          </div>
+
+        <div type="edition">
+
+          <lg n="III">
+
+            <l n="56">[+] Krist wæs on rōdi.</l>
+            <l n="57">Hweþræ þēr fūsæ fearran kwōmu</l>
+            <l n="59">æþþilæ til ānum. Ic þæt al bih[ēald]</l>
+            <l n="59">Sār[æ] ic wæs mi[þ] sorḡum gidroe[f]id, h[n]aḡ [ic………]</l>
+
+          </lg>
+
+          <lg n="IV">
+
+            <l n="62">miþ strēlum giwundad.</l>
+            <l n="63">>Ālegdun hiæ hinæ limwoērignæ, gistōddun him […….] līcæs [hea]f[du]m;</l>
+            <l n="64">>[bi]hēa[l]du[n] hi[æ] þē[r……………………]</l>
+
+          </lg>
+
+        </div>
+
+      </div>
+               
+     </body>
+  </text>
+</TEI>
