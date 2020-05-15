@@ -439,18 +439,20 @@
   </teiHeader>
 
   <text>
-      <body>
+    <body>
 
-        <div type="side" xml:id="RC_ES">
+      <div type="side" xml:id="RC_ES">
 
-          <head>East Side</head>
+        <head>East Side</head>
           
-          <!--                RUNIC TEXT                -->
-          <div type="facsimile">
-            <ab type="strip_horiz_ES" xml:id="RC_ES_ab0">
+        <!--                RUNIC TEXT                -->
+
+        <div type="facsimile">
+          <ab>
+            <milestone unit="strip" type="horiz" xml:id="RC_ES_strip_h1"/>
               <lb n="1"/><w xml:id="RC_W_000" part="I"><g xml:id="RC_G_001" ref="#os"/><g xml:id="RC_G_002" ref="#nyd"/><g xml:id="RC_G_003" ref="#daeg"/><g xml:id="RC_G_004" ref="#gyfu"/><g xml:id="RC_G_005" ref="#eoh"/><g xml:id="RC_G_006" ref="#rad"/><g xml:id="RC_G_007" ref="#eoh"/></w>
-            </ab>
-            <ab type="strip_right_ES" xml:id="RC_ES_ab1">
+
+            <milestone unit="strip" type="vert" xml:id="RC_ES_strip_v1"/>
               <lb n="1"/><w xml:id="RC_W_001" part="F"><g xml:id="RC_G_008" ref="#daeg"/><g xml:id="RC_G_009" ref="#aesc"/></w>
               <lb n="2"/><w xml:id="RC_W_002"><g xml:id="RC_G_010" ref="#haegl"/><g xml:id="RC_G_011" ref="#is"/><lb n="3"/><g xml:id="RC_G_012" ref="#nyd"/><g xml:id="RC_G_013" ref="#aesc"/></w>
               <lb n="4"/><w xml:id="RC_W_003"><g xml:id="RC_G_014" ref="#gar"/><g xml:id="RC_G_015" ref="#os"/><lb n="5"/><g xml:id="RC_G_016" ref="#daeg"/></w>
@@ -466,8 +468,8 @@
               <lb n="23"/><w xml:id="RC_W_013"><g xml:id="RC_G_058" ref="#ac"/><g xml:id="RC_G_059" ref="#lagu"/><g xml:id="RC_G_060" ref="#lagu"/><g xml:id="RC_G_061" ref="#aesc"/></w>
               <lb n="24"/><w xml:id="RC_W_014"><g xml:id="RC_G_062" ref="#man"/><g xml:id="RC_G_063" ref="#eoh"/><g xml:id="RC_G_064" ref="#nyd"/></w>
               <lb n="25"/><w xml:id="RC_W_015"><g xml:id="RC_G_065" ref="#beorc"/><g xml:id="RC_G_066" ref="#ur"/><g xml:id="RC_G_067" ref="#gar"/><lb n="26"/><g xml:id="RC_G_068" ref="#ac"/></w>
-            </ab>
-            <ab type="strip_left_ES" xml:id="RC_ES_ab2">
+
+            <milestone unit="strip" type="vert" xml:id="RC_ES_strip_v2"/>
               <lb n="1"/><w xml:id="RC_W_016"><g xml:id="RC_G_069" ref="#ac"/><g xml:id="RC_G_070" ref="#haegl"/><lb n="2"/><g xml:id="RC_G_071" ref="#os"/><g xml:id="RC_G_072" ref="#feoh"/></w>
               <lb n="3"/><w xml:id="RC_W_017"><g xml:id="RC_G_073" ref="#is"/><g xml:id="RC_G_074" ref="#cen"/></w>
               <w xml:id="RC_W_018"><g xml:id="RC_G_075" ref="#rad"/><lb n="4"/><g xml:id="RC_G_076" ref="#is"/><g xml:id="RC_G_077" ref="#is"/><g xml:id="RC_G_078" ref="#cen"/><g xml:id="RC_G_079" ref="#nyd"/><lb n="5"/><g xml:id="RC_G_080" ref="#aesc"/></w>
@@ -489,10 +491,11 @@
               <w xml:id="RC_W_034"><g xml:id="RC_G_150" ref="#beorc"/><lb n="26"/><g xml:id="RC_G_151" ref="#lagu"/><g xml:id="RC_G_152" ref="#os"/><g xml:id="RC_G_153" ref="#daeg"/><g xml:id="RC_G_154" ref="#aesc"/></w>
               <lb n="27"/><w xml:id="RC_W_035"><g xml:id="RC_G_155" ref="#beorc"/><g xml:id="RC_G_156" ref="#is"/><g xml:id="RC_G_157" ref="#sigel"/><g xml:id="RC_G_158" ref="#thurs"/><lb n="28"/><g xml:id="RC_G_159" ref="#eoh"/><g xml:id="RC_G_160" ref="#man"/><g xml:id="RC_G_161" ref="#is"/><lb n="29"/><g xml:id="RC_G_162" ref="#daeg"/></w>
               <w xml:id="RC_W_036"><g xml:id="RC_G_163" ref="#beorc"/><g xml:id="RC_G_164" ref="#is"/></w>
-            </ab>
-          </div>
+          </ab>
 
-          <div type="edition">
+        </div>
+
+        <div type="edition">
             
           <lg n="I">
 
@@ -515,21 +518,23 @@
 
           </lg>
   
-          </div>
-        
         </div>
         
-        <div type="side" xml:id="RC_WS">
-          <head>West Side</head>
+      </div>
+        
+      <div type="side" xml:id="RC_WS">
+        <head>West Side</head>
           
-          <!--                RUNIC TEXT                -->
-          <div type="facsimile">
-            <ab type="strip_horiz_WS" xml:id="RC_WS_ab0">
+        <!--                RUNIC TEXT                -->
+
+        <div type="facsimile">
+          <ab>
+            <milestone unit="strip" type="horiz" xml:id="RC_WS_strip_h1"/>
               <lb n="1"/><w xml:id="RC_W_037"><g xml:id="RC_G_165" ref="#calc"/><g xml:id="RC_G_166" ref="#rad"/><g xml:id="RC_G_167" ref="#is"/><g xml:id="RC_G_168" ref="#sigel"/><g xml:id="RC_G_169" ref="#tir"/></w>
               <w xml:id="RC_W_038"><g xml:id="RC_G_170" ref="#wyn"/><g xml:id="RC_G_171" ref="#aesc"/><g xml:id="RC_G_172" ref="#sigel"/></w>
               <w xml:id="RC_W_039"><g xml:id="RC_G_173" ref="#os"/><g xml:id="RC_G_174" ref="#nyd"/></w>
-            </ab>
-            <ab type="strip_right_WS" xml:id="RC_WS_ab1">
+
+            <milestone unit="strip" type="vert" xml:id="RC_WS_strip_v1"/>
               <lb n="1"/><w xml:id="RC_W_049"><g xml:id="RC_G_175" ref="#rad"/><g xml:id="RC_G_176" ref="#os"/><lb n="2"/><g xml:id="RC_G_177" ref="#daeg"/><g xml:id="RC_G_178" ref="#is"/></w>
               <lb n="3"/><w xml:id="RC_W_050"><g xml:id="RC_G_179" ref="#haegl"/><g xml:id="RC_G_180" ref="#wyn"/><lb n="4"/><g xml:id="RC_G_181" ref="#eoh"/><g xml:id="RC_G_182" ref="#thurs"/><lb n="5"/><g xml:id="RC_G_183" ref="#rad"/><g xml:id="RC_G_184" ref="#aesc"/></w>
               <lb n="6"/><w xml:id="RC_W_051"><g xml:id="RC_G_185" ref="#thurs"/><g xml:id="RC_G_186" ref="#eoh"/><lb n="7"/><g xml:id="RC_G_187" ref="#rad"/></w>
@@ -548,8 +553,8 @@
               <w xml:id="RC_W_064"><g xml:id="RC_G_238" ref="#man"/><g xml:id="RC_G_239" ref="#is"/><g xml:id="RC_G_240" ref="#thurs"/></w>
               <lb n="23"/><w xml:id="RC_W_065"><g xml:id="RC_G_241" ref="#sigel"/><g xml:id="RC_G_242" ref="#os"/><g xml:id="RC_G_243" ref="#rad"/><lb n="24"/><g xml:id="RC_G_244" ref="#gar"/><g xml:id="RC_G_245" ref="#ur"/><g xml:id="RC_G_246" ref="#man"/></w>
               <lb n="25"/><w xml:id="RC_W_066"><g xml:id="RC_G_247" ref="#gar"/><g xml:id="RC_G_248" ref="#id"/><g xml:id="RC_G_249" ref="#daeg"/></w>
-            </ab>
-            <ab type="strip_left_WS" xml:id="RC_WS_ab2">
+
+            <milestone unit="strip" type="vert" xml:id="RC_WS_strip_v2"/>
               <lb n="1"/><w xml:id="RC_W_067"><g xml:id="RC_G_250" ref="#man"/><g xml:id="RC_G_251" ref="#is"/><lb n="2"/><g xml:id="RC_G_252" ref="#thurs"/></w>
               <w xml:id="RC_W_068"><g xml:id="RC_G_253" ref="#sigel"/><lb n="3"/><g xml:id="RC_G_254" ref="#tir"/><g xml:id="RC_G_255" ref="#rad"/><g xml:id="RC_G_256" ref="#eoh"/><lb n="4"/><g xml:id="RC_G_257" ref="#lagu"/><g xml:id="RC_G_258" ref="#ur"/><lb n="5"/><g xml:id="RC_G_259" ref="#man"/></w>
               <w xml:id="RC_W_069"><g xml:id="RC_G_260" ref="#gar"/><lb n="6"/><g xml:id="RC_G_261" ref="#is"/><g xml:id="RC_G_262" ref="#wyn"/><lb n="7"/><g xml:id="RC_G_263" ref="#ur"/><g xml:id="RC_G_264" ref="#nyd"/><lb n="8"/><g xml:id="RC_G_265" ref="#daeg"/><g xml:id="RC_G_266" ref="#aesc"/><g xml:id="RC_G_267" ref="#daeg"/></w>
@@ -581,8 +586,8 @@
           <lg n="IV">
 
             <l n="62">miþ strēlum giwundad.</l>
-            <l n="63">>Ālegdun hiæ hinæ limwoērignæ, gistōddun him […….] līcæs [hea]f[du]m;</l>
-            <l n="64">>[bi]hēa[l]du[n] hi[æ] þē[r……………………]</l>
+            <l n="63">Ālegdun hiæ hinæ limwoērignæ, gistōddun him […….] līcæs [hea]f[du]m;</l>
+            <l n="64">[bi]hēa[l]du[n] hi[æ] þē[r……………………]</l>
 
           </lg>
 
