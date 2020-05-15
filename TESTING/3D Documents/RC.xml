@@ -499,22 +499,22 @@
             
           <lg n="I">
 
-            <l n="39">[+Ond]geredæ hinæ Ḡod almehttig,</l>
-            <l n="40">þā hē walde on ḡalḡu gistīḡa,</l>
+            <l n="39" xml:id="RC_l_39">[+Ond]geredæ hinæ Ḡod almehttig</l>
+            <l n="40" xml:id="RC_l_40">þā hē walde on ḡalḡu gistīḡa,</l>
 
-            <l n="41">[m]odig f[ore allæ] men.</l>
+            <l n="41" xml:id="RC_l_41">[m]odig f[ore allæ] men.</l>
 
-            <l n="42">[B]ūḡ[a] ic ni dorstæ…………..]</l>
+            <l n="42" xml:id="RC_l_42">[B]ūḡ[a] ic ni dorstæ…………..]</l>
 
           </lg>
             
           <lg n="II">
 
-            <l n="44">[Āhōf] ic riicnæ K̄yniŋc</l>
-            <l n="45">heafunæs H[l]afard, hælda ic ni dorstæ.</l>
+            <l n="44" xml:id="RC_l_44">[Āhōf] ic riicnæ K̄yniŋc</l>
+            <l n="45" xml:id="RC_l_45">heafunæs H[l]afard, hælda ic ni dorstæ.</l>
 
-            <l n="48">[B]ismærædu uŋk̄et men bā æt[ḡ]ad[re]; ic [wæs] miþ blōdæ [b]ist[ē]mi[d],</l>
-            <l n="49">bi[goten of……………………………………….]</l>
+            <l n="48" xml:id="RC_l_48">[B]ismærædu uŋk̄et men bā æt[ḡ]ad[re]; ic [wæs] miþ blōdæ [b]ist[ē]mi[d],</l>
+            <l n="49" xml:id="RC_l_49">bi[goten of……………………………………….]</l>
 
           </lg>
   
@@ -576,18 +576,18 @@
 
           <lg n="III">
 
-            <l n="56">[+] Krist wæs on rōdi.</l>
-            <l n="57">Hweþræ þēr fūsæ fearran kwōmu</l>
-            <l n="59">æþþilæ til ānum. Ic þæt al bih[ēald]</l>
-            <l n="59">Sār[æ] ic wæs mi[þ] sorḡum gidroe[f]id, h[n]aḡ [ic………]</l>
+            <l n="56" xml:id="RC_l_56">[+] Krist wæs on rōdi.</l>
+            <l n="57" xml:id="RC_l_57">Hweþræ þēr fūsæ fearran kwōmu</l>
+            <l n="59" xml:id="RC_l_58">æþþilæ til ānum. Ic þæt al bih[ēald]</l>
+            <l n="59" xml:id="RC_l_59">Sār[æ] ic wæs mi[þ] sorḡum gidroe[f]id, h[n]aḡ [ic………]</l>
 
           </lg>
 
           <lg n="IV">
 
-            <l n="62">miþ strēlum giwundad.</l>
-            <l n="63">Ālegdun hiæ hinæ limwoērignæ, gistōddun him […….] līcæs [hea]f[du]m;</l>
-            <l n="64">[bi]hēa[l]du[n] hi[æ] þē[r……………………]</l>
+            <l n="62" xml:id="RC_l_62">miþ strēlum giwundad.</l>
+            <l n="63" xml:id="RC_l_63">Ālegdun hiæ hinæ limwoērignæ, gistōddun him […….] līcæs [hea]f[du]m;</l>
+            <l n="64" xml:id="RC_l_64">[bi]hēa[l]du[n] hi[æ] þē[r……………………]</l>
 
           </lg>
 
