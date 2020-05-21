@@ -61,6 +61,8 @@
 
           <listObject subtype="south_side" type="part" xml:id="RC_lo_south_side">
 
+            <head type="main">East Face (now South Face)</head>
+
             <object type="panel">
               <objectIdentifier>
                 <objectName>John the Evangelist with his symbol</objectName>
@@ -224,18 +226,21 @@
               </additional>
             </object>
 
-            <object>
-              <objectIdentifier>
-                <objectName></objectName>
-              </objectIdentifier>
-              <physDesc> </physDesc>
-            </object>
+          </listObject>
+          
+          <listObject subtype="east_side" type="part" xml:id="RC_lo_east_side">
+
+            <head>North Face (now East Face)</head>
 
             <object>
               <objectIdentifier>
-                <objectName></objectName>
+                <objectName>Cross-head</objectName>
               </objectIdentifier>
-              <physDesc> </physDesc>
+              <physDesc>
+                <p>There is no carving on this side of the cross-head. The transom is lost and the present stone was
+                  added during reconstruction so it is impossible to say whether anything might originally have been
+                  carved on the ends of the cross-arms.</p>
+              </physDesc>
               <additional>
                 <surrogates> </surrogates>
               </additional>
@@ -243,9 +248,322 @@
 
             <object>
               <objectIdentifier>
-                <objectName></objectName>
+                <objectName>Top stone</objectName>
               </objectIdentifier>
-              <physDesc> </physDesc>
+              <physDesc>
+                <p>This section has been restored by Duncan with mortar and cement block in-fill. Two fragments of the
+                  original shaft remain. The inhabited vine-scroll of the upper fragment contains a bird and beast that
+                  nibble at its fruit. The inhabited vine-scroll is symbolic of both the tree-of-life and of the
+                  faithful partaking of the eucharist. Any inscription that might have surrounded the panel has been
+                  worn away. The lower fragment contains a small section of vine-scroll with a curling flower and leaf.
+                  A fragmentary inscription runs vertically down the border in contrast to the horizontal rows of runic
+                  characters inscribed on the main shaft. It reads ‘dægisgæf[.], and has never been convincingly
+                  translated. It has been wrongly reconstructed as part of lines 52b–55b from The Dream of the Rood, and
+                  thought to be a fragment of a personal name from a longer memorial inscription.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Vine scroll</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The upper curve of the vine-scroll encloses a flower. Beneath it two birds and three beasts inhabit
+                  five of its curling tendrils. The lowest section of the vine-scroll has been badly damaged. The tails
+                  of two of the hybrid beasts intertwine with the stems of the scroll and end in leaf-like shapes that
+                  suggest a union of beast and scroll that may be meant to further their symbolic evocation of the union
+                  of the faithful with Christ in the eucharist, and of the words of Christ ‘I am the vine; you the
+                  branches: he that abideth in me, and I in him, the same beareth much fruit’ (John 15:5). If anything
+                  was carved on the base of this side of the stone it has been worn away.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Damaged area</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The damaged areas of the East (and West) faces are due to weathering in addition to when the Cross
+                  was torn down during the Reformation, scattered and neglected in the churchyard. Missing pieces of the
+                  Cross were filled in with rough mortar and pieces of cement. Since the runic inscription was contained
+                  in the outside margins on the East and West faces of the Cross, some of the runes are now missing,
+                  being worn away by weathering.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Runes</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The runic inscription is in the Old English language. It reads: (across the top) [+ ond]gere; (down
+                  the right side) dæ hinæ god almeittig · þa hewalde on galgu gistigamodig f[ore] [allæ] men [b]ug …
+                  [ahof] ic riicnæ kyniŋc · heafunæs hlafard hælda ic ni dorstæ [b]ismærædu uŋket men ba æt[g]ad[re i]c
+                  [wæs] miþ blodi bist[e]mi[d] bi[got][en of þæs gumu sida]… Translation: ‘Almighty God stripped himself
+                  when he wished to mount the gallows, brave in the sight of all men. I dared not bow. I [raised aloft]
+                  a powerful king. The Lord of heaven I dared not tilt. Men insulted the pair of us together. I was
+                  drenched with blood [begotten from that man’s side].</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+          </listObject>
+          
+          <listObject subtype="north_side" type="part" xml:id="RC_lo_north_side">
+
+            <head type="main">West Face (now North Face)</head>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Top</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>A bird of prey, commonly interpreted as an eagle sits on a flowering branch, which it grips with its
+                  large talons. It may be holding something in its curled up right foot, or it may be lifting its foot
+                  in preparation for flight. The runic inscription in the border is illegible, but has been read
+                  erroneously as both ‘Caedmon made me’ and ‘Colman made me’. Gerard Baldwin Brown read it as
+                  FAUŒTHO.</p>
+                <p>This stone was placed the wrong way round by Henry Duncan, and was originally paired with the archer
+                  (who may be taking aim at the eagle) on the east face. The eagle is a common symbol of Christ, and the
+                  eagle and tree together may symbolize Christ and the Cross. As it bends to give up the body of Christ,
+                  the cross describes itself as ‘wounded with arrows’ in the poem inscribed on the left border of the
+                  south side.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Transom</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The transom has never been found. The current stone is the work of the mason commissioned by Duncan
+                  to reconstruct the cross in 1823. The carvings are masonic symbols and were supplied by Duncan, a keen
+                  freemason: a sunburst at the centre, flanked by a rooster to the left and a calf to the right. It is
+                  clear that the evangelists Mark and Luke would have appeared with their symbols in the arms of the
+                  transom, but what would have been depicted in the centre is a matter of debate.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Lower arm: Matthew the Evangelist with his symbol</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The Evangelist, on the right, holds a book and turns to speak with, or receive inspiration from, his
+                  symbol the winged man. The fragmentary remains of a wing are visible between the symbol’s shoulder and
+                  the border of the panel. No inscription survives on this badly damaged panel, but as the panel with
+                  John and his symbol that originally capped this side was inscribed with the opening lines of his
+                  gospel, it is likely that the opening phrase of Matthew’s gospel (‘Liber generationis Iesu Christi’;
+                  ‘The book of the generation of Jesus Christ’) would have been inscribed in the border around this
+                  panel.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>John the Baptist with the Agnus Dei</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The nimbed and bearded Baptist faces frontally and holds the Lamb of God across his chest with his
+                  draped left hand, and points to it with his right. His feet rest on two globes. The outermost legs of
+                  the Lamb have been broken away, but originally stood free of the cross. The dimensions of the panel
+                  are problematic. The figure of John looks squat and the lines of the drapery and the panel’s borders
+                  don’t quite line up. Only fragments of the Latin inscription survive. In the lower section of the left
+                  border are the words ‘[…] [A]DORAMVS (we adore), and across the lower border ‘VT NON CVM […]’ (so that
+                  not with). Its source remains unknown, but the third person plural voice has led to the suggestion
+                  that the source text may have been part of liturgical practices at Ruthwell.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Christ over the beasts</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The figure of Christ faces frontally. He holds a scroll (or mappa) in his left hand and his right
+                  hand is raised in blessing, echoing his pose in the Magdalene at the feet of Christ panel on the
+                  opposite side of the cross. Christ rests his feet on the snouts of two beasts, which cross their paws
+                  in recognition of his divinity. Their crossed paws form an X, or chi, the first letter of his
+                  name.</p>
+                <p>The Latin inscription surrounding the panel reads: + IhS XPS IVDEX (across the top)  AEQVITATIS 
+                  (down the right side); BESTIAE  ET  DRACON[ES]  COGNOVERVNT  IN DE  SERTO  SALVA[TO]REM  MVNDI
+                   (down the left side). Translation: ‘+ Jesus Christ, judge of equity. Beasts and dragons recognised
+                  in the desert the saviour of the world’. There is no one source for this metrical sententia, but it
+                  recalls both Psalm 90/91:13 (Thou shalt walk upon the asp and the basilisk: and thou shalt trample
+                  under foot the lion and the dragon), and Habbakuk 3:2 (Between two living things you will become
+                  known).</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Saints Paul and Anthony breaking bread in the desert</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>Paul and Anthony face each other with their bodies and faces turned outwards slightly towards the
+                  viewer. Between them they hold a loaf of bread that had been miraculously delivered by a raven. The
+                  bread is a symbol of the eucharistic bread, the body of Christ, which is emphasized by the cross
+                  formed at the centre of the loaf as the two saints begin to break it apart. Paul and Anthony were the
+                  two earliest hermit saints, and are symbolic of the monastic life. They also form a male counterpart
+                  to the female pair of Martha and Mary at the top of the east face of the cross.</p>
+                <p>The Latin inscription that surrounds the panel reads: + SCS PAVLVS  (across the top); ET 
+                  A[NTONIVS] […] (down the right side); FREGER[VN]T  PANEM IN DESERTO (down the left side).
+                  Translation: ‘+ Saints Paul and Anthony […] broke bread in the desert’. It describes an episode
+                  recorded in Jerome’s Life of St. Paul.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>The Flight Into or Out of Egypt (Matthew 2:13–23)</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The Virgin sits side-saddle on a donkey holding the Christ child on her lap. The outermost of the
+                  donkey’s legs are carved free from the background of the cross. The sense of motion as he strides
+                  across the panel is paralleled by that of the angel Gabriel alighting in the Annunciation panel on the
+                  opposite face of the cross. The Christ child is carved on a vertical axis that aligns him with the
+                  bread held by Paul and Anthony, and the crossed paws of the beasts in the two panels above, and helps
+                  to emphasize the eucharistic symbolism of this side of the cross. Part of a tree, or perhaps part of
+                  the figure of Joseph is carved in the upper left panel.</p>
+                <p>The Latin inscription in the border reads: + MARIA  ET IO[SEPHUS] […] TV […]. Translation: ‘+ Mary
+                  and Joseph …’</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Base</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The lowest panel may or may not have been carved at the same time as the Crucifixion in the
+                  corresponding panel on the east face. It has been suggested that, if carved, the subject of this panel
+                  may have been the Nativity or the Adoration of the Magi, but no trace of carving survives today.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+          </listObject>
+
+          <listObject subtype="west_side" type="part" xml:id="RC_lo_west_side">
+
+            <head type="main">South Face (now West Face)</head>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Cross-head</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>There is no carving on this side of the cross-head. The transom is lost and the present stone was
+                  added during reconstruction so it is impossible to say whether anything might have been carved on the
+                  ends of the cross-arms.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Upper stone</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>Two branches of inhabited vine-scroll (symbolic of the faithful partaking of the eucharist) spiral to
+                  enclose a squirrel-like creature at top and a bird at bottom. The inhabited vine-scroll is symbolic of
+                  both the tree-of-life and of the faithful partaking of the eucharist. The two blocks beneath this
+                  stone were added during reconstruction. There appears to have been an inscription in the border of
+                  this section of the shaft, but it is no longer legible.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Damaged area</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The damaged areas of the East (and West) faces are due to weathering in addition to when the Cross
+                  was torn down during the Reformation, scattered and neglected in the churchyard. Missing pieces of the
+                  Cross were filled in with rough mortar and pieces of cement. Since the runic inscription was contained
+                  in the outside margins on the East and West faces of the Cross, some of the runes are now missing,
+                  being worn away by weathering.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Lower stone</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>Beneath a plump cluster of berries six birds and hybrid creatures bite at the scroll’s fruit,
+                  branches and flowers. Three of the creatures have tails that intertwine with the stems of the scroll
+                  and end in leaf-like shapes that suggest a union of beast and scroll that may be meant to further
+                  their symbolic evocation of the union of the faithful with Christ in the eucharist, and of the words
+                  of Christ ‘I am the vine; you the branches: he that abideth in me, and I in him, the same beareth much
+                  fruit’ (John 15:5). Although damaged and worn, the depth of detail of the original carving can still
+                  be seen in the eyes, ears and gripping paws of the second beast from the top. The scroll was extended
+                  beneath the lower border of the panel, most likely at the same time that the Crucifixion was added to
+                  the base of the east face. The hole in this face of the cross is unlikely to have been a relic cavity
+                  due to its location, and was almost certainly made during either the toppling or restoration and
+                  reconstruction of the monument.</p>
+              </physDesc>
+              <additional>
+                <surrogates> </surrogates>
+              </additional>
+            </object>
+
+            <object>
+              <objectIdentifier>
+                <objectName>Runes</objectName>
+              </objectIdentifier>
+              <physDesc>
+                <p>The runic inscription is in the Old English language. It reads: (across the top) [+k]ris[t] wæs on;
+                  (down the right side) rodi · hweþræ þer fusæ fearran kwomu æþþilæ til anum ic þæt al bi[h][eald]
+                  s[aræ] ic w[æ]s · mi[þ] so[r]gu[m] gi[d]rœ[fi]d h[n]a[g]…; (down the left side) miþ s[t]re[l]um
+                  giwundad alegdun hiæ [h]inæ limwœrignæ· gistoddu[n h]im [æt] [his] [li][c]æs [hea]f[du]m
+                  [bih]ea[ld]u[n h]i[æ þ]e[r]… Translation: + Christ was on the cross. But eager ones came hither from
+                  afar. Noble ones came together. I beheld all that. I was terribly afflicted with sorrows. I bowed [to
+                  the hands of men], wounded with arrows. They laid him down, limb-weary; they stood at the shoulders of
+                  the corpse. They looked upon the Lord [of heaven].</p>
+              </physDesc>
               <additional>
                 <surrogates> </surrogates>
               </additional>
