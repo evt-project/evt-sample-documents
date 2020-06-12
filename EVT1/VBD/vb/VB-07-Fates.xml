@@ -1,1 +1,849 @@
-/home/roby/Scrivania/GIT/VBD/vbd-transcription/xml/VB-07-Fates.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei-vbd.rng" 
+                       title="Vercelli Book Digital standard schema" 
+                       schematypens="http://relaxng.org/ns/structure/1.0" 
+                       type="application/xml"
+                     ?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ 
+ 
+ <teiHeader>
+  
+  <fileDesc>
+   
+   <titleStmt>
+    <title>The Vercelli Book: a machine readable transcription</title>
+    <author>Unknown</author>
+    <principal>Roberto Rosselli Del Turco</principal>
+    <respStmt>
+     <resp>Conversion to TEI-conformant markup: </resp>
+     <name>Raffaele Cioffi</name>
+     <name>Federica Goria</name>
+     <name>Roberto Rosselli Del Turco</name>
+    </respStmt>
+    <respStmt>
+     <resp>General overview: </resp>
+     <name>Roberto Rosselli Del Turco</name>
+    </respStmt>
+    <respStmt>
+     <resp>Experimental style sheets: </resp>
+     <name>Roberto Rosselli Del Turco</name>
+    </respStmt>
+   </titleStmt>
+   
+   <extent>[??] kilobytes</extent>
+   
+   <publicationStmt>
+    <authority>Digital Vercelli Project</authority>
+    <date>2004</date>
+    <availability status="unknown">
+     <p>Not to ricirculate. Contact the Digital Vercelli Project researchers for more
+      information.</p>
+    </availability>
+   </publicationStmt>
+   
+   <sourceDesc>
+    <bibl> <msIdentifier>
+     <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+     <idno>CXVII</idno>
+    </msIdentifier> </bibl>
+   </sourceDesc>
+   
+  </fileDesc>
+  
+  <encodingDesc>
+   <projectDesc>
+    <p/>
+   </projectDesc>
+   <editorialDecl>
+    <correction>
+     <p/>
+    </correction>
+    <normalization>
+     <p/>
+    </normalization>
+    <segmentation>
+     <p/>
+    </segmentation>
+    <hyphenation eol="all">
+     <p>Physical line breaks are rigidly observed.</p>
+    </hyphenation>
+   </editorialDecl>
+  </encodingDesc>
+  
+  <profileDesc>
+   <langUsage>
+    <language ident="lat">Latin</language>
+   </langUsage>
+  </profileDesc>
+  
+  <revisionDesc>
+   <change when="2017-03" who="RRDT">Moved from entity-based markup to use of the Gaiji module elements; replaced ms and
+    ss entities with choice-based element groups; cleaned up punctuation markup</change>
+   <change when="2010-09" who="RRDT">Conversion to the TEI P5 DTD</change>
+   <change when="2004-01" who="RRDT">Experimental transcription using the Digital Scriptorium DTD</change>
+  </revisionDesc>
+  
+ </teiHeader>
+
+ <text n="The Fates of the Apostles" xml:id="VB_text_Fates">
+
+  <body>
+
+   <div type="verse">
+
+      <!-- #######################################  folio 52v  ####################################### -->
+
+      <pb n="52v"/>
+
+    <lb n="11"/>
+    <l n="1"><seg><space extent=""/><sic><hi rend="cap2.0"><g ref="#WYNN"/>ÆT</hi></sic><corr resp="krapp"><hi
+        rend="cap2.0">H<g ref="#WYNN"/>ÆT</hi></corr> ic þy<g ref="#sins"/>ne <g ref="#sins"/>ang</seg>
+     <seg><choice>
+       <orig><g ref="#sins"/>ið <g ref="#punctmet"/>g<g ref="#eenl"/>omor</orig>
+       <reg><g ref="#sins"/>iðg<g ref="#eenl"/>omor</reg>
+      </choice> fand</seg></l>
+    <l n="2"><seg><choice>
+       <orig>on<g ref="#slong"/><g ref="#eenl"/>oc<g ref="#umacr"/></orig>
+       <reg>on <g ref="#slong"/><g ref="#eenl"/>oc<g ref="#umacr"/></reg>
+      </choice>
+      <lb n="12"/><space extent=""/><g ref="#sins"/><g ref="#eenl"/>fan</seg>
+     <seg><g ref="#sins"/>amnode wide</seg></l>
+    <l n="3"><seg>hu þa æðelinga<g ref="#sins"/></seg>
+     <seg>ell<g ref="#eenl"/>n <lb n="13"/><space extent=""/>cyðdon<g ref="#punctmet"/></seg></l>
+    <l n="4"><seg>torhte <choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>tir eadige</orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> tireadige</reg>
+      </choice></seg>
+     <seg>Twelfe <sic>woron</sic><corr resp="krapp">wæron</corr></seg></l>
+    <l n="5"><seg>dæd<g ref="#umacr"/><lb n="14"/><choice>
+       <orig><space extent=""/>dom fæste</orig>
+       <reg><space extent=""/>domfæste</reg>
+      </choice></seg>
+     <seg><name type="God"><choice>
+        <orig>dr<g ref="#yrgmainstrok"/><damage type="faded">ht</damage>ne</orig>
+        <reg>Dr<g ref="#yrgmainstrok"/><damage type="faded">ht</damage>ne</reg>
+       </choice></name> gecor<g ref="#eenl"/>n<g ref="#eenl"/><g ref="#punctmet"/></seg></l>
+    <l n="6"><seg>l<g ref="#eenl"/>of<g ref="#eenl"/> on lif<g ref="#eenl"/><g ref="#punctmet"/></seg>
+     <seg>lof<lb n="15"/>wide <g ref="#slong"/>pr<damage type="faded">ang</damage></seg></l>
+    <l n="7"><seg>miht <choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mærðo</orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> mærðo</reg>
+      </choice></seg>
+     <seg><choice>
+       <orig>of<g ref="#eenl"/> middan g<g ref="#eenl"/>ard</orig>
+       <reg>of<g ref="#eenl"/>r middang<g ref="#eenl"/>ard</reg>
+      </choice></seg></l>
+    <l n="8"><seg><w>þeod<lb n="16"/>ne<g ref="#sins"/></w>
+      <damage type="faded">þ<g ref="#eenl"/>g</damage>na</seg>
+     <seg>þr<g ref="#yrgmainstrok"/>m <choice>
+       <orig>un lytel</orig>
+       <reg>unlytel</reg>
+      </choice></seg></l>
+    <l n="9"><seg>halgan h<g ref="#eenl"/>ape</seg>
+     <seg>hlyt wi<g ref="#sins"/>ode</seg></l>
+    <lb n="17"/>
+    <l n="10"><seg>þær hie <name type="God"><choice>
+        <orig>dr<g ref="#yrgmainstrok"/>htn<g ref="#eenl"/><g ref="#sins"/></orig>
+        <reg>Dr<g ref="#yrgmainstrok"/>htn<g ref="#eenl"/><g ref="#sins"/></reg>
+       </choice></name>
+      <damage type="faded">æ</damage></seg>
+     <seg>d<g ref="#eenl"/>man <g ref="#slong"/>c<g ref="#eenl"/>oldon<g ref="#punctmet"/></seg></l>
+    <l n="11"><seg>r<g ref="#eenl"/>ccan fore<lb n="18"/>rinc<g ref="#umacr"/><g ref="#punctmet"/></seg>
+     <seg><hi rend="double">s</hi>ume <choice>
+       <orig>onrome <damage type="faded">b</damage>yrig</orig>
+       <reg>on <name type="place">Rome<damage type="faded">b</damage>yrig</name></reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="12"><seg>frame <choice>
+       <orig>fyrd hwate</orig>
+       <reg>fyrdhwate</reg>
+      </choice></seg>
+     <lb n="19"/><seg>f<g ref="#eenl"/>orh <choice>
+       <orig>of gefon</orig>
+       <reg>ofgefon</reg>
+      </choice></seg></l>
+    <l n="13"><seg>þur<damage type="faded">g</damage>
+      <name type="person"><choice>
+        <orig><damage type="faded">ne</damage>ron<g ref="#eenl"/><g ref="#sins"/></orig>
+        <reg><damage type="faded">Ne</damage>ron<g ref="#eenl"/><g ref="#sins"/></reg>
+       </choice></name></seg>
+     <seg>nearwe <g ref="#slong"/>earwe<g ref="#punctmet"/></seg></l>
+    <l n="14"><seg><name type="person"><choice>
+        <orig>p<g ref="#eenl"/>trus</orig>
+        <reg>P<g ref="#eenl"/>trus</reg>
+       </choice></name>
+      <lb n="20"/><choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>paulu<g ref="#sins"/></orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr>
+        <name type="person">Paulu<g ref="#sins"/></name></reg>
+      </choice><g ref="#punctmet"/></seg>
+     <seg><choice>
+       <orig>i<damage type="faded"><g ref="#sins"/><g ref="#sins"/>e</damage></orig>
+       <reg>i<damage type="faded"><g ref="#sins"/>
+         <g ref="#sins"/>e</damage></reg>
+      </choice>
+      <choice>
+       <orig>apo<g ref="#slong"/>tol h<g ref="#aacute"/>d</orig>
+       <reg>apo<g ref="#slong"/>tolh<g ref="#aacute"/>d</reg>
+      </choice></seg></l>
+    <l n="15"><seg>wide <choice>
+       <orig>ge w<g ref="#eenl"/>orðod</orig>
+       <reg>gew<g ref="#eenl"/>orðod</reg>
+      </choice></seg>
+     <seg>of<g ref="#eenl"/>r <lb n="21"/>werþeoda</seg><g ref="#middot"/></l>
+    <l n="16"><seg><damage type="faded"><g ref="#slong"/>w<g ref="#yrgmainstrokdot"/>lce</damage>
+      <name type="person"><choice>
+        <orig>an<damage type="faded">d</damage>r<g ref="#eenl"/>a<g ref="#sins"/></orig>
+        <reg>An<damage type="faded">d</damage>r<g ref="#eenl"/>a<g ref="#sins"/></reg>
+       </choice></name><g ref="#punctmet"/></seg>
+     <seg><damage type="faded"><g ref="#inodotenl"/>n <name type="place"><choice>
+         <orig>ach<g ref="#aacute"/>gia</orig>
+         <reg>Ach<g ref="#aacute"/>gia</reg>
+        </choice></name></damage><g ref="#punctmet"/></seg></l>
+    <l n="17"><seg>for <name type="place"><choice>
+        <orig><g ref="#eenl"/>gia<g ref="#sins"/></orig>
+        <reg>Egia<g ref="#sins"/></reg>
+       </choice></name></seg>
+     <lb n="22"/>aldre <choice>
+      <orig>ge n<g ref="#eenl"/>ððe</orig>
+      <reg>gen<g ref="#eenl"/>ððe</reg>
+     </choice><g ref="#punctmet"/></l>
+    <l n="18"><seg><hi rend="cap1.0">N</hi>e þreodode <add place="sub"><add hand="CHECK" place="CHECK">,</add></add><add
+       place="sup">he</add></seg>
+     <seg>fore þrymme <lb n="23"/><choice>
+       <orig><damage type="faded">ðeod</damage> cyning<g ref="#eenl"/><g ref="#sins"/></orig>
+       <reg><damage type="faded">ðeod</damage>cyning<g ref="#eenl"/><g ref="#sins"/></reg>
+      </choice></seg></l>
+    <space extent=""/>
+    <l n="19"><seg>ænig<g ref="#eenl"/><g ref="#sins"/> on eorðan</seg>
+     <seg><choice>
+       <orig>achim</orig>
+       <reg>ac him</reg>
+      </choice>
+      <g ref="#eacute"/>ce <lb n="24"/>gec<g ref="#eenl"/>as</seg></l>
+    <l n="20"><seg>langsumre l<g ref="#iacute"/>f<g ref="#punctmet"/></seg>
+     <seg>l<g ref="#eenl"/>oht <choice>
+       <orig>un hwil<g ref="#eenl"/>n</orig>
+       <reg>unhwil<g ref="#eenl"/></reg>
+      </choice></seg></l>
+    <l n="21"><seg>s<g ref="#ydot"/>þþan <lb n="25"/><choice>
+       <orig>hilde heard</orig>
+       <reg>hildeheard</reg>
+      </choice><g ref="#punctmet"/></seg>
+     <seg><damage type="faded">h<g ref="#eenl"/>rig<g ref="#eenl"/></damage><g ref="#sins"/> byr<damage type="faded"
+       >htm</damage>e</seg></l>
+    <l n="22"><seg>æft<g ref="#eenl"/>r <choice>
+       <orig>guð pl<g ref="#eenl"/>gan</orig>
+       <reg>guðpl<g ref="#eenl"/>gan</reg>
+      </choice></seg>
+
+      <!-- #######################################  folio 53r  ####################################### -->
+
+      <pb n="53r"/>
+
+      <fw place="top-right" type="fol"><add hand="unknown">53.</add></fw>
+      
+     <lb n="1"/><seg>g<g ref="#eenl"/>algan þ<g ref="#eenl"/>ahte<g ref="#punctmet"/></seg></l>
+    <l n="23"><seg><g ref="#hrdes"/>wæt we eac <choice>
+       <orig>ge h<g ref="#ydot"/>rdon</orig>
+       <reg>geh<g ref="#ydot"/>rdon</reg>
+      </choice></seg>
+     <seg>be <name type="person"><choice>
+        <orig><g ref="#inodotenl"/>oh<space extent=""/>anne</orig>
+        <reg>Iohanne</reg>
+       </choice></name></seg></l>
+    <lb n="2"/>
+    <l n="24"><seg><choice>
+       <orig>æ glæwe</orig>
+       <reg>æglæwe</reg>
+      </choice> m<g ref="#eenl"/>nn</seg>
+     <seg>æðelo r<g ref="#eenl"/>ccan<g ref="#punctmet"/></seg></l>
+    <l n="25"><seg><choice>
+       <orig><hi rend="double">s</hi>emanna</orig>
+       <reg><hi rend="double">s</hi>e manna</reg>
+      </choice> wæ<g ref="#sins"/></seg>
+     <seg>mine <w>ge<lb n="3"/>fr<g ref="#eenl"/>ge</w><g ref="#punctmet"/></seg></l>
+    <l n="26"><seg>þurh cn<g ref="#eenl"/>ori<g ref="#sins"/><g ref="#sins"/>e</seg>
+     <seg><name type="Christ"><orig>cri<g ref="#sins"/>te</orig><reg>Cri<g ref="#sins"/>te</reg> leofa<g ref="#slong"
+       />t</name></seg></l>
+    <l n="27"><seg>on w<g ref="#eenl"/>res hade</seg>
+     <lb n="4"/><hi rend="double">s</hi>yððan wuldr<g ref="#eenl"/>s cyning<g ref="#punctmet"/></l>
+    <l n="28"><seg><g ref="#eenl"/>ngla ordfruma</seg>
+     <seg><g ref="#eenl"/>orðan <g ref="#slong"/>ohte</seg></l>
+    <lb n="5"/>
+    <l n="29"><seg>þurh fæmnan hr<g ref="#iacute"/>f</seg>
+     <seg>fæd<g ref="#eenl"/>r <choice>
+       <orig>mann cynn<g ref="#eenl"/><g ref="#sins"/></orig>
+       <reg>manncynn<g ref="#eenl"/><g ref="#sins"/></reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="30"><seg><g ref="#hrdes"/>e <choice>
+       <orig><g ref="#inodotenl"/>n<g ref="#eenl"/>ff<g ref="#eenl"/><g ref="#sins"/><g ref="#sins"/>ia</orig>
+       <reg><g ref="#inodotenl"/>n <name type="place">Effe<g ref="#sins"/>ia</name></reg>
+      </choice></seg>
+     <lb n="6"/><g ref="#eenl"/>alle þrage</l>
+    <l n="31"><seg>leode lærde</seg>
+     <seg><choice>
+       <orig>þanonlif<g ref="#eenl"/><g ref="#sins"/></orig>
+       <reg>þanon lif<g ref="#eenl"/><g ref="#sins"/></reg>
+      </choice> weg<g ref="#punctmet"/></seg></l>
+    <l n="32"><seg>siðe <w>ge<lb n="7"/><g ref="#sins"/>ohte</w><g ref="#punctmet"/></seg>
+     <seg><g ref="#slong"/>w<g ref="#eenl"/>gle dr<g ref="#eenl"/>ama<g ref="#sins"/></seg></l>
+    <l n="33"><seg>b<g ref="#eenl"/>orhtne <choice>
+       <orig>bold welan</orig>
+       <reg>boldwelan</reg>
+      </choice></seg>
+     <seg><hi rend="cap1.0">N</hi>æs <lb n="8"/>hi<g ref="#sins"/> broðor læt<g ref="#punctmet"/></seg></l>
+    <l n="34"><seg><hi rend="double">s</hi>ið<g ref="#eenl"/><g ref="#sins"/>
+      <g ref="#sins"/>æne<g ref="#punctmet"/></seg>
+     <seg><choice>
+       <orig>acðurh</orig>
+       <reg>ac ðurh</reg>
+      </choice>
+      <g ref="#slong"/>w<g ref="#eenl"/>ord<g ref="#eenl"/><g ref="#sins"/> bite<g ref="#punctmet"/></seg></l>
+    <lb n="9"/>
+    <l n="35"><seg>mid <name type="people"><choice>
+        <orig>iud<g ref="#eenl"/>um</orig>
+        <reg>Iud<g ref="#eenl"/>um</reg>
+       </choice></name></seg>
+     <seg><name type="person"><choice>
+        <orig><g ref="#inodotenl"/>acob</orig>
+        <reg>Iacob</reg>
+       </choice></name>
+      <g ref="#slong"/>ceolde</seg></l>
+    <l n="36"><seg>fore <name type="person"><choice>
+        <orig>herode</orig>
+        <reg>Herode</reg>
+       </choice></name><g ref="#punctmet"/></seg>
+     <seg><g ref="#eenl"/>aldre <w><damage type="faded">ge</damage><lb n="10"/>dælan</w><g ref="#punctmet"/></seg></l>
+    <l n="37"><seg>feorh wið flæsce<g ref="#punctmet"/></seg>
+     <seg><name type="person"><choice>
+        <orig><hi rend="double">p</hi>hilipus</orig>
+        <reg>Philippus</reg>
+       </choice></name> wæs</seg></l>
+    <l n="38"><seg>mid Asseum</seg>
+     <lb n="11"/><seg>þanon <g ref="#eenl"/>c<g ref="#eacute"/> l<g ref="#iacute"/>f</seg></l>
+    <l n="39"><seg>þurh rode cwealm</seg>
+     <seg>ric<g ref="#eenl"/>ne gesohte</seg></l>
+    <lb n="12"/>
+    <l n="40"><seg><g ref="#sins"/>yððan <choice>
+       <orig>ongalgan</orig>
+       <reg>on galgan</reg>
+      </choice></seg>
+     <seg><choice>
+       <orig><g ref="#inodotenl"/>ngearapolim</orig>
+       <reg><g ref="#inodotenl"/>n <name type="place">Gearapolim</name></reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="41"><seg><choice>
+       <orig><g ref="#aacute"/> hang<g ref="#eenl"/>n</orig>
+       <reg><g ref="#aacute"/>hang<g ref="#eenl"/>n</reg>
+      </choice> wæs</seg>
+     <seg><w>hilde<lb n="13"/>corðre</w><g ref="#punctmet"/></seg></l>
+    <l n="42"><seg><hi rend="cap1.0">H</hi>uru wide w<g ref="#eenl"/>arð</seg>
+     <seg>wurd undyrne<g ref="#punctmet"/></seg></l>
+    <l n="43"><seg>þæt to <lb n="14"/><name type="place"><choice>
+        <orig><g ref="#inodotenl"/>nd<g ref="#eenl"/>um</orig>
+        <reg>Ind<g ref="#eenl"/>um</reg>
+       </choice></name><g ref="#punctmet"/></seg>
+     <seg>aldre <choice>
+       <orig>ge lædde</orig>
+       <reg>gelædde</reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="44"><seg><choice>
+       <orig>beadu cræftig</orig>
+       <reg>beaducræftig</reg>
+      </choice> b<g ref="#eenl"/>orn<g ref="#middot"/></seg>
+     <lb n="15"/><name type="person"><choice>
+       <orig>bartholam<g ref="#eenl"/>u<g ref="#sins"/></orig>
+       <reg>bartholam<g ref="#eenl"/>u<g ref="#sins"/></reg>
+      </choice></name><g ref="#punctmet"/></l>
+    <l n="45"><seg><hi rend="double">þ</hi>one heht <name type="person"><choice>
+        <orig>a<g ref="#sins"/>tria<g ref="#sins"/></orig>
+        <reg>A<g ref="#sins"/>tria<g ref="#sins"/></reg>
+       </choice></name><g ref="#punctmet"/></seg>
+     <seg><choice>
+       <orig><g ref="#inodotenl"/>albano</orig>
+       <reg><g ref="#inodotenl"/>n <name type="place">Albano</name></reg>
+      </choice><g ref="#middot"/></seg></l>
+    <lb n="16"/>
+    <l n="46"><seg>hæð<g ref="#eenl"/>n <choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hyge blind</orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> hygeblind</reg>
+      </choice><g ref="#punctmet"/></seg>
+     <seg><g ref="#hrdes"/><g ref="#eenl"/>afde ben<g ref="#eenl"/>otan<g ref="#punctmet"/></seg></l>
+    <l n="47"><seg><choice>
+       <orig>forþan</orig>
+       <reg>for þan</reg>
+      </choice></seg>
+     <seg><choice>
+       <orig><damage type="faded">h</damage>eð<damage type="faded">a</damage></orig>
+       <reg><damage type="faded">h</damage>e ð<damage type="faded">a</damage></reg>
+      </choice>
+      <lb n="17"/><choice>
+       <orig>hæð<g ref="#eenl"/> gild</orig>
+       <reg>hæð<g ref="#eenl"/>gild</reg>
+      </choice><g ref="#punctmet"/></seg>
+     <seg>hyran ne wolde<g ref="#punctmet"/></seg></l>
+    <l n="48"><seg>wig w<g ref="#eenl"/>orðian<g ref="#punctmet"/></seg>
+     <seg>him wæ<g ref="#sins"/>
+      <lb n="18"/>wuldr<g ref="#eenl"/><g ref="#sins"/> dream<g ref="#punctmet"/></seg></l>
+    <l n="49"><seg><choice>
+       <orig>lif w<g ref="#eenl"/>la</orig>
+       <reg>lifw<g ref="#eenl"/>la</reg>
+      </choice> l<g ref="#eenl"/>ofra<g ref="#punctmet"/></seg>
+     <seg><choice>
+       <abbr type="brev">þ<am><g ref="#omacr"/></am>n</abbr>
+       <expan>þon<ex>ne</ex></expan>
+      </choice> þa<g ref="#sins"/> lea<g ref="#sins"/>an godu<g ref="#middot"/></seg></l>
+    <lb n="19"/>
+    <l n="50"><seg><hi rend="double">s</hi>wylce <name type="person"><choice>
+        <orig>thoma<g ref="#sins"/></orig>
+        <reg>Thoma<g ref="#sins"/></reg>
+       </choice></name>
+      <g ref="#eenl"/>ac</seg>
+     <seg>þriste <choice>
+       <orig>g<g ref="#eenl"/> neððe</orig>
+       <reg>g<g ref="#eenl"/>neððe</reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="51"><seg><choice>
+       <orig>onind<g ref="#eenl"/>a</orig>
+       <reg>on <name type="place">Ind<g ref="#eenl"/>a</name></reg>
+      </choice><g ref="#punctmet"/></seg>
+     <lb n="20"/><seg>oðr<g ref="#eenl"/> dæla<g ref="#sins"/></seg><g ref="#punctmet"/></l>
+    <l n="52"><seg>þær <choice>
+       <orig>ma negum</orig>
+       <reg>manegum</reg>
+      </choice></seg>
+     <seg>wearð mod <choice>
+       <orig>onli hted</orig>
+       <reg>onlihted</reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="53"><seg><g ref="#hrdes"/>ige <lb n="21"/><choice>
+       <orig>on hyrd<g ref="#eenl"/>d</orig>
+       <reg>onhyrd<g ref="#eenl"/>ed</reg>
+      </choice></seg>
+     <seg>þurh hi<g ref="#sins"/> halig word<g ref="#punctmet"/></seg></l>
+    <l n="54"><seg><g ref="#sins"/>yððan <choice>
+       <orig>coll<g ref="#eenl"/>n ferð</orig>
+       <reg>coll<g ref="#eenl"/>nferð</reg>
+      </choice></seg>
+     <lb n="22"/><seg>c<g ref="#ydot"/>ning<g ref="#eenl"/><g ref="#sins"/> broðor<g ref="#punctmet"/></seg></l>
+    <l n="55"><seg>aweht<g ref="#eenl"/> for w<g ref="#eenl"/>orodum</seg>
+     <seg><w>wundor<lb n="23"/>cræfte<g ref="#punctmet"/></w></seg></l>
+    <l n="56"><seg>þurh <name type="God"><choice>
+        <orig>dr<g ref="#yrgmainstrok"/>htn<g ref="#eenl"/><g ref="#sins"/></orig>
+        <reg>Dr<g ref="#yrgmainstrok"/>htn<g ref="#eenl"/><g ref="#sins"/></reg>
+       </choice></name> miht<g ref="#punctmet"/></seg>
+     <seg>þæt he <choice>
+       <orig>ofdeað<g ref="#eenl"/></orig>
+       <reg>of deað<g ref="#eenl"/></reg>
+      </choice>
+      <lb n="24"/><g ref="#aacute"/>ra<g ref="#sins"/><g ref="#punctmet"/></seg></l>
+    <l n="57"><seg>g<g ref="#eenl"/>ong <choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>guð hwæt</orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> guðhwæt</reg>
+      </choice><g ref="#punctmet"/></seg>
+     <seg><choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>him</orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> him</reg>
+      </choice> wæ<g ref="#sins"/>
+      <name type="person"><orig>g<g ref="#aacute"/>d</orig><reg>G<g ref="#aacute"/>d</reg></name> nama<g ref="#punctmet"
+      /></seg></l>
+    <l n="58"><seg><choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ða</orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> ða</reg>
+      </choice>
+      <lb n="25"/>þæm folce</seg>
+     <seg>feorg <choice>
+       <orig>ge <g ref="#sins"/>ealde</orig>
+       <reg>ge<g ref="#sins"/>ealde</reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="59"><seg><g ref="#sins"/><g ref="#iacute"/>n æt <g ref="#sins"/>æcce</seg>
+     <seg><w><g ref="#slong"/>weord
+       
+       <!-- #######################################  folio 53v  ####################################### -->
+       
+       <pb n="53v"/>
+
+       <lb n="1"/>r<g ref="#aeligacute"/><g ref="#sins"/></w>
+      <choice>
+       <orig>for<space extent=""/>nam</orig>
+       <reg>fornam</reg>
+      </choice></seg><g ref="#punctmet"/></l>
+    <l n="60"><seg>þurh hæð<g ref="#eenl"/>ne hand<g ref="#punctmet"/></seg>
+     <seg><choice>
+       <orig>pær<g ref="#sins"/>e</orig>
+       <reg>þær <g ref="#sins"/>e</reg>
+      </choice>
+      <damage type="faded">ha</damage>lga <choice>
+       <orig>ge crang</orig>
+       <reg>gecrang</reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <lb n="2"/>
+    <l n="61"><seg>wund for w<g ref="#eenl"/>orudum<g ref="#punctmet"/></seg>
+     <seg>þonon wuldr<g ref="#eenl"/><g ref="#sins"/> l<g ref="#eenl"/>oht</seg></l>
+    <l n="62"><seg>sawle gesohte</seg>
+     <lb n="3"/>sigores <choice>
+      <orig>tol<g ref="#eenl"/>ane</orig>
+      <reg>to l<g ref="#eenl"/>ane</reg>
+     </choice><g ref="#punctmet"/></l>
+    <l n="63"><seg><g ref="#hrdes"/>wæt we þæt g<g ref="#eenl"/>hyrdon</seg>
+     <seg>þurg halig<g ref="#eenl"/>
+      <lb n="4"/>b<g ref="#eenlacute"/>c</seg><g ref="#punctmet"/></l>
+    <l n="64"><seg>þæt mid <name type="people"><choice>
+        <orig><g ref="#sins"/>igel warum</orig>
+        <reg>Sigelwarum</reg>
+       </choice></name><g ref="#punctmet"/></seg>
+     <seg><hi rend="double">s</hi>oð yppe wearð<g ref="#punctmet"/></seg></l>
+    <l n="65"><seg>dr<g ref="#yrgmainstrokdot"/>htlic <lb n="5"/>dom god<g ref="#eenl"/><g ref="#sins"/><g
+       ref="#punctmet"/></seg>
+     <seg>dæg<g ref="#eenl"/>s or <choice>
+       <orig>on w<g ref="#oacute"/>c</orig>
+       <reg>onw<g ref="#oacute"/>c</reg>
+      </choice></seg></l>
+    <l n="66"><seg>leoht<g ref="#eenl"/><g ref="#sins"/> geleafan</seg>
+     <seg><choice>
+       <orig>landwæ<g ref="#sins"/></orig>
+       <reg>land wæ<g ref="#sins"/></reg>
+      </choice>
+      <lb n="6"/><choice>
+       <orig><damage type="faded">ge fæl<g ref="#sins"/>od</damage></orig>
+       <reg><damage type="faded">ge</damage>fæl<g ref="#sins"/>od</reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="67"><seg>þurh <name type="person"><choice>
+        <orig>math<g ref="#eenl"/>u<g ref="#sins"/></orig>
+        <reg>Matth<g ref="#eenl"/>u<g ref="#sins"/></reg>
+       </choice></name></seg>
+     <seg>mære lar<g ref="#eenl"/><g ref="#punctmet"/></seg></l>
+    <l n="68"><seg><hi rend="double">þ</hi>one het <name type="person"><orig><w>ir<lb n="7"/>tacu<g ref="#sins"
+        /></w></orig><reg><w>Ir<lb n="7"/>tacu<g ref="#sins"/></w></reg></name><g ref="#punctmet"/></seg>
+     <seg>ðurh <g ref="#ydot"/>rne hyge<g ref="#punctmet"/></seg></l>
+    <l n="69"><seg><choice>
+       <orig>wæl r<g ref="#eenl"/>ow</orig>
+       <reg>wælr<g ref="#eenl"/>ow</reg>
+      </choice> cyning</seg>
+     <seg>wæpnum <lb n="8"/>a<g ref="#slong"/>webban<g ref="#punctmet"/></seg></l>
+    <l n="70"><seg><g ref="#hrdes"/>yrde we þæt <name type="person"><choice>
+        <orig>iacob</orig>
+        <reg>Iacob</reg>
+       </choice></name><g ref="#punctmet"/></seg>
+     <seg><g ref="#inodotenl"/>n <name type="place"><choice>
+        <orig>ieru<g ref="#sins"/>al<g ref="#eenl"/>m</orig>
+        <reg>Ieru<g ref="#sins"/>al<g ref="#eenl"/>m</reg>
+       </choice></name></seg></l>
+    <l n="71"><seg>fore <lb n="9"/>sac<g ref="#eenl"/>rdum</seg>
+     <seg><g ref="#slong"/>wilt þrowode<g ref="#punctmet"/></seg></l>
+    <l n="72"><seg>ðurg <g ref="#slong"/>t<g ref="#eenl"/>ng<g ref="#eenl"/><g ref="#sins"/>
+      <g ref="#slong"/>w<g ref="#eenl"/>ng</seg>
+     <seg><w>stið<lb n="10"/>mod</w>
+      <choice>
+       <orig>ge crang</orig>
+       <reg>gecrang</reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="73"><seg><g ref="#eenl"/>adig for æf<g ref="#eenl"/><g ref="#sins"/>tum</seg>
+     <seg>hafað nu <choice>
+       <orig><g ref="#eenl"/>c<g ref="#eacute"/>l<g ref="#iacute"/>f</orig>
+       <reg><g ref="#eenl"/>c<g ref="#eacute"/> l<g ref="#iacute"/>f</reg>
+      </choice></seg></l>
+    <l n="74"><seg>mid <choice>
+       <orig>wuldor cining</orig>
+       <reg>wuldorcining</reg>
+      </choice></seg>
+     <seg>wig<g ref="#eenl"/><g ref="#sins"/> to leane<g ref="#punctmet"/></seg></l>
+    <l n="75"><seg><hi rend="cap1.0">N</hi>æron ða tw<g ref="#eenl"/>gen</seg>
+     <lb rend="11"/><seg>tohtan <g ref="#sins"/>æne</seg></l>
+    <l n="76"><seg><choice>
+       <orig>lind ge lac<g ref="#eenl"/><g ref="#sins"/></orig>
+       <reg>lindgelac<g ref="#eenl"/><g ref="#sins"/></reg>
+      </choice></seg>
+     <seg>land <name type="place"><choice>
+        <orig>p<g ref="#eenl"/>r<g ref="#sins"/>ea</orig>
+        <reg>P<g ref="#eenl"/>r<g ref="#sins"/>ea</reg>
+       </choice></name></seg></l>
+    <l n="77"><seg><hi rend="double">s</hi>ohton <choice>
+       <orig><g ref="#sins"/>ið <w>fro<lb n="12"/>me</w></orig>
+       <reg><w><g ref="#sins"/>iðfro<lb n="12"/>me</w></reg>
+      </choice><g ref="#punctmet"/></seg>
+     <seg><name type="person"><choice>
+        <orig><hi rend="double">s</hi>imon</orig>
+        <reg>Simon</reg>
+       </choice></name>
+      <choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>t<add place="sub"><add hand="CHECK" place="CHECK"
+         >,</add></add><add place="sup">h</add>add<g ref="#eenl"/>u<g ref="#sins"/></orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr>
+        <name type="person">T<add place="sub"><add hand="CHECK" place="CHECK">,</add></add><add place="sup">h</add>add<g
+          ref="#eenl"/>u<g ref="#sins"/></name></reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="78"><seg>beorna<g ref="#sins"/>
+      <choice>
+       <orig>beado rofe</orig>
+       <reg>beadorofe</reg>
+      </choice></seg>
+     <seg>him wearð<lb n="13"/> bam <g ref="#sins"/>amod<g ref="#punctmet"/></seg></l>
+    <l n="79"><seg>an <choice>
+       <orig><g ref="#eenl"/>nde dæg</orig>
+       <reg><g ref="#eenl"/>ndedæg</reg>
+      </choice><g ref="#punctmet"/></seg>
+     <seg>æðele <g ref="#slong"/>ceoldon<g ref="#punctmet"/></seg></l>
+    <l n="80"><seg>ðurh <w>wæp<g ref="#eenl"/>n<lb n="14"/>hete</w></seg>
+     <seg>weorc þrowigan<g ref="#punctmet"/></seg></l>
+    <l n="81"><seg><choice>
+       <orig><g ref="#sins"/>ige lean</orig>
+       <reg><g ref="#sins"/>igelean</reg>
+      </choice>
+      <g ref="#sins"/><g ref="#eenl"/>can<g ref="#punctmet"/></seg>
+     <seg><choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þone</orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> þone</reg>
+      </choice>
+      <g ref="#sins"/>oðan <lb n="15"/>gef<g ref="#eenl"/>an</seg></l>
+    <l n="82"><seg>dream æfter deaðe<g ref="#punctmet"/></seg>
+     <seg>þa gedæled wearð<g ref="#punctmet"/></seg></l>
+    <l n="83"><seg>lif wið<lb n="16"/> lice<g ref="#middot"/></seg>
+     <seg><choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa<g ref="#sins"/></orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> þa<g ref="#sins"/> lænan</reg>
+      </choice></seg>
+     <seg><choice>
+       <orig>ge <g ref="#slong"/>tr<g ref="#eenl"/>on</orig>
+       <reg>ge<g ref="#slong"/>tr<g ref="#eenl"/>on</reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="84"><seg><g ref="#inodotenl"/>dle <choice>
+       <orig>æht welan</orig>
+       <reg>æhtwelan</reg>
+      </choice></seg>
+     <seg><sic><g ref="#eenl"/>alnefor</sic><corr resp="krapp"><g ref="#eenl"/>alle <w>for<lb n="17"
+       />hogodan</w></corr><g ref="#punctmet"/></seg></l>
+    <l n="85"><seg><hi rend="cap1.0">Đ</hi>u<g ref="#sins"/> ða æðelinga<g ref="#sins"/></seg>
+     <seg><g ref="#eenl"/>nde <choice>
+       <orig>ge <g ref="#sins"/><g ref="#eenl"/>aldon</orig>
+       <reg>ge<g ref="#sins"/><g ref="#eenl"/>aldon</reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="86"><seg><num value="12">.XII,</num>
+      <lb n="18"/>
+      <choice>
+       <orig>til modige</orig>
+       <reg>tilmodige</reg>
+      </choice><g ref="#punctmet"/></seg>
+     <seg>t<g ref="#iacute"/>r unbræc<damage type="faded">ne</damage></seg><g ref="#punctmet"/></l>
+    <l n="87"><seg><damage type="faded">w<g ref="#eenl"/></damage>gan <choice>
+       <orig>onge witte</orig>
+       <reg>on gewitte</reg>
+      </choice></seg>
+     <seg><w>wuld<lb n="19"/>r<g ref="#eenl"/><g ref="#sins"/></w> þ<g ref="#eenl"/>gna<g ref="#sins"/><g
+       ref="#punctmet"/></seg></l>
+    <l n="88"><seg><hi rend="cap1.0">N</hi>u ic <choice>
+       <abbr type="brev">þ<am><g ref="#omacr"/></am>n</abbr>
+       <expan>þon<ex>ne</ex></expan>
+      </choice> bidde <choice>
+       <orig>b<g ref="#eenl"/>o<space extent=""/>rn</orig>
+       <reg>b<g ref="#eenl"/>orn</reg>
+      </choice></seg>
+     <seg><choice>
+       <orig><g ref="#sins"/>eðe</orig>
+       <reg><g ref="#sins"/>e ðe</reg>
+      </choice> lufige</seg></l>
+    <lb n="20"/>
+    <l n="89"><seg>þy<g ref="#sins"/><g ref="#sins"/>es gidd<g ref="#eenl"/><g ref="#sins"/> begang<g ref="#punctmet"
+      /></seg>
+     <seg>þæt he geomr<g ref="#umacr"/> me</seg></l>
+    <space extent=""/>
+    <l n="90"><seg>þone<lb n="21"/><sic>halga</sic><corr resp="krapp">halgan</corr> h<g ref="#eenl"/>ap</seg>
+     <seg>h<g ref="#eenl"/>lpe bidde<g ref="#punctmet"/></seg></l>
+    <l n="91"><seg>frið<damage type="faded"><g ref="#eenl"/><g ref="#sins"/></damage>
+      <choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>fultomn<g ref="#eenl"/><g ref="#sins"/></orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> fultom<g ref="#eenl"/><g ref="#sins"/></reg>
+      </choice></seg>
+     <seg>hu ic fr<g ref="#eenl"/>onda <lb n="22"/>beþ<g ref="#eenl"/>arf<g ref="#punctmet"/></seg></l>
+    <l n="92"><seg>liðra <choice>
+       <orig>onlad<g ref="#eenl"/></orig>
+       <reg>on lad<g ref="#eenl"/></reg>
+      </choice><g ref="#punctmet"/></seg>
+     <seg>þonne ic <g ref="#sins"/>ceal langn<g ref="#eenl"/> ham<g ref="#punctmet"/></seg></l>
+    <lb n="23"/>
+    <l n="93"><seg><choice>
+       <orig><g ref="#eenl"/>ard w<g ref="#iacute"/>c</orig>
+       <reg><g ref="#eenl"/>ardw<g ref="#iacute"/>c</reg>
+      </choice> uncuð<g ref="#punctmet"/></seg>
+     <seg>ana <sic>ge <g ref="#sins"/><g ref="#eenl"/>ce</sic><corr resp="krapp">ge<g ref="#sins"/><g ref="#eenl"
+       />can</corr></seg><g ref="#punctmet"/></l>
+    <l n="94"><seg><sic>læt</sic><corr resp="krapp">lætan</corr> me <choice>
+       <orig>onla<g ref="#sins"/>te</orig>
+       <reg>on la<g ref="#sins"/>te</reg>
+      </choice><g ref="#punctmet"/> lic</seg>
+     <seg><lb n="24"/>eorðan dæl<g ref="#punctmet"/></seg></l>
+    <l n="95"><seg><choice>
+       <orig>wæl r<g ref="#eenl"/>af</orig>
+       <reg>wælr<g ref="#eenl"/>af</reg>
+      </choice> wunigean</seg>
+     <seg>weorm<g ref="#umacr"/>
+      <choice>
+       <orig>tohroðr<damage type="faded"><g ref="#eenl"/></damage></orig>
+       <reg>to hroðr<damage type="faded"><g ref="#eenl"/></damage></reg>
+      </choice></seg></l>
+
+     <!-- #######################################  folio 54r  ####################################### -->
+     
+     <pb n="54r"/>
+
+    <fw place="top-right" type="fol"><add hand="unknown">54.</add></fw>
+
+    <l n="96"><seg><g ref="#hrdes"/><g ref="#eenl"/>r mæg findan</seg>
+     <seg>forþan<damage type="faded">c<g ref="#eenl"/></damage><gap extent="3char" reason="illegible"/><supplied
+       resp="krapp">s gl</supplied><damage type="faded"><g ref="#eenl"/>aw</damage></seg></l>
+    <l n="97"><seg><choice>
+       <orig><damage type="faded"><g ref="#sins"/><g ref="#eenl"/>ð</damage><unclear>e</unclear></orig>
+       <reg><damage type="faded"><g ref="#sins"/><g ref="#eenl"/> ð</damage><unclear>e</unclear></reg>
+      </choice>
+      <unclear>h</unclear>ine l<g ref="#yrgmainstrok"/><g ref="#slong"/>teð</seg>
+     <seg><w>leoðgid<lb n="2"/>dunga</w><g ref="#punctmet"/></seg></l>
+    <l n="98"><seg><g ref="#hrdes"/>wa þa<g ref="#sins"/> fitte f<gap extent="5char" reason="illegible"/><supplied
+       resp="krapp">egde <g ref="#feoh"/></supplied></seg>
+     <seg><unclear>þær o</unclear><damage type="faded">n</damage>
+      <g ref="#eenl"/>nde <sic><g ref="#slong"/>tandaþ</sic><corr resp="krapp"><g ref="#slong"/>tandeþ</corr></seg></l>
+    <lb n="3"/>
+    <l n="99"><seg><g ref="#eenl"/>orla<g ref="#sins"/> þæ<g ref="#sins"/>
+      <choice>
+       <orig>oneorðan</orig>
+       <reg>on eorðan</reg>
+      </choice>
+      <gap extent="6char" reason="illegible"/><supplied resp="krapp">brucaþ</supplied></seg>
+     <seg><gap reason="illegible"/><supplied resp="krapp">ne m</supplied>oton hie awa <w>æt<lb n="4"/><g ref="#sins"
+       />omne</w></seg></l>
+    <l n="100"><seg><choice>
+       <orig>woruld wu<gap extent="7char" reason="illegible"/><supplied resp="krapp">nigende</supplied></orig>
+       <reg>woruldwu<gap extent="8" reason="illegible"/><supplied resp="krapp">nigende <g ref="#wyn"/></supplied></reg>
+      </choice></seg>
+     <seg><gap extent="3char" reason="illegible"/><supplied resp="krapp">wen</supplied>
+      <damage type="faded"><g ref="#sins"/></damage>ceal gedr<g ref="#eenl"/>o<g ref="#sins"/>an<g ref="#punctmet"
+      /></seg></l>
+    <l n="101"><seg><g ref="#ur"/><g ref="#punctmet"/><lb n="5"/> on eðle</seg>
+     <seg>æft<g ref="#eenl"/>r to<gap extent="7char" reason="illegible"/><supplied resp="krapp"
+     >hreosan</supplied></seg></l>
+    <l n="102"><seg><gap extent="4char" reason="illegible"/><supplied resp="krapp">læne</supplied> lic<g ref="#eenl"/><g
+       ref="#sins"/> fræt<g ref="#eenl"/>wa</seg>
+     <seg><g ref="#eenl"/>fne<lb n="6"/>
+      <g ref="#slong"/>wa<g ref="#punctmet"/>
+      <g ref="#lagu"/><g ref="#punctmet"/></seg>
+     <seg>toglideð<g ref="#punctmet"/></seg></l>
+    <l n="103"><seg><gap extent="7char" reason="illegible"/><supplied resp="krapp">þonne <g ref="#cen"/>
+       <abbr type="brev"><am><g ref="#et"/></am></abbr>
+       <g ref="#yr"/></supplied></seg>
+     <seg><gap extent="2char" reason="illegible"/><supplied resp="krapp">cr</supplied>æft<g ref="#eenl"/><g ref="#sins"/>
+      <sic>n<g ref="#eenl"/>otað</sic><corr resp="krapp">n<g ref="#eenl"/>osað</corr><g ref="#punctmet"/></seg></l>
+    <l n="104"><seg>niht<g ref="#eenl"/><g ref="#sins"/><lb n="7"/> n<g ref="#eenl"/>arowe</seg>
+     <seg><choice>
+       <orig>onhim</orig>
+       <reg>on him</reg>
+      </choice><gap extent="6char" reason="illegible"/><supplied resp="krapp"><g ref="#nyd"/> ligeð</supplied></seg></l>
+    <l n="105"><seg><gap extent="4char" reason="illegible"/><supplied resp="krapp">cyni</supplied>ng<g ref="#eenl"/><g
+       ref="#sins"/>
+      <choice>
+       <orig>þ<g ref="#eenl"/>o d<g ref="#oacute"/>m</orig>
+       <reg>þeod<g ref="#oacute"/>m</reg>
+      </choice><g ref="#middot"/></seg>
+     <seg><hi rend="cap1.0">N</hi>u ðu <lb n="8"/></seg>Nu ðu cunnon miht</l>
+    <l n="106"><seg><gap extent="13char" reason="illegible"/><supplied resp="krapp">hwa on þam wordu</supplied>m wæ<g
+       ref="#sins"/></seg>
+     <seg>wer<g ref="#umacr"/><space extent=""/>
+      <choice>
+       <orig>on cyðig</orig>
+       <reg>oncyðig</reg>
+      </choice></seg></l>
+    <l n="107"><seg><hi rend="double">s</hi>ie <lb n="9"/>þæ<g ref="#sins"/>
+      <choice>
+       <orig>g<g ref="#eenl"/> myndig</orig>
+       <reg>g<g ref="#eenl"/>myndig</reg>
+      </choice></seg>
+     <seg><gap extent="7char" reason="illegible"/><supplied resp="krapp">mann se ðe lu</supplied><unclear>fig<g
+        ref="#eenl"/></unclear></seg></l>
+    <l n="108"><seg>þi<g ref="#sins"/><g ref="#sins"/><g ref="#eenl"/><g ref="#sins"/>
+      <choice>
+       <orig>gal dr<g ref="#eenl"/><g ref="#sins"/></orig>
+       <reg>galdr<g ref="#eenl"/><g ref="#sins"/></reg>
+      </choice> b<g ref="#eenl"/>gang</seg>
+     <lb n="10"/><seg>þæt he g<g ref="#eenl"/>oc<g ref="#eenl"/>
+      <gap extent="2char" reason="illegible"/><supplied resp="krapp">me</supplied></seg></l>
+    <l n="109"><seg><gap extent="9char" reason="illegible"/><supplied resp="krapp">ond frofre</supplied> fricle</seg>
+     <seg><g ref="#inodotenl"/>c <g ref="#sins"/>c<g ref="#eenl"/>all</seg> f<g ref="#eenl"/>or <w>h<g ref="#eenl"/>o<lb
+       n="11"/>nan</w></l>
+    <l n="110"><seg>an ell<g ref="#eenl"/><gap extent="2char" reason="illegible"/><supplied resp="krapp">s
+       forð</supplied></seg>
+     <seg><gap extent="5char" reason="illegible"/><supplied resp="krapp">eard</supplied></seg><g ref="#eenl"/><g
+      ref="#sins"/> neo<g ref="#sins"/>an<g ref="#punctmet"/></l>
+    <l n="111"><seg>sið a<g ref="#sins"/><g ref="#eenl"/>ttan<g ref="#punctmet"/></seg>
+     <seg><hi rend="cap1.0">N</hi>at<lb n="12"/></seg> ic s<g ref="#ydot"/>lfa hwæ<damage type="faded">r</damage></l>
+    <l n="112"><seg><gap extent="7char" reason="illegible"/>of þisse worulde</seg>
+     <seg>wic <g ref="#sins"/>indon uncuð</seg></l>
+    <lb n="13"/>
+    <l n="113"><seg><g ref="#eenl"/>ard <choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eðel</orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> eðel</reg>
+      </choice></seg>
+     <seg><gap extent="7char" reason="illegible"/><supplied resp="krapp">swa bið æ</supplied><damage type="faded">lc<g
+        ref="#umacr"/></damage> m<g ref="#eenl"/>nn<g ref="#punctmet"/></seg></l>
+    <l n="114"><seg>n<g ref="#eenl"/>mþe he <choice>
+       <orig>god cund<g ref="#eenl"/><g ref="#sins"/></orig>
+       <reg>godcund<g ref="#eenl"/><g ref="#sins"/></reg>
+      </choice></seg>
+     <lb n="14"/><seg>gas<g ref="#slong"/>t<g ref="#eenl"/><g ref="#sins"/>
+      <damage type="faded">br</damage>uce</seg></l>
+    <l n="115"><seg><gap exclude="5char" reason="illegible"/><supplied resp="krapp">ah utu</supplied>
+      <damage type="faded">we þe</damage> g<g ref="#eenl"/>ornor</seg>
+     <seg><choice>
+       <orig>togode</orig>
+       <reg>to gode</reg>
+      </choice> cl<g ref="#eenl"/>opigan</seg></l>
+    <lb n="15"/>
+    <l n="116"><seg><g ref="#sins"/><g ref="#eenl"/>ndan u<damage n="faded"><g ref="#sins"/><g ref="#sins"/>e</damage>
+      <unclear>b<g ref="#eenl"/></unclear><gap extent="2char" reason="illegible"/>ne</seg>
+     <seg><damage type="faded">on þa</damage> b<g ref="#eenl"/>orhtan g<g ref="#eenl"/>sc<g ref="#eenl"/>aft<g
+       ref="#punctmet"/></seg></l>
+    <l n="117"><seg>þæt we<lb n="16"/> þæ<g ref="#sins"/> botl<damage type="faded"><g ref="#eenl"/><g ref="#sins"
+       /></damage></seg>
+     <seg><gap extent="6char" reason="illegible"/><supplied resp="krapp">brucan</supplied>
+      <unclear>m</unclear>otan</seg></l>
+    <l n="118"><seg>ham<g ref="#eenl"/><g ref="#sins"/>
+      <g ref="#inodotenl"/>n <choice>
+       <orig>he hðo</orig>
+       <reg>hehðo</reg>
+      </choice></seg>
+     <seg>þær i<g ref="#sins"/> hihta<lb n="17"/> mæ<g ref="#sins"/>t</seg></l>
+    <l n="119"><seg>þær <unclear>cyning <g ref="#eenl"/>ng</unclear><damage type="faded">la</damage></seg>
+     <seg>clænum gildeð<g ref="#punctmet"/></seg></l>
+    <l n="120"><seg>lean <choice>
+       <orig>un hwil<g ref="#eenl"/>n</orig>
+       <reg>unhwil<g ref="#eenl"/>n</reg>
+      </choice>unhwilen</seg>
+     <lb n="18"/><seg><choice>
+       <orig>nu ahi<g ref="#sins"/></orig>
+       <reg>nu a hi<g ref="#sins"/></reg>
+      </choice>lof <g ref="#slong"/>t<damage type="faded">an</damage>d<g ref="#eenl"/>ð</seg></l>
+    <l n="121"><seg>m<g ref="#yrgmainstrok"/>cel <choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mær<g ref="#eenl"/></orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> mær<g ref="#eenl"/></reg>
+      </choice></seg>
+     <seg><choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hi<g ref="#sins"/></orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> hi<g ref="#sins"/></reg>
+      </choice> miht <space extent=""/><lb n="19"/><g ref="#slong"/><g ref="#eenl"/>omaþ</seg></l>
+    <l n="122"><seg><g ref="#eenl"/>c<g ref="#eenl"/>
+      <choice>
+       <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#eenl"/>d<damage type="faded">gi</damage>ong</orig>
+       <reg><abbr type="brev"><am><g ref="#et"/></am></abbr> ed<damage type="faded">gi</damage>ong</reg>
+      </choice><g ref="#punctmet"/></seg>
+     <seg>of<g ref="#eenl"/>r<space extent=""/>
+      <g ref="#eenl"/>alle <choice>
+       <orig>ge <g ref="#slong"/>c<g ref="#eenl"/>aft</orig>
+       <reg>ge<g ref="#slong"/>c<g ref="#eenl"/>aft</reg>
+      </choice><g ref="#punctmet"/></seg></l>
+    <l n="123">F<hi rend="cap1.0">INI</hi>t<g ref="#punctmet"/></l>
+
+   </div>
+
+  </body>
+ </text>
+</TEI>
+
