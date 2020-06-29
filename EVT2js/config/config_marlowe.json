@@ -88,6 +88,8 @@
     "showDocumentSelector": false,
     "enableNavBar": true,
     "initNavBarOpened": false,
+    "thumbnailsButton": false,
+    "viscollButton": false,
 
     "toolPinAppEntries": true,
     "toolImageTextLinking": false,
