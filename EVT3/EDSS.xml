@@ -25282,151 +25282,180 @@
          <!-- ########################   PATTO ARTE DELLA SETA - edizione diplomatica   ######################## --> 
          
          <div xml:id="PATTO_ADS_div">
-            <table rows="21" cols="1">
-               <pb n="55v" xml:id="SMS1079_fol_055v"/>
-               <head>christos 1508</head>
-               <row role="label">
-                  <cell>OGGETTI</cell>
-                  <cell>QUANTITA'</cell>
-                  <cell>COSTO UNITARIO</cell>
-                  <cell>COSTO TOTALE</cell>
-               </row>
-               <row ana="seta" n="1" xml:id="SMS1079_row_001">
-                  <cell ana="oggetto">seta per pelo adoppiata e torta cruda a peso di statea</cell>
-                  <cell ana="quantità">11 o. 2 2/4 </cell>
-                  <cell ana="unitario">£. 18 la libbra </cell>
-                  <cell ana="costo">£. 201 s. 15 d. </cell>
-               </row>
-               <row ana="seta" n="2">
-                  <cell ana="oggetto">seta per orsoio da velluti adoppiato e torto crudo </cell>
-                  <cell ana="quantità">lb. 2 o. 6 1/4 </cell>
-                  <cell ana="unitario">£. 17 la libbra </cell>
-                  <cell ana="costo">£. 42 s. 17 d. </cell>
-               </row>
-               <row ana="seta" n="3">
-                  <cell ana="oggetto">seta per orsoio da rasi modigliano adoppiato e torto crudo a
-                     peso di bilancia nostra di buttigha </cell>
-                  <cell ana="quantità">o. 6 </cell>
-                  <cell ana="unitario">£. 18 s. 10 tutta </cell>
-                  <cell ana="costo">£. 9 s. 5 d. </cell>
-               </row>
-               <row ana="seta" n="4">
-                  <cell ana="oggetto">seta per <persName ref="#trama">trama</persName> da rasi
-                     scempia filata </cell>
-                  <cell ana="quantità">lb. 5 o. 10 </cell>
-                  <cell ana="unitario">£. 15 s. 10 tutta </cell>
-                  <cell ana="costo">£. 90 s. 8 d. 4 </cell>
-               </row>
-               <row ana="seta" n="5">
-                  <cell ana="oggetto">seta cruda per orsoio da cordoni adoppiato e torto </cell>
-                  <cell ana="quantità">o.5</cell>
-                  <cell ana="unitario">£. 15 s. 15 tutta </cell>
-                  <cell ana="costo">£. 6 s. 11 d. 3</cell>
-                  
-               </row>
-               <row ana="seta" n="6">
-                  <cell ana="oggetto">seta da chucire cruda e torta </cell>
-                  <cell ana="quantità">o. 7 1/4 d. 6 </cell>
-                  <cell ana="unitario">£. 14 s. 8 tutta </cell>
-                  <cell ana="costo">£. 8 s. 17 d. 6 </cell>
-               </row>
-               <row ana="seta" n="7">
-                  <cell ana="oggetto">seta nostrana tratta e filata </cell>
-                  <cell ana="quantità">o. 11 per tutta </cell>
-                  <cell ana="unitario">£. 17 tutta </cell>
-                  <cell ana="costo">£. 15 s. 11 d. 8 </cell>
-               </row>
-               <row ana="Trama" n="8">
-                  <cell ana="oggetto">trama cruda per damascini doppia </cell>
-                  <cell ana="quantità">o. 9 3/4 </cell>
-                  <cell ana="unitario">£. 16 tutta </cell>
-                  <cell ana="costo">£. 13 s. d. </cell>
-               </row>
-               <row ana="Trama" n="9">
-                  <cell ana="oggetto">trama cruda doppia per rasi </cell>
-                  <cell ana="quantità">lb. 1 o. 1 1/4 </cell>
-                  <cell ana="unitario">£. 15 tutta </cell>
-                  <cell ana="costo">£. 16 s. 11 d. 3 </cell>
-               </row>
-               <row ana="Trama" n="10">
-                  <cell ana="oggetto">trama per velluti cruda doppia </cell>
-                  <cell ana="quantità">o. 5 2/4 </cell>
-                  <cell ana="unitario">£. 12 la libbra </cell>
-                  <cell ana="costo">£. 5 s. 10 d. </cell>
-               </row>
-               <row ana="Trama" n="11">
-                  <cell ana="oggetto">trama scempia da velluti <placeName ref="#Giudea"
-                     >giudea</placeName> e <placeName ref="#Calabria">chalabrese</placeName>
-                     cruda tratta e filata </cell>
-                  <cell ana="quantità">lb. 6 o. 3 2/4 </cell>
-                  <cell ana="unitario">£. 13 tutta </cell>
-                  <cell ana="costo">£. 81 s. 15 d. 10 </cell>
-               </row>
-               <row ana="seta" n="12">
-                  <cell ana="oggetto">chapitoni di seta<placeName ref="#Calabria"
-                     >chalabrese</placeName>tratti e filati </cell>
-                  <cell ana="quantità">lb. 3 o. 9 </cell>
-                  <cell ana="unitario">£. 5 tutta </cell>
-                  <cell ana="costo">£. 18 s. 15 d. </cell>
-               </row>
-               <row ana="seta" n="13">
-                  <cell ana="oggetto">chapitoni di seta <placeName ref="#Giudea">giudea</placeName>
-                     tratti e filati </cell>
-                  <cell ana="quantità">lb. 3 o. 8 </cell>
-                  <cell ana="unitario">£. 4 s. 5 tt </cell>
-                  <cell ana="costo">£. 15 s. 11 d. 8 </cell>
-               </row>
-               <row ana="seta" n="14">
-                  <cell ana="oggetto">chapitoni di seta modigliana e<placeName ref="#Calabria"
-                     >chalabrese</placeName>tratti e filati a peso di statea </cell>
-                  <cell ana="quantità">lb. 2 o. 5 </cell>
-                  <cell ana="unitario">£. 3 s. 15 la libbra </cell>
-                  <cell ana="costo">£. 9 s. 1 d. 3 </cell>
-               </row>
-               <row ana="seta" n="15">
-                  <cell ana="oggetto">chapitoni di seta<placeName ref="#Calabria"
-                     >chalabrese</placeName>tratti e filati </cell>
-                  <cell ana="quantità">lb. 6 o. 7 </cell>
-                  <cell ana="unitario">£. 3 s. 5 tutta </cell>
-                  <cell ana="costo">£. 21 s. 7 d. 11 </cell>
-               </row>
-               <row ana="seta" n="16">
-                  <cell ana="oggetto">chapitoni di più sete grossi tratti e filati </cell>
-                  <cell ana="quantità">lb. 2 o. 7 </cell>
-                  <cell ana="unitario">£. 3 la libbra </cell>
-                  <cell ana="costo">£. 7 s. 15 d. </cell>
-               </row>
-               <row ana="seta" n="17">
-                  <cell ana="oggetto">chapitoni di crespi tratti e filati </cell>
-                  <cell ana="quantità">o. 9 2/4 </cell>
-                  <cell ana="unitario">£. 1 s. 15 la libbra </cell>
-                  <cell ana="costo">£. 1 s. 8 d. </cell>
-               </row>
-               <row ana="seta" n="18">
-                  <cell ana="oggetto">chapitoni tratti grossi </cell>
-                  <cell ana="quantità">lb. 4 o. 6 </cell>
-                  <cell ana="unitario">£. 3 la libbra </cell>
-                  <cell ana="costo">£. 13 s. 10 d. </cell>
-               </row>
-               <row ana="seta" n="19">
-                  <cell ana="oggetto">chapitoni sodi grossi </cell>
-                  <cell ana="quantità">o. 8 </cell>
-                  <cell ana="unitario">£. 1 s. 5 tt </cell>
-                  <cell ana="costo">£. s. 16 d. 8 </cell>
-               </row>
-               <row ana="seta" n="20">
-                  <cell ana="oggetto">capitoni doppi e crespi in su rochetti per tutti </cell>
-                  <cell ana="quantità"/>
-                  <cell ana="unitario"/>
-                  <cell ana="costo">£. 11 s. d. </cell>
-               </row>
-               <row ana="tot" n="21">
-                  <cell ana="oggetto">[Totale]</cell>
-                  <cell ana="quantità"/>
-                  <cell ana="unitario"/>
-                  <cell ana="costo">£. 591 s. 8 d. 4 </cell>
-               </row>
-            </table>
+           
+           <!-- ABBREVIAZIONI
+           
+            o. = oncia
+            £. = lire / libbre (convertito in lb. quando indica le libbre da MG)
+            s. = soldi
+            d. = denari
+            
+            £. 42 s. 17 d. = 42 lire, 17 soldi, 0 denari
+
+           -->
+
+        <table cols="1" rows="21">
+          <pb n="55v" xml:id="SMS1079_fol_055v"/>
+          <head>christos 1508</head>
+          <row role="label">
+            <cell>OGGETTI</cell>
+            <cell>QUANTITA'</cell>
+            <cell>COSTO UNITARIO</cell>
+            <cell>COSTO TOTALE</cell>
+          </row>
+          <row ana="seta" n="1" xml:id="SMS1079_row_001">
+            <!-- seta per pelo adoppiata e torta cruda a peso di statea = seta per fare tessuti complessi (velluto), 
+                   già ritorta (ossia sottoposta a torcitura per renderla più resistente) cruda (non sottoposta a bollitura 
+                   e quindi ancora da tingere <- questo procedimento permetteva di togliere la sericina) venduta a peso di 
+                   stadera. Si tratta di 11 libre e 2,5 once, vendute 18 lire la libbra per un totale di 201 lire e 15 soldi -->
+            <cell ana="oggetto">seta<!-- marcare seta per individuare tipologia generale di oggetto? <term>? marcare 
+                    tutta l'espressione "seta per pelo"?-->
+              per pelo adoppiata e torta cruda a peso di statea</cell>
+            <cell ana="quantità">
+              <measure quantity="11" type="weight" unit="libbra">lb. 11</measure>
+              <measure quantity="2.5" type="weight" unit="oncia">o. 2 2/4</measure>
+            </cell>
+            <cell ana="costo_unitario">£. 18 la libbra </cell>
+            <cell ana="costo_totale">£. 201 s. 15 d. </cell>
+          </row>
+          <row ana="seta" n="2">
+            <cell ana="oggetto">seta per orsoio da velluti adoppiato e torto crudo </cell>
+            <cell ana="quantità">
+              <measure quantity="2" type="weight" unit="libbra">lb. 2</measure>
+              <measure quantity="6.25" type="weight" unit="oncia">o. 6 1/4</measure>
+            </cell>
+            <cell ana="costo_unitario">£. 17 la libbra </cell>
+            <cell ana="costo_totale">£. 42 s. 17 d. </cell>
+          </row>
+          <row ana="seta" n="3">
+            <cell ana="oggetto">seta per orsoio da rasi modigliano adoppiato e torto crudo a peso di bilancia nostra di
+              buttigha </cell>
+            <cell ana="quantità"><measure quantity="6" type="weight" unit="oncia">o. 6</measure> </cell>
+            <cell ana="costo_unitario">£. 18 s. 10 tutta </cell>
+            <cell ana="costo_totale">£. 9 s. 5 d. </cell>
+          </row>
+          <row ana="seta" n="4">
+            <cell ana="oggetto">seta per <persName ref="#trama">trama</persName> da rasi scempia filata </cell>
+            <cell ana="quantità">
+              <measure quantity="5" type="weight" unit="libbra">lb. 5</measure> 
+              <measure quantity="10" type="weight" unit="oncia">o. 10</measure></cell>
+            <cell ana="costo_unitario">£. 15 s. 10 tutta </cell>
+            <cell ana="costo_totale">£. 90 s. 8 d. 4 </cell>
+          </row>
+          <row ana="seta" n="5">
+            <cell ana="oggetto">seta cruda per orsoio da cordoni adoppiato e torto </cell>
+            <cell ana="quantità"><measure quantity="5" type="weight" unit="oncia">o. 5</measure></cell>
+            <cell ana="costo_unitario">£. 15 s. 15 tutta </cell>
+            <cell ana="costo_totale">£. 6 s. 11 d. 3</cell>
+
+          </row>
+          <row ana="seta" n="6">
+            <cell ana="oggetto">seta da chucire cruda e torta </cell>
+            <cell ana="quantità"><measure quantity="7.25" type="weight" unit="oncia">o. 7 1/4</measure> d. 6<!-- ??? --> </cell>
+            <cell ana="costo_unitario">£. 14 s. 8 tutta </cell>
+            <cell ana="costo_totale">£. 8 s. 17 d. 6 </cell>
+          </row>
+          <row ana="seta" n="7">
+            <cell ana="oggetto">seta nostrana tratta e filata </cell>
+            <cell ana="quantità"><measure quantity="11" type="weight" unit="oncia">o. 11</measure> per tutta </cell>
+            <cell ana="costo_unitario">£. 17 tutta </cell>
+            <cell ana="costo_totale">£. 15 s. 11 d. 8 </cell>
+          </row>
+          <row ana="Trama" n="8">
+            <cell ana="oggetto">trama cruda per damascini doppia </cell>
+            <cell ana="quantità"><measure quantity="9.75" type="weight" unit="oncia">o. 9 3/4</measure> </cell>
+            <cell ana="costo_unitario">£. 16 tutta </cell>
+            <cell ana="costo_totale">£. 13 s. d. </cell>
+          </row>
+          <row ana="Trama" n="9">
+            <cell ana="oggetto">trama cruda doppia per rasi </cell>
+            <cell ana="quantità"><measure quantity="1" type="weight" unit="libbra">lb. 1</measure> 
+              <measure quantity="1.25" type="weight" unit="oncia">o. 1 1/4</measure> </cell>
+            <cell ana="costo_unitario">£. 15 tutta </cell>
+            <cell ana="costo_totale">£. 16 s. 11 d. 3 </cell>
+          </row>
+          <row ana="Trama" n="10">
+            <cell ana="oggetto">trama per velluti cruda doppia </cell>
+            <cell ana="quantità"><measure quantity="5.50" type="weight" unit="oncia">o. 5 2/4</measure> </cell>
+            <cell ana="costo_unitario">£. 12 la libbra </cell>
+            <cell ana="costo_totale">£. 5 s. 10 d. </cell>
+          </row>
+          <row ana="Trama" n="11">
+            <cell ana="oggetto">trama scempia da velluti <placeName ref="#Giudea">giudea</placeName> e <placeName
+                ref="#Calabria">chalabrese</placeName> cruda tratta e filata </cell>
+            <cell ana="quantità"><measure quantity="6" type="weight" unit="libbra">lb. 6</measure> 
+              <measure quantity="3.50" type="weight" unit="oncia">o. 3 2/4</measure> </cell>
+            <cell ana="costo_unitario">£. 13 tutta </cell>
+            <cell ana="costo_totale">£. 81 s. 15 d. 10 </cell>
+          </row>
+          <row ana="seta" n="12">
+            <cell ana="oggetto">chapitoni di seta <placeName ref="#Calabria">chalabrese</placeName> tratti e filati </cell>
+            <cell ana="quantità"><measure quantity="3" type="weight" unit="libbra">lb. 3</measure> 
+              <measure quantity="9" type="weight" unit="oncia">o. 9</measure> </cell>
+            <cell ana="costo_unitario">£. 5 tutta </cell>
+            <cell ana="costo_totale">£. 18 s. 15 d. </cell>
+          </row>
+          <row ana="seta" n="13">
+            <cell ana="oggetto">chapitoni di seta <placeName ref="#Giudea">giudea</placeName> tratti e filati </cell>
+            <cell ana="quantità"><measure quantity="3" type="weight" unit="libbra">lb. 3</measure> 
+              <measure quantity="8" type="weight" unit="oncia">o. 8</measure> </cell>
+            <cell ana="costo_unitario">£. 4 s. 5 tt </cell>
+            <cell ana="costo_totale">£. 15 s. 11 d. 8 </cell>
+          </row>
+          <row ana="seta" n="14">
+            <cell ana="oggetto">chapitoni di seta modigliana e<placeName ref="#Calabria">chalabrese</placeName>tratti e
+              filati a peso di statea </cell>
+            <cell ana="quantità"><measure quantity="2" type="weight" unit="libbra">lb. 2</measure> 
+              <measure quantity="5" type="weight" unit="oncia">o. 5</measure> </cell>
+            <cell ana="costo_unitario">£. 3 s. 15 la libbra </cell>
+            <cell ana="costo_totale">£. 9 s. 1 d. 3 </cell>
+          </row>
+          <row ana="seta" n="15">
+            <cell ana="oggetto">chapitoni di seta<placeName ref="#Calabria">chalabrese</placeName>tratti e filati </cell>
+            <cell ana="quantità"><measure quantity="6" type="weight" unit="libbra">lb. 6</measure> 
+              <measure quantity="7" type="weight" unit="oncia">o. 7</measure> </cell>
+            <cell ana="costo_unitario">£. 3 s. 5 tutta </cell>
+            <cell ana="costo_totale">£. 21 s. 7 d. 11 </cell>
+          </row>
+          <row ana="seta" n="16">
+            <cell ana="oggetto">chapitoni di più sete grossi tratti e filati </cell>
+            <cell ana="quantità"><measure quantity="2" type="weight" unit="libbra">lb. 2</measure> 
+              <measure quantity="7" type="weight" unit="oncia">o. 7</measure> </cell>
+            <cell ana="costo_unitario">£. 3 la libbra </cell>
+            <cell ana="costo_totale">£. 7 s. 15 d. </cell>
+          </row>
+          <row ana="seta" n="17">
+            <cell ana="oggetto">chapitoni di crespi tratti e filati </cell>
+            <cell ana="quantità"><measure quantity="9.50" type="weight" unit="oncia">o. 9 2/4</measure> </cell>
+            <cell ana="costo_unitario">£. 1 s. 15 la libbra </cell>
+            <cell ana="costo_totale">£. 1 s. 8 d. </cell>
+          </row>
+          <row ana="seta" n="18">
+            <cell ana="oggetto">chapitoni tratti grossi </cell>
+            <cell ana="quantità"><measure quantity="4" type="weight" unit="libbra">lb. 4</measure> 
+              <measure quantity="6" type="weight" unit="oncia">o. 6</measure> </cell>
+            <cell ana="costo_unitario">£. 3 la libbra </cell>
+            <cell ana="costo_totale">£. 13 s. 10 d. </cell>
+          </row>
+          <row ana="seta" n="19">
+            <cell ana="oggetto">chapitoni sodi grossi </cell>
+            <cell ana="quantità"><measure quantity="8" type="weight" unit="oncia">o. 8</measure> </cell>
+            <cell ana="costo_unitario">£. 1 s. 5 tt </cell>
+            <cell ana="costo_totale">£. s. 16 d. 8 </cell>
+          </row>
+          <row ana="seta" n="20">
+            <cell ana="oggetto">capitoni doppi e crespi in su rochetti per tutti </cell>
+            <cell ana="quantità"/>
+            <cell ana="costo_unitario"/>
+            <cell ana="costo_totale">£. 11 s. d. </cell>
+          </row>
+          <row ana="tot" n="21">
+            <cell ana="oggetto">[Totale]</cell>
+            <cell ana="quantità"/>
+            <cell ana="costo_unitario"/>
+            <cell ana="costo_totale">£. 591 s. 8 d. 4 </cell>
+          </row>
+        </table>
          </div>         
 
          <!-- ########################   CODICE PELAVICINO - edizione interpretativa   ######################## --> 
@@ -25795,8 +25824,8 @@
             <interpGrp type="table_interp">
                <interp xml:id="oggetto">Prodotti</interp>
                <interp xml:id="quantità">Quantità</interp>
-               <interp xml:id="unitario">Costo Unitario</interp>
-               <interp xml:id="costo">Costo Totale</interp>
+               <interp xml:id="costo_unitario">Costo Unitario</interp>
+               <interp xml:id="costo_totale">Costo Totale</interp>
                <interp xml:id="seta">Materia prima</interp>
                <interp xml:id="MPT">Materia pronta per la tessitura</interp>
                <interp xml:id="tot">Totale</interp>
