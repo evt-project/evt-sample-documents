@@ -1,0 +1,1905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bibliografia congiunta del sito del Codice Pelavicino, della sua edizione su
+                    EVT e del Glossario dei termini notevoli.</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="bibliografia">
+        <front>
+            <p> Bibliografia congiunta del sito del Codice Pelavicino, della sua edizione su EVT e
+                del Glossario dei termini notevoli. </p>
+        </front>
+        <body>
+            <div xml:id="BIBLCP" type="biblCompleta">
+
+                <listBibl>
+
+                    <bibl xml:id="AIRALDI_1970-71">AIRALDI 1970-71: G. Airaldi, <emph>Note di
+                            cronologia sui “liber iurium” medievali liguri</emph>, in «Studi
+                        Genuensi», 8, p. 38‑68. </bibl>
+
+                    <bibl xml:id="ALBERTI_1992">ALBERTI 1992: S. Alberti, <emph>Dizionario
+                            italiano-tedesco, tedesco-italiano</emph>, Milano.</bibl>
+
+                    <bibl xml:id="AMBROSI_1992">AMBROSI 1992: A.C. Ambrosi, <emph>Sulla via dei
+                            pellegrini in Lunigiana e sul porto di s. Maurizio</emph>, in <emph>Il
+                            pellegrinaggio medievale per Roma e Santiago de Compostela. Itinerari in
+                            Val di Magra</emph>, Aulla, pp. 33–67. </bibl>
+
+                    <bibl xml:id="AMBROSI_BERTOZZI_MANFREDI_1989">AMBROSI BERTOZZI MANFREDI 1989:
+                        A.C. Ambrosi, M. Bertozzi e G. Manfredi, <emph> Massa Carrara. Pievi e
+                            territorio della Provincia</emph> Pisa 1989. </bibl>
+
+                    <bibl xml:id="AMBROSI_CAROZZI_1985">AMBROSI CAROZZI 1985: A.C. Ambrosi e F.
+                        Carozzi, <emph>Il castello di Moneta</emph>, in «Giornale Storico della
+                        Lunigiana e del territorio Lucense», n. s., XXXV-XXXVI (1984-1985), pp.
+                        79-130.</bibl>
+
+                    <bibl xml:id="AMBROSI_CAROZZI_1986">AMBROSI CAROZZI 1986: A.C. Ambrosi e F.
+                        Carozzi, <emph>Appunti per servire allo studio della viabilità medioevale
+                            nel territorio spezzino</emph>, in <emph>S. Venerio del Tino: vita
+                            religiosa e civile tra isole e terraferma in età medievale</emph>. Atti
+                        del Convegno (Lerici, La Spezia, Portovenere, 18-20 settembre 1982), La
+                        Spezia-Sarzana, p. 25‑42. </bibl>
+
+                    <bibl xml:id="ANSANI_2006">ANSANI 2006 = M. Ansani, <emph>Edizione digitale di
+                            fonti diplomatiche: esperienze, modelli testuali, priorità,</emph>, in
+                            <ref target="http://www.storia.unifi.it/_RM/rivista/forum/Ansani.htm"
+                            >«Reti Medievali - Rivista», VII, 2006, 2.</ref></bibl>
+
+                    <bibl xml:id="APG">APG: <emph>Annales Placentini Gibellini</emph>, in
+                            <emph>Monumenta Germaniae Historica. Scriptores</emph>, XVIII, Hannover
+                        1863, pp. 457-581.</bibl>
+
+                    <bibl xml:id="APROSIO_2003"> APROSIO 2003: S. Aprosio, <emph>Vocabolario ligure
+                            storico - bibliografico sec. X-XX</emph>, 2 vols. Savona, Società
+                        Savonese di Storia Patria, 2001-2003.</bibl>
+
+                    <bibl xml:id="ARMANINI_2015">ARMANINI 2015: M. Armanini, <emph>Ligures apuani.
+                            Lunigiana storica, Garfagnana e Versilia prima dei romani</emph>,
+                        Limena. </bibl>
+
+                    <bibl xml:id="ARMELLINI_1891">ARMELLINI 1891: M. Armellini, <emph>Le chiese di
+                            Roma dal secolo IV al XIX</emph>, Roma 1891.</bibl>
+
+                    <bibl xml:id="ARNALDI_1967">ARNALDI 1967: G. Arnaldi, <emph>BERENGARIO I,
+                            duca-marchese del Friuli, re d'Italia, imperatore</emph>, in
+                            <emph>Dizionario Biografico degli Italiani</emph>, 9.</bibl>
+
+                    <bibl xml:id="ASCARI_1969">ASCARI 1969: T. Ascari, <emph>BOCCIACCI, Giovanni
+                            Andrea</emph>, in <emph>Dizionario Biografico degli Italiani</emph>,
+                        11.</bibl>
+
+                    <bibl xml:id="ASFi_DM">ASFi DM: Archivio di Stato di Firenze, <emph>Diplomatico
+                            Malaspina</emph>, Spoglio 100.</bibl>
+
+                    <bibl xml:id="ASGe_MAPPA_33"> ASGe MAPPA 33: Archivio di Stato di Genova,
+                            <emph>Copia della pianta dei confini fra il Serenissimo Senato di Genova
+                            e l'Illustrissimo Signor Marchese di Fosdinovo data in Camera l'anno
+                            1587 (ca. 1625), Archivio di Stato di Genova, Raccolta dei Tipi, disegni
+                            e mappe, Fondi cartografici originari, Mappe e tipi della Repubblica di
+                            Genova,</emph> Miscellanea di carte non riconducibili all'ordinamento
+                        originario, n. 33.</bibl>
+
+                    <bibl xml:id="ASGe_1779">ASGe 1779: Archivio di Stato di Genova, <emph>Tipo
+                            geometrico del corso che tiene il Torrente Parmignola nella pianura
+                            genovese e carrarese sino al mare (a. 1779)</emph>, 775/Parmignola,
+                        4.</bibl>
+
+                    <bibl xml:id="ASLu_SF">ASLu SF: Archivio di Stato di Lucca, <emph>San
+                            Frediano</emph>.</bibl>
+
+                    <bibl xml:id="ASLu_DA">ASLu DA: Archivio di Stato di Lucca, <emph>Diplomatico
+                            Arnolfini</emph>.</bibl>
+
+                    <bibl xml:id="ASLu_SG">ASLu SG: Archivio di Stato di Lucca, <emph>Diplomatico S.
+                            Giovanni</emph>.</bibl>
+
+                    <bibl xml:id="BAK_1971">BAK 1971: Janos M. Bak, <emph>BRANCALEONI, Leone</emph>,
+                        in <emph>Dizionario Biografico degli Italiani</emph>, 13.</bibl>
+
+
+                    <bibl xml:id="BALDASSARRI_ANDREAZZOLI_2005"> BALDASSARRI ANDREAZZOLI 2005: M.
+                        Baldassarri – F. Andreazzoli, <emph>Per l’archeologia dell’Abbazia di San
+                            Venanzio di Ceparana: dalla prima analisi ad un progetto per il
+                            futuro</emph>, in «Giornale Storico della Lunigiana», LVI, pp.
+                        233–254.</bibl>
+
+                    <bibl xml:id="BALDASSARRI_ANDREAZZOLI_2006">BALDASSARRI ANDREAZZOLI 2007: M.
+                        Baldassarri – F. Andreazzoli, <emph>Fosdinovo (MS). Per la Carta
+                            Archeologica comunale: le ricognizioni di superficie 2005-2006</emph>,
+                        in «Notiziario della Soprintendenza per i Beni Archeologici della Toscana,
+                        2» (2006), pp. 6–12. </bibl>
+
+                    <bibl xml:id="BALDASSARRI_PARODI_2011">BALDASSARRI PARODI 2011: M.Baldassarri e
+                        L. Parodi, <emph>L’uso di moneta in Lunigiana tra X e XIV secolo ed il
+                            problema dei denari imperiali di Luni</emph>, in <emph>«Numismatica e
+                            antichità classica»</emph>, 40 (2011), p. 347‑384. </bibl>
+
+                    <bibl xml:id="BALLETTO_2006">BALLETTO 2006: L. Balletto, <emph>Geo Pistarino e
+                            le fonti. Un progetto incompiuto: l’edizione critica del Codice
+                            Pelavicino</emph>, in «Memorie dell’Accademia Lunigianese G. Capellini»
+                        LXXIX (2009), pp. 57–76.</bibl>
+
+
+                    <bibl xml:id="BALUZE_1682">BALUZE 1682: É. Baluze (ed.), <emph> Epistolarum
+                            Innocentii III romani pontificis libri undecim</emph>, 4 vols.,
+                        Parisiis: apud Franciscum Muguet. </bibl>
+
+
+                    <bibl xml:id="BALUZE_1761">BALUZE 1761: É. Baluze, <emph>Stephani Baluzii ...
+                            Miscellanea novo ordine digesta et non paucis ineditis monumentis
+                            opportunisque animadversionibus aucta. Opera ac studio Joannis Dominici
+                            Mansi</emph>, 4 vols., Apud V. Junctinium 1761-1764 </bibl>
+
+                    <bibl xml:id="BARSOCCHINI_1844">BARSOCCHINI 1844: D. Barsocchini, <emph>Raccolta
+                            di documenti per servire alla storia ecclesiastica lucchese</emph>, V-1
+                        (Memorie e documenti per servire all'istoria del Ducato di Lucca),
+                        Lucca</bibl>
+
+                    <bibl xml:id="BRAIDI_2013">BRAIDI 2013: V. Braidi, <emph>Lo statuto del collegio
+                            del notai dell’anno 1336</emph>, in Tamba G. e Tavilla C.E. (edd.),
+                            <emph>Nella città e per la città. I notai a Modena</emph>, Milano,
+                        p. 5‑18.</bibl>
+
+                    <bibl xml:id="BARTEL_1636">BARTEL 1636: S. Bartel, <emph>Historica et
+                            chronologica praesulum sanctæ regiensis Ecclesiæ nomenclatura. Necnon
+                            prolegomena, reiorum Apollinarium antiquitatem, auctorum testimoniis, et
+                            lapidum epigraphis comprobantia </emph>,Aquis-Sextiis, apud Stephanum
+                        David, Regis, Cleri, atque urbis typographum, hæred. I. Tholosani.</bibl>
+
+                    <bibl xml:id="BASSI_1927">BASSI 1927: S. Bassi, <emph>Il castello e l’abbazia
+                            dell’Aulla nella storia della Lunigiana</emph>, Aulla.</bibl>
+
+                    <bibl xml:id="BATTAGLIA_1961">s: S. Battaglia, <emph>Grande Dizionario della
+                            Lingua Italiana</emph>, UTET.</bibl>
+
+                    <bibl xml:id="BEDINA_2005">BEDINA 2005: A. Bedina, <emph>LIUTVARDO</emph>, in
+                            <emph>Dizionario Biografico degli Italiani</emph>, 65. </bibl>
+
+                    <bibl xml:id="BERNOLDUS">BERNOLDUS: Bernoldi, <emph>Chronicon</emph>, in <emph>
+                            Monumenta Germaniae Historica Scriptores</emph>, V, ed. G. H. Pertz,
+                        Hannoverae, 1844, pp. 385–467.</bibl>
+
+                    <bibl xml:id="BERTOLINI_1970">BERTOLINI 1970: M. G. Bertolini, <emph>BEATRICE di
+                            Lorena, marchesa e duchessa di Toscana</emph>, in <emph>Dizionario
+                            Biografico degli Italiani</emph>, 7.</bibl>
+
+                    <bibl xml:id="BERTOZZI_1989">BERTOZZI 1989: M. Bertozzi, <emph>Pieve di S.
+                            Andrea Apostolo di Carrara</emph>, in <emph>Massa Carrara. Pievi e
+                            territorio della Provincia</emph>, a cura di A. C. Ambrosi, M. Bertozzi
+                        e G. Manfredi, Pisa, pp. 43–66.</bibl>
+
+                    <bibl xml:id="BELGRANO_BERETTA_1887">BELGRANO BERETTA 1887: L.T. Belgrano e L.T.
+                        Belgrano - L. Beretta,, <emph>Il secondo registro della Curia arcivescovile
+                            di Genova</emph>, in «Atti della Società Ligure di Storia Patria»,
+                        XVIII.</bibl>
+
+                    <bibl xml:id="BERTINO_1997">BERTINO 1997: A. Bertino, <emph> I problemi della
+                            monetazione episcopale di Luni</emph>, in «Quaderni del Centro Studi
+                        Lunensi», n.s., 3 (1997), pp. 121–140. </bibl>
+
+                    <bibl xml:id="BERTOLINI_1960">BERTOLINI 1960: M. G. Bertolini , <emph>ALBERTO
+                            AZZO, </emph>, in <emph>Dizionario Biografico degli Italiani</emph>,
+                        1.</bibl>
+
+                    <bibl xml:id="BICCHIERAI_2006">BICCHIERAI 2006: M. Bicchierai, <emph>MALASPINA,
+                            Alberto</emph>, in <emph>Dizionario Biografico degli Italiani</emph>,
+                        67.</bibl>
+
+                    <bibl xml:id="BISCOTTINI_2000">BISCOTINI 2000: P. Biscottini, <emph>La basilica
+                            di San Lorenzo Maggiore</emph>, Milano.</bibl>
+
+                    <bibl xml:id="BLAKE_2014">BLANKE 2014: T. Blanke, E. Pierazzo, P. A. Stokes,
+                            <emph>Digital Publishing Seen from the Digital Humanities,</emph>, in
+                        «Logos», 25/2 (2014), pp. 16–27.</bibl>
+
+                    <bibl xml:id="NOVUM_GLOSSARIUM_1985">NOVUM_GLOSSARIUM 1985: <emph>Novum
+                            glossarium mediae latinitatis: ab anno DCCC usque ad annum MCC, edendum
+                            curavit Consilium academiarum consociatarum. </emph>, vol. P-Panis,
+                        Hafniae.</bibl>
+
+                    <bibl xml:id="BOESPFLUG_1997">BOESPFLUG 1997: T. Boespflug, <emph>FIESCHI,
+                            Bonifacio</emph>, in <emph>Dizionario Biografico degli Italiani</emph>,
+                        47.</bibl>
+
+                    <bibl xml:id="BÖHMER_1831">BÖHMER 1831: J.F. Böhmer (ed.), <emph>Regesta
+                            chronologico-diplomatica regum atque imperatorum Romanorum inde a
+                            Conrado I. usque ad Henricum VII. Die Urkunden der römischen Könige und
+                            Kaiser von Conrad I. bis Heinrich VII. (911 - 1313) in kurzen Auszügen
+                            mit Nachweisung der Bücher, wo solche abgedruckt sind</emph>, Frankfurt
+                        a. M.</bibl>
+
+                    <bibl xml:id="BÖHMER_1898">BÖHMER 1898: J.F. Böhmer (ed.), <emph>Die Regesten
+                            des Kaiserreichs unter Rudolf, Adolf, Albrecht, Heinrich 7.,
+                            1273-1313</emph>, in <emph>Regesta Imperii</emph>, Bd. 6, Wien.</bibl>
+
+
+                    <bibl xml:id="BÖHMER_BAAKEN_1972">BÖHMER BAAKEN 1972: <emph>3: Die Regesten des
+                            Kaiserreiches unter Heinrich 6., 1165 (1190)-1197</emph>, nach Johann
+                        Friedrich Böhmer neubearbeitet von Gerhard Baaken, in <emph>Regesta Imperii
+                        </emph>, 4: Ältere Staufer, Wien.</bibl>
+
+                    <bibl xml:id="BONACINI_2013">BONACINI 2013: P. Bonacini, <emph>"Scribarum turba
+                            Mutine": Notai a Modena nel Tardo Medioevo tra cultura, politica e
+                            società</emph>, in Tamba G. e Tavilla C.E. (edd.), <emph>Nella città e
+                            per la città. I notai a Modena</emph>, Milano, p. 47-70.</bibl>
+
+                    <bibl xml:id="BONATTI_1984">BONATTI 1984: F. Bonatti (a cura di), <emph>Ceparana
+                            storia e tradizioni</emph>, Pisa 1984.</bibl>
+
+                    <bibl xml:id="BONATTI_1986">BONATTI 1986: F. Bonatti, <emph>Vicende storiche
+                            dell’abbazia di San Venanzio di Ceparana nel secolo XV</emph>, in
+                            <emph>Società civile e società religiosa in Lunigiana e nel vicino
+                            Appennino dal IX al XV secolo</emph>, Atti del Convegno (Aulla 1984),
+                        Aulla, pp. 47-60.</bibl>
+
+                    <bibl xml:id="BONATTI_1990">BONATTI 1990: F. Bonatti, <emph>Gli ordini religiosi
+                            nella diocesi di Luni tra Duecento e Trecento</emph>, in <emph>Alle
+                            origini della Lunigiana moderna. Settimo centenario della redazione del
+                            Codice Pelavicino (1287-1987)</emph>. Atti del convegno, La Spezia, pp.
+                        117–138. </bibl>
+
+                    <bibl xml:id="BONATTI_PETACCO_1989">BONATTI PETACCO 1989: F. Bonatti ed E.
+                        Petacco, <emph>Trebiano, vicende storiche economiche e sociali</emph>,
+                        Firenze.</bibl>
+
+                    <bibl xml:id="BONATTI_RATTI_1991">BONATTI RATTI 1991: F. Bonatti e M. Ratti,
+                            <emph>Sarzana</emph>, Genova.</bibl>
+
+                    <bibl xml:id="BONDIELLI_1975">BONDIELLI 1975: P. Bondielli, <emph>L’extimum di
+                            Massa Lunense del 1398. Rilievi e note</emph>, Modena. </bibl>
+
+                    <bibl xml:id="BONGI_1999">BONGI 1999: S. Bongi (ed.), <emph>Inventario del R.
+                            Archivio di Stato in Lucca</emph>, 4 voll., Lucca, ristampa anastatica
+                        dell'edizione 1872-1888 con aggiunte e correzioni. </bibl>
+
+                    <bibl xml:id="BONIFACIO_1971">BONIFACIO 1971: Anonimo, <emph>BONIFACIO, Vescovo
+                            di Novara</emph>, in <emph>Dizionario Biografico degli Italiani</emph>,
+                        12.</bibl>
+
+                    <bibl xml:id="BOTTAZZI_1808">BOTTAZZI 1808: G. A. Bottazzi, <emph>Le antichità
+                            di Tortona e suo agro</emph>, Alessanria. </bibl>
+
+                    <bibl xml:id="BOUGARD_2006">BOUGARD 2006: F. Bougard , <emph>LUDOVICO II, re
+                            d'Italia, imperatore</emph>, in <emph> Dizionario Biografico degli
+                            italiani</emph>, 66.</bibl>
+
+                    <bibl xml:id="BREZZI_1960">BREZZI 1960: P. Brezzi, <emph>ALESSANDRO III</emph>,
+                        in <emph> Dizionario Biografico degli italiani</emph>, 2.</bibl>
+
+                    <bibl xml:id="BRIQUET_1923">BRIQUET 1923: C.-M. Briquet, <emph>Les
+                            filigranes</emph>, in <emph>Dictionnaire historique des marques du
+                            papier</emph>, 4 volumes, 2a ed. Leipzig .</bibl>
+
+                    <bibl xml:id="BROOK_PAVONI_1984">BROOK PAVONI 1984: L.L. Brook e R. Pavoni,
+                            <emph>Tavola XXVI. Obertenghi di Massa e Parodi</emph>, in
+                            <emph>Genealogie medievali di Sardegna</emph>, Cagliari-Sassari.</bibl>
+
+                    <bibl xml:id="BRUNETTI_1806">BRUNETTI 1806: F. Brunetti (ed.) <emph>Codice
+                            Diplomatico Toscano</emph>, Firenze 1806.</bibl>
+
+                    <bibl xml:id="BERTO_2002">BERTO 2002: L. A. Berto, <emph>GOTOFREDO, </emph>, in
+                            <emph>Dizionario Biografico degli Italiani</emph>, 58.</bibl>
+
+                    <bibl xml:id="BREZZI_PIAZZA_2000">BREZZI PIAZZA 2000: P. Brezzi e A. Piazza,
+                            <emph>ALESSANDRO III, </emph>, in <emph>Enciclopedia dei papi</emph>,
+                        Milano.</bibl>
+
+                    <bibl xml:id="BULLARIUM_FRANCISCANUM">BULLARIUM FRACISCANUM: <emph> Bullarium
+                            Franciscanum Romanorum Pontificum constitutiones, epistolas, ac
+                            diplomata continens tribus ordinibus Minorum, Clarissarum, et
+                            Poenitentium a seraphico patriarcha Sancto Francisco institutis concessa
+                            ab illorum exordio ad nostra usque tempora iussu atque auspiciis
+                            reverendissimi patris magistri fr. Joannis Baptistae Constantii ...
+                            studio et labore fr. Joannis Hyacinthi Sbaraleae</emph>, Romae, typis
+                        Sacrae congregationis de Prapaganda fide [-typis Vaticanis], 1759-1804. </bibl>
+
+                    <bibl xml:id="BUSELLI_1972">BUSELLI 1972: F. Buselli, <emph>S. Andrea Apostolo
+                            duomo di Carrara</emph>, Genova.</bibl>
+                  
+                    <bibl xml:id="CABANO_2011">CABANO 2011: G. Cabano, <emph>Le terre ritrovate: Barbazzano e dintorni</emph>, Lerici.</bibl>
+                  
+                    <bibl xml:id="CALEFFO_VECCHIO_1931">CALEFFO VECCHIO 1931: Il caleffo vecchio del
+                        Comune di Siena, vol. I, a cura di G. Cecchini, Siena  </bibl>
+
+                    <bibl xml:id="CALLERI_1997">CALLERI 1997: M. Calleri (ed.), <emph>Le carte del
+                            monastero di San Siro di Genova (952 - 1224)</emph>, Genova.</bibl>
+
+                    <bibl xml:id="CALLERI_2003">CALLERI 2003, Calleri M. (ed.), <emph>Codice
+                            diplomatico del monastero di Santo Stefano di Genova (965-1200)</emph>,
+                        Genova.</bibl>
+
+                    <bibl xml:id="CALZOLARI_2004">CALZOLARI 2004, E. Calzolari, <emph> Studi di
+                            Lunigiana: antiche acque di Lunigiana, terra misteriosa dedicata a
+                            divinità femminili: gli idronomi come memorie viventi delle migrazioni
+                            di Baschi, Paleo-Umbri, Etruschi, Celtri, Romani ed Ariani: con oltre
+                            1300 note di toponomastica e microstoria locale</emph>, Crema
+                        2004.</bibl>
+
+                    <bibl xml:id="CALZOLARI_2017">CALZOLARI 2017, E. Calzolari, <emph> La presenza
+                            degli antichi Romani nel Caprione</emph>, in «Ameglia informa», p. 6‑7. </bibl>
+
+                    <bibl xml:id="CANTINI_SALVESTRINI_2010">CANTINI SALVESTRINI 2010: F. Cantini e
+                        F. Salvestrini, <emph>Vico Wallari-San Genesio: ricerca storica e indagini
+                            archeologiche su una comunità del medio Valdarno inferiore fra alto e
+                            pieno Medioevo</emph>, Firenze.</bibl>
+
+                    <bibl xml:id="CAPITANI_2002">CAPITANI 2002: O. Capitani, <emph>GREGORIO IX,
+                        </emph>, in <emph>Dizionario Biografico degli Italiani</emph>, 59.</bibl>
+
+                    <bibl xml:id="CAPITANI_2005">CAPITANI 2005: O. Capitani, <emph>ONORIO III,
+                        </emph>, in <emph>Federiciana</emph>, Milano.</bibl>
+
+                    <bibl xml:id="CAPPELLETTI_1875">CAPPELLETTI 1857: G. Cappelletti, <emph>Le
+                            Chiese d’Italia dalla loro origine sino ai nostri giorni</emph>, 13,
+                        Venezia.</bibl>
+
+                    <bibl xml:id="CAPPELLI_1988">CAPPELLI 1988: A. Cappelli, <emph>Cronologia,
+                            cronografia e calendario perpetuo dal principio dell'era cristiana ai
+                            nostri giorni</emph>, 6a ed., Milano.</bibl>
+
+                    <bibl xml:id="CARPEGNA_FALCONIERI_2000">CARPEGNA FALCONIERI 2000: T. di Carpegna
+                        Falconieri, <emph>INNOCENZO II</emph>, in <emph>Enciclopedia dei
+                        papi</emph>, Milano.</bibl>
+
+                    <bibl xml:id="CARPEGNA_FALCONIERI_2005">CARPEGNA FALCONIERI 2005: T. di Carpegna
+                        Falconieri, <emph>GIOVANNI COLONNA</emph>, in <emph> Federiciana</emph>,
+                        Milano.</bibl>
+
+                    <bibl xml:id="CARLINI_1763">CARLINI 1763: D. Carlini, <emph>De Pace Costantiae,
+                            Disquisitio</emph>, Verona.</bibl>
+
+                    <bibl xml:id="CARRAI_2017">CARRAI 2017: G. Carrai, <emph>La chiesa di
+                            Sant'Alessandro Maggiore a Lucca : un exemplum di architettura sacra
+                            come figura teologica</emph>, Lucca.</bibl>
+
+                    <bibl xml:id="CASCARINI_2001">CASCARINI 2001: L Cascarini (es.), Brugnato.
+                        L’Abbazia, la Diocesi, La Spezia.</bibl>
+
+                    <bibl xml:id="CASTELMUR_1978">CASTELMUR 1978: L. de Castelmur, <emph>Rodolfo de
+                            Castelmur e la Valle Bregaglia: Editto di Federico I Barbarossa del 12
+                            maggio 1179</emph>, in «Quaderni grigionitaliani», 47, pp. 7-16.</bibl>
+
+                    <bibl xml:id="CAVALLI_GHERARDI_1975-1976">CAVALLI GHERARDI 1975-1976: R. Cavalli
+                        Gherardi, <emph>L’Abbazia di Ceparana in base alle fonti
+                        documentarie</emph>, in «Giornale Storico della Lunigiana», n.s.,
+                        XXVI-XXVII, 1-4, pp. 230-240.</bibl>
+
+                    <bibl xml:id="CDE_1877">CDE 1877: <emph>Codex Diplomaticus Ecclesiensis</emph>,
+                        Historiae patriae monumenta, XVII, Torino. </bibl>
+
+                    <bibl xml:id="CECCARELLI_LEMUT_2014">CECCARELLI LEMUT 2014: M. L. Ceccarelli
+                        Lemut, <emph>PANNOCCHIESCHI, Ildebrando</emph>, in <emph>Dizionario
+                            Biografico degli Italiani</emph>, 80.</bibl>
+
+                    <bibl xml:id="CECCARELLI_LEMUT_2017">CECCARELLI LEMUT 2017: M. L. Ceccarelli
+                        Lemut, <emph>I reggitori del Comune di Pisa dalla comparsa del podestariato
+                            all’affermazione del Popolo (1190-1254)</emph>, in «Bollettino Storico
+                        Pisano», 86, pp. 9–30. </bibl>
+
+                    <bibl xml:id="CHIESE_1996">CHIESE 1996: <emph>Chiese medievali della Valdelsa. I
+                            territori della via Francigena tra Siena e San Gimignano</emph>, Empoli,
+                        1996.</bibl>
+
+                    <bibl xml:id="CIPOLLONE_1992">CIPOLLONE 1992: G. Cipollone, <emph>Cristianità -
+                            Islam cattività e liberazione in nome di Dio</emph>, Roma.</bibl>
+
+                    <bibl xml:id="CITTER_2009">CARLO CITTER 2009: C. Citter, <emph>Dieci anni di
+                            ricerche a Castel di Pietra. Edizione degli scavi</emph>,
+                        1907-2007.</bibl>
+
+                    <bibl xml:id="COLOMBINI_2010">COLOMBINI 2010: G. Colombini, <emph>Il primo
+                            monastero cistercense della diocesi di Pisa: Santa Croce alla foce
+                            dell’Arno e San Bernardo in Carraiola (XIII-XIV secolo)</emph>, in
+                        «Bollettino Storico Pisano», LXXIX (2010), pp. 207–227.</bibl>
+
+                    <bibl xml:id="CONTI_1960">CONTI 1960: M.N. Conti, <emph>Gli statuti
+                            quattrocenteschi di Nicola</emph>, in «Memorie dell’Accademia
+                        Lunigianese di Scienze e Lettere ‘G. Capellini», XXXI, pp. 183–284.</bibl>
+
+                    <bibl xml:id="CONTI_1963">CONTI 1963: M.N. Conti, <emph>Prima rettifica ai
+                            confini della Lunigiana dedotti da Ubaldo Mazzini</emph>, in «Memorie
+                        dell’Accademia Lunigianese di Scienze e Lettere 'G. Capellini'», XXXIII (n.
+                        s., XI), p. 61‑64. </bibl>
+
+                    <bibl xml:id="CONTI_1972">CONTI 1972: M.N. Conti, <emph>Un altro estimo
+                            quattrocentesco delle chiese della diocesi di Luni-Sarzana</emph>, in
+                        «Memorie dell’Accademia Lunigianese di Scienze e ettere 'G. Capellini'»,
+                        XLII, pp. 1-16</bibl>
+
+                    <bibl xml:id="CONTI_1976">CONTI 1976: M.N. Conti, <emph>Degli ospedali di Monte
+                            Forca e “in capite paludis” in Lunigiana</emph>, in «Atti e Memorie
+                        della Deputazione di Storia Patria per le Antiche Province Modenesi», s.
+                        10ª, XI, pp. 101–110.</bibl>
+
+                    <bibl xml:id="CONTI_1979-1988">CONTI 1978-1988: M.N. Conti (ed.), <emph>Corpus
+                            statutorum lunigianensium</emph>, 3 voll., La Spezia.</bibl>
+
+                    <bibl xml:id="CONTI_1986">CONTI 1986: M.N. Conti, <emph>Su Burcione e i «de
+                            Burcione»</emph>, in <emph>Quaderni della Biblioteca e degli Archivi
+                            Storico e Notarile del Comune di Aulla</emph>, III, pp. 10-32.</bibl>
+
+                    <bibl xml:id="CONTI_1988">CONTI 1988: M.N. Conti (ed.), <emph>Le carte anteriori
+                            al 1400 nell’archivio malaspiniano di Caniparola nel repertorio del
+                            1760</emph>, Pontremoli.</bibl>
+
+                    <bibl xml:id="CONTIP_1963">CONTIP 1963: P.M. Conti, <emph>Il castrum, il burgus
+                            e le due pievi di Sarzana</emph>, in «Memorie dell’Accademia Lunigianese
+                        di Scienze e Lettere ‘G. Capellini’» , XXXIV, pp. 3–26.</bibl>
+
+                    <bibl xml:id="CONTIP_1967">CONTIP 1967: P.M. Conti, <emph>Luni nell’alto
+                            medioevo</emph>, Padova.</bibl>
+
+                    <bibl xml:id="COPPEDE_1987">COPPEDE 1987: G.R. Coppedè, <emph>La strada sulla
+                            riva sinistra del Magra da Aulla a Sarzana ed oltre, la sua diramazione
+                            verso occidente ed il sistema viario della Lunigiana nei secoli del
+                            basso medioevo</emph>, in <emph>Atti del convegno 'Alle origini della
+                            Lunigiana moderna'. Settimo centenario della redazione del Codice
+                            Pelavicino</emph>, La Spezia 1987, pp. 177-259</bibl>
+
+                    <bibl xml:id="CORI_1874">CORI 1874: J. N. Cori, <emph>Bau und Einrichtung der
+                            deutschen Burgen im Mittelalter mit Beziehungen auf Oberösterreich
+                        </emph>, Linz.</bibl>
+
+                    <bibl xml:id="COSTA_1571">COSTA 1571: G.A. Costa (ed.), <emph>Pontremuli
+                            Statutorum ac Decretorum Volumen</emph>, Parmae.</bibl>
+
+                    <bibl xml:id="COSTA_1814">COSTA 1814: L. Costa (ed.), <emph>Chartarium
+                            dertonense, nunc primum editum e codice Regiae Taurinensis
+                            Bibliothecae</emph>, Augustae Taurinorum.</bibl>
+
+                    <bibl xml:id="COSTAMAGNA_1970">COSTAMAGNA 1970: G. Costamagna, <emph>Il notaio a
+                            Genova tra prestigio e potere</emph>, Roma.</bibl>
+
+                    <bibl xml:id="COSTAMAGNA_1972">COSTAMAGNA 1972: G. Costamagna, <emph>Studi di
+                            paleografia e di diplomatica</emph>, Roma.</bibl>
+
+                    <bibl xml:id="COTURRI_1974">COTURRI 1974: E. Coturri, <emph>La canonica di S.
+                            Frediano a Lucca dalla prima istituzione (metà del sec. XI) alla unione
+                            alla congregazione riformata di Fregionaia (1517)</emph>, in «Actum
+                        Luce», 3, pp. 47-80.</bibl>
+
+                    <bibl xml:id="CRESCIMBENI_1722"> CRESCIMBENI 1722: G. M. Crescimbeni,
+                            <emph>L'istoria della basilica di S. Anastasia. Titolo
+                            cardinalizIo</emph>, Roma. </bibl>
+
+
+                    <bibl xml:id="CRUSCA_1623">CRUSCA 1623: <emph>Vocabolario degli Accademici della
+                            Crusca</emph>, seconda edizione, Venezia.</bibl>
+
+                    <bibl xml:id="CRUSCA_LESSICOGRAFIA">CRUSCA LESSICOGRAFIA, Accademia della
+                        Crusca, <emph>
+                            <ref target="http://www.lessicografia.it/">Lessicografia della Crusca in
+                                rete.</ref></emph>DOI: 10.23833/BD/LESSICOGRAFIA.</bibl>
+
+                    <bibl xml:id="CSENDES_1981">CSENDES 1981: P. Csendes, <emph>Die Kanzlei Kaiser
+                            Heinrichs VI.</emph>, Wien.</bibl>
+
+                    <bibl xml:id="DADA_2010">DADÀ 2010: <emph>Guida di Fosdinovo</emph>, a cura di Massimo Dadà, La Spezia.</bibl>
+                    
+                    <bibl xml:id="DADA_2012">DADÀ 2012: M. Dadà,<emph>Archeologia dei monasteri in
+                        Lunigiana. Documenti e cultura materiale degli enti monastici della
+                        diocesi di Luni dalle origini al XII secolo</emph>, Pisa.</bibl>
+
+                    <bibl xml:id="DALLAGLIO_1966"> DALL'AGLIO 1966: I. Dall’Aglio, <emph>La diocesi
+                            di Parma</emph>, Parma.</bibl>
+
+                    <bibl xml:id="DE_ROSSI_1776"> DE ROSSI 1776: B. De Rossi, <emph>Collectanea
+                            copiosissima di memorie e notizie istoriche con gran tempo e fatica
+                            aotenticamente dessonte per me Bonaventura de Rossi di Sarzana sa
+                            moltissime Scritture ed Istorie e da vari Archivi e Librerie per
+                            seriamente descrivere tanto la città di Luni quanto di Sarzana e di
+                            tutti i Luoghi e Terre principali di Lunigiana distinta in diversi
+                            Capitoli a benefizio della Patria e di tutta la Provincia fedelmente
+                            copiata dal M. Gio. Vincenzio de Grossi, patrizio sarzanese per eternare
+                            di sua patria le glorie e lasciare ai posteri e di sé e di quella una
+                            ben degna memoria</emph>, manoscritto in Archivio Storico Comune di
+                        Sarzana, Diversorum, 58/402.</bibl>
+
+                    <bibl xml:id="DEGLINNOCENTI_2007">DEGL'INNOCENTI 2007: E. Degl’Innocenti,
+                            <emph>Il Progetto di digitalizzazione dei Plutei della Biblioteca
+                            Medicea Laurenziana di Firenze</emph>, in «Digitalia. Rivista digitale
+                        dei beni culturali», 1 (2007), pp. 103-114.</bibl>
+
+                    <bibl xml:id="DEI">DEI: C. Battisti e G. Alessio (ed.)<emph>Dizionario
+                            etimologico italiano</emph>, Firenze.</bibl>
+
+                    <bibl xml:id="DEKHTYAR_2006">DEKHTYAR 2006: A. Dekhtyar et alii, <emph>Support
+                            for XML markup of image-based electronic editions</emph>, in
+                        «International Journal on Digital Libraries», 6 (2006), pp. 55-69.</bibl>
+
+                    <bibl xml:id="DELABORDE_1882-1885">DELABORDE 1882-1885: <emph>Oeuvres de Rigord
+                            et de Guillaume Le Breton, historiens de Philippe-Auguste, publiées pour
+                            la Société de l’Histoire de France. Chroniques de Rigord et de Guillaume
+                            Le Breton</emph>, ed. Henri-François Delaborde, Paris 1882-1885 </bibl>
+
+                    <bibl xml:id="DELOGU_1970">DELOGU 1970: P. Delogu, <emph>BEATO</emph>, in
+                            <emph>Dizionario Biografico degli Italiani</emph>, 7. </bibl>
+
+                    <bibl xml:id="DESIMONI_1888">DESIMONI 1888: C. Desimoni, <emph>Regesti delle
+                            lettere pontificie riguardanti la Liguria dai più antichi tempi fino
+                            all’avvenimento d’Innocenzo III</emph>, in «Atti della Società Ligure di
+                        Storia Patria», XIX, p. 5‑146. </bibl>
+
+                    <bibl xml:id="DEVOTO-OLI_2011">DEVOTO-OLI 2011: G. Devoto e G. C. Oli, <emph>Il
+                            Devoto-Oli 2011 : vocabolario della lingua italiana</emph>, a cura di L.
+                        Serianni e M. Trifone, Firenze 2010.</bibl>
+
+                    <bibl xml:id="DIE_REGISTER">DIE REGISTER INNOCENZ' III: Hageneder, Othmar et
+                        alii (ed.) <emph>Die Register Innocenz’ III.</emph> 14 vols. Graz-Köln
+                        Rom-Wien Wien, 1964-2018. </bibl>
+
+                    <bibl xml:id="DIZIONARIO_1763">
+                        <emph>Dizionario del cittadino o sia Ristretto istorico, teorico e pratico
+                            del commerzio. Tradotto dal francese dal signor Francesco Alberti ed
+                            accresciuto dal medesimo in varie parti de' suddetti articoli,
+                            coll'aggiunta eziandio di quattro tavole, in cui si trova ad un tratto
+                            la corrispondenza de' pesi, misure, e reciproca valutazione delle monete
+                            fittizie e reali</emph>, Nizza.</bibl>
+
+                    <bibl xml:id="DUCANGE">DU CANGE 1887: Charles du Fresne, sieur du Cange,
+                            <emph>Glossarium mediae et infimae latinitatis</emph>, Niort.</bibl>
+
+                    <bibl xml:id="DÜMMLER_1871">DÜMMLER 1871: <emph>Gesta Berengarii
+                            imperatoris</emph>, Beiträge zur Geschichte Italiens im Anfange des
+                        zehnten Jahrhunderts, ed. E. Dümmler, Halle a. d. Saale. </bibl>
+
+                    <bibl xml:id="DUPRÉ_THESEIDER_2000">DUPRÉ THESEIDER 2000: E. Dupré Theseider,
+                            <emph>Bonifacio VIII</emph>, in <emph>Enciclopedia dei papi</emph>,
+                        Milano.</bibl>
+
+                    <bibl xml:id="FABBIANI_1977">FABBIANI 1977: G. Fabbiani, <emph>Breve storia del
+                            Cadore</emph>, Magnifica Comunità di Cadore.</bibl>
+
+                    <bibl xml:id="FALCO_1916">FALCO 1916: G. Falco (ed.),<emph>Le carte del
+                            monastero del Tino, I (1050-1220)</emph>, Pinerolo.</bibl>
+
+                    <bibl xml:id="FALCO-PISTARINO_1955">FALCO PISTARINO 1955: G. Falco e G.
+                        Pistarino (edd.), <emph>Il cartulario di Giovanni di Giona di Portovenere
+                            (sec. XIII)</emph>, Torino.</bibl>
+
+                    <bibl xml:id="FALLINI_2006">FALLINI 2006: FALLINI et alii 2006: M. Fallini, M.
+                        Calidoni, C. Rapetti, L. Ughetti, <emph>Terra di pievi, </emph>, Parma,
+                        2006.</bibl>
+
+                    <bibl xml:id="FARINELLI_GIORGI_2000">FARINELLI GIORGI 2000: R. Farinelli e A.
+                        Giorgi, <emph>Fenomeni di accentramento insediativo nella Toscana
+                            meridionale tra XII e XII secolo: il ‘secondo incastellamento’ in area
+                            senese</emph>, in <emph>Castelli. Storia e archeologia del potere nella
+                            Toscana medievale</emph>, a cura di R. Francovich e M. Ginatempo,
+                        Firenze, pp. 239-284 </bibl>
+
+                    <bibl xml:id="FASOLI_1960">FASOLI 1960: G. Fasoli, <emph>ADALBERTO di
+                            Toscana</emph>, in <emph>Dizionario Biografico degli Italiani</emph>,
+                        1.</bibl>
+
+                    <bibl xml:id="FASOLI_1972">FASOLI 1972: G. Fasoli, <emph>Un fossile nel
+                            vocabolario istituzionale bolognese</emph>, in <emph>Studi storici in
+                            onore di Ottorino Bertolini</emph>, Pisa, pp. 325-335.</bibl>
+
+
+                    <bibl xml:id="FERRARI_1938">FERRARI 1938: M. Ferrari, <emph> La chiesa di San
+                            Bartolomeo «de Donnicato» vicino a Pontremoli, gli Adalberti e le
+                            origini Obertenghe</emph>, Pontremoli. </bibl>
+
+                    <bibl xml:id="FERRARI_1912">FERRARI 1912: M. Ferrari, <emph>L'origine di
+                            Castelnuovo Magra</emph>, Barga.</bibl>
+
+                    <bibl xml:id="FERRARI_2003">FERRARI et alii 2003: L. Ferrari, E. Giannichedda,
+                        S. Ghersi e R. Lanza, <emph>Ricognizioni a Burcione</emph>, in <emph>Le
+                            ricerche archeologiche in provincia di Massa-Carrara</emph>, a cura di
+                        E. Giannichedda e R. Lanza, Firenze, pp. 105‑108. </bibl>
+
+                    <bibl xml:id="FERRETTO_1896">FERRETTO 1896: A. Ferretto, <emph>La venuta in
+                            Genova del cardinale Ugolino d'Ostia (maggio 1217)</emph>, in «Giornale
+                        Ligustico», XXI (1896), pp. 229-231.</bibl>
+
+                    <bibl xml:id="FERRETTO_1901">FERRETTO 1901: A. Ferretto, <emph>Codice
+                            diplomatico delle relazioni tra la Liguria, la Toscana e la Lunigiana ai
+                            tempi di Dante</emph>, in «Atti della Società Ligure di Storia Patria»,
+                        XXXI, fascicoli I e II (1901, 1903).</bibl>
+
+                    <bibl xml:id="FERRETTO_1909">FERRETTO 1909: A. Ferretto, <emph>Documenti
+                            genovesi di Novi e Valle Scrivia</emph> in «Bollettino Storico
+                        Bibliografico Subalpino», LI, LII.</bibl>
+
+                    <bibl xml:id="FHP">FHP: L. A. Muratori (ed.), <emph>Guido Da Vallecchia,
+                            ‘Historiae Pisanae fragmenta’</emph>, in <emph>Rerum italicarum
+                            Scriptores</emph>, XXIV, Mediolani 1738, coll. 673-694.</bibl>
+
+                    <bibl xml:id="FICKER_1868">FICKER 1868, J. Ficker, <emph>Forschungen zur Reichs
+                            und Rechtsgeschichte Italiens</emph>, Insbruck. </bibl>
+
+                    <bibl xml:id="FINARDI_1994">FINARDI 1994: E. Finardi, <emph>Il Duomo di Berceto
+                            e la Basilica de Fieschi di Lavagna. Elementi per un confronto</emph>,
+                        in «Archivio Storico per la Province Parmensi», s.4. XLVI, pp. ***.</bibl>
+
+                    <bibl xml:id="FINELLI_2015">FINELLI 2015: M. Finelli, <emph>Breve storia di
+                            Sarzana</emph>, Pisa.</bibl>
+
+                    <bibl xml:id="FIRPO_2007">FIRPO 2007: M. Firpo, <emph>I Fieschi. Potere chiesa e
+                            territorio. Sant’Adriano di Trigoso e Santa Maria in Via Lata a
+                            Genova</emph>, Genova 2007.</bibl>
+
+                    <bibl xml:id="FONTANA_2014">FONTANA 2014: F. Fontana, <emph>L’Abbazia di Linari:
+                            dati archeologici e dipendenze in Val d’Enza</emph>, in «Le Valli dei
+                        Cavalieri», 31, p. 129‑143. </bibl>
+
+                    <bibl xml:id="FORMENTINI_1922">FORMENTINI 1922: U. Formentini, <emph>Una
+                            podesteria consortile nei secoli XII e XIII (Le terre dei
+                            Bianchi)</emph>, in «Giornale Storico della Lunigiana», XII, pp.
+                        195-224.</bibl>
+                    
+                    <bibl xml:id="FORMENTINI_1925">FORMENTINI 1925: U. Formentini,
+                        <emph>Conciliaboli pievi e corti nella Liguria di Levante</emph>, in
+                        «Memorie dell’Accademia Lunigianese di Scienze e Lettere 'G. Capellini'»,
+                        n.s., VI e VII, pp.113-145, VII: 10-362, poi uscito anche in edizione separata (La Spezia, 1926).</bibl>
+
+                    <bibl xml:id="FORMENTINI_1926a">FORMENTINI 1926a: U. Formentini, <emph> Sulle
+                            origini e la costituzione di un grande gentilizio feudale</emph>, in
+                        «Atti della Società Ligure di Storia Patria» , LIII, p. 509‑538. </bibl>
+
+                    <bibl xml:id="FORMENTINI_1926b">FORMENTINI 1926b: U. Formentini,
+                            <emph>Consorterie longobardiche tra Lucca e Luni</emph>, in «Giornale
+                        Storico e Letterario della Liguria», n.s., III, 3‑4, p. 161‑185.</bibl>
+
+                    <bibl xml:id="FORMENTINI_1933">FORMENTINI 1933: U. Formentini, <emph>L’abbazia
+                            di S. Salvatore di Linari e le sue strade</emph>, in «Giornale Storico e
+                        Letterario della Liguria», n.s., IX, p. 16‑20. </bibl>
+
+                    <bibl xml:id="FORMENTINI_1936">FORMENTINI 1936: U. Formentini, <emph>Micaur–a
+                            (Georg.Cyprii 533)</emph>, in <emph>Atti del V Congresso Internazionale
+                            di Studi Bizantini</emph>, Roma pp. 167-175.</bibl>
+
+                    <bibl xml:id="FORMENTINI_1939a">FORMENTINI 1939: U. Formentini: <emph>Intorno
+                            alla pieve di S. Giorgio in Val di Taro Formentini U. 1939, Intorno alla
+                            pieve di S. Giorgio in Val di Taro</emph>, in «La Giovane Montagna», 6,
+                        pp. *** </bibl>
+
+                    <bibl xml:id="FORMENTINI_1939b"> FORMENTINI 1939b: U. Formentini, <emph>Brugnato
+                            (gli abati, i vescovi, i ’cives’)</emph>, in «Memorie dell’Accademia
+                        Lunigianese di Scienze e Lettere 'G. Capellini'», XX, p. 3‑47. </bibl>
+
+                    <bibl xml:id="FORMENTINI_1949">FORMENTINI 1949: U. Formentini, <emph>Le tre
+                            pievi del Massese e le origini della città di Massa</emph>, in «Atti e
+                        Memorie della Deputazione di Storia Patria per le Province Modenesi», s. 8ª,
+                        II.</bibl>
+
+                    <bibl xml:id="FORMENTINI_1950">FORMENTINI 1950: U. Formentini, <emph>Per la
+                            storia premalaspiniana di Fosdinovo</emph>, in «Giornale Storico della
+                        Lunigiana», n.s., I , pp. 3-7.</bibl>
+
+                    <bibl xml:id="FORMENTINI_1951">FORMENTINI 1951: U. Formentini, <emph>Sarzana
+                            (dalla pieve alla Polis)</emph>, in «Giornale Storico della Lunigiana»,
+                        n.s., II, pp. 1–11.</bibl>
+
+                    <bibl xml:id="FORMENTINI_1953">FORMENTINI 1953: U. Formentini, <emph>La 'plebs
+                            civitatis' e il capitolo dei canonici della cattedrale di Luni</emph>,
+                        in «Giornale Storico della Lunigiana», n.s. IV, pp. 1–9.</bibl>
+
+                    <bibl xml:id="FORMENTINI_1954">FORMENTINI 1954: U. Formentini, <emph> La pieve
+                            di Santo Stefano</emph>, in «Giornale Storico della Lunigiana», n.s., V,
+                        p. ***. </bibl>
+
+                    <bibl xml:id="FORMENTINI_1955">FORMENTINI 1955: U. Formentini, <emph>Aspetti
+                            della storia d’Aulla secondo nuove indagini archeologiche, linguistiche
+                            e storico-politiche</emph>, in «Giornale Storico della Lunigiana», n.s.
+                        VI, pp. 109-***</bibl>
+
+                    <bibl xml:id="FORMENTINI_1955b">FORMENTINI 1955b: U. Formentini, <emph>Strade e
+                            porti dei Sengauni, degli Antiates, dei Tigullii nella Riviera di
+                            Levante</emph>, in «Rivista di Studi Liguri», XXI, p. 99‑116. </bibl>
+
+                    <bibl xml:id="FORMENTINI_1958g">FORMENTINI 1958: U. Formentini, <emph>La pieve
+                            di Venelia e il borgo di Licciana</emph>, in «Giornale Storico della
+                        Lunigiana», n.s., IX (1958), pp. 5–23. </bibl>
+
+                    <bibl xml:id="FORMENTINI_1960">FORMENTINI 1960: U. Formentini,
+                            <emph>ADALBERTO</emph>, in <emph>Dizionario Biografico degli
+                            Italiani</emph>, vol. I (postumo). </bibl>
+
+                    <bibl xml:id="FORMENTINI_1970">FORMENTINI 1970: U. Formentini, <emph>La pieve di
+                            Soliera</emph>, in «Giornale Storico della Lunigiana e del territorio
+                        lucense», n.s., XXI, pp. 5–19 (postumo).</bibl>
+
+                    <bibl xml:id="FRANCHI_LALLAI_2000">FRANCHI LALLAI 2000: G. Franchi e M. Lallai,
+                            <emph> Da Luni a Massa Carrara - Pontremoli. Il divenire di una diocesi
+                            fra Toscana e Liguria dal IV al XXI secolo </emph>, 3 voll.,
+                        Modena-Massa.</bibl>
+
+                    <bibl xml:id="FREGGIA_1989">FREGGIA 1989: E. Freggia (ed.),<emph>I documenti
+                            dell’Archivio Capitolare di Sarzana dal 1095 al 1776</emph>, La
+                        Spezia.</bibl>
+
+                    <bibl xml:id="FRISON_1997">FRISON 1997: C. Frison, <emph>FOLCO </emph>, in
+                            <emph>Dizionario Biografico degli Italiani</emph>, 48.</bibl>
+
+
+                    <bibl xml:id="FULTON-CRAUCIUN_2011">FULTON - CRAUCIUN 2011: E. Fulton e M.
+                        Crauciun, <emph> Mendicant Piety and the Saxon community</emph>, in
+                            <emph>Communities of Devotion: Religious Orders and Society in East
+                            Central Europe</emph>, Burlington.</bibl>
+
+                    <bibl xml:id="GARCIA_GUIJARRO_2006">GARCIA GUIJARRO RAMOS 2006: L.
+                        García-Guijarro Ramos, <emph>The Aragonese Hospitaller Monastery of Sigena:
+                            its Early Stages, 1188–c. 1210 </emph>, in <emph>Hospitaller Women in
+                            the Middle Ages,</emph>, edd. A.Luttrell, H. J. Nicholson. Ashgate, pp.
+                        113-152.</bibl>
+
+                    <bibl xml:id="GARZELLA_1991"> GARZELLA 1991: G. Garzella, <emph>Pisa com’era.
+                            Topografia e insediamento dall’impianto tardoantico alla città murata
+                            del secolo XII</emph>, Napoli.</bibl>
+
+                    <bibl xml:id="GATTO_1960">GATTO 1960: L. Gatto, <emph>ADRIANO V, papa</emph>, in
+                            <emph>Dizionario Biografico Degli Italiani</emph>, 1.</bibl>
+
+                    <bibl xml:id="GATTO_2002">GATTO 2002: L. Gatto, <emph>GREGORIO X, papa</emph>,
+                        in <emph>Dizionario Biografico Degli Italiani</emph>, 59.</bibl>
+
+                    <bibl xml:id="GENTILI_1988">GENTILI 1988: E. Gentili, <emph>Nicola in Val di
+                            Luni</emph>, in «Biblioteca de Le Apuane», XIII (1988), pp. 9–15.</bibl>
+
+                    <bibl xml:id="GENTILI_1997">GENTILI 1997: E. Gentili, <emph>L’antica pieve di S.
+                            Andrea in «Monterosso» presso Sarzana</emph>, in «Le Apuane» 17 (1997),
+                        pp. 15–42.</bibl>
+
+                    <bibl xml:id="GENTILI_1997b">GENTILI 1997b: E. Gentili, <emph>Homines de valle
+                            Ylioli - I più antichi insediamenti abitativi del territorio
+                            Ortonovese</emph>, in «Le Apuane» 17 (1997), pp. 57–72.</bibl>
+
+
+                    <bibl xml:id="GENTILI_2000">GENTILI 2000: E. Gentili, <emph>Falcinello. Origini,
+                            sviluppo e decadenza di un piccolo comune della Lunigiana</emph>, La
+                        Spezia.</bibl>
+
+                    <bibl xml:id="GERA_1842">GERA 1842: F. Gera, <emph>Nuovo Dizionario universale e
+                            ragionato di agricoltura</emph>, Venezia.</bibl>
+
+                    <bibl xml:id="GHERADINI_1838">GHERADINI G. 1838: G. Gheradini, <emph>Voci e
+                            maniere di dire italiane additate a’ futuri vocabolaristi</emph>, vol.
+                        1, Milano.</bibl>
+
+                    <bibl xml:id="GIAMBUTTI_1986">GIAMBUTTI 1986: L. Giambutti, <emph>L’abbazia di
+                            S. Bartolomeo di Linari dalle origini alla soppressione</emph>, in
+                            <emph>Società civile e società religiosa in Lunigiana e nel vicino
+                            Appennino dal IX al XV secolo</emph>. Atti del convegno, Sarzana,
+                        p. 61‑92. </bibl>
+
+                    <bibl xml:id="GIAMBASTIANI_1996">GIAMBASTIANI 1996: C. Giambastiani, <emph>I
+                            Bagni di Corsena e la Val di Lima Lucchese dalle origini al XVI
+                            secolo</emph>, Lucca.</bibl>
+
+                    <bibl xml:id="GIAMPAOLI_1922">GIAMPAOLI 1922: U. Giampaoli, <emph>Le monete di
+                            Enrico vescovo di Luni ed i denari imperiali di Federigo
+                            Barbarossa</emph>, in «Giornale Storico della Lunigiana» XII/3 (1922),
+                        pp. 164-176.</bibl>
+
+                    <bibl xml:id="GIANFRANCESCHI_1965">GIANFRANCESCHI 1965: I. Gianfranceschi (ed.),
+                            <emph>Gli statuti di Sarzana del 1331</emph>, Borgighera-La Spezia,
+                        Istituto di studi liguri Sezione lunense. </bibl>
+
+                    <bibl xml:id="GIANNICHEDDA_2011">GIANNICHEDDA 2011: E. Giannichedda, R. Lanza,
+                        O. Ratti, <emph> Indagini nella canonica e nel chiostro dell’abbazia di San
+                            Caprasio ad Aulla (MS)</emph>, in «Archeologia Medievale», XXXVIII,
+                        p. 287‑318. </bibl>
+
+                    <bibl xml:id="GIIULIANI_1953">GIIULIANI 1953: M. Giuliani, <emph>La chiesa di S.
+                            Colombano di Pontremoli</emph>, in <emph>S. Colombano e la sua opera in
+                            Italia</emph>, Bobbio 1953, pp. 147–156. </bibl>
+
+                    <bibl xml:id="GRECO_1984">GRECO 1984: N. Greco <emph>, Dei toponimi Bolano e
+                            Baiano</emph>, in «Memorie dell’Accademia Lunigianese di Scienze e
+                        Lettere 'G. Capellini', LIV‑LVI (1984-1986), p. 115‑118. </bibl>
+
+                    <bibl xml:id="GRILLO_2000">GRILLO 2000: P. Grillo <emph>, Urbano III</emph>, in
+                            <emph>Enciclopedia dei Papi</emph>, Milano. </bibl>
+
+                    <bibl xml:id="HALPHEN_1907">HALPHEN 1907, L. Halphen, <emph>Études sur
+                            l’administration de Rome au Moyen Âge: (751 - 1252)</emph>, Paris. </bibl>
+
+
+
+                    <bibl xml:id="HERDE_1977"> HERDE 1977: P. Herde, <emph>CARLO I d'Angiò, re di
+                            Sicilia</emph>, in <emph>Dizionario biografico degli italiani</emph>,
+                        20. </bibl>
+
+                    <bibl xml:id="HPM_CHARTARUM">HPM CHARTARUM: <emph>Historiae Patriae Monumenta,
+                            Chartarum</emph>, 2 tomi, Torino 1836, 1853.</bibl>
+
+                    <bibl xml:id="HUSCHNER_2000">HUSCHNER 2000: W. Huschner, <emph>GIOVANNI
+                            XIV</emph>, in <emph> Enciclopedia dei Papi</emph>, Milano 2000</bibl>
+
+                    <bibl xml:id="HÜBNER_1893">HÜBNER 1893: R. Hübner, <emph>Gerichtsurkunden der
+                            fränkischen Zeit. 2.</emph>, in «Zeitschrift der Savigny-Stiftung für
+                        Rechtsgeschichte: Germanistische Abteilung», 14, Deskriptoren: Italien,
+                        Frühmittelalter, Hochmittelalter, Urkunden und Regesten.</bibl>
+
+                    <bibl xml:id="HURTER_1839">HURTER 1839: F. Hurter F., <emph>Storia del sommo
+                            pontefice Innocenzo III e de’ suoi contemporanei</emph>, Milano </bibl>
+
+                    <bibl xml:id="JAFFÉ_1885">JAFFÉ 1885: Ph. Jaffé, <emph>Regesta pontificum
+                            Romanorum ab condita ecclesia ad annum post Christum natum
+                            MCXCVIII</emph>, edd. S. Loewenfeld, F. Kaltenbrunner, O P. Ewald,
+                        Leipzig, seconda edizione riveduta e ampliata.</bibl>
+
+                    <bibl xml:id="ILARI_1998">ILARI 1998: A. Ilari, <emph>GALLOZIA, Pietro</emph>,
+                        in <emph>Dizionario biografico degli italiani</emph>, 51.</bibl>
+
+                    <bibl xml:id="IMPERI_1866">IMPERI 1866: S. Imperi, <emph>Della chiesa di S.
+                            Maria in Aquiro in Roma memorie raccolte e ordinate da Silvio
+                            Imperi</emph>, Roma. </bibl>
+
+                    <bibl xml:id="INNOCENTIUS_III">INNOCENTIUS III: J.-P. Migne (ed.), <emph>
+                            Innocentii III Romani pontificis opera omnia tomis quatuor
+                            distributa</emph>, 4 voll., Paris (1855), Patrologiae cursus completus,
+                        Series latina, 214. </bibl>
+
+                    <bibl xml:id="JAKOBI_1980">JAKOBI 1980: F.-J. Jakobi, <emph>Konrad II. von
+                            Rothenburg</emph>, in <emph> Neue Deutsche Biographie (NDB)</emph>, Band
+                        12, Berlin 1980, S. 527 f.</bibl>
+
+                    <bibl xml:id="JONES_2008">JONES 2008: Ph. J. Jones, <emph>An Italian estate,
+                            900-1200,</emph> in «The Economic history review», Ser. 2, 7 (1954/55),
+                        pp. 18-32, poi in <emph> Internal Colonization in Medieval Europe</emph>,
+                        edd. F. Fernández-Armestoe J. Muldoon, Farnham, pp. 265-280</bibl>
+
+                    <bibl xml:id="KAMP_1975">KAMP 1975: N. Kamp, <emph>CAPOCCI, Raniero</emph>, in
+                            <emph>Dizionario Biografico degli Italiani</emph>, 18.</bibl>
+
+                    <bibl xml:id="KAMP_2000">KAMP 2000: N. Kamp, <emph>CLEMENTE IV, papa</emph>, in
+                            <emph>Enciclopedia dei papi</emph>.</bibl>
+
+                    <bibl xml:id="KEHR_1914">KEHR 1914: <emph>Regesta pontificum romanorum</emph>.
+                        Italia pontificia, vol. 6/2 Pedemontium, Liguria maritima, ed. P.F. Kehr,
+                        Berlin</bibl>
+
+                    <bibl xml:id="KEUPP_2002">KEUPP 2002: J. U. Keupp, <emph>Dienst und Verdienst :
+                            die Ministerialen Friedrich Barbarossas und Heinrichs 6 </emph>,
+                        Stuttgart.</bibl>
+
+                    <bibl xml:id="KIERNAN_2007">KIERNAN 2007: K. Kiernan, <emph><ref
+                                target="https://tei-c.org/Vault/ETE/Preview/kiernan.html">
+                                Electronic Textual Editing: Digital Facsimiles in
+                            Editing</ref></emph>, in TEI.org</bibl>
+
+                    <bibl xml:id="KOLLER_2007">KOLLER 2007: W. Koller, <emph>MANFREDI, re di
+                            Sicilia</emph>, in <emph>Dizionario Biografico Degli Italiani</emph>,
+                        68.</bibl>
+
+                    <bibl xml:id="KÖLZER_1993">KÖLZER 1993: Th. Kölzer, <emph>ENRICO VI di Svevia,
+                            imperatore, re dei Romani e di Sicilia</emph>, in <emph>Dizionario
+                            Biografico Degli Italiani</emph>, 42.</bibl>
+
+                    <bibl xml:id="KRIEGER_2003">KRIEGER 2003: K.-F. Krieger, <emph>Rudolf von
+                            Habsburg</emph>, Darmstadt.</bibl>
+
+                    <bibl xml:id="LAGOMARSINI_2013">LAGOMARSINI 2013: C. Lagomarsini, <emph>
+                            Paganinno da Serzana, un rimatore “siciliano” nella Lunigiana del sec.
+                            XIII</emph> , in «Giornale storico della letteratura italiana», 190,
+                        pp. 538‑551. </bibl>
+
+                    <bibl xml:id="LALLAI_2010">LALLAI 2010: M. Lallai, <emph>Vicende ecclesiastiche
+                            della Versilia settentrionale</emph>, in «Studi versiliesi», 17,
+                        p. 13‑36. </bibl>
+
+                    <bibl xml:id="LAMI_1758">LAMI 1758: G. Lami (ed.), <emph>Sanctae Ecclesiae
+                            Florentinae Monumenta</emph>, Florentiae.</bibl>
+
+                    <bibl xml:id="LAROUSSE_1999">LAROUSSE 1999: Dictionnaire de français, Paris,
+                        Larousse, consultato nella <ref
+                            target="https://www.larousse.fr/dictionnaires/francais">versione
+                            online.</ref></bibl>
+
+                    <bibl xml:id="LENZINI_2015">LENZINI 2015: F. Lenzini, <emph>Il Castello di
+                            Carpineti: Mille anni di storia nella pietra</emph>, Pontedera </bibl>
+
+                    <bibl xml:id="LEVEROTTI_1974">LEVEROTTI 1974: F. Leverotti, <emph>L’estimo di
+                            Massa Lunense (1398-1401)</emph>, tesi di laurea, Università degli Studi
+                        di Pisa, Dipartimento di Medievistica, a.a. 1973-1974. </bibl>
+
+                    <bibl xml:id="LEVEROTTI_1982">LEVEROTTI 1982: F. Leverotti, <emph>Massa di
+                            Lunigiana alla fine del Trecento. Ambiente, insediamenti,
+                            paesaggio</emph>, Pisa.</bibl>
+
+                    <bibl xml:id="LIBRI_IURIUM">LIBRI_IURIUM: <emph>I libri Iurium della Repubblica
+                            di Genova</emph>. 1. Antonella Rovere and Dino Puncuh (eds.), <emph>I
+                            libri Iurium della Repubblica di Genova. Introduzione</emph>, (Roma,
+                        1992). I.1. Antonella Rovere, <emph>I libri Iurium della Repubblica di
+                            Genova</emph>, (Ministero per i beni culturali e ambientali - Ufficio
+                        centrale per i beni archivistici: Roma, 1992) I.2 Dino Puncuh (ed.), <emph>I
+                            libri iurium della Repubblica di Genova</emph>, (Genova, 1996), I-2. I.4
+                        Sabina Dellacasa (ed.), <emph>I libri Iurium della Repubblica di
+                            Genova</emph>, (Ministero per i beni culturali e ambientali - Ufficio
+                        centrale per i beni archivistici: Roma, 1998) I.3 Dino Puncuh (ed.), <emph>I
+                            libri iurium della Repubblica di Genova</emph>, (Genova, 1998), I-3. I.5
+                        Elisabetta Madia (ed.), <emph>I libri Iurium della Repubblica di
+                            Genova</emph>, (Ministero per i beni culturali e ambientali - Ufficio
+                        centrale per i beni archivistici: Roma, 1999), I-5. I.6 Maria Bibolini
+                        (ed.), <emph>I libri Iurium della Repubblica di Genova</emph>, (Ministero
+                        per i beni culturali e ambientali - Ufficio centrale per i beni
+                        archivistici: Roma, 2000).</bibl>
+
+                    <bibl xml:id="LIGUCIBARIO_2019">LIGUCIBARIO 2019: <emph>Alfabeto del
+                            gusto</emph>, in <emph>
+                            <ref target="http://www.ligucibario.com/alfabeto_del_gusto/"
+                                >Ligucibario</ref>
+                        </emph>.</bibl>
+
+                    <bibl xml:id="LOSCHIAVO_2004">LOSCHIAVO 2004: G. Fasoli, <emph>LABORANTE</emph>,
+                        in <emph>Dizionario Biografico degli Italiani</emph>, 62.</bibl>
+
+                    <bibl xml:id="LOSCHIAVO_2007">LOSCHIAVO 2007: L. Loschiavo, <emph>Intorno al
+                            privilegio della praescriptio centum annorum</emph>, in <emph>Itinerari
+                            giuridici. Per il quarantennale della Facoltà di Giurisprudenza
+                            dell’Abruzzo</emph>, Milano, pp. 533-553.</bibl>
+
+                    <bibl xml:id="LÜNIG_1725">LÜNIG 1725-1735: J.C. Lünig (ed.), <emph>Codex Italiae
+                            Diplomaticus</emph>, 4 voll., Francoforte - Lipsia.</bibl>
+
+                    <bibl xml:id="LUPO_GENTILE_1910">LUPO GENTILE 1910: M. Lupo Gentile, <emph>Le
+                            origini del comune di Carrara</emph>, in «Giornale storico della
+                        Lunigiana», 11.</bibl>
+
+                    <bibl xml:id="LUPO_GENTILE_1912">LUPO GENTILE 1912: M. Lupo Gentile, <emph>Il
+                            regesto del codice Pelavicino</emph>, in «Atti della Società Ligure di
+                        Storia Patria», XLIV.</bibl>
+
+                    <bibl xml:id="LUSUARDI_SIENA_2003">LUSUARDI SIENA 2003: S. Lusuardi Siena,
+                            <emph>Gli scavi nella Cattedrale di Luni nel quadro della topografa
+                            cittadina tra tarda antichità e medioevo</emph>, in <emph> Roma e la
+                            Liguria marittima: secoli IV-X. La capitale cristiana e una regione di
+                            confine </emph>, Genova - Bordighera, pp. 195–202. </bibl>
+
+                    <bibl xml:id="MAJOROSSY-SZENDE_2008">MAJOROSSY-SZENDE 2008: J. Majorossy e K.
+                        Szende, <emph>Hospitals in medieval and early modern Hungary</emph>, in
+                            <emph>Europäisches Spitalwesen : institutionelle Fürsorge in Mittelalter
+                            und früher Neuzeit</emph>, ed. M. Scheutz, Wien, pp. 409 - 454.</bibl>
+
+                    <bibl xml:id="MALECZEK_1997">MALECZEK 1997: W. Maleczek, <emph>Pietro Capuano.
+                            Patrizio amalfitano, Cardinale, Legato Apostolico alla quarta Crociata,
+                            teologo (1214)</emph>, Amalfi.</bibl>
+
+                    <bibl xml:id="MANARESI_1931">MANARESI 1931: C. Manaresi,
+                            <emph>Diplomatica</emph>, in <emph>Enciclopedia Italiana Treccani,
+                        </emph>Milano 1931, pp. ***.</bibl>
+
+                    <bibl xml:id="MANFREDI_1989">MANFREDI 1989: G. Manfredi, <emph>Pieve di
+                            Soliera</emph>, in <emph> Massa Carrara. Pievi e territorio della
+                            Provincia</emph>, edd. A.C. Ambrosi, M. Bertozzi e G. Manfredi, Pisa, p.
+                        135 e ss.</bibl>
+
+                    <bibl xml:id="MANSELLI_1960">MANSELLI 1960: R. Manselli, <emph>ALESSANDRO
+                            IV</emph>, in <emph> Dizionario Biografico degli italiani</emph>,
+                        2.</bibl>
+
+                    <bibl xml:id="MANSELLI_2000">MANSELLI 2000: R. Manselli, <emph>ANASTASIO IV,
+                            papa</emph>, in <emph>Enciclopedia dei papi</emph>.</bibl>
+
+                    <bibl xml:id="MANSI_1759_1798">MANSI 1759-1798: G. D. Mansi, <emph>Sacrorum
+                            conciliorum nova et amplissima collectio</emph>, 31 voll. </bibl>
+
+                    <bibl xml:id="MANSI_BARSOCCHINI_1836">MANSI BARSOCCHINI 1836: G. D. Mansi e D.
+                        Barsocchini, <emph>Diario sacro delle chiese di Lucca di mons. Giovan
+                            Domenico Mansi, accomodato all’uso dei tempi presenti ed accresciuto di
+                            molte notizie del nostro paese dall’ab. D. Barsocchini</emph>,
+                        Firenze.</bibl>
+
+                    <bibl xml:id="MARTINI_1679">MARTINI 1679: P. G. Martini, <emph>Il spirituale, e
+                            s. esercitio del santiss. rosario della gloriosissima Madre di Dio Maria
+                            Vergine ... </emph>, in Torino nella stampa de gli heredi di Carlo
+                        Gianelli.</bibl>
+
+                    <bibl xml:id="MARTINI_1976">MARTNI 1976: M. E. Martini, <emph> La storia di
+                            Calci: raccolta di notizie edite e inedite intorno a luoghi, cose,
+                            persone e fatti della Valle Graziosa</emph>, Pisa.</bibl>
+
+
+                    <bibl xml:id="MALECZEK_2004">MALECZEK 2004: W. Maleczek, <emph>INNOCENZO III,
+                            papa</emph>, in <emph>Dizionario Biografico degli Italiani</emph>,
+                        62.</bibl>
+
+                    <bibl xml:id="MAZZANTI_2003">MAZZANTI 2003: G. Mazzanti, <emph>GUGLIELMO da
+                            Capriano</emph>, in <emph>Dizionario Biografico degli Italiani</emph>,
+                        60.</bibl>
+
+                    <bibl xml:id="MAZZINI_1909">MAZZINI 1909: U. Mazzini, <emph>Il monastero di
+                            Santa Croce del Corvo</emph>, in <emph>Dante e la Lunigiana. Nel sesto
+                            centenario della venuta del Poeta in Val di Magra MCCVI-MDCCCCVI</emph>,
+                        ed. U. Mazzini, Milano, pp. 208–231.</bibl>
+
+                    <bibl xml:id="MAZZINI_1914">MAZZINI 1914: U. Mazzini, <emph>Correzioni critiche
+                            di alcune date del Regesto del Codice Pelavicino</emph>, Genova.</bibl>
+
+                    <bibl xml:id="MAZZINI_1918">MAZZINI 1918: U. Mazzini, <emph>Di una zecca di Luni
+                            dei secoli sesto e settimo finora ignorata</emph>, in <emph>Miscellanea
+                            di Studi Storici in onore di Giovanni Sforza</emph>, Lucca, pp.
+                        619-640.</bibl>
+
+                    <bibl xml:id="MENAGE_1685">MÈNAGE G. 1685: G. Mènage, <emph>Le origini della
+                            lingua italiana</emph>, Venezia.</bibl>
+
+                    <bibl xml:id="MENZINGER_2003">MENZINGER 2003: S. Menzinger, <emph>Viterbo «città
+                            papale»: motivazioni e conseguenze della presenza pontificia a Viterbo
+                            nel XIII secolo</emph>, in <emph>Itineranza pontificia</emph>,ed. S.
+                        Carocci, Roma.</bibl>
+
+                    <bibl xml:id="MERIAUX_2001">MERIAUX 2001: Ch. Mériaux, <emph>Thérouanne et son
+                            diocèse jusqu'à la fin de l'époque carolingienne: les étapes de la
+                            christianisation d'après les sources écrites</emph>,
+                        Paris/Genève.</bibl>
+
+                    <bibl xml:id="MERLO_2000">MERLO 2000: G.G. Merlo <emph>, Lucio III</emph>, in
+                            <emph>Enciclopedia dei Papi</emph>, Milano. </bibl>
+
+                    <bibl xml:id="MAYER_1983">MAYER 1983: L. Maier,<emph> Otto II., Bischof von
+                            Freising</emph>, in <emph>Bosls bayerische Biographie</emph>, ed. Karl
+                        Bosl, Regensburg.</bibl>
+
+                    <bibl xml:id="MEYER-LUBKE_2009">MEYER-LÜBKE 2009: W. Meyer-Lübke,
+                            <emph>Romanisches etymologisches Wörterbuch (REW),</emph>, Heidelberg,
+                        4ª edizione, 1968; ristampa 2009.</bibl>
+
+                    <bibl xml:id="MGH_DD_CII">MGH DD CII: <emph>Die Urdunden Konrads II (Conradi II.
+                            Diplomata) Mit Nachträgen zu den Urkunden Heinrichs II. </emph>, ed. H.
+                        Bresslau, H. Wibel, A. Hessel, in <emph>Monumenta Germaniae Historica.
+                            Diplomata</emph>, 4, Hannoverae - Leipzig 1909.</bibl>
+
+                    <bibl xml:id="MGH_DD_FI">MGH DD FI: <emph>>Die Urkunden Friedrichs I (Friderici
+                            I diplomata) 1181-1190 </emph>, ed. H. Appelt, in <emph>Monumenta
+                            Germaniae Historica. Diplomata</emph>, 10, Hannover 1975-1990.</bibl>
+
+                    <bibl xml:id="MGH_DD_HIII"> MGH DD HIII: <emph>Die Urkunden Heinrichs III
+                            (Heinrici III. Diplomata)</emph>, ed. Harry Bresslau e Paul Fridolin
+                        Kehr, in <emph>Monumenta Germaniae Historica. Diplomata</emph>, 5, Berlin
+                        1931.</bibl>
+
+                    <bibl xml:id="MGH_DD_KI_HI_OI">MGH DD KI HI OI: <emph>Die Urkunden Konrad I.
+                            Heinrich I. und Otto I. (Conradi I, Enrici I et Ottonis I.
+                            Diplomata)</emph>, ed. T. Sickel, in in <emph>Monumenta Germaniae
+                            Historica. Diplomata</emph>, 2, Hannoverae, 1879-1884. </bibl>
+
+                    <bibl xml:id="MGH_DD_KIII">MGH DD KIII:<emph> Die Urkunden Karls III (Karoli
+                            III. Diplomata), ed. P. F. Kehr, in <emph>Monumenta Germaniae Historica.
+                                Diplomata</emph>, 2, Berlin 1937. </emph></bibl>
+
+                    <bibl xml:id="MGH_DD_OII">MGH DD OII: <emph>Die Urkunden Ottos des II. (Ottonis
+                            II. Diplomata)</emph>, ed. T. Sickel T, in <emph>Monumenta Germaniae
+                            Historica, Diplomata regum et imperatorum Germaniae</emph>, Hannoverae
+                        1888. </bibl>
+
+                    <bibl xml:id="MGH_CONST_IV"><emph>Constitutiones et acta publica imperatorum et
+                            regum inde ab a. MCCXCVIII usque ad a. MCCCXIII (1298-1313)</emph>, ed.
+                        J. Schwalm, in <emph>Monumenta Germaniae Historica. Legum</emph>, 4.1-2,
+                        Hannoverae et Lipsiae, 1906-1908.</bibl>
+
+                    <bibl xml:id="MGH_SS_XXVII"><emph>Ex gestis Henrici II. et Ricardi I.</emph>,
+                        ed. F. Liebermann, in <emph>Monumenta Germaniae Historica.
+                        Scriptores</emph>, 27, Hannoverae 1885, pp. 81–132. </bibl>
+
+                    <bibl xml:id="MICHELANGELO_2017">MICHELANGELO 2017: B. Michelangelo, <emph>I
+                            nomi di luogo delle Alpi sud-occidentali. Note di Toponomastica</emph>,
+                        Cuneo.</bibl>
+
+                    <bibl xml:id="MIGNE"> MIGNE: J.-P. Migne, <emph>Patrologiae cursus completus,
+                            seu bibliotheca universalis, integra, uniformis, commoda, oeconomica,
+                            omnium SS. Patrum, doctorum scriptorumque ecclesiasticorum, sive
+                            latinorum, qui ab aevo apostolico ad tempora Innocentii 3. (anno 1216)
+                            pro Latinis et Concilii Florentini (ann. 1439) pro Graecis floruerunt:
+                            Recusio chronologica.</emph> 221 vols., 1884-1885.</bibl>
+
+                    <bibl xml:id="MILANI_2000">MILANI 2000: G. Milani, <emph>LUCIO II </emph>, in
+                            <emph> Enciclopedia dei Papi</emph>, Milano 2000</bibl>
+
+                    <bibl xml:id="MIRANDA_1998">MIRANDA 1998: S. Miranda, <emph>The Cardinals of the
+                            Holy Roman Church</emph>, risorsa digitale creata da Salvador Miranda
+                        presso la Florida International University Libraries <ref
+                            target="http://webdept.fiu.edu/~mirandas/cardinals.htm"/>.</bibl>
+
+                    <bibl xml:id="MONTORZI_1991">MONTORZI 1991: M. Montorzi, <emph>Diritto feudale
+                            nel basso medioevo</emph>, Torino.</bibl>
+
+                    <bibl xml:id="MORADEI_2018">MORADEI 2018: P. Moradei, <emph>Fosdinovo in
+                            Lunigiana. Della toponomastica storica e minore</emph>, Pisa. </bibl>
+
+                    <bibl xml:id="MORGHEN_1932">MORGHEN 1932: R. Morghen, <emph>Filippo arcivescovo
+                            di Colonia</emph>, in <ref
+                            target="http://www.treccani.it/enciclopedia/filippo-arcivescovo-di-colonia_%28Enciclopedia-Italiana%29/"
+                            >Enciclopedia Italiana Treccani</ref>, Milano.</bibl>
+
+                    <bibl xml:id="MORGHEN_1937">MORGHEN 1937: R. Morghen, <emph>Vico, prefetti
+                            di</emph>, in <ref
+                            target="http://www.treccani.it/enciclopedia/prefetti-di-vico_(Enciclopedia-Italiana)/"
+                            >Enciclopedia Italiana Treccani</ref>, Milano.</bibl>
+
+                    <bibl xml:id="MORONI_1840">MORONI 1840-1861: G. Moroni, <emph>Dizionario di
+                            erudizione storico-ecclesiastica da S. Pietro sino ai nostri
+                            giorni</emph>, 103 voll., Venezia.</bibl>
+
+                    <bibl xml:id="MORTARA_1847">MORTARA 1847: A. R. Mortara, B. Bellini, G. Cotogni,
+                        A. Mainardi, <emph>Vocabolario Universale della Lingua Italiana</emph>,
+                        Mantova.</bibl>
+
+                    <bibl xml:id="MOLINIER_1903">MOLINIER 1903: A. Molinier, <emph>Guillaume le
+                            Breton.</emph>, in <emph>Les Sources de l'histoire de France. Des
+                            origines aux guerres d'Italie (1494). III. Les Capétiens,
+                            1180-1328</emph>. Paris.</bibl>
+
+                    <bibl xml:id="MEIRINHOS_2000">MEIRINHOS 2000: J.F. Meirinhos, <emph>Giovanni
+                            XXI</emph>, in <emph><ref
+                                target="http://www.treccani.it/enciclopedia/giovanni-xxi_%28Enciclopedia-dei-Papi%29/"
+                                > Enciclopedia dei papi</ref></emph>, Milano, ***.</bibl>
+
+                    <bibl xml:id="MURATORI_1717">MURATORI 1717: L. A. Muratori, <emph>Delle
+                            antichità estensi ed italiane</emph>, Modena 1717-1740.</bibl>
+
+                    <bibl xml:id="MURATORI_1738">MURATORI 1738: L. A. Muratori, <emph>Antiquitates
+                            Italicae medi aevii</emph>, Mediolani, 1738-1742.</bibl>
+
+                    <bibl xml:id="MUSSI_1946">MUSSI 1946: L. Mussi, <emph>L’abbazia benedettina di
+                            S. Caprasio di Aulla</emph>, Aulla.</bibl>
+
+                    <bibl xml:id="NERI_1882">NERI 1882: A. Neri, <emph>La cucina del vescovo di
+                            Luni</emph>, in «Giornale ligustico di archeologia, storia e
+                        letteratura», IX, pp.161–169.</bibl>
+
+                    <bibl xml:id="NERI_1915">NERI 1915: A. Neri, <emph>Alcuni documenti sul castello
+                            della Brina</emph>, in «Giornale storico della Lunigiana”, 6,
+                        pp. 190‑200. </bibl>
+
+                    <bibl xml:id="NEUMAIER_2010">NEUMAIER 2010: H. Neumaier, <emph>Dürn,
+                            Adelsfamilie</emph>, in <emph><ref
+                                target="http://www.historisches-lexikon-bayerns.de/Lexikon/Dürn,_Adelsfamilie"
+                                >Historisches Lexikon Bayerns</ref></emph>, 19.04.2010.</bibl>
+
+                    <bibl xml:id="NOBILI_1982">NOBILI 1982: M. Nobili, <emph>Famiglie signorili di
+                            Lunigiana fra Vescovi e Marchesi (secoli XII e XIII)</emph>, in <emph>I
+                            ceti dirigenti dell’età comunale nei secoli XII e XIII</emph>. Atti del
+                        convegno (Firenze, 14-15 dicembre 1979), Pisa, pp. 233‑265, si usa qui
+                        l'edizione in Id., <emph>Gli Obertenghi e altri saggi</emph>, Spoleto 2006,
+                        pp. ***. </bibl>
+
+                    <bibl xml:id="NOBILI_1985"> NOBILI 1985: M. Nobili, <emph>L'abbazia di Polirone
+                            e le famiglie signorili lunigianesi</emph>, in <emph>L'Italia nel quadro
+                            della espansione europea del monachesimo cluniacense</emph>. Atti del
+                        convegno internazionale di storia medievale (Pescia, 26-28 novembre 1981),
+                        Cesena, pp. 173-186; si usa qui l'edizione in Id., <emph>Gli Obertenghi e
+                            altri saggi</emph>, Spoleto 2006, pp. 385-407.</bibl>
+
+                    <bibl xml:id="NOBILI_1987">NOBILI 1987: M. Nobili, <emph>Signorie e comunità
+                            nella Lunigiana orientale fra XII e XIII secolo</emph>, in <emph>Alle
+                            origini della Lunigiana moderna. Settimo centenario della redazione del
+                            Codice Pelavicino (1287-1987)</emph>. Atti del convegno, La Spezia 1990,
+                        pp. 63-90 - numero monografico di «Memorie dell'Accademia di Scienze e
+                        Lettere 'G. Capellini'», LVII-LVIII (1987-88); si usa qui l'edizione in Id.,
+                            <emph>Gli Obertenghi e altri saggi</emph>, Spoleto 2006, pp. ***.</bibl>
+
+                    <bibl xml:id="NOBILI_1992">NOBILI 1992: M. Nobili, <emph>I signori di Buggiano
+                            in Lunigiana</emph>, in <emph>Signori e feudatari nella Valdinievole dal
+                            X al XII secolo</emph>. Atti del convegno, Buggiano, pp. 133–155, si usa
+                        qui l'edizione in Id., <emph>Gli Obertenghi e altri saggi</emph>, Spoleto
+                        2006, pp. 455-481.</bibl>
+
+                    <bibl xml:id="NOBILI_1997">NOBILI 1997:M. Nobili, <emph>Le signorie territoriali
+                            degli Obertenghi in Lunigiana</emph>, in <emph>La signoria rurale nel
+                            medioevo italiano</emph>, I, ed. A. Spicciani e C. Violante, Pisa, pp.
+                        19-37; si usa qui l'edizione in Id., <emph>Gli Obertenghi e altri
+                            saggi</emph>, Spoleto 2006, pp. ***.</bibl>
+
+                    <bibl xml:id="NOBILI_2001">NOBILI 2001: M. Nobili, <emph>Il termine capitanei in
+                            due documenti lunigianesi degli inizi dei secoli XII e XIII</emph>, in
+                            <emph>La vassallità maggiore nel Regno Italico: l'ordo feudale dei
+                            capitanei (secoli XI-XII)</emph>. Atti del convegno, a cura di A.
+                        Castagnetti, Verona, pp. 285-299; si usa qui l'edizione in Id., <emph>Gli
+                            Obertenghi e altri saggi</emph>, Spoleto 2006, pp. ***.</bibl>
+
+                    <bibl xml:id="NOBILI_2005">NOBILI 2005: M. Nobili, <emph>Le 'malae
+                            consuetudines' in Lunigiana: il documento del vescovo Eriberto per gli
+                            'homines' di Trebbiano del 4 novembre 1039</emph>, in «Memorie
+                        dell’Accademia Lunigianese di Scienze e Lettere 'G. Capellini'», LXXV,
+                        129-138.</bibl>
+
+                    <bibl xml:id="NOBILI_2005b">NOBILI 2005b: M. Nobili, <emph>Una scheda sulla
+                            domus lunigianese dei Bianchi da Moregnano (secoli XII- XIII)</emph>, in
+                            <ref target="http://www.storia.unifi .it/_RM/rivista/saggi/Nobili.htm">
+                            «Reti Medievali Rivista»</ref>, VI.</bibl>
+
+                    <bibl xml:id="NOBILI_2006">NOBILI 2006: M. Nobili, <emph>Gli Obertenghi e altri
+                            saggi</emph>, Spoleto.</bibl>
+
+                    <bibl xml:id="NOBILI_2007">NOBILI 2007: M. Nobili, <emph>Per lo studio della
+                            'società feudale' lunigianese: 'milites', 'castellani' e vassalli nei
+                            secoli XI-XIII</emph>, in «Archivio storico italiano», CLXV, pp.
+                        423–448.</bibl>
+
+                    <bibl xml:id="NOBILI_2009">NOBILI 2009: M. Nobili, <emph>La liberazione di un
+                            gruppo di rustici della Chiesa di Luni a Carrara alla metà del
+                            Duecento</emph>, in «Atti e memorie della Deputazione di Storia Patria
+                        per le Antiche Provincie Modenesi», ser. 11, 31, pp. 31-42.</bibl>
+
+                    <bibl xml:id="NOCCHI_FORZANI_1970">NOCCHI FORZANI 1970: B. Nocchi Forzani,
+                            <emph>Il borgo scomparso di Volpiglione</emph>, in «Giornale Storico
+                        della Lunigiana e del territorio lucense», XXI, pp. 166–170.</bibl>
+
+                    <bibl xml:id="NOIRET_2009">NOIRET 2009: S. Noiret, <emph>'Public History' e
+                            'storia pubblica' nella rete</emph>, in «Ricerche storiche», XXXIX/2-3,
+                        pp. 275–327.</bibl>
+
+                    <bibl xml:id="NORME_1906">NORME 1906: <emph>Norme per la pubblicazione
+                            dell’Istituto Storico Italiano</emph>, in «Bollettino dell’Istituto
+                        Storico Italiano», pp. VII-XXIV.</bibl>
+
+                    <bibl xml:id="NUTI_1992">NUTI 1992: G. Nuti, <emph>DORIA, Oberto</emph>, in
+                            <emph>Dizionario Biografico Degli Italiani</emph>, 41.</bibl>
+
+                    <bibl xml:id="NUTI_1997">NUTI 1997: G. Nuti, <emph>FIESCHI, Niccolò</emph>, in
+                            <emph>Dizionario Biografico Degli Italiani</emph>, 47.</bibl>
+
+                    <bibl xml:id="NUTI_1997a">NUTI 1997a: G. Nuti, <emph>FIESCHI, Percivalle</emph>,
+                        in <emph>Dizionario Biografico Degli Italiani</emph>, 47.</bibl>
+
+                    <bibl xml:id="NUTI_1997b">NUTI 1997b: G. Nuti, <emph>FIESCHI, Alberto</emph>, in
+                            <emph>Dizionario Biografico Degli Italiani</emph>, 47.</bibl>
+
+                    <bibl xml:id="NUTI_1997c">NUTI 1997c: G. Nuti, <emph>FIESCHI, Federico</emph>,
+                        in <emph>Dizionario Biografico Degli Italiani</emph>, 47.</bibl>
+
+                    <bibl xml:id="OCCHIPINTI_2014">OCCHIPINTI 2014: E. Occhipinti,
+                            <emph>PALLAVICINO, Uberto</emph>, in <emph>Dizionario Biografico degli
+                            Italiani</emph>, 80.</bibl>
+
+                    <bibl xml:id="OCCHIPINTI_2015">OCCHIPINTI 2015: E. Occhipinti,
+                            <emph>PIETRASANTA, Guiscardo di</emph>, in <emph>Dizionario Biografico
+                            degli Italiani</emph>, 83.</bibl>
+
+                    <bibl xml:id="OLIVIERI_1864">OLIVIERI 1864: A. Olivieri, <emph>Della zecca e
+                            delle monete battute in Luni nel Medioevo</emph>, in G. SFORZA,
+                            <emph>Bibliografia storica della città di Luni e suoi dintorni</emph>,
+                        in «Memorie della Reale Accademia delle Scienze di Torino, Classe di Scienze
+                        Morali, Storiche e Filologiche» ser. II, Tomo LX, Torino, pp. 163-340, alle
+                        pp. 274-275, n. 386.</bibl>
+
+                    <bibl xml:id="ONESTI">Nicoletta Francovich Onesti: <emph>La lingua dei
+                            Longobardi, caratteristiche e problemi</emph>, contributo caricato
+                        dall'autrice su <ref
+                            target="https://www.academia.edu/7008968/La_lingua_dei_Longobardi"
+                            >Academia Edu</ref>.</bibl>
+
+                    <bibl xml:id="PARAVICINI_BAGLIANI_1978">PARAVICINI BAGLIANI 1978: A. Paravicini
+                        Bagliani, <emph>CASATI, Conte</emph>, in <emph>Dizionario Biografico degli
+                            Italiani</emph>, 21.</bibl>
+
+                    <bibl xml:id="PARAVICINI_BAGLIANI_1979">PARAVICINI BAGLIANI 1979: A. Paravicini
+                        Bagliani, <emph>CELESTINO IV, papa</emph>, in <emph>Dizionario Biografico
+                            degli Italiani</emph>, 23.</bibl>
+
+                    <bibl xml:id="PARAVICINI_BAGLIANI_1988">PARAVICINI BAGLIANI 1988: A. Paravicini
+                        Bagliani, <emph>La mobilità della Curia Romana nel secolo XIII. Riflessi
+                            locali</emph>, in <emph>Società e istituzioni dell'Italia comunale:
+                            l'esempio di Perugia (secoli XII-XIV)</emph>, Perugia, pp.
+                        155-279.</bibl>
+
+                    <bibl xml:id="PARAVICINI_BAGLIANI_2004">PARAVICINI BAGLIANI 2004: A. Paravicini
+                        Bagliani, <emph>INNOCENZO IV, papa</emph>, in <emph>Dizionario Biografico
+                            degli Italiani</emph>, 62.</bibl>
+
+                    <bibl xml:id="PAVONI_1987">PAVONI 1987: R. Pavoni, <emph>La signoria del vescovo
+                            di Luni</emph>, in «Memorie dell’Accademia Lunigianese di Scienze e
+                        Lettere ‘G. Capellini’», LVII–LVIII (1987-1988), pp. 29–59. </bibl>
+
+                    <bibl xml:id="PAVONI_1999">PAVONI 1999: R. Pavoni, <emph>Ameglia: i vescovi di
+                            Luni, i vicedomini, i Doria e il Comune di Genova</emph>, in
+                            <emph>Ameglia e il suo territorio nel Medioevo</emph>. Atti della
+                        giornata di studio, numero monografico del «Giornale storico della Lunigiana
+                        e del territorio lucense», n.s., XLIII-XLV (1992-1994), La Spezia, pp.
+                        9-170.</bibl>
+
+                    <bibl xml:id="PEDERZOLI_2012-2015">PEDERZOLI 2012-2015: G. Pederzoli, <emph>I
+                            poteri signorili in un’area di confine: l’Appennino tosco-emiliano tra
+                            l’XI e il XIV secolo</emph>, tesi di dottorato, Dipartimento di lettere
+                        e filosofia, Università degli Studi di Trento.</bibl>
+
+                    <bibl xml:id="PELLEGRINI_2000">PELLEGRINI 2000: M. Pellegrini, <emph>INNOCENZO
+                            VIII, </emph>, in <emph>Enciclopedia dei papi</emph>, Milano.</bibl>
+
+                    <bibl xml:id="PENNOTTO_1623">PENNOTTO 1623: G. Pennotto, <emph>Historia
+                            tripartita sacri ordini Clericorum Canonicorum</emph>, Romae.</bibl>
+
+                    <bibl xml:id="PERTILE_1873">PERTILE 1873: A. Pertile, <emph>Storia di diritto
+                            italiano dalla caduta dell'impero romano alla codificazione</emph>I,
+                        Padova.</bibl>
+
+                    <bibl xml:id="PIEROTTI_1972">PIEROTTI 1972: P. Pierotti, <emph>Urbanistica:
+                            storia e prassi</emph>, Firenze.</bibl>
+
+                    <bibl xml:id="PESCE_MAINERI_1969">PESCE MAINERI 1969: L. Pesce Maineri,
+                            <emph>Castelnuovo nella storia della Lunigiana: fatti e figure</emph>
+                    </bibl>
+
+                    <bibl xml:id="PETROCCHI_1912">PETROCCHI 1912: P. Petrocchi, <emph>Novo
+                            Dizionario Universale della Lingua Italiana</emph>, Milano.</bibl>
+
+                    <bibl xml:id="PETTI_BALBI_1978">PETTI BALBI 1978: G. Petti Balbi, <emph>I
+                            signori di Vezzano in Lunigiana (secoli XI-XIII)</emph>, in «Giornale
+                        Storico della Lunigiana e del territorio lucense», n.s. XXVIII-XIX
+                        (1977-1978), p. 5–75</bibl>
+
+                    <bibl xml:id="PFAFF">PFAFF 1979: V. Pfaff, <emph>CECCANO, Giordano da</emph>, in
+                            <emph> Dizionario Biografico degli Italiani</emph>, 23.</bibl>
+
+                    <bibl xml:id="PFERSCHY-MALECZEK">PFERSCHY-MALECZEK: B. Pferschy-Maleczek (ed.),
+                            <emph>Urkunden Heinrichs VI. für italienische Empfänger</emph>, in
+                            <emph>Urkunden Heinrichs VI.</emph>, a cura di H. Appelt e B.
+                        Pferschy-Maleczek, <ref
+                            target="http://www.mgh.de/datenbanken/diplomata/urkunden-heinrichs-vi/ "
+                            >edizione on line</ref>.</bibl>
+
+                    <bibl xml:id="PFISTER_2012">PFISTER 2012: D. Pfister,
+                            <emph>Lechsgemünd-Graisbach, Grafen von</emph>, articolo pubblicato il
+                        14.05.2012 in <ref
+                            target="http://www.historisches-lexikon-bayerns.de/Lexikon/Lechsgemünd-Graisbach,_Grafen von"
+                            >Historisches Lexikon Bayerns</ref>, visitato il 19.08.2018.</bibl>
+
+                    <bibl xml:id="PISTARINO_1942">PISTARINO 1942: G. Pistarino, <emph>Un
+                            crittogramma nel Codice Pelavicino dell’Archivio Capitolare di
+                            Sarzana</emph>, in «Giornale Storico e Letterario della Liguria»,
+                        XVIII-3/4, pp. 186-187.</bibl>
+
+                    <bibl xml:id="PISTARINO_1944">PISTARINO 1944: G. Pistarino, <emph>Le carte del
+                            monastero di San Venerio del Tino relative alla Corsica
+                            (1080-1500)</emph>, Torino.</bibl>
+
+                    <bibl xml:id="PISTARINO_1950">PISTARINO 1950: G. Pistarino, <emph>Le carte del
+                            monastero di San Venanzio di Ceparana (1185-1441)</emph>, in «Giornale
+                        Storico della Lunigiana»”, n. s., I.3/4, luglio-dicembre 1950, pp. 34-37;
+                        II.1/2, gennaio-giugno 1951, pp. 12-13; II.3/4, luglio-dicembre 1951, pp.
+                        31-32; III.1/2, gennaio-giugno 1952, pp. 10-11; III.3/4, luglio-dicembre
+                        1952, pp. 24-28; IV.1/2, gennaio-giugno 1953, pp. 9-11; IV.3/4,
+                        luglio-dicembre 1953, pp. 29-31 (ediz. separata, La Spezia, 1951).</bibl>
+
+                    <bibl xml:id="PISTARINO_1953">PISTARINO 1953: G. Pistarino, <emph>Il
+                            crittogramma del Codice Pelavicino</emph>, in «Giornale Storico della
+                        Lunigiana» n. s., IV.3/4, p. 29.</bibl>
+
+                    <bibl xml:id="PISTARINO_1955">PISTARINO 1955; G. Pistarino, <emph>L’ultimo
+                            documento di San Caprasio di Aulla</emph>, in «Giornale Storico della
+                        Lunigiana», n. s., VI.2, pp. 48-50.</bibl>
+
+                    <bibl xml:id="PISTARINO_1956">PISTARINO 1956: G. Pistarino, <emph>Il problema
+                            del 'Liber instrumentorum' di Saladino 'de castro Sarzane'</emph>, in
+                        «Giornale Storico della Lunigiana», n. s., VII.1/1, pp. 42-43.</bibl>
+
+                    <bibl xml:id="PISTARINO_1957">PISTARINO 1957: G. Pistarino, <emph>Gli scrittori
+                            del Codice Lunense (Pelavicino)</emph>, in «Bollettino Ligustico», IX,
+                        pp. 3-20.</bibl>
+
+                    <bibl xml:id="PISTARINO_1958a">PISTARINO 1958a: G. Pistarino, <emph>Una fonte
+                            medievale falsa e il suo presunto autore: Saladino 'de castro Sarzane' e
+                            Alfonso Ceccarelli</emph>, Università di Genova, Istituto di Storia
+                        Medievale e Moderna, Fonti e Studi, II, Genova.</bibl>
+
+                    <bibl xml:id="PISTARINO_1958b">PISTARINO 1958b: G. Pistarino, <emph>Le carte
+                            portoveneresi di Tealdo 'de Sigestro' (1258-59)</emph>, Genova.</bibl>
+
+                    <bibl xml:id="PISTARINO_1961a">PISTARINO 1961a: G. Pistarino, <emph>Le pievi
+                            della diocesi di Luni</emph>, Bordighera - La Spezia.</bibl>
+
+                    <bibl xml:id="PISTARINO_1961b">PISTARINO 1961b: G. Pistarino, <emph>Tre lettere
+                            sulle origini di Sarzana</emph>, in «Bollettino Ligustico per la Storia
+                        e la Cultura Regionale», XIII, 3/4, pp. 169-174.</bibl>
+
+                    <bibl xml:id="PISTARINO_1963">PISTARINO 1963: G. Pistarino, <emph>Il Codice
+                            Pelavicino, il 'Registrum Vetus e gli antichi statuti di Sarzana e di
+                            Sarzanello</emph>, in «Giornale Storico della Lunigiana e del Territorio
+                        Lucense», n. s., XIV, 1/4, pp. 81-91.</bibl>
+
+                    <bibl xml:id="PISTARINO_1965">PISTARINO 1965: G. Pistarino, <emph>Il “Registrum
+                            Vetus” del Comune di Sarzana</emph>, Università di Genova, Istituto di
+                        Paleografia e Storia Medievale, Istituto di Storia Moderna e Contemporanea,
+                        Fonti e Studi, VIII, Sarzana.</bibl>
+
+                    <bibl xml:id="PISTARINO_1983">PISTARINO1983: G. Pistarino, <emph>Insediamenti
+                            medievali in Lunigiana : il monastero di Aulla</emph>, in <emph>Studi
+                            dedicati a Carmelo Trasselli</emph>, Messina, pp. 517–532.</bibl>
+
+                    <bibl xml:id="PISTARINO_1986">PISTARINO 1986: G. Pistarino, <emph>Medioevo ad
+                            Aulla</emph> , in <emph>Società civile e società religiosa in Lunigiana
+                            e nel vicino Appennino dal IX al XV secolo</emph>. Atti del convegno,
+                        Sarzana, pp. 93–132.</bibl>
+
+                    <bibl xml:id="PISTARINO_1990">PISTARINO 1990: G. Pistarino, <emph>Per una nuova
+                            edizione del Codice Pelavicino</emph>, in <emph>Alle origini della
+                            Lunigiana moderna. Settimo centenario della redazione del Codice
+                            Pelavicino (1287-1987)</emph>. Atti del convegno, La Spezia, pp.
+                        9-18.</bibl>
+
+                    <bibl xml:id="PLASSMANN_1998">PLASSMANN 1998: A. Plassmann, <emph>Die Struktur
+                            des Hofes unter Friedrich I. Barbarossa nach den deutschen Zeugen seiner
+                            Urkunden</emph>, Hannover. </bibl>
+
+                    <bibl xml:id="PODESTÀ_1893">PODESTÀ 1893: L. Podestà, <emph>Gli Statuti di
+                            Sarzana</emph>, Modena.</bibl>
+
+                    <bibl xml:id="PODESTÀ_1894">PODESTÀ 1894: L. Podestà, <emph>I vescovi di Luni
+                            dall'anno 895 al 1289. Studi sul Codice Pelavicino nell'Archivio
+                            Capitolare di Sarzana</emph>, in «Atti e Memorie della Reale Deputazione
+                        di Storia Patria per le Province Modenesi», s. 6,, pp. 5-131.</bibl>
+
+                    <bibl xml:id="POGGI_1957">POGGI 1957: A.G. Poggi, <emph>Le terre di San Leonardo
+                            'de Frigido'</emph> , in «Giornale Storico della Lunigiana», n.s. VIII. </bibl>
+
+                    <bibl xml:id="POLONIO_1979">POLONIO 1979: V. Polonio, <emph> Bolano. San
+                            Venanzio di Ceparana</emph>, in <emph>Liguria monastica. Italia
+                            benedettina II</emph>, Cesena, p. 54.</bibl>
+
+                    <bibl xml:id="POLONIO_2002">POLONIO 2002: V. Polonio, <emph>Istituzioni
+                            ecclesiastiche della Liguria medievale</emph>, Roma.</bibl>
+
+                    <bibl xml:id="POLONIO_2007">POLONIO 2007: V. Polonio, <emph>II capitolo della
+                            cattedrale e il trasferimento nella nuova sede</emph>, in <emph>Da Luni
+                            a Sarzana 1204 - 2004. Ottavo centenario della traslazione della sede
+                            vescovile</emph> (Sarzana 30 Settembre - 2 Ottobre 2004), Roma, pp.
+                        223-241.</bibl>
+
+                    <bibl xml:id="POTTHAST_1874_1875">POTTHAST 1874-1875: A. Potthast (ed.),
+                            <emph>Regesta pontificum Romanorum inde ab anno post Christum natum
+                            MCXCVIII ad annum MCCCIV</emph>, 2 v., Berlin, 1874-1875, ristampa
+                        anastatica Graz 1957.</bibl>
+
+                    <bibl xml:id="PRATESI_1957">PRATESI 1957: A. Pratesi, <emph>Una questione di
+                            metodo: l’edizione delle fonti documentarie</emph>, in «Rassegna degli
+                        Archivi di Stato», XVII, n. 3, pp. 312-333.</bibl>
+
+                    <bibl xml:id="PRATESI_1977">PRATESI 1977: A. Pratesi, <emph>Fonti narrative e
+                            documentarie, problemi e metodi di edizione</emph>, in «Actum Luce», VI
+                        (1977), pp. 25-37; anche in Id., <emph>Tra carte e notai. Saggi di
+                            diplomatica dal 1951 al 1991</emph>, Roma 1992 (Miscellanea della
+                        Società Romana di Storia Patria, XXXV), pp. 33-44.</bibl>
+
+                    <bibl xml:id="PRESCOTT_1997">PRESCOTT 1997: A. Prescott, <emph>The Electronic
+                            Beowulf and Digital Restoration,</emph>, in «Literary and Linguistic
+                        Computing», 12, pp. 185-195.</bibl>
+
+                    <bibl xml:id="PRESSUTTI_1888">PRESSUTTI 1888: P. Pressutti (ed.), <emph>Regesta
+                            Honorii Papae 3.</emph>, Roma, 2 v. 1888-1895</bibl>
+
+                    <bibl xml:id="PUNCUH_1978">PUNCUH 1978: D. Puncuh, <emph>Sul metodo editoriale
+                            di testi notarili italiani</emph>, in <emph>Atti del secondo convegno
+                            delle Società storiche toscane</emph>, Lucca («Actum Luce», VI), pp.
+                        59-80); anche in Id., <emph>All’ombra della lanterna. Cinquant’anni tra
+                            archivi e biblioteche: 1956-2006</emph>, Genova 2006 («Atti della
+                        Società Ligure di Storia Patria», n.s., XLVI/1), pp. 593-610.</bibl>
+
+                    <bibl xml:id="QUIROS_CASTILLO_2000">QUIRÓS CASTILLO 2000: J.A. Quirós Castillo,
+                            <emph>L’ospedale di Tea e l’archeologia delle strade nella valle del
+                            Serchio</emph>, Firenze.</bibl>
+
+                    <bibl xml:id="RACINE_2000">RACINE 2000: P. Racine, <emph>Il vescovo di Piacenza,
+                            signore della città (997)</emph>, in «Studi di storia medioevale e di
+                        diplomatica», n.s., 18, pp. 79-96 </bibl>
+
+                    <bibl xml:id="RAGONE_2006">RAGONE 2006: F. Ragone, <emph>MALASPINA,
+                            Franceschino</emph>, in <emph>Dizionario Biografico degli
+                            Italiani</emph>, 67.</bibl>
+
+                    <bibl xml:id="REDI_1981">REDI 1981: F. Redi, <emph>Vicende costruttive e
+                            storiche della pieve di S. Giulia di Caprona</emph>, in «Studi
+                        medievali», ser. 3, 22, pp. 717‑741. </bibl>
+
+
+                    <bibl xml:id="REDI_1998">REDI FANUCCI LOVITCH 1998: F. Redi e M. Fanucci
+                        Lovitch, <emph>Nuovi studi di storia e di archeologia su Vicopisano</emph>,
+                        Pisa.</bibl>
+
+
+                    <bibl xml:id="REGISTRUM_MAGNUM"><emph>Il Registrum Magnum del Comune di
+                            Piacenza</emph>, ed. E. Falcone e R. Peveri, Milano 1984, 4 voll. e
+                        indici.</bibl>
+
+                    <bibl xml:id="REPETTI_1846">REPETTI 1846: E. Repetti, <emph>Dizionario
+                            geografico, fisico, storico della Toscana contenente la descrizione di
+                            tutti i luoghi del Granducato di Lucca, Garfagnana e Lunigiana</emph>,
+                        Firenze 1833-1846.</bibl>
+
+                    <bibl xml:id="RICCIG_1973">RICCIG 1973: G. Ricci, <emph>Un inventario nella
+                            Lunigiana del Cinquecento. Spunti, ipotesi, ricerche e documenti per una
+                            storia della media Val di Magra</emph>, Pontremoli.</bibl>
+
+                    <bibl xml:id="RICCIG_1986">RICCIG 1986: G. Ricci, <emph>I possessi dell’abbazia
+                            di S. Caprasio dell’Aulla</emph> , in <emph>Società civile e società
+                            religiosa in Lunigiana e nel vicino Appennino dal IX al XV
+                        secolo</emph>. Atti del convegno, Sarzana, pp. 183-190.</bibl>
+
+                    <bibl xml:id="RICCIG_1989a">RICCIG 1989a: G. Ricci, <emph>Aulla e il suo
+                            territorio attraverso secoli. I: dalla preistoria al
+                        Quattrocento</emph>, Aulla.</bibl>
+
+                    <bibl xml:id="RICCIG_1989b">RICCIG 1989: G. Ricci, <emph>Nuove fonti per la
+                            storia ecclesiastica della Lunigiana. Un registro della Pieve di
+                            Soliera</emph>, in «Giornale Storico della Lunigiana e del territorio
+                        lucense», n.s. XL, pp. 51–58. </bibl>
+
+                    <bibl xml:id="RICCIG_1990">RICCIG 1990: G. Ricci, <emph> Certezze e ipotesi
+                            sulla corte di Cuscugnano e le origini di Aulla</emph>, in <emph> Alle
+                            origini della Lunigiana moderna. Settimo centenario della redazione del
+                            Codice Pelavicino (1287-1987).</emph> Atti del convegno, La Spezia,
+                        pp. 155‑176. </bibl>
+
+                    <bibl xml:id="RICCI_2000">RICCI 2000: R. Ricci, <emph>L’abbazia di Linari tra
+                            problemi storiografici e segni di un passato illustre</emph>, in
+                            <emph>Genti in cammino nei versanti appenninici tosco-emiliani
+                            attraverso i secoli</emph>. Atti del convegno "Linari tra il Po e il mar
+                        Tirreno", 19-20 agosto 2000, Ramiseto (RE) - Comano (MS), Reggio Emilia,
+                        p. 39‑50. </bibl>
+
+                    <bibl xml:id="RICCI_2002">RICCI 2002: R. Ricci, <emph>La Lunigiana nel secolo di
+                            ferro (900-999). Istituzioni e società in un territorio di
+                            confine</emph>, in «Studi medievali», s. 3ª, XLI, pp. 287-336. </bibl>
+
+                    <bibl xml:id="RICCI_2012">RICCI 2012: R. Ricci,<emph> Medioevo senza città: la
+                            società medievale carrarese (secoli XII-XIII)</emph>, Carrara.</bibl>
+
+                    <bibl xml:id="RICCI_1999">RICCI 1999: R. Ricci, <emph>Oberto II davanti a
+                            Gotifredo vescovo di Luni: un enigma? Aspetti delle strategie canossiane
+                            ed obertenghe nella Lunigiana storica</emph>, in «Studi Medievali», 3ª
+                        s., XL, pp. 835–842. </bibl>
+
+                    <bibl xml:id="RIDOLFI_1893">RIDOLFI 1893: E. Ridolfi, <emph>La basilica di San
+                            Michele in foro in Lucca</emph>, Roma.</bibl>
+
+                    <bibl xml:id="RIGON_2005">RIGON 2005: A. Rigon, <emph>Ezzelino II da Romano, il
+                            Monaco, </emph>, in <emph>Federiciana</emph>, Milano.</bibl>
+
+                    <bibl xml:id="RINALDI_2000">RINALDI 2000: R. Rinaldi, <emph> La normativa
+                            Bolognese del ‘200: tra la città e il suo contado</emph>, in <emph>Acque
+                            di frontiera. Principi, comunità e governo del territorio nelle terre
+                            basse tra Enza e Reno, secoli 13.-18.</emph>, ed. F. Cazzola, Bologna,
+                        pp. 139-164.</bibl>
+
+                    <bibl xml:id="RONZANI_1998">RONZANI 1998: M. Ronzani, <emph>GAETANO di
+                            Burgundio</emph>, in <emph>Dizionario Biografico degli Italiani</emph>,
+                        51.</bibl>
+
+                    <bibl xml:id="ROSSELLI_DEL_TURCO_2009">ROSSELLI DEL TURCO 2009: R. Rosselli Del
+                        Turco, <emph>Il progetto Vercelli Book Digitale: codifica e visualizzazione
+                            di un’edizione diplomaticagrazie alle norme TEI P5 </emph>, in
+                            <emph>Medieval Texts - Contemporary Media: The Art and Science of
+                            Editing in the Digital Age</emph>, Como – Pavia, pp. 131-152. </bibl>
+
+                    <bibl xml:id="ROSSI_1896">ROSSI 1896: G. Rossi, <emph>Glossario medioevale
+                            Ligure</emph>, Torino.</bibl>
+
+                    <bibl xml:id="ROSSINI_1996">ROSSINI 1996: <emph>La chiesa di Santa Maria a
+                            Vezzano Ligure, Studi e restauri</emph>, ed. G. Rossini, Venezia.</bibl>
+
+
+
+                    <bibl xml:id="SABBIONESI_2016">SABBIONESI 2016: L. Sabbionesi <emph>“Pro maiore
+                            sanitate hominum civitatis…et borgorum”: lo smaltimento dei rifiuti
+                            nelle città medievali dell’Italia settentrionale</emph>, tesi di
+                        dottorato in Storia Antica e Archeologia, Università Cà Foscari,
+                        Venezia.</bibl>
+
+                    <bibl xml:id="SALVATORI_2001a">SALVATORI 2001a: E. Salvatori, <emph>Presenze
+                            ospedaliere in Lunigiana</emph>, in <emph>Riviera di Levante tra Emilia
+                            e Toscana: un crocevia per l’ordine di San Giovanni</emph>. Atti del
+                        convegno, Genova, pp. 189–222. </bibl>
+
+                    <bibl xml:id="SALVATORI_2001b">SALVATORI 2001b: E. Salvatori, <emph> La
+                            Francigena nella Lunigiana medievale: una strada da percorrere?</emph>,
+                        in <emph>Studi sull’Emilia occidentale nel Medioevo</emph>, a cura di R.
+                        Greci, Bologna, pp. 177–203. </bibl>
+
+                    <bibl xml:id="SALVATORI_2002">SALVATORI 2002: E. Salvatori, <emph> Fosdinovo nel
+                            quadro delle gerarchie delle strade e dei poteri della Lunigiana
+                            medievale</emph>, in <emph>Signori e Popolo di Fosdinovo nel basso
+                            Medioevo</emph>. Atti del convegno di studi storici, in «Memorie della
+                        Accademia Lunigianese di Scienze Giovanni Capellini», LXXII (2002), pp.
+                        39-56.</bibl>
+
+                    <bibl xml:id="SALVATORI_2006a">SALVATORI 2006a: <emph>MALASPINA, Corrado
+                            (Corrado l’Antico)</emph>, in <emph>Dizionario Biografico degli
+                            Italiani</emph>, 67.</bibl>
+
+                    <bibl xml:id="SALVATORI_2006b">SALVATORI 2006b: <emph>MALASPINA, Corrado
+                            (Corrado il Giovane)</emph>, in <emph>Dizionario Biografico degli
+                            Italiani</emph>, 67.</bibl>
+
+                    <bibl xml:id="SALVATORI_2006c">SALVATORI 2006c: <emph>MALASPINA, Moroello
+                            (Moroello il Giovane)</emph>, in <emph>Dizionario Biografico degli
+                            Italiani</emph>, 67.</bibl>
+
+                    <bibl xml:id="SALVATORI_2007a">SALVATORI 2007a: E. Salvatori, <emph>Poteri
+                            locali e popolamento in Lunigiana tra XII e XIII secolo</emph>, in
+                            <emph>Da Luni a Sarzana 1204 - 2004. Ottavo Centenario della Traslazione
+                            della Sede Vescovile</emph> Atti del convegno, Roma, pp. 255–272.</bibl>
+
+                    <bibl xml:id="SALVATORI_2007b">SALVATORI 2007b: E. Salvatori, <emph>Note
+                            dubbiose su Alberto Malaspina, partigiano di Corradino di Svevia</emph>,
+                        in <emph>Il cavaliere di Castel dell'Aquila. Il ritrovamento, lo scavo
+                            archeologico e gli studi antropologici, la storia del castello></emph>,
+                        [= numero monografico del “Giornale Storico della Lunigiana”, 55 (2004)], La
+                        Spezia, pp. 153–156. </bibl>
+
+                    <bibl xml:id="SASSI_1936">SASSI 1936: F. Sassi, <emph>Ricerche
+                            sull’organizzazione castrense nella Lunigiana vescovile</emph>, in
+                        «Giornale Storico e Letterario della Liguria», XII.</bibl>
+
+                    <bibl xml:id="SAVIGNI_1993">SAVIGNI 1993: R. Savigni, <emph>La signoria
+                            vescovile lucchese tra XI e XII secolo: consolidamento patrimoniale e
+                            primi rapporti con la classe dirigente cittadina</emph> , in «Aevum»,
+                        67, 2, p. 333‑367. </bibl>
+
+                    <bibl xml:id="SAVIGNI_1996">SAVIGNI 1996: R. Savigni,<emph>Episcopato e società
+                            cittadina a Lucca: da Anselmo II (+1086) a Roberto (+1255)</emph>,
+                        Lucca. </bibl>
+
+                    <bibl xml:id="SCHALLER_1993">SCHALLER 1993: H. M. Schaller, <emph>EBOLI, Tommaso
+                            di</emph>, in <emph>Dizionario Biografico Degli Italiani</emph>,
+                        42.</bibl>
+
+                    <bibl xml:id="SCHIAPARRELLI_1903">SCHIAPARELLI 1903: <emph>I diplomi di
+                            Berengario I</emph>, ed. L. Schiaparelli, Roma, Fonti per la storia
+                        d'Italia, 35. </bibl>
+
+                    <bibl xml:id="SCHIAVI_1940">SCHIAVI 1940: A. Schiavi, <emph>La diocesi di
+                            Parma</emph>, Trieste.</bibl>
+
+                    <bibl xml:id="SCHIEFFER_2001">SCHIEFFER 2001: R. Schieffer, <emph>Graf Heinrich
+                            II. von Diez</emph>, in <emph>Italia et Germania: Liber Amicorum Arnold
+                            Esch</emph>, ed. H. Keller, W. Paravicini e W. Schieder, Tübingen, pp.
+                        425–438. </bibl>
+
+                    <bibl xml:id="SCHWARTZ_1913">SCHWARTZ 1913: G. Schwartz, <emph>Die Besetzung der
+                            Bistümer Reichsitaliens unter den sächsischen und salischen Kaisern mit
+                            den Listen der Bischöfe, 951-1122</emph>, Leipzig-Berlin.</bibl>
+
+                    <bibl xml:id="SCHOFIELD_SKINNER_2007">SCHOFIELD SKINNER 2007: N. Schofield e G.
+                        Skinner, <emph>The English Cardinals</emph>. Oxford.</bibl>
+
+                    <bibl xml:id="SEMERIA_1843">SEMERIA 1843: G. B. Semeria G.B., <emph>Secoli
+                            cristiani della Liguria, ossia storia della metropolitana di Genova e
+                            delle diocesi di Sarzana, Brugnato, Savona, Noli, Albenga,
+                            Ventimiglia</emph>, 2 vols, Torino. </bibl>
+
+                    <bibl xml:id="SETTIA_1997">SETTIA 1997: A. Settia, <emph>Terra e legno nei
+                            documenti veronesi</emph>, in «Archeologia Medievale», XXIV,
+                        Firenze.</bibl>
+
+                    <bibl xml:id="SETTIA_2003">SETTIA 2003: A. Settia, <emph>GUGLIELMO VI, marchese
+                            di Monferrato</emph>, in <emph>Dizionario Biografico degli
+                            Italiani</emph>, 60.</bibl>
+
+                    <bibl xml:id="SIGNORELLI_1969">SIGNORELLI 1969: G. Signorelli, <emph>Viterbo
+                            nella storia della Chiesa</emph>, 3 voll., Viterbo.</bibl>
+
+                    <bibl xml:id="SIMONSFELD_1905">SIMONSFELD 1905: <emph>Urkunden Friedrich
+                            Rotbarts in Italien</emph>, ed. H. Simonsfeld, in «Sitzungberichten dr
+                        philos.-philol. und der histor. Klasse der Kgl. Bayer Akademie der
+                        Wissenschaften», Heft 5, pp. 711-748.</bibl>
+
+                    <bibl xml:id="SFORZA_1867">SFORZA 1867: G. Sforza, <emph>Memorie storiche di
+                            Montignoso</emph>, Lucca 1867, ristampa anastatica, Modena 1967.</bibl>
+
+                    <bibl xml:id="SFORZA_1874">SFORZA 1874: G. Sforza, <emph> Saggio d’una
+                            bibliografia storica della Lunigiana, Modena. </emph></bibl>
+
+                    <bibl xml:id="SFORZA_1878">SFORZA 1878: G. Sforza, <emph>La stazione romana “ad
+                            taberna frigida” e lo spedale di S. Leonardo al Frigido</emph>, testo
+                        del 1878 presso la Biblioteca Civica della Spezia</bibl>
+
+                    <bibl xml:id="SFORZA_1890-1891">SFORZA 1890-1891: G. Sforza, <emph>Castruccio
+                            Castracani degli Antelminelli </emph>, in «Atti e memorie delle RR.
+                        Deputazioni di Storia Patria per le Provincie Modenesi e Parmensi», serie
+                        III, vol. VI, parte II, pp. 300-572.</bibl>
+
+                    <bibl xml:id="SFORZA_1894">SFORZA 1894: G. Sforza, <emph>Enrico, vescovo di
+                            Luni, e il Codice Pelavicino dell'Archivio Capitolare di Sarzana</emph>,
+                        in «Archivio Storico Italiano», s. 5ª, XIII, pp. 81-88.</bibl>
+
+                    <bibl xml:id="SFORZA_1902">SFORZA 1902: G. Sforza, <emph>La vendita di
+                            Portovenere a Genova e i primi signori di Vezzano</emph>, in «Giornale
+                        Storico e Letterario della Liguria», n.s., III (1902), pp. 338–368.</bibl>
+
+                    <bibl xml:id="SFORZA_1904">SFORZA 1904: G. Sforza, <emph>Memorie e documenti per
+                            servire alla storia di Pontremoli</emph>, 3 voll., Firenze-Lucca,
+                        1887-1904. </bibl>
+
+                    <bibl xml:id="SFORZA_1910">SFORZA 1910: G. Sforza, <emph> Saggio di un regesto
+                            de’ documenti riguardanti Luni e la sua diocesi (465-1000)</emph>, in
+                        «Memorie della Regia Accademia delle Scienze di Torino, scienze morali,
+                        storiche e filologiche», s. 2ª LX, p. 308‑327. </bibl>
+
+                    <bibl xml:id="SFORZA_1922">SFORZA 1922: G. Sforza, <emph>La distruzione di Luni
+                            nella storia e nella leggenda</emph>, in «Miscellanea di Storia
+                        Italiana», s. 3; XIX, pp. 129-131.</bibl>
+
+                    <bibl xml:id="SILVESTRI_1992">SILVESTRI F. 1992: F. Silvestri, <emph>Civiltà del
+                            castagno in montagna pistoiese</emph>, in <emph>Glossario del dialetto
+                            (vernacolo) dell’alta montagna pistoiese</emph>, Firenze.</bibl>
+
+                    <bibl xml:id="SIMEONI_1935">SIMEONI 1935: L. Simeoni, <emph>Panico</emph>, in
+                        Enciclopedia Treccani, 26, Milano.</bibl>
+
+                    <bibl xml:id="SILANOS_2010">SILANOS 2010: P. Silanos, <emph>Gerardo Bianchi da
+                            Parma († 1302). La biografia di un cardinale-legato duecentesco</emph>,
+                        Roma.</bibl>
+
+                    <bibl xml:id="SILANOS_2013a">SILANOS 2013: P. Silanos, <emph>OTTAVIANO</emph>,
+                        in <emph>Dizionario biografico degli italiani</emph>, 79.</bibl>
+
+                    <bibl xml:id="SILANOS_2013b">SILANOS 2013: P. Silanos, <emph>NICOLA di
+                            Tuscolo</emph>, in <emph>Dizionario biografico degli italiani</emph>,
+                        78.</bibl>
+
+                    <bibl xml:id="SOLDANI_2010">SOLDANI M. E. 2010: M. E. Soldani, <emph> Uomini
+                            d’affari e mercanti toscani nella Barcellona del quattrocento </emph>,
+                        Barcellona.</bibl>
+
+                    <bibl xml:id="STIAFFINI_1983">STIAFFINI 1983: D. Stiaffini, <emph>La chiesa e il
+                            monastero di S. Paolo a Ripa d’Arno di Pisa</emph>, in «Rivista
+                        dell’Istituto Nazionale d’archeologia e storia dell’arte», ser.3, 6-7, pp.
+                        237–284.</bibl>
+
+                    <bibl xml:id="STUMPF_BRENTANO_1865">STUMPF BRENTANO 1865: K.F. Stumpf-Brentano
+                        (ed.), <emph>Acta imperii inde ab Heinrico 1. ad Heinricum 6. usque adhuc
+                            inedita: Urkunden des Kaiserreichs aus dem 10., 11. und 12. Jahrhundert,
+                            erstmals herausgegeben</emph>, Innsbruck, 1865-1881.</bibl>
+
+                    <bibl xml:id="TAVANTI_1842">TAVANTI G. 1842: G. Tavanti, <emph>Trattato
+                            teorico-pratico completo sull'ulivo che comprende la sua istoria
+                            naturale, e quella della sua cultura</emph>, Firenze.</bibl>
+
+                    <bibl xml:id="TILLMANN_1975">TILLMANN 1975: H. Tillmann, <emph>Ricerche
+                            sull'origine dei membri del collegio cardenalizio nel XII secolo. II/2.
+                            Identificazione dei cardinali del secolo XII di provenienza
+                            Romana</emph>, in «Rivista di Storia della Chiesa in Italia»,
+                        XXIX.</bibl>
+
+                    <bibl xml:id="TOECHE_1867">TOECHE 1867: T. Toeche, <emph> Kaiser Heinrich VI.
+                        </emph> Leipzig.</bibl>
+
+                    <bibl xml:id="TOGNETTI_1982">TOGNETTI 1982: G. Tognetti, <emph>Criteri per la
+                            trascrizione di testi medievali latini e italiani</emph>, Roma
+                        1982.</bibl>
+
+                    <bibl xml:id="TOMMASEO_1865">TOMMASEO 1865: N. Tommaseo, <emph>Dizionario della
+                            lingua italiana. Nouvamente composto con oltre 100000 giunte ai
+                            precedenti dizionarii</emph>, Torino.</bibl>
+
+                    <bibl xml:id="TARGIONI-TOZZETTI_1779">TARGIONI TOZZETTI 1779: G. Targioni,
+                            <emph> Relazione d'alcuni viaggi fatti in diverse parti della Toscana
+                            per osservare le produzioni naturali e gli antichi monumenti d'essa
+                        </emph>, 2a ed., Firenze 1768-1779.</bibl>
+
+                    <bibl xml:id="TIRABOSCHI_1825">TIRABOSCHI 1825: G. Tiraboschi, <emph>Dizionario
+                            topografico-storico degli stati Estensi</emph>, Modena, 2 voll.</bibl>
+
+                    <bibl xml:id="TRABUCCHI_ANDREANI_1997">TRABUCCHI ANDREANI 1997: G. Trabucchi
+                        Andreani G., <emph>L’ospedale di S. Lazzaro dei lebbrosi in località
+                            Silvaricia</emph>, in <emph>La via francigena dalla Toscana a Sarzana
+                            attraverso il territorio di Massa Carrara: luoghi, figure e
+                        fatti</emph>. Atti della giornata di studi (Modena-Massa) pp. 93‑100. </bibl>
+
+                    <bibl xml:id="UGHELLI_1648">UGHELLI 1648: F. Ughelli, <emph>Italia sacra sive de
+                            episcopis Italiae et insularum adiacentium rebusque ab iis preclare
+                            gestis</emph>, Roma 1642-1648.</bibl>
+
+                    <bibl xml:id="UGHELLI_1717">UGHELLI 1717: F. Ughelli, <emph>Italia sacra sive de
+                            episcopis Italiae et insularum adiacentium rebusque ab iis preclare
+                            gestis</emph>, a cura di N. Coleti, Venezia 1717-1722.</bibl>
+
+                    <bibl xml:id="VARANINI_2001">VARANINI 2001: G.M. Varanini, <emph>GOFFREDO da
+                            Viterbo, </emph>, in <emph>Dizionario Biografico degli Italiani</emph>,
+                        57.</bibl>
+
+                    <bibl xml:id="VECCHI_1986">VECCHI 1986: E. M. Vecchi, <emph>La chiesa di San
+                            Venerio in Antoniano</emph>, in <emph>S. Venerio del Tino: vita
+                            religiosa e civile tra isole e terraferma in età medievale</emph>. Atti
+                        del Convegno, La Spezia-Sarzana, pp. 249–308.</bibl>
+
+                    <bibl xml:id="VECCHI_2003">VECCHI 2003: E. M. Vecchi, <emph>Contributo
+                            all’archeologia cristiana nella diocesi di Luni. Frammenti marmorei di
+                            reimpiego a San Venanzio di Ceparana</emph>, in «Giornale Storico della
+                        Lunigiana», n.s. LIV, pp. 117-160.</bibl>
+
+                    <bibl xml:id="VECCHI_2011">VECCHI 2011: E. M. Vecchi, <emph>«Ad pacem et veram
+                            et perpetuam concordiam devenerunt». Il cartulario del notaio Giovanni
+                            di Parente di Stupio e l’</emph>instrumentum pacis <emph>del
+                        1306</emph>, in <emph>Il nostro Dante, il Dante di tutti. 1306-2006</emph>.
+                        Atti del convegno, numero monografico del «Giornale Storico della
+                        Lunigiana», LIX (2008), Pisa, pp. 69–194.</bibl>
+
+                    <bibl xml:id="VECCHI_2012">VECCHI 2012: E. M.Vecchi, <emph>Il Codice Pelavicino
+                            fra Sarzana e Pontremoli in alcune lettere di Francesco
+                            Tranchedini</emph>, in «Studi Lunigianesi», vol. XLII-XLIII, pp.
+                        95-118.</bibl>
+
+                    <bibl xml:id="VECCHI_2013a">VECCHI 2013a: E. M.Vecchi, <emph>Il monastero del
+                            Corvo e la leggenda di Nicodemo. Un nuovo contributo</emph>, in
+                            <emph>Immagini del Medioevo. Studi di arte medievale per Colette Dufour
+                            Bozzo</emph>, ed. A. Dagnino, C. Di Fabio, M. Marcenaro, L. Quartino,
+                        Genova, pp. 54-62. </bibl>
+
+                    <bibl xml:id="VECCHI_2013b">VECCHI 2013b: E. M. Vecchi, <emph>La fondazione del
+                            monastero di Santa Croce del Corvo ed una titolazione mai
+                            esistita</emph>, in <emph>Sotto il segno della Croce. 312-2012</emph>,
+                        Atti della Giornata di Studi (Castelnuovo Magra, 10 settembre 2012), in
+                        «Giornale Storico della Lunigiana e del territorio lucense», n.s., anno
+                        LXIV, pp. 141-143.</bibl>
+
+                    <bibl xml:id="VENDITELLI_2012">VENDITELLI 2012: M. Venditelli, <emph>MORICOTTI,
+                            Enrico</emph>, in <emph> Dizionario Biografico degli italiani</emph>,
+                        76.</bibl>
+
+                    <bibl xml:id="VENDITELLI_2015">VENDITELLI 2015: M. Venditelli, <emph>PIERLEONI,
+                        </emph>, in <emph> Dizionario Biografico degli italiani</emph>, 83.</bibl>
+
+                    <bibl xml:id="VIAN_2004">VIAN 2004: P. Vian, <emph>INNOCENZO V, papa</emph>, in
+                            <emph>Dizionario Biografico degli Italiani</emph>, 62.</bibl>
+
+                    <bibl xml:id="VOCABOLARIO_1840">VOCABOLARIO 1840, <emph>Vocabolario universale
+                            italiano</emph>, diretto da Raffaele Liberatore, Napoli
+                        1829-1840.</bibl>
+
+                    <bibl xml:id="VOLPINI_1967">VOLPINI 1967: R. Volpini, <emph>BERNARDO degli
+                            Uberti, santo</emph>, in <emph> Dizionario Biografico degli
+                            Italiani</emph>, 9.</bibl>
+
+                    <bibl xml:id="VOLTMER_1986">VOLTMER 1986: E. Voltmer, <emph>Personaggi attorno
+                            all’imperatore: consiglieri e militari, collaboratori e nemici di
+                            Federico II</emph>, in <emph>Politica e cultura nell’Italia di Federico
+                            II</emph>, ed. S. Gensini, Pisa, pp. 71-93.</bibl>
+
+                    <bibl xml:id="VTO">VTO: <ref target="http://www.treccani.it/vocabolario"
+                                ><emph>Vocabolario Treccani Online</emph></ref></bibl>
+
+                    <bibl xml:id="WINKELMANN_1882">WINKELMANN 1882: E. Winkelmann, <emph>Heinrich
+                            von Kalden</emph>, in <emph>Allgemeine Deutsche Biographie
+                        (ADB)</emph>,Leipzig 1882, Band 15, S. 20 f.</bibl>
+
+                    <bibl xml:id="WINKELMANN_1885">WINKELMANN 1885: E. Winkelmann (ed.), <emph>Acta
+                            imperii inedita saeculi XIII. Urkunden und Briefe zur Geschicthte des
+                            Kaiserreichs und des Königreichs Sicilien in den Jahren
+                        1198-1273</emph>, Innsbruck, 1880-1885.</bibl>
+
+                    <bibl xml:id="ZIMMERMANN_1891">ZIMMERMANN 1891: F. Zimmermann (ed.), <emph>Acta
+                            Karoli IV. Imperatoris Inedita: Ein Beitrag zu den Urkunden Kaiser Karls
+                            IV. Aus Italienischen Archiven</emph>, Innsbruck 1891.</bibl>
+
+                    <bibl xml:id="ZIMMERMANN_1993">ZIMMERMANN 1993: H. Zimmermann, <emph>EUGENIO
+                            III, papa</emph>, in <emph>Dizionario Biografico degli italiani</emph>,
+                        43.</bibl>
+
+                    <bibl xml:id="ZOPPI_2003">ZOPPI 2003: A. Zoppi, <emph>Proposta per una nuova
+                            genealogia dei domini di Fosdinovo e Marciaso (secoli XII-XIV)</emph>,
+                        in «Giornale Storico della Lunigiana», LIV (2003), pp. 211-257.</bibl>
+
+                    <bibl xml:id="ZOPPI_2008">ZOPPI 2008: A. Zoppi, <emph>Due documenti inediti per
+                            servire alla storia di Nicola di Val di Magra</emph>, in «Studi
+                        Lunigianesi», XXXVII-XXXIX (2008-2009), pp. 89–96.</bibl>
+
+                    <bibl xml:id="ZOPPI_2013">ZOPPI 2013: A. Zoppi,<emph>Signorie e comunità nella
+                            Lunigiana medievale tra XII e XV secolo: le trasformazioni dei rapporti
+                            socio-istituzionali conseguente all’affermazione dei Malaspina di
+                            Fosdinovo</emph>, Modena.</bibl>
+
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

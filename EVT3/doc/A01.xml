@@ -1,0 +1,1159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+  <text xml:id="A01">
+
+    <front xml:id="A01_front">
+
+      <titlePart type="numerazioneNuova">1</titlePart>
+      <titlePart type="numerazioneOrig"/>
+
+      <docDate xml:id="A01_docDate">
+        <date from="1288-09-24" to="1289-09-24"><supplied reason="omitted">1288 settembre 24 – 1289 settembre
+            24</supplied></date>
+      </docDate>
+
+      <div type="regesto" xml:id="A01_regesto">
+        <p xml:id="A01_p_010">Indice delle rubriche del <term xml:lang="latin">liber memorialis et magister generalis
+            iurium</term> dei diritti dell’episcopato lunense composto al tempo del vescovo e conte di Luni Enrico.</p>
+      </div>
+
+      <div type="footer" xml:id="A01_footer">
+
+        <div type="orig_doc">
+          <p>Originale [A] cc. 1r.-5r., cc. Ir.-Vr. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>
+            <lb/>Edizione: <ref target="#PODESTÀ_1894">PODESTÀ 1894</ref>, Appendice III, pp. 131-156; limitatamente al
+            proemio <ref target="#SFORZA_1894">SFORZA 1894</ref>, pp. 81-82 e <ref target="#PODESTÀ_1894">PODESTÀ
+              1894</ref>, pp. 8-9. </p>
+          <p><lb/>Il Podestà antepone ad ogni singola voce la data del documento, in realtà non presente nell’indice, e
+            inserisce anche le rubriche mancanti, basandosi sulle note a margine dei documenti trascritti all’interno
+            del codice.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note><p>
+              <lb/>L’indice corrisponde alla numerazione dei documenti riportati all’interno del <term xml:lang="latin"
+                >liber iurium</term>
+              <ex>docc. 30-527, numerazione vecchia I-DLVI</ex>. Dopo la c.1v. la numerazione delle <term
+                xml:lang="latin">rubrice</term> salta da LXXXV a CCLXXX a causa della perdita di due carte del fascicolo
+              originario. Dato che il <term xml:lang="latin">liber iurium</term> presenta due lacune - dal documento
+              CLVIII al CLXII e dal CLXX al CCXV - per perdita dei relativi fascicoli, l’indice non elenca alcun
+              documento perduto. A c. 1v., per un errore dello scriba, la numerazione salta da LXVII a LXXVIII e il
+              medesimo errore di ripete nella numerazione a margine dei documenti: i numeri a margine devono essere
+              quindi stati posti contestualmente al lavoro di stesura dell’indice. La data espressa nel testo – <term
+                xml:lang="latin">anno a nativitate Domini M° ducentesimo LXXXVIII, indictione prima</term> - si
+              riferisce quindi solo all’inizio del lavoro, che deve aver proceduto, su un fascicolo autonomo,
+              contemporaneamente a quello di copiatura dei documenti. La data di inizio non è facilmente
+              circoscribibile, in quanto non è chiaro quale sia l’indizione usata, se romana <ex>inizio 25 dicembre o 1°
+                gennaio</ex> o bedana <ex>inizio 24 settembre</ex>: potrebbe quindi collocarsi tra il 26 dicembre 1287 e
+              il 23 settembre 1288. Si ritiene tuttavia probabile che lo scriba abbia iniziato la stesura dell’indice in
+              corrispondenza al lavoro di Egidio - secondo scriba del <term xml:lang="latin">liber iurium</term> - ossia
+              intorno al settembre 1288. Nell’indice, infatti, non si percepisce nessun “salto” o esitazione tra il le
+              rubriche XXII e XXIII, quando appunto è intervenuto quel copista, segno di un lavoro che è iniziato e poi
+              proceduto con una certa continuità. L’ampia datazione proposta ha come termine finale il mese in cui
+              Egidio terminò la stesura del <term xml:lang="latin">liber iurium</term>.</p><p> Il testo è disposto su
+              due colonne; nella colonna di destra il numero romano segue la voce, anziché precederla come nella colonna
+              di sinistra. Nel margine inferiore della carta 1r. una mano tardomedievale ha aggiunto in scrittura
+              corsiva: <term xml:lang="latin">Ser Nerius Ducis de Luca habet cartam pactorum inter dominum Antonium de
+                Camilla, episcopum Lunensem, et marchiones super facto Bolani</term>. Nello spazio bianco tra il
+              preambolo e l’inizio dell’indice una mano moderna ha aggiunto la seguente annotazione: <term
+                xml:lang="latin">Lunẹ quedam destructionis memoria a carte 34, di altra mano: folio XXXIIII
+              tergo</term>.</p></note>
+
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="A01_div">
+        <pb n="1r" xml:id="fol_001r"/>
+        <p xml:id="A01_p_001">
+          <cb n="1" rend="2col_layout" xml:id="A01_cb_001"/>In <choice>
+            <abbr>No<am><g ref="#ntilde"/></am>e</abbr>
+            <expan>no<ex>mi</ex>ne</expan>
+          </choice> <choice>
+            <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+            <expan>D<ex>omi</ex>ni</expan>
+          </choice>, amen. <date from="1287-12-25"
+            to="1288-09-23">Anno <app>
+              <lem>a nativitate</lem>
+              <rdg wit="#P">Nativitatis</rdg>
+            </app> <choice>
+              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <expan>D<ex>omi</ex>ni</expan>
+            </choice> M° ducentesimo LXXXVIII<app>
+              <lem><add hand="later">, indictione prima</add></lem>
+              <rdg wit="#P"/>
+            </app></date><note n="a"
+            place="foot" xml:id="A01_n_1"> indictione prima: <emph>aggiunto da mano posteriore.</emph></note>. <app>
+              <lem>Iste</lem>
+              <rdg wit="#P">Hic posite</rdg>
+            </app> sunt
+            rubrice<note n="b" place="foot" xml:id="A01_n_2"> Iste sunt rubrice: <emph>ripassato da mano posteriore, che
+              ha ripreso il testo all’epoca già poco leggibile a causa della sbiaditura dell’inchiostro.</emph></note>
+          libri memorialis et magistri generalis iurium Lunensis episcopatus et <orgName ref="#Luni_comitatus"
+            ><app>
+              <lem>comitatus</lem>
+              <rdg wit="#MS">comitatum</rdg>
+            </app></orgName><note n="c" place="foot" xml:id="A01_n_3"> comitatum: <emph>così nel testo per
+            </emph>comitatum.</note> et exemplum privilegiorum, cartarum et instrumentorum et aliorum librorum et
+          scripturarum ad ipsa iura <app>
+            <lem>exspectactium</lem>
+            <rdg wit="#P">spectantium</rdg>
+          </app>, factus et compositus tempore <roleName>venerabilis patris
+            domini</roleName>
+          <persName ref="#HenricusEpLuni">Henrici</persName>, <roleName>Dei gratia Lunensis episcopi et
+            comitis</roleName>, qui ipsum librum fecit fieri. Et quia in isto libro non sunt per ordinem posita
+          instrumenta <app>
+            <lem>et</lem>
+            <rdg wit="#P"></rdg>
+          </app> carte propter multitudinem earumdem, quia erant in pluribus locis, ideo posite fuerunt sicut
+          perveniebant ad manus scriptoris. Ideo sunt per istum numerum rubricate, ut queri possint<note n="d"
+            place="foot" xml:id="A01_n_4"> possint: <emph>ripassato da mano posteriore.</emph></note>, cum expedierit,
+            citius<note n="e" place="foot" xml:id="A01_n_5"> citius: <emph>ripassato da mano posteriore.</emph></note>
+          et singulariter inveniri.</p>
+        <p xml:id="A01_p_002">I. Privilegium <roleName>pape</roleName>
+          <persName ref="#EugeniuspontifexIII">Eugenii</persName> concessum <roleName>domino</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredo</persName>, <roleName>Lunensi episcopo</roleName><note n="f"
+            place="foot" xml:id="A01_n_6">
+            <emph>A fianco della voce, di mano posteriore:</emph> carte 49</note>.</p>
+        <p xml:id="A01_p_003">II. Privilegium <roleName>pape</roleName>
+          <persName ref="#Anastasius_pontifexIV">Anastasii</persName> concessum episcopo suprascripto.</p>
+        <p xml:id="A01_p_004">III. Privilegium <roleName>pape</roleName>
+          <persName ref="#InnocentiuspontifexIII">Inocentii</persName> concessum <roleName>episcopo</roleName>
+          <persName ref="#GualEpLuni">Gualterio.</persName></p>
+        <p xml:id="A01_p_005">IIII. Privilegium <roleName>pape</roleName>
+          <persName ref="#Honorius_pontifexIII">Honorii</persName> concessum <roleName>episcopo</roleName>
+          <persName ref="#MarzuccusEpLuni"><app>
+            <lem><supplied reason="illegible">Mar</supplied>çucho</lem>
+            <rdg wit="#P">Marzucho</rdg>
+          </app></persName> de <orgName
+            ref="#Aulla_S_Caprasio">monasterio de <placeName ref="#Aulla">Avula</placeName></orgName>.</p>
+        <p xml:id="A01_p_006">V. Privilegium <roleName>pape</roleName>
+          <persName ref="#Lucius_pontifex_III">Lucii</persName> super quibusdam <app>
+            <lem>rusticis</lem>
+            <rdg wit="#P"/>
+          </app><note n="g" place="foot"
+            xml:id="A01_n_7"> rusticis: cis <emph>scritto nel rigo sovrastante per mantenere l’allineamento del
+              testo.</emph></note>.</p>
+        <p xml:id="A01_p_007">VI. Privilegium <roleName>pape</roleName>
+          <persName ref="#Lucius_pontifex_III">Lucii</persName> super facto <orgName ref="#Aulla_S_Caprasio"
+            >monasterii de <placeName ref="#Aulla">Avula</placeName></orgName><note n="h" place="foot" xml:id="A01_n_8">
+            <emph>Nel margine, a fianco della voce, di mano posteriore:</emph> 56.</note>.</p>
+        <p xml:id="A01_p_008">VII. Lictere <roleName>pape</roleName>
+          <persName ref="#InnocentiuspontifexIII">Inoce<supplied reason="omitted">n</supplied>tii</persName> clero
+          Lunensi.</p>
+        <p xml:id="A01_p_009">VIII. Litere <roleName>pape</roleName>
+          <persName ref="#AlexanderpontifexIV">Alexandri</persName> super obedientia et reverentia clericorum.</p>
+        <p xml:id="A01_p_011">VIIII. Lictere <persName ref="#Guifredus_cardinalis">Gotefredi</persName>,
+            <roleName>cardinalis legati</roleName>, pro <orgName ref="#Sarzana_S_Lazzaro_Silvaricia">leprosis</orgName>
+          de <placeName ref="#Selvaricia">Silvaricia</placeName>.</p>
+        <p xml:id="A01_p_012">X. Lictere super <orgName ref="#Isola_Santa_SS_Iacopo_e_Cristoforo">hospitale
+            Corvarensium</orgName>.</p>
+        <p xml:id="A01_p_013">XI. Litere <roleName>pape</roleName>
+          <persName ref="#GreoriuspontifexIX">Gregorii</persName> priori de <placeName ref="#Carrara"
+            >Cararia</placeName>
+          <supplied reason="illegible">de</supplied> pensionibus et aliis iuribus Lunensis curie.</p>
+        <cb n="2" rend="2col_layout" xml:id="A01_cb_002"/>
+        <p xml:id="A01_p_014">XII. Lictere <roleName>pape</roleName>
+          <persName ref="#Urbanus_pontifex_III">Urbani</persName> de confirmatione privilegiorum. </p>
+        <p xml:id="A01_p_015">XIII. Lictere <roleName>pape</roleName>
+          <persName ref="#InnocentiuspontifexIV">Inocentii</persName> pro <roleName>domino</roleName>
+          <persName ref="#NicholausFlisco">Nicolao</persName>.</p>
+        <p xml:id="A01_p_016">XIIII. Lictere <roleName>pape</roleName> Gregorii super <supplied reason="omitted"
+            >e</supplied>letionem domini episcopi.</p>
+        <p xml:id="A01_p_017">XV. Lictere <roleName>pape</roleName>
+          <persName ref="#InnocentiuspontifexIV">Innocentii</persName> pro factis <placeName ref="#Tivegna"
+            >Tivegne</placeName> et <placeName ref="#Bracellis">Bracelis</placeName>.</p>
+        <p xml:id="A01_p_018">XVI. † Privilegium <roleName>pape</roleName>
+          <persName ref="#AlexanderpontifexIII">Alexandrii</persName> de <orgName ref="#Aulla_S_Caprasio">abbatia de
+              <placeName ref="#Aulla">Avula</placeName></orgName>. </p>
+        <p xml:id="A01_p_019">XVII. Privilegium <roleName>imperatoris</roleName>
+          <persName ref="#Berengarius_rex">Berengarii</persName><note n="i" place="foot" xml:id="A01_n_9">
+            <emph>A fianco della voce, di mano posteriore: </emph>57. <emph>Nel margine esterno, di altra mano tarda:
+              </emph>car<ex>ta</ex> 57</note>.</p>
+        <p xml:id="A01_p_020">XVIII. Privilegium <roleName>imperatoris</roleName>
+          <persName ref="#Otto_imperator1">Ottonis</persName><note n="j" place="foot" xml:id="A01_n_10"> Ottonis: t
+              <emph>corretto su </emph>c</note>.</p>
+        <p xml:id="A01_p_021">XVIIII. Privilegium <roleName>imperatoris</roleName>
+          <persName ref="#Otto_imperator2">Octonis</persName>.</p>
+
+        <p xml:id="A01_p_022">XX. Privilegium <roleName>imperatoris</roleName>
+          <persName ref="#Conradusimp">Conradi</persName>.</p>
+        <p xml:id="A01_p_023">XXI. Privilegium <roleName>imperatoris</roleName>
+          <persName ref="#Fredericus_imperator_I">Flederici</persName>.</p>
+        <p xml:id="A01_p_024">XXII. Privilegium <roleName>imperatoris</roleName>
+          <persName ref="#HenricusVI">Henrici VI</persName>.</p>
+        <p xml:id="A01_p_025">XXIII. Privilegium Romanorum regis de moneta facienda<note n="k" place="foot"
+            xml:id="A01_n_11"> facienda: <emph>scritto nel rigo sovrastante per mantenere l’allineamento del
+              testo.</emph></note>.</p>
+        <p xml:id="A01_p_026">XXIIII. Breve recordationis de conditionibus curie <placeName ref="#Sarzana"
+            >Sarçane</placeName> et de pensionibus.</p>
+        <p xml:id="A01_p_027">XXV. Carta saltarie.</p>
+        <p xml:id="A01_p_028">XXVI. Carta de masiis.</p>
+
+        <p xml:id="A01_p_029">XXVII. Liber <persName ref="#Gasparinus_castaldus">Gasparini</persName>
+          <roleName>castaldionis</roleName>.</p>
+        <p xml:id="A01_p_030">XXVIII. Carta becariorum<note n="l" place="foot" xml:id="A01_n_12"> becariorum:
+              <emph>ripassato da mano posteriore.</emph></note> de <placeName ref="#Sarzana">Sarçana</placeName> et
+          castro.</p>
+        <p xml:id="A01_p_031"><supplied reason="omitted">XXVIIII</supplied>. Carta unius mine<note n="m" place="foot"
+            xml:id="A01_n_13"> unius mine: <emph>ripassato da mano posteriore.</emph></note> frumenti ficti, quod
+            red<supplied reason="omitted">d</supplied>it <persName ref="#BonaventurauxorVite">Bonaventura, uxor Vite
+            Vivaldi</persName> de <placeName ref="#Orto">Orto</placeName> de <placeName ref="#Sarzana"
+            >Sarçana</placeName>.</p>
+        <p xml:id="A01_p_032">XXX. <placeName ref="#Regnano">Reg<supplied reason="omitted"
+          >n</supplied>ani</placeName>.</p>
+        <p xml:id="A01_p_033">XXXI. <placeName ref="#Soliera">Solerie</placeName>.</p>
+        <p xml:id="A01_p_034">XXXII. Hedificationis betefredi de <placeName ref="#Corvo">Corvo</placeName>.</p>
+        <p xml:id="A01_p_035">XXXIII. Possessio turris de <placeName ref="#Corvo">Corvo</placeName>.</p>
+        <p xml:id="A01_p_036">XXXIIII. De muris de <placeName ref="#Corvo">Corvo</placeName>.</p>
+        <p xml:id="A01_p_037">XXXV. Burgensium <placeName ref="#Arcola">Arcule</placeName> de <placeName ref="#Sarzana"
+            >Sarçana</placeName>.</p>
+        <p xml:id="A01_p_038">XXXVI. Sindicatus de <placeName ref="#Sarzana">Sarçana</placeName>.</p>
+        <p xml:id="A01_p_039">XXXVII. Compromissi hominum de <placeName ref="#Sarzana">Sarçana</placeName> et domini
+          episcopi in <roleName>dominum</roleName>
+          <persName ref="#Ottobonuscard">Octobonum <roleName>cardinalem</roleName></persName>.</p>
+        <p xml:id="A01_p_040">XXXVIII <note n="n" place="foot" xml:id="A01_n_14"> I numeri XXXIIII, XXXV, XXXVI, XXXVII,
+            XXXVIII <emph>sono ripassati da mano moderna.</emph></note>. Lictere <roleName>pape</roleName>
+          <persName ref="#AlexanderpontifexIV">Alexandri</persName>, misse <roleName>domino</roleName>
+          <persName ref="#Ottobonuscard">Octobono</persName> super questione audienda.</p>
+        <p xml:id="A01_p_041">XXXVIIII. Sententia cardinalis inter dominum episcopum et burgenses <supplied
+            reason="illegible"><placeName ref="#Sarzana">Sarçane</placeName></supplied>.</p>
+        <pb n="1v" xml:id="fol_001v"/>
+        <cb n="1" rend="2col_layout" xml:id="A01_cb_003"/>
+        <p xml:id="A01_p_042">XL. Sentencia domini cardilalis<note n="o" place="foot" xml:id="A01_n_15"> cardilalis:
+              <emph>così nel testo.</emph></note> inter dominum episcopum et Lunense capitulum<note n="p" place="foot"
+            xml:id="A01_n_16">
+            <emph>Nel margine esterno, di mano posteriore, è annotato con segno di richiamo</emph>: 122</note>.</p>
+        <p xml:id="A01_p_043">XLI. Casationis officialium de <placeName ref="#Sarzana">Sarçana</placeName>.</p>
+        <p xml:id="A01_p_044">XLII. Casationis gabelle quam inceperant burgenses <placeName ref="#Sarzana"
+            >Sarçane</placeName>.</p>
+        <p xml:id="A01_p_045">XLIII. Carta illorum de <placeName ref="#Paternulo">Paternulo</placeName>.</p>
+        <p xml:id="A01_p_046">XLIIII. Illorum de <placeName ref="#Arcola">Arcula</placeName>, burgensium <placeName
+            ref="#Sarzana">Sarçane</placeName>.</p>
+        <p xml:id="A01_p_047">XLV. De eadem materia.</p>
+        <p xml:id="A01_p_048">XLVI. De eodem facto.</p>
+        <p xml:id="A01_p_049">XLVII. De eodem.</p>
+        <p xml:id="A01_p_050">XLVIII. De aquisitione terreni pro casamentis suprascripterum<note n="q" place="foot"
+            xml:id="A01_n_17"> suprascripterum: <emph>così nel testo in luogo di </emph>suprascriptorum, <emph>riferito
+              a </emph>illorum de <placeName ref="#Arcola">Arcula</placeName></note>.</p>
+        <p xml:id="A01_p_051">XLVIIII. De saltaria villani.</p>
+        <p xml:id="A01_p_052">L. De podio <placeName ref="#Caprione">Caprionis</placeName>.</p>
+        <p xml:id="A01_p_053">LI. Iuramentum hominum de <placeName ref="#Sarzana">Sarçana</placeName> per sindicum et
+          homines ipsius terre.</p>
+        <p xml:id="A01_p_054">LII. Absolutio excomunicationis ipsorum.</p>
+        <p xml:id="A01_p_055">LIII. Sententia <persName ref="#BandinusGaitani">Bandini Gaitani</persName> inter dominum
+          episcopum et homines de <placeName ref="#Sarzana">Sarçana</placeName>.</p>
+        <p xml:id="A01_p_056">LIIII. Iuraverunt homines de <placeName ref="#Sarzana">Sarçana</placeName> actendere et
+          observare pacta que continentur in carta manu <roleName>notarii</roleName>
+          <persName ref="#Confortusnot">Co<supplied reason="omitted">n</supplied>forti</persName>.</p>
+        <p xml:id="A01_p_057">LV. Preceptum factum burgensibus et restitutione fe<supplied reason="omitted"
+            >u</supplied>dorum<note n="r" place="foot" xml:id="A01_n_18"> fedorum: <emph>scritto nel rigo sovrastante
+              per mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_058">LVI. Pacta inter dominum episcopum et Lunense capitulum super translatione ecclesie
+          Lunensis.</p>
+        <p xml:id="A01_p_059">LVII. Concessio <orgName ref="#Aulla_S_Caprasio">monasterii de <placeName ref="#Aulla"
+              >Avula</placeName></orgName>.</p>
+        <p xml:id="A01_p_060">LVIII. Procuratio ad dandum in feudum <roleName>domino</roleName>
+          <persName ref="#NicholausFlisco">Nicolao</persName> de <placeName ref="#Tivegna">Tivegna</placeName> et aliis
+          terris.</p>
+        <p xml:id="A01_p_061">LIX. Pensio <persName ref="#AmatusGroppolo">Amati de <placeName ref="#Gropolo"
+              >Groppulo</placeName></persName>.</p>
+        <p xml:id="A01_p_062">LX. Statutum et ordinamenta burgi <placeName ref="#Sarzana">Sarçane</placeName>.</p>
+        <p xml:id="A01_p_063">LXI. Sicut <placeName ref="#Sarzana">Sarçana</placeName> fuit posita et hedificata.</p>
+        <p xml:id="A01_p_064">LXII. Sententia arbitrum de hereditate avenarum inter dominum episcopum et burgenses<note
+            n="s" place="foot" xml:id="A01_n_19"> inter dominum episcopum et burgenses: <emph>scritto nel rigo
+              sovrastante per mantenere l’allineamento del testo.</emph></note>.</p>
+        <cb n="2" rend="2col_layout" xml:id="A01_cb_004"/>
+        <p xml:id="A01_p_065">LXIII. Sacramenti facti a burgensibus <placeName ref="#Sarzana">Sarçane</placeName> domino
+          episcopo.</p>
+        <p xml:id="A01_p_066">LXIIII. Carta <persName ref="#Confortusnot">Conforti</persName>
+          <roleName>notarii</roleName> inter dominum episcopum et burgenses<note n="t" place="foot" xml:id="A01_n_20">
+            burgenses: <emph>scritto nel rigo sovrastante per mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_067">LXV. Carta de prima locatione molendini de domo fratrum.</p>
+        <p xml:id="A01_p_068">LXVI. Sicut afictum dicti mole<supplied reason="omitted">n</supplied>dini fuit aquisitum a
+          tutore <persName ref="#CalandrinusBoniohannis">Calandrini</persName>, scilicet frumenti <supplied
+            reason="omitted">staria</supplied> V, cui datum fuit dictum fictum in canbium pro tereno in burgo <placeName
+            ref="#Arcola">Arcule</placeName>.</p>
+        <p xml:id="A01_p_069">LXVII. Carta domui date in feudum <persName ref="#IohannesBosonis">Iohani Bosi</persName>
+          in <placeName ref="#Sarzana">Sarçana</placeName>, quam modo tenet Vivus. </p>
+        <p xml:id="A01_p_070">LXXVIII. De terreno aquisito per ca<supplied reason="omitted">n</supplied>bium in
+            <placeName ref="#Clausura">Clausura</placeName><note n="u" place="foot" xml:id="A01_n_21"> Clausura:
+              <emph>nel testo</emph> Causura <emph>con </emph>l <emph>in sopralinea.</emph></note> pro casamentis<note
+            n="v" place="foot" xml:id="A01_n_22"> pro casamentis: <emph>scritto nel rigo sovrastante per mantenere
+              l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_071">LXXVIIII. De aquisitione terreni dati per ca<supplied reason="omitted">n</supplied>bium
+          suprascripti terreni.</p>
+        <p xml:id="A01_p_072">LXXX. Conpromissi in <persName ref="#BandinusGaitani">Badinum Gartonum</persName><note
+            n="w" place="foot" xml:id="A01_n_23"> Badinum Gartonum: <emph>così nel testo.</emph></note>. </p>
+        <p xml:id="A01_p_073">LXXXI. <choice>
+            <abbr>Pc<am><g ref="#utilde"/></am>r</abbr>
+            <expan>P<ex>ro</ex>cur<ex>ationis</ex></expan>
+          </choice> <choice>
+          <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+          <expan>D<ex>omi</ex>ni</expan>
+        </choice> <choice>
+          <abbr>E<am><g ref="#ptilde"/></am>piscopi</abbr>
+          <expan>Ep<ex>iscop</ex>i</expan>
+        </choice> in <orgName
+            ref="#Roma_curia_Romana">curia Romana</orgName>.</p>
+        <p xml:id="A01_p_074">LXXXII. Lictere pro causa <placeName ref="#Sarzana">Sarçane</placeName><supplied
+            reason="omitted">n</supplied>sium.</p>
+        <p xml:id="A01_p_075">LXXXIII. <choice><abbr></abbr><expan>P<ex>recepti</ex></expan></choice> domini episcopi burgensibus.</p>
+        <p xml:id="A01_p_076">LXXXIIII. <choice><abbr></abbr><expan>P<ex>recepti</ex></expan></choice>
+          <persName ref="#Codadorgius_cas">Codorgollii <roleName>castaldionis</roleName></persName>.</p>
+        <p xml:id="A01_p_078">LXXXV. <choice><expan>P<ex>recepti</ex></expan></choice> cardinalis pro scriptura de <placeName
+            ref="#Sarzana">Sarçana</placeName>.</p>
+        <p xml:id="A01_p_079">LXXXVI. <choice><abbr></abbr><expan>P<ex>recepti</ex></expan></choice> burgensibus de notario non habendo.</p>
+        <p xml:id="A01_p_080">LXXXVII. Sententia de medietate bannorum<note n="x" place="foot" xml:id="A01_n_24">
+            bannorum: <emph>corretto su </emph>bonorum.</note>
+          <choice><abbr></abbr><expan>concess<ex>a</ex></expan></choice> in feudum burgensibus<note n="y" place="foot" xml:id="A01_n_25"> burgensibus:
+              <emph>corretto su</emph> burgenses.</note>.</p>
+        <p xml:id="A01_p_081">LXXXVIII. <choice><abbr></abbr><expan>P<ex>recepti</ex></expan></choice> sententie super locis canonicatus.</p>
+        <p xml:id="A01_p_082">LXXXVIIII. Refutatio terrarum a filio <persName ref="#PetrusFlo">Petri de
+            Florina</persName><note n="z" place="foot" xml:id="A01_n_26"> Florina: na <emph>scritto nel rigo sovrastante
+              per mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_083">LXXXX. Consti<supplied reason="omitted">tu</supplied>tum factum per
+            <roleName>episcopum</roleName>
+          <persName ref="#GualEpLuni">Gualterium</persName>.</p>
+        <p xml:id="A01_p_084">LXXXXI. Casamenti <persName ref="#AlbertusMartiniCyc">Alberti de Cisirano</persName>.</p>
+
+        <p xml:id="A01_p_085">LXXXXII. Domui ubi stat vicarius, que fuit <persName ref="#Bonapartenot">Bonapartis
+            Çafardi</persName>.</p>
+        <p xml:id="A01_p_086">LXXXXIII. De domo predicta.</p>
+        <p xml:id="A01_p_087">LXXXXIIII. De eadem domo.</p>
+        <p xml:id="A01_p_088">LXXXXV. Archidiaconatus Lunensis, sicut plebs de <placeName ref="#Arcola"
+            >Arcula</placeName> fuit sibi unita et anecta. </p>
+        <pb n="2r" xml:id="fol_002r"/>
+        <cb n="1" rend="2col_layout" xml:id="A01_cb_005"/>
+        <p xml:id="A01_p_089">CCLXXX. Emptionis istorum hominum cum homagio et ficto: <persName ref="#CosaCançii"
+            >Cose</persName> et <persName ref="#FuscusCancii">Fusci, fratrum, quondam Camcii</persName>, cum stariis III
+          frumenti; <persName ref="#GiliusRicioli">Guilielmi condam Ricoli</persName>, cum ficto stariorum IIII
+          frumenti;  <persName ref="#LanfranchinusGuidonis">Lanfra<supplied reason="omitted"
+            >n</supplied>chini</persName> et <persName ref="#FuscusGuidonisSagine">Fuschi condam Guidonis
+            Saçine</persName>, cu<supplied reason="omitted">m</supplied> fictu stariorum III frumenti.</p>
+        <p xml:id="A01_p_090">CCLXXXI. Venditionis unius petie terre, quam fecit <persName ref="#IacopinusCuradeti"
+            >Iacopinus de <placeName ref="#Tivegna">Tivegna</placeName></persName>
+          <persName ref="#SalvettusCastronovo">Salvecto de <placeName ref="#CastelnuovoMagra"
+            >Castronovo</placeName></persName>.</p>
+        <p xml:id="A01_p_091">CCLXXXII. Locationis suprascripte terre facte per eundem <persName
+            ref="#SalvettusCastronovo">Salvectum</persName> eodem<note n="aa" place="foot" xml:id="A01_n_27"> eodem:
+              <emph>così nel testo per </emph>eidem.</note> Iacopino ad I starium frumenti ficti.</p>
+        <p xml:id="A01_p_092">CCLXXXIII. Afictationis <persName ref="#RollandusGerardini">Rollandi</persName> et
+            <persName ref="#GuilielmusGerardi">Guilielmi de Monçone</persName> de <persName ref="#RetondalusGerardini"
+            >Rotumdo quondam Gerardini</persName>, <persName ref="#BosoCicoli">Bosonis Citoli</persName> et <persName
+            ref="#GuilielmusVitaleti">Guilielmum<note n="bb" place="foot" xml:id="A01_n_28"> Guilielmum: <emph>così nel
+                testo.</emph></note> condam Vitanecti</persName>.</p>
+        <p xml:id="A01_p_093">CCLXXXIIII. Locationis <persName ref="#GuilielmusGerardi">Guilielmi de
+            Moçano</persName><note n="cc" place="foot" xml:id="A01_n_29"> Moçano:<emph>così nel testo per
+            </emph>Monçone.</note>
+          <persName ref="#RetondalusGerardini">Rotundo condam Gerardini</persName> et <persName
+            ref="#GuilielmusVitaleti">Guilielmo condam Vidalecti</persName> pro II stariis frumenti. </p>
+        <p xml:id="A01_p_094">CCLXXXXV. Denariorum<note n="dd" place="foot" xml:id="A01_n_30"> Denariorum:
+              <emph>aggiunto in un secondo tempo fuori colonna.</emph></note>
+          <measure quantity="1" type="imperiales" unit="denarius">imperialium I</measure> pensionis, quam reddit
+            <persName ref="#CanciusPaganni">Cancius condam Pagani</persName><note n="ee" place="foot" xml:id="A01_n_31">
+            Pagani: ni <emph>scritto nel rigo sottostante per mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_095">CCLXXXVI. Locationis per homagium.</p>
+        <p xml:id="A01_p_096">CCLXXXVII. Locationis <persName ref="#BonafidesPappaciçia">Bonafidei Papacia</persName> ad
+          tria staria frumenti ficti et III libras olei.</p>
+        <p xml:id="A01_p_097">CCLXXXVIII. <measure quantity="2" type="imperiales" unit="denarius">Denariorum
+            II</measure> pensionis, quos reddere debet <persName ref="#VenturaGuilielmi">Vintura</persName> de<note
+            n="ff" place="foot" xml:id="A01_n_32">
+            <emph>Manca l’indicazione della località di provenienza, nel documento 250 - CCLXXXVIII </emph>de
+            Codesorbo.</note></p>
+        <p xml:id="A01_p_098">CCLXXXVIIII. Emptionis trium stariorum frumenti ficti a <persName ref="#GuilielmusAlberti"
+            >Guilielmo Maschardo</persName>. </p>
+        <p xml:id="A01_p_099">CCLXXXX. Emptionis trium stariorum frumenti ficti a <roleName>domino</roleName>
+          <persName ref="#HenricusHenrici">Hen<supplied reason="omitted">r</supplied>i<supplied reason="omitted"
+              >co</supplied> de <placeName ref="#Trebiano">Tribiano</placeName></persName> a filiabus <persName
+            ref="#VerdiliaCastronovo">Verdilie</persName> et medium congium musti et cum homagio et residio de toto
+          podere.</p>
+        <p xml:id="A01_p_100">CCLXXXXI. Scriptum de ficto ordei in <placeName ref="#Lotignano">Langrinnan<supplied
+              reason="omitted">o</supplied></placeName><note n="gg" place="foot" xml:id="A01_n_33">
+              Langhiranno:<emph>nel documemto 253-CCLXXXXI è</emph> Lotignano.</note>.</p>
+        <p xml:id="A01_p_101">CCLXXXXII. Emptionis <persName ref="#DuransBonaiute">Durantis</persName> et <persName
+            ref="#MeliorBonaiute">Melioris</persName> villanis<note n="hh" place="foot" xml:id="A01_n_34"> villanis:
+              <emph>così nel testo.</emph></note> cum II stariis frumenti ficti <supplied reason="omitted">et</supplied>
+          cum <measure quantity="6" type="imperiales" unit="denarius">denariis VI</measure> pensionis a
+            <roleName>domino</roleName>
+          <persName ref="#BonacursusLevacastelli">Bonacurso de <placeName ref="#Buçano"
+          >Buçano</placeName></persName>.</p>
+        <p xml:id="A01_p_102">CCLXXXXIII. Locationis <persName ref="#GerardusColle">Gerardi de <placeName ref="#Colle"
+              >Colle</placeName></persName> ad <measure quantity="4" type="imperiales" unit="denarius">IIII
+            denarios</measure> pensionis.</p>
+        <p xml:id="A01_p_103">CCLXXXXIIII. Locationis <persName ref="#BonvisinusCalderoni">Bo<supplied reason="omitted"
+              >n</supplied>visino</persName> per homagium.</p>
+        <p xml:id="A01_p_104">CCLXXXXV. Locationis <persName ref="#GirardinusConeti">Gerardi Conecti</persName> ad I
+          starium frumenti ficti.</p>
+        <p xml:id="A01_p_105">CCLXXXXVI. De <placeName ref="#CastelloAghinolfi">castro Aghinolfo</placeName>.</p>
+        <cb n="2" rend="2col_layout" xml:id="A01_cb_006"/>
+        <p xml:id="A01_p_106">CCLXXXXVII. De <placeName ref="#Volpilione">Vulpilio</placeName>.</p>
+        <p xml:id="A01_p_107">CCLXXXXVIII. Cunstitutiones castri de <placeName ref="#Nicola">Nicola</placeName>.</p>
+        <p xml:id="A01_p_108">CCLXXXXVIIII. Constitutiones de <placeName ref="#Serravalle">Serravalle</placeName>, de
+          hominibus <placeName ref="#Nicola">Nicole</placeName> et <placeName ref="#Ortonovo">Ortonovi</placeName>.</p>
+        <p xml:id="A01_p_109">CCC. Ordinamenta.</p>
+        <p xml:id="A01_p_110">CCCI. Redditus.</p>
+        <p xml:id="A01_p_111">CCCII. Inquisitio<note n="ii" place="foot" xml:id="A01_n_35"> inquisitio <emph>preceduto
+              da </emph>non <emph>di mano posteriore.</emph></note> facta de <placeName ref="#Aguto">Aguto</placeName>
+          sive circulo de <placeName ref="#Luni">Luna</placeName><note n="jj" place="foot" xml:id="A01_n_36"> Luna:
+              <emph>scritto nel rigo sovrastante per mantenere l’allineamento del testo.</emph></note>. </p>
+        <p xml:id="A01_p_112">CCCIII. <measure quantity="12" type="imperiales" unit="denarius">Denariorum XII</measure>
+          pensionis de quadam domo in <placeName ref="#Sarzana">Sarçana</placeName> locata Itre.</p>
+        <p xml:id="A01_p_113">CCCIIII. Pactorum de <placeName ref="#Volpilione">Vulpillione</placeName> cum dominis de
+            <placeName ref="#Buçano">Boçano</placeName>.</p>
+        <p xml:id="A01_p_114">CCCV. Concessionis <persName ref="#SalvetusUgolini">Salvecto Uggolini</persName> de
+          casamento in <placeName ref="#Nicola">Nicola</placeName> et terra.</p>
+        <p xml:id="A01_p_115">CCCVI. Locationis poderis <persName ref="#UbaldinusNicola">Ubaldini de <placeName
+              ref="#Nicola">Nichola</placeName></persName> per homagium<note n="kk" place="foot" xml:id="A01_n_37">
+            homagium: magium <emph>scritto nel rigo sovrastante per mantenere l’allineamento del
+          testo.</emph></note>.</p>
+        <p xml:id="A01_p_116">CCCVII. Locationis <persName ref="#BonacursusRollandini">Bonacursi Rola<supplied
+              reason="omitted">n</supplied>docti</persName> de <placeName ref="#Yliolo">Igiolo</placeName>.</p>
+        <p xml:id="A01_p_117">CCCVIII. Locationis de mansiis<note n="ll" place="foot" xml:id="A01_n_38"> mansiis:
+              <emph>la prima</emph> i <emph>corretta su</emph> t.</note> de <placeName ref="#SummoVico">Summo
+            Vico</placeName> et <placeName ref="#Pallaroso">Palleroso</placeName>.</p>
+        <p xml:id="A01_p_118">CCCVIIII. Locationis <persName ref="#BonacursusRollandini">Bonacursi Rola<supplied
+              reason="omitted">n</supplied>dini</persName> predicti de <placeName ref="#Yliolo">Ygiolo</placeName><note
+            n="mm" place="foot" xml:id="A01_n_39"> Ygiolo: lo <emph>scritto nel rigo sovrastante per mantenere
+              l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_119">CCCX. Locationis <persName ref="#BonacursusLanigra">Bonacursi de la Nigra</persName>.</p>
+        <p xml:id="A01_p_120">CCCXI. Locationis poderis <persName ref="#VivaldusPugneti">Vivaldi</persName> de
+            <placeName ref="#Nicola">Nicola</placeName> ad tertium.</p>
+        <p xml:id="A01_p_121">CCCXII. Cunstitutionum <placeName ref="#Carrara">Cararie</placeName>.</p>
+        <p xml:id="A01_p_122">CCCXIII. Statuta <orgName ref="#Carrara_comune">comunis <placeName ref="#Carrara"
+              >Carrarie</placeName></orgName>.</p>
+        <p xml:id="A01_p_123">CCCXIIII. Burci<note n="nn" place="foot" xml:id="A01_n_40"> burci: <emph>così nel testo
+              per </emph>burgi.</note> novi de <placeName ref="#Avenza">Aventia</placeName>.</p>
+        <p xml:id="A01_p_124">CCCXV. Liberationis <persName ref="#BaldanzaMicheletti">Baldantie de <placeName
+              ref="#Torano">Torano</placeName></persName> et fidelitatis<note n="oo" place="foot" xml:id="A01_n_41">
+            fidelitatis: tis <emph>scritto nel rigo sovrastante per mantenere l’allineamento del
+          testo.</emph></note>.</p>
+        <p xml:id="A01_p_125">CCCXVI. Ficti hominum de <placeName ref="#Gragnana">Gragnana</placeName><note n="pp"
+            place="foot" xml:id="A01_n_42">
+            <emph>In fondo alla carta, di mano posteriore, aggiunto con segno di richiamo: </emph>non pro
+          <choice><abbr></abbr><expan><ex>**</ex></expan></choice> lungo illorum de Gragnana quia afictatur florenorum III in anno.</note>.</p>
+        <p xml:id="A01_p_126">CCCXVII. Locationis <persName ref="#GerardinusBurnengi">Gerardino Burnengi </persName>de
+            <placeName ref="#Cazano">Gaçano</placeName> de quodam podere per homagium et resedium.</p>
+        <p xml:id="A01_p_127">CCCXVIII. Tenute contra <persName ref="#BonacursusCarrara">Bonacursum</persName> et
+            <persName ref="#FerrusCarrara">Ferrum</persName> de <placeName ref="#Carrara">Gragnana</placeName><note
+            n="qq" place="foot" xml:id="A01_n_43">
+            <emph>Nel doc. 280-CCCXVIII è</emph> de Carraria.</note>.</p>
+        <p xml:id="A01_p_128">CCCXVIIII. Pensionis quam reddit <persName ref="#DominicusViviani">Dominicus de <placeName
+              ref="#Fonti">Funti</placeName></persName>.</p>
+        <p xml:id="A01_p_129">CCCXX. Iuramenti prestiti a domino episcopo villarum <placeName ref="#Miselia"
+            >Misegie</placeName>, <placeName ref="#Veçale">Veçalis</placeName> et <placeName ref="#Torano"
+            >Torani</placeName>.</p>
+        <p xml:id="A01_p_130">CCCXXI. Stariorum IIII frumenti ficti, quod reddit <persName ref="#VicinusAgustini"
+            >Vicinus Acustini</persName>
+          <supplied reason="omitted">de</supplied>
+          <placeName ref="#Casapoci">Capaci</placeName><note n="rr" place="foot" xml:id="A01_n_44"> Capaci:<emph>nel
+              doc. 283-CCCXXI</emph> Casapoci.</note> per homagium et resedium.</p>
+        <pb n="2v" xml:id="fol_002v"/>
+        <cb n="1" rend="2col_layout" xml:id="A01_cb_007"/>
+        <p xml:id="A01_p_131">CCCXXII. Molemdinorum <persName ref="#IacopuciusAlberti">Iacoputii</persName>.</p>
+        <p xml:id="A01_p_132">CCCXXIII. Item decreti molendinorum <persName ref="#IacopuciusAlberti"
+            >Iacopucii</persName>.</p>
+        <p xml:id="A01_p_133">CCCXXIIII. Refutationis de <placeName ref="#Volpilione">Vulpillione</placeName> non
+            hedifica<supplied reason="omitted">n</supplied>do<note n="ss" place="foot" xml:id="A01_n_45">
+              hedifica<supplied reason="omitted">n</supplied>do: do <emph>scritto nel rigo sovrastante per mantenere
+              l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_134">CCCXXV. Testes <placeName ref="#Vallecchia2">Vallegie</placeName> et <placeName
+            ref="#Casapoci">Capaci</placeName> et de confinibus cum illis de <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName>.</p>
+        <p xml:id="A01_p_135">CCCXXVI. Episcopus<note n="tt" place="foot" xml:id="A01_n_46">
+            <emph> A lato di</emph> episcopus, <emph>nel margine esterno di c. 2v., aggiunto da mano posteriore</emph>:
+            non</note>
+          <persName ref="#GotefredEpLuni2">Gottefredus</persName> dedit et supposuit <orgName ref="#Carrara_S_Andrea"
+            >ecclesiam Sancti Andree</orgName> de <placeName ref="#Carrara">Carraria</placeName>
+          <orgName ref="#Lucca_S_Frediano">ecclesie Sancti Frediani</orgName><note n="uu" place="foot" xml:id="A01_n_47"
+            > Frediani: r<emph> corretto su </emph>l.</note> de Luca cum aliis ecclesiis et terris multis.</p>
+        <p xml:id="A01_p_136">CCCXXVII. Unius starii frumenti, quod reddit <persName ref="#TrapedecinusGonforuti"
+            >Trapodicinus</persName> sive illi de <placeName ref="#Apiola">Apiola</placeName>.</p>
+        <p xml:id="A01_p_137">CCCXXVIII. Medii stari<supplied reason="omitted">i</supplied> frumenti, quod reddunt
+            <persName ref="#BonaiutusMiselia">Bonaiutus</persName> et <persName ref="#GerardinusMiselia"
+            >Gerardinus</persName> de <placeName ref="#Miselia">Misegia</placeName> pro <persName ref="#VivaldusArduini"
+            >Vivaldo</persName>.</p>
+        <p xml:id="A01_p_138">CCCXXVIIII. Locationis facte <persName ref="#GuidoBonacursi">Guidoni</persName> et
+            <persName ref="#MartignonusBonacursi">Martignoni</persName> de quodam podere ad pensionem <measure
+            quantity="3" type="imperiales" unit="denarius">denariorum III</measure> et ordei et pullorum et ovarum et
+          aliorum servitiorum.</p>
+        <p xml:id="A01_p_140">CCCXXX. De quadam terra aquisita pro molendino <orgName ref="#Carrara_comune">comunis
+              <placeName ref="#Carrara">Cararie</placeName></orgName><note n="vv" place="foot" xml:id="A01_n_48">
+            Cararie: <emph>scritto nel rigo sovrastante per mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_141">CCCXXXI. De eodem facto.</p>
+        <p xml:id="A01_p_142">CCCXXXII. De eadem materia.</p>
+        <p xml:id="A01_p_143">CCCXXXIII. De eadem.</p>
+        <p xml:id="A01_p_144">CCCXXXIIII. De eadem.</p>
+        <p xml:id="A01_p_145">CCCXXXV. De eadem.</p>
+        <p xml:id="A01_p_146">CCCXXXVI. De eadem<note n="ww" place="foot" xml:id="A01_n_49"> eadem: <emph>così nel testo
+              per</emph> eodem.</note> facto.</p>
+        <p xml:id="A01_p_147">CCCXXXVII. De eodem.</p>
+        <p xml:id="A01_p_148">CCCXXXVIII. Emptionis stariorum VI frumenti ficti, quod reddere tenentur heredes <persName
+            ref="#GandulfinusCarraria">Gandulfini</persName> et <persName ref="#IacopuciusAlberti">Iacoputii</persName>
+          de molendino de <placeName ref="#PonteCimatico">Punte <choice><abbr></abbr><expan>Cim<ex>atici</ex></expan></choice></placeName>. </p>
+        <p xml:id="A01_p_149">CCCXXXVIIII. Concessionis poderis <persName ref="#VeçaleUgonisRubei">Veçalis</persName> de
+            <placeName ref="#Veçale">Veçale</placeName>.</p>
+        <p xml:id="A01_p_150">CCCXL. Sententie contra<note n="xx" place="foot" xml:id="A01_n_50">
+            <emph>Nel testo segue, espunto: </emph>Symonem.</note>
+          <persName ref="#MarchesellusVenture">Marchesellum Veture Bance</persName><note n="yy" place="foot"
+            xml:id="A01_n_51"> Venture Bance: nel doc. 302- CCCXL Venture Batigiati.</note>.</p>
+        <p xml:id="A01_p_151">CCCXLI. Sententie contra <persName ref="#SimonAsinellus">Symonem Asinellum</persName>.</p>
+        <p xml:id="A01_p_152">CCCXLII. Emptionis poderis <persName ref="#IacopinusCarraria">Iacopini
+              <roleName>iudicis</roleName></persName>.</p>
+        <p xml:id="A01_p_153">CCCXLIII. Locationis cuiusdam domus in <placeName ref="#Tivegna">Tivegna</placeName>.</p>
+        <p xml:id="A01_p_154">CCCXLIIII. Locationis poderis <persName ref="#UgolinusArmannini">Ugolini condam
+            Armani</persName>.</p>
+        <cb n="2" rend="2col_layout" xml:id="A01_cb_008"/>
+        <p xml:id="A01_p_155">CCCXLV. Pensionis <measure quantity="4" type="imperiales" unit="denarius">denariorum
+            IIIIor</measure>, quos reddit <persName ref="#UgolinusArmannini">Ugolinus Armanini</persName><note n="zz"
+            place="foot" xml:id="A01_n_52"> Armanini: <emph>nel testo </emph>Armmanini <emph>con la seconda </emph>m
+              <emph>espunta.</emph></note>.</p>
+        <p xml:id="A01_p_156">CCCXLVI. Pensionis et conditionum <persName ref="#UgolinusArmannini">Ugolini
+            Armanini</persName>.</p>
+        <p xml:id="A01_p_157">CCCXLVII. De domo condam <persName ref="#Bonus">Boni</persName> de <placeName
+            ref="#Avenza">Aventia</placeName>.</p>
+        <p xml:id="A01_p_158">CCCXLVIII. Locationis <persName ref="#BondiesAlberti">Bondici</persName><note n="aaa"
+            place="foot" xml:id="A01_n_53"> Bondici: <emph>così nel testo per </emph>Bondiei<emph>, cfr. doc.
+              310-CCCXLVIII.</emph></note> ad <measure quantity="2" type="imperiales" unit="denarius">denarios
+            II</measure> pensionis.</p>
+        <p xml:id="A01_p_159">CCCXLVIIII. Hominum curtis <placeName ref="#Carrara">Carrarie</placeName> memoriale.</p>
+        <p xml:id="A01_p_160">CCCL. Pensionis <persName ref="#IohanninusAlberti">Iohanini de <placeName
+              ref="#Santo Martino">Sancto Martino</placeName></persName>.</p>
+        <p xml:id="A01_p_161">CCCLI. Locationis unius terre <persName ref="#EgidiusDurantis">Egidio de <placeName
+              ref="#Colonnata">Columnata</placeName></persName> ad <measure quantity="1" type="imperiales"
+            unit="denarius">denarium I</measure> pensionis<note n="bbb" place="foot" xml:id="A01_n_54">
+            <measure quantity="1" type="imperiales" unit="denarius">denarium I</measure> pensionis: <emph>scritto nel
+              rigo sovrastante per mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_162">CCCLII. Ficti quod reddit <persName ref="#MartinusSoboli">Martinus de <placeName
+              ref="#Montecchio">Montechio</placeName></persName> per homagium, resedium et albergariam.</p>
+        <p xml:id="A01_p_163">CCCLIII. Tenute contra <persName ref="#BellonusGuicciardi">Bellonum
+          Guiçardi</persName>.</p>
+        <p xml:id="A01_p_164">CCCLIIII<note n="ccc" place="foot" xml:id="A01_n_55">
+            <emph>A lato, di mano moderna</emph>: non.</note>. Concessionis plebis <placeName ref="#Carrara"
+            >Carrarie</placeName>
+          <orgName ref="#Lucca_S_Frediano">Sancto Frediano</orgName> de <placeName ref="#Lucca">Luca</placeName><note
+            n="ddd" place="foot" xml:id="A01_n_56"> Luca: <emph>scritto nel rigo sovrastante per mantenere
+              l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_165">CCCLV. Confessionis, pactionis et promissionis collecte <persName ref="#MarcheseAlberti"
+            >Marcheselli Alberti de <placeName ref="#Miselia">Misellia</placeName></persName>.</p>
+        <p xml:id="A01_p_166">CCCLVI. Comutationis cuiusdam pensionis.</p>
+        <p xml:id="A01_p_167">CCCLVII. Vassallatici <persName ref="#BonaiutusBonfilioli">Bonavite</persName> et
+            <persName ref="#GerardusBonfilioli">Gerardi condam Bonfilii de <placeName ref="#Sorgnano"
+              >Sorgnano</placeName></persName><note n="eee" place="foot" xml:id="A01_n_57"> de Sorgnano: <emph>scritto
+              nel rigo sovrastante per mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_168">CCCLVIII. Pensionis quam reddunt heredes <persName ref="#SymonectusAventia">Symonecti de
+              <placeName ref="#Avenza">Aventia</placeName></persName>.</p>
+        <p xml:id="A01_p_169">CCCLVIIII. Locationis per homogium<note n="fff" place="foot" xml:id="A01_n_58"> homogium:
+              <emph>così nel testo per </emph>homagium.</note> poderis <persName ref="#VeçaleUgonisRubei">Veçalis condam
+            Guidonis Rubei de <placeName ref="#Veçale">Veçali</placeName></persName>.</p>
+        <p xml:id="A01_p_170">CCCLX. Sententie late contra potestatem et homines de <placeName ref="#Carrara"
+            >Carraria</placeName> per priorem <orgName ref="#Lucca_S_Frediano">Sancti Frediani</orgName><note n="ggg"
+            place="foot" xml:id="A01_n_59"> priorem Sancti Frediani: orem Sancti Frediani <emph>scritto nel rigo
+              sovrastante per mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_171">De <orgName ref="#Luni_S_Maurizio">Sancto Mauritio</orgName><note n="hhh" place="foot"
+            xml:id="A01_n_60">
+            <emph>A lato una mano moderna ha disegnato una </emph>manicula.</note></p>
+        <p xml:id="A01_p_172">CCCLXI. De concessione <orgName ref="#Luni_S_Maurizio">Sancti Mauritii</orgName> per
+          abbatem de <placeName ref="#Ceparana">Cepparana</placeName>
+          <orgName ref="#Pisa_S_Croce_FoceArno">Sancte Crucis de Ripa Arni</orgName><note n="iii" place="foot"
+            xml:id="A01_n_61"> Sancte Crucis de Ripa Arni <emph>scritto nel rigo sovrastante, con segno di richiamo, per
+              mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_173">CCCLXII. Concessionis date <orgName ref="#Luni_S_Maurizio">Sancto Mauritio</orgName><note
+            n="jjj" place="foot" xml:id="A01_n_62"> Mauritio:<emph> aggiunto in sopralinea.</emph></note> de petia
+          terre.</p>
+        <p xml:id="A01_p_174">CCCLXIII. <orgName ref="#Luni_S_Maurizio">Sancti Mauritii</orgName>.</p>
+        <p xml:id="A01_p_175">CCCLXIIII. <orgName ref="#Luni_S_Maurizio">Sancti Mauritii</orgName>. </p>
+        <p xml:id="A01_p_176">CCCLXV. <orgName ref="#Luni_S_Maurizio">Sancti Mauritii</orgName>. </p>
+        <p xml:id="A01_p_177">CCCLXVI. <orgName ref="#Luni_S_Maurizio">Sancti Mauritii</orgName>.</p>
+        <p xml:id="A01_p_178">CCCLXVII. <orgName ref="#Luni_S_Maurizio">Sancti Mauritii</orgName>.</p>
+        <p xml:id="A01_p_179">CCCLXVIII. <orgName ref="#Luni_S_Maurizio">Sancti Mauritii</orgName> de <placeName
+            ref="#Ameglia">Amelia</placeName>.</p>
+        <p xml:id="A01_p_180">CCCLXVIIII. Privilegium <orgName ref="#Luni_comitatus">comitatus Lunensis</orgName>
+          <placeName ref="#Ameglia">Amelie</placeName> et pedagii<note n="kkk" place="foot" xml:id="A01_n_63">
+            <emph>A lato una mano moderna ha disegnato una </emph>manicula.</note>.</p>
+        <p xml:id="A01_p_181">CCCLXX. Pensionis et operum, que debentur in <placeName ref="#Balognano"
+            >Balognano</placeName>. </p>
+        <pb n="3r" xml:id="fol_003r"/>
+        <cb n="1" rend="2col_layout" xml:id="A01_cb_009"/>
+        <p xml:id="A01_p_182">CCCLXXI. Inquisitio pedagii.</p>
+        <p xml:id="A01_p_183">CCCLXXII. Aficti trium stariorum frumenti a quibusdam de <placeName ref="#Ameglia"
+            >Amelia</placeName>.</p>
+        <p xml:id="A01_p_184">CCCLXXIII. Cambii <roleName>episcopi</roleName>
+          <persName ref="#GualEpLuni">Gualterii</persName> cum <persName ref="#UbertusTorano">Uberto</persName> et
+            <persName ref="#GuilielmusTorano">Guilielmo condam Spinelli de <placeName ref="#Torano"
+            >Torano</placeName></persName> in <placeName ref="#Ameglia">Amelia</placeName>.</p>
+        <p xml:id="A01_p_185">CCCLXXIIII. Designationis iurium, que habebant <name ref="#ToranoFamilia" type="familia"
+            >nobiles de <placeName ref="#Torano">Torano</placeName></name> in <placeName ref="#Ameglia"
+            >Amelia</placeName>.</p>
+        <p xml:id="A01_p_186">CCCLXXV. Scriptum in papiro de redditubus<note n="lll" place="foot" xml:id="A01_n_64">
+              redditubus:<emph> così nel testo per </emph>redditibus</note> de <placeName ref="#Barbazzano"
+            >Barbaçano</placeName>.</p>
+        <p xml:id="A01_p_187">CCCLXXVI. De quarto usufructi<note n="mmm" place="foot" xml:id="A01_n_65"> usufructi:
+              c<emph> aggiunta in sopralinea.</emph></note>
+          <supplied reason="omitted">et</supplied><note n="nnn" place="foot" xml:id="A01_n_66">
+            <supplied reason="omitted">et</supplied>: <emph>per l’integrazione cfr. doc. 376.</emph></note> imperialium
+          I de una petia terre locata <persName ref="#HerbellusTrebianelli">Herbello de <placeName ref="#Cala"
+              >Lacala</placeName></persName>.</p>
+        <p xml:id="A01_p_188">CCCLXXVII. Locationis <persName ref="#BelmeseGirardini">Belmesi</persName> de podere
+            <persName ref="#PhilippusPrato">Phylippi de <placeName ref="#Prato">Prato</placeName></persName>.</p>
+        <p xml:id="A01_p_189">CCCLXXVIII. <choice><abbr></abbr><expan>Con<ex>giorum</ex></expan></choice> III musti, quod reddit <persName
+            ref="#MartignonusBarbazzano">Martignonus de <placeName ref="#Barbazzano"
+          >Barbaçano</placeName></persName>.</p>
+        <p xml:id="A01_p_190">CCCLXXVIIII. <choice><abbr></abbr><expan>Con<ex>gii</ex></expan></choice> I ½ musti, quod reddit <persName
+            ref="#OliveriusBarbazano">Oliverius <supplied reason="omitted">de</supplied> Amiche</persName>.</p>
+        <p xml:id="A01_p_191">CCCLXXX. Starii I ½ frumenti, quod reddit <persName ref="#OliveriusBarbazano"
+            >Oliverius</persName> per homagium.</p>
+        <p xml:id="A01_p_192">CCCLXXXI. Emptionis <persName ref="#LaurentiusVitalis">Laurentii</persName> et <persName
+            ref="#AlbergusValdonica">Bonalbergi de <placeName ref="#Valdonica">Valdonica</placeName></persName> et
+            <persName ref="#SalvetusFontenella">Salvecti de <placeName ref="#Fontenella"
+            >Fontanella</placeName></persName> cum afictubus; sunt villani.</p>
+        <p xml:id="A01_p_193">CCCLXXXII. Confessionis suprascriptorum villanorum et est cum suprascripta carta
+          simul.</p>
+        <p xml:id="A01_p_194">CCCLXXXIII. De ficto <persName ref="#RapallusBarçi">Rapalli Guaraçani</persName>.</p>
+        <p xml:id="A01_p_195">CCCLXXXIIII. <choice><abbr></abbr><expan>Cong<ex>iorum</ex></expan></choice> VIII vini et <choice><abbr></abbr><expan>me<ex>die</ex></expan></choice>
+          <choice><abbr></abbr><expan>lib<ex>re</ex></expan></choice> olei in <placeName ref="#Barbazzano">Barbaçano</placeName>.</p>
+        <p xml:id="A01_p_196">CCCLXXXIIII<note n="ooo" place="foot" xml:id="A01_n_67"> CCCLXXXIIII: <emph>così nel testo
+              per </emph>CCCLXXXV.</note>. Sententie pro <persName ref="#BonavitaBalognano">Bonavita</persName> in
+            <placeName ref="#Balognano">Balognano</placeName>.</p>
+
+        <p xml:id="A01_p_197">CCCLXXXVI<note n="ppp" place="foot" xml:id="A01_n_68">
+            <emph>A lato, di mano moderna</emph>: non.</note>. Carta <roleName>domine</roleName>
+          <persName ref="#MaiorAmelia">Maioris de <placeName ref="#Ameglia">Amelia</placeName></persName>.</p>
+        <p xml:id="A01_p_198">CCCLXXXVII. Starii I ½ ordei, quod reddit <persName ref="#BonaiutusPaganelli">Bonaiutus de
+              <placeName ref="#Barbazzano">Barbaçano</placeName></persName>.</p>
+        <p xml:id="A01_p_199">CCCLXXXVIII. Duorum stariorum frumenti, quod reddit <persName ref="#HenriguciusHenrici"
+            >Henrigutius de <placeName ref="#Canneto">Caneto</placeName></persName>.</p>
+        <p xml:id="A01_p_200">CCCLXXXVIIII. <measure quantity="11" type="imperiales" unit="denarius">Denariorum
+            XI</measure> pensionis de uno masio in <placeName ref="#Balognano">Balognano</placeName>.</p>
+        <p xml:id="A01_p_201">CCCLXXXX. De quadam terra in <placeName ref="#Dremone">Dermone</placeName>.</p>
+        <p xml:id="A01_p_202">CCCLXXXXI. <measure quantity="12" type="imperiales" unit="denarius">Denariorum
+            XII</measure> pensionis a <persName ref="#MateldaPagani">Matelda Pagani</persName> de <placeName
+            ref="#Balognano">Balogna<supplied reason="omitted">no</supplied></placeName>.</p>
+        <p xml:id="A01_p_203">CCCLXXXXII. Confirmationis poderis dati a donna <persName ref="#MateldaPagani"
+            >Matelda</persName> de <placeName ref="#Balognano">Balognano</placeName>.</p>
+        <p xml:id="A01_p_204">CCCLXXXXIII. Locationis medietatis poderis <persName ref="#PaganusBalognano">Pagani de
+              <placeName ref="#Balognano">Balognano</placeName></persName>.</p>
+        <p xml:id="A01_p_205">CCCLXXXXIIII. De IIbus petiis terre locate <persName ref="#MarchesellusRusticelli"
+            >Marchesello</persName> ad quartum.</p>
+        <p xml:id="A01_p_206">CCCLXXXXV. Locationis per homagium <persName ref="#RollandusGuillelmi">Rolando Guillelmi
+            de <placeName ref="#Valdonica">Valdonica</placeName></persName><note n="qqq" place="foot" xml:id="A01_n_69">
+            Valdonica: l <emph>aggiunto in sopralinea</emph>.</note>.</p>
+        <cb n="2" rend="2col_layout" xml:id="A01_cb_010"/>
+        <p xml:id="A01_p_207">CCCLXXXXVI. Pensionis<note n="rrr" place="foot" xml:id="A01_n_70"> pensionis:
+              <emph>corretto su precedente scrittura.</emph></note>
+          <name ref="#CortiolaFamilia" type="familia">illorum de <placeName ref="#Cortiola"
+          >Cortiola</placeName></name>.</p>
+        <p xml:id="A01_p_208">CCCLXXXXVII. Iuramenti fidelitatis et sequimenti.</p>
+        <p xml:id="A01_p_209">CCCLXXXXVIII. Venditionis <persName ref="#GiliolusAlberti">Gilioli Mascardi</persName>
+          facte <persName ref="#GuilielmusAlberti">Guilielmo Maschardo</persName> de tota sua parte.</p>
+        <p xml:id="A01_p_210">CCCLXXXXVIIII. Concessionis ecclesie de <placeName ref="#Marola">Marola</placeName><note
+            n="sss" place="foot" xml:id="A01_n_71"> Marola: <emph>segue nota a margine di mano posteriore, a sinistra
+            </emph>Marola <emph>con</emph> manicula<emph>, a destra </emph>edifficande.</note>.</p>
+        <p xml:id="A01_p_211">CCCC. Sicut <roleName>episcopus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus</persName> investivit <persName ref="#UgolinusGerardi">Ugolinum
+            Gerardi</persName> de <placeName ref="#Saleceto">Saleceto</placeName> de quodam feudo.</p>
+        <p xml:id="A01_p_212">CCCCI. Subietionis et obedie<supplied reason="omitted">n</supplied>tie hominum de
+            <placeName ref="#Marola">Marola</placeName>.</p>
+        <p xml:id="A01_p_213">CCCCII. Donationis facte per <persName ref="#GuilielmusMascardus">Guilielmum
+            Maschardum</persName> de casamemtis.</p>
+        <p xml:id="A01_p_214">CCCCIII. Emptionis a <persName ref="#GuilielmusMascardus">Guilielmo Maschardo</persName>
+          de fictis, pensionibus et hominibus in <placeName ref="#Barbazzano">Barbaçano</placeName>.</p>
+        <p xml:id="A01_p_215">CCCCIIII. Sicut heredes <persName ref="#MichaelAlbertini">Micaelis de <placeName
+              ref="#Balognano">Balognano</placeName></persName> tenentur reddere <measure quantity="15"
+            type="imperiales" unit="denarius">denarios XV imperialium</measure> pensionis de uno casame<supplied
+            reason="omitted">n</supplied>to.</p>
+        <p xml:id="A01_p_216">CCCCV<note n="ttt" place="foot" xml:id="A01_n_72">
+            <emph>A lato, di mano moderna</emph>: non <emph>e segno di richiamo a forma di</emph> manicula.</note>.
+          Concessionis fori burgi <placeName ref="#Santo_Stefano">Sancti Stefani</placeName>.</p>
+
+        <p xml:id="A01_p_217">CCCCVI. Carta de <placeName ref="#Santo_Stefano">Sancto Stephano</placeName>
+          <supplied reason="omitted">que</supplied> tractat de podere <persName ref="#BussetusMartini"
+            >Bussceti</persName>.</p>
+        <p xml:id="A01_p_218">CCCCVII. Testium receptorum super strata de <placeName ref="#Scongnavarano"
+            >Scongnavarano</placeName>.</p>
+        <p xml:id="A01_p_219">CCCCVIII. Sententie cuiusdam casamenti et hedificii.</p>
+        <p xml:id="A01_p_220">CCCCVIIII. Carta quam fecit <persName ref="#GuidoEpLuni2">Guido</persName>
+          <roleName>episcopus</roleName>
+          <persName ref="#CarusVassallus">Carovasallus</persName><note n="uuu" place="foot" xml:id="A01_n_73">
+              Carovasallus:<emph> così nel testo per </emph>Carovasallo, <emph>cfr. doc. 370-CCCCVIIII.</emph></note> de
+          podere quod tenuit <persName ref="#PorcolusAmelia">Parcolus</persName> in curte <placeName ref="#Bolano"
+            >Bolani</placeName>.</p>
+        <p xml:id="A01_p_221">CCCCX. De pascatico inter dominum episcopum et <name ref="#VezzanoFamilia" type="familia"
+            >dominos de <placeName ref="#Vezzano">Veçano</placeName></name>. </p>
+        <p xml:id="A01_p_222">CCCCXI. Locationis terre de <placeName ref="#Peretolo">Peretulo</placeName>.</p>
+        <p xml:id="A01_p_223">CCCCXII. Statutum et iuramentum consulum de <placeName ref="#Bolano"
+          >Bolano</placeName>.</p>
+        <p xml:id="A01_p_224">CCCCXIII. Statuta de <placeName ref="#Bolano">Bolano</placeName>.</p>
+        <p xml:id="A01_p_225">CCCCXIIII. Unius starii et dimidii frumenti, quod reddit <persName ref="#ParentinusBricti"
+              >Pare<supplied reason="omitted">n</supplied>tinus</persName>.</p>
+        <p xml:id="A01_p_226">CCCCXV. Starii I frumenti, quod reddit <persName ref="#VivaldusBernardi">Vivaldus
+            Bernardi</persName>.</p>
+        <p xml:id="A01_p_227">CCCCXVI. Unius libre olei, quod reddit <persName ref="#GuilielminusCastagnetulo"
+            >Guilielmus de <placeName ref="#Castagnetulo">Castagnetulo</placeName></persName>.</p>
+        <p xml:id="A01_p_228">CCCCXVII. Unius libre olei, quod reddit <persName ref="#AimericusVivasini">Anmericus
+            Vivasino</persName><note n="vvv" place="foot" xml:id="A01_n_74"> Vivasino:<emph> così nel testo per
+            </emph>Vivasini, <emph>cfr. doc. 378-CCCXVII.</emph></note> de <placeName ref="#Castagnetulo"
+            >Castagnetulo</placeName>.</p>
+        <p xml:id="A01_p_229">CCCCXVIII. Unius starii et medii frumenti, quod reddit <persName
+            ref="#GualducciusBonafeste">Gualdacius</persName><note n="www" place="foot" xml:id="A01_n_75"> Gualdacius:
+            cius <emph>scritto nel rigo sovrastante, con segno di richiamo, per mantenere l’allineamento del
+              testo.</emph></note>.</p>
+        <p xml:id="A01_p_230">CCCCXVIIII. Unius libre olei, quam reddit <persName ref="#BolanetusProdomi"
+            >Balanectus</persName>.</p>
+        <p xml:id="A01_p_231">CCCCXX. Unius starii frumenti, quod reddit<note n="xxx" place="foot" xml:id="A01_n_76">
+            reddit: <emph>così nel testo per </emph>reddunt.</note><persName ref="#BonamicusViviani">
+            Bonanutius</persName> et <persName ref="#BonavereViviani">Bonavere</persName>. </p>
+        <pb n="3v" xml:id="fol_003v"/>
+        <cb n="1" rend="2col_layout" xml:id="A01_cb_011"/>
+        <p xml:id="A01_p_232">CCCCXXI. Quartum I frumenti et libra I olei a <persName ref="#BonafeminarelHenrici"
+            >Bonafemina Henrici</persName>.</p>
+        <p xml:id="A01_p_233">CCCCXXII. Unius libre olei a <persName ref="#VivianusAlbianelli">Viviano
+            Albianelli</persName> de <placeName ref="#Albiano">Albiano</placeName><note n="yyy" place="foot"
+            xml:id="A01_n_77"> Albiano: ano <emph>scritto nel rigo sovrastante, con segno di richiamo, per mantenere
+              l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_234">CCCCXXIII. Duarum partium unius starii frumenti a <persName ref="#BenvenutusVivasini"
+            >Benvenuto Vivasini</persName><note n="zzz" place="foot" xml:id="A01_n_78"> Vivasini: <emph>scritto nel rigo
+              sottostante, con segno di richiamo, per mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_235">CCCCXXIIII. Librarum II olei ficti a <persName ref="#GuilincionusIordani"
+            >Guiçolino</persName>.</p>
+        <p xml:id="A01_p_236">CCCCXXV. Unius libre olei a <persName ref="#BonalbergusGuidiCobia">Bonalbergo
+            Guidi</persName> de <placeName ref="#Cobia">Cabia</placeName>.</p>
+        <p xml:id="A01_p_237">CCCCXXVI. Unius starii frumenti et II librarum olei a <persName ref="#VegnansOdolini"
+            >Vegnante Odilini</persName>.</p>
+        <p xml:id="A01_p_238">CCCCXXVII. De <placeName ref="#Albiano">Albiano</placeName> et fundationis eius<note
+            n="aaaa" place="foot" xml:id="A01_n_79">
+            <emph>A lato, di mano moderna</emph>: non.</note>.</p>
+        <p xml:id="A01_p_239">CCCCXXVIII. Sicut homines de <placeName ref="#Albiano">Albiano</placeName> iurarunt
+          attendere in suprascripta carta contempta.</p>
+        <p xml:id="A01_p_240">CCCCXXVIIII. Sindicatus <orgName ref="#Albiano_comune">comunis <placeName ref="#Albiano"
+              >Albiani</placeName></orgName> ad paciscendum de predictis.</p>
+        <p xml:id="A01_p_241">CCCCXXX. De <placeName ref="#Montebello">Muntebello</placeName><note n="bbbb" place="foot"
+            xml:id="A01_n_80">
+            <emph>A lato, di mano moderna</emph>: non.</note>.</p>
+        <p xml:id="A01_p_242">CCCCXXXI. Locacionis poderis <persName ref="#BernardinusAimerici">Bernardino de <placeName
+              ref="#Zovagallo">Iovagallo</placeName></persName> in <placeName ref="#Montebello"
+          >Muntebello</placeName>.</p>
+        <p xml:id="A01_p_243">CCCCXXXII. Poderium de <placeName ref="#Montebello">Muntebello</placeName> et comunis.</p>
+        <p xml:id="A01_p_244">CCCCXXXIII. Refutationis <persName ref="#ParentinusConforti">Parentutii</persName> de
+          podere <persName ref="#PercivalRollandeti">Percivallis</persName>.</p>
+        <p xml:id="A01_p_245">CCCCXXXIIII<note n="cccc" place="foot" xml:id="A01_n_81">
+            <emph>In sopralinea, ripetuto per errore: </emph>XXXIII.</note>. Sicut <roleName>dominus</roleName>
+          <persName ref="#BernardinusPanicali">Bernardinus</persName> et <persName ref="#SimonAlberti">Symon</persName>
+          de <placeName ref="#Panicale">Panicali</placeName> habent in feudum a Lunensi curia id quod habent in
+            <placeName ref="#Stadano">Stadano</placeName>.</p>
+        <p xml:id="A01_p_246">CCCCXXXV. Sententie de quibusdam terris in <placeName ref="#Stadano"
+          >Stadano</placeName>.</p>
+        <p xml:id="A01_p_247">CCCCXXXVI. Precepti facti procuratori <roleName>domini</roleName>
+          <persName ref="#BernardinusPanicali">Bernardini</persName> de quibusdam redditibus.</p>
+        <p xml:id="A01_p_248">CCCCXXXVII. De feudo constitutitionis<note n="dddd" place="foot" xml:id="A01_n_82">
+            constitutitionis: <emph>così nel testo per </emph>constitutionis.</note> seu pactis <placeName
+            ref="#Stadano">Stadani</placeName><note n="eeee" place="foot" xml:id="A01_n_83"> Stadani: ni <emph>scritto
+              nel rigo sovrastante, con segno di richiamo, per mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_249">CCCCXXXVIII. <name ref="#VezzanoFamilia" type="familia">Domini de <placeName
+              ref="#Vezzano">Veçano</placeName></name> donaverunt <placeName ref="#Vezzano">Veçanum</placeName> et
+          receperunt in feudum a Lunensi curia.</p>
+        <p xml:id="A01_p_250">CCCCXXXVIIII. Emptionis qui<supplied reason="omitted">n</supplied>te partis <placeName
+            ref="#Vezzano">Veçani</placeName>.</p>
+        <p xml:id="A01_p_251">CCCCXXXX. Carta de <placeName ref="#Isola2">Isola</placeName> ex donatione facta Lunensi
+          ecclesie.</p>
+        <p xml:id="A01_p_252">CCCCXLI<note n="ffff" place="foot" xml:id="A01_n_84">
+            <emph>A lato, di mano moderna</emph>: non.</note>. Sicut castrum de <placeName ref="#Isola2"
+            >Ysoola</placeName> teneatur<note n="gggg" place="foot" xml:id="A01_n_85"> teneatur: <emph>nel testo con
+              segno generico di abbreviazione superfluo.</emph></note> in feudum a Lunensi ecclesia et debet<note
+            n="hhhh" place="foot" xml:id="A01_n_86"> debet:<emph>lettura incerta</emph>.</note> exinde anuatim soldos II
+          pensionis. <cb n="2" rend="2col_layout" xml:id="A01_cb_012"/></p>
+        <p xml:id="A01_p_253">CCCCXLII. Concessionis et donationis <persName ref="#UgolinusBuctilione">Ugolini
+            Buctilioni</persName> et <persName ref="#RollandinusGuilielmiBlanci">Rolandini quondam domini Guilielmi
+              Bla<supplied reason="omitted">n</supplied>chi</persName> de eorum parte <placeName ref="#Vezzano"
+            >Veçani</placeName>.</p>
+        <p xml:id="A01_p_254">IIIIcXLIII. Sententie<note n="iiii" place="foot" xml:id="A01_n_87"> Sententie:
+              <emph>corretto su </emph>sententia.</note> arbitri inter dominum episcopum et <name ref="#VezzanoFamilia"
+            type="familia">dominos de <placeName ref="#Vezzano">Veçano</placeName></name>.</p>
+        <p xml:id="A01_p_255">IIIIc XLIIII. Emptionis duorum stariorum frumenti emptis<note n="jjjj" place="foot"
+            xml:id="A01_n_88"> emptis: <emph>così nel testo per </emph>empti.</note> a <name ref="#VezzanoFamilia"
+            type="familia">dominis de <placeName ref="#Vezzano">Veçano</placeName></name>, que dominus episcopus eis
+          dederat cambium.</p>
+        <p xml:id="A01_p_256">IIIIc XLV. Unius libre olei ficti, quod reddit <persName ref="#MercadanteRicomanni"
+            >Mercadans Ricomanni</persName> de <placeName ref="#Prato">Prato</placeName>.</p>
+        <p xml:id="A01_p_257">IIIIc XLVI<note n="kkkk" place="foot" xml:id="A01_n_89">
+            <emph>A lato, di mano moderna</emph>: non.</note>. Concessionis a domino <persName
+            ref="#GuililemusMalaspina">Guilielmo, <roleName>marchione</roleName> Malaspina</persName>, de sua parte
+            <placeName ref="#Vezzano">Veçani</placeName>, <placeName ref="#Carpena">Carpine</placeName> et <placeName
+            ref="#Ponzano">Ponçani</placeName> et in quibusdam aliis terris.</p>
+        <p xml:id="A01_p_258">IIIIcXLVII. Terrarum locatarum <persName ref="#VivaldusLamberti">Vivaldo</persName> et
+            <persName ref="#CunradusLamberti">Cu<supplied reason="omitted">n</supplied>rado</persName> fratribus de
+            <placeName ref="#Vezzano">Veçano</placeName> in feudum.</p>
+        <p xml:id="A01_p_259">IIIIcXLVIII. Fidelium et hominum de <placeName ref="#Vezzano">Veçano</placeName> et
+            dominos<note n="llll" place="foot" xml:id="A01_n_90"> dominos: <emph>così nel testo.</emph></note>. </p>
+        <p xml:id="A01_p_260">IIIIcXLVIIII. Vassallorum et hominum de <placeName ref="#Vezzano">Veçano</placeName>.</p>
+        <p xml:id="A01_p_261">IIIIcL. Dotis <persName ref="#Gisla">Guisle</persName>, uxoris <persName
+            ref="#IacobinusBonapartisnot">IIacopini de <placeName ref="#Santo_Stefano">Sancto
+            Stephano</placeName></persName><note n="mmmm" place="foot" xml:id="A01_n_91"> Stephano: <emph>scritto nel
+              rigo sovrastante, con segno di richiamo, per mantenere l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_262">IIIIcLI. Refutationis <persName ref="#GislaVivaldi">Guisle</persName>
+          <persName ref="#AldobrandinusVivaldi">Aldebrandino Lanberti</persName> de <placeName ref="#Vezzano"
+            >Veçano</placeName> de sua parte poderis.</p>
+        <p xml:id="A01_p_263">IIIIcLII. Terre locate ad laborandum <persName ref="#CacciaguerraBucciari"
+            >Cacciaguerre</persName>.</p>
+        <p xml:id="A01_p_264">IIIIcLIII. Unius starii frumenti et VIe partis homagii in quibusdam de <placeName
+            ref="#Albiano">Albiano</placeName> enpte a <roleName>domino</roleName>
+          <persName ref="#RaimundinusVezano">Ramundino de <placeName ref="#Vezzano">Veçano</placeName></persName>.</p>
+        <p xml:id="A01_p_265">IIIIcLIIII. Possessionis currium<note n="nnnn" place="foot" xml:id="A01_n_92"> currium:
+              <emph>così nel testo per </emph>turrium.</note> et domus <persName ref="#CunradusLamberti">Conradi olim
+            Lamberti</persName> de <placeName ref="#Vezzano">Veçano</placeName>.</p>
+        <p xml:id="A01_p_266">IIIIcLV. Stariorum IIII<hi rend="superscript">or</hi> frumenti, quod reddit <persName
+            ref="#GuidoTroppini">Guido de <placeName ref="#Vezzano">Veçano</placeName></persName> de
+              <choice><abbr></abbr><expan>Fs<ex>***</ex>sq</expan></choice><note n="oooo" place="foot" xml:id="A01_n_93">
+            <emph>Lettura incerta; nel documento 416 – CCCCLV</emph> Guidoni de Vezano quondam Troppini.</note> et est
+          vasallus de loco de <placeName ref="#Porreto">Poretulo</placeName>.</p>
+        <p xml:id="A01_p_267">IIIIcLVI<note n="pppp" place="foot" xml:id="A01_n_94">
+            <emph>A lato, di mano moderna</emph>: non.</note>. Concessionis et donationis castrorum <placeName
+            ref="#Ponzano">Po<supplied reason="omitted">n</supplied>çani</placeName>, <placeName ref="#Vesigna"
+            >Vesigne</placeName> et aliorum<note n="qqqq" place="foot" xml:id="A01_n_95"> aliorum: <emph>segue depennato
+            </emph>et aliorum.</note> a ma<supplied reason="omitted">r</supplied>chio<supplied reason="omitted"
+            >n</supplied>ibus facte.</p>
+        <p xml:id="A01_p_268">IIIIcLVII. Vasallorum de <placeName ref="#Vezzano">Veçano</placeName>.</p>
+        <p xml:id="A01_p_269">IIIIcLVIII. Enptionis unius petie terre ab <persName ref="#GuiçolinusAlamanni">Uicolino
+            Alamanni</persName> de <placeName ref="#Vezzano">Veçanno</placeName>.</p>
+        <p xml:id="A01_p_270">IIIIcLVIIII. Unius libre olei ficti, quod reddit <persName ref="#GuiçolinusAlamanni"
+            >Guiçolinus</persName> suprascriptus de dicta terra<note n="rrrr" place="foot" xml:id="A01_n_96">
+            suprascriptus de dicta terra: <emph>scritto nel rigo sovrastante, con segno di richiamo, per mantenere
+              l’allineamento del testo.</emph></note>.</p>
+        <pb n="4r" xml:id="fol_004r"/>
+        <cb n="1" rend="2col_layout" xml:id="A01_cb_013"/>
+        <p xml:id="A01_p_271">IIIIcLX. Emptionis III petiarum terrarum a <persName ref="#BonalbergusAicardiniStabia"
+            >Bonabergo Aycardini</persName> de <placeName ref="#Vezzano">Veçano</placeName>. </p>
+        <p xml:id="A01_p_272">IIIIcLXI. Unius starii frumenti ficti, quod reddit <persName
+            ref="#BonalbergusAicardiniStabia">Bonabergus</persName> suprascriptus ex dictis terris.</p>
+        <p xml:id="A01_p_273">IIIIcLXII. Albitrii inter dominum episcopum et marchiones, ex una parte, et <name
+            ref="#VezzanoFamilia" type="familia">dominos de <placeName ref="#Vezzano">Veçano</placeName></name>, ex
+          altera.</p>
+        <p xml:id="A01_p_274">IIIIcLXIII. Requisitionis facte <name ref="#VezzanoFamilia" type="familia">dominis de
+              <placeName ref="#Vezzano">Veçano</placeName></name>.</p>
+        <p xml:id="A01_p_275">IIIIcLXIIII. Quorumdam vassallorum de <placeName ref="#Vezzano">Veçano</placeName>.</p>
+        <p xml:id="A01_p_276">IIIIcLXV. Ca<supplied reason="omitted">m</supplied>bium cum <roleName>domino</roleName>
+          <persName ref="#RaimundinusVezano">Ramundino</persName> et patre et fratre de terra in <placeName
+            ref="#Vezzano">Veçano</placeName> cum II iugeribus in Insula de <placeName ref="#Ameglia">Amelia</placeName>
+          et sicut tenebant in feudum.</p>
+        <p xml:id="A01_p_277">IIIIcLXVI. Denuntiationis castaldis de <placeName ref="#Vezzano">Veçano</placeName>.</p>
+        <p xml:id="A01_p_278">IIIIcLXVII. Feudi dati Comforto in <placeName ref="#Guerceto">Guerceto</placeName> de
+            <placeName ref="#Bolano">Bolano</placeName> et alibili<note n="ssss" place="foot" xml:id="A01_n_97">
+            alilibi: <emph>così nel testo per </emph>alibi.</note>.</p>
+        <p xml:id="A01_p_279">IIIIcLXVIII. Feudi dati <persName ref="#ConfortusMadnot">Comforti</persName><note n="tttt"
+            place="foot" xml:id="A01_n_98"> Comforti: <emph>così nel testo per </emph>Comforto.</note> in <placeName
+            ref="#Montebello">Montebello</placeName>.</p>
+        <p xml:id="A01_p_280">IIIIcLXVIIII. Locationis facte <persName ref="#ConfortusMadnot">Conforto</persName>
+          suprascripto de quodam podere ad pensionem <measure quantity="12" type="imperiales" unit="denarius">denariorum
+            XII</measure>.</p>
+        <p xml:id="A01_p_281">IIIIcLXX. Locationis suprascripto <persName ref="#ConfortusMadnot">Comforto</persName> de
+          podere de Valporcata.</p>
+        <p xml:id="A01_p_282">IIIIcLXXI. De prop<supplied reason="omitted">r</supplied>ietate <placeName ref="#Tivegna"
+            >Tivegne</placeName>.</p>
+        <p xml:id="A01_p_283">IIIIcLXXII. De privatione et tenuta contra <name ref="#AdelbertiFamilia" type="familia"
+            >Aldebertos</name>.</p>
+        <p xml:id="A01_p_284">IIIIcLXXIII. Testes contra <persName ref="#Aldeprandusvic2">Aldebrandum
+              <roleName>vicedominum</roleName></persName> pro <placeName ref="#Tivegna">Tivegna</placeName>.</p>
+        <p xml:id="A01_p_285">IIIIcLXXIIII. <choice><abbr></abbr><expan>Memorial<ex>is</ex></expan></choice> reddituum de <placeName ref="#Bracellis"
+            >Bracellis</placeName>.</p>
+        <p xml:id="A01_p_286">IIIIcLXXV. Designationis reddituum de <placeName ref="#Tivegna">Tivegna</placeName>.</p>
+        <p xml:id="A01_p_287">IIIIcLXXVI. Reddituum pro porcatis de <placeName ref="#Tivegna">Tivegna</placeName>.</p>
+        <p xml:id="A01_p_288">IIIIcLXXVII. Designationis reddituum de <placeName ref="#Bracellis"
+          >Bracellis</placeName>.</p>
+        <p xml:id="A01_p_289">IIIIcLXXVIII. Item de eadem.</p>
+        <p xml:id="A01_p_290">IIIIcLXXVIIII. Iuramentum fidelitatis <name ref="#AdelbertiFamilia" type="familia"
+            >Aldebertorum</name>.</p>
+        <p xml:id="A01_p_291">IIIIcLXXX. Procurationis ad concedendum <placeName ref="#Tivegna">Tivegnam</placeName> in
+          feudum <roleName>domino</roleName>
+          <persName ref="#NicholausFlisco">Nicolao de Frisco</persName><note n="uuuu" place="foot" xml:id="A01_n_99">
+            Nicolao de Frisco: lao de Frisco <emph>scritto nel rigo sovrastante, con segno di richiamo, per mantenere
+              l’allineamento del testo.</emph></note>.</p>
+        <p xml:id="A01_p_300">IIIIcLXXXI. Absolutionis <roleName>domini</roleName>
+          <persName ref="#NicholausFlisco">Nicholai de Frisco</persName> ab excomunicatione.</p>
+        <p xml:id="A01_p_301">IIIIcLXXXII. Procurationis <roleName>domini</roleName>
+          <persName ref="#NicholausFlisco">Nicholai</persName>.</p>
+        <p xml:id="A01_p_302">IIIIcLXXXIII. Solutionis<note n="vvvv" place="foot" xml:id="A01_n_100"> Solutionis:
+              <emph>segue, espunto,</emph> fec <emph>con segno di abbreviazione.</emph></note> facte procuratori
+            <roleName>domini</roleName>
+          <persName ref="#NicholausFlisco">Nicholai</persName>.</p>
+        <p xml:id="A01_p_303">IIIIcLXXXIIII. Protestationis domini episcopi<note n="wwww" place="foot"
+            xml:id="A01_n_101"> episcopi: <emph>segue </emph>per <emph>espunto.</emph></note> pro terris episcopatus,
+          quas tenet <orgName ref="#Genova_comune">comune <placeName ref="#Ianua"/>Ianue</orgName><note n="xxxx"
+            place="foot" xml:id="A01_n_102"> Ianue: <emph>scritto nel rigo sovrastante, con segno di richiamo, per
+              mantenere l’allineamento del testo.</emph></note>.</p>
+        <cb n="2" rend="2col_layout" xml:id="A01_cb_014"/>
+        <p xml:id="A01_p_304">IIIIcLXXXV. Licterarum domini pape pro <roleName>domino</roleName>
+          <persName ref="#NicholausFlisco">Nicholao</persName>.</p>
+        <p xml:id="A01_p_305">IIIIcLXXXVI. Procurationis domini episcopi pro quibusdam castris dandis
+            <roleName>domino</roleName>
+          <persName ref="#NicholausFlisco">Nicholao</persName><note n="yyyy" place="foot" xml:id="A01_n_103"> Nicholao:
+            cholao <emph>scritto nel rigo sovrastante, con segno di richiamo, per mantenere l’allineamento del
+              testo.</emph></note>.</p>
+        <p xml:id="A01_p_306">IIIIcLXXXVII. Licterarum pape pro <roleName>domino</roleName>
+          <persName ref="#NicholausFlisco">Nicholao</persName>.</p>
+        <p xml:id="A01_p_307">IIIIcLXXXVIII. Bona carta de <placeName ref="#Trebiano">Trebiano</placeName>.</p>
+        <p xml:id="A01_p_308">IIIIcLXXXVIIII. Item de <placeName ref="#Trebiano">Trebiano</placeName>.</p>
+        <p xml:id="A01_p_309">IIIIcLXXXX. Licterarum missarum capitaneis Ianue a domino episcopo.</p>
+        <p xml:id="A01_p_310">IIIIcLXXXXI. Breve recordationis<note n="zzzz" place="foot" xml:id="A01_n_104">
+            recordationis: t <emph>corretta su</emph> d.</note> de his que castellani de <placeName ref="#Trebiano"
+            >Tribiano</placeName> confessi fuerunt se tenere a Lunensi curia. </p>
+        <p xml:id="A01_p_312">IIIIcLXXXXII. Sententie late inter dominos de <placeName ref="#Trebiano"
+            >Tribiano</placeName>.</p>
+        <p xml:id="A01_p_313">IIIIcLXXXXIII. Sententie <persName ref="#BandinusGaitani">Bandini Gaitani</persName> inter
+          dominum episcopum, ex una parte, et dominos de <placeName ref="#Trebiano">Tribiano</placeName> et consules, ex
+          altera.</p>
+        <p xml:id="A01_p_314">IIIIcLXXXXIIII. Pactorum inter dominum episcopum et illos de <placeName ref="#Trebiano"
+            >Tribiano</placeName> super rellevagiis faciendis.</p>
+        <p xml:id="A01_p_315">IIIIcLXXXXV. Testamentum <roleName>domini</roleName>
+          <persName ref="#GuidoMalapars">Guidonis Malapartis</persName> et confessionis feudi sue partis <placeName
+            ref="#Trebiano">Tribiani</placeName>.</p>
+        <p xml:id="A01_p_316">IIIIcLXXXXVI. Emptionis a domina <persName ref="#GarfagninaFacii">Garfagnina</persName>
+          pro filiis condam <persName ref="#FaciusTrebiano">Facii de <placeName ref="#Trebiano"
+            >Tribiano</placeName></persName>, olim <roleName>domini</roleName>
+          <persName ref="#PaganellusGuidoni">Paganelli</persName>, fidelium et vasallorum suorum.</p>
+        <p xml:id="A01_p_317">IIIIcLXXXXVII. Iurisditionis domini episcopi de emptione <placeName ref="#Trebiano"
+            >Tribiani</placeName> et iurium que habet Lunensis curia in <placeName ref="#Trebiano"
+          >Tribiano</placeName>.</p>
+        <p xml:id="A01_p_318">IIIIcLXXXXVIII. Pensionis <persName ref="#GibertinusMabilila">Guibertini de
+            Mabilia</persName> in <placeName ref="#Fosdinovo">Fesdenova</placeName>.</p>
+        <p xml:id="A01_p_319">IIIIcLXXXXVIIII. De his que<note n="aaaaa" place="foot" xml:id="A01_n_105"> De his que:
+              <emph>scritto nel rigo sovrastante.</emph></note> homines de <placeName ref="#Pulica">Pulica</placeName>
+            deb<supplied reason="omitted">ent</supplied> facere illis dominis de <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName>.</p>
+        <p xml:id="A01_p_320">D. Venditionis <persName ref="#GaforiusFaucenova">Gaforii</persName> et <persName
+            ref="#MontaninusFaucenova">Mo<supplied reason="omitted">n</supplied>tanini</persName>, <name
+            ref="#FosdenovaFamilia" type="familia">dominorum</name> de <placeName ref="#Fosdinovo"
+          >Fosdenova</placeName>, de omnibus que habebant in <placeName ref="#Fosdinovo">Fosdenova</placeName> et
+          dominus episcopus reddidit eis in feudum, retinendo in se casamentis, terris et casamentis<note n="bbbbb"
+            place="foot" xml:id="A01_n_106"> retinendo in se casamentis, terris et casamentis: <emph>così nel
+              testo.</emph></note>.</p>
+        <p xml:id="A01_p_321">DI. Licterarum inperatoris super possessione reservata episcopo pro turribus quos<note
+            n="ccccc" place="foot" xml:id="A01_n_107"> quos: <emph>così nel testo per </emph>quas.</note> tenebat in
+            <placeName ref="#Vezzano">Veçano</placeName>, <placeName ref="#Ponzanello">Po<supplied reason="omitted"
+              >n</supplied>çanello</placeName> et <placeName ref="#Fosdinovo">Fosdenova</placeName>. </p>
+        <p xml:id="A01_p_322">DII. <persName ref="#PetrusBernardiniHerberia">Petri de Herberia</persName> in podio de
+            <placeName ref="#MonteIanni">Munteçiani</placeName><note n="ddddd" place="foot" xml:id="A01_n_108"> Petri de
+            Herberia in podio de Munteçiani: <emph>scritto in corpo più minuto, di seguito alla voce
+            precedente.</emph></note>.</p>
+        <p xml:id="A01_p_323">DIII. <measure quantity="18" type="imperiales" unit="denarius">Denariorum XVIII
+          pensionis</measure> in <placeName ref="#Riolo">Riolo</placeName> districtus <choice><abbr></abbr><expan><ex>***</ex></expan></choice><note
+            n="eeeee" place="foot" xml:id="A01_n_109"> Parola illeggibile.</note></p>
+        <pb n="4v" xml:id="fol_004v"/>
+        <cb n="1" rend="2col_layout" xml:id="A01_cb_015"/>
+        <p xml:id="A01_p_324">et <measure quantity="6" type="imperiales" unit="denarius">VI denariorum</measure> pro
+          amgaria et starii I ordei et <measure quantity="2" type="Mediolanenses" unit="denarius">denariorum II
+            Melanensium</measure>.</p>
+        <p xml:id="A01_p_325">DIIII. Cumpromissi inter dominum episcopum, ex una parte, et dominos de <placeName
+            ref="#Fosdinovo">Fosdenova</placeName>, ex altera, de podio et castro <placeName ref="#SanTerenzo">Sancti
+            Terentii</placeName>.</p>
+        <p xml:id="A01_p_326">DV. Emptionis stariorum IIII frumenti, ficti a <persName ref="#GerardusFrumentus">Gerardo
+              Frume<supplied reason="omitted">n</supplied>ti</persName> in <placeName ref="#Pulica"
+          >Pulica</placeName>.</p>
+        <p xml:id="A01_p_327">DVI. Emptionis<note n="fffff" place="foot" xml:id="A01_n_110"> Emptionis: <emph>nel testo
+              preceduto da </emph>in <emph>espunto</emph>.</note> III quartorum frumenti, ficti in <placeName
+            ref="#CastelnuovoMagra">Castronovo</placeName> a <persName ref="#RavanellusAlberti"
+          >Ravanello</persName>.</p>
+        <p xml:id="A01_p_328">DVII<note n="ggggg" place="foot" xml:id="A01_n_111">
+            <emph>A lato, di mano posteriore, con segno di richiamo</emph>: nota bene</note>. Difinitionis et sententie
+          et cessionis nemorum a dominis de <placeName ref="#Fosdinovo">Fosdenova</placeName> pro certo pretio.</p>
+        <p xml:id="A01_p_329">DVIII. De circulis deferendis ad curiam.</p>
+        <p xml:id="A01_p_330">DVIIII. Designationis nemorum et concessionis illis de villa de <placeName
+            ref="#CastelnuovoMagra">Castro Novo</placeName> pro suis domibus tantum.</p>
+        <p xml:id="A01_p_331">DX. Pactorum de <placeName ref="#MonteIanni">Monteçagni</placeName> inter dominum
+          episcopum et <name ref="#FosdenovaFamilia" type="familia">dominos</name> de <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName>. </p>
+        <p xml:id="A01_p_332">DXI<note n="hhhhh" place="foot" xml:id="A01_n_112">
+            <emph>A lato una linea di richiamo raggruppa le voci sino al n. </emph>DXIIII <emph>compreso, di mano
+              moderna è annotato </emph>Marciasio</note>. Co<supplied reason="omitted">n</supplied>fessionis feudi
+          tertie partis castri de <placeName ref="#Marciaso">Marçasio</placeName>.</p>
+
+        <p xml:id="A01_p_333">DXII. Sicut <roleName>dominus</roleName>
+          <persName ref="#SaladinusSaladini">Saladinus</persName> tenet in feudum terram de <placeName ref="#Plaça"
+            >Plaça</placeName> et sicut <persName ref="#SalvagiusMarciasio">Salvagius</persName> de <placeName
+            ref="#Marciaso">Marçasio</placeName> tenet in feudum illud de <placeName ref="#Popilliaco"
+            >Popigiaco</placeName>.</p>
+        <p xml:id="A01_p_334">DXIII. Feudum confirmatum <orgName ref="#Marciaso_comune">comuni de <placeName
+              ref="#Marciaso">Marçasio</placeName></orgName> nemorum datorum eis de novo in feudum.</p>
+        <p xml:id="A01_p_335">DXIIII. Confesionis feudi castri <placeName ref="#Marciaso">Marciasii</placeName> pro
+          parte <persName ref="#RollandinusAntoni">Rolandini</persName> et <persName ref="#GiliolusAntoni">Gilioli
+            fratrum et filiorum condam Antonii de<note n="iiiii" place="foot" xml:id="A01_n_113"> de: <emph>segue
+              </emph>m <emph>non depennato.</emph></note> Marchesello</persName>.</p>
+        <p xml:id="A01_p_336">DXV. Testes iurium de <placeName ref="#Marciaso">Marciasio</placeName> domini episcopi et
+          episcopatus ad futuram rei memoriam.</p>
+        <p xml:id="A01_p_337">DXVI<note n="jjjjj" place="foot" xml:id="A01_n_114">
+            <emph>A lato, di mano moderna: </emph>Brine.</note>. Datio et donatio facte per <name ref="#BurcioneFamilia"
+            type="familia">dominos de <placeName ref="#Burcione">Buçono</placeName>
+          </name>et <name ref="#BozanoFamilia" type="familia">de <placeName ref="#Buçano">Boçano</placeName></name>
+          <roleName>domino</roleName>
+          <persName ref="#A.EpLuni">A., <roleName>episcopo Lunensi</roleName></persName>, de podio quod dicitur
+            <placeName ref="#Castiglione">Castellone</placeName>, quod est de subtus <placeName ref="#Brina"
+            >Brinam</placeName> et edifficationis castri ibidem cum aliis certis conditionibus. </p>
+        <cb n="2" rend="2col_layout" xml:id="A01_cb_016"/>
+        <p xml:id="A01_p_338">DXVII. Donatio quam fecit <persName ref="#LombardellusPeregrini">Lumbardellus de
+              <placeName ref="#Burcione">Burçono</placeName> condam Peregrini</persName> domino <persName
+                ref="#PetrusEpLuni"><choice><abbr></abbr><expan>P<ex>etro</ex></expan></choice>, <roleName>Lunensi episcopo</roleName></persName>, de
+          parte sua castri <placeName ref="#Brina">Brine</placeName> et pertinentiarum<note n="kkkkk" place="foot"
+            xml:id="A01_n_115">
+            <emph>A fianco, nello spazio centrale tra le due colonne di testo, di mano posteriore: </emph>Brine.
+              <emph>Una linea di richiamo raggruppa le voci sino al n. </emph>DXXVI<emph> compreso.</emph></note>.</p>
+        <p xml:id="A01_p_339">DXVIII. Procurationis et sindicatus <roleName>domini episcopi </roleName><persName
+            ref="#HenricusEpLuni">Henrici</persName> Lunensis ad intrandum tenutam castri de <placeName ref="#Brina"
+            >Brina</placeName> et aliorum iurium que ibi habet et in pertinentiis ecclesia Lunensis.</p>
+        <p xml:id="A01_p_340">DXVIIII. Aceptio<supplied reason="omitted">nis</supplied> et corporalis possesionis castri
+          de <placeName ref="#Brina">Brina</placeName> et pertinentiarum eius.</p>
+        <p xml:id="A01_p_341">DXX. Donatio quam <persName ref="#BertolotusRollandini">Bertolottus</persName> et
+            <persName ref="#ParensRollandini">Parens, filii condam Rollandi</persName> de <placeName ref="#Stadano"
+            >Stadano</placeName>, fecerunt domino episcopo Lunensi de eorum parte castri <placeName ref="#Brina"
+            >Brine</placeName> et pertinentiarum eius.</p>
+        <p xml:id="A01_p_342">DXXI. Iuramentum quod fecerunt consules, consiliarii et homines de <placeName ref="#Brina"
+            >Brina</placeName> de sequendo et obediendo mandatis domini Lunensis episcopi et eius offitialium.</p>
+        <p xml:id="A01_p_343">DXXII. Iuramentum quod fecerunt consules, consiliarii et homines de <placeName
+            ref="#Brina">Brina</placeName> domino <persName ref="#PetrusHenrighinis">Petro de Henriginis</persName>,
+            <roleName>vicario domini episcopi</roleName>, de parendo eius mandatis et qualiter dominus episcopus posuit
+          ibi duos capitaneos.</p>
+        <p xml:id="A01_p_344">DXXIII. Conpromissum domini episcopi et <roleName>domini</roleName>
+          <persName ref="#Morruellusvic">Morroelli</persName> in dominum episcopum <placeName ref="#Sabina1"
+            >Sabinensem</placeName>.</p>
+        <p xml:id="A01_p_345">DXXIIII. Sententia lata per dominum episcopum <placeName ref="#Sabina1"
+            >Sabinensem</placeName> inter dominum episcopum et <roleName>dominum</roleName>
+          <persName ref="#Morruellusvic">Morroellum</persName>.</p>
+        <p xml:id="A01_p_346">DXXV. Fumantes de <placeName ref="#Brina">Brina</placeName><note n="lllll" place="foot"
+            xml:id="A01_n_116"> Brina: <emph>segue </emph>dni <emph>espunto.</emph></note> dati
+            <roleName>domino</roleName>
+          <persName ref="#PetrusHenrighinis">Petro de Henriginis</persName>, <roleName>vicario domini
+            episcopi</roleName>.</p>
+        <p xml:id="A01_p_347">DXXVI. Alegationes et iura et dicta sapientum super eo quod castrum de <placeName
+            ref="#Brina">Brina</placeName> et eius pertinentie sint<note n="mmmmm" place="foot" xml:id="A01_n_117">
+            sint: <emph>così nel testo con segno di abbreviazione superfluo.</emph></note> domini episcopi et
+            ecclesia<note n="nnnnn" place="foot" xml:id="A01_n_118"> ecclesia: <emph>così nel testo.</emph></note>
+          Lunensis.</p>
+        <p xml:id="A01_p_348">DXXVII<note n="ooooo" place="foot" xml:id="A01_n_119">
+            <emph>I numeri</emph> DXXVII, DXXVIII, DXXXI, DXXXII, DXXXIII, DXXXVI, DXXXVIIII, DXXXX <emph>sono
+              contrassegnati da un segno di croce a margine per raggruppare le rubriche riguardanti il monastero di San
+              Caprasio di Aulla.</emph></note>. Testes ad ecternam rei memoriam producti super iuribus que Lunensis
+          episcopus et ecclesia habe<supplied reason="omitted">n</supplied>t in <orgName ref="#Aulla_S_Caprasio"
+            >monasterio de <placeName ref="#Aulla">Avula</placeName></orgName>. </p>
+        <p xml:id="A01_p_349">DXXVIII. Privilegium <persName ref="#InnocentiuspontifexIII">Innocentii
+              <roleName>pape</roleName> III </persName>quo concessum est episcopo Lunensi <orgName
+            ref="#Aulla_S_Caprasio">monasterium de <placeName ref="#Aulla">Avula</placeName></orgName> cum suis
+          pertinentiis.</p>
+        <pb n="5r" xml:id="fol_005r"/>
+        <cb n="1" rend="2col_layout" xml:id="A01_cb_017"/>
+        <p xml:id="A01_p_350">DXXVIIII. Sen<supplied reason="omitted">ten</supplied>tia data inter dominum episcopum
+          Lunensem et <name ref="#MalaspinaFamilia" type="familia">marchiones Malaspine</name> super castris de
+            <placeName ref="#Zovagallo">Iuvagallo</placeName> et <placeName ref="#Calisi">Calesa</placeName> et
+          aliis.</p>
+        <p xml:id="A01_p_351">DXXX. Privilegium <persName ref="#Fredericus_imperator_I">Frederici
+              <roleName>imperatoris</roleName></persName> concessum <roleName>episcopo</roleName>
+          <persName ref="#PetrusEpLuni">Petro</persName> super confirmatione omnium terrarum, locorum, honorum,
+          iurisditionum et iurium Lunensis ecclesie et episcopatus.</p>
+        <p xml:id="A01_p_352">DXXXI. Testes ad eternam rei memoriam qualiter <orgName ref="#Aulla_S_Caprasio"
+            >monasterium de <placeName ref="#Aulla">Avula</placeName></orgName> pertinet ad episcopatum Lunensem.</p>
+        <p xml:id="A01_p_353">DXXXII. Sententia lata inter episcopum Lunensem et abbatem de <placeName ref="#Aulla"
+            >Avula</placeName> super facto ipsis <orgName ref="#Aulla_S_Caprasio">mamasterii</orgName><note n="ppppp"
+            place="foot" xml:id="A01_n_120"> ipsis mamasterii: <emph>così nel testo.</emph></note> Avulensis.</p>
+        <p xml:id="A01_p_354">DXXXIII. Instrumentum cuiusdam pactionis inter episcopum Lunensem et cums<supplied
+            reason="omitted">ul</supplied>es Avule<supplied reason="omitted">n</supplied>ses super <orgName
+            ref="#Aulla_S_Caprasio">monasterio de <placeName ref="#Aulla">Avula</placeName></orgName>.</p>
+        <p xml:id="A01_p_355">DXXXIIII. Qualiter abbas de <placeName ref="#Linari">Linario</placeName> accepit
+          benedictionem ab episcopo Lunensi et ei iuravit fidelitatem.</p>
+        <p xml:id="A01_p_356">DXXXV. Venditio facta per <persName ref="#TedisiusMaginuccii">Tedisium de <placeName
+              ref="#Bigliolo">Biliolo</placeName>, filium condam Magnitucii</persName>, episcopo Lunensi de <placeName
+            ref="#Clausum">Crauso</placeName> de mercato subtano et de <placeName ref="#Cuscugnano"
+            >Cusongnano</placeName>.</p>
+        <p xml:id="A01_p_357">DXXXVI. Petitio sindici de <placeName ref="#Aulla">Avula</placeName> ut episcopus faceret
+          quod monasterium et possessionem haberet de dictas<note n="qqqqq" place="foot" xml:id="A01_n_121"> dictas:
+              <emph>così nel testo per </emph>dictis.</note> capitulis.</p>
+        <p xml:id="A01_p_358">DXXXVII. Lictere papales super comutatione quarumdam ecclesiarum <orgName
+            ref="#Aulla_S_Caprasio">monasterii de <placeName ref="#Aulla">Avula</placeName></orgName>.</p>
+        <p xml:id="A01_p_359">DXXXVIII. Concessio facta de <orgName ref="#Pontremoli_S_Alessandro">ecclesia Sancti
+            Alexandri de <placeName ref="#Pontremoli">Puntremulo</placeName></orgName> sub <orgName
+            ref="#Urceola_S_Cassiano">plebe de <placeName ref="#Saleceto">Saleceto</placeName></orgName>.</p>
+        <p xml:id="A01_p_360">DXXXVIIII. Cumpromisum factum in <persName ref="#TruffaCastello">Turfam<note n="rrrrr"
+              place="foot" xml:id="A01_n_122"> Turfam: Truffa<emph>in 500-DXXXVIIII.</emph></note> de
+            Castello</persName> et alios per episcopum et per marchiones super <placeName ref="#Aulla"
+          >Avula</placeName>.</p>
+        <p xml:id="A01_p_361">DXXXX. Sententia data per <persName ref="#TruffaCastello">Turfam</persName><note n="sssss"
+            place="foot" xml:id="A01_n_123"> Turfam: Truffa<emph>in 501-DXXXX.</emph></note>et alios inter episcopum et
+          marchiones super iuribus<note n="ttttt" place="foot" xml:id="A01_n_124"> iuribus: <emph>la seconda</emph>
+              i<emph> corretta su </emph>e.</note> et rationibus et aliis pluribus specta<supplied reason="omitted"
+            >n</supplied>tibus ad ipsas partes.</p>
+        <p xml:id="A01_p_362">DXXXXI. Qualiter <orgName ref="#Corvo_S_Croce">monasterium de <placeName ref="#Corvo"
+              >Corvo</placeName></orgName> solvere annuatim domino episcopo certum censum ex concessione quadam dicti
+          loci.</p>
+        <cb n="2" rend="2col_layout" xml:id="A01_cb_018"/>
+        <p xml:id="A01_p_363">DXLII. Qualiter <roleName>episcopus</roleName>
+          <persName ref="#PipEpLuni">Pipinus</persName> donavit locum ad edificandum <orgName ref="#Corvo_S_Croce"
+            >Corvum</orgName> certis modis.</p>
+        <p xml:id="A01_p_364">DXLIII. Protestatio quedam facta episcopo Lunensi per simdicum de <orgName
+            ref="#Corvo_S_Croce">Corvo</orgName> super cartis quibusdam.</p>
+        <p xml:id="A01_p_365">DXLIIII. Responsiones quas fecit <persName ref="#AttoCasellis">Atto de Casellis</persName>
+          <roleName>domino</roleName>
+          <persName ref="#Symon_prior">Simoni</persName>, <roleName>priori</roleName> de <orgName ref="#Corvo_S_Croce"
+            >Corvo</orgName>.</p>
+        <p xml:id="A01_p_366">DXLV. Protestatio facta per si<supplied reason="omitted">n</supplied>dicum episcopatus
+          Lunensis coram archiepiscopo <placeName ref="#Pisa">Pisano</placeName> occasione <orgName
+            ref="#Pisa_S_Michele_Orticaria">monasterii Sancti Michaelis de <placeName ref="#Orticaria"
+              >Orticaria</placeName></orgName>.</p>
+        <p xml:id="A01_p_367">DXLVI. Qualiter episcopus Lunensis et eius sindicus petierunt absolvi a quadam
+          excomunicatione et fuerunt absoluti.</p>
+        <p xml:id="A01_p_368">DXLVII. Qualiter<note n="uuuuu" place="foot" xml:id="A01_n_125"> Qualiter: <emph>segue
+            </emph>d <emph>depennato.</emph></note> si<supplied reason="omitted">n</supplied>dicus Lunensis episcopi
+          protestatus fuit coram delegato pape inter dictum episcopum et abbatem <orgName
+            ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName ref="#Orticaria"
+            >Orticaria</placeName>.</orgName></p>
+        <p xml:id="A01_p_369">DXLVIII. Appellatio episcopi Lunensis ad papam a gravamine sibi illato per delegatum sive
+          subdelegatum pape inter se et <orgName ref="#Pisa_S_Michele_Orticaria">monasterium de <placeName
+              ref="#Orticaria">Orticaria</placeName></orgName>.</p>
+        <p xml:id="A01_p_370">DXLVIIII. Item appellatio super eisdem<note n="vvvvv" place="foot" xml:id="A01_n_126">
+            eisdem: <emph>nel testo </emph>exisdem <emph>con</emph> x <emph>espunta</emph>.</note>.</p>
+        <p xml:id="A01_p_371">DL. Protestatio facta per procuratorem episcopi, qui volebat ponere causam vertentem inter
+          se <supplied reason="omitted">et</supplied>
+          <orgName ref="#Pisa_S_Michele_Orticaria">monasterium de <placeName ref="#Orticaria"
+            >Orticaria</placeName></orgName> in dominum papam.</p>
+        <p xml:id="A01_p_372">DLI. Appellatio iterum a quadam sententia dicti subdelegati.</p>
+        <p xml:id="A01_p_373">DLII. Quedam positiones et acta cause inter episcopum Lunensem et <orgName
+            ref="#Pisa_S_Michele_Orticaria">monasterium de <placeName ref="#Orticaria"
+          >Orticaria</placeName></orgName>.</p>
+        <p xml:id="A01_p_374">DLIII. Qualiter episcopus Lunensis obtulit ydoneas securitates delegatiis et subdelegatiis
+          a sede apostolica detis<note n="wwwww" place="foot" xml:id="A01_n_127"> detis:<emph>così nel testo per</emph>
+            datis.</note> sibi et <orgName ref="#Pisa_S_Michele_Orticaria">monasterio de <placeName ref="#Orticaria"
+              >Orticaria</placeName></orgName> et loco <orgName ref="#Corvo_S_Croce">Sancte Crucis de
+          Corbo</orgName>.</p>
+        <p xml:id="A01_p_375">DLIIII. Compositio inter dominum episcopum et <orgName ref="#Corvo_S_Croce">monasterium de
+              <placeName ref="#Corvo">Corbo</placeName></orgName>.</p>
+        <p xml:id="A01_p_376">DLV. Positiones et alia data et allegata in causa vertente inter dominum episcopum et
+            <orgName ref="#Corvo_S_Croce">monasterium de <placeName ref="#Corvo">Corbo</placeName></orgName>.</p>
+        <p xml:id="A01_p_377">DLVI. Instrumentum qualiter <persName ref="#FaciusLoysii">Facius condam Laysii</persName>
+          de <placeName ref="#Carpena">Carpena</placeName> tenet domum de <placeName ref="#Falcinello"
+            >Falcinello</placeName> et plura alia in feudum ab episcopatu. </p>
+      </div>
+    </body>
+    </text>
+</TEI>
