@@ -7106,6 +7106,9 @@ Autore/i: -->
             <settlement type="locus_curtis">Carraria / Cararia / Kararia / Careria</settlement>
             <placeName type="new">Carrara</placeName>
             <district type="comune">Carrara</district>
+            <location>
+              <geo>44.060122, 10.055262</geo>
+            </location>
           </place>
           <place xml:id="Carrareseterra">
             <settlement type="terra">terra Carrarese</settlement>
@@ -11111,6 +11114,9 @@ Autore/i: -->
             <settlement type="curtis_burgus" subtype="burgus">Sarzana / Sarzano</settlement>
             <placeName type="new">Sarzana</placeName>
             <district type="comune">Sarzana</district>
+            <location>
+              <geo>44.112520, 9.959700</geo>
+            </location>
           </place>
           <place xml:id="Sarzanello">
             <settlement type="castrum_locus">Castrum Sarzane / Sarzanello</settlement>
@@ -11387,6 +11393,9 @@ Autore/i: -->
             <settlement type="curtis_castrum">Soleria / Soleira / Solaria</settlement>
             <placeName type="new">Soliera</placeName>
             <district type="comune">Fivizzano</district>
+            <location>
+              <geo>44.239390, 10.127040</geo>
+            </location>
           </place>
           <place xml:id="Solignana">
             <settlement type="locus">Solignana</settlement>
