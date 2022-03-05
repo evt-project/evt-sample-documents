@@ -75,7 +75,7 @@
 
     <body>
       <div xml:id="DXXVI_div">
-        <pb n="390v" xml:id="fol_390v"/>
+        <pb n="390v" facs="#graphic_390v" xml:id="fol_390v"/>
         <p n="1" xml:id="DXXVI_p_001"> Ista sunt iura et rationes que et quas venerabilis pater <persName
             ref="#Henricus"><roleName>dominus</roleName> Henricus, <roleName>Dei gratia Lunensis
             episcopus</roleName></persName>, pro suo episcopatu sive ecclesia Lunensi, dicit se habere et habere debere
@@ -189,7 +189,7 @@
           iurisdictionis et <orgName ref="#Lunigiana_vicaria">vicar<supplied reason="omitted">i</supplied>e</orgName> et
           montis sive podii qui dicitur <placeName ref="#Castiglione">Castilione</placeName>, in qua possessione dicit
           se fuisse et stetisse et suos vicarios, et officiales pro eorum, pro sua curia et super hiis introducit quedam
-            <pb n="391r" xml:id="fol_391r"/> sua instrumenta, privilegia, iura et allegationes. </p>
+          <pb n="391r" facs="#graphic_391r" xml:id="fol_391r"/> sua instrumenta, privilegia, iura et allegationes. </p>
         <p n="10" xml:id="DXXVI_p_010">Ex adverso autem dicunt dictus <persName ref="#Morruellusvic"
               ><roleName>dominus</roleName> Monroellus</persName> et fratres et nepotes eius quod ipsa iurisdictio et
           ipse locus et eius districtus et homines non pertinet nec pertinent nec pertinere debent ad ipsum episcopum
@@ -297,7 +297,7 @@
             rend="pre(') post(')">Constitutio hec innovat constitutionem que loquitur de prescriptione centum
             annorum</quote>
           <note n="ff" place="foot" xml:id="DXXVI_n_032"> Auth. 106 (Coll. VI.7) = Nov. 111.</note>
-          <pb n="391v" xml:id="fol_391v"/> et non obstante confessione quondam domini Guilielmi, episcopi Lunensis, et
+          <pb n="391v" facs="#graphic_391v" xml:id="fol_391v"/> et non obstante confessione quondam domini Guilielmi, episcopi Lunensis, et
           promissione facta de non impediendo homines de Brina a duobus annis in antea, quia prelatus non potuit
           confiteri in preiudicium ecclesie neque promittere de non requirendo eos post duos annos, quia non potuit
           ecclesie sue preiudicare, maxime sine consensu capituli, quia tunc prelatus et tutor habentur loco domini cum
@@ -420,7 +420,7 @@
             Monroellus</persName> vel alter emisse dicitur dictum castrum vel eius aliquam portionem tenebant in feudum
           a Lunensi ecclesia totum vel etiam partem feudi in quamquam alienaverint, statim id quod alienatum dicetur vel
           constat libere et absolute feudum ad dominum sine eius voluntate alienatum dicitur, reverti debet <pb n="392r"
-            xml:id="fol_392r"/> emptore feudi esse solum venditorem, si bona fide emit ad precium regressum habente ut
+            facs="#graphic_392r" xml:id="fol_392r"/> emptore feudi esse solum venditorem, si bona fide emit ad precium regressum habente ut
           hoc a parte cavetur prius allegato titulo <quote rend="pre(') post(')">de prohibita feudorum alienatione per
             <app>
               <lem>Fridericum</lem>

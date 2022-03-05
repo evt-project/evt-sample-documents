@@ -19424,6 +19424,62 @@ Autore/i: -->
 
   </teiHeader>
 
+  <facsimile>
+
+    <surface xml:id="surf_001r" corresp="#fol_001r">
+      <graphic height="3585px" url="fol_001r.jpg" width="2400px" xml:id="graphic_001r"/>
+    </surface>
+
+    <surface xml:id="surf_001v" corresp="#fol_001v">
+      <graphic height="3585px" url="fol_001v.jpg" width="2400px" xml:id="graphic_001v"/>
+    </surface>
+    
+    <surface xml:id="surf_002r" corresp="#fol_002r">
+      <graphic height="3585px" url="fol_002r.jpg" width="2400px" xml:id="graphic_002r"/>
+    </surface>
+    
+    <surface xml:id="surf_002v" corresp="#fol_002v">
+      <graphic height="3585px" url="fol_002v.jpg" width="2400px" xml:id="graphic_002v"/>
+    </surface>
+    
+    <surface xml:id="surf_003r" corresp="#fol_003r">
+      <graphic height="3585px" url="fol_003r.jpg" width="2400px" xml:id="graphic_003r"/>
+    </surface>
+    
+    <surface xml:id="surf_003v" corresp="#fol_003v">
+      <graphic height="3585px" url="fol_003v.jpg" width="2400px" xml:id="graphic_003v"/>
+    </surface>
+    
+    <surface xml:id="surf_004r" corresp="#fol_004r">
+      <graphic height="3585px" url="fol_004r.jpg" width="2400px" xml:id="graphic_004r"/>
+    </surface>
+    
+    <surface xml:id="surf_004v" corresp="#fol_004v">
+      <graphic height="3585px" url="fol_004v.jpg" width="2400px" xml:id="graphic_004v"/>
+    </surface>
+    
+    <surface xml:id="surf_005r" corresp="#fol_005r">
+      <graphic height="3585px" url="fol_005r.jpg" width="2400px" xml:id="graphic_005r"/>
+    </surface>
+    
+    <surface xml:id="surf_390v" corresp="#fol_390v">
+      <graphic height="3585px" url="fol_390v.jpg" width="2400px" xml:id="graphic_390v"/>
+    </surface>
+    
+    <surface xml:id="surf_391r" corresp="#fol_391r">
+      <graphic height="3585px" url="fol_391r.jpg" width="2400px" xml:id="graphic_391r"/>
+    </surface>
+    
+    <surface xml:id="surf_391v" corresp="#fol_391v">
+      <graphic height="3585px" url="fol_391v.jpg" width="2400px" xml:id="graphic_391v"/>
+    </surface>
+    
+    <surface xml:id="surf_392r" corresp="#fol_392r">
+      <graphic height="3585px" url="fol_392r.jpg" width="2400px" xml:id="graphic_392r"/>
+    </surface>
+    
+  </facsimile>
+
   <!-- ############################ I testi ############################ -->
 
   <text xml:id="text">

@@ -91,7 +91,9 @@
 
     <body>
       <div xml:id="A01_div">
-        <pb n="1r" xml:id="fol_001r"/>
+
+        <pb n="1r" facs="fol_001r.jpg" xml:id="fol_001r"/>
+
         <p xml:id="A01_p_001">
           <cb n="1" rend="2col_layout" xml:id="A01_cb_001"/>In <choice>
             <abbr>No<am><g ref="#ntilde"/></am>e</abbr>
@@ -245,7 +247,9 @@
           <persName ref="#Ottobonuscard">Octobono</persName> super questione audienda.</p>
         <p xml:id="A01_p_041">XXXVIIII. Sententia cardinalis inter dominum episcopum et burgenses <supplied
             reason="illegible"><placeName ref="#Sarzana">Sarçane</placeName></supplied>.</p>
-        <pb n="1v" xml:id="fol_001v"/>
+
+        <pb n="1v" facs="fol_001v.jpg" xml:id="fol_001v"/>
+
         <cb n="1" rend="2col_layout" xml:id="A01_cb_003"/>
         <p xml:id="A01_p_042">XL. Sentencia domini cardilalis<note n="o" place="foot" xml:id="A01_n_15"> cardilalis:
               <emph>così nel testo.</emph></note> inter dominum episcopum et Lunense capitulum<note n="p" place="foot"
@@ -350,7 +354,9 @@
         <p xml:id="A01_p_087">LXXXXIIII. De eadem domo.</p>
         <p xml:id="A01_p_088">LXXXXV. Archidiaconatus Lunensis, sicut plebs de <placeName ref="#Arcola"
             >Arcula</placeName> fuit sibi unita et anecta. </p>
-        <pb n="2r" xml:id="fol_002r"/>
+
+        <pb n="2r" facs="#graphic_002r" xml:id="fol_002r"/>
+
         <cb n="1" rend="2col_layout" xml:id="A01_cb_005"/>
         <p xml:id="A01_p_089">CCLXXX. Emptionis istorum hominum cum homagio et ficto: <persName ref="#CosaCançii"
             >Cose</persName> et <persName ref="#FuscusCancii">Fusci, fratrum, quondam Camcii</persName>, cum stariis III
@@ -475,7 +481,9 @@
           <supplied reason="omitted">de</supplied>
           <placeName ref="#Casapoci">Capaci</placeName><note n="rr" place="foot" xml:id="A01_n_44"> Capaci:<emph>nel
               doc. 283-CCCXXI</emph> Casapoci.</note> per homagium et resedium.</p>
-        <pb n="2v" xml:id="fol_002v"/>
+
+        <pb n="2v" facs="#graphic_002v" xml:id="fol_002v"/>
+
         <cb n="1" rend="2col_layout" xml:id="A01_cb_007"/>
         <p xml:id="A01_p_131">CCCXXII. Molemdinorum <persName ref="#IacopuciusAlberti">Iacoputii</persName>.</p>
         <p xml:id="A01_p_132">CCCXXIII. Item decreti molendinorum <persName ref="#IacopuciusAlberti"
@@ -600,7 +608,9 @@
             <emph>A lato una mano moderna ha disegnato una </emph>manicula.</note>.</p>
         <p xml:id="A01_p_181">CCCLXX. Pensionis et operum, que debentur in <placeName ref="#Balognano"
             >Balognano</placeName>. </p>
-        <pb n="3r" xml:id="fol_003r"/>
+
+        <pb n="3r" facs="#graphic_003r" xml:id="fol_003r"/>
+
         <cb n="1" rend="2col_layout" xml:id="A01_cb_009"/>
         <p xml:id="A01_p_182">CCCLXXI. Inquisitio pedagii.</p>
         <p xml:id="A01_p_183">CCCLXXII. Aficti trium stariorum frumenti a quibusdam de <placeName ref="#Ameglia"
@@ -730,7 +740,9 @@
         <p xml:id="A01_p_231">CCCCXX. Unius starii frumenti, quod reddit<note n="xxx" place="foot" xml:id="A01_n_76">
             reddit: <emph>così nel testo per </emph>reddunt.</note><persName ref="#BonamicusViviani">
             Bonanutius</persName> et <persName ref="#BonavereViviani">Bonavere</persName>. </p>
-        <pb n="3v" xml:id="fol_003v"/>
+
+        <pb n="3v" facs="#graphic_003v" xml:id="fol_003v"/>
+
         <cb n="1" rend="2col_layout" xml:id="A01_cb_011"/>
         <p xml:id="A01_p_232">CCCCXXI. Quartum I frumenti et libra I olei a <persName ref="#BonafeminarelHenrici"
             >Bonafemina Henrici</persName>.</p>
@@ -846,7 +858,9 @@
             >Guiçolinus</persName> suprascriptus de dicta terra<note n="rrrr" place="foot" xml:id="A01_n_96">
             suprascriptus de dicta terra: <emph>scritto nel rigo sovrastante, con segno di richiamo, per mantenere
               l’allineamento del testo.</emph></note>.</p>
-        <pb n="4r" xml:id="fol_004r"/>
+
+        <pb n="4r" facs="#graphic_004r" xml:id="fol_004r"/>
+
         <cb n="1" rend="2col_layout" xml:id="A01_cb_013"/>
         <p xml:id="A01_p_271">IIIIcLX. Emptionis III petiarum terrarum a <persName ref="#BonalbergusAicardiniStabia"
             >Bonabergo Aycardini</persName> de <placeName ref="#Vezzano">Veçano</placeName>. </p>
@@ -964,7 +978,9 @@
         <p xml:id="A01_p_323">DIII. <measure quantity="18" type="imperiales" unit="denarius">Denariorum XVIII
           pensionis</measure> in <placeName ref="#Riolo">Riolo</placeName> districtus <choice><abbr></abbr><expan><ex>***</ex></expan></choice><note
             n="eeeee" place="foot" xml:id="A01_n_109"> Parola illeggibile.</note></p>
-        <pb n="4v" xml:id="fol_004v"/>
+
+        <pb n="4v" facs="#graphic_004v" xml:id="fol_004v"/>
+
         <cb n="1" rend="2col_layout" xml:id="A01_cb_015"/>
         <p xml:id="A01_p_324">et <measure quantity="6" type="imperiales" unit="denarius">VI denariorum</measure> pro
           amgaria et starii I ordei et <measure quantity="2" type="Mediolanenses" unit="denarius">denariorum II
@@ -1063,7 +1079,9 @@
               <roleName>pape</roleName> III </persName>quo concessum est episcopo Lunensi <orgName
             ref="#Aulla_S_Caprasio">monasterium de <placeName ref="#Aulla">Avula</placeName></orgName> cum suis
           pertinentiis.</p>
-        <pb n="5r" xml:id="fol_005r"/>
+
+        <pb n="5r" facs="#graphic_005r" xml:id="fol_005r"/>
+
         <cb n="1" rend="2col_layout" xml:id="A01_cb_017"/>
         <p xml:id="A01_p_350">DXXVIIII. Sen<supplied reason="omitted">ten</supplied>tia data inter dominum episcopum
           Lunensem et <name ref="#MalaspinaFamilia" type="familia">marchiones Malaspine</name> super castris de
