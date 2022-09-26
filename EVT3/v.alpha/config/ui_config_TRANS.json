@@ -1,0 +1,20 @@
+{
+	"localization": true,
+	"defaultLocalization": "en",
+	"availableLanguages": [
+		{
+			"code": "en",
+			"label": "languageEn",
+			"enabled": true
+		},
+		{
+			"code": "it",
+			"label": "languageIt",
+			"enabled": true
+		}
+	],
+	"enableNavBar": true,
+	"initNavBarOpened": true,
+	"thumbnailsButton": true,
+	"viscollButton": true
+}

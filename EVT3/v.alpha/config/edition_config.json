@@ -1,0 +1,144 @@
+{
+	"editionTitle": "Dream of the Rood",
+	"badge": "alpha",
+	"editionHome": "http://vbd.humnet.unipi.it/beta2/",
+	"showLists": true,
+	"availableEditionLevels": [
+		{
+			"id": "diplomatic",
+			"label": "diplomatic",
+			"disabled": false
+		},
+		{
+			"id": "interpretative",
+			"label": "interpretative",
+			"disabled": false
+		},
+		{
+			"id": "critical",
+			"label": "critical",
+			"disabled": true
+		}
+	],
+	"namedEntitiesLists": {
+		"persons": {
+			"defaultLabel": "Persons",
+			"enabled": true
+		},
+		"places": {
+			"defaultLabel": "Places",
+			"enabled": true
+		},
+		"organizations": {
+			"defaultLabel": "Organizations",
+			"enabled": true
+		},
+		"relations": {
+			"defaultLabel": "Relations",
+			"enabled": true
+		},
+		"events": {
+			"defaultLabel": "Events",
+			"enabled": true
+		}
+	},
+	"entitiesSelectItems": [
+		{
+			"label": "Named Entities",
+			"items": [
+				{
+					"value": "persName",
+					"label": "persons",
+					"color": "#ffcdd2"
+				},
+				{
+					"value": "persName[type='episcopus']",
+					"label": "bishops",
+					"color": "rgb(139, 98, 236)"
+				},
+				{
+					"value": "placeName,geogName",
+					"label": "places",
+					"color": "#A5D6A7"
+				},
+				{
+					"value": "orgName",
+					"label": "organizations",
+					"color": "#FFB74D"
+				}
+			]
+		},
+		{
+			"label": "Other",
+			"items": [
+				{
+					"value": "event",
+					"label": "events",
+					"color": "#fcfc60"
+				},
+				{
+					"value": "rolename",
+					"label": "roles"
+				},
+				{
+					"value": "measure",
+					"label": "measures"
+				}
+			]
+		}
+	],
+	"notSignificantVariants": [
+		"type=orthographic"
+	],
+	"defaultEdition": "diplomatic",
+	"defaultViewMode": "collation",
+	"availableViewModes": [
+		{
+			"icon": "txt",
+			"iconSet": "evt",
+			"id": "readingText",
+			"label": "Reading Text",
+			"disabled": false
+		},
+		{
+			"icon": "imgTxt",
+			"iconSet": "evt",
+			"id": "imageText",
+			"label": "Image Text",
+			"disabled": false
+		},
+		{
+			"icon": "txtTxt",
+			"iconSet": "evt",
+			"id": "textText",
+			"label": "Text Text",
+			"disabled": false
+		},
+		{
+			"icon": "collation",
+			"iconSet": "evt",
+			"id": "collation",
+			"label": "Collation",
+			"disabled": true
+		},
+		{
+			"icon": "srcTxt",
+			"iconSet": "evt",
+			"id": "textSources",
+			"label": "Text Sources",
+			"disabled": true
+		},
+		{
+			"icon": "versions",
+			"iconSet": "evt",
+			"id": "textVersions",
+			"label": "Text Versions",
+			"disabled": true
+		}
+	],
+	"proseVersesToggler": true,
+	"defaultTextFlow": "prose",
+	"verseNumberPrinter": 5,
+	"readingColorLight": "rgb(208, 220, 255)",
+	"readingColorDark": "rgb(101, 138, 255)"
+}
