@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
   <teiHeader>
@@ -26430,7 +26430,8 @@
    </teiHeader>
 
    <!-- ############################ I testi ############################ -->
-   <text xml:id="text">
+
+  <text xml:id="text">
 
       <front xml:id="front">
          <!-- informazioni generali sul codice -->
@@ -26524,7 +26525,7 @@
 
               <body>
                   <div xml:id="CI_div">
-                      <pb n="214v" xml:id="fol_214v"/>
+                    <pb n="214v" facs="fol_214v.jpg" xml:id="fol_214v"/>
                       <p xml:id="CI_p_001" n="1">De <placeName ref="#Sarzanello">castro
                               Sarzane</placeName><note place="foot" n="a" xml:id="CI_n_001"><term
                                   xml:lang="latin">De castro Sarzane</term>
@@ -26539,7 +26540,7 @@
                           et successores suos, consilio curie, tale pactum et talem constitutionem quale
                           et qualem fecerat dominus <persName ref="#AlbertusEpLuni">Albertus, bone memorie
                               Lunensis <roleName>episcopus</roleName></persName>, predecessor suus, cum
-                          operariis omnibus de <placeName ref="#Sarzana">curte Sarzanei <note place="foot"
+                          operariis omnibus de <placeName ref="#Sarzana">curte Sarzanei<note place="foot"
                                   n="b" xml:id="CI_n_002"><term type="incerto">Sarzanei</term>: <emph>così
                                       nel testo.</emph></note></placeName>. Uterque enim eorum, velut in
                           eodem instrumento legebatur, condonavit et remisit per se et suos successores
@@ -26571,7 +26572,7 @@
                               gratia <roleName>Lunensis episcopus</roleName></persName>, consilio
                               <persName ref="#GerardusAlberti">Gerardi, <roleName>vicedomini</roleName>
                               nostri, quondam Alberti vicedomini</persName>, nobiscum presentis,
-                          renovamus, facimus et confirmamus <pb n="215r" xml:id="fol_215r"/> predicta
+                        renovamus, facimus et confirmamus <pb n="215r" facs="fol_215r.jpg" xml:id="fol_215r"/> predicta
                           pacta et conventiones et constitutiones, addendo tamen et minuendo et mutando
                           seu commutando quedam ex ipsis, prout dicetur inferius, pro bono et utilitate
                           atque melioramento nostri episcopatus et nostre curie. Et hanc renovationem
@@ -26675,7 +26676,7 @@
                           eorum nomine, per nos et successores nostros, de hiis que in prefacto
                           instrumento manu <persName ref="#Bartholomeusnot">Bartholomei notarii</persName>
                           scripto continebantur, ut de cetero non debeant nec teneantur portare fenum ad
-                          fenile neque <pb n="215v" xml:id="fol_215v"/> facere attractus<note place="foot"
+                          fenile neque <pb n="215v" facs="fol_215v.jpg" xml:id="fol_215v"/> facere attractus<note place="foot"
                               n="e" xml:id="CI_n_005"><term xml:lang="latin">attractus</term>: <emph>nel
                                   testo la terza </emph> t <emph>corretta su</emph> l</note>, scilicet
                           panem aut vinum vel carnes vel annonam seu fruges, de <placeName ref="#Soliera"
@@ -26725,7 +26726,7 @@
                           suos et eorum heredes, et ita sibi ad invicem, ut supra legitur, per omnia et in
                           omnibus sunt stipulanti<note place="foot" n="f" xml:id="CI_n_006"><term
                                   type="incerto">stipulanti</term>: <emph>così nel testo.</emph></note>
-                          antedicti contrahentes.<pb n="216r" xml:id="fol_216r"/></p>
+                        antedicti contrahentes.<pb n="216r" facs="fol_216r.jpg" xml:id="fol_216r"/></p>
                       <p xml:id="CI_p_005" n="5">Acta sunt hec omnia in palatio <placeName
                               ref="#Sarzanello">castri de Sarzana</placeName>, <date when="1212-04-02"
                               >anno a nativitate Domini M°CCXII, indictione XV, die lune, secundo intrante
