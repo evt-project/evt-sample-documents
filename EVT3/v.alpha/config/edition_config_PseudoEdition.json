@@ -5,6 +5,16 @@
 	"showLists": false,
 	"availableEditionLevels": [
 		{
+			"id": "diplomatic",
+			"label": "diplomatic",
+			"disabled": true
+		},
+		{
+			"id": "interpretative",
+			"label": "interpretative",
+			"disabled": true
+		},
+		{
 			"id": "critical",
 			"label": "Critical",
 			"disabled": false
@@ -126,7 +136,7 @@
 			"disabled": true
 		}
 	],
-	"proseVersesToggler": true,
+	"proseVersesToggler": false,
 	"defaultTextFlow": "prose",
 	"verseNumberPrinter": 5,
 	"readingColorLight": "rgb(208, 220, 255)",

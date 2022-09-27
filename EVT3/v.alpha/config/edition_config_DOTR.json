@@ -2,7 +2,7 @@
 	"editionTitle": "Dream of the Rood",
 	"badge": "alpha",
 	"editionHome": "http://vbd.humnet.unipi.it/beta2/",
-	"showLists": true,
+	"showLists": false,
 	"availableEditionLevels": [
 		{
 			"id": "diplomatic",
@@ -91,14 +91,14 @@
 		"type=orthographic"
 	],
 	"defaultEdition": "diplomatic",
-	"defaultViewMode": "collation",
+	"defaultViewMode": "imageText",
 	"availableViewModes": [
 		{
 			"icon": "txt",
 			"iconSet": "evt",
 			"id": "readingText",
 			"label": "Reading Text",
-			"disabled": false
+			"disabled": true
 		},
 		{
 			"icon": "imgTxt",
