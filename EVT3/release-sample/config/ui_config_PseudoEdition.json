@@ -1,16 +1,60 @@
 {
+	"availableViewModes": [
+		{
+			"icon": "txt",
+			"iconSet": "evt",
+			"id": "readingText",
+			"label": "Reading Text",
+			"enable": true
+		},
+		{
+			"icon": "imgTxt",
+			"iconSet": "evt",
+			"id": "imageText",
+			"label": "Image - Text",
+			"enable": false
+		},
+		{
+			"icon": "txtTxt",
+			"iconSet": "evt",
+			"id": "textText",
+			"label": "Text - Text",
+			"enable": false
+		},
+		{
+			"icon": "collation",
+			"iconSet": "evt",
+			"id": "collation",
+			"label": "Collation",
+			"enable": true
+		},
+		{
+			"icon": "srcTxt",
+			"iconSet": "evt",
+			"id": "textSources",
+			"label": "Text Sources",
+			"enable": false
+		},
+		{
+			"icon": "versions",
+			"iconSet": "evt",
+			"id": "textVersions",
+			"label": "Text Versions",
+			"enable": false
+		}
+	],
 	"localization": true,
 	"defaultLocalization": "en",
 	"availableLanguages": [
 		{
 			"code": "en",
 			"label": "languageEn",
-			"enabled": true
+			"enable": true
 		},
 		{
 			"code": "it",
 			"label": "languageIt",
-			"enabled": true
+			"enable": true
 		}
 	],
 	"enableNavBar": false,
