@@ -1,2 +1,26 @@
 {
+    "additionAbove": {
+        "markup": {
+            "element": "add",
+            "attributes": {
+                "place": "above"
+            }
+        },
+        "layouts": {
+            "diplomatic": {
+                "style": {
+                    "top": "-10px",
+                    "position": "relative",
+                    "background-color": "#ccffcc"
+                }
+            },
+            "interpretative": {
+                "pre": "\\",
+                "post": "/",
+                "style": {
+                    "background-color": "#ffcc00"
+                }
+            }
+        }
+    }
 }
