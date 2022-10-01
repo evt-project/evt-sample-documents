@@ -19,7 +19,7 @@
 			"iconSet": "evt",
 			"id": "textText",
 			"label": "Text Text",
-			"enable": true
+			"enable": false
 		},
 		{
 			"icon": "collation",
