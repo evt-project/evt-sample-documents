@@ -71,7 +71,7 @@
 					"enable": true
 				}
 			],
-			"enable": true
+			"enable": false
 		},
 		{
 			"label": "Other",
@@ -93,7 +93,7 @@
 					"enable": true
 				}
 			],
-			"enable": true
+			"enable": false
 		}
 	],
 	"notSignificantVariants": [
