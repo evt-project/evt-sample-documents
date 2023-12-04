@@ -1,0 +1,154 @@
+{
+    "additionAbove": {
+        "markup": {
+            "element": "add",
+            "attributes": {
+                "place": "above"
+            }
+        },
+        "layouts": {
+            "diplomatic": {
+                "style": {
+                    "top": "-10px",
+                    "position": "relative",
+                    "background-color": "#ccffcc"
+                }
+            },
+            "interpretative": {
+                "pre": "\\",
+                "post": "/",
+                "style": {
+                    "background-color": "#ffcc00"
+                }
+            }
+        }
+    },
+
+    "additionBelow": {
+        "markup": {
+            "element": "add",
+            "attributes": {
+                "place": "below"
+            }
+        },
+        "layouts": {
+            "diplomatic": {
+                "style": {
+                    "bottom": "-10px",
+                    "position": "relative",
+                    "background-color": "#ccffcc"
+                }
+            },
+            "interpretative": {
+                "pre": "/",
+                "post": "\\",
+                "style": {
+                    "background-color": "#ffcc00"
+                }
+            }
+        }
+    },
+
+    "additionInline": {
+        "markup": {
+            "element": "add",
+            "attributes": {
+                "place": "inline"
+            }
+        },
+        "layouts": {
+            "diplomatic": {
+                "style": {
+                    "bottom": "-10px",
+                    "position": "static",
+                    "background-color": "#ccffcc"
+                }
+            },
+            "interpretative": {
+                "pre": "|",
+                "post": "|",
+                "style": {
+                    "background-color": "#ffcc00"
+                }
+            }
+        }
+    },
+
+    "quotationSimple": {
+        "markup": {
+            "element": "quote"
+        },
+        "layouts": {
+            "diplomatic": {
+                "style": {
+                "pre": "“",
+                "post": "”"
+                }
+            },
+            "interpretative": {
+                "style": {
+                    "font-style": "italic",
+                    "font-size": "104%"
+                }
+            },
+            "critical": {
+                "style": {
+                    "font-style": "italic",
+                    "font-size": "104%"
+                }
+            }
+        }
+    },
+
+    "quotationItalic": {
+        "markup": {
+            "element": "quote",
+            "attributes": {
+                "rend": "italic"
+            }
+        },
+        "layouts": {
+            "diplomatic": {
+                "style": {
+                    "font-style": "italic"
+                }
+            },
+            "interpretative": {
+                "style": {
+                    "font-style": "italic"
+            },
+            "critical": {
+                "style": {
+                    "font-style": "italic"
+                    }
+                }
+            }
+        }
+    },
+
+    "analoguePassage": {
+        "markup": {
+            "element": "analoguePassage"
+        },
+        "layouts": {
+            "diplomatic": {
+                "pre": "🗎",
+                "style": {
+                    "text-decoration":"underline dotted from-font"
+                }
+            },
+            "interpretative": {
+                "pre": "🗎",
+                "style": {
+                   "text-decoration":"underline dotted from-font"
+                }
+            },
+            "critical": {
+                "pre": "🗎",
+                "style": {
+                   "text-decoration":"underline dotted from-font"
+                }
+            }
+        }
+    }
+}
