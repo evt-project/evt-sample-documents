@@ -45,6 +45,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </listWit>
       </sourceDesc>
     </fileDesc>
+
     <profileDesc>
       <creation corresp="#MS_C19" resp="#SV">
         <listChange ordered="true">
@@ -68,6 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </listChange>
       </creation>
     </profileDesc>
+
     <encodingDesc>
       <variantEncoding location="internal" method="parallel-segmentation"/>
     </encodingDesc>
@@ -155,8 +157,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </mod>
               </rdg>
             </app> le anime migliori che io abbia conosciute, alle quali <lb n="11"/>più di una volta ho avvicinata la
-            mia, come chi ha freddo <!-- te | si legge sul margine della
-                pagina su cui è attaccata quella numerata 4 cfr #problema_stratoq -->
+            mia, come chi ha freddo
             <lb n="12"/>avvicina al fuoco le dita intirizzite. Spesso - troppo <lb n="13"/>spesso forse - ho sentit<mod
               change="#strato-0"><subst>
                 <del rend="overwritten">a</del>
@@ -167,25 +168,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <lb n="16"/>adorati caffeucci, o pensarvi, o mandarvi dei versi, è <lb n="17"/>stata per me la salvezza. </p>
 
           <p rend="indent">
-            <lb n="18"/>E vi devo anche qualche parola di chia- <lb n="19"/>rimento. Non tutte le poesie di questa
+            <lb n="18"/>E vi devo anche qualche parola di chia-<lb n="19"/>rimento. Non tutte le poesie di questa
             raccolta vi <lb n="20"/>riusciranno ugualmente nuove; alcune (la terza <lb n="21"/>parte circa) sono già
             state stampate nei precedenti <lb n="22"/>volumi &quot;Poesie&quot; e &quot;Coi miei occhi&quot;. Ma, per
             quanto <lb n="23"/>riguarda il primo (Poesie) esse vi apparvero non <lb n="24"/>sol<mod change="#strato-0"><subst>
                 <add place="superscript">o</add>
                 <del rend="overwritten">a</del>
-              </subst></mod>
-            <!--GT a me qui sembra "sole", che ha più senso, ma forse direi è illegibile--> in una disposizione
-            cronologicamente falsa, così <lb n="25"/>da togliere ogni <hi rend="underline">linea</hi> al lavoro, ma
-            molte (tutte per <lb n="26"/>esempio <mod change="#strato-0"><del instant="true" rend="strikethrough"
-                >le</del></mod> quelle dell'adolescenza, e le giovanili e <lb n="27"/>le fiorentine; così necessarie
-              <mod change="#strato-0">
+              </subst></mod> in una disposizione cronologicamente falsa, così <lb n="25"/>da togliere ogni <hi
+              rend="underline">linea</hi> al lavoro, ma molte (tutte per <lb n="26"/>esempio <mod change="#strato-0"
+                ><del instant="true" rend="strikethrough">le</del></mod> quelle dell'adolescenza, e le giovanili e <lb
+              n="27"/>le fiorentine; così necessarie <mod change="#strato-0">
               <subst seq="2">
                 <add place="above">a comprendere</add>
                 <del>a<add place="inline" seq="1">d</add>
                   <del rend="strikethrough" seq="1">far</del> intendere</del>
               </subst></mod>la <lb n="28"/>genesi e i graduali sviluppi, gli svincolamenti ed i <lb n="29"/>ritorni alle
             origini della mia arte) vi furono ommesse; <lb n="30"/>altre poi (che è peggio ancora) siffattamente
-            alterate </p>
+            alterate 
+          </p>
         </div>
         <div>
           <p rend="indent">
@@ -198,7 +198,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <lb n="2"/>tutta un'altra cosa, e non una cosa migliore. Come abbia <lb n="3"/>potuto commettere questo
             imperdonabile delitto contro <mod change="#strato-0">
               <subst seq="1">
-                <del rend="strikethrough">quella cosa <!-- ??? --><lb n="4"/>delicata, delicata e vitale che è lo
+                <del rend="strikethrough">quella cosa<lb n="4"/>delicata, delicata e vitale che è lo
                   stile</del>
                 <add place="above">me stesso<del rend="strikethrough" seq="2">, <lb n="4"/> anzi contro la parte
                     migliore di me stesso</del></add>
@@ -238,7 +238,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </choice> illuso verseggiatore! Voglio <lb n="16"/>insomma si sappia che, dove ci sono modificazioni profon-
               <lb n="17"/>de, e tali che potrebbero, senza questa confessione, riuscire <lb n="18"/>stupefacenti, non è
             ora che le ho aportate; ho dovuto anzi <lb n="19"/>compiere un lavoro non breve e non facile per ritrovare
-              <lb n="20"/>nella mia mente i versi originali. Due anni <!--questo caso mi interessa per l'estrazione delle varianti: qui sono 3 GT-->
+              <lb n="20"/>nella mia mente i versi originali. Due anni
             <app>
               <lem varSeq="2">
                 <mod change="#strato-3">
@@ -276,8 +276,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <fw place="top_right" type="pageNum">7</fw>
             <head type="main">Poesie dell'adolescenza <app>
                 <lem varSeq="2"><mod change="#strato-5"><del rend="strikethrough"/></mod></lem>
-                <!-- CHECK <del>:
-                <del rend="wave">e giovanili</del> ??? -->
                 <rdg varSeq="1"><mod change="#strato-0">e giovanili</mod></rdg>
               </app></head>
             <metamark place="below" rend="line"/>
@@ -315,17 +313,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <fw place="top_right" type="pageNum">9</fw>
               <metamark rend="line_full_width"/>
 
-              <!-- RRDT il markup deve essere modificato per evitare di visualizzare le note dell'autore
-               con la modalità solita (= balloon con o senza esponente e nota come pop-up), inserire in <add>?
-               nel qual caso @place deve essere tolto da <note> 
-               - controllare i valori di @place, "top" non sembra del tutto corretto -->
-              <!-- -->
-
-              <!-- RRDT versione originale: si affida unicamente a @resp per essere distinta dalle altre, un po' poco -->
-              <!-- BTW place="top" non sembra corretto -->
-              <note place="top" resp="#US" type="publishing"><mod change="#strato-5"><add>Vedi fogli</add></mod></note>
-
-              <!-- RRDT versione modificata, che però richiede un <ab> in questo punto della gerarchia -->
               <ab><mod change="#strato-5"><add place="top"><note resp="#US" type="publishing">Vedi
                   fogli</note></add></mod></ab>
 
@@ -399,7 +386,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <lg n="2">
                   <l n="5">Da lei si va, per torta via sassosa,</l>
                   <l n="6">fin presso al chiostro che in vetta s'abbica;</l>
-                  <l n="7">hai, dalle sue finestre, <!--GT???: qui per me dubbio sullo strato--><mod change="#strato-1"
+                  <l n="7">hai, dalle sue finestre, <mod change="#strato-1"
                         ><add place="above">hai</add></mod> la spaziosa</l>
                   <l n="8">vista del mar, della campagna aprica.</l>
                 </lg>
@@ -426,12 +413,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                 <note resp="#US" type="publishing"><mod change="#strato-r">&#8592; Vedi foglietto unito</mod></note>
               </div>
-              <!-- GT???: non abbiamo indicazioni sulla penna rossa-->
-              <!--  per annotazioni di Saba. 
-              La prima: in mezzo alla pagina; la seconda: a lato sotto (o sopra) un pezzo di nastro adesivo
-              che tiene unito il foglietto alla pagina -->
-
-              <!-- il codice rappresenta la freccia verso sx -->
 
               <milestone n="1" spanTo="#pecetta_1" type="pecetta" unit="section"/>
 
@@ -440,8 +421,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </note>
 
               <lb/>
-
-              <!-- GT???:  a me sembra che il titolo sia in un'altra penna, forse strato-1, forse c'è anche una rasura-->
 
               <anchor xml:id="pecetta_1"/>
 
@@ -490,8 +469,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   margine sx attraverso un pezzo di nastro adesivo. Nell'edizione del Canzoniere 1921, al contrario, la
                   poesia apre la sezione con il titolo <title>Canzonetta</title> e precede <title>La casa della mia
                     nutrice</title>.</note>
-                <!-- <metamark> -->
-                <!-- foglietto ricavato dal medesimo q. inchiostro base #strato-0 -->
                 <lb/>
                 <lg n="1">
                   <l n="1">Ero solo in riva al mare,</l>
@@ -631,7 +608,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </lg>
             </div>
             <div rend="align_center" type="poem" xml:id="Ad_un_amico_pianista_studente_al_Conservatorio_di_Liegi">
-              <!-- tutta la lirica, titolo compreso, è allineata al centro -->
               <head>Ad un amico pianista, studente al Conservatorio <lb/>di Liegi</head>
               <lb/>
               <lg n="1">
@@ -952,7 +928,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </lg>
                           </del>
                           <add place="bottom"><lg n="4">
-                              <!-- CHECK place="bottom" -->
                               <l n="1">Per cui soletto io me ne vo, piangendo</l>
                               <l n="2">ciò che non torna, ov'è più solo il lito,</l>
                               <l n="3">senza un bacio d'amante e senz'alloro.</l>
@@ -1019,8 +994,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <subst>
                           <del rend="strikethrough">Quando</del>
                           <add place="above-right">Or più</add>
-                          <!-- CHECK place="above-right" 
-                                                                  manca <metamark> con indicazione -->
                         </subst>
                       </mod>
                     </lem>
@@ -1129,7 +1102,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <l n="7">provo, non cure tacite severe,</l>
                 <l n="8">ma <mod change="#strato-0"><del rend="overwritten">di</del><add place="superscript"
                     >le</add></mod> lotte crudeli, <mod change="#strato-0"><del><gap reason="illegible"
-                  /></del></mod><!-- se capiamo cosa c'è scritto sotto, togliere gap e diventa una variante immediata? -->
+                  /></del></mod>
                   e l'onte e i danni.</l>
               </lg>
               <lg n="3">
@@ -1216,7 +1189,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l n="4">altro nome, il mio nome al passeggero;</l>
                   <l n="5">
                     <app>
-                      <!-- ??? -->
                       <lem varSeq="2">
                         <mod change="#strato-2"><add place="margin-left">quando</add></mod>
                       </lem>
