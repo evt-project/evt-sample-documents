@@ -26,7 +26,7 @@
 			"iconSet": "evt",
 			"id": "imageText",
 			"label": "Image Text",
-			"enable": true
+			"enable": false
 		},
 		{
 			"icon": "txtTxt",

@@ -109,8 +109,8 @@
   "notSignificantVariants": ["type=orthographic"],
   "defaultEdition": "changesView",
   "defaultViewMode": "documentalMixed",
-  "proseVersesToggler": false,
-  "defaultTextFlow": "prose",
+  "proseVersesToggler": true,
+  "defaultTextFlow": "verses",
   "verseNumberPrinter": 5,
   "readingColorLight": "rgb(208, 220, 255)",
   "readingColorDark": "rgb(101, 138, 255)",
@@ -167,6 +167,7 @@
     }
   },
   "defaultImageZoomLevel": 0.8,
+  "maxImageZoomLevel": 2,
   "multiPageEngineForCriticalEdition": false,
   "syncZonesHighlightButton": false
 }

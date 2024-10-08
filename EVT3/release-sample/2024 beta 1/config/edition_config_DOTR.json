@@ -143,8 +143,7 @@
       "showVarSeqAttr": false,
       "showSeqAttr": false,
       "layerColors": []
-    },
-    "defaultImageZoomLevel": 0.8
+		}
   },
   "analogueMarkers": [
     "ParallelPassage",
@@ -170,5 +169,6 @@
     }
   },
   "defaultImageZoomLevel": 0.8,
+  "maxImageZoomLevel": 2,
   "multiPageEngineForCriticalEdition": false
 }

@@ -170,5 +170,6 @@
     }
   },
   "defaultImageZoomLevel": 0.8,
+  "maxImageZoomLevel": 2,
   "multiPageEngineForCriticalEdition": false
 }

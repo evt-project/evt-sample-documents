@@ -79,7 +79,7 @@
 		}
 	],
 	"enableNavBar": false,
-	"initNavBarOpened": true,
+	"initNavBarOpened": false,
 	"thumbnailsButton": false,
 	"viscollButton": false,
 	"mainFontFamily": "Junicode, Times, serif",
