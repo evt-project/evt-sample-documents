@@ -7,20 +7,37 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
   <teiHeader>
     <fileDesc>
+
       <titleStmt>
         <title type="main">Il Canzoniere</title>
         <title type="sub">Edizione digitale</title>
         <author xml:id="US">Umberto Saba</author>
         <respStmt>
-          <resp>Edizione critica e codifica di:</resp>
+          <resp>Direzione del progetto:</resp>
+          <name ref="#mbuzzoni">Marina Buzzoni</name>
+          <name xml:id="CF">Cristina Fenu</name>
+          <name xml:id="RRDT">Roberto Rosselli Del Turco</name>
+        </respStmt>
+        <respStmt>
+          <resp>Definizione delle fasi correttorie:</resp>
+          <name xml:id="SV">Silvia Vodopivec</name>
+        </respStmt>
+        <respStmt>
+          <resp>Definizione del modello di codifica a cura di:</resp>
           <name xml:id="GT">Giulia Tancredi</name>
+          <name sameAs="#RRDT">Roberto Rosselli Del Turco</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica nel formato XML/TEI a cura di:</resp>
+          <name sameAs="#GT">Giulia Tancredi</name>
           <name xml:id="ER">Ersilia Russo</name>
         </respStmt>
         <respStmt>
-          <resp>Revisione della codifica di:</resp>
-          <name xml:id="RRDT">Roberto Rosselli Del Turco</name>
+          <resp>Revisione della codifica a cura di:</resp>
+          <name sameAs="#RRDT">Roberto Rosselli Del Turco</name>
         </respStmt>
       </titleStmt>
+
       <editionStmt>
         <edition>
           <interpGrp>
@@ -43,6 +60,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </witness>
           <witness xml:id="P_C21">Edizione <emph rend="italic">princeps</emph> del Canzoniere 1921.</witness>
         </listWit>
+
+        <listPerson type="project">
+          
+          <person xml:id="mbuzzoni">
+            <persName>
+              <forename>Marina</forename>
+              <surname>Buzzoni</surname>
+            </persName>
+            <affiliation>Università Ca' Foscari, Venezia</affiliation>
+            <note>
+              <ref target="https://www.unive.it/data/persone/5592048">Dipartimento di Studi Linguistici e Culturali Comparati</ref>
+              <ref target="mailto:mbuzzoni@unive.it">email</ref>
+              <ref target="https://orcid.org/0000-0002-9306-6599">ORCID</ref>
+            </note>            
+          </person>
+          
+        </listPerson>
+
       </sourceDesc>
     </fileDesc>
 
